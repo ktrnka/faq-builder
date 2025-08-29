@@ -33,6 +33,7 @@ dependencies = [
     "rapidfuzz",
     "openai>=1.98.0",
     "google-api-python-client",
+    "youtube-transcript-api",
 ]
 
 [project.optional-dependencies]
