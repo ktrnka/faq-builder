@@ -1,0 +1,1505 @@
+YouTube Video Transcript
+Video ID: bkUXcq1c0zM
+Language: English (auto-generated) (en)
+Generated: Yes
+Total segments: 1497
+Total duration: 71:49
+============================================================
+
+[00:03] So feel free to just just blurt out or
+[00:06] uh I'll try to keep an eye on the chat.
+[00:08] Um so if I don't respond to it after a
+[00:11] few minutes, you know, let me know.
+[00:23] What is the latest trend is going on in
+[00:25] AI
+[00:27] regarding coding and other things?
+[00:30] Um
+[00:32] the latest trend
+[00:35] uh well
+[00:37] I would say the past this week you know
+[00:41] every week has like a different kind of
+[00:43] headline but this week I think there's
+[00:45] starting to be more executives realizing
+[00:48] that AI coding doesn't just solve
+[00:50] everything. You can't just um you know
+[00:53] replace engineers quickly. Um, and so
+[00:57] there's a lot more um,
+[01:00] like CTO, CEOs,
+[01:03] uh, kind of
+[01:06] toning down how excited they are about
+[01:08] AI. And you know some of them are
+[01:11] starting to realize that they have to
+[01:13] put in more effort to be to have their
+[01:15] teams be productive with AI coding and
+[01:18] others are just you know uh you know
+[01:21] just like reducing the amount like meta
+[01:23] for instance is I think um toning down
+[01:26] their hiring spree in AI and then I saw
+[01:29] like the CTO of AWS
+[01:32] uh sort of saying like hey you know you
+[01:33] can't really just replace junior
+[01:35] engineers with AI and you know call it
+[01:37] good. So I'd say that's that's this
+[01:39] week's news. The one thing
+[01:41] yeah nobody's hiring everybody is
+[01:44] depending on AI will do everything.
+[01:48] Well, I think
+[01:51] you know what happens actually this is a
+[01:53] very natural thing for that happens to
+[01:55] leaders is that um you know folks that
+[01:58] don't do a lot of programming they might
+[02:00] use uh AI to do something like a vibe
+[02:03] coding session and like Vzero on
+[02:06] Verscell or some of these other systems
+[02:08] are really good at creating an app
+[02:10] creating a prototype um but you know a
+[02:15] lot of them didn't realize that there's
+[02:17] a lot more to having an act like having
+[02:19] something in production takes enormously
+[02:22] more work than having a prototype. And I
+[02:25] think a lot of a lot of people that got
+[02:28] really excited from prototyping are
+[02:30] finally starting to realize that it
+[02:32] takes a lot to have something work in
+[02:34] production and make sure there's no like
+[02:36] security breaches and make sure that
+[02:38] it's running 247 and that you can update
+[02:41] it and all these things. So, um, you
+[02:45] know, I I think that's a good thing.
+[02:46] Like, if you haven't heard of the, um,
+[02:50] what's it called? Gartner hype cycle.
+[02:53] Yeah.
+[02:55] Some hype cycle. Yeah.
+[02:56] Yeah. Yeah. The Gartner hype cycle. Um,
+[03:01] is this like kind of it's kind of a meme
+[03:03] really, but it's pretty realistic. I'll
+[03:05] just link it in chat.
+[03:08] uh where there's sort of like new
+[03:10] technology gets really hyped and people
+[03:13] get really excited about it and talk
+[03:15] about it a lot but it's not actually
+[03:17] delivering a lot of results and then
+[03:20] there's a lot of people that go through
+[03:21] this like the trough of disillusionment
+[03:23] is like oh actually it doesn't solve all
+[03:24] of our problems and then you know
+[03:27] starting to get towards uh you know
+[03:30] actual productivity gains so it takes
+[03:33] takes work to get there though
+[03:36] sorry I wish I had more for you there. I
+[03:38] I mean, that's that's just uh the the
+[03:40] trend that I've been noticing this week.
+[03:42] And um actually, let me see. I think I
+[03:46] had a pretty good quote on that one,
+[03:47] too, um that I can share. Let me see if
+[03:50] I can find it real quick. Uh
+[03:57] let's see here. Simon something or
+[04:00] other.
+[04:02] Uh that guy's name. Simon Willson, I
+[04:05] think.
+[04:08] And then
+[04:18] let's see.
+[04:24] So sometimes Oh, yeah. Okay. So, uh,
+[04:32] so this guy is kind of like a
+[04:35] a well-known person that, uh, people
+[04:38] follow. There's this, you know, kind of
+[04:40] quote from a Reddit user like, "What's
+[04:42] the point of vibe coding if, you know,
+[04:44] you still have to pay a dev to fix it up
+[04:46] at the end anyway?"
+[04:48] Yeah.
+[04:48] So, there's starting to be more people
+[04:50] like kind of realizing that, you know,
+[04:53] you can only go so far with five coding.
+[04:59] Let's see. Let me let me get to this
+[05:01] chat question here. Uh, what should I be
+[05:04] learning if I want to upskill to be able
+[05:06] to develop in projects that include AI?
+[05:09] Coming from data platforms engineering
+[05:11] background would like to pivot into that
+[05:13] line of work. Um, I'd love to hear to
+[05:16] hear more. Um so in terms of
+[05:21] uh so there's a lot of different types
+[05:23] of projects that include AI. Um so
+[05:26] coming from like a data platform data
+[05:29] engineering side of things there are
+[05:31] some projects where you could integrate
+[05:34] a AI into like an ETL pipeline. Um and
+[05:38] so that's pretty common. So I've done
+[05:40] stuff like that. Um and then that's kind
+[05:42] of in the wheelhouse of someone that
+[05:44] with with data engineering background.
+[05:46] Um
+[05:48] so yeah, coding tutor is another good
+[05:51] one um within Joy of Coding Academy. Uh
+[05:55] so that's a project that folks can get
+[05:57] involved with and help out with. Um
+[06:02] in terms of what you should be learning,
+[06:05] I would say
+[06:12] probably two two big categories. So, so
+[06:14] one big category is is really just your
+[06:18] classic software engineering uh you know
+[06:21] making API calls and like um you know
+[06:25] just knowing how to program knowing how
+[06:27] to debug that sort of thing uh your your
+[06:30] typical like baseline skills that's
+[06:32] useful for everything. And then on top
+[06:35] of that actually I saw there a pretty
+[06:38] good quote today. I don't know if it was
+[06:39] from the same guy, but let me see.
+[06:42] Actually, it might have been from the
+[06:43] same guy. Um,
+[06:47] uh, oh, yeah. Yeah, it was from the same
+[06:50] guy. Kind of another kind of Reddit
+[06:52] quote, but was another one that was
+[06:53] pretty good. But, um, you know, a lot of
+[06:56] a lot of folks in, uh, with a software
+[06:58] engineering background, you know, you
+[07:00] write an if statement and it works the
+[07:02] same way all the time. You write a for
+[07:03] loop, it works the same way depending
+[07:05] on, you know, what it's iterating over.
+[07:07] um when you're working with AI it's it's
+[07:10] more deter it's more um probabilistic or
+[07:14] stochastic as we would say so uh it
+[07:17] doesn't necessarily do the same thing
+[07:18] all the time and it changes very
+[07:22] drastically depending on the inputs that
+[07:23] you give it and so the thing with AI I
+[07:26] would say is to and this is sort of why
+[07:29] it comes out of the research area is to
+[07:32] uh get practice with like just the
+[07:34] scientific method you know like you're
+[07:36] you're Not it's not like you're writing
+[07:38] rules and you get to say it always works
+[07:41] this way never works that way. Um you
+[07:43] have to get used to it working 90% of
+[07:46] the time 80% of the time. And when you
+[07:49] start working like that you have to
+[07:50] start working in the in the way of like
+[07:53] controlled experiments and getting
+[07:55] practice with that. So that's that's one
+[07:57] of those fundamental skills is like uh
+[08:01] you know coming up with a hypothesis,
+[08:03] testing it, doing controlled
+[08:05] experiments, making sure you don't fool
+[08:06] yourself because it worked one time, all
+[08:09] those kind. So those are sort of like
+[08:10] your baseline skills. But um in terms of
+[08:13] getting practice, coding tutor is a good
+[08:14] way u with enjoy coding academy. And
+[08:17] then um
+[08:20] yeah, there's a lot of like you know
+[08:22] starter projects out there. uh I would
+[08:24] just Google some starter projects and
+[08:26] then what I would recommend in general
+[08:30] is uh
+[08:32] I wouldn't recommend like running uh
+[08:35] running a large language model locally.
+[08:37] That's a real pain and it takes a lot of
+[08:39] time and effort. I'd recommend just
+[08:41] using like uh say like GitHub models API
+[08:44] is a good one where you can get some
+[08:46] free usage. Um or if you're willing to
+[08:49] spend, you know, five bucks or
+[08:50] something, you could use like OpenAI's
+[08:52] API or or Amazon's or one of theirs. Um
+[08:57] so I definitely wouldn't recommend lo
+[08:58] running it locally. Uh definitely
+[09:01] recommend staying in Python, you know,
+[09:03] keep it simple.
+[09:05] Um,
+[09:06] and then
+[09:09] yeah, I would say start small, you know.
+[09:11] Uh, just get practice like everything,
+[09:13] you know. You got to get practice, talk
+[09:15] to people.
+[09:17] I wish I had more specific stuff. It's
+[09:19] kind of a big like a big topic like how
+[09:21] do I get into it? But the the really big
+[09:23] stuff is like your your CS fundamentals
+[09:25] and then getting used to thinking about
+[09:28] a kind of programming that is more
+[09:30] probabilistic in nature. um that's very
+[09:32] unintuitive to folks even with you know
+[09:34] a decade of experience in software
+[09:36] engineering
+[09:45] and feel free to you know if you want to
+[09:48] uh ask a followup or or you know follow
+[09:51] up in chat feel free and then you know
+[09:53] for for others this is just kind of open
+[09:55] Q&A so feel free to to jump in if you
+[09:58] got topics or questions or things you
+[10:00] wanted to talk Yeah.
+[10:01] Can I ask about ETL? ETL is very
+[10:04] complicated I saw and it's very
+[10:07] difficult to comprehend
+[10:10] the the function calling and then how
+[10:15] it's accommodating in is there any
+[10:18] simplest form of ETL that uh somebody is
+[10:23] thinking on that or
+[10:26] which
+[10:27] Yeah. Yeah. So I can I can give you some
+[10:30] um
+[10:32] basic examples. So uh let me you know
+[10:36] get a link for folks. Um so ETL
+[10:42] set um stands for extract transform and
+[10:45] load.
+[10:47] The acronym drives me crazy because it
+[10:49] doesn't use words that I use.
+[10:52] What it means is basically like so the
+[10:54] transform word is a word that I use but
+[10:57] when it says extract usually these days
+[10:59] that means download something and then
+[11:02] transform maybe you do some processing
+[11:04] on it and then load means sort of save
+[11:06] it in your database generally. Um that's
+[11:09] sort of how I translate it for myself.
+[11:12] Um, so in terms of like a simplest
+[11:14] version of ETL, like even doing
+[11:17] something where you're downloading
+[11:18] something from an API or downloading
+[11:20] something from a web page and you're
+[11:22] taking certain fields and then saving it
+[11:24] in a certain format, even that is ETL.
+[11:27] So like there's a lot of layers of
+[11:30] complexity. A lot of times people don't
+[11:32] call it ETL until it's very complex.
+[11:36] And so a lot of times when people are
+[11:38] talking about it as ETL, they're talking
+[11:40] about something like um like Airflow or
+[11:44] you know Snowflake or Data Bricks or one
+[11:47] of these like big platforms.
+[11:49] And what those platforms are really
+[11:51] doing is sort of saying, okay, well, you
+[11:53] have this one this one step over here
+[11:56] and say it's it's downloading, I don't
+[11:59] know, downloading daily COVID statistics
+[12:03] or something. And you have another step
+[12:04] over here that's downloading, I don't
+[12:07] know, like daily
+[12:09] McDonald's statistics or something like
+[12:11] that. And then you're going to use both
+[12:13] of those data sets and try to see oh you
+[12:15] know is there correlation between COVID
+[12:17] and McDonald's or you know this is
+[12:18] hypothetical I don't think it's you know
+[12:21] but um so the reason for these complex
+[12:24] ETL pipelines is because you might have
+[12:26] some step that's like okay we need to
+[12:28] process the output of two or three
+[12:30] different steps. So we need to wait
+[12:32] until all two or three of them are done
+[12:34] before we run that you know correlation
+[12:36] analysis or something like that. And so
+[12:39] what these complex platforms do is they
+[12:42] give you a way to say okay this don't
+[12:45] run this thing until these three things
+[12:46] are done running but also I want those
+[12:49] three things to run in parallel and
+[12:51] maybe I want them to run on different
+[12:53] computers um to make it go faster. So
+[12:56] that's what these big ETL platforms are
+[12:58] doing. ETL as a concept is really just
+[13:00] you're you're downloading something,
+[13:02] you're changing it in some way, maybe
+[13:04] very minimally even, um, and then you're
+[13:07] putting it into usually a database, but
+[13:09] even, you know, a flat file would count
+[13:11] as ETL. So the fundamental idea is not
+[13:14] complex. It's really the tools that make
+[13:15] it complex for enterprise workloads.
+[13:22] Yeah, understood. But uh, what about the
+[13:24] transfer? How the transformer put in
+[13:27] here?
+[13:28] The transform is always you write the
+[13:30] code yourself generally. So, you know,
+[13:34] Got you.
+[13:35] Yeah, there's no there's no real like
+[13:37] magic to it. Um,
+[13:39] you know, you might be downloading
+[13:41] something that's like a really big XML
+[13:44] file and you only really need two or
+[13:46] three fields. So, your transform might
+[13:48] be like taking only extracting those two
+[13:51] or three fields and then saving like as
+[13:53] JSON.
+[13:55] Okay. Yeah, people generally write those
+[13:56] themselves. Um, one of the reasons why I
+[13:59] think Snowflake is popular is because it
+[14:02] already built a little bit of the
+[14:03] extract and transform for a lot of
+[14:06] popular APIs. So, you don't have to
+[14:08] write that as much yourself,
+[14:10] but you're still going to have to cover
+[14:12] from
+[14:13] how Snowflake processes into whatever
+[14:15] format you want.
+[14:17] Um, but yeah. Yeah.
+[14:21] Yeah. ETL it's uh
+[14:28] it's like a useful term in the sense of
+[14:29] like talking about a certain common data
+[14:32] engineering concept which is that you
+[14:34] have all this download of data and
+[14:35] refresh of data and making it easy to
+[14:38] use and there's all these steps and some
+[14:40] of them depend on others
+[14:42] um that kind of thing happens at almost
+[14:44] every company some companies call it ETL
+[14:47] some don't um and so that pattern is
+[14:50] common, but it it doesn't always have to
+[14:52] be highly complex. It can sometimes be
+[14:54] quite simple.
+[14:57] Um,
+[14:58] let me look at this comment from
+[15:00] Mauricio.
+[15:03] Um, as far as formal training in AI,
+[15:06] deep learning, machine learning,
+[15:08] generative AI,
+[15:10] uh, would any of those be useful for a
+[15:11] career pivot into software with the AI
+[15:15] element? I see. I see. Um
+[15:21] probably generative AI um
+[15:25] so a course in machine learning or deep
+[15:27] learning will help you understand how it
+[15:29] works
+[15:30] uh but it may depending on the course it
+[15:34] may not when you're talking about like
+[15:36] creating something with large language
+[15:38] models or other kinds of generative AI
+[15:41] applications of those things you don't
+[15:43] necessarily need to know all of the way
+[15:45] that it works to know how to use it,
+[15:47] right? You know, like you don't need to
+[15:49] know every little piece of how your car
+[15:51] works to know how to drive, right?
+[15:52] They're a little bit of a different
+[15:54] skill. U you know, it's good. It'll help
+[15:57] you a little bit, but you don't
+[15:58] necessarily need to understand the whole
+[16:00] thing. Um, and so I would I would say
+[16:04] generative AI,
+[16:06] uh, you'll see courses that, um, yeah,
+[16:09] generally that mention AI. The more
+[16:11] traditional courses that mention deep
+[16:12] learning or machine learning or large
+[16:15] language models, um, those are going to
+[16:18] be more about how it works under the
+[16:19] hood. Um, and also how you make more
+[16:22] specialized AI, I guess you would call
+[16:24] it these days. Um and
+[16:29] in general I would say that the people
+[16:31] coming from a software engineering
+[16:32] background it's a lot easier to start
+[16:35] with large lang like applying a large
+[16:37] language model so one of these
+[16:38] generative AI courses it's a lot easier
+[16:40] to start there um because it's more
+[16:43] general purpose you can use it for more
+[16:44] things compared to uh a traditional deep
+[16:48] learning or machine learning course
+[16:49] where you have to uh create a data set
+[16:53] you have to figure out how to design
+[16:55] your model carefully. You have to do all
+[16:57] this controlled experimentation to make
+[16:59] it good. Um, and then it only works in a
+[17:02] specialized case. And there's a lot of
+[17:05] very specialized kinds of debugging um,
+[17:08] that comes in that. So, I would say when
+[17:11] you're starting out, I would start out
+[17:12] with generative AI. Um, just because
+[17:16] it's going to be you're going to be able
+[17:18] to use it for more things and the time
+[17:21] when you're you're going to need
+[17:22] specialized models are in more
+[17:24] specialized situations. So when you have
+[17:26] situations where you're building a very
+[17:29] latency sensitive application or you
+[17:32] need to like drastically reduce costs or
+[17:36] you need to build an application that
+[17:37] doesn't have internet access. So it's
+[17:39] kind of specialized use cases um
+[17:42] sometimes sometimes in privacy
+[17:44] situations too but where uh highly
+[17:47] regulated spaces sometimes require
+[17:49] certain auditing for models. Um so I
+[17:54] would stick with generative AI to start
+[17:56] and then if you start to get interested
+[17:59] in more specialized applications that
+[18:00] are you know like low power uh then the
+[18:04] deep learning machine learning might be
+[18:06] for you or if you start to get
+[18:08] interested in like oh how does it work?
+[18:10] Um then I would recommend like
+[18:12] Carpathy's uh like his like 4hour AI or
+[18:17] 4hour GPT2 walkthrough. Um, I'll see if
+[18:21] I can grab that link for you. Uh,
+[18:28] and it's called GPT2
+[18:30] scratch. Copy link address. Yeah, this
+[18:34] is the one. So, um, I would only
+[18:38] recommend this YouTube, this 4hour
+[18:40] thing. I wouldn't recommend doing it in
+[18:42] one session. Four hours is a long time.
+[18:45] Um, but I would recommend like
+[18:49] use AI, like start building stuff,
+[18:52] playing around with it, and then once
+[18:55] you start saying, "Huh, I wonder how it
+[18:56] works. How does this work? How does that
+[18:58] work?" Then go over to one of his videos
+[19:00] to understand more of that. because if
+[19:04] you if you aren't actually applying it
+[19:07] yet, then I would say that it's
+[19:09] difficult to
+[19:11] uh to really know like what to pay
+[19:14] attention to when you're trying to build
+[19:16] it from scratch. Um I find that it helps
+[19:19] me really focus uh and and really
+[19:22] understand like what we're trying to
+[19:23] build um by understanding the use case
+[19:26] before I understand try to understand
+[19:28] the you know the inner workings of it.
+[19:32] Uh
+[19:34] Yeah, I've been trying actually I
+[19:36] haven't seen a a a
+[19:38] course on you know applied AI stuff. Um
+[19:46] so I don't have any to recommend for
+[19:47] you. Sorry. But uh you know usually I
+[19:50] just I'll you know follow a tutorial
+[19:53] uh try some stuff out. Um, and since I
+[19:56] have enough background from the machine
+[19:58] learning space, a lot of the concepts
+[20:00] for machine learning transfer uh to
+[20:03] generative AI, but they're a little bit
+[20:04] more uh complicated. Um, so like the
+[20:08] idea of uh doing a controlled experiment
+[20:11] is a bit more complicated with
+[20:13] generative AI because there's a bit of
+[20:14] randomness in it. Um, and because um in
+[20:18] traditional machine learning, half of
+[20:19] the work is creating your data set.
+[20:21] Well, generative AI lets you skip that
+[20:23] part. Um, but then when you go to
+[20:26] evaluate, you still need something to
+[20:27] evaluate against. So, um it's uh I would
+[20:31] say it's it's easy to be lazy
+[20:34] with generative AI and skip evaluations
+[20:37] or um you know only go partway through
+[20:40] evaluations
+[21:24] What other sorts of topics do people
+[21:26] have?
+[21:28] And if if people don't have topics,
+[21:30] I'll, you know, I'll just end up, you
+[21:31] know, working on a side project and
+[21:33] screen share.
+[21:35] So, I haven't looked at that project in
+[21:37] a week, so might take me a minute.
+[22:08] Okay, I'll uh I'll throw something out
+[22:11] there. Um,
+[22:13] if you were coming from a point in time
+[22:17] where you had coding experience, but you
+[22:20] wanted to learn more about the machine
+[22:22] learning
+[22:23] environ environment and specialty,
+[22:27] uh, what would be the very first
+[22:29] training that if you had limited amount
+[22:32] of time that you would pick to grab a
+[22:35] hold of and run with to get some kind of
+[22:38] a basic grounding? And maybe you already
+[22:40] covered that earlier today, but if you
+[22:42] have something specific,
+[22:45] uh, that that probably would be
+[22:47] something that would be of interest for
+[22:48] me.
+[22:54] It's a good question. Um, I don't have
+[22:57] anything recent. Um, the one that in
+[23:01] general,
+[23:04] let's see.
+[23:07] Wonder actually if it's still out there.
+[23:12] Let me look.
+[23:29] So, so if you're really time limited, I
+[23:32] think
+[23:34] uh
+[23:37] and if you're open to reading, um I
+[23:40] would go with some something like a
+[23:41] highle book like Andrew Ing has this
+[23:44] like machine learning yearning book from
+[23:46] years ago. Um maybe he's updated it. Um,
+[23:50] I would say that's a good place to kind
+[23:52] of get your bearings. Like when you're
+[23:54] starting out, a lot of it is like
+[23:55] getting your bearings, right? Like what
+[23:56] are the terms? How do you think about
+[23:59] it? Like not even necessarily getting
+[24:01] into programming yet, but like you know
+[24:03] like your 101 classes in college aren't
+[24:05] necessarily like not necessarily like
+[24:07] programming a lot. You're kind of
+[24:08] getting your bearings right.
+[24:10] So that's a good place to start there.
+[24:13] Yeah, that's kind of what I was looking
+[24:15] for.
+[24:17] Yeah. Yeah. There are, you know, a lot
+[24:19] of other sites too. Um,
+[24:22] that's the one that the reason why I
+[24:25] liked it is because what I found in
+[24:28] working in in industry is that a lot of
+[24:31] folks that even folks that didn't
+[24:33] program much or almost none, you know,
+[24:36] folks that were like product managers or
+[24:38] project managers or, you know, CEOs or
+[24:42] what, you know, what have you. um folks
+[24:44] like that needed something that kind of
+[24:47] helped them understand like like when
+[24:49] should we even think about using this
+[24:50] kind of thing or like how do we need to
+[24:52] change the way that we approach software
+[24:53] development. Um, a good example I like
+[24:56] to use is that I don't know, say like in
+[25:00] in the 2000s or so, like 2000 to 2010,
+[25:04] you know, the software industry was
+[25:05] getting good at like making web apps
+[25:08] pretty much, you know, like. And so now
+[25:11] that's very boring. Like it's not very
+[25:13] exciting for most people, but that's
+[25:15] what was going on. But at that time
+[25:18] period, basically nobody knew how to
+[25:19] make mobile apps. there were like the
+[25:22] patterns for how to make them, when to
+[25:24] use them, when to do a mobile app versus
+[25:26] a web page wasn't well known. Um like
+[25:29] how you know all the established
+[25:32] patterns from web apps translate over to
+[25:33] that was unknown. And so people were
+[25:36] kind of like ah how do I even think
+[25:38] about this right? And so then people got
+[25:40] experienced and they're like oh okay
+[25:42] this is how I should think about a
+[25:43] mobile app. Here are the things that we
+[25:45] care about. Here's when when to have
+[25:46] one, when not to use have one. Um, and
+[25:51] then machine learning was another wave
+[25:52] like this. So, this is a book sort of
+[25:54] for those people that are like, "How do
+[25:56] I even start to think about this?" Um,
+[26:00] so it kind of get gets people their
+[26:01] bearings a little bit. Um,
+[26:04] oh, and then Adam has a good link, too.
+[26:06] Um, I think that one's worked for him.
+[26:10] Well, thank you, uh, Dr. Keith and Adam.
+[26:12] I appreciate that feedback.
+[26:18] Yeah, I think a lot of it is um
+[26:24] a lot of it's getting used to just
+[26:26] thinking about things that don't like
+[26:27] work 100% of the time. You know, uh you
+[26:30] have something that works 90% of the
+[26:32] time. And if you can do that in some
+[26:33] fields, that's great. Um, but it takes a
+[26:37] different way of thinking um to design
+[26:40] something that you know is going to not
+[26:43] do what you want some percentage of the
+[26:45] time. And so that affects sort of when
+[26:50] is it appropriate to use it, when is it
+[26:52] not appropriate to use it? uh what kinds
+[26:55] of things you know like you tend to do
+[26:57] it on things where if it works it helps
+[27:00] save someone some time but if it doesn't
+[27:02] work right doesn't cause big problems
+[27:05] um and so there's like that kind of
+[27:07] thinking so I think that those things
+[27:10] will will walk you through that and then
+[27:11] you know from there once you get your
+[27:13] bearings then it's then you can find
+[27:14] courses pretty easily or more easily
+[27:37] See?
+[27:39] All right. I'm just bringing up some
+[27:40] stuff here. Um,
+[27:44] I think what I'll do is I'll just share
+[27:48] a desktop.
+[27:51] Uh,
+[27:52] let's just do desktop capture
+[27:57] that screen share.
+[28:01] And then
+[28:06] Zoom always does some weird things when
+[28:07] I do that, but working on it. getting
+[28:11] there.
+[28:13] All right.
+[28:15] Uh, so what I'm sharing is, you know,
+[28:18] this side project that I made. Um, I do,
+[28:21] you know, volunteer work on like the
+[28:22] parks here in Seattle. And then also I
+[28:25] do like litter pickup and stuff. And
+[28:28] some of the problem is that there's a
+[28:30] bunch of different websites for it. Like
+[28:32] I don't want to go check five websites
+[28:34] every day. uh you know I just want to
+[28:36] like aggregate them all put them in one
+[28:38] place and take a look at it. So that's
+[28:41] what I built and we can actually get
+[28:42] into that ETL question as we get through
+[28:44] it. Um
+[28:47] but uh yeah this pulls stuff from a
+[28:49] whole bunch of different websites. Uh I
+[28:51] think at the bottom I sort of show yeah
+[28:54] here's all the different data sources.
+[28:56] It looks like they all ran this morning
+[28:58] at midnight which is great. A lot of
+[29:01] them failed.
+[29:03] Um and they come from different
+[29:05] different sites. So like this one is
+[29:07] green Seattle partnership. So if I click
+[29:09] on that
+[29:11] goes out to this site and I can you know
+[29:13] like register to join that event if I
+[29:15] want to. Um and sometimes it'll have
+[29:19] like you know an exact location.
+[29:22] Uh in this case it didn't it didn't
+[29:25] extract it too well. So it's trying to
+[29:26] hyperlink please refer to the below link
+[29:29] into Google Maps. That's not going to
+[29:31] work. Um, but this one here, you know,
+[29:33] Magnus Park, and then it gives me an
+[29:35] address. That one's going to work. Um,
+[29:37] and then this one here, Dwamish Head
+[29:39] Green Belt. I don't know if that would
+[29:41] work on Google Maps. Maybe it would,
+[29:42] maybe it wouldn't. Um, and then I have a
+[29:44] little link to add to calendar. And then
+[29:46] I have a thing over here where I can see
+[29:48] like the source data. So, sort of green
+[29:50] Seattle partnerships. We get um, not a
+[29:54] lot. We get kind of start and end date,
+[29:56] title, it's got an ID, doesn't have an
+[30:00] address the way that I get it. Um, it
+[30:03] has a URL and then um Seattle parks and
+[30:06] wreck. So, it comes from seattle.gov and
+[30:10] that has more data on it. So, it has it
+[30:12] says this venue Burke here, which is
+[30:15] Burke Gilman Trail. Um, is really what
+[30:17] it should say. And this should actually
+[30:18] have an address here.
+[30:21] Um,
+[30:23] and then it's got a bunch of tags in
+[30:26] here. Um,
+[30:29] so those tags sort of come from this
+[30:30] like neighborhoods thing here. And then
+[30:34] I must have I partially viodated it so
+[30:37] that it has like some tags for like who
+[30:39] created the event and what type of event
+[30:42] it is. Uh, but all right. So getting to
+[30:47] we'll get to how it works, but what I
+[30:51] wanted to take a look at was to see if
+[30:53] we could clean up the tagging of things.
+[30:55] So here's the problem here. Like
+[30:58] blackberry blackberry management at
+[31:00] Discovery Park here tomorrow morning.
+[31:02] Um, so when they say blackberry
+[31:05] management, they mean we have a ton of
+[31:07] invasive Himalayan blackberries that
+[31:09] just take over hillsides and if we don't
+[31:13] do anything about them, they basically
+[31:15] kill everything and take over. Um,
+[31:19] and for a long time people hadn't. So
+[31:21] there's a lot of hillsides that have
+[31:23] been taken over and we're trying to, you
+[31:24] know, get out there, you know, rip out
+[31:26] the roots, everything.
+[31:29] Um, so this one, it didn't tag it as
+[31:31] like a, you know, parks activity. I
+[31:34] tried to use this little tree icon for
+[31:36] parks activities. So this one's
+[31:37] mistagged. Here we can see. So that's
+[31:40] coming from Seattle Parks Foundation.
+[31:44] Uh,
+[31:46] and
+[31:49] it might actually be the same as this
+[31:52] one here. Um, the reason why I say it
+[31:54] might be the same is because, you know,
+[31:56] it's the same exact time, same day, and
+[32:00] they're both in Discovery Park.
+[32:03] Um,
+[32:05] yeah, they're both in Discovery Park,
+[32:08] but for whatever reason, uh, two
+[32:11] websites set the title as Lizard Haven
+[32:13] Weeding and Watering, and one set the
+[32:15] title as Blackberry Masher. Um, so those
+[32:18] two are probably dupes.
+[32:20] Um, but this one really should, you
+[32:22] know, I would like the category to be
+[32:24] better there. Um, and then there's this
+[32:26] one down here, this LID I5 biking tour.
+[32:30] We can click on that, see what that is.
+[32:33] Seattle Parks Foundation. Join Lid I5 on
+[32:36] a seven mile bike ride. Um, so that's
+[32:40] not volunteering at all. That's a bike
+[32:42] ride. So I probably want a different
+[32:46] kind, you know, like a social icon
+[32:47] there. And then
+[32:51] Union Slow Sluff I don't know what that
+[32:55] is.
+[32:56] Port of Ever continue work in the Union
+[32:58] slaw natural area
+[33:02] created by breaching a dyke. Okay, so
+[33:04] that's a that is clearly a volunteer
+[33:05] event. Um, so that one should probably
+[33:09] be Oh, what did it say it was doing?
+[33:12] Uh,
+[33:15] so this is Earth Core.
+[33:18] All right. Removing weeds, planting
+[33:20] trees. Okay. Okay. So, this is this
+[33:22] should really be like a parks icon one.
+[33:25] Uh, litter patrol. I think I have an
+[33:27] icon for like for that for like picking
+[33:29] up litter, but for whatever reason it's
+[33:32] not applied here. Um, a lot of the time
+[33:38] maybe my popups aren't working all the
+[33:40] time. That's interesting.
+[33:43] Did it?
+[33:47] I don't know. Weird.
+[33:50] Uh,
+[33:54] well, anyway, the the tags I think the
+[33:56] way that I done it was when I'm
+[33:59] extracting data, I kind of um,
+[34:05] you know, like green in Seattle is
+[34:07] almost always park stuff. So, I can kind
+[34:09] of show you show you what the code's
+[34:11] like.
+[34:14] Make this a little bit bigger.
+[34:17] And then
+[34:19] um I'm just going to be coding on main.
+[34:21] I'm not going to you know make a branch
+[34:23] for this. Um so I have like a whole ETL
+[34:27] folder in here so we can kind of I can
+[34:29] show you what like green Seattle work is
+[34:31] like. Uh
+[34:35] Ruff is mad at me.
+[34:39] Um,
+[34:44] unsorted or weird.
+[34:48] Why is it mad at me?
+[34:52] Mad about that part.
+[34:55] I don't know.
+[34:57] I haven't looked at the project in a
+[34:58] week, so maybe I changed my environment
+[35:00] somehow. Um, anyway, uh, so GreenCl
+[35:05] extractor, what it's going to go do
+[35:10] See here. Oh, so I had two different
+[35:13] versions. One was using
+[35:16] their calendar and one was using a API.
+[35:19] I think I
+[35:22] Let's see which one I'm actually using
+[35:23] here. So, we're somewhere in
+[35:26] my command line
+[35:31] Seattle. So, I'm using the calendar
+[35:33] extractor.
+[35:34] So, what it's doing is it's like, "All
+[35:36] right, let me go build a URL.
+[35:39] You know, here's the URL for the Green
+[35:41] Seattle Partnerships calendar."
+[35:44] Um, and then if we have like a start and
+[35:46] end date range, like so, say if we want
+[35:48] to get the next seven days, we could
+[35:49] just query that. Um,
+[35:52] and then this fetch method here is just
+[35:54] going to call request.get.
+[35:57] Uh, oh, I see. So, I call it, you know,
+[35:59] last 30 days. go get that HTML
+[36:03] and then I have these you know extract
+[36:07] methods. So I guess in ETL terms fetch
+[36:10] should probably be called extract and
+[36:13] extract should be called transform
+[36:16] really in the ETL thing and then load
+[36:18] comes later
+[36:20] and it's a lot of stuff like you know we
+[36:22] get back a bunch of HTML
+[36:25] uh we're using beautiful soup this is
+[36:27] the common way in Python of like ripping
+[36:29] data out of HTML
+[36:31] you know go extract this thing and go
+[36:33] structure an event so um given if We
+[36:37] pulled all this stuff out of here. We're
+[36:39] going to, you know, create an event
+[36:42] and then over in
+[36:46] the command line. Oh. Um,
+[36:51] oh, there we go. Then over in the
+[36:53] command line, um, so it'll go run the
+[36:56] extractors and then it, you know,
+[36:57] connects to the database.
+[37:00] Uh,
+[37:01] oh, yeah. runs runs each extractor and
+[37:05] then you know says whether we succeeded
+[37:06] or failed and then it you know saves all
+[37:09] the stuff. So this is sort of the load
+[37:10] part of ETL. So ETL really has that like
+[37:14] you know download which is sort of the
+[37:16] fetch this you know transform part in
+[37:19] the extract and then this you know save
+[37:22] part.
+[37:24] So what we want to do
+[37:28] and we can we can take a look and see um
+[37:30] what we have in the command line here.
+[37:32] So I do things with UV
+[37:40] uh so I can show you what the UV setup
+[37:42] is like. But um if I just run it like
+[37:45] help. So UV helps manage my Python
+[37:48] environment. Um help will show me the
+[37:50] commands that I've got in there.
+[37:53] So I have some dev commands in there
+[37:55] just to like
+[37:57] I don't we just say like show events or
+[37:59] something.
+[38:06] [Music]
+[38:13] So it'll show us like some you know some
+[38:14] sample of
+[38:18] events for green Seattle partnership. Uh
+[38:22] so I don't know how how I filtered it
+[38:24] but showing you know some payments some
+[38:26] of the older ones.
+[38:28] Can I ask you a question?
+[38:29] Yeah.
+[38:31] What UV is doing here?
+[38:34] Oh UV um have you ever used like uh like
+[38:38] a virtual end?
+[38:41] Oh, okay. Gotcha.
+[38:42] Yeah. So UV does the virtual end and I
+[38:45] can show you over in pi project.toml
+[38:48] um some of the stuff that it's doing in
+[38:51] here.
+[38:51] It's kind of virtual machine or virtual
+[38:53] uh environment
+[38:54] environment environment not a virtual
+[38:56] machine. Uh so it's giving us
+[39:01] reproducibility of things. So uh we have
+[39:05] uh this stuff here where we're saying
+[39:07] okay you know we want beautiful soup 4
+[39:10] request pantic these things you know
+[39:12] specific version of open AI or at least
+[39:14] this version and then if we're doing
+[39:17] development um I want pi test so to run
+[39:21] my tests I want rough um but it's
+[39:24] separated so that you know I'm only
+[39:26] going to use that like on my own machine
+[39:29] um or when running unit test but not
+[39:31] when I deploy it and then um like right
+[39:35] here where I could say like UV run
+[39:37] Seattle volunteering
+[39:39] um that's this project script which is
+[39:42] saying you know go into source CLI
+[39:48] and it is
+[39:52] you know it's just I'm using click to
+[39:54] manage my CLI um and so it's sort of
+[39:57] mapping this thing so that I don't have
+[39:59] to type as much so it kind of gives me a
+[40:01] command there. Um the other things in
+[40:04] here,
+[40:07] uh these are some configuration for the
+[40:09] tests. Um and these are configurations
+[40:12] for the um for rough, which is what I
+[40:15] use for formatting, you know, just to to
+[40:18] reformat my files. And then one nice
+[40:21] thing that UV gives me is this UV.lock
+[40:25] file.
+[40:27] And so say if we go to um
+[40:32] OpenAI in here, this package OpenAI and
+[40:36] over here we said we want at least
+[40:39] 1.98.0
+[40:42] and over here it says okay that we're
+[40:45] using the exact version 1.898.0
+[40:49] not a newer version.
+[40:51] And then um here you can kind of see it
+[40:55] actually like did a hash
+[40:57] of the version that it got. So if
+[41:01] someone like a malicious actor changes,
+[41:05] you know, what 1.98.0 is on, you know,
+[41:09] files.pythonhosted.org,
+[41:12] then UV will detect that and help me
+[41:15] reject that. So um because it's I've
+[41:18] tested against this, that gives me
+[41:19] protection against uh that's called a
+[41:22] supply chain attack. uh when someone
+[41:24] modifies the servers, someone malicious
+[41:27] modifies the service that's um that's
+[41:31] redistributing uh like open AI or any of
+[41:35] these u so that gives us a little bit of
+[41:39] safety against supply chain attacks, not
+[41:40] perfect safety. Um, and also make sure
+[41:44] that uh since we're like locking our
+[41:47] versions,
+[41:49] um, it makes it so that we we're sort of
+[41:51] testing against certain versions and
+[41:54] then when we use it live, we might
+[41:56] install from the lock instead of the pi
+[41:59] project toml.
+[42:00] And so we're going to get the exact same
+[42:01] version. um so that we don't have any
+[42:04] risk of like you know the open AI
+[42:07] changed to like you know 2.1 and it
+[42:10] broke some stuff for us you know so it
+[42:12] protects us a bit against our stuff
+[42:16] breaking either because of version
+[42:18] changes we weren't ready for
+[42:21] um or supply chain attacks um and it is
+[42:25] also you know it's managing a virtual
+[42:28] environment for us so it's like those
+[42:29] those things kind of combined and And
+[42:32] there's one more thing in here that it
+[42:34] does, I think.
+[42:37] Yeah. All right. So, there's this
+[42:38] requires Python here, which is saying
+[42:40] what Python version um UV is allowed to
+[42:43] use. Uh you know, in this case, I'm
+[42:45] saying anything newer than 3.12.
+[42:48] And so, you can you you can set your
+[42:50] Python version there. And so then when
+[42:52] you're in the cloud
+[42:54] like here
+[42:57] um so this is going to configure how
+[43:01] like my daily job runs how the ETL
+[43:04] actually runs on GitHub actions sort of
+[43:07] saying you know uh 7 a.m. UTC daily. So
+[43:12] uh that's about midnight uh my time uh
+[43:15] or is midnight my time right now at this
+[43:17] time of year.
+[43:19] Um, and this install UV here and set up
+[43:23] Python here is going to, let's see, this
+[43:27] part here is going to get the Python
+[43:29] version from that PI project.
+[43:32] Um, U sync-lock
+[43:35] is going to make sure that we get the
+[43:36] exact dependencies from the lock file
+[43:39] um, rather than accidentally picking up
+[43:41] new ones from the other ones. And then
+[43:44] this command here, ingest the new data.
+[43:47] Um, and so the one thing that's a little
+[43:49] bit unique about here is that I'm
+[43:51] actually saving it into a SQL like
+[43:52] database and then I'm just storing that
+[43:55] in the repo. So this is like a, you
+[43:58] know, a uh low budget version of of ETL
+[44:02] where my database is stored in my git
+[44:04] repo. Um, but it's pretty small. Pretty
+[44:08] small there. You know, as you imagine,
+[44:09] there's not that many outdoor
+[44:11] volunteering events and it's all text
+[44:12] data. So pretty small.
+[44:16] And sorry that was a long explanation
+[44:17] for what UV is giving me. Um, the short
+[44:21] version is it it gives me
+[44:22] reproducibility. So it it makes sure
+[44:25] that I'm not going to have as many
+[44:27] surprise bugs because some version
+[44:30] changed
+[44:31] um, you know, unintentionally.
+[44:35] Um, let's see.
+[44:40] I go back up for two.
+[44:44] go back over to
+[44:48] All right. So, we look at the events
+[44:49] here. Um,
+[44:53] some of the challenge is that the
+[44:54] events, they don't all have tags on
+[44:57] them.
+[44:58] And so, what I would like to do, what I
+[45:00] would love to do is to add some tagging.
+[45:06] Um, the challenge with large language
+[45:09] models is that I don't want to do it on
+[45:10] demand because, uh, you know, I don't I
+[45:14] probably don't have the budget to run
+[45:16] the LM for every single event, you know,
+[45:19] every single day, but maybe I could just
+[45:21] run it for the new events or something
+[45:22] like that. Um, and that will help us set
+[45:25] up our tagging system.
+[45:28] So,
+[45:30] let's see what else we have in our dev
+[45:32] CLI.
+[45:45] I guess I had written some stuff for
+[45:49] uh this was to when we're merging events
+[45:52] like how to pick the right name for it.
+[45:55] Um the problem with that is that it
+[45:56] would have to run every single time. Um
+[46:01] all right. So,
+[46:06] so let's think about how we would want
+[46:08] to phrase this for the language model.
+[46:14] All right. So,
+[46:17] we're having an issue where the event
+[46:22] categorization
+[46:24] is inconsistent
+[46:29] and also missing several categories
+[46:33] that we'd like.
+[46:36] I'll try to make it a little bit bigger
+[46:37] here. Um, all right. So, that's the
+[46:40] context of what we're trying to do
+[46:42] there. So let's explore using the GitHub
+[46:48] model
+[46:50] LLM that we have
+[46:54] up to categorize
+[46:57] source events events before they are
+[47:01] merged.
+[47:04] Then when we select the data we'll
+[47:08] combine the source the underlying
+[47:14] source events with any
+[47:18] already computed LM cateorization
+[47:23] let's say events and merge process will
+[47:29] merge tags
+[47:32] uh in a standard way and we can render
+[47:37] that front end
+[47:40] appropriately.
+[47:47] I'd like it to run as a CLI command that
+[47:52] populates a new table that has a foreign
+[47:58] key into the source events table.
+[48:04] This way we can only
+[48:08] compute
+[48:10] uh only run the LM on events that we
+[48:16] don't we haven't run before
+[48:23] the CLI command can limit the number of
+[48:28] LLM balls you're doing on any given
+[48:33] day. So for
+[48:36] example,
+[48:38] we could set it to
+[48:42] query the 20 uh query up to 20 source
+[48:47] events that do not have a cor spawn date
+[48:53] entry in the LM output table
+[48:58] and run each one through
+[49:08] to start.
+[49:12] Let's add a CLI command that will take a
+[49:17] source name and source ID, log up that
+[49:23] info and send it through a cat
+[49:30] organization
+[49:32] step.
+[49:36] um
+[49:38] and
+[49:39] write that output to the command.
+[49:45] For starters,
+[49:47] let's use these categories
+[49:51] and let's use the uh use a podantic
+[49:56] model structured
+[49:58] output from the element. Here are the
+[50:03] categories
+[50:05] I'd like to use.
+[50:09] Uh, let's see. We'll say all
+[50:12] tier
+[50:15] say parks.
+[50:17] I think I might have even called it like
+[50:20] I don't know. We'll just start We'll
+[50:22] just start there. Volunteer
+[50:25] slash litter
+[50:27] litter.
+[50:29] Uh, see what else we got in here.
+[50:32] Uh,
+[50:35] I don't think biking's that common.
+[50:42] I don't know. Say social event.
+[50:46] Um,
+[50:48] see what else we got in here.
+[50:52] Concert isn't really I don't know. I'm
+[50:54] just gonna say concert.
+[51:00] Yeah.
+[51:02] See what else we got.
+[51:05] Clean up. All right. So, that one's
+[51:06] later. Pickle ball for all is totally
+[51:09] social.
+[51:11] Uh,
+[51:18] okay. So, I think we have a sense of the
+[51:19] categories.
+[51:24] Okay.
+[51:26] Before we begin,
+[51:30] implementation. Are there any clarifying
+[51:36] questions you have for me that will
+[51:39] affect our implementation?
+[51:44] Uh so sorry it's so much setup. Um
+[51:47] usually when I'm doing, you know,
+[51:49] building out a feature, I start uh LLM
+[51:53] conversations with a tremendous amount
+[51:55] of context. Uh, but that's still not
+[51:58] really enough context like that I would
+[52:00] give say a junior developer. Uh, but
+[52:03] it's a, you know, it's a good start.
+[52:06] Um, I like to
+[52:10] I didn't mean to click to edit. Uh, I
+[52:13] kind of like to start off sharing
+[52:16] context and then asking for questions.
+[52:18] One thing that I found is that if if I
+[52:20] say, "Do you have any questions?"
+[52:22] um it'll tend to like always ask
+[52:25] questions even if they're not impactful
+[52:27] questions. So I try to say like are do
+[52:30] you have any questions that would change
+[52:31] actually how we would build this thing?
+[52:36] LM input data when we send an event to
+[52:38] the LM for categorization which field
+[52:40] should we include? I'm thinking at a
+[52:42] minimum title and description
+[52:45] uh should we use other fields? That's a
+[52:47] good question.
+[52:49] That is a good question and it's a good
+[52:51] question because um some of our events
+[52:54] some of our event sources only have a
+[52:56] title and some also have a description
+[52:59] too. So that's a good question. Um
+[53:05] and that's that's why I didn't I didn't
+[53:07] have a clear decision on that is because
+[53:08] it's inconsistent across our events. Um
+[53:13] let's see. Uh should these categories be
+[53:16] mutually exclusive?
+[53:19] Uh, yes. Should we include a confidence
+[53:22] score?
+[53:24] Uh, that's an interesting one. I
+[53:26] probably would not.
+[53:30] Uh, do we want other? That would be
+[53:32] Yeah. Yeah. Probably. Um, LM
+[53:36] categorization.
+[53:39] All right. So, it's, you know, it's got
+[53:40] a database schema here. Error handling.
+[53:44] What should we do if the LM fails to
+[53:45] respond or gives malformed input?
+[53:47] output. That is a good question. Um, we
+[53:50] actually ran into this in a professional
+[53:53] situation recently where uh the LLM
+[53:57] would fail and we had set it to like
+[54:01] retry the next day on failure. So then
+[54:04] it would fail again usually and then it
+[54:08] would retry the next day and every day.
+[54:10] Um, so that's that's one uh thing to
+[54:12] watch out for.
+[54:15] The event data is insufficient for
+[54:17] categorization.
+[54:19] I think the unknown category would
+[54:20] probably work for that.
+[54:23] Uh should we retry failed
+[54:25] categorizations or mark them as failed?
+[54:28] Um
+[54:30] I think some of these decisions we can
+[54:31] kind of put off until we sort of see
+[54:34] what the quality is like. Prompt
+[54:36] engineering. Should the LM prompt
+[54:38] include examples of each category? Okay,
+[54:41] so this is one of the ways to do prompt
+[54:43] engineering to make it reliable is to
+[54:46] include examples. Uh so what I'm going
+[54:48] to do is I'm going to answer some of
+[54:50] these questions for the LM.
+[54:52] Um and then we'll start to implement it.
+[54:56] Um let's see.
+[54:58] So,
+[55:01] what I'd like to do is to implement a
+[55:05] version on the CLI
+[55:08] that we can test that does not modify
+[55:12] the database.
+[55:16] uh only when we're
+[55:19] confident
+[55:21] on bids in the quality of the output.
+[55:28] Uh
+[55:32] then we'll
+[55:34] start discussing
+[55:37] retries
+[55:40] DB schema etc.
+[55:44] to answer the relevant questions for the
+[55:49] dev CLI.
+[55:54] Uh,
+[55:59] I'd like this to be a function that
+[56:03] builds the LM context from the source
+[56:08] events
+[56:10] so that we can easily modify it later if
+[56:15] we need to. For now, simply use the
+[56:21] title and description.
+[56:24] Let's see what do we have.
+[56:27] Uh
+[56:29] I'll say
+[56:32] I don't know title, description,
+[56:37] venue, and URL.
+[56:41] We can
+[56:44] keep in mind though that not every
+[56:51] some fields are optional.
+[56:54] I think description is optional. Um
+[56:57] see if I've got
+[57:00] uh
+[57:02] do I have an event in here?
+[57:12] Oh, venue is optional as well. Uh,
+[57:16] so venue is optional.
+[57:19] Description,
+[57:22] there's no description.
+[57:26] Title, venue,
+[57:32] venue, Europe.
+[57:39] category design.
+[57:45] Let's
+[57:46] go with you
+[57:49] exclusive
+[57:52] categories
+[57:54] and
+[57:56] let's add an
+[58:00] other
+[58:06] I don't need a confidence
+[58:12] error handling prompt engineering.
+[58:15] See here prompt engineering.
+[58:20] Oh no, didn't mean to do that.
+[58:25] All right.
+[58:29] Um, all right. Prompt engineering. Um
+[58:32] let's start with a
+[58:36] basic prompt before adding
+[58:40] uh ICL examples.
+[58:46] Uh I like to follow examples.
+[58:52] Now go ahead and implement the
+[58:57] dev CLI so that we can try it out on
+[59:01] some events.
+[59:11] So for better or worse, a like how I end
+[59:14] up using AI for coding is I'm spending a
+[59:17] lot more time thinking about the design
+[59:19] of the system and why we're building
+[59:22] things and how to deal with edge cases
+[59:24] and less time thinking about like, oh,
+[59:26] how do I write this part or that part or
+[59:28] this part?
+[59:32] No, I guess actually I got to go in a
+[59:33] few minutes, but let's see. Let's see
+[59:35] how it did.
+[59:37] Maybe what we can do is we can kind of
+[59:39] sort of uh
+[59:43] pause once it's done and kind of review
+[59:45] how it did.
+[59:49] I mean, you know, there's like a 10%
+[59:51] chance that it'll build us a
+[59:54] a CLI that I actually that meets the
+[59:57] specs. Uh
+[60:01] maybe more of a chance. I don't know.
+[60:02] We'll see.
+[60:09] All right.
+[60:14] Okay.
+[60:22] So this stuff here about why it knows to
+[60:25] do UV
+[60:27] is because I have this copilot
+[60:28] instructions file that tells it these
+[60:31] are sort of persistent instructions that
+[60:33] I give it for how to how to do
+[60:34] development.
+[60:36] All right,
+[60:38] let's just run it. I'll see what
+[60:39] happens.
+[60:43] All right, let's see here.
+[60:46] So this was the event to categorize
+[60:48] weeding south of such and such Bilman
+[60:50] trail categorized volunteer parks. Okay.
+[61:01] Test LLM categorization on a litter
+[61:03] patrol event.
+[61:06] Volunteer litter. Okay, great.
+[61:13] I'm kind of I know that SPF has a bunch
+[61:16] of these like junky events that I don't
+[61:18] really like. I'm a little bit suspicious
+[61:21] at how the language model knows that,
+[61:24] but but I'll take it.
+[61:27] I'll take it.
+[61:29] Uh, all right.
+[61:34] And I categorize it as concert. Okay.
+[61:39] Candidates forum. So, what was that
+[61:40] event?
+[61:47] Oh, is that a community center? I think
+[61:49] this was for our local elections.
+[61:52] I actually don't know
+[61:56] what it should be categorized as. You
+[61:59] know, this LM says, you know, social
+[62:01] event. It's uh you know like meeting
+[62:04] your local government officials isn't
+[62:06] like
+[62:09] it's not quite the same as a party, you
+[62:10] know. Uh
+[62:13] maybe it'll do that. Maybe it'll do
+[62:15] other social event. Yeah, that's fine.
+[62:22] Uh okay, so it did pretty good. All
+[62:24] right.
+[62:26] Um
+[62:28] Oh, improve the output format. Yeah,
+[62:30] sure.
+[62:35] Yeah, that's fine.
+[62:38] Uh, so let's see. Event categorization
+[62:41] here. Let me hide these things so we can
+[62:44] sort of see it.
+[62:46] Um, building the context is just uh we
+[62:49] got context parts joined with new line
+[62:52] title, venue, URL, venue is optional.
+[62:55] Great.
+[62:56] categorizing the events, getting our
+[62:58] OpenAI client, build the context,
+[63:02] you're an expert at categorizing outour
+[63:05] events. I mean, yeah, sure. I mean,
+[63:09] I All right. I'm I'm not gonna,
+[63:13] you know, it worked on the first try.
+[63:14] I'm not going to heckle it too much.
+[63:17] Uh, categorize into one of these
+[63:19] categories. It gives some examples.
+[63:22] Fine.
+[63:23] Uh oh. Okay. So, category and reasoning
+[63:30] response format type JSON object. That
+[63:33] is not what I asked for,
+[63:40] but this is what I asked for. Um so, you
+[63:43] know, it did it. Uh the reason why I say
+[63:45] it's not what I asked for is because um
+[63:48] in OpenAI there's two ways to do it.
+[63:52] There's one is this like JSON mode which
+[63:55] JSON mode will force the output to be
+[63:57] JSON but not not a particular type of
+[63:59] JSON just forces it to be JSON
+[64:03] and then we're taking that data
+[64:04] interpreting it as JSON and saying use
+[64:07] this O LM event categorization.
+[64:10] um in the OpenAI API, it's much better
+[64:13] to actually just give that response type
+[64:15] directly and then when we give that
+[64:17] response type directly
+[64:20] um it's only possible for it to answer
+[64:22] with one of these categories instead of
+[64:24] making up categories. Um so the way that
+[64:27] it's done it in this way, it's possible
+[64:29] for it to generate something that we
+[64:31] cannot interpret that's incompatible.
+[64:34] That's not ideal. Um but that's easy to
+[64:36] fix. I can kind of show you real quick.
+[64:38] So if we show the other place
+[64:43] log event extractor
+[64:47] um so this is all we got to do is
+[64:50] instead of saying response format JSON
+[64:52] mode we just pass our pyantic uh data
+[64:54] model and it that makes it JSON mode and
+[64:57] also forces it to give the specific type
+[65:02] um you know so it's sort of constrain
+[65:04] the generation so it's a bit safer
+[65:07] see what it did models. I mean, this
+[65:09] stuff's fine. Yeah.
+[65:12] CLI. I mean, it's a dev tool, so I'm not
+[65:14] going to worry too much. Like, one thing
+[65:16] I don't love that it does is it does the
+[65:18] imports inside the functions. I mean,
+[65:21] you know, again, I'm like, how much can
+[65:23] I really complain because it worked on
+[65:25] the first try, you know, um,
+[65:29] you know, goes source events, goes finds
+[65:31] source event. It really like this whole
+[65:33] thing of like looking up a particular
+[65:35] source event. It really should have
+[65:36] added a function on the database to go
+[65:39] find a source event. That should be done
+[65:41] at the database level, not in the Python
+[65:44] level here, but that's fine. It's not a
+[65:46] big deal. Uh this is just, you know,
+[65:50] showing it runs the categorization and
+[65:53] shows us.
+[65:55] But, you know, overall I feel pretty
+[65:57] good about that. I feel pretty good
+[65:59] about that. Um anyway, I I'll sort of
+[66:02] stop talking there. Uh did anyone have
+[66:05] any like topics, questions, comments? Uh
+[66:08] I can I can go maybe another five
+[66:10] minutes. Let me stop sharing actually.
+[66:14] Or if I can figure out There we go.
+[66:29] Thank you for showing the ATL. Thank you
+[66:31] so much. You're welcome.
+[66:47] Well, I'm still I'm like trying to
+[66:48] figure out how I feel about that that
+[66:50] little dev session. It was like it
+[66:53] worked on the first try and it ran the
+[66:54] command lines which I like a lot like I
+[66:57] you know that was pretty nice. Um
+[67:00] yeah I like your I like your prompting
+[67:04] so details you are you do not use this
+[67:08] kind of prompting. So today I have
+[67:09] learned how to prompt AI
+[67:12] that's why you are not getting the full
+[67:13] advantage of AI. Let me see if I can
+[67:16] actually, if you're curious, uh,
+[67:21] let's see if I can figure out how to
+[67:23] share this.
+[67:32] try and
+[67:35] uh
+[67:42] sure
+[67:48] create a
+[67:53] guest.
+[67:56] I can share it in the chat there. Um so
+[67:58] I just copy pasted that. um
+[68:02] uh that chat.
+[68:05] Um
+[68:07] so then you know if you want to kind of
+[68:09] take a look at like sort of how I'm
+[68:11] doing the prompting. It looks like it
+[68:12] didn't word rap though for whatever
+[68:14] reason. But if you go to like raw then
+[68:16] it'll wrap for you.
+[68:22] But yeah, that one that one went pretty
+[68:24] well. You can kind of see like I I put a
+[68:26] lot of work into the upfront part.
+[68:29] Uh, and part of that is just because
+[68:31] like my experience is that um
+[68:35] it's
+[68:39] for one it's it gets me the results that
+[68:41] I want more often. Um, but I think
+[68:44] because of that it's more relaxing for
+[68:46] me. You know, there's something about
+[68:48] like when you want to do something
+[68:52] uh and it doesn't over and over again,
+[68:55] you know, it gets kind of frustrating.
+[68:56] So, it's like kind of uh
+[69:00] thinking about it up front I find less
+[69:02] less frustrating, more relaxing. Um, and
+[69:06] honestly, like if I'm asking it to do
+[69:08] all this work, like if I was asking
+[69:09] another person to do all this work, I
+[69:11] should know what I'm asking for, you
+[69:12] know, like it it can't really decide for
+[69:15] me. I have to make all these decisions.
+[69:17] And so a part of the reason why I talk
+[69:19] through it so much is because it forces
+[69:21] me to confront a lot of decisions that I
+[69:24] either didn't even think about at all or
+[69:27] I like kind of didn't want to think
+[69:29] about maybe I thought about it but I was
+[69:31] like ah I don't want you know. Um but if
+[69:34] you just let the LM decide who knows
+[69:36] what you're going to get. Uh you know
+[69:38] you got to be the one in the driver's
+[69:39] seat. You got to be the one deciding you
+[69:41] know your product decisions for your
+[69:43] your project. So um yeah hopefully that
+[69:47] that helps. Um
+[69:51] yeah thank you. It helps really helps.
+[69:54] Yeah yeah yeah hopefully it gives you
+[69:55] some inspiration you know try try out
+[69:57] like when you're doing some development
+[69:58] sessions with AI code.
+[70:00] Yeah. Basically I had lot of problem
+[70:02] with this AI when I'm trying to say that
+[70:04] okay check the state level and it's
+[70:08] changing the whole state things. So I
+[70:10] need to say specifically okay look for
+[70:12] this here in this code base or in this
+[70:14] project or sub project. So that can be
+[70:18] uh I mean directed to the correct path
+[70:22] is very important. I was not getting
+[70:25] that. That's why sometimes my code was
+[70:28] changed like horrible things. What you
+[70:30] are doing I become fed up with AI
+[70:33] and then I start doing by myself. You
+[70:35] don't have to do anything.
+[70:37] Yeah. I mean you know it's good to do
+[70:38] your own code too. I you know
+[70:40] and you know when I say okay revert back
+[70:42] to original he cannot revert back
+[70:45] because it cannot remember what changes
+[70:48] it has done.
+[70:49] Yeah.
+[70:50] Yeah. No, that Yeah, I you know I've had
+[70:54] one where this is actually a user
+[70:56] interface issue where something in the
+[70:58] Visual Studio VS Code like chat
+[71:02] interface.
+[71:03] Um if you hit let me see if
+[71:08] I think if I hit
+[71:10] escape at the wrong place or backspace
+[71:13] at the wrong place, it like offers to
+[71:15] undo everything.
+[71:17] Yeah.
+[71:17] And then if I hit it twice, it undoes
+[71:18] it. But there's no redo that I found.
+[71:22] Okay. Yeah.
+[71:23] So anyway, yeah. Yeah, it's good to um
+[71:28] it's good to be
+[71:29] about the prompting.
+[71:31] Yeah. Yeah. Getting good at prompting is
+[71:33] uh it's
+[71:34] kind
+[71:40] Thank you for everything.
+[71:43] Yeah. Yeah. It was good uh good times
+[71:45] and hope you all have a good weekend.

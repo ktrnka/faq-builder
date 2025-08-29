@@ -1,0 +1,1573 @@
+YouTube Video Transcript
+Video ID: GzXH65eiHWU
+Language: English (auto-generated) (en)
+Generated: Yes
+Total segments: 1565
+Total duration: 63:24
+============================================================
+
+[00:03] Oh, okay.
+[00:04] >> All right. There we go. Uh, all done. I
+[00:07] sometimes forget to unpause.
+[00:09] >> No, no problem. No problem. Um,
+[00:12] basically we're having this uh challenge
+[00:16] coming up and I'm wondering from your
+[00:18] perspective is there anything you would
+[00:21] uh be able to throw out to make it a
+[00:24] more
+[00:27] structured interesting possibly uh
+[00:31] successful venture
+[00:34] uh like uh identifying coding
+[00:37] parameters. I understand you can tell AI
+[00:40] you know you're an expert for example
+[00:42] you're an expert in this field uh based
+[00:46] on this particular type of framework you
+[00:48] know recommend what to do how to do it
+[00:51] and maybe even uh produce some
+[00:54] documentation along the way something
+[00:56] that would be very helpful in terms of
+[00:59] moving forward.
+[01:00] >> Yeah.
+[01:01] >> Almost like specifying a goal.
+[01:03] >> Yeah.
+[01:05] Yeah. So um when you say to be more
+[01:08] successful than last time actually could
+[01:10] you talk a little bit more about that
+[01:11] like what does success mean to you and
+[01:13] um you know what what are some areas
+[01:15] like compared to last time that you
+[01:17] would like to see uh work better?
+[01:20] >> Well in my sense it was a very good
+[01:22] learning experience. So I can't say it
+[01:24] wasn't successful. I think that's the
+[01:25] objective right now.
+[01:26] >> Well it was successful in that way but
+[01:29] maybe you know there are some parts you
+[01:30] weren't satisfied with.
+[01:32] >> Yeah. Well, let me let me tell you what
+[01:34] happened. uh in the context of our
+[01:36] project, we had about uh I'd say seven
+[01:38] or eight people on the team and uh you
+[01:42] know, I felt I was going to be a paperw
+[01:44] weight and maybe I was, but the fact is
+[01:48] I set about to doing something and even
+[01:51] though I didn't create the results in
+[01:53] time, you know, answering a ticket uh
+[01:57] and and to use Git effectively to get it
+[02:00] up there, I did manage to succeed in
+[02:04] creating this button and moving it to
+[02:06] where I wanted it to be on the page.
+[02:09] >> Originally, it had been placed right
+[02:11] next to an existing button on the upper
+[02:13] left corner, uh, which was a back button
+[02:17] basically. And, uh, I wanted it off to
+[02:20] the right. It was a print button, you
+[02:23] know, kind of print save what the
+[02:25] parameters were that people chose for
+[02:27] camping, for example. Mhm.
+[02:30] >> And uh well the bottom line is somebody
+[02:33] did take it upon themselves. They they
+[02:35] finished that and it was a beautiful
+[02:38] product and even though I didn't when I
+[02:42] did the demonstration I didn't have the
+[02:44] most current version. I hadn't pulled
+[02:46] the most
+[02:48] >> right. Yeah.
+[02:49] But um nonetheless, I felt very
+[02:52] accomplished
+[02:53] having gotten that button on the page
+[02:56] and uh doing exactly what it was
+[02:58] supposed to do. As a matter of fact,
+[03:01] when when uh Copilot
+[03:04] um I use VS Code, but when Copilot uh
+[03:08] did make the change that resulted in
+[03:10] putting the button at the right place,
+[03:12] it also created an error because it
+[03:14] introduced uh when you hit the button,
+[03:17] it would bring up the print dialogue
+[03:20] basically. Okay? And when you close it
+[03:23] out, it brought up the print dialogue
+[03:26] again. So the second time you closed it
+[03:29] out, it was closed. It was done. So I
+[03:32] had co-pilot, you know, tell me, okay,
+[03:35] what's going on? Why is it doing this? I
+[03:37] gave it context. And uh
+[03:41] actually, I think I gave it context for
+[03:43] the first thing, putting the button in
+[03:44] the right place because it kept saying
+[03:47] the button was already aligned and it
+[03:49] wasn't.
+[03:50] >> So I took the screenshot, gave that to
+[03:53] it for context. It used it, saw, oh,
+[03:55] okay. Well,
+[03:58] and uh so whatever it it was a wonderful
+[04:01] experience. Uh success would be
+[04:04] accomplishing something meaningful and
+[04:07] making use of uh GitHub properly,
+[04:11] >> knowingly. And I'm I'm on a path to
+[04:14] doing that by studying GitHub's manual
+[04:16] that's available right at the site,
+[04:18] GitHub Pro or something.
+[04:20] >> Yeah. So with with GitHub I will say um
+[04:24] I guess my experience with C-pilot and
+[04:26] VS Code is that uh generally I have to
+[04:29] do the GitHub stuff
+[04:31] >> but I can ask it questions
+[04:34] >> you know like
+[04:36] you know you'll remember like the basic
+[04:38] commands and stuff um you know as you
+[04:41] gain some experience but there's always
+[04:43] like some that you know even for me even
+[04:45] though I'm programming like every day I
+[04:48] don't remember every single command you
+[04:49] know so I got a look up stuff.
+[04:53] >> But, uh, so yeah, studying that's good.
+[04:56] And then, you know, like asking
+[04:58] questions often is good. Um,
+[05:01] and then
+[05:04] I think a part of what I've seen I I
+[05:07] don't know how it's gone with Joy of
+[05:08] Coding. I'm curious to hear um in some
+[05:12] hackathons is that it can take a while
+[05:14] to sort of get started. like figuring
+[05:16] out what the team wants to do might take
+[05:19] a significant amount of time and then um
+[05:22] and it might not also be clear like what
+[05:24] each person is going to be working on.
+[05:26] >> And so, right,
+[05:27] >> you know, a lot of the a lot of like
+[05:29] finding something that that is
+[05:31] satisfying and meaningful is sort of um
+[05:34] helping a group of people work through
+[05:36] those early stages sort of the people
+[05:38] problems quickly.
+[05:40] >> You know, what do we want to build?
+[05:42] Who's going to do what? um you know are
+[05:46] there any dependencies sort of figuring
+[05:48] that out early um naturally what I find
+[05:51] is that people as they gain more
+[05:53] experience they um in those kind of
+[05:56] session like once you have that
+[05:57] discussion with the team then you can
+[05:59] say oh actually I want to do something I
+[06:01] want to try something more substantial
+[06:02] this time
+[06:03] >> and so a lot of it's really that that
+[06:05] initial stage of like in the planning
+[06:07] stage making sure that the project as a
+[06:09] whole is ambitious enough
+[06:11] >> uh for the team but you know not so
+[06:13] ambitious that you can't actually built,
+[06:14] you know, you're set up to fail, you
+[06:16] know, something that's uh difficult but
+[06:19] achievable.
+[06:20] >> Yeah.
+[06:21] >> Yeah.
+[06:21] >> And then making sure that each person
+[06:23] individually has something that is sort
+[06:25] of difficult but achievable for them.
+[06:28] So, a lot of it really comes down to
+[06:30] that. And then yeah, forget it.
+[06:32] Definitely recommend um you know either
+[06:36] studying or uh honestly like if you've
+[06:39] got a printer, I would just print out
+[06:41] one of the github like the get cheat
+[06:43] sheets and just like tape it to the side
+[06:45] of my monitor.
+[06:47] >> Right. Right.
+[06:49] >> Actually, I've got like little post-it
+[06:50] notes like when I'm trying to learn
+[06:52] terminology, I'll just like put Post-it
+[06:54] notes all over.
+[06:56] >> Um so little things like that. Uh for
+[06:59] GitHub, I would recommend um uh
+[07:02] searching for like a tutorial just to
+[07:04] familiarize yourself if you're still
+[07:05] learning the basic commands.
+[07:07] >> Sure.
+[07:07] >> Because you kind of want to get some of
+[07:08] those like uh like some of those kind of
+[07:12] under your belt before you get started.
+[07:14] You don't want to have like delays from
+[07:15] that when you're on walk, you know?
+[07:18] >> Right.
+[07:18] >> Um
+[07:20] and then and that'll also help like lift
+[07:23] some of the time pressure off your
+[07:24] shoulder so that you're not feeling, you
+[07:26] know, kind of as worn out.
+[07:28] U you know if you because I tell you for
+[07:32] me I find that like you know once the
+[07:35] clock starts then like you know my
+[07:38] stress shoots up I'm like like oh I got
+[07:40] to go fast got to go fast and then I
+[07:41] start making dumb decisions you know
+[07:44] >> right
+[07:44] >> so like doing little bits of prep when
+[07:46] you can really like lifts a weight off
+[07:48] your shoulders
+[07:49] >> for those things.
+[07:50] >> Sure. Sure. Okay.
+[07:53] >> Um I'm trying to think other things in
+[07:55] terms of like doing something more
+[07:57] ambitious. Yeah, for for group projects
+[07:59] it's all about uh collaborating with the
+[08:02] group and um making sure that you have
+[08:04] ambitious enough stuff and then um
+[08:09] you know you're I guess you're at the
+[08:11] level where you've done some some UI
+[08:14] work and um so you could start to do
+[08:18] more ambitious UI work. That's one
+[08:20] direction you can go. Um, another
+[08:23] direction you can go is to really focus
+[08:25] on sometimes people call it like polish
+[08:27] or finish but um,
+[08:31] uh, focusing on like the quality of the
+[08:34] experience, not not as much the
+[08:35] features,
+[08:37] >> right?
+[08:37] >> That's another thing that uh, in
+[08:39] hackathon projects I find um, there's so
+[08:43] much energy goes into making it work at
+[08:44] all that
+[08:46] >> Oh, yeah. Yeah. Right.
+[08:49] >> But yeah, you have a lot of directions.
+[08:50] A lot of it comes down to like that
+[08:52] initial conversation, you know, being
+[08:55] candid with the team of like what you
+[08:56] think you can and can't do and say,
+[08:59] "Hey, you know, I really want something
+[09:00] that'll stretch me a little bit here."
+[09:02] Um, in that conversation, a lot of it's
+[09:04] that initial conversation of like, you
+[09:06] know, I want I want to be pushed a bit
+[09:09] here and and take something a little bit
+[09:11] more ambitious, but not like, you know,
+[09:14] being candid and honest with people of
+[09:15] like, hey, you know, if you tell me to
+[09:17] build this whole thing over here, I
+[09:18] probably can't, but um, you know, I'm
+[09:21] willing to try for a day and then just
+[09:23] check back or something, you know.
+[09:24] >> Sure. Sure.
+[09:26] >> So, a lot of it's Yeah, it's working
+[09:27] with the team.
+[09:28] >> I think I think Dr. Emily's uh objective
+[09:31] in this is to practice vibe coding to to
+[09:35] find out what it's about. Uh she's going
+[09:39] to have uh some more experienced people
+[09:41] take new people under their wings just
+[09:44] to get a taste. Yeah.
+[09:45] >> You know, this is kind of an idea of
+[09:48] what you're going to look forward to in
+[09:49] the future.
+[09:51] >> And uh I think that's that's brilliant.
+[09:53] >> I think that's that's a great way to
+[09:55] look at it. And I think so if you're if
+[09:58] you're putting in the time and she's
+[09:59] making sure everybody's got support,
+[10:01] then I think you're going to be set up
+[10:03] to learn kind of no matter what, right?
+[10:05] And so go up, you put in the effort,
+[10:07] you're going to learn.
+[10:08] >> Um,
+[10:09] >> right.
+[10:10] >> And I think, you know, what we're
+[10:11] getting at now is like going sort of a
+[10:13] step beyond, you know, just learning
+[10:15] into
+[10:17] um maximizing how much you learn and
+[10:20] also maximizing your like personal
+[10:22] satisfaction with that, which will help
+[10:24] you learn more. You know, if you feel
+[10:26] that personal sense of satisfaction and
+[10:28] an ownership.
+[10:29] >> Sure.
+[10:31] >> And it's gratifying while you're on the
+[10:32] journey. Yep.
+[10:33] >> Yeah. Yeah. And, you know, of course,
+[10:36] like like any of these things, you know,
+[10:38] you want to um find things that you're
+[10:41] excited about, but also things that kind
+[10:43] of align with the group. So, there's
+[10:44] always this, you know, kind of give and
+[10:46] take uh with the team. Not everybody's
+[10:48] going to be um
+[10:52] you know people might be excited about
+[10:54] some things that don't don't really
+[10:55] align with the group or there'll be
+[10:56] things that you know the group needs
+[10:58] that you know aren't that exciting but
+[11:00] you know you find some kind of kind of
+[11:01] trade-off there so you can have like try
+[11:04] to find a balance between things that
+[11:05] are um
+[11:07] >> you know important and necessary and
+[11:09] enjoyable. Ideally, they're, you know,
+[11:11] one and the same, but, you know,
+[11:13] >> it's more complicated than that,
+[11:15] >> right?
+[11:17] Yeah. Well, thank you.
+[11:19] >> Yeah. Yeah. Does that that help uh a
+[11:22] bit?
+[11:22] >> I believe so. Yeah.
+[11:24] >> Yeah. Yeah, sorry I don't have like
+[11:25] there's no you know complete answer on
+[11:27] that one but a lot of it comes down
+[11:30] especially in hackathons it really comes
+[11:31] down to like the communication aspect
+[11:34] with the group and and making sure that
+[11:37] uh
+[11:39] you know people know sort of your
+[11:41] current capabilities and u know that
+[11:44] you're looking for some like more of a
+[11:47] challenge to level up um faster. And so
+[11:50] a lot of it really comes down to and
+[11:52] especially in group projects like
+[11:53] working with the group
+[11:55] >> um to push yourself. Um if those
+[11:58] conversations don't go well, a plan B
+[12:01] option that you can explore is to try to
+[12:06] ask yourself like the the overall goal
+[12:08] of the project from the user's
+[12:09] perspective and try to imagine what it's
+[12:12] like to use the thing that you're
+[12:15] building and identify gaps in the
+[12:17] planning of the the team or the group.
+[12:19] and then proactively try to solve this.
+[12:22] >> Okay,
+[12:23] >> so that's that's one way to one way to
+[12:26] go. Um, you know, that's kind of like a
+[12:29] plan B. Plan A is real like, you know,
+[12:31] talk to group, have candid
+[12:32] conversations. Uh,
+[12:36] especially in software, it can be a
+[12:37] little bit awkward at first, but
+[12:39] everybody in joy of coding has been
+[12:40] pretty friendly. So, you know, I think I
+[12:42] think that'll go well.
+[12:42] >> Oh, yeah. You know,
+[12:43] >> very friendly. You just got to like get
+[12:45] over that that hump of like having that
+[12:48] candid conversation about like, okay,
+[12:51] here's where I'm at and what I'm looking
+[12:52] to get out of this if I can and I want
+[12:54] to improve as much as I can, too.
+[12:57] >> All right. Right.
+[13:00] >> Thank you very much. I've got another
+[13:01] one right out of left field.
+[13:03] >> Yeah, shoot.
+[13:06] Considering LLMs and and the nature of
+[13:09] programming to make effective use of
+[13:11] them, um
+[13:15] is there any tie to data science? I mean
+[13:17] it would there be a reason to pursue
+[13:20] data science to help facilitate
+[13:25] that direction in programming? Um,
+[13:30] you mean like like what do I think is
+[13:32] going to happen to the field or do I
+[13:33] think it would help like in at an
+[13:35] individual level?
+[13:37] >> Kind of at an individual level to turn
+[13:39] out quality results. That's what I'm
+[13:40] thinking because it's like balancing the
+[13:43] the the
+[13:45] data sources. I guess the paths to get
+[13:47] there. I'm I'm not really sure, but
+[13:50] that's
+[13:51] >> seems to be the common elements.
+[13:54] >> Yeah. No, you're right on. Um, so I
+[13:56] would say that
+[13:59] so data science I I use data science as
+[14:01] kind of like a catch-all term for, you
+[14:03] know, kind of everything. Um,
+[14:05] >> yeah,
+[14:06] >> you know, every couple years the terms
+[14:08] change a little bit, so I try not to
+[14:10] fuss about that too much. But I would
+[14:12] say in general
+[14:15] >> um
+[14:17] >> what I've found is that my experiences
+[14:20] in data science help me get more
+[14:23] effective value out of LMS for coding.
+[14:27] >> Um I'll give you a couple examples. Um,
+[14:29] some of it actually just has to do with
+[14:31] like leadership experience and like um,
+[14:34] you know, understanding what it what
+[14:37] context I have to give to a junior
+[14:38] engineer or a mid-level engineer or a
+[14:40] senior engineer for them to do good
+[14:42] work,
+[14:43] >> right?
+[14:44] >> So, you know, that's a lot of it. But
+[14:46] the data science stuff, uh, you know, a
+[14:49] good a good example in data science is a
+[14:52] focus on metrics, a focus on, um, okay,
+[14:55] we have some goals. well, how can we
+[14:57] measure it and how can we see if we're
+[15:00] making like incremental progress towards
+[15:01] that goal?
+[15:03] >> And so, you know, that's an aspect of
+[15:05] data science that I would say um can
+[15:08] help
+[15:09] um you know, is sort of
+[15:13] taking that like, okay, what's the
+[15:14] outcome we're looking for and then how
+[15:16] are some ways we can measure that. Um,
+[15:19] and when you start weaving that into
+[15:22] your work with LLM coding and vibe
+[15:25] coding, then you start to build systems
+[15:28] that are more measurable and that are
+[15:30] more on track for the goals that you're
+[15:32] you have in mind. Um, so that can help.
+[15:36] >> Um,
+[15:38] >> I imagine a tremendous amount of that
+[15:40] might have to do with generating
+[15:44] good prompts.
+[15:47] So a lot of it comes comes out in the
+[15:48] prompts that you do you know um
+[15:53] uh so so with something like metric you
+[15:56] know a lot of it for for me is like
+[15:58] providing lots and lots of context about
+[16:00] the goals and sort of the high level
+[16:02] product or business goals that we have
+[16:05] our objectives
+[16:07] um
+[16:09] and
+[16:09] >> yeah I saw one that you made you know we
+[16:11] were looking over your shoulder one one
+[16:13] that you made was just astounding it's
+[16:15] like oh my god
+[16:17] you know, it was beautiful.
+[16:19] >> Oh, well, thanks. Uh
+[16:22] uh yeah, I'll put I'll put a quote of
+[16:24] that on my wall. Beautiful prompts. Um
+[16:28] but uh
+[16:30] yeah, I mean a lot of it's like let me
+[16:33] see if I can find a recent one that I've
+[16:36] done. Um
+[16:40] so in terms of of the the things that
+[16:42] you gain in data science, some of it is
+[16:44] about sort of thinking uh sort of
+[16:46] systematically taking a complex problem,
+[16:49] breaking it down into pieces. Uh another
+[16:52] thing that helps from data science is
+[16:53] focusing on evidence. So you might have
+[16:56] the things that you think are going on,
+[16:57] but you have like what's the actual
+[16:59] evidence that you have, you know,
+[17:00] >> right?
+[17:01] >> And trying to separate those things in
+[17:03] your head. Well, this is my guess and
+[17:05] then this is this is what I know for
+[17:07] sure. You know, this is what I've
+[17:08] observed and uh that that can help with
+[17:11] LM. So, I would say that in general data
+[17:15] science can help uh get some more
+[17:18] mileage out of LLM coding. Um
+[17:23] trying to think if it
+[17:27] Yeah, some more mileage out of it. The
+[17:29] other stuff is really like I think for
+[17:33] prompt engineering like having an
+[17:35] understanding of how the systems sort of
+[17:37] work under the hood uh can help in terms
+[17:40] of
+[17:42] you know it it sort of primes you to be
+[17:45] thinking like okay how do I write
+[17:47] something so that I get the kind of
+[17:49] output that I'm looking for. Um, so it
+[17:53] can help. It can kind of help.
+[17:55] >> Other than the volume of tokens that are
+[17:57] generated from your prompt,
+[18:00] >> do you ever think about tokens and and
+[18:03] what tokens are being, you know, other
+[18:06] than the volume?
+[18:08] um
+[18:09] >> I guess is
+[18:11] >> sort of um
+[18:16] sort of so the times that I think about
+[18:19] the number of tokens when I'm like using
+[18:21] LM for coding um one problem happens is
+[18:24] if uh say I've
+[18:28] um had this like long coding session
+[18:31] what'll happen is that periodically
+[18:33] you'll see like it has to summarize and
+[18:35] when it goes and summarizes it tends to
+[18:37] forget stuff because it can't retain the
+[18:40] whole context. And so, um, that's that's
+[18:43] one that I notice and then like I'll
+[18:45] tend to like reexlain some things after
+[18:47] that happens.
+[18:49] >> Also, because that I know that it's
+[18:51] going to lose information,
+[18:53] uh, I'll start to build persistent
+[18:55] information into documentation and then
+[18:58] I'll just ask it to reread the
+[18:59] documentation instead of having to
+[19:01] reexplain myself.
+[19:03] Um, so that's sort of like working
+[19:05] around these like artificial context
+[19:07] limits. Um, or artificial is not the
+[19:10] right word. Um, just working around the
+[19:12] context limit problems,
+[19:14] >> right?
+[19:15] >> Um,
+[19:16] another case is that I've had this this
+[19:19] problem happen a few times where um, say
+[19:22] I have a prompt and LLMs will tend to
+[19:27] gravitate towards the topics that use
+[19:29] the most tokens.
+[19:31] Um, so if I spent five paragraphs
+[19:34] talking about one thing and only one
+[19:36] sentence talking about another thing,
+[19:38] it's going to be
+[19:41] I will say put more effort into being
+[19:44] consistent with the five paragraphs
+[19:45] versus the one sentence.
+[19:47] >> Right?
+[19:47] >> That makes sense. So that's one thing
+[19:49] that goes on in the back of my mind is
+[19:51] that I have to be a little bit careful u
+[19:53] when I'm explaining things not to spend
+[19:56] too much time on an unimportant topic
+[19:58] because then it may focus on the
+[19:59] unimportant topic.
+[20:01] Okay.
+[20:01] >> Um, but those are those are really the
+[20:03] the times that I think about tokens. Um,
+[20:07] >> um, yeah,
+[20:09] >> wonderful.
+[20:10] I'm sorry those came out of left field,
+[20:12] but it's valuable knowing.
+[20:14] >> No, no, it's Yeah, and I think with
+[20:16] other systems too, you know, I have a
+[20:18] friend that was telling me about using
+[20:22] >> maybe they're using cursor or some other
+[20:24] system where they sort of like pay more
+[20:27] per token rather than like using
+[20:29] copilot. It's just like a monthly and
+[20:32] then sure I can run out of some credits
+[20:33] but it's fine. Um,
+[20:35] >> sure.
+[20:36] >> So, you know, if I were if my bill were
+[20:39] directly proportional to my usage, I
+[20:41] might think about it more, but uh
+[20:44] >> Yeah.
+[20:45] >> Okay.
+[20:45] >> So far, it's not.
+[20:51] >> Well, I believe Turtle Wolf had a uh
+[20:53] >> Yeah, I saw. Let's see. So,
+[20:56] sorry.
+[20:57] Uh hopefully your your uh system's
+[21:00] working okay there. Um,
+[21:04] so let's see. If I ask Claude to make
+[21:06] SVGs, do I own the copyright? Does the
+[21:08] license on my repo give away any implied
+[21:11] ownership?
+[21:13] Uh, Geminina has several answers
+[21:17] just prompting. Uh,
+[21:22] so let's see here.
+[21:27] Uh,
+[21:29] so if you have SVGs in your repo and
+[21:34] there's a license on the repo,
+[21:37] I believe the license on the repo
+[21:38] probably applies to those to anything
+[21:41] stored in there. Um, it doesn't
+[21:43] generally the license on the repo is a
+[21:45] license not ownership
+[21:47] and so you know it's not transfer of
+[21:50] ownership. It's sort of saying what
+[21:51] people can use it for. Um, so that's a
+[21:54] little bit different. And I should
+[21:56] caveat, you know, I'm not a lawyer. Like
+[21:59] I know a little bit of, you know, I've
+[22:01] I've had my brushes with with these
+[22:02] topics, but I haven't haven't had to
+[22:04] deal with them much. Um, you know,
+[22:07] certainly not in court yet, thankfully.
+[22:11] And then, um, in terms of of copyright
+[22:14] ownerships, my understanding with that
+[22:16] is that
+[22:18] people have opinions on it, but my
+[22:20] understanding is that it hasn't been
+[22:21] tested in court yet, at least in the US.
+[22:24] And so, um, you know, until
+[22:27] there's a court case, I don't I don't
+[22:29] think we'll really have
+[22:32] resolution on that one. Um,
+[22:37] trying to think if I have I seen
+[22:38] anything
+[22:43] I've just noticed that Claude's
+[22:44] particularly good at SVGs. if you ask
+[22:47] for your art in code form. You know, I
+[22:51] always was fascinated by SVGs, but I've
+[22:54] had trouble finding a good SVG editor
+[22:56] that I could afford. And I like way like
+[22:59] seeing that, you know, here's each
+[23:01] element you're drawing and it's XML
+[23:04] format.
+[23:06] And so, yeah, I'm really digging the the
+[23:09] SV SVGs coming out of the cloud, but
+[23:10] then I put those into a repo and I
+[23:12] started thinking about it. you know, by
+[23:14] default, I'm usually using like a I
+[23:16] don't know, Apache 2 or MIT. And I
+[23:19] thought, well, do do I want to do these
+[23:21] unlicensed? Do I want to do them no
+[23:23] license? Like I don't know if I really
+[23:25] because I really some of the things I
+[23:27] started thinking about is like I could
+[23:28] print those out as like study cards, as
+[23:30] like playing cards or something. And I
+[23:32] already did like a children's book
+[23:33] earlier in the year. And so I don't know
+[23:35] if when I put that up, you know, I got
+[23:37] I'm used to doing open source but more
+[23:40] for the code. I'm not really thinking
+[23:41] about it from like a UI or a graphic
+[23:43] design point of view, which is my
+[23:45] original, you know, originally I was a
+[23:47] photographer before I ever started doing
+[23:48] code. So, it it started making me think
+[23:51] about that, you know, if I make these
+[23:54] study playing cards in SVG format that
+[23:57] are kind of unique and, you know, help
+[24:00] me study and those are usable to other
+[24:02] people. I don't mind putting those in a
+[24:04] repo, but if I printed those as playing
+[24:06] cards, I kind of like to keep the rights
+[24:07] on that somehow.
+[24:09] >> I see. CD.
+[24:11] >> So if it was say if it was something
+[24:13] like playing cards, probably
+[24:17] if it were me in that kind of situation
+[24:19] where I'm like I'm not exactly, you
+[24:21] know, I might want to sell them. Um but
+[24:25] I might want to have some kind of free
+[24:27] version of them. I would probably do um
+[24:31] I would probably keep the SVGs out of
+[24:34] the repo. Um because the sort of the
+[24:37] code's open source I try to not mix
+[24:40] actually this happens in industry a lot
+[24:42] where you try to be careful not to mix
+[24:45] uh you know the code that's open source
+[24:48] under a very permissive license and sort
+[24:50] of closed source which is very locked
+[24:52] down. Um I would do the same uh with
+[24:54] with something like that. But, uh, say
+[24:57] if you wanted to use them in your
+[24:58] project, what I might do is convert them
+[25:00] to, you know, JPEG or GIF or PNG or
+[25:05] something, but like lower res. And so
+[25:08] then, you know, you can have kind of
+[25:09] like a low res version in your repo.
+[25:12] Um, you know, maybe maybe even
+[25:15] watermarked or something.
+[25:18] Well, the whole reason I mean to tie
+[25:20] this into,
+[25:21] you know, more of the topic of the day,
+[25:24] the whole reason I was putting those in
+[25:25] there, you know, Claude not only makes
+[25:27] those, but I was going to kind of dog
+[25:29] food back and like, okay, now I need
+[25:31] bigger fonts, bolder fonts, you know,
+[25:33] make sure that or doesn't overlap. So, I
+[25:34] was actually going to have thought to
+[25:36] iterate on the the on the code in the
+[25:38] SVGs to improve those a little bit,
+[25:41] putting those, you know, that was the
+[25:42] first thing I put in the repo. It
+[25:43] actually was the SVG, so it could start
+[25:45] iterating on those.
+[25:47] >> I see. Yeah. Um,
+[25:51] >> I could make it a private repo, I guess,
+[25:53] and then make a public once I get done
+[25:56] with, you know, once I get the SVGs
+[25:58] edited the way I want them, then do a,
+[26:00] you know, a public branch maybe or
+[26:01] something like that.
+[26:03] Yeah,
+[26:04] >> I guess there are workarounds. I just
+[26:05] haven't thought all the way through it
+[26:06] yet.
+[26:07] >> Yeah, you can do something like a
+[26:08] private repo. Um, especially if you're
+[26:10] worried about sort of what what the
+[26:13] usage of it is. I would definitely
+[26:15] recommend, you know, starting off
+[26:17] private. You could always make it public
+[26:18] later, like you said.
+[26:21] Um,
+[26:23] yeah. I'm trying to think if I've have I
+[26:32] Yeah, honestly for for
+[26:35] uh for generating images,
+[26:38] I don't think I've seen that tested in
+[26:41] court yet, like any of the ownership
+[26:43] around that.
+[26:45] Um,
+[26:51] it's probably coming. Like, I would
+[26:53] guess probably in the next year or two.
+[26:56] Like, I'm sure there's court cases that
+[26:57] have been started, but I don't think I
+[26:59] haven't heard of any that have resolved
+[27:01] yet.
+[27:14] Yeah, sorry. I wish I knew more about
+[27:16] copyright to tell you, but uh I think
+[27:19] copyright part of the thing that's
+[27:21] really challenging with um legal topics
+[27:23] is is that there's like
+[27:26] there's
+[27:28] what's written in the law and that
+[27:30] changes depending on where you are in
+[27:31] the world and you have multiple
+[27:32] jurisdictions and all kinds of problems.
+[27:35] Um, and then there's the sort of status
+[27:38] quo interpretation of that and then
+[27:40] there's sort of what the legal precedent
+[27:43] is in terms of enforcement and like all
+[27:46] those things kind of affect what what
+[27:47] actually happens. Um, and then
+[27:50] unfortunately like being in software a
+[27:54] lot of the
+[27:57] experience that I've had
+[28:00] really comes down to like you know a
+[28:02] friend of a friend
+[28:04] uh had like one experience with the
+[28:07] legal system involving some of these
+[28:09] things and it's like you know but then
+[28:11] you might hear a different friend of a
+[28:13] friend had the opposite experience.
+[28:17] Um, so I yeah, I wish I had a better
+[28:21] answer for all that.
+[28:26] >> They're they're still in rough draft
+[28:28] form anyways, but I threw them in the
+[28:29] chat just because I was pretty happy
+[28:30] with how the the first draft turned out.
+[28:33] >> Oh, I'm looking at No, that's pretty
+[28:35] cool.
+[28:37] >> I originally started with the what I
+[28:39] call tier tier two, I guess.
+[28:44] See? Yeah, those are the 15.
+[28:47] >> Yeah,
+[28:48] >> patterns from leak code originally.
+[28:51] And then when I started trying to match
+[28:52] those up on the, you know, when I was
+[28:55] actually working through on the
+[28:56] problems, that's the quad's advice was
+[28:58] they were too complicated. I I needed
+[29:00] the more basic building blocks to get to
+[29:02] those. That's when I backed up and did
+[29:04] the tier one stuff.
+[29:06] I started with I think the if else
+[29:08] blocks and the switch blocks and I was
+[29:10] like, well, there's some other basic
+[29:11] stuff we could back fill in there.
+[29:13] Yeah, I could see like
+[29:18] actually. So, how does font stuff work
+[29:19] with SVGs? I I haven't I haven't done
+[29:22] that before.
+[29:24] >> It's a good question.
+[29:26] The only thing I know is I want it, you
+[29:28] know, bigger and bolder. Like I said, I
+[29:30] got old man eyes, so I want to be able
+[29:31] to what I really want to be able to do
+[29:33] because I know a lot of like you're when
+[29:35] you're testing for like an interview,
+[29:38] you're that's the whole thing is getting
+[29:40] ready for that tech interview. That was
+[29:41] always always my weak point. But they
+[29:43] don't want you to like even click out of
+[29:45] the tab or that window. You know, if you
+[29:47] go to another tab or another screen,
+[29:49] they assume you're cheating. But if I
+[29:51] had some kind of paper printed out at my
+[29:53] desk, you know, flip cards or flash
+[29:54] cards I could shuffle through real
+[29:56] quick, like, oh, how would I write this
+[29:58] in Python or what's the syntax to start
+[30:00] that code block off with? That's a lot
+[30:02] of times where I get stuck on a timed
+[30:04] interview, I think. So, got it.
+[30:06] >> I think having a paper print out of that
+[30:08] would really come in handy sometimes.
+[30:12] Yeah. Yeah, I see what you mean.
+[30:15] I'm trying to think. It's It's tough,
+[30:17] too, because like these things um you
+[30:19] kind of want them to I kind of like the
+[30:20] idea of them being these like little
+[30:22] cards. Uh but at the same time, it's
+[30:25] tough to fit so much text on them,
+[30:26] right?
+[30:28] Um
+[30:31] >> well, I always come at it too from like
+[30:33] a a game designer. Like I was always
+[30:35] into role playing games, like a game
+[30:36] master. And so I'm always thinking like,
+[30:39] you know, my original prompt even
+[30:40] suggested, you know, Magic the Gathering
+[30:42] type cards. And that's why I put the
+[30:43] complexity number in the top right like
+[30:45] the mana. It's like, oh, this is a a
+[30:47] twopoint complexity problem. So I
+[30:49] started wondering if there's a way to
+[30:50] make a card game out of it. Like, well,
+[30:52] I'll solve you with a case block.
+[30:54] >> Yeah. Yeah. No, I think that's it's fun.
+[30:58] I I like the
+[31:04] and you know like studying is is one of
+[31:06] those things it's like you know it can
+[31:08] be kind of mind-numbing. So any kind of
+[31:09] fun you can have in studying is great.
+[31:14] Yeah.
+[31:17] Huh.
+[31:18] Yeah. I'm trying to think. So the Yeah.
+[31:21] Yeah, the hard part with a lot of the
+[31:22] like um you know some of the topics are
+[31:25] kind of complex and it's hard to explain
+[31:29] it with just one little diagram, you
+[31:31] know, uh you kind of need you know like
+[31:35] like you've got you need some some
+[31:37] programming, you need some code on
+[31:38] there, you need some some words to
+[31:40] describe it. Uh
+[31:43] I think that's a cool goal though. I I
+[31:46] don't know how to solve it at all. I
+[31:48] think it's a really interesting
+[31:50] challenging goal though.
+[31:56] >> I'm looking for the first drafts and I
+[31:59] was really doing it's just like
+[32:00] highlighters and uh
+[32:04] I was just these these were kind of
+[32:06] going to be my first draft. I was really
+[32:07] doing them like abstract almost like
+[32:09] paintings just like here's a blue block
+[32:11] for you know definition or
+[32:15] >> Yeah. or a yellow block for a variable
+[32:17] kind of thing.
+[32:19] >> Yeah. So, did you um
+[32:22] >> did you like take a picture of those
+[32:24] ones that you did by hand and then sort
+[32:26] of said, "Hey, oh yeah.
+[32:28] >> Oh, very cool. I love it."
+[32:30] >> That's why I was looking for it is
+[32:31] because it, you know, it was kind of
+[32:32] like somewhere in the middle of graphing
+[32:34] it out, but not trying to be is trying
+[32:37] to leave it as abstract as possible, but
+[32:38] almost do it like little Lego blocks
+[32:40] chunked together.
+[32:42] >> Yeah. No, I love that that style because
+[32:45] uh and you're right on that like so many
+[32:47] times you kind of you can picture what
+[32:49] you want, you can draw it on a page, but
+[32:53] then the work of turning that into an
+[32:55] SVG is like a you know it's a lot of
+[32:59] work, you know. So,
+[33:02] >> and it's not this first time I've seen I
+[33:04] mean I have seen Claude do some really
+[33:06] crummy SVGs, but I mean I would have
+[33:08] done crummy ones myself, but I've also
+[33:10] seen it when I really the first time I
+[33:12] asked to do some steampunk and it
+[33:15] knocked those out of the park and I was
+[33:16] like, "Okay, I'm going to remember that
+[33:17] and come back to it." So, uh steampunk
+[33:20] logos. I mean, there's some stuff that
+[33:22] it just depends on the style you're
+[33:24] looking for, I guess, but there's some
+[33:26] stuff
+[33:26] >> that it really knocks it out of the park
+[33:28] on SVGs.
+[33:30] >> Oh, okay. I'll have to keep that in
+[33:32] mind.
+[33:33] >> Funue too. I did my office funue a
+[33:36] couple weeks ago. I I did like a graph
+[33:38] of the office. I drew it off like 13
+[33:41] squares by 13 squares. And then I I was
+[33:44] like, these are all the biggest pieces
+[33:45] of furniture that have to go somewhere.
+[33:47] Like a bookcase is so many squares. The
+[33:49] desk is so many squares. That chair is
+[33:51] so many squares. And so I was like, I've
+[33:53] got a door here, a door here, a window
+[33:55] there. The sun rises here, sets there.
+[33:58] And so I put all that in there. said
+[34:00] funue it for me that come up with the
+[34:02] best arrangement it could figure out.
+[34:04] That's what got me thinking down that
+[34:05] pathway.
+[34:07] It that drew those in SVGs too.
+[34:10] >> I like that. I mean I love like
+[34:14] personally I love starting on like pen
+[34:16] and paper, pencil and paper. Just I feel
+[34:20] like it's a really effective way for me
+[34:23] personally to kind of like think on the
+[34:25] page.
+[34:26] Um, and so I love this. Like I, you
+[34:30] know, use it to do like the the
+[34:32] frustrating mechanical parts of figure
+[34:35] out SVGs for me. You know, I know I want
+[34:37] it to look kind of like this. Figure out
+[34:39] all the details. Uh, yeah, I think
+[34:42] that's a great I think in this case it
+[34:44] would probably be like So in this kind
+[34:47] of
+[34:50] uh
+[34:53] I found it. I know they're gonna look
+[34:54] horrible on this camera, but we'll get
+[34:55] us in focus as much as possible.
+[34:58] >> Oh, easier just to like look through my
+[35:00] uh
+[35:01] >> folder where I've downloaded them.
+[35:06] >> Oh, yeah. Yeah.
+[35:14] Yeah.
+[35:16] >> Yeah. That those were my original study
+[35:17] notes. I was like, there's got to be a
+[35:19] better way to do that. So, I took that
+[35:20] photograph in and started talking to
+[35:22] Quad about it. That's several iterations
+[35:24] later.
+[35:26] >> That's cool. Actually, it kind of when
+[35:29] you're showing it like that, they kind
+[35:31] of looked a little bit like postcards to
+[35:33] me.
+[35:35] >> And now thinking like that would make a
+[35:37] kind of funny postcard, you know? It's
+[35:40] got like programming concepts on one
+[35:42] side. I sent a postcard to someone.
+[35:45] >> Yeah,
+[35:46] >> that would be cool.
+[35:48] >> If Niagara Falls go to line four
+[35:53] Yeah. Yeah.
+[35:57] Yeah. So, so in that kind of a case then
+[35:59] um I think some folks might consider
+[36:02] that to be like AI sort of doing the
+[36:04] work of of converting your original work
+[36:07] into a different form. And so,
+[36:11] you know, it might be considered that
+[36:12] way kind of like, you know, if you run
+[36:14] something through like uh like an image
+[36:16] filter to make it sharper or something
+[36:18] like that. um it doesn't sort of change
+[36:21] you know whose it is.
+[36:22] >> Well, I wondered too I don't know how
+[36:24] much I originally based those 15 you
+[36:28] know that tier two on the leak code
+[36:31] patterns.
+[36:32] >> So I don't know if those are
+[36:34] >> kind of best practices across the
+[36:35] industry or if those are specific like
+[36:37] the way they've named them and set up
+[36:39] those illustrations. I don't know if
+[36:40] those are very specific to what leak
+[36:42] code would even have rights on maybe. So
+[36:44] they may come back and I don't think
+[36:46] they would but
+[36:48] >> in theory come back and say oh that's
+[36:50] that's our parable for how to do ripple
+[36:54] programming or dynamic programming
+[36:56] p posters or whatever.
+[37:00] >> Yeah maybe I
+[37:01] >> I might be out brainstorming outside the
+[37:03] box just to think defensively a little
+[37:05] bit but you never know really.
+[37:07] >> Yeah. Yeah. I mean I guess usually I'm
+[37:11] in usually I work in startups. So uh
+[37:15] usually what happens in startups is that
+[37:18] the company just dies and then it
+[37:20] doesn't matter anymore. So
+[37:24] you know I've gone through so many
+[37:25] projects where uh
+[37:29] it did it didn't end up mattering. Um,
+[37:33] so I I tend not to worry about it too
+[37:35] much, but
+[37:36] >> move move faster and break le break more
+[37:38] things.
+[37:40] >> Yeah. Well, a little bit. You know, I
+[37:43] think there is I guess I will say that
+[37:44] there's uh
+[37:50] you know, I don't I don't always take
+[37:52] that stance of kind of move faster, move
+[37:54] fast and break things, but um
+[37:57] I would say like when say if I'm
+[38:00] creating something and I create some
+[38:02] kind of derivative work, um you know, my
+[38:06] my real check is like, you know, is this
+[38:08] do I think this is harming the original
+[38:10] creator of this in some way, shape,
+[38:12] perform. Um, you know, I try to take a
+[38:15] step back from sort of the legal way of
+[38:18] thinking to more of just like thinking
+[38:19] about the ethics of it, right? Thinking
+[38:21] about just like what does this mean to
+[38:23] another person, you know? Uh, try to
+[38:26] think from kind of more of a people
+[38:27] perspective. Uh,
+[38:30] because the legal stuff like that kind
+[38:33] of comes into play generally when
+[38:35] startups get big. Actually, what you're
+[38:37] seeing with Open AI, right? Nobody cared
+[38:39] when they weren't making money. Now that
+[38:41] they have money, everyone suddenly
+[38:43] cares, you know. Um, and that's just the
+[38:46] nature of startups, right? So,
+[38:49] um, and most of the time it's like, ah,
+[38:52] you know, you do you try something out,
+[38:54] it doesn't work out, you throw it away,
+[38:57] you try a different direction. So, a lot
+[38:58] of startup work is is uh things where
+[39:01] you're experimenting to figure out like
+[39:03] what makes sense for you, for your
+[39:05] company, for your your users and such.
+[39:07] So, you you cycle through a lot of ideas
+[39:09] real quick. Um, and that's sort of the
+[39:13] move fast and break things mentality is
+[39:15] like trying out different things. Not
+[39:17] necessarily like,
+[39:19] uh, I think the the statement move fast
+[39:22] and break things got a little bit used
+[39:25] as an excuse to be like, well, we got to
+[39:26] move fast, so we're going to hurt
+[39:28] people, you know? It's like, no, no, no.
+[39:30] Like like still be ethical. Come on. You
+[39:33] know. Um, but uh, you know, at least to
+[39:37] the best of your ability. Um, so
+[39:41] yeah. Yeah. I
+[39:44] Oh yeah. Silicon Valley. Yeah. Silicon
+[39:47] Valley was like
+[39:51] it's like some of it's too real. It's
+[39:54] it's too real. It's uh
+[39:59] like some of the dysfunction in it is
+[40:01] just very very relatable. Um,
+[40:08] yeah, I remember older than that was
+[40:10] Office Space. I remember Office Space
+[40:12] came out maybe when I was in college. I
+[40:15] saw it. I thought it was the funniest
+[40:16] thing in the world, you know, hilarious.
+[40:19] Me and my friends would like quote it to
+[40:20] each other. And then uh, you know, I
+[40:23] joined industry years later. Then I was
+[40:26] like, "Oh, I haven't seen Office Space
+[40:27] in a while. Let me watch that." It was
+[40:29] like suddenly it was like too real. It
+[40:31] wasn't funny. It was like it was like oh
+[40:33] this is my this is what happens in my
+[40:35] daily life is people arguing about the
+[40:37] formatting of a document or like I'm
+[40:41] just like oh
+[40:44] so yeah Silicon Valley can do that for
+[40:46] some people some people have trouble
+[40:47] watching it because it's too close to
+[40:49] home
+[40:51] even though you know it's good satire
+[40:52] but sometimes it's like a little bit
+[40:55] a little bit close to home
+[41:00] you know I have not filled out my TPS
+[41:03] report this week. So, you know, uh
+[41:09] actually, no. Luckily, I haven't I
+[41:11] haven't had to deal with that in a long
+[41:12] time.
+[41:29] What other kinds of things are is on
+[41:31] everybody's mind?
+[41:36] >> Stick with AI. I'm debating on if it
+[41:38] because I've got Claude I think trying
+[41:40] to remember the difference. Pro is $20 a
+[41:43] month and max. So there's a hundred
+[41:46] there. They have $100 a month, $200 a
+[41:49] month, and $20 a month. I think I just
+[41:52] downgraded from the 100 to the 20. I
+[41:54] think I went from max to pro.
+[41:57] But what I noticed is doing a
+[42:00] So, if you don't have that, uh I think
+[42:03] Bob has it. So, you've not done any uh
+[42:07] cloud at the command line yet?
+[42:09] >> I haven't. Um I use um so I am using
+[42:14] claude but I'm using it through uh
+[42:16] co-pilot through GitHub copilot in
+[42:19] Visual Studio Code. Um
+[42:22] >> and
+[42:25] I actually don't entirely remember the
+[42:28] pricing on that, but let me see if I can
+[42:30] figure that one out.
+[42:35] So I might show it show you what I got
+[42:36] here on the screen.
+[42:38] Make it easier.
+[42:40] explain what I'm talking about.
+[42:52] [Music]
+[42:59] Old man are open a terminal.
+[43:06] Was
+[43:18] that sharing my screen?
+[43:19] >> Mhm. Yep.
+[43:21] >> Right. So, just go claude
+[43:24] code.
+[43:26] I'm in there.
+[43:29] So, I'm actually in the repo. So, it's
+[43:31] really it's context. The whole fact that
+[43:34] I'm directly in the repo is what makes
+[43:35] it convenient for me. So I think what I
+[43:38] want is forward slashmodels.
+[43:43] So yeah, it's on sonnet 4.
+[43:46] >> Yep.
+[43:46] >> But if I want to go back to
+[43:50] I guess 417 now to upgrade to that, I've
+[43:53] got to go back to max, which is the $100
+[43:55] a month, I believe.
+[43:56] >> Oh, I see. Yeah. Yeah. But I mean, I'm
+[44:01] really I'm really thinking the
+[44:02] difference between Sonnet and Max 41,
+[44:05] depending on what you're working on,
+[44:08] for what I'm working on, $100 a month,
+[44:11] might really be worth it in a lot of
+[44:13] cases.
+[44:14] you know, if I was going to pay like an
+[44:16] intern to help me out or just pay my own
+[44:18] self the amount of time it would take me
+[44:19] to type out those SVGs kind of thing or
+[44:21] go back and edit them,
+[44:23] >> you know, if I can hand that off to
+[44:24] something that's
+[44:26] can do that consistently for that price
+[44:29] range, it's almost worth if I'm already
+[44:31] paying 20 a month, it's almost worth the
+[44:33] $80 a month difference.
+[44:34] >> Yeah. Yeah. Yeah. I I'm coming around to
+[44:38] that. I haven't I haven't paid for any
+[44:40] of the, you know, that tier yet. But,
+[44:43] uh, you know, as I'm relying on it more
+[44:45] and more, I'm warming up to that.
+[44:48] Um, I think the the only thing that that
+[44:52] I find kind of a challenge is, uh,
+[44:56] you know, sometimes I'll I'll sign up
+[44:58] for a subscription and then I'll like
+[45:01] not use it one month at all or like
+[45:03] forget about it. So then it's kind of
+[45:04] that feels bad.
+[45:07] >> Yeah. And I'm going through that too
+[45:08] because I I just had it for two months
+[45:11] and totally didn't use it. I've hardly
+[45:13] coded anything for I kind of like took a
+[45:15] mental health break for the last I got
+[45:17] burnt on that last job and just kind of
+[45:18] got burned out and spent more time
+[45:20] cleaning up my like I said I worked on
+[45:22] the funu of the office and funue of the
+[45:25] garage, but I didn't really use it $100
+[45:27] a month worth. So I should have paused
+[45:30] it for those two months and didn't. And
+[45:32] now that it's down to the the lower one,
+[45:34] I'm like, "Oh, let me go go do some
+[45:36] code." like, "Oh, uh, wish I'd done this
+[45:38] last week when I had a lot better tools
+[45:40] to work with."
+[45:41] >> Very, very relatable.
+[45:44] >> What's that?
+[45:44] >> That's very relatable. That happens to
+[45:46] me a lot.
+[45:49] Um, so yeah, Bob's got me inspired to
+[45:52] look into I mean I was already wanting
+[45:54] to look into these MCP servers,
+[45:57] but uh that last job I was on, what I
+[45:59] pretty much set up was uh
+[46:03] the AI was going through an SSH shell.
+[46:06] So I basically hacked an MCP server
+[46:09] without having an MPC server yet. I was
+[46:11] going to an SSH shell to give Docker
+[46:14] commands to run WordPress in containers
+[46:20] >> and I was doing all that without MCP and
+[46:22] I think that would help you know like
+[46:24] the security layer and a lot of the
+[46:26] automation layer on there.
+[46:30] Yeah, I think if you're like if the if
+[46:33] you have full control over the AI, like
+[46:36] if it wasn't like the clawed code
+[46:38] command, but like your command, then I
+[46:43] think a lot of the way to go is to use
+[46:44] tool calling because then you have full
+[46:46] control. MCP is more like an add-on
+[46:48] system. So if you want to hook stuff
+[46:50] into theirs
+[46:52] um which like you know like cloud code
+[46:55] is getting really good like all of these
+[46:56] different systems are getting really
+[46:59] good. So I think MCP is going to be
+[47:01] really
+[47:02] um you know over time like a really good
+[47:05] way to inject additional capabilities
+[47:08] into these things. Uh
+[47:10] >> well I think for for a crop of us that
+[47:13] are looking for you know work or income
+[47:15] you know MCP feels like it's a new
+[47:17] protocol. It's been around less than a
+[47:19] year and it feels like the glue that's
+[47:21] about to tie everything together.
+[47:24] [Music]
+[47:25] >> Am I over hyping that?
+[47:28] >> I a little bit. I think
+[47:30] MCP, you know, the the like hype curve
+[47:33] or whatever. MCP is at like the peak
+[47:36] hype stage in the hype curve and then,
+[47:40] you know, probably in the next six
+[47:42] months we'll hit the trough of
+[47:43] disillusionment. you know this graphic
+[47:46] and then maybe in another few months
+[47:48] then we'll hit the uh what do they call
+[47:51] it like enlightenment or productivity on
+[47:54] the other side. So I think we we haven't
+[47:56] quite gotten through the hype curve on
+[47:57] MCP yet. Um there are some cases where
+[48:01] it's enabled productivity but what I'm
+[48:04] hearing from folks is that a lot of
+[48:09] uh like a lot of corporate folks won't
+[48:11] touch it because of just the security
+[48:13] challenges
+[48:15] like the nothing is worth a security
+[48:17] breach you know
+[48:18] >> right and so I actually thought it was
+[48:22] solving some security issues but you
+[48:24] think it's going the other direction
+[48:25] it's opening more than it's closing
+[48:27] >> it's a little bit of both I
+[48:30] maybe shifts where they're at.
+[48:32] >> A little bit of both. I mean, you know,
+[48:33] it'll get there. It'll get there. I just
+[48:35] think it's it's at kind of that early
+[48:37] stage and people are really excited for
+[48:39] it. Um I think once it once they figure
+[48:44] out like if there's another version of
+[48:45] it or enough of a modification of it
+[48:47] that really like gets the security piece
+[48:49] really good. Um, and maybe that's
+[48:53] already in the works, but um, I think
+[48:56] that that'll really unlock a lot of
+[48:58] stuff.
+[49:01] >> A lot of these commands I'm seeing for
+[49:02] the first time that security review
+[49:04] there seems very timely because we were
+[49:06] just talking about
+[49:07] >> open security issues. So, it actually
+[49:09] has security review complete the
+[49:11] security review of the pending branch
+[49:13] changes on the current branch.
+[49:15] >> That could be kind of neat. Um,
+[49:21] yeah, I actually haven't had much luck
+[49:24] with uh
+[49:26] LLMs for security reviews yet, but I
+[49:30] mean it's better than like dependabot
+[49:33] and all those like spammy warnings you
+[49:35] get, but still got a ways to go.
+[49:42] >> I'll give up the mic. That's kind of
+[49:43] where I'm at for the week.
+[49:47] Right on. Right on. Well, I mean, you
+[49:49] know, we only got a few few minutes left
+[49:51] anyway, but uh
+[49:54] that's why I didn't want to hog the
+[49:55] whole time.
+[49:56] >> Yeah. Yeah. I mean, you know, it's
+[49:57] Friday. It's uh
+[50:01] >> Oh, go ahead, Adam.
+[50:02] >> Oh, no. I was just going to say security
+[50:04] is a good good topic. I mean, there's
+[50:06] because there's all kinds of stuff.
+[50:08] There's um I I know I saw something in
+[50:10] the past week uh in my feed about it. I
+[50:13] don't remember exactly what it was, but
+[50:16] uh even just you know googling it, you
+[50:19] know, you get a top 10 MCP uh security
+[50:24] risks from uh tool poisoning, prompt
+[50:28] injection, privilege abuse, tool
+[50:30] shadowing,
+[50:32] uh indirect prompt injection, sensitive
+[50:35] data exposure, and token theft.
+[50:38] >> Yeah.
+[50:39] >> Yeah. All all kinds of stuff. So yeah, I
+[50:42] mean, and then just Gemini has a a
+[50:46] similar uh laundry list of it.
+[50:50] So yeah, there's there's definitely uh
+[50:55] the AI is a mixed bag. There's a lot of
+[50:58] uh
+[51:01] well, there's there's that apocryphal
+[51:03] thing like ear early on there was that
+[51:05] that vibe coding uh excuse me, vibe
+[51:08] coding um post
+[51:10] where the guy was like, "Here, I can,
+[51:13] you know, I can go I I can code this in
+[51:15] in in like just a few minutes." And then
+[51:18] he's like all of a sudden on, you know,
+[51:20] on Twitter, he's like, "Wait, you know,
+[51:23] what's happening to my repo? Why why is
+[51:26] this happening? Why is that happening?"
+[51:28] And it's like, uh, dude,
+[51:32] you just went public with this
+[51:35] code that you just did in a minute that,
+[51:39] and that's the whole thing about five
+[51:41] coding is if you don't understand what
+[51:43] it just spat out,
+[51:45] you shouldn't be putting it public
+[51:48] facing.
+[51:49] >> Yeah. Yeah. I mean, I guess I would say
+[51:52] that that's a lot of like
+[51:55] that's another area where I kind of like
+[51:56] the management analogy like,
+[51:59] you know, to to manage a team well, you
+[52:02] got to have some basic understanding of
+[52:04] what the team does,
+[52:06] you know.
+[52:07] >> Yeah.
+[52:08] >> Uh similar with vibe coding, you gota
+[52:11] have, you know, at least some some
+[52:13] understanding. You don't necessarily
+[52:14] need to know every single detail but uh
+[52:17] you should at least you know generally
+[52:19] know stuff.
+[52:20] >> Yeah
+[52:23] buzz word that comes after vibe coding
+[52:26] where it's
+[52:28] you do let the AI work but then you know
+[52:31] you got to test it proofread it debug
+[52:34] it.
+[52:35] >> Yeah. So that not necessarily vibing but
+[52:38] something balanced surf coding or I
+[52:42] don't know it needs a good buzz word to
+[52:44] make it catch on but there's there's
+[52:45] something that comes after that where
+[52:47] you don't just accept all
+[52:49] >> yeah and to be fair I think the analogy
+[52:53] went kind of too far right like
+[52:56] >> Carpathy his thing was just like you
+[52:58] know it's kind of nice once in a while
+[53:00] to just like not think about it and just
+[53:02] like say fix this or you know kind of to
+[53:06] to check out a little bit mentally,
+[53:07] right? And I'm like, you know what?
+[53:09] Okay, right on. Like doing that once in
+[53:11] a while. Sure. But then,
+[53:14] you know, you don't want that to be the
+[53:16] way you operate all the time, right? You
+[53:17] want to be thoughtful most of the time.
+[53:19] And then sometimes you want to just say,
+[53:21] "Ah, whatever. Let's accept all and see
+[53:23] what happens." But not all the time.
+[53:28] >> Yeah. There's there's a big difference
+[53:29] between his I I label his vibe coding
+[53:32] 1.0 I know because if you look at his
+[53:34] tweet
+[53:36] >> from February,
+[53:38] >> I mean he outlines it and basically
+[53:40] says, okay, at this at the very end, I
+[53:42] mean, he he even says explicitly, this
+[53:45] isn't real coding and um this is this
+[53:48] isn't for production.
+[53:51] And then you have vibe coding, what I
+[53:53] call 3.0 because it even went so fast it
+[53:56] skipped 2.0.
+[53:58] And that's where everybody's putting, oh
+[54:01] yeah, we, you know, it's like like they
+[54:04] they took the they like vibing and they
+[54:07] they're like, "Oh, yeah. I listen to
+[54:09] music and I vibe and I do stuff." And
+[54:11] then and then the other they're like,
+[54:13] "Oh, but I want to do coding." So, you
+[54:16] know, they put those two together and
+[54:17] think, "Okay, that's vibe coding and
+[54:19] that's what vibe coding 3.0 is." It's
+[54:22] like,
+[54:23] >> yeah. Yeah. I mean to be fair I
+[54:28] >> you know when we when we talk about it
+[54:29] like that it does remind me that I
+[54:31] really do appreciate that it's unlocked
+[54:33] a whole wave of like programming related
+[54:36] comedy.
+[54:37] >> Yeah.
+[54:38] >> There's like a there's a lot of good
+[54:40] good programming comedy out there
+[54:42] nowadays relating to vibe coding. Um,
+[54:47] >> yeah. I per personally I'm anti vibe
+[54:51] coder, but I you know I I understand
+[54:54] people
+[54:54] >> I think there's a time and a place. Um
+[54:57] >> oh what
+[54:59] >> I'm I'm all for android Carpat's vibe
+[55:03] coding in in that.
+[55:06] >> Oh yeah. Not the the regular
+[55:08] >> not not like here I'm I'm just gonna
+[55:11] vibe something and put it in right in
+[55:13] production and y it's done.
+[55:18] >> I
+[55:23] found I found some index cards I've been
+[55:25] looking for all afternoon.
+[55:28] So maybe I can maybe I can do some paper
+[55:32] uh prototypes of those cards now. So, I
+[55:35] got them marked up in the SVGs. Try and
+[55:37] get the info I don't want back on these
+[55:39] for studying. It's just the process of
+[55:42] writing them in pencil. I think would
+[55:43] help get some of that information to
+[55:45] stick. Anyways,
+[55:48] >> yeah. You know, that's another one too.
+[55:50] Um,
+[55:52] I learned this somewhere. I think I
+[55:54] learned this in grad school was that
+[55:57] like the act of writing kind of
+[55:58] solidifies the memory for me. And then
+[56:01] later on in life, I found out that there
+[56:03] were like some people actually like, you
+[56:05] know, did studies of that and I was
+[56:07] like, "Oh, okay." So that was a real
+[56:10] thing. That wasn't just some weird thing
+[56:11] that I have.
+[56:12] >> No, it it really does. I um even even
+[56:16] something as simple as like I made a a
+[56:19] low low B this was years ago a a study
+[56:23] tool for a class um to uh on PowerPoint
+[56:29] uh ask the question and then um
+[56:33] had the the answer at the bottom but it
+[56:35] was blocked you know and and it would uh
+[56:38] time after a few seconds the the bottom
+[56:41] would scroll up so you could see the
+[56:43] answer and just the act of copying paste
+[56:47] and putting in the the hundred or some
+[56:49] odd you know questions
+[56:52] uh copy and paste even just that act
+[56:55] alone
+[56:58] without even having done the study
+[57:00] because I didn't wind up having enough
+[57:01] time to to actually go through it
+[57:03] afterwards was enough to
+[57:07] um have have that that knowledge of or
+[57:11] at least of of Thank you because the the
+[57:14] questions were done in a a
+[57:16] multiplechoice format so I could I could
+[57:19] recognize what the correct answer was.
+[57:22] Um even though I was more concerned
+[57:25] about you know the copy and paste and
+[57:26] the formatting the looking at the
+[57:30] question and answer was a secondary
+[57:31] thing but it was enough of an exposure
+[57:34] to it that it allowed that. Um, and it
+[57:38] was a class effort. Like I I was
+[57:40] frustrated because I had asked for input
+[57:43] and people were giving me input in so
+[57:45] many different formats and things.
+[57:47] >> Yeah.
+[57:48] >> Yeah. I was I was I was doing all that
+[57:50] trying to get the the final product for
+[57:53] everybody, you know. I because I I said
+[57:55] here, let's make a study study program
+[57:58] using using uh PowerPoint. So there
+[58:02] could be like a basically it was like a
+[58:04] before an you know it was like a cheap
+[58:08] let's you let you you scroll through
+[58:11] question and answer kind of thing and uh
+[58:14] and it was like for you know we put in
+[58:17] like a 100 120 questions or something.
+[58:21] Um but uh yeah that that was funny. I I
+[58:25] realize that and and that's just from
+[58:27] you know copy and paste because I I used
+[58:31] uh word word pad or not word pad but uh
+[58:34] just just text uh word word text um edit
+[58:39] >> I mean that's awesome the copy and paste
+[58:40] worked I
+[58:42] yeah for me I think it's it's mostly
+[58:44] been like physical writing uh like
+[58:47] typing not as much but if you're a lot
+[58:49] then yeah
+[58:50] >> and I and this past week I actually had
+[58:53] something in my feed about that where I
+[58:55] it is studied that um the doing physical
+[58:59] writing is so much better than
+[59:04] the for for memory um and and and evokes
+[59:08] more out of the brain than than just
+[59:11] copy and paste and you know little keep
+[59:13] keypad that's I mean so I've heard
+[59:17] also though like I think
+[59:21] one thing that I have learned with a lot
+[59:22] of studies is that there's this sense of
+[59:24] like,
+[59:26] you know, we kind of report the average
+[59:28] effect, but maybe it's a lot more for
+[59:30] some people and a lot less for others,
+[59:32] you know, like different people kind of,
+[59:34] you know, work a bit differently.
+[59:36] >> Yeah. Um
+[59:39] I maybe maybe see that um and and there
+[59:44] is a like you know
+[59:48] back when they had the the visual
+[59:49] auditory and kinesthetic learner type
+[59:52] thing like oh I I only learn this way.
+[59:56] Yeah,
+[59:57] >> there there is
+[59:59] I mean
+[60:02] there there there's a thing about
+[60:04] comfortability of learning
+[60:07] and our perception of what we learn. Um
+[60:12] and I how should I say uh I hate to use
+[60:16] the example um like do domestic abuse
+[60:19] like um people in domestic abuse they
+[60:23] get so abused they're not when the abuse
+[60:27] doesn't happen
+[60:28] >> they don't feel normal.
+[60:31] >> Yeah. Right. Right. Well, in in the same
+[60:33] sense, people have uh maybe sometimes a
+[60:38] modality that they have as their their
+[60:40] their their
+[60:43] comfort blanket.
+[60:45] Um even though it's not their optimal
+[60:48] way of learning.
+[60:50] >> Um but they perceive that it is that it
+[60:54] it's so tied to that. Um uh Ver
+[60:58] Veritasium did a good good show on that.
+[61:01] Oh okay.
+[61:02] >> Um and and there's a lot of study that
+[61:06] yeah we we fool ourselves into thinking
+[61:08] that we can't learn you know a different
+[61:12] way or optimal way
+[61:16] sometimes.
+[61:18] >> Oh yeah I definitely get that
+[61:20] >> we don't or I I guess the bottom point
+[61:22] is we don't always know ourselves as
+[61:24] well as what we think we do.
+[61:25] >> Oh yeah I 100% agree with that.
+[61:31] Yeah. So, it Yeah, it's interesting uh
+[61:34] because but but I do honestly feel um
+[61:39] because when when I hear something I I
+[61:42] don't remember it as well as if I I see
+[61:44] it like especially like a person's name.
+[61:47] >> Yeah. Yeah,
+[61:48] >> like the other day u or this past week I
+[61:51] you I had I I saw had a doctor's visit
+[61:55] and but I had to follow up on stuff and
+[61:58] I was like I I don't remember the
+[61:59] doctor's name because I in in the whole
+[62:01] course of everything it was only
+[62:03] auditory. I I only heard the doctor's
+[62:06] name. I never saw it written or anything
+[62:08] like that. and um you know so and and
+[62:13] then they're like oh doctor's name is
+[62:16] this and I said oh is it spelled like da
+[62:18] da da da da and they're like no it's
+[62:20] like da da da you know something else d
+[62:22] do d do d do d do d do d do d do d do d
+[62:22] do d do da dot and I'm like oh okay so
+[62:26] now now I can now I know it because now
+[62:28] I can at least visualize the letters
+[62:32] in my mind and and and cue that with
+[62:36] with auditory but it it went in one near
+[62:39] and out the other.
+[62:41] >> Right. Right.
+[62:42] >> Um
+[62:43] >> Well, actually, I got to get running.
+[62:45] >> Oh, yeah. Yeah, we're uh we're Yeah. At
+[62:48] that point, huh?
+[62:50] >> Well, yeah. Yeah. No, actually, I'm just
+[62:52] I would I would stay, but I've I've uh
+[62:54] we're a little bit past and then I've
+[62:55] got to go go off to meet a friend. So
+[62:58] >> Oh, it's all all good. Yeah. No. Um
+[63:01] awesome then. Uh yeah, sorry. Last last
+[63:04] week I was kind of out of it because uh
+[63:06] allergies and um
+[63:09] and uh and or something. I I was just uh
+[63:14] yeah, I was I was way out of it. Hey,
+[63:16] turtle.
+[63:18] All right.
+[63:20] >> All right. Laters.
