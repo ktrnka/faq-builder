@@ -1,0 +1,1366 @@
+YouTube Video Transcript
+Video ID: HUrrUTiBPx4
+Publish Date: 2025-07-26
+Language: English (auto-generated) (en)
+Generated: Yes
+Total segments: 1357
+Total duration: 66:38
+============================================================
+
+[00:06] All right. Well, let me unpause and I
+[00:10] will just get to it. Uh, so what I
+[00:14] wanted to do, at least for the first
+[00:15] half tonight, was to, uh, do more of
+[00:19] like a starter AI type of project.
+[00:23] uh because in the past I had
+[00:27] you know walked through some of some
+[00:29] side projects that I've done but there's
+[00:32] a lot of concepts to learn kind of all
+[00:33] at once and so I find that you know if
+[00:37] it's integrating GitHub actions and an
+[00:40] API and then the GitHub API
+[00:44] uh you know that can be kind of a lot
+[00:45] for people to learn kind of all at once
+[00:47] and then you know combine that with
+[00:48] GitHub marketplace
+[00:50] um and so I wanted to start with
+[00:52] something really really simple that
+[00:54] people can follow along with um and that
+[00:58] we could use as an example going
+[00:59] forward.
+[01:01] So I will just do that and then you know
+[01:04] people might trickle in, people might
+[01:05] have questions. Um so we'll see how that
+[01:08] goes.
+[01:11] Sounds good.
+[01:13] All right. So let me
+[01:17] I guess it'll be a little bit awkward.
+[01:18] I'll I'll screen share for uh kind of
+[01:20] like the recording even though and I'll
+[01:22] try to like talk aloud so that you don't
+[01:24] have to you know look away from the road
+[01:25] or anything like that.
+[01:33] All righty here. So let me
+[01:38] let me screen share
+[01:49] uh
+[01:50] that window
+[01:54] and it's always a little bit awkward. I
+[01:57] switched over to um
+[02:00] uh Ubuntu recently and so uh like zoom
+[02:04] on Ubuntu works slightly differently
+[02:06] than zoom on Windows but uh so uh for
+[02:10] the the AI provider we'll use uh GitHub
+[02:12] models um the reason for that is that it
+[02:15] is uh there's like free usage so you
+[02:18] don't have to like enter a credit card
+[02:20] or anything and you just every time I
+[02:23] forget where the web page is so every
+[02:25] time I just Google GitHub models
+[02:27] And then it is somewhere under here.
+[02:30] Find an AI model. Yeah. All right. All
+[02:34] right. And then in terms of, you know,
+[02:36] they have a big catalog here of models,
+[02:38] but we're doing kind of simple stuff.
+[02:41] Um, the OpenAI GPT series is pretty
+[02:44] good. Um, you know, 4.1 is it's a good
+[02:48] place to start. Oh, uh, here we go. 4.1
+[02:54] is a good place to start.
+[03:01] Welcome, Adam. Yeah. So, uh, I'm just,
+[03:04] you know, going through for this first
+[03:05] half of it, just kind of going through
+[03:06] like a really basic, you know, starter,
+[03:09] um, LLM project. So, I'm just getting
+[03:12] into that.
+[03:18] So, what I thought we would do is
+[03:21] something that's like fairly fairly
+[03:23] basic here. Um, so I thought, so this is
+[03:26] my, you know, Feedley. You can kind of
+[03:27] see I have all these different, you
+[03:29] know, news feeds. Um, one thing that I
+[03:32] don't love is that the the news titles
+[03:34] can be kind of like inflammatory.
+[03:37] Like
+[03:39] inventor claims bleach injections will
+[03:41] destroy cancer tumors. Like
+[03:49] I guess that's fairly neutral. I don't
+[03:51] know. I don't know. I it feels a little
+[03:53] bit alarmist to me. Um I kind of want to
+[03:57] read the article, but uh let's see.
+[04:00] Dollar Patch to debut community patio.
+[04:02] Okay, fairly neutral. Um I don't really
+[04:06] know what a community patio is, but all
+[04:08] right. Uh
+[04:13] an elusive intermediate black hole
+[04:17] eating a star in this distant galaxy.
+[04:18] That's kind of interesting. Um anyway,
+[04:20] so there's there's a wide range of
+[04:21] titles and what I thought we would do as
+[04:23] a really simple kind of project is to
+[04:25] use large language model to rewrite uh
+[04:28] news titles. Um so that ideally so that
+[04:32] when I see the news titles, they're just
+[04:33] kind of like a a fairly neutral, you
+[04:36] know, not uh inflaming emotions, not
+[04:39] really injecting a lot of bias, just
+[04:41] sort of saying like giving me the
+[04:43] information to tell if I actually want
+[04:44] to read something instead of being like
+[04:46] kind of marketing optimization. So, sort
+[04:48] of like leveling the playing field in
+[04:51] terms of um you know what the titles
+[04:53] are. So, uh we're going to go rewrite a
+[04:57] title. Um and so with a prompt, you have
+[05:02] the directions and then you have the
+[05:04] input to it. So, we're going to have the
+[05:06] directions, which is going to be like,
+[05:07] okay, debias this title, and then the
+[05:10] input to it. So, we could say maybe
+[05:12] let's pick this this Ballard one here.
+[05:15] Um maybe we would put put in like the
+[05:18] existing title and then we can like copy
+[05:21] paste the first little bit here.
+[05:24] So
+[05:28] let's go over here. So this is GPT4.1.
+[05:31] Uh for a lot of situations we probably
+[05:34] would not want to uh use this like it's
+[05:38] a more expensive model so we can't run
+[05:40] it all the time. We would probably want
+[05:41] to use like 41 mini or 41 nano. But for
+[05:45] starting out, we can try this out and
+[05:46] then we can can switch once it works a
+[05:48] little bit. Uh, all right. Here. So,
+[05:54] so in this case, we can split the prompt
+[05:58] up into in the actual use case, we'll
+[06:00] probably split the prompt into two. One
+[06:01] is the overall directions and one is the
+[06:03] example that we're putting in. So, here,
+[06:06] let's say,
+[06:07] uh, you're
+[06:11] uh, let's see.
+[06:14] Let's see here. You're going to help me
+[06:18] debias news titles. I don't like that
+[06:23] some titles are highly inflammatory
+[06:30] or exaggerated.
+[06:34] I prefer titles
+[06:37] that clearly indicate what the art
+[06:41] article is about
+[06:44] in terms that I
+[06:48] know and understand.
+[06:51] Um, let's see.
+[06:57] We're really seeking to level the
+[07:02] playing field
+[07:06] in terms of
+[07:08] titles.
+[07:11] I'll
+[07:14] provide you
+[07:16] with a title and
+[07:20] snippet from an article and
+[07:26] you'll rewrite the title the title
+[07:31] into a more neutral
+[07:36] contentrich
+[07:39] uh the style so that I can gauge whether
+[07:45] I want to read the article or not.
+[07:51] Uh let's see here. So some of the other
+[07:53] settings in here, the response format
+[07:55] can be text or JSON. Uh we don't for
+[07:58] this I'm starting off with something
+[08:00] simple. Um so it'll just be text. Uh we
+[08:03] might get to JSON later if we have time.
+[08:06] Uh max completion tokens. This is just
+[08:08] how much it can output. Uh, a token
+[08:11] isn't exactly a word, but you can think
+[08:13] of it like a a word. It's like a a word
+[08:16] fragment. So, a long word might have
+[08:18] multiple. A short word might be just
+[08:20] one.
+[08:21] Temperature. Um, so like it says
+[08:24] controls randomness. You want it to be
+[08:26] lower to be more deterministic. Uh,
+[08:29] typically researchers have standardized
+[08:32] on around 0.2 2 or 0.3
+[08:36] uh for these kinds of tasks where you
+[08:37] want it to behave consistently.
+[08:41] Um, and I'm not going to change these
+[08:43] other ones.
+[08:45] Okay. So, let's take this one here.
+[08:49] Uh, whoops. Oh. So, Ballard's like the
+[08:53] neighborhood over from me. Um, or maybe
+[08:55] it's two neighborhoods over.
+[08:58] So, there's the title.
+[09:01] And then let's just copy this part. Is
+[09:04] there more?
+[09:06] Uh there's a bit more. This page is
+[09:08] rendering real weird. Probably probably
+[09:10] because I have ad block on.
+[09:17] And then
+[09:19] actually since I do like to do these
+[09:22] scientifically,
+[09:23] uh do either of you want to should we
+[09:26] take a guess of whether it's going to
+[09:28] work well on the first try?
+[09:39] If I had to guess, if I had to guess,
+[09:41] it'll probably output only a very
+[09:44] slightly revised title in this one
+[09:47] because it is pretty contentheavy.
+[09:50] Yeah, it's always a tossup, huh?
+[09:54] The reason why I I like to try to um
+[09:58] think about it ahead of time is because
+[10:02] uh
+[10:04] it helps refine like what we're doing
+[10:06] here. So I think if it changes it
+[10:07] drastically that would be a surprise to
+[10:09] us and tell us that you know maybe our
+[10:11] understanding is wrong. Um but but yeah
+[10:14] let's let's say our bet here is that it
+[10:17] probably won't change too much because
+[10:19] this title is already fine. Um,
+[10:22] let's see.
+[10:37] Let's see. Ballard peep patch to open
+[10:39] new community patio. Same same thing but
+[10:42] capitalized. Designed and built by local
+[10:44] high school students at annual art
+[10:48] in the garden festival. Actually, that's
+[10:51] kind of cool. I
+[10:52] Yeah, that's a bit more context.
+[10:55] It's a bit more context. And I think
+[10:59] it kind of tells me like why there's an
+[11:01] article at all, you know, like it's just
+[11:03] like like local high school student
+[11:05] project. That's that's pretty cool. I
+[11:07] dig that.
+[11:10] All right. Now, so we would say
+[11:15] that's pretty I'll thumbs up that thing.
+[11:18] I don't actually know. So, thumbs up in
+[11:20] general is propagating feedback um back
+[11:24] to the API provider. I don't actually
+[11:27] know if it's saved anywhere in um you
+[11:31] know over in here. So, I usually don't
+[11:35] use the user interface for these kinds
+[11:37] of things, but all right. So, that one
+[11:38] that one worked out. Let's pick a
+[11:41] different one. Um,
+[11:47] all right.
+[11:53] And this distant galaxy. So, this one
+[11:55] actually could be interesting because I
+[11:57] I'm curious to see if it um I wonder if
+[12:02] we should we should probably start over
+[12:03] again. Yeah, we should probably start
+[12:05] over.
+[12:07] Let me just double Let me make sure I
+[12:09] have that saved there.
+[12:11] All right.
+[12:15] Whoops.
+[12:18] Um, so it might actually simplify the
+[12:20] terminology in this one. I I'm curious
+[12:22] to see if that happens. Um I vaguely
+[12:26] remember what an intermediate mass black
+[12:28] hole is but um I like you have sort of
+[12:34] regular mass black holes and then you
+[12:37] have sort of that are formed in you know
+[12:40] when a a star collapses
+[12:43] um in a certain way and then you have
+[12:45] super massive black holes that are you
+[12:47] know enormous like the center of the
+[12:49] Milky Way that you know pulls it all
+[12:51] together and then there's there's this
+[12:53] like middle ground where if I remember
+[12:56] right, we're not sure how they form.
+[12:58] Um,
+[13:00] but
+[13:03] anyway,
+[13:04] we'll see. I'll just copy paste a bunch
+[13:06] of stuff here. I So, my bet here is that
+[13:10] based off of how the Ballard one went,
+[13:12] it might add like a little bit more and
+[13:15] it might simplify this this terminology
+[13:20] here around intermediate mass. Um,
+[13:29] astronomers detect X-ray emission
+[13:32] suggesting possible intermediate black
+[13:34] mass black hole consuming a star in
+[13:36] distant galaxy NGC
+[13:39] 6099.
+[13:40] Uh, h
+[13:46] that
+[13:49] it's better in some ways.
+[13:54] Because I I like that it uh it says, you
+[13:58] know,
+[13:59] like why are we even talking about this?
+[14:01] We're talking about this because of, you
+[14:02] know, detection of e x-rays.
+[14:05] And that's pretty cool.
+[14:08] Um,
+[14:11] you know, I I don't know uh which Galaxy
+[14:15] NGC 6099 is, so that part is not very
+[14:18] helpful to me. But okay, the rest is all
+[14:22] right.
+[14:24] And one thing though, uh oh, someone
+[14:27] else wanted to show. Okay. One thing
+[14:29] here though that I don't like is that we
+[14:32] have, you know, it it didn't just
+[14:35] generate the the title rewrite, but it
+[14:38] also generated this sort of like header
+[14:40] here. Hey mod. Uh we're just kind of
+[14:44] going through a real basic uh you know
+[14:47] large language model to rewrite news
+[14:50] titles.
+[14:53] Cool. Thanks.
+[14:54] Yep.
+[14:57] Um so this one that one's okay. I don't
+[15:00] know. My guess it's right next to
+[15:03] NGC6098.
+[15:07] Oh. Uh,
+[15:12] actually, I have no idea. I have
+[15:15] I don't I don't know how they number
+[15:17] them either. It's like a zip code.
+[15:21] It's definitely not a zip code. I think
+[15:22] I'm pretty sure it's um the order in
+[15:24] which they're detected.
+[15:27] Um I think the the C's are usually like
+[15:30] catalog. So this might be like
+[15:32] oh
+[15:33] something catalog
+[15:35] uh object 6099 something like that.
+[15:40] New galactic catalog
+[15:42] maybe. Yeah for the new galaxy or the I
+[15:45] guess it's the new catalog maybe. I
+[15:46] don't know. But uh all right. So that
+[15:49] that one's okay. I I do kind of like
+[15:52] that it's more neutral than like the
+[15:54] question form.
+[15:56] Um, although the question form is kind
+[15:58] of what the the article's about.
+[16:02] Um,
+[16:05] let's see.
+[16:08] Ice in space isn't the same as ice on
+[16:10] Earth. I mean, I'm going to be tempted
+[16:12] into clicking half of these things. I
+[16:14] I'm just whatever. I'm just going to
+[16:15] pick the top few.
+[16:18] All right,
+[16:21] let's try this bleach injection one.
+[16:26] Uh,
+[16:28] and part of the reason why we're doing
+[16:30] this, um, guess I'll go and get a quote
+[16:34] if I can. Um, part of the reason why
+[16:37] we're doing multiple examples is
+[16:39] because,
+[16:40] um, it's if you test it only with one
+[16:43] example, you might find that it works
+[16:45] great or it works horribly, but like
+[16:47] each example it's going to do a little
+[16:49] bit differently at. So, you want to run
+[16:51] through at least a few examples. If this
+[16:54] were a big system, you would want to run
+[16:56] through maybe like a hundred examples
+[16:58] and sort of label like what good output
+[17:00] looks like. But, you know, we're just
+[17:02] start sort of starting small here.
+[17:07] All right. So, again, it's doing this
+[17:10] thing here. I really don't like is that
+[17:12] um the output format varies quite a bit.
+[17:16] Uh so, so if we're going to well, we'll
+[17:19] get to why that's a problem once we're
+[17:20] calling this from Python, but let's see.
+[17:22] The original title inventor claims
+[17:24] bleach injection will distort cancer
+[17:26] tumors. Debiased whatever unlicensed
+[17:30] inventor promotes unproven chlorine
+[17:33] dioxide injections
+[17:35] for cancer treatment. Uhhuh.
+[17:39] I guess that's more neutral.
+[17:46] Uh
+[17:50] oh.
+[17:53] This is one where I would say like,
+[17:54] okay, the the revised title
+[18:01] is better in my opinion. I guess I'll
+[18:04] thumbs up that. Um, but it's something
+[18:08] that like once the title is sort of
+[18:09] rewritten, it's more clear that this
+[18:12] isn't really news, you know, like like
+[18:15] some random dude proposed
+[18:19] some medical treatment. Like there's a
+[18:22] lot of random people out there. Like I
+[18:24] don't I don't need I don't need to hear
+[18:26] about every, you know, whoever is
+[18:28] proposing medical treatment uh if
+[18:31] they're on license. I don't I don't care
+[18:32] about that. Uh that shouldn't I don't
+[18:35] think that should be news. Anyway, so
+[18:37] part of part of why I'm talking through
+[18:39] this is because at some point we're
+[18:41] going to want to structure the data and
+[18:43] I'm starting to think through okay what
+[18:45] um how do we want to structure the data?
+[18:47] So one part of it might be okay you know
+[18:50] what's the the just the revised title.
+[18:54] Um another part might be um you know why
+[18:57] are we revising the title that kind of
+[18:59] thing. And so, you know, when we go to
+[19:02] response format JSON, we're going to
+[19:03] say, okay, provide a JSON response and
+[19:07] um and then we will we'll sort of work
+[19:10] through that.
+[19:12] Uh, okay. So, we did that. Now, let me
+[19:18] um
+[19:24] let me make a Oh, that's right. I'm
+[19:28] sharing. I'm probably sharing my Chrome
+[19:29] window. Um, let me see if I can share
+[19:33] that second monitor.
+[19:36] Yeah, it's like whatever the COVID one
+[19:39] was. I I don't remember what that one
+[19:41] was.
+[19:43] System desktop capture, I think, is what
+[19:45] I want.
+[19:51] Okay.
+[19:54] All righty.
+[19:57] So, let's say make um what we call this
+[20:01] news title rewriter.
+[20:05] Actually, we're probably going to want
+[20:06] it to be a git repo anyway. So, um
+[20:11] let's create a new repository.
+[20:15] News title rewriter.
+[20:19] And sure, it can be
+[20:24] public. Uh, do I want to read me? Sure,
+[20:29] why not? And then
+[20:32] probably want a get ignore for Python.
+[20:35] Create a repo.
+[20:38] And then we'll say
+[20:42] local
+[20:45] sync. Let's see here.
+[20:49] get a clone
+[20:51] do that.
+[20:54] Enter passphrase for SSH key. Hopefully
+[20:58] I have this all set up correctly.
+[21:01] All right.
+[21:03] And then I like to use VS Code.
+[21:11] All right.
+[21:15] And I do not want that extension.
+[21:20] And then I like to use UV as my um
+[21:25] it's my Python thingy. So I'll say UV in
+[21:28] it.
+[21:31] This is my uh virtual environment. It's
+[21:33] my environment manager. So it'll like
+[21:35] manage um you know say okay you need
+[21:38] this version of Python and this is where
+[21:39] we're going to set up dependencies and
+[21:40] that sort of thing.
+[21:42] Um all right
+[21:46] version created a main.py. All right.
+[21:49] Cool.
+[21:57] Okay. So created a virtual environment.
+[21:59] There it is hooked into Visual Studio
+[22:03] Code which usually catches me off guard.
+[22:06] Um but all right. So
+[22:10] say initial project setup.
+[22:17] All right.
+[22:19] Sync those changes up.
+[22:27] Okay, that looks fine. And now we can go
+[22:30] back to here and we can see the stuff
+[22:33] all the stuff that we did here. And then
+[22:36] now where is the the
+[22:41] button in here? Use this model. So
+[22:45] Python and
+[22:48] you know you have a bunch of different
+[22:49] option. It gives you like sample code.
+[22:51] Um so we'll use Python, we'll use OpenAI
+[22:55] SDK.
+[22:56] Um
+[23:00] I I will create the personal access
+[23:02] token in a minute. I'll have to do that
+[23:03] offscreen.
+[23:05] Uh we'll do this stuff.
+[23:09] So
+[23:11] here we'll say UV add open AAI.
+[23:15] So it goes and installs that and it
+[23:17] updates our PI project UV lock. Great.
+[23:22] And it gives us you know some sample
+[23:24] code here.
+[23:27] And we'll paste that over into main.
+[23:34] Uh, let's see here.
+[23:38] Oh, yeah. It's complaining about stuff.
+[23:40] Sure. Um,
+[23:44] I think I'll put this in main.
+[23:48] I'm just going to It's just going to be
+[23:50] a really basic like main.
+[23:54] Um,
+[24:01] all right.
+[24:04] So, that part's set up. Now, let's do
+[24:10] since I'm short on time, I'm going to do
+[24:12] a few small things with um
+[24:18] actually in one second, uvia.n.
+[24:23] All right.
+[24:25] Okay.
+[24:29] N import load.n.
+[24:31] This will say loadn.
+[24:35] Yep. Yep. Yep.
+[24:38] We'll say touch.n.
+[24:42] So touch is a command that will create a
+[24:44] file without modifying it. We can see
+[24:46] here that is already in the git ignore.
+[24:49] That's great. Um, so now, so the whole
+[24:52] purpose of doing this this setup here
+[24:53] with the end is a place for me to put
+[24:56] this secret key. So this GitHub token,
+[24:59] so if I share this gub token with some,
+[25:01] you know, anyone on the internet, um,
+[25:03] they can use up my quota. Uh, if that
+[25:07] GitHub token has a lot of permissions,
+[25:09] they could delete my repos. They could
+[25:11] do all these things that would be
+[25:12] horrible. And so it's one of these
+[25:14] things that you want to keep very
+[25:15] private, like a password. And so the
+[25:18] setup of putting it in a
+[25:20] um the reason why that helps is because
+[25:23] it's listed in the the ignore. So it's
+[25:28] very very unlikely that we'll
+[25:29] accidentally commit this. Like we're not
+[25:31] going to accidentally add it because it
+[25:33] doesn't none of the nothing will
+[25:35] automatically add it for us. Um and so
+[25:38] we don't have to worry about that too
+[25:40] much. Um, and it also means that like
+[25:43] I'm not going to be showing the GitHub
+[25:46] token here over in Maine. And so, you
+[25:49] know, even for this recording, it's not
+[25:51] going to be just like recorded out there
+[25:52] on the the web. Um, I'll try to show you
+[25:55] some of the stuff when I'm when I'm
+[25:56] going through and creating the um
+[25:58] personal access token, though. Um, so
+[26:02] let's generate a new token.
+[26:05] Um, so one of the things, let's see. So,
+[26:09] one of the things it said was that we
+[26:11] need it to have the model read
+[26:14] permission.
+[26:17] Um, that's not in this tokens classic
+[26:19] one, but it is in the fine grain ones.
+[26:21] Um, that's that's one that like I think
+[26:23] it used to be in tokens classic, but
+[26:25] it's not anymore, I guess. So, we can
+[26:27] generate a new token. We will say news
+[26:31] title rewriter.
+[26:35] Uh, it's owned by me. And then another
+[26:38] way that you can do something uh fairly
+[26:42] secure is you can just set it to expire
+[26:44] very quickly. So that way if you know
+[26:46] say if it gets into the recording and it
+[26:48] gets onto the internet um you know by
+[26:50] some accident uh hopefully it will have
+[26:53] expired by then.
+[26:57] And then models here is what we need. We
+[27:00] need read only generate token.
+[27:05] Uh,
+[27:08] wait, did I do something wrong
+[27:22] news
+[27:24] title rewriter?
+[27:28] Maybe I can't pick two days. I don't
+[27:31] know. Let's see here. Um.
+[27:42] All right. So, okay. Sure, sure, sure.
+[27:45] Generate token.
+[27:48] Well, it showed the token, so I'm just
+[27:49] going to, you know, now you see the
+[27:51] token. Uh, it's in the recording. I'll
+[27:53] just delete it after this thing.
+[27:56] Um,
+[28:03] and you know, I guess you know, if
+[28:05] you're
+[28:06] ambitious, you could
+[28:09] take that and uh
+[28:13] run some queries on it. But, uh, GitHub
+[28:16] uh, tokens are uh,
+[28:19] like the model usage. There's there's
+[28:21] you can do it on your own account. It's
+[28:23] free to a degree until you run out of
+[28:25] rate.
+[28:26] Um, so we will go back now. We'll run
+[28:31] main.py.
+[28:33] So what actually happened here?
+[28:37] Uh, here. I was trying to be all secure
+[28:39] and then I didn't know it was going to
+[28:41] show on the screen so I goofed. But uh,
+[28:45] but here what it's doing it's loading
+[28:47] the end. So it's grabbing and then that
+[28:50] populates os.environ environ stuff from
+[28:53] N. Uh we set GitHub token in there.
+[28:57] The stuff down here, this is
+[29:00] configuration of the OpenAI client
+[29:04] saying, okay, you're going to you're
+[29:06] going to use this server here, you know,
+[29:08] github.asai/inference.
+[29:10] We're going to use the OpenAI GPT41
+[29:13] model, and then we're going to call this
+[29:15] chat completions.create.
+[29:18] uh it sends this as input to the thing
+[29:21] and I'll come back to that in a sec with
+[29:23] this you know temperature top p and this
+[29:25] model and then the response is this
+[29:28] deeply nested structure so the chat
+[29:30] completion response has a list of
+[29:32] choices
+[29:34] you know in theory it can generate
+[29:36] multiple options simultaneously but
+[29:38] people mostly use it to generate one so
+[29:40] there's generally one and then under
+[29:42] that there's a message and that message
+[29:44] has a content there's a bunch of other
+[29:45] stuff in there too but Um,
+[29:48] so what we could do if you're curious is
+[29:51] we can do like pretty print.
+[29:54] Um, let's try pretty printing the full
+[29:56] response object
+[30:10] or maybe just message. I think I can do
+[30:13] that.
+[30:19] All right.
+[30:24] All right. So, capital Francis Paris.
+[30:26] And you can see it's got this content
+[30:28] here. There's no refusal. It's the role
+[30:31] of the assistant. There's no really
+[30:33] interesting stuff in there.
+[30:35] So, let's try choices. See what's in
+[30:37] there.
+[30:57] All right.
+[31:00] So here we can see our our chat
+[31:02] completion response.
+[31:04] Um this finish region and stop tells us
+[31:07] like why how it got to the end. So um if
+[31:11] we had said you can only generate five
+[31:13] words, it might say well I used up all
+[31:15] my five words. So it would give us a
+[31:16] different like a length here instead of
+[31:18] stop. Uh we are not returning log
+[31:22] probabilities.
+[31:25] Um
+[31:27] there's no concerns about hate speech or
+[31:30] anything like that. So it's got Okay. So
+[31:31] it's got some other stuff in there.
+[31:34] All right. So now
+[31:40] uh let's go over to
+[31:53] I think I closed it actually.
+[31:59] Show full history here.
+[32:05] Oh well, maybe I close that window.
+[32:17] All right. Yeah, maybe I close that
+[32:18] window then. Um, okay. So,
+[32:26] so for the system we would say
+[32:30] uh you're
+[32:32] going to help me rewrite
+[32:36] news titles to be more neutral.
+[32:41] neutral so that
+[32:44] neutral and in plain language
+[32:48] so that I can more easily decide whether
+[32:54] to whether I want to read the article
+[32:59] uh we're attempting
+[33:03] to let me graph
+[33:06] uh reduce
+[33:11] bias and in
+[33:14] sensationalism in news headlines.
+[33:20] Uh oops.
+[33:22] Oh yeah. Uh so a lot of times I like to
+[33:24] do uh triple quotes here so that I can
+[33:27] do some spacing.
+[33:32] I'll provide you with a news headline
+[33:38] and optional snippet
+[33:41] of the article and you will
+[33:46] rewrite the headline
+[33:50] uh
+[33:51] to be more neutral and straightforward.
+[33:53] Okay.
+[33:56] All right.
+[34:00] So,
+[34:02] and just doing a little time check here.
+[34:05] I am going to use
+[34:20] maybe I'll do about five more minutes of
+[34:21] this and then check if we got uh
+[34:24] questions and stuff we wanted to talk
+[34:25] about. Uh, let's see. Rewrite headline.
+[34:30] Okay, great. So, we want to take a
+[34:33] headline and a snippet. Snippet is
+[34:35] optional. It's going to return that.
+[34:37] Okay, great.
+[34:39] Um, what I want to do here
+[34:43] is to say, you know, all right, we're
+[34:46] going to do all that stuff here.
+[34:52] [Music]
+[34:55] So, our client
+[35:00] I guess we can put all that in there.
+[35:06] So, we got our token
+[35:09] response. All right. And now we want to
+[35:12] say return response choices message
+[35:15] content.
+[35:16] Uh there. So, I do have pretty
+[35:20] aggressive type checking turned on. And
+[35:22] what it's warning us about here is that
+[35:23] some of these can be um none
+[35:27] um when I'm sort of saying I want it to
+[35:28] return a string. So uh we will let that
+[35:33] error out but just sort of to to be
+[35:35] aware of. Um all right. So
+[35:41] so headline
+[35:46] and then snippet that. All right. Then
+[35:50] we'll say
+[35:52] rewrite equals that. Then we'll say
+[35:55] print.
+[35:58] Delete that.
+[36:02] All righty. So now we have a headline
+[36:05] and a snippet, but we're not actually
+[36:06] using it.
+[36:08] And so to use it, we have to paste put
+[36:11] it into this user thing. Typically
+[36:14] you'll see the the big picture
+[36:15] directions in system and then the little
+[36:17] picture direction you know kind of the
+[36:19] the actual input here in user.
+[36:22] So here I'll do the triple coded thing
+[36:24] again because I find it's um easier to
+[36:26] read um if I if I did that. All right
+[36:33] snippet. Yep. Yep. Yep.
+[36:37] Great.
+[36:39] And then I'll just sort of strip off any
+[36:42] kind of new lines, any extra new lines
+[36:45] that we don't need or white space.
+[36:48] Um, and then temperature, what we did
+[36:50] before I think was three
+[36:54] because we don't want it to be too
+[36:55] creative. All right.
+[36:58] Now we'll say, all right,
+[37:01] print.
+[37:04] No, we'll say.
+[37:13] All right.
+[37:17] We should probably put that over in here
+[37:19] as kind of a debug message.
+[37:26] And then
+[37:28] uh so let's do this one again.
+[37:32] Ballard Patch thing. Um,
+[37:38] do that. And then we'll just copy paste
+[37:40] a bunch here.
+[37:46] And then one of the nice things with um
+[37:48] triple quoted strings is that like I can
+[37:51] kind of just paste it and it preserves
+[37:53] this this like structure here which is
+[37:55] makes it a little bit easier to read.
+[37:57] All right. So, that will do that and
+[38:01] then we're going to have to deal with
+[38:02] maybe we'll have to deal with that.
+[38:05] But
+[38:09] all right,
+[38:10] so the rewritten headline
+[38:13] it again it has this, you know, neutral
+[38:15] plain language headline. Um, in this
+[38:18] time to open new community patio at
+[38:21] annual art and garden festival.
+[38:25] Uh, it basically didn't change it at
+[38:27] all.
+[38:28] Uh, which is kind of like what we
+[38:30] thought last time. What what might have
+[38:31] happened? Let's try this black hole on.
+[38:56] All right.
+[39:00] So, astronomers find evidence of a
+[39:01] possible intermediate black hole in a
+[39:03] distant galaxy. Actually, I kind of like
+[39:05] that title a little bit better than the
+[39:07] sort of the question questioned one. Um,
+[39:11] but we have this stuff around here. So,
+[39:13] we couldn't just like rewrite the title
+[39:15] because we have all this this sort of
+[39:17] junk around here. Um, so maybe I will
+[39:22] pause there for a second. Let me clean
+[39:25] this up a little bit. Format the
+[39:27] document and then I'll say I'll write
+[39:29] some to-do comments here.
+[39:34] To-do.
+[39:38] So, one is improve the prompt.
+[39:43] Um, the results seemed
+[39:48] a little worse
+[39:51] than what we had in the UI.
+[39:57] So all right here to
+[40:01] uh let's see here
+[40:07] use JSON plus JSON mode plus piantic
+[40:13] to return a structured response so that
+[40:17] we don't
+[40:20] uh have to yeah to parse the string
+[40:25] and can easily Y
+[40:28] Ignore things like
+[40:32] uh
+[40:34] this here
+[40:37] neutral plain language headline
+[40:42] three um
+[40:48] CLI interface
+[40:51] let's see take a URL as input and script
+[40:56] headline snippet from the page. Great
+[41:00] for CLI interface. That makes sense. I
+[41:04] agree with that. And then what else did
+[41:07] we see in here that we haven't talked
+[41:09] about yet?
+[41:16] Oh, yeah. Yeah. I'll put a to-do here.
+[41:23] to do um handle type errors,
+[41:31] null response, etc. Better.
+[41:38] All right. Sorry. So, I I was hoping to
+[41:41] pick the smallest thing I could possibly
+[41:43] imagine so that we could um do it in uh
+[41:46] uh you know, like 45 minutes or so, but
+[41:48] that didn't didn't quite work out the
+[41:50] way I was expecting. Um, did anyone have
+[41:53] like just questions about this or or you
+[41:57] know topics or or anything that they
+[41:59] wanted to bring up?
+[42:08] Um, nothing really. Well, um, are you
+[42:12] going to be doing anything with the, uh,
+[42:14] I guess there's a challenge week next
+[42:16] week?
+[42:18] Uh, I didn't I haven't heard about that.
+[42:21] What's What's that?
+[42:24] Uh I'm not 100% sure. There was a with
+[42:27] the the email went out um you know
+[42:30] what's coming up in the following week.
+[42:33] And uh it looks like they're going to be
+[42:36] going into
+[42:38] having some different teams and doing
+[42:40] some AI coding to do some challenges.
+[42:44] Oh, interesting. No, I hadn't I hadn't
+[42:46] heard about that at all, actually. Um
+[42:49] let me actually while we're talking
+[42:50] about that let me stop sharing and um
+[42:53] Sunday um Sunday is the kickoff party.
+[42:56] So if you want to know more information
+[42:58] you can join us Sunday morning.
+[43:01] Ah
+[43:05] and then we would meet up every day.
+[43:09] Oh so it's like a every day kind of
+[43:11] thing. Okay that's cool.
+[43:12] Mhm.
+[43:17] It's for one week, not long, but
+[43:20] so kind of like a hackathon of of sorts.
+[43:23] Yeah.
+[43:23] Yeah.
+[43:24] Yeah. Resembling a hackathon. I think
+[43:27] the intent was to uh also um I think
+[43:30] they're inviting people that uh aren't
+[43:33] necessarily part of Joy of Coding, but
+[43:35] you know, want are interested and want
+[43:38] to want to join. So,
+[43:43] okay. it coding challenge
+[43:46] week. Wait,
+[43:52] let's see what I can find.
+[43:55] [Music]
+[43:57] I don't see too much online, but uh
+[44:04] they're still fine tuning the challenge,
+[44:06] so you may not find anything. Yeah.
+[44:09] Okay. Yeah, I'll have to I'll have to um
+[44:11] like look over the Discord to sort of
+[44:13] see. Um
+[44:17] yeah, I'm not sure uh actually if yeah
+[44:20] what's in Discord about it. Um I I know
+[44:23] uh just from reading the email um from
+[44:27] Dr. Emily. She does that like Sunday
+[44:29] email about what's what's coming up in
+[44:32] the in the week.
+[44:34] Uh if you join Katrina's Q&A, she would
+[44:37] have more information. She's the one
+[44:39] helping Dr. Emily's design.
+[44:48] Oh, I'm actually trying out the uh the
+[44:50] code tutor bot to see if it can answer.
+[44:59] Oh, I guess. Yeah. So, I guess they
+[45:02] haven't gotten the um ETL working, but
+[45:05] uh so it doesn't have anywhere
+[45:07] information anyway. Yeah, I'll look into
+[45:08] it um later. That's interesting. Um so
+[45:12] it's like so hackathon like a week-long
+[45:14] hackathon on like AI type projects.
+[45:17] Um yeah, that can I've learned a lot
+[45:20] from doing like hackathons in the AI
+[45:22] space. Definitely recommend it.
+[45:29] I wonder if we're using GitHub or if
+[45:31] we're using some other website
+[45:34] um like Hackerink or something.
+[45:38] I no idea. Um
+[45:44] usually
+[45:46] um
+[45:52] usually what I've seen for hackathons is
+[45:54] that people like share their code on
+[45:56] GitHub with each other. Uh but
+[46:01] beyond that
+[46:04] uh you know like every project is kind
+[46:06] of unique and different.
+[46:13] Yeah, that makes sense.
+[46:16] All right, I just deleted my uh
+[46:19] inadvertently shared uh access token. So
+[46:23] I've
+[46:26] uh
+[46:27] restored security I guess.
+[46:39] Yeah. That's part of the part of the
+[46:40] reason why I wanted to to do like a
+[46:42] basic intro thing was to um showcase
+[46:45] like GitHub models is pretty good for
+[46:48] hackathon type work because um you know
+[46:51] you don't have to enter a credit card or
+[46:53] anything like you do with OpenAI or any
+[46:55] of the others.
+[46:57] um you can just just start using it and
+[47:00] then you know eventually you like run
+[47:02] out of free usage for the day but that's
+[47:05] still like I find that
+[47:10] um entering a credit card is is kind of
+[47:12] like a barrier to entry for a lot of
+[47:13] folks um so it sort of helps people kind
+[47:16] of get unstuck uh if they're uh if
+[47:19] they're in that situation.
+[47:22] I have a question for you Dr. Keith. So,
+[47:24] um, is it worth it to invest in
+[47:28] something like Corsive to learn all the
+[47:30] AI tools?
+[47:32] It teaches you 30 tools in 30 days.
+[47:36] But it's
+[47:37] um, what's it called?
+[47:39] Corsive or
+[47:40] Corsive?
+[47:41] Yeah. C O U R S I V. Like course.
+[47:48] Corive.
+[47:50] Yeah.
+[47:53] Huh.
+[47:56] Let's see.
+[48:02] Just reading through like a
+[48:05] summary of it. Actually, I'll show you
+[48:08] what I usually do in these situations.
+[48:10] Um, I usually ask perplexity to
+[48:14] summarize, you know,
+[48:17] summarize a lot of different, you know,
+[48:19] uh,
+[48:23] a lot of different feedback. So, okay.
+[48:26] Uh,
+[48:27] summarize.
+[48:31] I'm considering
+[48:33] Corsive
+[48:35] to learn more about AI.
+[48:39] Tell me what people say.
+[48:44] uh admit
+[48:47] in reviews.
+[48:50] See what we come up with there
+[48:54] falling into the course of
+[48:59] each lesson is 10 to 15 feels like
+[49:02] Dolingo hands-on practice
+[49:06] daily challenge. It built a habit
+[49:08] sentiment is popular.
+[49:11] Reddit and LinkedIn discussions are
+[49:12] polarized. Some call it a scam, others
+[49:14] say it jump started. That's interesting.
+[49:19] That is very interesting. All right.
+[49:23] Better Business Bureau leans positive.
+[49:25] Okay. It's good they got that.
+[49:28] So I mean that seems kind of like a like
+[49:30] mixed results on that particular one.
+[49:32] Um,
+[49:34] so I do they have like a a trial way or
+[49:38] a trial period or is it just like, you
+[49:40] know, they take your money and you're
+[49:42] stuck with it?
+[49:44] Think they take their take your money
+[49:45] and you're just stuck with it. But it's
+[49:46] it's a it's a they have like a
+[49:49] discounted rate like for the first four
+[49:51] weeks.
+[49:53] Oh, okay.
+[49:53] Yeah. Like like 50 cents a day or
+[49:55] something. Um
+[49:58] maybe checking into LinkedIn learning
+[50:02] resource.
+[50:06] LinkedIn might have some.
+[50:10] Oh, okay. I look into it.
+[50:13] It's free.
+[50:13] Yeah. And if if you have the library
+[50:16] card, you can go through library card
+[50:19] and libraries offer the free LinkedIn
+[50:22] Learning.
+[50:23] Oh, okay. Yeah, you're right. They do
+[50:25] have courses. Okay, I'll check it out.
+[50:29] Just uh also a simple uh little course
+[50:32] of reviews. Um
+[50:35] Gemini brings up the negative side, you
+[50:38] know, although as well as I mean there's
+[50:40] the positive, but the content quality.
+[50:43] Several users described the content as
+[50:45] superficial and lacking practical depth.
+[50:50] Yeah, I was afraid if they said you're
+[50:52] learning one tool a day. I'm like that's
+[50:54] really fast.
+[50:55] Yeah. And subscription model and hidden
+[50:57] charges
+[50:58] uh stuff like that. So yeah, I I think I
+[51:03] did see them also before. I'm kind of
+[51:06] skeptical of their uh of of that site.
+[51:10] Yeah, it might be better to just like
+[51:13] use some free resources.
+[51:15] Yeah. beginning
+[51:16] or or even if you if you went on
+[51:19] something like Udemy and I I would feel
+[51:23] more confident about you know plopping
+[51:26] you know 10 or $20 down on a Udemy
+[51:28] course before maybe something like that
+[51:31] just so
+[51:34] even Corsera is a
+[51:37] right
+[51:38] Corsera is also a subscription model but
+[51:41] right yeah
+[51:42] real classes like designed by
+[51:44] compressors
+[51:46] Yeah.
+[51:47] And I think some Corsera classes are
+[51:49] still free, right?
+[51:51] Yeah.
+[51:52] So kind of it's kind of a mixed but um I
+[51:56] I will also say though that like if you
+[51:58] want like a general like a high level
+[52:00] sense of things
+[52:02] um with learning AI
+[52:05] like say if you were doing something
+[52:06] like learn one tool per day for 30 days
+[52:09] like you don't you don't really need 30
+[52:12] tools. uh like
+[52:15] um I
+[52:17] and like you can't get very indepth on a
+[52:22] tool in a single day. So I would say
+[52:24] with with AI stuff like the
+[52:29] a lot of the concepts are the same
+[52:31] across tools too. So you kind of want
+[52:33] want to learn like the big picture stuff
+[52:34] of like okay how do I how do I send some
+[52:37] text in? How do I get some text out? How
+[52:39] do I switch to structured output? How do
+[52:42] I optimize a prompt? How do I start
+[52:44] measuring things? And so it's uh
+[52:50] I wouldn't
+[52:53] I would get used to whatever tools you
+[52:55] start with, but like you're going to be
+[52:57] able to learn all those concepts kind of
+[52:59] regardless of the tools that you pick.
+[53:01] Um,
+[53:03] part of the reason I say this is because
+[53:04] in industry a lot of folks overfocus on
+[53:08] tools
+[53:09] and underfocus on like the concepts that
+[53:12] are kind of across tools and stuff like
+[53:14] that. And so, um,
+[53:19] it's good to learn tools, but I would
+[53:20] say like tools in particular, like not
+[53:23] to not to worry about it too too much.
+[53:26] Like as long as you have like a good a
+[53:27] good quality instructor, I think you're
+[53:29] going to be in a good place. Like an
+[53:32] instructor and and good I shouldn't even
+[53:34] say it that way. Like an instructor an
+[53:36] instructor that like speaks to you, you
+[53:39] know, because like the instructor that's
+[53:41] good for one person is going to be
+[53:42] different than the instructor that's
+[53:43] good for another person a lot of times.
+[53:45] And so like find an instructor where you
+[53:48] know if you can watch like one lecture
+[53:50] and you're like, "Oh, I really learned a
+[53:51] lot." Then like stick with that, you
+[53:53] know, regardless of what tool they're
+[53:54] using. And then you know once you've
+[53:57] mastered that um then move on to you
+[54:00] know trying out different tools try
+[54:02] experimenting with different things. But
+[54:04] a lot of it's really building momentum
+[54:06] consistency of learning consistency of
+[54:08] practice. Uh the the tools aren't um
+[54:14] it's not as big of a deal. Um usually
+[54:18] the people that will say it's a bigger
+[54:20] deal are the people that are selling the
+[54:21] tools. um to have a little bit of a you
+[54:26] know conflict of interest uh for some of
+[54:28] the educational stuff.
+[54:34] That's good. That's good insight. I
+[54:36] think thank you for I don't think I'm
+[54:38] going to buy it, but I'm going to look
+[54:40] into like how to ask good questions, you
+[54:43] know, and own the questions like you
+[54:45] said.
+[54:47] Yeah.
+[54:51] I also found that W3 schools helped me
+[54:53] to learn the concept in in the course
+[54:56] better in our course
+[54:58] just so I could practice them more
+[55:00] because it has this whole section on
+[55:01] Python and libraries stacks and cues and
+[55:04] everything.
+[55:07] I used it
+[55:09] and it actually taught it actually
+[55:11] teaches almost the same way, same order
+[55:17] and it's free.
+[55:20] Yeah, there's there's a lot of good free
+[55:23] content out there. The hard part is just
+[55:24] finding it, you know, like
+[55:27] Yeah.
+[55:28] Um
+[55:31] yeah, I would say that's that's the real
+[55:32] hard part nowadays. And if you weren't a
+[55:34] good machine learning um content place
+[55:39] to start with um machine learning
+[55:42] mastery, they have a um a lot of the
+[55:46] like little basic intro stuff is is all
+[55:50] free and then you can decide if you want
+[55:52] to jump into one of their, you know,
+[55:55] like get a paid paid something or not.
+[56:01] Oh, cool. Machine
+[56:05] learning Mastery. I'll look it up.
+[56:07] Machine Learning Mastery.
+[56:09] Yeah. And
+[56:12] they they have a lot of uh lot of free
+[56:15] stuff. Um
+[56:24] so if you do one internship, you're not
+[56:26] going to do a second internship, right?
+[56:28] Because um we're doing the I'm doing the
+[56:30] low code internship now.
+[56:32] We probably won't be doing like a second
+[56:34] in two, right? I don't know if anybody
+[56:36] knows this.
+[56:38] That's kind of up to you and your
+[56:41] timeline um and what your your plans
+[56:44] are. I I know I was on one and then
+[56:47] realized it wasn't quite the the path
+[56:49] for me, but that does extend my timeline
+[56:51] a decent amount, you know.
+[56:53] Yeah,
+[56:54] I have until February, then I'm coming
+[56:56] on two years. So I have to finish. Uh
+[57:01] actually the local internship is a is a
+[57:02] hidden blessing because now I can finish
+[57:05] on time
+[57:08] being finished by the end of the year.
+[57:12] But then I still want to finish the rest
+[57:13] of the course so I can know about you
+[57:16] know the rest of the things libraries
+[57:18] and dictionaries and things.
+[57:25] Good.
+[57:26] Well, I'm excited about the um
+[57:28] hackathon. I mean, the challenge.
+[57:32] Yeah. Katrina, do you have anything to
+[57:34] add about I I I only uh posted the um
+[57:38] the blurb from Dr. Emily's uh email and
+[57:42] mentioned it.
+[57:44] Yeah. So, we've kind of thrown it
+[57:47] together in the past weeks, but I I have
+[57:48] done React jams, you know, several times
+[57:50] the past couple years. Uh, so we're
+[57:53] taking that same energy that we get from
+[57:54] the React Jam and putting it into a
+[57:56] week-long challenge. And so our goal is
+[57:59] to go from, you know, uh, go from zero
+[58:03] to deployed in that week. And we're
+[58:07] going to use that by utilizing AI and
+[58:09] vibe coding with it. And so we're going
+[58:11] to be taking the power of AI to iterate
+[58:14] through
+[58:15] uh, serving a couple different things.
+[58:17] First off, showing new people that AI is
+[58:20] still buggy and that you will still like
+[58:23] showcasing that there's still going to
+[58:26] be a need for developers. Um, second off
+[58:30] coming back around and um
+[58:34] then we show them how to debug and how
+[58:37] to be able to to still get something out
+[58:39] the door even if it wasn't perfect to
+[58:42] begin with and how to iterate quickly
+[58:43] with AI and in a team. Um, so lots and
+[58:47] lots of great stuff coming down. We've
+[58:49] got tons of experts. We've got lots of
+[58:52] uh lots of team members who are
+[58:54] participating with it and it's really
+[58:56] going to be a lot of fun.
+[58:58] So
+[59:00] that sounds fun. Uh
+[59:02] yeah.
+[59:04] So So it's you're doing one it's uh like
+[59:07] week long.
+[59:09] Yeah. So it's it's next week. Um, and we
+[59:12] we kick off on uh we kick up kick off on
+[59:16] Sunday and then we code through um we've
+[59:20] got sessions every evening at uh
+[59:26] 900 p.m. Eastern. Um and so you'll
+[59:29] likely see a bunch of students at your
+[59:31] at your course because they're gonna
+[59:33] have questions about AI. So tomorrow
+[59:35] expect next times to be to be full
+[59:38] because we'll probably have a lot of
+[59:39] questions. Um,
+[59:41] yeah. I mean, actually, I uh I'll see if
+[59:44] Let me see what my calendar's like next
+[59:46] week because um
+[59:48] that would be awesome
+[59:49] because I could also probably be around
+[59:51] a little bit more. Yeah, we have we have
+[59:54] a morning session which I think it would
+[59:56] be really useful to to have uh some help
+[59:59] for the students to help them with
+[60:01] pushing their projects forward and and
+[60:03] how to iterate better with AI and and
+[60:05] how to really vibe code um and get
+[60:08] effective results out of the AI instead
+[60:10] of you know blundering and spinning
+[60:12] around in circles and
+[60:15] um so if you're available for uh a
+[60:19] Wednesday afternoon or or sorry uh a
+[60:23] Wednesday or Friday afternoon. That
+[60:26] would be huge. Uh we have I I guess
+[60:29] there it's actually morning, not
+[60:30] afternoon. Sorry. It's um it's the
+[60:33] morning session which is
+[60:36] uh 11 a.m. Eastern.
+[60:41] Okay. 11:00 a.m. Eastern. Uh I could let
+[60:45] me see what my schedule's like next
+[60:47] week. I could probably do that.
+[60:50] I might be able to do that on Friday.
+[60:52] Um,
+[60:53] that would be so cool because Friday is
+[60:55] they've already pres they would have
+[60:56] already presented to Dr. Emily on
+[60:58] Thursday night and then Friday is our
+[61:01] day to deploy and so the Friday morning
+[61:04] is get this last minute polish, get this
+[61:07] last minute things and anything last,
+[61:09] you know, finishing finalized touches.
+[61:11] Uh, so that would be huge if you could
+[61:13] help out on on that um on that Friday.
+[61:17] That's the the first
+[61:20] um
+[61:21] What time zone is this looking at?
+[61:24] Yeah, I see it on the calendar. So, it's
+[61:26] uh
+[61:26] You see it on calendar? Okay, great.
+[61:27] Yeah.
+[61:30] Yeah. So, then where where is everybody
+[61:32] getting together? Just like in Discord
+[61:33] or something.
+[61:35] Uh I will have a Zoom room that's
+[61:36] specialized for it. That way we're
+[61:38] saving it online labeled under under
+[61:40] challenge. Um, so it's actually I
+[61:43] haven't put it up there cuz I haven't
+[61:44] put the itinerary for that one yet cuz I
+[61:46] wasn't sure exactly what we're going to
+[61:48] be doing. But if you take a look down at
+[61:49] at the Friday evening, uh, Braden is
+[61:52] going to be helping us lead that one to
+[61:54] to get people deploying on on Friday
+[61:56] night.
+[61:57] So that would be that would be epic if
+[61:59] if you're available on Friday. That
+[62:01] would be fantastic.
+[62:02] Yeah, I could uh Yeah, I've got
+[62:06] definitely I think I could do the Friday
+[62:08] morning one. I might be able to do one
+[62:10] of the other
+[62:12] evening ones. Like Wednesday morning
+[62:15] wouldn't work, but um
+[62:17] Uhhuh.
+[62:18] but I guess you know, you've got you've
+[62:20] got my Discord, so like you can just
+[62:21] sort of say like you'll probably see
+[62:23] like after a day or two how things are
+[62:25] going and then you know, just sort of
+[62:27] like you know, let me know if you need a
+[62:29] hand with particular things. Um cuz it's
+[62:36] I it's it's so new. uh like heavy
+[62:42] reliance on AI for coding is so new
+[62:45] that
+[62:46] uh like kind of everyone has a little
+[62:49] bit of expertise but like no one has
+[62:52] like full expertise yet.
+[62:54] Mhm.
+[62:56] Um
+[62:59] like even the past couple
+[63:00] would you be interested in maybe
+[63:02] collabing with Dr. Emily on Monday
+[63:04] morning? Uh, I think I could do that.
+[63:08] So, she's doing one Monday morning.
+[63:11] Yeah, Monday morning she's taking over
+[63:13] doing the four pillars, but she would
+[63:15] love somebody to be the hands to
+[63:17] showcase vibe coding and to kind of, you
+[63:20] know, uh, to showcase something. So,
+[63:22] that might be an option as well. Uh, if
+[63:24] you could get back to me as to which one
+[63:26] would be better, the the Monday or the
+[63:27] Friday, or if you if you're available
+[63:30] for both, then that would be, you know,
+[63:32] just
+[63:32] uh, I think I would be available for
+[63:34] both. I mean, for for actually being the
+[63:36] hands of sort of showcasing Vive coding,
+[63:38] it's
+[63:40] how to put it. Uh
+[63:42] I I won't claim to be good at Vive
+[63:45] coding in all ways of Vive coding, but
+[63:48] uh I've definitely done done a fair
+[63:52] share of it.
+[63:54] But yeah, I guess we can sort of uh
+[63:57] check in online to sort of see um like
+[63:59] what um
+[64:01] like what kind of
+[64:03] projects you're you're doing cuz cuz
+[64:06] like you say, right, you you sort of
+[64:07] like have to you have to actually kind
+[64:10] of know what you're doing, but like
+[64:12] Mhm.
+[64:13] to be to be efficient and effective with
+[64:15] it. Yeah.
+[64:16] Yeah. Yeah. Yeah. I mean like like
+[64:19] lately I've been using it. I've been
+[64:22] adopting some of the vibe coding style
+[64:24] for frontend work because I'm not great
+[64:26] with front end.
+[64:27] Um and
+[64:31] it allows me to make changes more
+[64:33] quickly. Um
+[64:36] it's definitely like
+[64:39] sending me on a path of pretty poorly
+[64:43] factored code. uh
+[64:46] you know it's
+[64:48] so I got to I have to actually you know
+[64:52] step in soon and really
+[64:54] but yeah we'll touch base. I actually
+[64:56] would like uh I'm going to be starting a
+[64:57] meeting with peer mentors here in just a
+[64:59] moment. Um and I can get back with you
+[65:03] later as to kind of what what other
+[65:04] additional support we might need.
+[65:06] most likely we'll be sending people to
+[65:08] your uh to your Friday night session to
+[65:12] just kind of to talk about their
+[65:13] experience and how and how it went. So
+[65:16] yeah, no, I would be happy to happy to
+[65:18] chat with that. Um yeah, the main reason
+[65:20] I offered to for other stuff is because
+[65:23] um you know if people need uh some
+[65:26] pointers like earlier on or something
+[65:27] like that um
+[65:30] cuz it's
+[65:35] a lot. Yeah. Yeah, it can be a lot. It
+[65:37] can be a lot. And like it also can be a
+[65:40] little bit
+[65:41] like I've never actually
+[65:44] started a project from scratch with with
+[65:47] five coding
+[65:48] and so I don't even know if that's good.
+[65:50] Several so I think
+[65:52] I
+[65:54] uh well you start off from scratch
+[65:58] basically I want to do this project. Uh
+[66:00] so that'll be good. I think I think Dr.
+[66:02] Emily I I was planning on doing Monday
+[66:05] vibe coding that way with her. So, I
+[66:07] think I'll do that with Monday. Okay.
+[66:09] We'll talk about Friday a bit more
+[66:11] Friday morning. Um because that that
+[66:14] might be a stronger spot for you to come
+[66:16] in and and have them ask questions and
+[66:18] we'll have a we'll have a better knowhow
+[66:20] come then if uh with it. So, um but I've
+[66:23] got to pop out now. I've got to go get
+[66:25] that meeting started.
+[66:26] Yeah, I gotta got to start working on
+[66:27] dinner over here. So,
+[66:29] all right.
+[66:31] Have a good one, everybody.
+[66:33] Okay. Um All right.

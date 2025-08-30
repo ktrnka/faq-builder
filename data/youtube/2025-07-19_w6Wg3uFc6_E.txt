@@ -1,0 +1,1698 @@
+YouTube Video Transcript
+Video ID: w6Wg3uFc6_E
+Publish Date: 2025-07-19
+Language: English (auto-generated) (en)
+Generated: Yes
+Total segments: 1689
+Total duration: 68:34
+============================================================
+
+[00:04] Yeah.
+[00:04] And so, yeah, on the topic of YouTube
+[00:06] videos, one thing there's like a couple
+[00:08] interesting things going on there. Um,
+[00:11] one of the things is that, um, there's
+[00:14] sort of the content that people tend to
+[00:16] watch like based off of the length.
+[00:18] And so, YouTube will kind of auto
+[00:21] optimize for that.
+[00:23] And so, when it's recommending stuff, it
+[00:24] kind of knows, oh, you tend to like
+[00:26] shorter videos. Um, what I've heard from
+[00:29] content creators is that YouTube's also
+[00:31] kind of uh really uh pushing for those
+[00:34] shorter videos. So, they might have like
+[00:36] a little boost to to shorter ones.
+[00:39] Those like the um what are they called?
+[00:42] Shorts? They're like kind of like Tik
+[00:44] Tok and Instagram, the short things.
+[00:46] Yeah. Yeah, I've seen them.
+[00:48] So, you know, they're promoting those,
+[00:50] too.
+[00:51] Those are kind of like a good way to get
+[00:52] a little clip. Um, so part of me was
+[00:55] thinking like, oh, you know, couldn't
+[00:56] there be something that automatically
+[00:59] clips those um, you know, from for
+[01:03] That's cool.
+[01:04] topic. That would be super cool, right?
+[01:06] Because you could do like an hour-long
+[01:08] Q&A discussion and then if you could
+[01:11] autogenerate some of the shorts,
+[01:13] that would be
+[01:14] that would be right on for a lot of
+[01:15] people.
+[01:17] And then, you know, may maybe it's a
+[01:19] gateway into uh kind of like, oh, that
+[01:22] was really interesting. Let me look at
+[01:23] the whole thing. Right.
+[01:25] Right.
+[01:27] So, okay. People do that. They edit out
+[01:32] prime portions of their content. Are you
+[01:35] talking about an AI examining a video
+[01:38] and extracting a portion that might be
+[01:40] relevant in the context?
+[01:41] Yes. Yes.
+[01:43] That would be beautiful.
+[01:44] That would be amazing. Right. for all
+[01:45] the people that don't, you know, whether
+[01:47] it's people like me that don't have a
+[01:49] lot of time to to edit all these things
+[01:51] or with small creators.
+[01:53] Hey Keith, there'd be a market. I'm
+[01:56] certain of that.
+[01:57] Yeah. Yeah. I think that would be uh I'm
+[02:01] sure there's a AIS out there that do
+[02:03] that, but I haven't um haven't done, you
+[02:07] know, a deep dive and search for it yet.
+[02:09] I can't remember what they call it.
+[02:11] persona is it kind of putting together
+[02:14] uh not a query. What do you call those?
+[02:19] I don't know. Uh
+[02:22] you talk to GPT or chat GPT in this way.
+[02:26] Well, I what's the primary prompting?
+[02:29] That's it.
+[02:30] Oh, yeah. Yeah. Yeah. Yeah.
+[02:31] So, I I guess you can form formulate
+[02:33] prompts that help to develop a persona
+[02:36] of the AI that you're using. I imagine
+[02:39] that might be one way
+[02:42] of getting nearer to what we're talking
+[02:45] about there.
+[02:46] Well, I think it's one where um you
+[02:50] don't necessarily
+[02:52] So, on the persona side of things, you
+[02:53] don't necessarily have to create a new
+[02:55] video, but you just have to sort of
+[02:56] sample from the big thing. Um so, you
+[02:59] don't necessarily need the persona
+[03:00] aspect as much. Um, in the prompt, you
+[03:03] might want to give us some guidance
+[03:04] about what topics are engaging or not
+[03:07] engaging for your audience.
+[03:09] Sure.
+[03:09] Um, you know, and say, well, you know,
+[03:13] uh, you could imagine one that like
+[03:16] automatically clips like a YouTube short
+[03:18] from a full video, but probably better
+[03:21] is to give the creator some control,
+[03:23] right? You know, you say, "Oh, well, you
+[03:25] talked about these topics. we think here
+[03:28] are two or three shorts that we think
+[03:30] might make engaging content. Um or, you
+[03:34] know, maybe it gives you a list of five
+[03:35] and you pick one or two.
+[03:37] Sure.
+[03:37] Um yeah, I'm just looking up to see uh
+[03:42] that's a great idea.
+[03:44] It looks like there are actually some
+[03:45] some platforms that do this. I'll have
+[03:47] to um take a look at them. Yeah,
+[03:51] I tell you this is one of those things
+[03:52] where um
+[03:54] you know when there's a bunch of
+[03:55] companies or platforms out there that do
+[03:57] something
+[03:59] uh it is time consuming to evaluate
+[04:01] them.
+[04:02] Yes, it is market research.
+[04:04] Yep. Doing that and you know of course
+[04:06] all of these companies are like trying
+[04:08] to say that their stuff is the best. So,
+[04:10] right kind of cut through a lot of BS
+[04:12] there.
+[04:17] Yeah, that I'll have to take a look at
+[04:19] this. Um, let me see if I can
+[04:23] uh
+[04:30] add this to my choice of coding Q&As's.
+[04:34] Anyway, um so anyway, we were just
+[04:37] chatting, but um are there any questions
+[04:40] or topics people had that they wanted to
+[04:43] to get into?
+[04:48] And if not, no worries. Um uh I I had
+[04:51] meant to create like a
+[04:54] sort of like getting started with with
+[04:56] LLM's um
+[04:59] uh repo. So, if there aren't any
+[05:01] questions or topics, maybe we can dive
+[05:03] into that kind of code along.
+[05:05] That's a great idea. And I'm kind of
+[05:08] supposing here, I might be wrong, but
+[05:10] Ahmad looked like he was awaiting asking
+[05:13] a question and then he stepped away for
+[05:15] a little bit, I guess.
+[05:16] So, he he might have one,
+[05:20] but yeah, that sounds great with the uh
+[05:24] LLMs and such intro. That would be
+[05:27] fantastic.
+[05:31] You just stepped away again.
+[05:33] Yeah. Yeah. I'll just, you know, I like
+[05:35] to give people just a couple minutes
+[05:36] because sometimes, you know, you might
+[05:38] have some something on your mind that uh
+[05:41] just doesn't come to mind right away,
+[05:42] you know.
+[05:43] Sure.
+[05:43] Keith, is there any projects you're
+[05:45] currently involved in that are
+[05:47] utilizing, you know, machine learning or
+[05:50] AI or anything like that that might
+[05:54] Yeah. Um the one the main one I can't
+[05:57] talk about a whole lot uh cuz it's like
+[06:00] a
+[06:02] pre seedf funding startup um and we're
+[06:06] changing things a lot right now um but I
+[06:09] can tell you like you know generally um
+[06:12] so we
+[06:15] what we're trying to do right now is to
+[06:17] help um hiring managers who are you know
+[06:21] hiring for like software engineers or
+[06:23] research scientists or you like
+[06:25] programming type roles. Uh try to help
+[06:28] them find candidates that are
+[06:30] appropriate uh for their jobs from
+[06:32] people's like GitHub contributions and
+[06:35] blog posts and such that they've done
+[06:36] online. Um so we've been using a lot of
+[06:41] uh large language model work um in that
+[06:45] in that project. Not all large language
+[06:47] models. We do some other kinds of
+[06:48] machine learning too. But but yeah,
+[06:53] um I had a question too as far as you
+[06:55] know AI is being put into
+[06:58] every MCU now it seems like you know and
+[07:02] what exactly what are they doing? I mean
+[07:05] the big AI if you look at the big people
+[07:07] you know it goes up to a server farm
+[07:09] that has you know gigabits of data and
+[07:12] megaflops of processing. I don't even
+[07:14] know if they use that for AI, but you
+[07:17] know what? Putting this into a chip,
+[07:19] these, you know, these libraries I
+[07:21] assume we can plug into and we're
+[07:23] programming for these different
+[07:25] platforms. What exactly is that? Is it
+[07:28] just a little neural thing? Is it, you
+[07:30] know, it doesn't have this or is it a
+[07:32] way of interfacing with these bigger
+[07:34] entities?
+[07:35] So, I might have missed a couple words
+[07:37] there. You you were asking about like
+[07:38] what's all the hardware that people are
+[07:40] building. Well, you know, you have the
+[07:42] big server farms and everything and we
+[07:43] all know you can go ask chat GPT about
+[07:46] something and it has this humongous data
+[07:49] and processing capability and and you
+[07:51] know and is evolving you would assume at
+[07:54] some point but you know they talk about
+[07:57] AI in everything now every MCU the new I
+[08:01] think the you know every everything for
+[08:04] your your you know AI they push it with
+[08:06] Apple you know so obviously these
+[08:09] programmers when you're programming for
+[08:12] a uh
+[08:14] a different platform, they have to have
+[08:16] libraries now that utilize some of this
+[08:18] AI stuff. And what exactly is it? I
+[08:21] mean, are you storing data there? Is how
+[08:23] is it processing or is it more of an
+[08:25] interface?
+[08:27] So, uh there was one what what did you
+[08:30] mean by MCU?
+[08:32] Well, the micropro MP the microprocessor
+[08:34] unit. Sorry.
+[08:35] Oh, okay. Okay. Okay. Yeah. everything
+[08:37] now when you buy, you know, from whoever
+[08:39] they have, you know, the new the new big
+[08:42] push with the Intel stuff is they've got
+[08:44] so many cores and stuff. And for me, I
+[08:47] always thought, you know, there were
+[08:48] neural nets that you could a long time
+[08:50] ago. I don't use that hear that used
+[08:52] often anymore.
+[08:54] I
+[08:55] No, neural networks are like like when
+[08:57] you talk about large language models or
+[09:00] they are a kind of neural network.
+[09:01] They're a very specialized kind.
+[09:03] That's what I assume, but everybody just
+[09:05] says AI now. I never hear it used. It's
+[09:07] gotten more generic, I suppose, right?
+[09:11] Yes. Yes. Yeah. Much more generic. And
+[09:13] there's no um
+[09:16] it's not like a regulated term or
+[09:18] anything and it's not really like
+[09:19] standardized and so you know there's a
+[09:21] lot of uh
+[09:24] you know people exaggerate a bit. Do you
+[09:26] have any idea like what when Apple, you
+[09:29] know, what kinds of things are being
+[09:31] opened up now that you can use on your
+[09:35] iPhone or, you know, obviously that
+[09:39] would work with any Android system, you
+[09:41] know, that I' I'd hope those libraries
+[09:43] are somehow, you know, contiguous or
+[09:45] transferable, but what are the things
+[09:48] you can do on your phone that you
+[09:50] couldn't do before this AI stuff? or
+[09:53] could it still be done but it just took
+[09:54] a lot more processing or or whatever?
+[09:57] You have any idea of that?
+[09:59] Yeah. Yeah. So, um in terms of what was
+[10:01] possible like
+[10:06] what's changing isn't what's possible.
+[10:08] So, uh that you know when you see them
+[10:10] say oh we can do this on the phone now
+[10:13] or that on the phone now. Um it was
+[10:15] possible to write that before. it would
+[10:17] just be
+[10:19] slow to the point where,
+[10:21] you know, no one would sit there and
+[10:23] wait for it kind of thing, right? Um,
+[10:25] with phones especially, another problem
+[10:27] with it is battery life. So, not just
+[10:30] slow, but really drain your battery
+[10:31] quickly. Uh but at at its core,
+[10:36] just to help help unpack a lot of what's
+[10:39] going on with hardware, not the software
+[10:41] part, just the hardware part,
+[10:44] uh what the hardware changes are for
+[10:48] machine learning and AI is really
+[10:51] generic stuff to speed up neural
+[10:53] networks.
+[10:55] uh what it is trying to do is to do fast
+[10:59] matrix multiplication and fast matrix
+[11:01] arithmetic
+[11:03] and so it has to multiply you know a
+[11:05] million numbers times a million numbers
+[11:07] or something like that and has to do it
+[11:10] very very quickly when you're doing
+[11:12] something that specialized the generic
+[11:14] CPU instructions that are available
+[11:17] aren't 100% optimized for that and so
+[11:19] they've added things like uh specialized
+[11:24] processing so Like GPUs are an example
+[11:26] of specialization where you might see a
+[11:28] neural chip or something like that.
+[11:30] These are examples of specialization
+[11:32] that can do matrix multiplication and
+[11:34] matrix math very very quickly and very
+[11:36] power efficiently. And this is stuff you
+[11:39] could always do on your CPU and you can
+[11:41] still do it on your CPU and a lot of
+[11:43] people do. Uh but it's going to run a
+[11:46] bit slower. It's going to take a bit
+[11:48] more power. Uh it's going to generate
+[11:50] more heat, you know, drain your battery
+[11:51] life and such. And so all of the
+[11:54] hardware stuff is really aimed at things
+[11:56] like speed and power consumption. Uh
+[11:59] does does that help clarify some of the
+[12:01] hardware
+[12:03] to a degree? I mean, you know, we've
+[12:05] seen the big change in the last 10 years
+[12:07] have been put adding GPUs to all of
+[12:09] these systems, which did a lot of that,
+[12:11] I believe.
+[12:12] But now with the
+[12:15] AI, I imagine that's a a superset or a
+[12:19] change of some what the GPUs are doing
+[12:21] to even be more specialized or more
+[12:23] efficient in that kind of math. And also
+[12:26] in that kind of math, does that mean
+[12:27] things like facial recognition is easier
+[12:30] because you can it's the more abstract
+[12:32] type of associations that you can do or
+[12:35] UI stuff because you can maybe you know
+[12:39] measure the finger moving in a different
+[12:41] way instead of having literal rules and
+[12:43] things like that. you can have
+[12:44] associations that might give you some
+[12:47] insight into what the actual content is
+[12:49] or you know what they're trying to do
+[12:51] versus you know waiting for thresholds
+[12:54] to hit and stuff like you might do in a
+[12:55] linear math type of way.
+[12:58] Yeah. Yeah, I mean a lot of a lot of it
+[13:00] is really um so just the whole machine
+[13:03] learning AI style of doing things is
+[13:05] that you're providing examples, you
+[13:08] know, examples of faces that are the
+[13:10] same or examples of faces that are
+[13:12] different and you're asking it to sort
+[13:15] of learn the associations to to figure
+[13:17] that out instead of having to write down
+[13:18] all the rules and it's going to figure
+[13:20] out the best it can do with that. um all
+[13:24] of the hard work that you know a
+[13:26] research scientist or machine learning
+[13:27] engineer does is taking some highle need
+[13:32] you know someone says I want you to um
+[13:36] say for face unlock on a phone right I
+[13:38] want you to only unlock it if it's the
+[13:40] right face never unlock it if it's the
+[13:43] wrong face and how do you translate that
+[13:47] problem into
+[13:49] a neural network which is translating it
+[13:51] into a linear algebra or matrix math
+[13:54] problem.
+[13:56] So it's really converting one type of
+[13:58] problem into a very different type of
+[13:59] problem and then we have highly
+[14:01] optimized hardware for matrix math.
+[14:06] Well my question there too is that you
+[14:08] know without having things in memory
+[14:12] you know you can't do those comparisons.
+[14:15] So you know I assume using AI
+[14:20] the things that you know you don't have
+[14:22] to have all those literal images that
+[14:24] you can have associate you know linear
+[14:26] you know matrix math things like that
+[14:27] which is much more compact obviously
+[14:29] than a whole bunch of JPEGs or something
+[14:31] like that but
+[14:34] I don't know it just seems you know
+[14:36] again kind of like uh magic to a degree
+[14:40] you know not having a lot of examples
+[14:43] you know and I understand a little bit
+[14:45] about programming and resources and
+[14:48] memory and the logic part versus the
+[14:51] data part, you know, and it it seems
+[14:54] like you still have to have the data to
+[14:57] process. And so, you know, is this AI
+[15:00] saying, okay, the library has to load in
+[15:03] a certain subset of faces then to be
+[15:05] able to do the comparisons or is it
+[15:08] learning, you know, it's already
+[15:09] learned, it's got some rules, right? And
+[15:12] those rules should be somewhat dynamic
+[15:14] based on the quality of the video,
+[15:17] daylight, you know, contrast versus, you
+[15:20] know, all the other things and probably
+[15:22] has the same problems with people that
+[15:24] have less contrast in their face than
+[15:26] not and those kinds of rules, you know.
+[15:28] But um
+[15:29] so this is some of this is a little bit
+[15:30] out of my wheelhouse, but we can try
+[15:32] doing some uh perplexity queries. And
+[15:36] then um also I will say that um
+[15:41] in general this is this is the hard part
+[15:43] of the job is figuring out like okay so
+[15:46] so if you're trying to match against a
+[15:47] facial recognition database and say
+[15:49] which person is this um and you're
+[15:51] trying to do it on a phone well you
+[15:54] can't you don't have the space to load
+[15:56] the whole database in the memory um and
+[15:58] so you have to figure out a different
+[16:00] way to represent the problem instead of
+[16:02] saying so the classification approach
+[16:05] which you might do if you're running on
+[16:07] a server or something like that. You
+[16:08] might say, "Okay, well, I've got a
+[16:09] database of a million different people.
+[16:12] Um, and the output is going to be which
+[16:15] of those 1 million people is it?" You
+[16:17] know, uh, you know, is it person one or
+[16:20] person two or such, right? That's that's
+[16:23] one way to represent the problem. Um,
+[16:25] and that's the classifier. A different
+[16:28] kind of way to represent the problem is
+[16:30] to instead of giving it a single image
+[16:32] as input, you give it two images. you
+[16:34] say, "Is this the same person or not?"
+[16:37] So now you only need two, but now you
+[16:39] need you're kind of avoiding that
+[16:42] decision of how do I pick this one I'm
+[16:43] comparing against?
+[16:44] Well, wouldn't chat GPT and some of the
+[16:47] other things be able to sit there first,
+[16:49] you know, what are you trying to do with
+[16:50] this? Is this for ID? Is this to find
+[16:52] out whether they're homo sapiens or not?
+[16:55] you know, male, female, ages, you know,
+[16:59] there's all these
+[17:00] each one's different,
+[17:01] you know, that get crazy with it.
+[17:04] And I mean, in the future, we'll have AI
+[17:06] that will be able to
+[17:08] probably, you know, get intent a lot
+[17:11] quicker and save us a lot more time, you
+[17:14] know, and say, "Okay, here's a thousand
+[17:15] faces of, you know, of something or
+[17:18] whatever. Let's do a comparison and see
+[17:19] how it works. And what's your threshold?
+[17:21] Is this for, you know, certification to
+[17:24] get into your bank account or is this
+[17:25] something to get into a game or
+[17:27] something like that? I mean, it's it's
+[17:29] Yeah,
+[17:29] there's always a million things. I mean,
+[17:31] I started doing some facial stuff years
+[17:33] ago with some of the libraries in
+[17:35] Python. It was pretty cool.
+[17:37] Um,
+[17:39] and now it's amazing. Now it's amazing
+[17:41] though. I mean,
+[17:42] now it's Yeah,
+[17:44] I you know, I'll just say the first
+[17:45] thing that blew my mind was years ago
+[17:48] with Google. Well, Google's always done
+[17:50] pretty good with object recognition and
+[17:51] stuff on their photo databases and stuff
+[17:54] and just I think I might have been
+[17:56] talking to you year or two, but just how
+[17:58] I I was searching for uh a castle
+[18:02] because I've been in Europe and it gave
+[18:04] me a couple hits and then it started
+[18:06] giving me my daughter's building a sand
+[18:08] castle on the beach and I'm like, how in
+[18:10] the f?
+[18:11] Yeah. So, that one actually I have a
+[18:13] much better idea of how they do that
+[18:15] one.
+[18:15] Yeah, that's that seems a little easier
+[18:17] to a degree. They might edge on parapits
+[18:19] or something like that. However, you
+[18:21] know, a certain pattern.
+[18:22] Oh, no. No,
+[18:23] no, you don't think so?
+[18:24] No, no. Because um they don't have the
+[18:26] time to to to detect parapets and detect
+[18:30] every single different feature
+[18:32] independently
+[18:33] as objects
+[18:34] because each different kind of object
+[18:36] they would have to either program a
+[18:38] different piece of machine learning. No,
+[18:40] what they what they tend to do, one of
+[18:41] the core technologies that we've had for
+[18:43] years is things that um can go two
+[18:48] different directions. They have gigantic
+[18:50] databases of images on the internet
+[18:54] along with the hover text for those
+[18:56] images. That's where a lot of our data
+[18:58] comes from for these things. So they
+[19:00] have the captions for billions of
+[19:03] images.
+[19:05] And so one kind of model that they train
+[19:08] is something that generates the caption
+[19:10] from an image. So it inputs an image um
+[19:14] and is trained based off of pairs of
+[19:17] image and text to output the text
+[19:19] associated with the image. What that
+[19:22] will do when you run it on a photo is it
+[19:25] will describe what's in the photo and
+[19:27] then you can use regular search on the
+[19:29] text.
+[19:31] And we've had regular search for, you
+[19:33] know, decades and decades. Yeah.
+[19:34] And so that's probably what they did
+[19:36] because I know that they wouldn't have
+[19:38] wanted to program things specifically
+[19:40] for certain kinds of images. Um they
+[19:43] want a generic solution that works all
+[19:45] the time. They it's honestly for Google
+[19:48] Photos,
+[19:50] it's a relative it's a nice to have, but
+[19:53] it's probably not worth, you know,
+[19:55] spending millions and millions of
+[19:57] dollars of development on it. And so
+[19:59] they kind of want to reuse technology
+[20:01] that they already have. So, they would
+[20:03] almost certainly use that or something.
+[20:05] I'm
+[20:07] I'm kind of It's It's amazing to me that
+[20:09] they've had this huge amount of photos
+[20:12] as a resource content and haven't really
+[20:15] capitalized a lot because I mean it it I
+[20:19] mean it, you know, it's it's I know it's
+[20:21] a non-winner. You know, my brother
+[20:22] actually was working for Seagate and
+[20:24] they were thinking of doing a photo
+[20:26] thing, but it's like how do you make
+[20:27] money off of this? How do you monetize
+[20:29] it? you know, storing photos. It takes a
+[20:32] lot of space. Uh, but it's an important
+[20:35] service to people, you know. I mean, I
+[20:38] I'll say I was around in 94
+[20:41] when somebody developed how to put how
+[20:44] to take a an image from a camcorder,
+[20:47] digitize it, and you could up up upload
+[20:50] it through your printer port at the
+[20:52] time, which was the fastest port. And
+[20:54] they tried to sell it to people, and it
+[20:56] was called the Snap Plus or something.
+[20:58] And people said, "Who wants images on
+[21:01] their computer?"
+[21:03] Well, back then, yeah. Yeah. Cuz there
+[21:05] weren't enough people on computers. Now
+[21:07] everybody's on it, right?
+[21:08] And you didn't And people didn't even
+[21:09] have color. Many people, you know, they
+[21:11] luckily got their own subsidizing and
+[21:13] made about 60 million bucks selling
+[21:15] these things. But it uh you know, the
+[21:18] next thing is going to be what are we
+[21:20] going to do? You know, we have all this
+[21:22] content that we all put on our phones.
+[21:25] We're all different. Um,
+[21:28] you know, but how do how do you
+[21:29] categorize it? You know, I try and make,
+[21:32] you know, things in folders and things
+[21:34] like that, but it could be tough. You
+[21:35] get behind for a couple days or a week
+[21:38] or a month and now you're like, "Okay,
+[21:39] what are family photos? What are this
+[21:41] family photo, that family photo? What is
+[21:43] memes?" You know, I do a lot of that
+[21:46] stuff. And I'm like, "Okay, great. What
+[21:47] how do you categorize all this stuff?"
+[21:50] And I'm hoping that some of that can be
+[21:52] done,
+[21:54] you know, or scanning in old photos. now
+[21:56] they're doing better jobs with ages,
+[21:58] things like that. So, you know, and I
+[22:01] know a lot of these are in private hands
+[22:03] kind of figuring this kinds of things
+[22:04] out, you know. Um,
+[22:06] but anyways, I I I was just curious
+[22:08] because I, you know, I see the AI stuff
+[22:10] and I don't even know if you go in and
+[22:12] you're programming for an iPhone or for
+[22:16] mobile platform or anything, do the AI
+[22:19] tools utilize any of that hardware? And
+[22:21] if so, you know, how do you call it in
+[22:24] or know or even think about it, you
+[22:26] know?
+[22:27] Yeah, I mean, I can So, let's see. I'm
+[22:31] trying to think how to
+[22:34] uh Yeah, maybe we can do some perplexity
+[22:37] searches on this one because I know some
+[22:38] parts of the answer to that, but not all
+[22:40] the parts. And it might be kind of neat
+[22:42] to explore that together. Uh, let's see
+[22:45] here.
+[22:48] Why
+[22:52] I'm not familiar with perplexi?
+[22:55] Why is my zoom
+[23:01] use system desktop capture? Sure.
+[23:06] Wait. Oh, I think I clicked the wrong
+[23:08] thing. Sorry.
+[23:14] Let me see here.
+[23:19] Are you familiar with one of the other
+[23:20] instructors that did a AI machine
+[23:22] learning uh class I think on
+[23:28] Tuesday? Oh, he was he's Hispanic from
+[23:31] uh
+[23:32] uh um Puerto Rico. He was using
+[23:37] vzerodev.
+[23:39] Oh, okay. and UI shadn.com
+[23:43] and chatgpt and interfacing and it was
+[23:46] pretty interesting.
+[23:48] Yeah. Yeah. One of these I think um
+[23:50] we'll see if I don't know if I'll get to
+[23:53] it this time but definitely in the next
+[23:55] one I want to kind of just just do more
+[23:59] of that. But um can you see my uh it's
+[24:02] got like joy of coding is my perplexity
+[24:04] window.
+[24:05] Okay.
+[24:06] Yeah.
+[24:06] Is that okay? Cool. So uh let's see the
+[24:11] so let's dive into this question of like
+[24:13] models on on different devices. So we'll
+[24:16] give it a scenario. Um so there are uh
+[24:21] programming frameworks that you can use
+[24:23] to build your models. Um and they will
+[24:26] help you package them in a way that you
+[24:28] can take advantage of hardware
+[24:30] optimization on iPhone, on Android, on
+[24:34] other devices. Um, and so like let's
+[24:37] let's maybe
+[24:40] I'll give it a scenario. Generally, it's
+[24:42] good to be as descriptive as you can be
+[24:44] when you're when you're asking AI
+[24:46] things. So, um,
+[24:49] I'd like to explore
+[24:53] how machine learning models are deployed
+[24:59] across a range of devices. Let's
+[25:03] consider a scenario. Uh, how about we
+[25:06] consider this scenario like I I've been
+[25:09] using I naturalist lately where you can
+[25:10] take a picture of like a plant or an
+[25:12] animal and it'll tell you what it is
+[25:14] like what species it is like I
+[25:17] naturalist
+[25:20] where we can take a photo of a plant
+[25:26] and it'll tell us which species it
+[25:31] likely is and link to Wikipedia
+[25:36] for that plant.
+[25:40] Let's assume that we've trained a model
+[25:46] a an image classifier
+[25:50] in PyTorch
+[25:52] to do this
+[25:54] and it's a fine-tuned
+[25:57] um imageet
+[26:00] model.
+[26:02] Uh so uh imageet is a lot of these like
+[26:05] images with captions. Um a lot of things
+[26:08] take that and then modify it for other
+[26:10] purposes.
+[26:12] uh I'd like to understand in detail
+[26:18] how we can export this model from
+[26:22] Python/PyTorch
+[26:27] so that we can load it on iPhone
+[26:32] and Android
+[26:34] taking advantage
+[26:37] of any hardware
+[26:41] acceler blurration available on the
+[26:44] devices
+[26:45] for processing our images. Pressing.
+[26:50] Yeah, our images.
+[26:52] All right.
+[26:54] So, that should be enough detail. And
+[26:56] then perplexity is one where it does a
+[26:58] lot of web search type stuff.
+[27:02] All right. So,
+[27:05] it's running us through some of this
+[27:06] PyTorch to iOS and Android. Um and it's
+[27:10] it's taking some information from Apple
+[27:13] some PyTorch tutorials. Apple tutorials
+[27:16] is good. Uh set it to a val mode.
+[27:21] Uh so this is quantizing the model which
+[27:23] is making it smaller. So that'll you
+[27:26] know as it says it's recommended to
+[27:28] improve speed and reduce size. This is
+[27:29] something that's common. um you build
+[27:31] something uh a very large model and you
+[27:35] kind of shrink it down uh because you
+[27:37] know you might have a model when you
+[27:39] train it might be a gigabyte or
+[27:41] something like that. If you're putting
+[27:42] in an app you really need it to be much
+[27:44] smaller like 100 megabytes or smaller
+[27:47] than that. Um so quantizing um actually
+[27:50] that term quantize comes from physics.
+[27:53] Um but it's kind of this reference to
+[27:55] taking something that's continuous and
+[27:57] kind of um representing it in a smaller
+[28:01] approximate way.
+[28:03] So conver convert to torch script that
+[28:06] makes sense. Um optimize for mobile.
+[28:10] Okay. So this one has another one to do
+[28:12] some mobile optimization.
+[28:15] Uh add the save the pts pietorch to your
+[28:18] Xcode project.
+[28:20] Okay. Okay, so there's a lib torch
+[28:22] library um that you can use. I'm not
+[28:25] familiar with iOS development, so I'm
+[28:27] you know not the best to to talk through
+[28:30] this, but it's a library that we can
+[28:31] depend on. Um
+[28:35] core ML uh is Apple's uh machine
+[28:38] learning like ondevice library and it
+[28:41] says okay this is best for hardware
+[28:43] acceleration. So we actually have this
+[28:45] core ML tool um that will convert this
+[28:49] exported PyTorch model into kind of a
+[28:52] native uh CoreML Apple one that runs
+[28:56] more efficiently on iPhone.
+[28:59] And then we know once we're in Core ML,
+[29:01] Apple's done all the hard work for us of
+[29:03] you know deciding whether to use neural
+[29:05] engine their sort of like neural chip or
+[29:08] the GPU or CPU. Um, and then let's see
+[29:12] how the Android one is. All right.
+[29:17] So, it's saying,
+[29:20] all right, in our in our build for
+[29:22] Android, we're going to, you know,
+[29:24] include PyTorch Android. PyTorch Android
+[29:26] torch vision. So, this one is probably
+[29:28] an add-on because we're doing image
+[29:30] work. So, they sometimes have additional
+[29:32] stuff for images.
+[29:35] Let's see here. You can use this thing
+[29:38] to optimize it for Android and hardware
+[29:40] acceleration.
+[29:42] Uh, see what else we got in here.
+[29:54] So, this is one where if we're using
+[29:56] TFlight, we can utilize GS, GPU, DSP,
+[30:00] and and NPU.
+[30:02] Uh this is kind of these one of these
+[30:04] awkward situations where TensorFlow was
+[30:06] made by Google and PyTorch was made by
+[30:08] Facebook. Uh it's not too surprising
+[30:11] that uh PyTorch
+[30:14] out of the box might not take advantage
+[30:16] of Google stuff since they're in
+[30:18] competition with Facebook. Um so you
+[30:21] know we might want to try to convert our
+[30:23] PyTorch model over to TensorFlow light
+[30:26] to take advantage of the work that
+[30:27] Google's done to integrate hardware
+[30:29] acceleration.
+[30:31] Still perplexity I mean G is giving you
+[30:33] I mean this would save days of research
+[30:36] this uh sort of I mean
+[30:40] it gives you a base I mean kind of like
+[30:41] at least a framework on you know where
+[30:43] you might go with this to some degree.
+[30:45] It's giving me a good starting point.
+[30:47] The things that it's not really giving
+[30:49] me are like um
+[30:52] so right this is saying okay here's what
+[30:54] you're going to put in your build gradal
+[30:56] but you still got to like load the model
+[30:58] here. So,
+[31:00] uh,
+[31:03] I'll prep
+[31:09] to for some reason the Korean version of
+[31:12] PyTorch's documentation. So, you know,
+[31:14] it's not like 100% right.
+[31:16] Sure.
+[31:16] Um, but it's a good, like you say, it's
+[31:18] a good starting point to get me thinking
+[31:21] about it. Um, some of these things I do
+[31:23] I know a little bit. Um, so for
+[31:26] instance, like I knew about Google or uh
+[31:29] Apple's CoreML. I didn't know that you
+[31:33] had to convert your your PyTorch format
+[31:35] over to that. There used to be um
+[31:39] I did know about TensorFlow light. I
+[31:41] think there was a version of PyTorch
+[31:43] like that um where they tried to
+[31:45] integrate uh with all the different
+[31:48] hardware of the different devices, but
+[31:50] I'm not sure what happened with that. Um
+[31:52] there's also
+[31:54] another totally different direction.
+[31:56] It's called Onyx.
+[31:59] Uh let's see. So could we instead export
+[32:05] Onyx format and import that directly
+[32:11] with iOS and Android native libraries
+[32:16] for hardware acceleration.
+[32:20] So Onyx is a standardized format. Um,
+[32:23] and so that might mean it would be
+[32:25] really nice if we only have to export a
+[32:26] single version of our model and use it
+[32:28] in multiple places.
+[32:30] So let's see here.
+[32:34] Uh, execution providers.
+[32:42] Okay, so Onyx runtime for iOS says that
+[32:45] it supports all of them. Uh, let's see
+[32:48] what it's citing here.
+[32:50] Onx runtime. Okay, it's probably legit.
+[32:55] Uh, exports model. Yep, yep, yep.
+[33:02] Oh, interesting. So, it's sort of saying
+[33:05] we can get the same acceleration as core
+[33:08] ML models, but it's not
+[33:11] quite as good. It's being a little ky
+[33:14] about how it's not quite as good, but um
+[33:18] we would have to kind of kind of read
+[33:21] more there. Let's see about Android
+[33:28] GPU support and an API.
+[33:31] I mean, does it tell you if there's any
+[33:35] different, I don't know, classes or
+[33:37] processes that, you know, would not be
+[33:40] cross-co compatible ways of
+[33:42] comparisoning, you know, the actual, you
+[33:44] know, the commands that you're using,
+[33:47] you know, would it be a real
+[33:50] bug to try and make it cross-co
+[33:52] compatible against all these different
+[33:56] um
+[33:57] um in general?
+[34:00] In general, it's not too bad. Um, for
+[34:04] images in particular, it's not not as
+[34:07] bad as others. Um, because the kinds of
+[34:10] neural networks used for image
+[34:12] processing traditionally are a little
+[34:15] bit simpler. Um, so there's not quite a
+[34:18] lot of complicated variation between
+[34:21] them. And so, Onyx format, like I know
+[34:24] this cuz I I had researched it years
+[34:25] ago. um early on they they really
+[34:28] supported image processing and so they
+[34:31] really had had good support for that. Um
+[34:35] so I wouldn't worry about that. Um to
+[34:37] give you an example like PyTorch
+[34:39] fundamentally
+[34:41] um actually we can we can ask uh for
+[34:44] some related stuff. So uh related to
+[34:48] this,
+[34:50] give us an example of using PyTorch to
+[34:55] implement a basic
+[34:59] uh neural network which takes you know
+[35:06] 100 floating point inputs
+[35:11] uh
+[35:12] ranging
+[35:14] 0 to one
+[35:17] and should have two hidden layers
+[35:23] of
+[35:25] I'll say
+[35:27] I don't know
+[35:29] 75 units each.
+[35:34] uh then a soft max classification
+[35:41] layer
+[35:43] uh amongst we'll say we'll categorize
+[35:46] the 10 categories
+[35:50] um I'd like this example
+[35:54] to help talk through the way that
+[35:59] PyTorch
+[36:02] standardizes is
+[36:05] your algebra
+[36:08] operations
+[36:10] and handles all the hardware
+[36:14] acceleration
+[36:16] for us during both training and
+[36:20] inference.
+[36:21] Hopefully that's enough detail for it.
+[36:25] Um all right, there we go. And
+[36:30] yeah that that looks like like decent
+[36:32] pietorch code here. Uh so
+[36:37] you know this is the entire code for the
+[36:41] neural network not for training it not
+[36:42] for setting the values but this is the
+[36:45] whole structure of the neural network.
+[36:47] So uh you know we're taking as input 100
+[36:50] different floatingoint units
+[36:53] that this linear here is saying you know
+[36:56] we're using a matrix multiplication to
+[36:59] go from this 100 input to 75. So our
+[37:02] weights are 100 by 75
+[37:05] um and then this is going from 75 to 75.
+[37:08] So that's another matrix multiplication
+[37:10] 75 by 75
+[37:13] again linear. So this is saying another
+[37:15] matrix multiplication and our weight
+[37:18] matrix is 75x 10.
+[37:21] Um here we're this forward here in
+[37:24] pietorch is saying given a piece of data
+[37:27] how do I run that data through the
+[37:29] network? These are these are describing
+[37:32] the weights of a neural network what we
+[37:34] train what we're learning from data and
+[37:36] this is here is describing how we use
+[37:38] it. So it's saying okay take the input
+[37:41] of 100 run it through this 100 by 75
+[37:46] this is called an activation so it
+[37:48] modifies it in a little way and this is
+[37:50] you know it's not changing the shape but
+[37:52] now we have a 75 this is saying you know
+[37:55] do the 75 x 75 another you know rel
+[37:58] transformation
+[38:00] FC3 here is doing this you know 75 to 10
+[38:03] so it's reducing it to 10 and then run
+[38:06] this softmax function on on it so soft
+[38:08] max is just making sure that it turns
+[38:10] into a probability distribution that all
+[38:12] the values add up to one. Um, and so,
+[38:16] you know, if you were to run this,
+[38:19] you know, this code here is Python.
+[38:22] And so, you know, if I run it on my
+[38:24] machine, if I've set up my environment
+[38:26] correctly, it will detect that I have a
+[38:28] GPU and run it on the GPU if I remember
+[38:31] right.
+[38:32] Um, it tries to do that all
+[38:34] automatically for you if I remember.
+[38:36] Sometimes it sometimes that automated
+[38:39] part works, sometimes it doesn't. So
+[38:40] sometimes you have to tell it to in some
+[38:43] versions you have to tell it to run on
+[38:44] GPU, other versions it'll, you know,
+[38:46] auto detect. Um I forget what it does.
+[38:49] Oh, here we go. Actually, oh yeah, yeah,
+[38:52] yeah. If you have GPU,
+[38:55] um so you have to set what device you're
+[38:57] using,
+[38:58] the CUDA enabled, which would mean you'd
+[39:00] have to have like an Nvidia or
+[39:02] something, right? Or
+[39:03] Yeah. Yeah. Exactly. That's this is one
+[39:05] of the long annoying history things in
+[39:08] uh machine learning is that AMD came to
+[39:11] the game really late and so uh it's a
+[39:15] whole different you know if you want to
+[39:16] do it on AMD hardware it's a whole
+[39:18] different thing. Do they have a
+[39:20] translation maybe or something that you
+[39:22] know emulates a CUDA you know as you
+[39:24] know the instructions and you know can
+[39:26] I don't so
+[39:29] there's so much of that there that you'd
+[39:31] want to have some way of dealing with it
+[39:32] I would imagine
+[39:34] so in general it's about kind of setting
+[39:37] up your drivers and then doing something
+[39:39] like this like all of the CUDA details
+[39:41] are hidden from us we don't know we
+[39:43] don't it's set up so that we don't have
+[39:45] to care that it's running using CUDA or
+[39:47] the CPU Thank god.
+[39:49] Oh, I see. It shows us how to do some of
+[39:51] this stuff. Um, let's ask it about AMD.
+[39:53] That's just amazing. Jesus.
+[39:55] Would it look like to run on AMD GPU
+[40:01] instead?
+[40:06] I'll go search this. Um, this is one
+[40:09] that's changed a lot over the years, so
+[40:11] I have to be very careful with the
+[40:13] results.
+[40:14] Uh, because older data will just say it
+[40:17] sucks. newer stuff might tell you some
+[40:20] stuff. Um
+[40:22] yeah, so Rockm is their version of of uh
+[40:25] CUDA.
+[40:26] Okay.
+[40:26] Uh it's a little bit less mature.
+[40:29] Um they're kind of saying get a PyTorch
+[40:32] wheel or Docker image. All right. So
+[40:34] you're kind of
+[40:36] interesting.
+[40:36] Uh so what you're doing here is getting
+[40:39] actually a different version of PyTorch
+[40:43] that is implemented with RockM under the
+[40:45] hood. Uh, so if you're doing that,
+[40:48] you're not going to be able to have both
+[40:50] the Nvidia one, the, you know, the
+[40:52] regular one and this one at the same
+[40:54] time. That's not going to be a problem
+[40:56] for most people. But
+[40:57] yeah,
+[40:58] um, you kind of have to know this. This
+[41:00] is sort of saying like, okay, go get it
+[41:01] from a different place where uh, you
+[41:04] know, pip downloads uh, where the
+[41:06] extensions come from. And then here, you
+[41:09] know, they want to keep it compatible so
+[41:11] you can copy paste code. So, it's called
+[41:13] CUDA here, even though it's actually
+[41:15] Rockm.
+[41:16] Yeah.
+[41:17] Right. So, there's like gonna be a lot
+[41:19] of these like weird things. Um,
+[41:22] couple years they should probably be
+[41:25] synonymous like everything else, I
+[41:26] imagine. But,
+[41:28] so the thing is that AMD would want this
+[41:30] to be synonymous, but they they can't
+[41:34] change the torch library.
+[41:36] Like, they can't change what the thing
+[41:38] is called in torch or else all sorts of
+[41:40] code is going to break. So they have to
+[41:42] kind of wait for a million people to
+[41:44] update their code
+[41:46] and uh that can only really happen if
+[41:48] like PyTorch themselves start forcing
+[41:50] people to do it. Yeah, I
+[41:53] a decision. I suppose
+[41:55] it's going a little bit slow cuz like
+[41:58] nobody really wants to be the first
+[42:00] person to, you know, no one really wants
+[42:03] to be an early adopter of this stuff. Um
+[42:06] because you don't get a lot, you know.
+[42:08] Um
+[42:10] there are a small number of early
+[42:12] adopters in the machine learning space,
+[42:14] I'll say, using AMD hardware. uh the
+[42:17] advantages that I've heard from them
+[42:19] like this is from a few months ago but
+[42:22] um you can get a little bit better
+[42:24] compute for price if you put a lot of
+[42:27] work into optim you know into all the
+[42:29] setup
+[42:31] um also the AMD GPUs tend to have more
+[42:34] memory and so that's really critical for
+[42:36] some people like if you need more memory
+[42:38] than the the biggest Nvidia GPU you just
+[42:42] you can't you can't just like they don't
+[42:44] make it with like pluggable memory like
+[42:46] they do for, you know, regular CPUs.
+[42:48] There's that normal thing, too, where
+[42:50] when you're an early adopter, hardware,
+[42:52] software, whatever, you kind of lock
+[42:54] yourself in.
+[42:56] as things advance sometimes you're
+[42:58] locked in an old kind of paradigm you
+[43:01] know that in AMD
+[43:03] uh you know uh well you look at the
+[43:06] switchbacks that you know uh Intel has
+[43:08] had to make and how they you know the
+[43:11] interchip communications and stuff
+[43:13] they've had to totally redo it the way
+[43:14] AMD did you know they had a lot more
+[43:16] parallel paths and now AMD went to all
+[43:19] these serial paths which allows a lot
+[43:21] more connectivity on different things
+[43:23] and a lot more interfacing
+[43:25] and the integration and everything now
+[43:27] and you know so and it's it's been a
+[43:30] problem for Intel and now they're
+[43:32] actually you know they locked themselves
+[43:35] into making their own hardware which now
+[43:37] obviously is becoming an issue. they're
+[43:39] even going to uh outsource some of their
+[43:42] manufacturing. But it's I don't know.
+[43:43] I've always been kind of one of those
+[43:45] people, you know, that you know the
+[43:46] early being an early adopter is good,
+[43:48] but you also locked yourself in
+[43:50] politically, financially into certain
+[43:53] paradigms that
+[43:54] you know, you guys just figured out how
+[43:57] to do GPUs or do this. There's whole
+[44:02] different doing it that way. haven't
+[44:03] even learned yet, you know, much less
+[44:05] the software and this whole machine
+[44:08] learning thing. You know, that's I'll
+[44:10] just say that's one of the thing I'm
+[44:11] kind of scared about with China that,
+[44:13] you know, they're they're going to look
+[44:14] at what we've done or what has been done
+[44:18] and come up with something that's going
+[44:19] to be way more efficient
+[44:22] and you're kind of stuck. You know, it's
+[44:24] going to be a lot. Like you say, these
+[44:25] libraries aren't going to change
+[44:26] overnight. But
+[44:28] yeah, I mean I can tell you these
+[44:30] libraries are are pretty massive and
+[44:33] some of the reason why some of these
+[44:34] things don't change is because
+[44:37] um it's it's not where most people's
+[44:40] interests lie. You know um you know most
+[44:44] people are more interested in innovating
+[44:47] on the neural network or the machine
+[44:49] learning part and not so interested in
+[44:51] like let me make you know really good
+[44:53] support for you know five different
+[44:55] types of hardware or other hardware.
+[44:57] though there's some people there's some
+[44:59] people there there are a small number of
+[45:02] of organizations that have
+[45:05] frankly the financial incentive and
+[45:07] financial capability of doing it um but
+[45:11] it's a it's a relatively small uh
+[45:13] well I mean a lot of these used to be
+[45:15] individual efforts you know the
+[45:17] different libraries and now you've got
+[45:19] Facebook sponsoring this you know Google
+[45:21] sponsor Apple sponsoring this because
+[45:24] they're such huge projects it can't just
+[45:26] be a couple guys in Norway that have a,
+[45:28] you know, an interest in this particular
+[45:30] thing and make it work, you know.
+[45:33] Well, that's an actually an interesting
+[45:35] one. So, with torch,
+[45:38] uh, I forget, actually, let's ask it.
+[45:41] Um,
+[45:43] tell me about the history.
+[45:46] Hey, if anybody else wants to chime in,
+[45:48] too. I don't want to, you know, get off
+[45:50] on my tangents here.
+[45:52] Yeah. Yeah. Feel feel free to just, you
+[45:53] know, shout out, jump in.
+[45:57] Uh
+[45:58] Bernan Colbert.
+[46:01] Yeah. 2002. Okay. Yeah.
+[46:03] Wow. That's incredible.
+[46:05] So the original torch Yeah. was quite
+[46:08] old and then um if I remember right uh
+[46:19] Oh, I see. So PyTorch came about under
+[46:22] fair which is the the organization that
+[46:24] Yan Lun runs these days.
+[46:28] Okay.
+[46:29] But yeah there's a there's a long long
+[46:31] history of it. Um
+[46:33] you think when it's initial you know
+[46:35] what was it
+[46:36] the initial I think 2002 right? So this
+[46:38] is actually before the first
+[46:41] uh major usage of GPUs for machine
+[46:46] learning. Um
+[46:46] there was yeah there was no GPU at that
+[46:48] point really.
+[46:49] Oh no there were GPUs. There were plenty
+[46:51] of them but um they just weren't they
+[46:54] were just they were only used for gaming
+[46:56] back then I think. Well, yeah. And they
+[46:58] were very very very
+[47:01] simple necessarily, but
+[47:03] actually the so the the stuff back then
+[47:06] um part of the reason why this this
+[47:09] specialty gaming hardware made sense for
+[47:12] machine learning is because there's a
+[47:14] lot of parallelism in uh drawing on the
+[47:18] screen. So you have to do things with,
+[47:21] you know, a thousand different triangles
+[47:22] at the same time or a hundred thousand
+[47:24] different triangles and you have to do
+[47:26] all these drawing operations and all
+[47:27] this math stuff.
+[47:29] And so they the GPU makers wanted to
+[47:32] make something generic so that it would
+[47:33] work for all games. And then it turns
+[47:36] out uh what they built was something
+[47:38] that basically does really fast linear
+[47:41] algebra and that's what we needed. So
+[47:43] machine learning kind of moved over as
+[47:45] like oh you've got this fast linear
+[47:46] algebra stuff.
+[47:47] Yeah. uh we could use that. And so a
+[47:50] part of the rise of neural network works
+[47:52] in part was um because we had this fast
+[47:57] hardware for linear algebra um
+[47:59] the floatingoint stuff too was you know
+[48:02] y
+[48:03] yeah it's all floating point
+[48:04] yeah so it's you really well I'm sorry I
+[48:08] can't remember what the difference was
+[48:09] there was the gaming side and then there
+[48:11] was the Nvidia fire uh what's the except
+[48:16] for doing drafting and stuff like that
+[48:17] the whole separate open.
+[48:20] Oh. Um,
+[48:22] you know, there's the gaming side which
+[48:23] was less about, you know, specifics, you
+[48:26] might say. Um, they didn't have, you
+[48:29] know, memory with, uh, um, error
+[48:33] checking and all that. Then you got to
+[48:34] the other side of it that would do, you
+[48:36] know, for drafting or for doing some of
+[48:38] the more serious stuff.
+[48:41] um that I don't know too much about
+[48:43] crazy expensive you know but I it
+[48:46] essentially does the same you know you
+[48:49] know and um because I mean originally I
+[48:52] think a lot of it was just the drafting
+[48:54] and doing you know the lines and I mean
+[48:57] but you had so many companies back then
+[48:59] I mean Si did their own little processor
+[49:01] chip my my brother worked for Power VR
+[49:03] which did their own
+[49:04] Oh yeah yeah
+[49:05] and they had a great way of doing it
+[49:07] because they would had a way of masking
+[49:11] They had you give a perspective so it
+[49:14] would mask the parts of the scene that
+[49:15] you didn't see. So it wouldn't have to
+[49:18] calculate those triangles.
+[49:20] Yeah. Yeah. Yeah.
+[49:21] That would be worth nothing in a in a a
+[49:24] performance envir like drafting and
+[49:25] stuff like that. But for generating
+[49:27] screens, I think Apple used their their
+[49:30] graphics for part of their first GPUs
+[49:32] that they put out because they were so
+[49:34] efficient. Um, but yeah, there was so
+[49:38] many and now it it's just, you know,
+[49:40] when I used to go to uh ComX and stuff
+[49:43] back in the late 70s and early 2000s, it
+[49:45] was just amazing to go in the back and
+[49:47] see what these guys were doing.
+[49:49] Oh, yeah. Yeah. Yeah. And it's
+[49:51] especially nice to see um some of those
+[49:53] like tech demos where they're pushing
+[49:55] the envelope, right?
+[49:57] U you know, when they come to market,
+[49:58] sometimes they can use that in a demo,
+[50:00] but what comes to market isn't always,
+[50:03] you know, it isn't always that. it
+[50:04] doesn't always have the same creativity.
+[50:06] Um, yeah, seeing those demos is really
+[50:09] cool. Yeah, this this stuff was actually
+[50:12] uh if I remember, so Alex not so that
+[50:14] was 2012. That was the the first um big
+[50:18] use of GPUs that that uh I had heard
+[50:21] about. Uh I think it was CUDA
+[50:27] um
+[50:28] units
+[50:28] and then if I remember right at the time
+[50:36] so I don't think Alex Net used let's see
+[50:39] I mean this is what he uses today I
+[50:41] think back at the time there weren't
+[50:43] things to write in CUDA so if I remember
+[50:45] right he like you know Alex Alex I don't
+[50:49] know how to say his last name he uh like
+[50:52] he learned how to program CUDA. It
+[50:54] wasn't intended for machine learning
+[50:56] really. It was
+[50:57] oh
+[50:58] made this generic thing and they were
+[51:00] hoping someone would find a use case for
+[51:02] it and he was like oh you know let me
+[51:03] try it out and uh and so yeah he he got
+[51:07] started that enabled him to come into um
+[51:11] this competition here the imageet
+[51:13] competition
+[51:15] um and he came in and just beat everyone
+[51:17] like that field had been stagnant for
+[51:20] years. people were really no one was
+[51:22] making progress and he just a field that
+[51:24] was stagnant for years and he came in
+[51:27] and just beat everyone by a wide margin.
+[51:30] Sort of came out of nowhere. So it was a
+[51:32] real wakeup call for everybody.
+[51:34] Wow.
+[51:34] Um and a lot of it you know came down to
+[51:37] doing this complicated thing for GPUs.
+[51:40] Um now after that so PyTorch let's see
+[51:45] IBM and Deep Blue started using GPUs in
+[51:48] their stuff.
+[51:50] Yeah, I mean IBM and Deep Blue, they
+[51:53] have kind of a
+[51:54] chess and all that with
+[51:56] but I don't know where what's going on.
+[51:58] I know they were doing that for they
+[52:00] also then used that to do studying uh
+[52:04] X-rays
+[52:05] and were able to take the use cases for
+[52:08] cancer and and and do better than the
+[52:11] pros much quicker and cheaper obviously
+[52:13] without having all those pros spending
+[52:15] the time and I don't know where that's
+[52:17] going now but and that's old technology
+[52:20] compared to today. I don't even know. I
+[52:22] know they probably increased to newer
+[52:24] versions and stuff, but
+[52:26] yeah,
+[52:27] some of the GPU farms now, I don't even
+[52:29] hear how they're competing. I haven't
+[52:31] really looked at that.
+[52:33] I mean, the GPU farms like
+[52:35] realistically, like nowadays, you know,
+[52:38] you just if you want to do stuff on a
+[52:40] GPU, you use AWS or Google Cloud
+[52:43] Platform or Azure or any of those. Um
+[52:47] most
+[52:48] you know small to midsize companies they
+[52:50] don't want to manage their own hardware
+[52:52] you know um you know they want to
+[52:54] cost to that too though right
+[52:56] like when you we use chat GPT somebody's
+[52:59] paying
+[53:00] Yep.
+[53:00] cost us to have access
+[53:02] nothing's free right or when you're
+[53:04] using perplexity or whatever.
+[53:07] Yeah. I mean in my case I I pay for this
+[53:10] one. Uh but uh yeah, a lot of people get
+[53:13] free access and you know in some cases
+[53:18] companies are doing it as kind of a loss
+[53:20] leader to you know to raise awareness,
+[53:22] bring in marketing, capture market share
+[53:25] and what you see over time is that they
+[53:27] tend to shift towards more uh you know
+[53:30] charging more and having less free stuff
+[53:32] you know once they've they've gained
+[53:34] enough of a name. Um they also tend to
+[53:38] what they tend to give for free is the
+[53:39] stuff that's that's really cheap. So um
+[53:42] you know easy access to the the smallest
+[53:46] models, the ones that take the least
+[53:48] amount of compute that are you know
+[53:51] pennies or fractions of a penny. Um and
+[53:54] then they charge for the ones that are
+[53:55] that are more. Um the other thing too
+[54:00] that they're doing um so something like
+[54:03] this I you know I don't know exactly
+[54:05] what it would look like in the free
+[54:07] version. We can see here um so for more
+[54:11] sources and more powerful models and
+[54:13] unlimited access and then here
+[54:16] um
+[54:17] are you paying per usage or per
+[54:20] subscription?
+[54:22] Uh so it's like I don't know 20 bucks a
+[54:24] month or something like that. And then
+[54:26] the hard one thing that's really really
+[54:27] difficult um speaking from the industry
+[54:30] side is how to create a pricing model
+[54:32] for subscriptions. Uh you know and you
+[54:35] want to kind of make it make sense for
+[54:38] typical usage but when you're starting
+[54:40] out you don't know typical usage. Then
+[54:42] price adjustments are always you know a
+[54:44] big thing. So you do your best to guess.
+[54:47] Well they've got all these apps that do
+[54:48] like you talked about an app that would
+[54:50] uh you give it a picture of a a plant
+[54:52] and it would tell you that. Now, if you
+[54:55] were to plug into that with something on
+[54:58] your phone, like there's a million of
+[54:59] those plant apps on phones now. I don't
+[55:01] know if they're using this database or
+[55:04] some other or this AI or what, but you
+[55:08] know, so that costs you a couple cents a
+[55:10] hit or how how how does that generally,
+[55:13] you know, is way of knowing how that
+[55:16] might be set up? I mean, if I wanted to
+[55:18] do that. So if you wanted to do that um
+[55:22] it depends on the scale that you're
+[55:23] talking about. So if you're talking
+[55:25] small scale the the dominant cost is
+[55:28] developer time just you know how much
+[55:31] time we have to build the thing. Um in
+[55:33] that scenario
+[55:35] uh typically what we'll do is we'll make
+[55:38] a smaller model that's more specialized
+[55:41] that costs you know a percent of a
+[55:43] percent of a cent per call something
+[55:45] like that. And so at that case, you
+[55:48] know, then you're talking about, you
+[55:49] know, a few bucks a month or something
+[55:51] on the server. Okay, fine. You know, you
+[55:53] just eat that cost. Um, another way that
+[55:56] people go for those scenarios is they
+[56:00] send the model to the phone and the
+[56:02] phone runs the model. So then you're
+[56:04] paying for the bandwidth maybe to get
+[56:07] the model to the phone, but you're not
+[56:10] paying for the usage on the phone. you
+[56:11] know, the the user is paying by their
+[56:14] battery life really.
+[56:16] Um, and so that's another way to do it.
+[56:18] Are many models small enough to do that?
+[56:21] Uh, it it depends that, you know,
+[56:24] there's a lot that are are getting small
+[56:26] enough, you know, especially for uh for
+[56:29] things like classifying plants. Yes, you
+[56:32] know, there are plenty of models that
+[56:33] are small enough to classify plants on
+[56:34] device.
+[56:36] If you're talking about uh complex
+[56:39] things like the model that produced this
+[56:40] whole summary, um those are getting
+[56:43] smaller, but they're not small enough to
+[56:45] run. They have to do a much dumber
+[56:48] version on your phone. Like dumb to the
+[56:50] point that most people wouldn't use it.
+[56:52] Um and it would drain your battery. So,
+[56:54] seems like an incredibly large amount of
+[56:57] data. I mean, the model wouldn't have
+[56:59] this data. It would have references to
+[57:01] the data. So that's what this is doing
+[57:04] is um called rag. So retrieval augmented
+[57:07] generation. And so you can see here when
+[57:11] you know I type in something like how
+[57:12] does that intersect with AlexNet. What
+[57:15] it does is it does a search and it finds
+[57:17] all these web pages.
+[57:19] So these web pages like in the YouTube
+[57:21] videos have transcripts. All these web
+[57:23] pages have all this information about
+[57:25] Alex net. The model might not have much
+[57:27] information about Alex net. And so uh
+[57:31] perplexity what they do is they
+[57:32] transform this question here how does
+[57:34] that intersect with AlexNet and they
+[57:36] transform the context the discussion
+[57:38] that we're having and they also
+[57:41] transform all of the content of all
+[57:42] these web pages into the input for the
+[57:44] thing. So the model doesn't have to know
+[57:46] the answer to this as long as they're
+[57:48] web pages that have the answer to it.
+[57:50] And then it's creating this it's
+[57:52] constructing this from a combination of
+[57:55] you know the internal information baked
+[57:57] into the model uh like about English for
+[58:00] instance and you know how you know how
+[58:02] language works and such uh and what the
+[58:05] little bits that it knows about machine
+[58:07] learning and deep learning and it's
+[58:08] combining that with you know what it got
+[58:10] from these web pages. Um so this is this
+[58:13] is one way to deal with the problem of
+[58:15] like so the the biggest problem that we
+[58:17] had for a long time was that you would
+[58:20] train these models and you know training
+[58:22] the model itself it would try to it's
+[58:24] trying to learn all of the knowledge of
+[58:26] humanity um but but up until a moment in
+[58:30] time right and they're really expensive
+[58:32] to build so they might only update them
+[58:34] twice a year and so you know what do you
+[58:37] how do you answer questions about things
+[58:39] that happened since then? um or things
+[58:42] that weren't in your data. And so this
+[58:44] search sort of helps give it information
+[58:46] about things that are outside of its own
+[58:48] data set. So it sort of has the data
+[58:50] that was built on and then with
+[58:53] retrieval augmented generation, it's
+[58:55] slurping up, you know, web search data
+[58:57] and kind of shoving it in there to to
+[59:00] generate stuff. Uh where it can go badly
+[59:04] is if say this this bite plus.com right
+[59:08] says the origins of alexnet.
+[59:11] Now I don't know I haven't heard about
+[59:14] this website. I don't it could be a
+[59:16] great website could be a terrible
+[59:17] website but um it could maybe they have
+[59:20] incorrect information you know or what's
+[59:24] this LinkedIn editors you know like the
+[59:25] LinkedIn editor content I think they're
+[59:28] not like reviewed too carefully. So some
+[59:30] of these I would trust and this is like
+[59:32] some random person's GitHub, you know,
+[59:35] like is that trustworthy? I don't know.
+[59:38] So it's taking all this information, but
+[59:41] you know, hopefully it's saying, well,
+[59:43] Wikipedia, usually there's like a
+[59:44] vetting process and so we'll trust that
+[59:46] more. Um, or Pine Cone, I've heard of
+[59:50] them. I think they're legit. Um,
+[59:53] hopefully somewhere it's got a ranking
+[59:55] of sources to some degree, I imagine. or
+[59:58] you know.
+[59:59] So that's that's the hard thing.
+[60:02] It's it's a lot of times they these
+[60:05] systems rank sources for relevance,
+[60:08] but uh people haven't quite figured out
+[60:11] how to rank sources for truthfulness or
+[60:14] accuracy.
+[60:16] Um that's that's a lot of people working
+[60:19] on
+[60:20] today. That's kind of a debatable.
+[60:22] Yeah. Yeah. I mean what's the truth? You
+[60:25] know, I mean
+[60:25] it's a hot topic in society. I would
+[60:27] say, you know, that's we're we're
+[60:29] working on that as a society.
+[60:31] The old word that truthiness or
+[60:32] whatever,
+[60:35] but
+[60:35] yeah, but that's, you know, a little bit
+[60:36] of how some of these things work. Um,
+[60:39] but I haven't used it to this level and,
+[60:43] you know, ask those questions in that
+[60:45] way to get the narratives, you know. Um,
+[60:49] it's it's really quite
+[60:52] Yeah, it takes practice, you know. I
+[60:54] would say uh as I've gotten more used to
+[60:58] it, I've gotten better at asking
+[60:59] questions. So, we can dive back through
+[61:01] this, you know, chat history here. Um,
+[61:04] so this is something that, um, I've
+[61:06] learned, uh, from experience is that
+[61:09] providing more context of what we're
+[61:11] looking for generally leads to a better
+[61:13] answer. Um, and so that's why I did all
+[61:16] of this, you know, it was a lot more
+[61:18] typing than I would have to do for a
+[61:19] Google search, but we got good stuff.
+[61:23] And then here
+[61:25] um
+[61:27] it gave us one solution and I knew
+[61:31] enough to not like it. Um so it kind of
+[61:33] redirecting here.
+[61:35] Um but
+[61:38] I'm not saying like do this. I'm sort of
+[61:40] saying like is it possible? And so it'll
+[61:42] you know
+[61:43] try to assess that for us. Um in this
+[61:47] case yeah you know again just being very
+[61:49] very specific about what I want. um as
+[61:53] much as possible if you know the outcome
+[61:56] that you're after being clear about that
+[61:58] outcome. It's actually a lot like being
+[62:00] a manager you know you have to be u
+[62:03] clear about what you're looking for you
+[62:05] know depending on the employees needs
+[62:07] right of how much direction that they
+[62:09] need. Um but you don't necessarily want
+[62:11] to tell people oh do this then this then
+[62:13] this you know you don't want to kind of
+[62:14] micromanage them. you want to give them
+[62:16] flexibility
+[62:17] um to do things the way that they they
+[62:19] think are is right, but kind of give
+[62:21] them a goal to achieve. Um so it's a lot
+[62:24] of like being specific about the goal as
+[62:27] much as possible. Um
+[62:31] and then you know that was this is
+[62:32] actually kind of a lazy question on my
+[62:34] end. Um
+[62:36] but we didn't really need to be too
+[62:38] careful about that one. Um history of
+[62:42] torch and pietorrch. Uh
+[62:45] so you know one thing
+[62:48] another thing uh that comes up is like
+[62:50] you don't want to lead it too much. Um
+[62:54] so
+[62:56] it will if you if you give it an opinion
+[62:59] it'll kind of parrot it back to you in a
+[63:01] different form a lot of times and so you
+[63:04] don't want to give it too many hints
+[63:05] about your existing opinion.
+[63:07] Sure. if you want to get an unbiased
+[63:09] view.
+[63:11] Uh
+[63:11] these are all things you learn in
+[63:13] communication in a way. I mean
+[63:16] amazing it it has that capability or at
+[63:20] least that way to be redirected. I mean
+[63:23] um you know it's like
+[63:26] that's the core tech, right? I mean, the
+[63:28] core technology, um, the way it all
+[63:31] started is like it's it's a it's a
+[63:34] completion engine, and so it completes
+[63:37] things that are consistent with what
+[63:38] it's already seen. And so, it really
+[63:40] wants to generate things that are
+[63:42] consistent with what you told it.
+[63:44] I really would love to see somebody uh
+[63:47] go through and diagnose the recent
+[63:49] issues. And this is not I'm not talking
+[63:50] about the politics of it, but the recent
+[63:53] thing with uh with Grog and
+[63:56] Oh, yeah. Yeah. you know, being one way
+[63:58] and then all of a sudden something got
+[64:00] tweaked and it went Hitler, you know,
+[64:02] and so it's kind of like Mecca Hitler or
+[64:05] whatever the heck. I mean, what you
+[64:08] know, the thing you you sit there and
+[64:10] go, okay, well, obviously AI is
+[64:13] not agnostic, you know, it's not
+[64:16] completely there's somebody can push
+[64:18] things one way or the other rather
+[64:20] easily, it seems.
+[64:22] Um,
+[64:23] well, that's kind of interesting, you
+[64:26] know. It took a bit of skill on the so
+[64:28] it was a person kind of manipulating it
+[64:30] a bit. It did take a bit of skill on
+[64:32] their part to to get it to happen that
+[64:34] way. Um but if you read about um so
+[64:38] sometimes it's called jailbreaking
+[64:42] [Music]
+[64:44] jailbreaking or
+[64:47] large language model. So well there's
+[64:49] jailbreaking for the phone large
+[64:51] language models. Um,
+[64:53] okay.
+[64:55] Grock was built with a specific set of
+[64:57] instructions about how to how to
+[64:58] interact with people and how to behave.
+[65:01] Jailbreaking is the process of getting
+[65:03] it to ignore those instructions.
+[65:06] And so, you know, the person that was
+[65:08] messing with it, you know, had some
+[65:12] degree of experience and they were the
+[65:14] person that succeeded in jailbreaking it
+[65:15] a bit. Um
+[65:19] and actually you know you can see
+[65:20] commentary from anthropic and open AI
+[65:22] really like it seems like Grock
+[65:25] researchers have
+[65:28] there the organization that builds it
+[65:29] seems to have some systematic issues
+[65:32] with safety and you know they've kind of
+[65:34] neglected a lot of these areas where
+[65:36] these these other companies have spent
+[65:38] you know tens and maybe even hundreds of
+[65:41] millions of dollars on just safety
+[65:42] alone.
+[65:44] So some of it's
+[65:46] I mean if you're doing Azure you're
+[65:48] doing something that has to have you
+[65:49] know very business aspect you have to
+[65:52] make sure that the rules don't allow you
+[65:53] to have
+[65:55] completely insane answers right in one
+[65:58] way or the other. Whereas the build it,
+[66:02] break it,
+[66:04] fix it later type thing, people that,
+[66:06] you know, that run the uh
+[66:09] always in beta format type programs, you
+[66:13] know. Um because I don't think that's
+[66:14] trying to be I don't think Elon's trying
+[66:16] to sell that to anyone right now. I
+[66:18] mean, I I mean, it's not like he's
+[66:20] putting it in Word or putting it in, you
+[66:24] know, something specific. It seems to be
+[66:26] kind of an open thing he's working on.
+[66:28] Let's see.
+[66:29] You know, and and I guess I guess he
+[66:31] just doesn't care. You know, he can talk
+[66:33] about Nazis and Hitler and he's not
+[66:35] embarrassed by it. Um, you know, whereas
+[66:38] if that happened with Azure or something
+[66:41] like that, it would have serious
+[66:43] ramifications to their business model, I
+[66:45] think.
+[66:46] Well, uh, Grock did land a 200 million
+[66:49] deal with the
+[66:50] Oh, the Pentagon thing.
+[66:52] Yeah. So,
+[66:53] but he has the inside track on that. So,
+[66:55] it's not like he has to compete with
+[66:57] anybody, you know,
+[66:59] he's me,
+[67:01] that's interesting. Um,
+[67:03] but anyway, yeah, actually I I'm a
+[67:06] little bit over time, but I got to go
+[67:08] run. No, no, it's fine. It's fine.
+[67:10] This was very, very interesting. Uh, you
+[67:13] know, um,
+[67:16] great information. I appreciate it.
+[67:18] Yeah. Yeah. Yeah. Next time I'll try to
+[67:20] um try to do some some coding next time.
+[67:23] Hopefully I can carve out some time to
+[67:25] prep beforehand, but uh this week kind
+[67:27] of got away from me. You know how that
+[67:28] goes.
+[67:29] Yep. Yeah. Like I said, I didn't see
+[67:31] anything. I um what was it before? What
+[67:34] was the guy's name from Puerto Rico? Um
+[67:38] he did a pretty good job with ML. He was
+[67:41] doing it to find there was a project he
+[67:44] was showing us where he would sign the
+[67:45] find the size of somebody's clothes off
+[67:47] of their picture. Oh, that's fun.
+[67:50] And uh he was using some AI tools and
+[67:53] stuff to do that and I thought that was
+[67:55] kind of neat. And so he was able to show
+[67:56] us as he was changing things what it was
+[67:59] doing.
+[68:00] So that was kind of a neat little class
+[68:01] in that he did talk about some of the
+[68:03] issues with
+[68:05] cost you know that uh you know running
+[68:08] these you know you do have to basically
+[68:10] get a subscription to get into a lot of
+[68:12] the higher
+[68:14] functions. Yeah. and um you know, so
+[68:18] without having much experience with
+[68:19] that, it's a kind of a nice intro to
+[68:22] some of the issues you have to deal
+[68:23] with. But all right, well, thanks a lot,
+[68:25] Keith. Appreciate it.
+[68:27] Yeah. Yeah, you too. You guys have a
+[68:29] good weekend.
+[68:30] Yep. Have a good weekend. Bye.
