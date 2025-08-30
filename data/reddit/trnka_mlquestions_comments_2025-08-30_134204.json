@@ -1,0 +1,52 @@
+[
+  {
+    "id": "n9r73vu",
+    "text": "I try to rapidly iterate on the label set and annotation guide early in the process before we've done a lot of annotation, so we can throw the old data away if needed. I don't have a good process for dealing with it later on. \n\nIn one multilabel annotation project that already had significant annotation, we deprecated the old label and made a new one. It had much less data but was much more consistent so that was an improvement. On that project we also periodically added new labels. We rarely went back and re-annotated because it was so costly. Instead we implemented our multi-label training to support incomplete annotation. Also, this was before the rise of LLMs otherwise we probably would've done some work there instead.",
+    "timestamp": "2025-08-20T11:17:51",
+    "permalink": "https://www.reddit.com/r/MLQuestions/comments/1mvdh4f/seeking_advice_how_do_you_make_text_labeling_less/n9r73vu/",
+    "score": 2,
+    "subreddit": "MLQuestions",
+    "post_title": "[Seeking Advice] How do you make text labeling less painful?",
+    "post_url": "https://www.reddit.com/r/MLQuestions/comments/1mvdh4f/seeking_advice_how_do_you_make_text_labeling_less/"
+  },
+  {
+    "id": "n9qxkgu",
+    "text": "I've had mixed results with active learning approaches. Generally these days I annotate a random sample then try to double it, then inspect errors and label some of those. Any production complaints go into the annotation queue. If I notice any trends in user feedback that sometimes leads me to source a category of unlabeled data to annotate.\n\nWhat's slow/challenging varies from project to project but can include:\n\n* Setting up the annotation software, or creating it in some cases\n* Paying expert annotators and creating the right incentives for high quality work\n* Developing annotation guidelines or a manual, which is particularly challenging if I'm not an expert in the annotation area (like medicine)\n* What to do with old data after changing the label set or guidelines",
+    "timestamp": "2025-08-20T10:32:44",
+    "permalink": "https://www.reddit.com/r/MLQuestions/comments/1mvdh4f/seeking_advice_how_do_you_make_text_labeling_less/n9qxkgu/",
+    "score": 2,
+    "subreddit": "MLQuestions",
+    "post_title": "[Seeking Advice] How do you make text labeling less painful?",
+    "post_url": "https://www.reddit.com/r/MLQuestions/comments/1mvdh4f/seeking_advice_how_do_you_make_text_labeling_less/"
+  },
+  {
+    "id": "mvwbbd8",
+    "text": "It's a common feeling. If possible, when I'm starting a project I simplify everything possible and build the most basic thing that could possibly work. Then once I have something working, I can add tests and such, and then iteratively improve it. It's much harder if I'm starting off building something complex because when it doesn't work, I don't know which parts are broken.\n\nAlso, it takes time to learn a big subject area. So long as you're making consistent progress, even if you aren't at your goal yet, you'll get there in time.",
+    "timestamp": "2025-06-03T21:29:58",
+    "permalink": "https://www.reddit.com/r/MLQuestions/comments/1l2vpl0/hung_up_at_every_turn/mvwbbd8/",
+    "score": 2,
+    "subreddit": "MLQuestions",
+    "post_title": "Hung up at every turn",
+    "post_url": "https://www.reddit.com/r/MLQuestions/comments/1l2vpl0/hung_up_at_every_turn/"
+  },
+  {
+    "id": "mvv7vt5",
+    "text": "Stratifying the test set makes your evaluation more trustworthy. If the distribution of classes is random, as others have said, you could end up oversampling the majority class in the test which would make your evaluation look artificially good.\n\nWhen I was learning, I found the stratified test concerning because it make the metrics look better than the actual usage of the model in production. Over the years, I learned that the actual production data will always be distributed somewhat differently than your train and test data so your test set metrics are overestimates of the quality of the model in production. That's a separate problem to work on rather than trying to address it via stratification.",
+    "timestamp": "2025-06-03T17:19:52",
+    "permalink": "https://www.reddit.com/r/MLQuestions/comments/1l2kkxm/this_is_confusing/mvv7vt5/",
+    "score": 1,
+    "subreddit": "MLQuestions",
+    "post_title": "This is confusing",
+    "post_url": "https://www.reddit.com/r/MLQuestions/comments/1l2kkxm/this_is_confusing/"
+  },
+  {
+    "id": "mto93vu",
+    "text": "Very little, though it varies by role and company. Of the math that's used, the most common stuff is statistics used in assessing the impact of models and features.\n\nThat said, there's some wiggle room when working with pre-existing models. If your team's goal is to make Google Translate 1% better, you have a choice in how to achieve that. Some people might pursue math-heavy approaches and others might focus on data quality.",
+    "timestamp": "2025-05-22T08:47:03",
+    "permalink": "https://www.reddit.com/r/MLQuestions/comments/1kstjtl/how_much_of_the_advanced_math_is_actually_used_in/mto93vu/",
+    "score": 4,
+    "subreddit": "MLQuestions",
+    "post_title": "How much of the advanced math is actually used in real-world industry jobs?",
+    "post_url": "https://www.reddit.com/r/MLQuestions/comments/1kstjtl/how_much_of_the_advanced_math_is_actually_used_in/"
+  }
+]
