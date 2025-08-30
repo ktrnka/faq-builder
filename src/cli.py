@@ -52,7 +52,13 @@ def download_video_transcript(video_id, languages, output_dir, youtube_client=No
     # Get video metadata
     metadata = None
     publish_date = "unknown"
-    
+
+    for file in os.listdir(output_dir):
+        if video_id in file:
+            path = os.path.join(output_dir, file)
+            click.echo(f"📄 Transcript already exists for video: {video_id} in {path}, skipping")
+            return path
+
     if youtube_client:
         try:
             video_request = youtube_client.videos().list(
@@ -74,10 +80,6 @@ def download_video_transcript(video_id, languages, output_dir, youtube_client=No
     youtube_dir = os.path.join(output_dir, "youtube")
     filename = f"{publish_date}_{video_id}.json"
     output_file = os.path.join(youtube_dir, filename)
-    
-    # Check if file already exists
-    if os.path.exists(output_file):
-        raise click.ClickException(f"Transcript file already exists: {output_file}")
 
     # Get transcript
     ytt_api = YouTubeTranscriptApi()
