@@ -1,0 +1,7896 @@
+{
+  "metadata": {
+    "kind": "youtube#video",
+    "etag": "zSC7dOgLKnv4TBM9WIypBxOx5s8",
+    "id": "GzXH65eiHWU",
+    "snippet": {
+      "publishedAt": "2025-08-16T00:27:39Z",
+      "channelId": "UC26p3I1nr9F8G2WboH1SfTA",
+      "title": "2025-08-15T23:01:11Z - AI / Open Q & A w/Coach Keith",
+      "description": "AI / Open Q & A w/Coach Keith 2025-08-15T23:01:11Z",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/GzXH65eiHWU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/GzXH65eiHWU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/GzXH65eiHWU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/GzXH65eiHWU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/GzXH65eiHWU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Joy of Coding",
+      "categoryId": "24",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "2025-08-15T23:01:11Z - AI / Open Q & A w/Coach Keith",
+        "description": "AI / Open Q & A w/Coach Keith 2025-08-15T23:01:11Z"
+      }
+    },
+    "contentDetails": {
+      "duration": "PT1H3M23S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    },
+    "statistics": {
+      "viewCount": "3",
+      "likeCount": "0",
+      "favoriteCount": "0",
+      "commentCount": "0"
+    }
+  },
+  "transcript": {
+    "video_id": "GzXH65eiHWU",
+    "language": "English (auto-generated)",
+    "language_code": "en",
+    "is_generated": true,
+    "snippets": [
+      {
+        "text": "Oh, okay.",
+        "start": 3.6,
+        "duration": 3.679
+      },
+      {
+        "text": "All right. There we go. Uh, all done. I",
+        "start": 4.48,
+        "duration": 4.72
+      },
+      {
+        "text": "sometimes forget to unpause.",
+        "start": 7.279,
+        "duration": 5.44
+      },
+      {
+        "text": "No, no problem. No problem. Um,",
+        "start": 9.2,
+        "duration": 6.88
+      },
+      {
+        "text": "basically we're having this uh challenge",
+        "start": 12.719,
+        "duration": 6.241
+      },
+      {
+        "text": "coming up and I'm wondering from your",
+        "start": 16.08,
+        "duration": 5.6
+      },
+      {
+        "text": "perspective is there anything you would",
+        "start": 18.96,
+        "duration": 5.84
+      },
+      {
+        "text": "uh be able to throw out to make it a",
+        "start": 21.68,
+        "duration": 5.919
+      },
+      {
+        "text": "more",
+        "start": 24.8,
+        "duration": 6.799
+      },
+      {
+        "text": "structured interesting possibly uh",
+        "start": 27.599,
+        "duration": 6.64
+      },
+      {
+        "text": "successful venture",
+        "start": 31.599,
+        "duration": 5.681
+      },
+      {
+        "text": "uh like uh identifying coding",
+        "start": 34.239,
+        "duration": 6.561
+      },
+      {
+        "text": "parameters. I understand you can tell AI",
+        "start": 37.28,
+        "duration": 5.52
+      },
+      {
+        "text": "you know you're an expert for example",
+        "start": 40.8,
+        "duration": 5.2
+      },
+      {
+        "text": "you're an expert in this field uh based",
+        "start": 42.8,
+        "duration": 6.16
+      },
+      {
+        "text": "on this particular type of framework you",
+        "start": 46.0,
+        "duration": 5.76
+      },
+      {
+        "text": "know recommend what to do how to do it",
+        "start": 48.96,
+        "duration": 5.599
+      },
+      {
+        "text": "and maybe even uh produce some",
+        "start": 51.76,
+        "duration": 5.2
+      },
+      {
+        "text": "documentation along the way something",
+        "start": 54.559,
+        "duration": 5.041
+      },
+      {
+        "text": "that would be very helpful in terms of",
+        "start": 56.96,
+        "duration": 3.919
+      },
+      {
+        "text": "moving forward.",
+        "start": 59.6,
+        "duration": 1.599
+      },
+      {
+        "text": "Yeah.",
+        "start": 60.879,
+        "duration": 2.401
+      },
+      {
+        "text": "Almost like specifying a goal.",
+        "start": 61.199,
+        "duration": 4.32
+      },
+      {
+        "text": "Yeah.",
+        "start": 63.28,
+        "duration": 5.28
+      },
+      {
+        "text": "Yeah. So um when you say to be more",
+        "start": 65.519,
+        "duration": 4.481
+      },
+      {
+        "text": "successful than last time actually could",
+        "start": 68.56,
+        "duration": 2.8
+      },
+      {
+        "text": "you talk a little bit more about that",
+        "start": 70.0,
+        "duration": 3.92
+      },
+      {
+        "text": "like what does success mean to you and",
+        "start": 71.36,
+        "duration": 4.4
+      },
+      {
+        "text": "um you know what what are some areas",
+        "start": 73.92,
+        "duration": 3.92
+      },
+      {
+        "text": "like compared to last time that you",
+        "start": 75.76,
+        "duration": 4.56
+      },
+      {
+        "text": "would like to see uh work better?",
+        "start": 77.84,
+        "duration": 4.4
+      },
+      {
+        "text": "Well in my sense it was a very good",
+        "start": 80.32,
+        "duration": 3.76
+      },
+      {
+        "text": "learning experience. So I can't say it",
+        "start": 82.24,
+        "duration": 3.44
+      },
+      {
+        "text": "wasn't successful. I think that's the",
+        "start": 84.08,
+        "duration": 2.8
+      },
+      {
+        "text": "objective right now.",
+        "start": 85.68,
+        "duration": 3.36
+      },
+      {
+        "text": "Well it was successful in that way but",
+        "start": 86.88,
+        "duration": 3.68
+      },
+      {
+        "text": "maybe you know there are some parts you",
+        "start": 89.04,
+        "duration": 3.36
+      },
+      {
+        "text": "weren't satisfied with.",
+        "start": 90.56,
+        "duration": 3.599
+      },
+      {
+        "text": "Yeah. Well, let me let me tell you what",
+        "start": 92.4,
+        "duration": 3.84
+      },
+      {
+        "text": "happened. uh in the context of our",
+        "start": 94.159,
+        "duration": 4.161
+      },
+      {
+        "text": "project, we had about uh I'd say seven",
+        "start": 96.24,
+        "duration": 6.0
+      },
+      {
+        "text": "or eight people on the team and uh you",
+        "start": 98.32,
+        "duration": 5.839
+      },
+      {
+        "text": "know, I felt I was going to be a paperw",
+        "start": 102.24,
+        "duration": 6.72
+      },
+      {
+        "text": "weight and maybe I was, but the fact is",
+        "start": 104.159,
+        "duration": 6.96
+      },
+      {
+        "text": "I set about to doing something and even",
+        "start": 108.96,
+        "duration": 4.24
+      },
+      {
+        "text": "though I didn't create the results in",
+        "start": 111.119,
+        "duration": 6.081
+      },
+      {
+        "text": "time, you know, answering a ticket uh",
+        "start": 113.2,
+        "duration": 7.12
+      },
+      {
+        "text": "and and to use Git effectively to get it",
+        "start": 117.2,
+        "duration": 7.44
+      },
+      {
+        "text": "up there, I did manage to succeed in",
+        "start": 120.32,
+        "duration": 6.56
+      },
+      {
+        "text": "creating this button and moving it to",
+        "start": 124.64,
+        "duration": 4.64
+      },
+      {
+        "text": "where I wanted it to be on the page.",
+        "start": 126.88,
+        "duration": 4.4
+      },
+      {
+        "text": "Originally, it had been placed right",
+        "start": 129.28,
+        "duration": 4.08
+      },
+      {
+        "text": "next to an existing button on the upper",
+        "start": 131.28,
+        "duration": 6.24
+      },
+      {
+        "text": "left corner, uh, which was a back button",
+        "start": 133.36,
+        "duration": 7.44
+      },
+      {
+        "text": "basically. And, uh, I wanted it off to",
+        "start": 137.52,
+        "duration": 5.84
+      },
+      {
+        "text": "the right. It was a print button, you",
+        "start": 140.8,
+        "duration": 4.88
+      },
+      {
+        "text": "know, kind of print save what the",
+        "start": 143.36,
+        "duration": 4.239
+      },
+      {
+        "text": "parameters were that people chose for",
+        "start": 145.68,
+        "duration": 4.559
+      },
+      {
+        "text": "camping, for example. Mhm.",
+        "start": 147.599,
+        "duration": 6.081
+      },
+      {
+        "text": "And uh well the bottom line is somebody",
+        "start": 150.239,
+        "duration": 5.601
+      },
+      {
+        "text": "did take it upon themselves. They they",
+        "start": 153.68,
+        "duration": 4.8
+      },
+      {
+        "text": "finished that and it was a beautiful",
+        "start": 155.84,
+        "duration": 6.16
+      },
+      {
+        "text": "product and even though I didn't when I",
+        "start": 158.48,
+        "duration": 6.32
+      },
+      {
+        "text": "did the demonstration I didn't have the",
+        "start": 162.0,
+        "duration": 4.959
+      },
+      {
+        "text": "most current version. I hadn't pulled",
+        "start": 164.8,
+        "duration": 3.2
+      },
+      {
+        "text": "the most",
+        "start": 166.959,
+        "duration": 2.881
+      },
+      {
+        "text": "right. Yeah.",
+        "start": 168.0,
+        "duration": 4.4
+      },
+      {
+        "text": "But um nonetheless, I felt very",
+        "start": 169.84,
+        "duration": 4.08
+      },
+      {
+        "text": "accomplished",
+        "start": 172.4,
+        "duration": 4.479
+      },
+      {
+        "text": "having gotten that button on the page",
+        "start": 173.92,
+        "duration": 5.039
+      },
+      {
+        "text": "and uh doing exactly what it was",
+        "start": 176.879,
+        "duration": 4.241
+      },
+      {
+        "text": "supposed to do. As a matter of fact,",
+        "start": 178.959,
+        "duration": 5.36
+      },
+      {
+        "text": "when when uh Copilot",
+        "start": 181.12,
+        "duration": 7.52
+      },
+      {
+        "text": "um I use VS Code, but when Copilot uh",
+        "start": 184.319,
+        "duration": 6.081
+      },
+      {
+        "text": "did make the change that resulted in",
+        "start": 188.64,
+        "duration": 3.599
+      },
+      {
+        "text": "putting the button at the right place,",
+        "start": 190.4,
+        "duration": 4.4
+      },
+      {
+        "text": "it also created an error because it",
+        "start": 192.239,
+        "duration": 5.441
+      },
+      {
+        "text": "introduced uh when you hit the button,",
+        "start": 194.8,
+        "duration": 5.359
+      },
+      {
+        "text": "it would bring up the print dialogue",
+        "start": 197.68,
+        "duration": 6.24
+      },
+      {
+        "text": "basically. Okay? And when you close it",
+        "start": 200.159,
+        "duration": 6.72
+      },
+      {
+        "text": "out, it brought up the print dialogue",
+        "start": 203.92,
+        "duration": 5.76
+      },
+      {
+        "text": "again. So the second time you closed it",
+        "start": 206.879,
+        "duration": 5.44
+      },
+      {
+        "text": "out, it was closed. It was done. So I",
+        "start": 209.68,
+        "duration": 5.36
+      },
+      {
+        "text": "had co-pilot, you know, tell me, okay,",
+        "start": 212.319,
+        "duration": 5.2
+      },
+      {
+        "text": "what's going on? Why is it doing this? I",
+        "start": 215.04,
+        "duration": 6.08
+      },
+      {
+        "text": "gave it context. And uh",
+        "start": 217.519,
+        "duration": 5.521
+      },
+      {
+        "text": "actually, I think I gave it context for",
+        "start": 221.12,
+        "duration": 3.44
+      },
+      {
+        "text": "the first thing, putting the button in",
+        "start": 223.04,
+        "duration": 4.16
+      },
+      {
+        "text": "the right place because it kept saying",
+        "start": 224.56,
+        "duration": 5.2
+      },
+      {
+        "text": "the button was already aligned and it",
+        "start": 227.2,
+        "duration": 3.52
+      },
+      {
+        "text": "wasn't.",
+        "start": 229.76,
+        "duration": 3.28
+      },
+      {
+        "text": "So I took the screenshot, gave that to",
+        "start": 230.72,
+        "duration": 5.2
+      },
+      {
+        "text": "it for context. It used it, saw, oh,",
+        "start": 233.04,
+        "duration": 5.279
+      },
+      {
+        "text": "okay. Well,",
+        "start": 235.92,
+        "duration": 5.2
+      },
+      {
+        "text": "and uh so whatever it it was a wonderful",
+        "start": 238.319,
+        "duration": 6.56
+      },
+      {
+        "text": "experience. Uh success would be",
+        "start": 241.12,
+        "duration": 6.56
+      },
+      {
+        "text": "accomplishing something meaningful and",
+        "start": 244.879,
+        "duration": 6.801
+      },
+      {
+        "text": "making use of uh GitHub properly,",
+        "start": 247.68,
+        "duration": 6.559
+      },
+      {
+        "text": "knowingly. And I'm I'm on a path to",
+        "start": 251.68,
+        "duration": 5.2
+      },
+      {
+        "text": "doing that by studying GitHub's manual",
+        "start": 254.239,
+        "duration": 4.081
+      },
+      {
+        "text": "that's available right at the site,",
+        "start": 256.88,
+        "duration": 3.52
+      },
+      {
+        "text": "GitHub Pro or something.",
+        "start": 258.32,
+        "duration": 6.24
+      },
+      {
+        "text": "Yeah. So with with GitHub I will say um",
+        "start": 260.4,
+        "duration": 6.32
+      },
+      {
+        "text": "I guess my experience with C-pilot and",
+        "start": 264.56,
+        "duration": 4.88
+      },
+      {
+        "text": "VS Code is that uh generally I have to",
+        "start": 266.72,
+        "duration": 5.039
+      },
+      {
+        "text": "do the GitHub stuff",
+        "start": 269.44,
+        "duration": 5.28
+      },
+      {
+        "text": "but I can ask it questions",
+        "start": 271.759,
+        "duration": 5.121
+      },
+      {
+        "text": "you know like",
+        "start": 274.72,
+        "duration": 4.0
+      },
+      {
+        "text": "you know you'll remember like the basic",
+        "start": 276.88,
+        "duration": 4.879
+      },
+      {
+        "text": "commands and stuff um you know as you",
+        "start": 278.72,
+        "duration": 4.479
+      },
+      {
+        "text": "gain some experience but there's always",
+        "start": 281.759,
+        "duration": 4.081
+      },
+      {
+        "text": "like some that you know even for me even",
+        "start": 283.199,
+        "duration": 4.961
+      },
+      {
+        "text": "though I'm programming like every day I",
+        "start": 285.84,
+        "duration": 3.84
+      },
+      {
+        "text": "don't remember every single command you",
+        "start": 288.16,
+        "duration": 4.96
+      },
+      {
+        "text": "know so I got a look up stuff.",
+        "start": 289.68,
+        "duration": 6.72
+      },
+      {
+        "text": "But, uh, so yeah, studying that's good.",
+        "start": 293.12,
+        "duration": 4.96
+      },
+      {
+        "text": "And then, you know, like asking",
+        "start": 296.4,
+        "duration": 5.28
+      },
+      {
+        "text": "questions often is good. Um,",
+        "start": 298.08,
+        "duration": 6.24
+      },
+      {
+        "text": "and then",
+        "start": 301.68,
+        "duration": 5.92
+      },
+      {
+        "text": "I think a part of what I've seen I I",
+        "start": 304.32,
+        "duration": 4.48
+      },
+      {
+        "text": "don't know how it's gone with Joy of",
+        "start": 307.6,
+        "duration": 4.879
+      },
+      {
+        "text": "Coding. I'm curious to hear um in some",
+        "start": 308.8,
+        "duration": 5.839
+      },
+      {
+        "text": "hackathons is that it can take a while",
+        "start": 312.479,
+        "duration": 4.321
+      },
+      {
+        "text": "to sort of get started. like figuring",
+        "start": 314.639,
+        "duration": 4.481
+      },
+      {
+        "text": "out what the team wants to do might take",
+        "start": 316.8,
+        "duration": 5.92
+      },
+      {
+        "text": "a significant amount of time and then um",
+        "start": 319.12,
+        "duration": 5.76
+      },
+      {
+        "text": "and it might not also be clear like what",
+        "start": 322.72,
+        "duration": 4.24
+      },
+      {
+        "text": "each person is going to be working on.",
+        "start": 324.88,
+        "duration": 2.96
+      },
+      {
+        "text": "And so, right,",
+        "start": 326.96,
+        "duration": 2.72
+      },
+      {
+        "text": "you know, a lot of the a lot of like",
+        "start": 327.84,
+        "duration": 3.199
+      },
+      {
+        "text": "finding something that that is",
+        "start": 329.68,
+        "duration": 4.959
+      },
+      {
+        "text": "satisfying and meaningful is sort of um",
+        "start": 331.039,
+        "duration": 5.681
+      },
+      {
+        "text": "helping a group of people work through",
+        "start": 334.639,
+        "duration": 3.761
+      },
+      {
+        "text": "those early stages sort of the people",
+        "start": 336.72,
+        "duration": 4.24
+      },
+      {
+        "text": "problems quickly.",
+        "start": 338.4,
+        "duration": 4.32
+      },
+      {
+        "text": "You know, what do we want to build?",
+        "start": 340.96,
+        "duration": 5.44
+      },
+      {
+        "text": "Who's going to do what? um you know are",
+        "start": 342.72,
+        "duration": 6.0
+      },
+      {
+        "text": "there any dependencies sort of figuring",
+        "start": 346.4,
+        "duration": 5.28
+      },
+      {
+        "text": "that out early um naturally what I find",
+        "start": 348.72,
+        "duration": 4.96
+      },
+      {
+        "text": "is that people as they gain more",
+        "start": 351.68,
+        "duration": 4.48
+      },
+      {
+        "text": "experience they um in those kind of",
+        "start": 353.68,
+        "duration": 3.76
+      },
+      {
+        "text": "session like once you have that",
+        "start": 356.16,
+        "duration": 3.36
+      },
+      {
+        "text": "discussion with the team then you can",
+        "start": 357.44,
+        "duration": 3.84
+      },
+      {
+        "text": "say oh actually I want to do something I",
+        "start": 359.52,
+        "duration": 3.119
+      },
+      {
+        "text": "want to try something more substantial",
+        "start": 361.28,
+        "duration": 2.24
+      },
+      {
+        "text": "this time",
+        "start": 362.639,
+        "duration": 2.481
+      },
+      {
+        "text": "and so a lot of it's really that that",
+        "start": 363.52,
+        "duration": 4.0
+      },
+      {
+        "text": "initial stage of like in the planning",
+        "start": 365.12,
+        "duration": 4.079
+      },
+      {
+        "text": "stage making sure that the project as a",
+        "start": 367.52,
+        "duration": 3.76
+      },
+      {
+        "text": "whole is ambitious enough",
+        "start": 369.199,
+        "duration": 4.0
+      },
+      {
+        "text": "uh for the team but you know not so",
+        "start": 371.28,
+        "duration": 3.44
+      },
+      {
+        "text": "ambitious that you can't actually built,",
+        "start": 373.199,
+        "duration": 3.601
+      },
+      {
+        "text": "you know, you're set up to fail, you",
+        "start": 374.72,
+        "duration": 4.64
+      },
+      {
+        "text": "know, something that's uh difficult but",
+        "start": 376.8,
+        "duration": 4.0
+      },
+      {
+        "text": "achievable.",
+        "start": 379.36,
+        "duration": 2.08
+      },
+      {
+        "text": "Yeah.",
+        "start": 380.8,
+        "duration": 0.959
+      },
+      {
+        "text": "Yeah.",
+        "start": 381.44,
+        "duration": 2.08
+      },
+      {
+        "text": "And then making sure that each person",
+        "start": 381.759,
+        "duration": 4.16
+      },
+      {
+        "text": "individually has something that is sort",
+        "start": 383.52,
+        "duration": 5.2
+      },
+      {
+        "text": "of difficult but achievable for them.",
+        "start": 385.919,
+        "duration": 4.161
+      },
+      {
+        "text": "So, a lot of it really comes down to",
+        "start": 388.72,
+        "duration": 4.08
+      },
+      {
+        "text": "that. And then yeah, forget it.",
+        "start": 390.08,
+        "duration": 6.08
+      },
+      {
+        "text": "Definitely recommend um you know either",
+        "start": 392.8,
+        "duration": 7.119
+      },
+      {
+        "text": "studying or uh honestly like if you've",
+        "start": 396.16,
+        "duration": 5.44
+      },
+      {
+        "text": "got a printer, I would just print out",
+        "start": 399.919,
+        "duration": 3.361
+      },
+      {
+        "text": "one of the github like the get cheat",
+        "start": 401.6,
+        "duration": 4.319
+      },
+      {
+        "text": "sheets and just like tape it to the side",
+        "start": 403.28,
+        "duration": 4.32
+      },
+      {
+        "text": "of my monitor.",
+        "start": 405.919,
+        "duration": 3.441
+      },
+      {
+        "text": "Right. Right.",
+        "start": 407.6,
+        "duration": 3.12
+      },
+      {
+        "text": "Actually, I've got like little post-it",
+        "start": 409.36,
+        "duration": 3.04
+      },
+      {
+        "text": "notes like when I'm trying to learn",
+        "start": 410.72,
+        "duration": 3.759
+      },
+      {
+        "text": "terminology, I'll just like put Post-it",
+        "start": 412.4,
+        "duration": 4.239
+      },
+      {
+        "text": "notes all over.",
+        "start": 414.479,
+        "duration": 4.801
+      },
+      {
+        "text": "Um so little things like that. Uh for",
+        "start": 416.639,
+        "duration": 5.761
+      },
+      {
+        "text": "GitHub, I would recommend um uh",
+        "start": 419.28,
+        "duration": 4.8
+      },
+      {
+        "text": "searching for like a tutorial just to",
+        "start": 422.4,
+        "duration": 3.12
+      },
+      {
+        "text": "familiarize yourself if you're still",
+        "start": 424.08,
+        "duration": 3.28
+      },
+      {
+        "text": "learning the basic commands.",
+        "start": 425.52,
+        "duration": 2.32
+      },
+      {
+        "text": "Sure.",
+        "start": 427.36,
+        "duration": 1.6
+      },
+      {
+        "text": "Because you kind of want to get some of",
+        "start": 427.84,
+        "duration": 4.24
+      },
+      {
+        "text": "those like uh like some of those kind of",
+        "start": 428.96,
+        "duration": 5.04
+      },
+      {
+        "text": "under your belt before you get started.",
+        "start": 432.08,
+        "duration": 3.28
+      },
+      {
+        "text": "You don't want to have like delays from",
+        "start": 434.0,
+        "duration": 4.16
+      },
+      {
+        "text": "that when you're on walk, you know?",
+        "start": 435.36,
+        "duration": 3.36
+      },
+      {
+        "text": "Right.",
+        "start": 438.16,
+        "duration": 2.159
+      },
+      {
+        "text": "Um",
+        "start": 438.72,
+        "duration": 4.8
+      },
+      {
+        "text": "and then and that'll also help like lift",
+        "start": 440.319,
+        "duration": 4.641
+      },
+      {
+        "text": "some of the time pressure off your",
+        "start": 443.52,
+        "duration": 2.959
+      },
+      {
+        "text": "shoulder so that you're not feeling, you",
+        "start": 444.96,
+        "duration": 3.92
+      },
+      {
+        "text": "know, kind of as worn out.",
+        "start": 446.479,
+        "duration": 5.681
+      },
+      {
+        "text": "U you know if you because I tell you for",
+        "start": 448.88,
+        "duration": 6.879
+      },
+      {
+        "text": "me I find that like you know once the",
+        "start": 452.16,
+        "duration": 5.84
+      },
+      {
+        "text": "clock starts then like you know my",
+        "start": 455.759,
+        "duration": 4.481
+      },
+      {
+        "text": "stress shoots up I'm like like oh I got",
+        "start": 458.0,
+        "duration": 3.68
+      },
+      {
+        "text": "to go fast got to go fast and then I",
+        "start": 460.24,
+        "duration": 4.079
+      },
+      {
+        "text": "start making dumb decisions you know",
+        "start": 461.68,
+        "duration": 3.12
+      },
+      {
+        "text": "right",
+        "start": 464.319,
+        "duration": 2.241
+      },
+      {
+        "text": "so like doing little bits of prep when",
+        "start": 464.8,
+        "duration": 3.92
+      },
+      {
+        "text": "you can really like lifts a weight off",
+        "start": 466.56,
+        "duration": 3.12
+      },
+      {
+        "text": "your shoulders",
+        "start": 468.72,
+        "duration": 1.68
+      },
+      {
+        "text": "for those things.",
+        "start": 469.68,
+        "duration": 3.84
+      },
+      {
+        "text": "Sure. Sure. Okay.",
+        "start": 470.4,
+        "duration": 5.44
+      },
+      {
+        "text": "Um I'm trying to think other things in",
+        "start": 473.52,
+        "duration": 3.6
+      },
+      {
+        "text": "terms of like doing something more",
+        "start": 475.84,
+        "duration": 3.52
+      },
+      {
+        "text": "ambitious. Yeah, for for group projects",
+        "start": 477.12,
+        "duration": 4.88
+      },
+      {
+        "text": "it's all about uh collaborating with the",
+        "start": 479.36,
+        "duration": 5.44
+      },
+      {
+        "text": "group and um making sure that you have",
+        "start": 482.0,
+        "duration": 7.759
+      },
+      {
+        "text": "ambitious enough stuff and then um",
+        "start": 484.8,
+        "duration": 6.399
+      },
+      {
+        "text": "you know you're I guess you're at the",
+        "start": 489.759,
+        "duration": 4.56
+      },
+      {
+        "text": "level where you've done some some UI",
+        "start": 491.199,
+        "duration": 7.28
+      },
+      {
+        "text": "work and um so you could start to do",
+        "start": 494.319,
+        "duration": 5.841
+      },
+      {
+        "text": "more ambitious UI work. That's one",
+        "start": 498.479,
+        "duration": 4.881
+      },
+      {
+        "text": "direction you can go. Um, another",
+        "start": 500.16,
+        "duration": 5.039
+      },
+      {
+        "text": "direction you can go is to really focus",
+        "start": 503.36,
+        "duration": 4.399
+      },
+      {
+        "text": "on sometimes people call it like polish",
+        "start": 505.199,
+        "duration": 6.4
+      },
+      {
+        "text": "or finish but um,",
+        "start": 507.759,
+        "duration": 6.321
+      },
+      {
+        "text": "uh, focusing on like the quality of the",
+        "start": 511.599,
+        "duration": 4.32
+      },
+      {
+        "text": "experience, not not as much the",
+        "start": 514.08,
+        "duration": 3.04
+      },
+      {
+        "text": "features,",
+        "start": 515.919,
+        "duration": 1.841
+      },
+      {
+        "text": "right?",
+        "start": 517.12,
+        "duration": 2.32
+      },
+      {
+        "text": "That's another thing that uh, in",
+        "start": 517.76,
+        "duration": 5.36
+      },
+      {
+        "text": "hackathon projects I find um, there's so",
+        "start": 519.44,
+        "duration": 5.44
+      },
+      {
+        "text": "much energy goes into making it work at",
+        "start": 523.12,
+        "duration": 2.88
+      },
+      {
+        "text": "all that",
+        "start": 524.88,
+        "duration": 4.24
+      },
+      {
+        "text": "Oh, yeah. Yeah. Right.",
+        "start": 526.0,
+        "duration": 4.48
+      },
+      {
+        "text": "But yeah, you have a lot of directions.",
+        "start": 529.12,
+        "duration": 3.44
+      },
+      {
+        "text": "A lot of it comes down to like that",
+        "start": 530.48,
+        "duration": 4.56
+      },
+      {
+        "text": "initial conversation, you know, being",
+        "start": 532.56,
+        "duration": 4.0
+      },
+      {
+        "text": "candid with the team of like what you",
+        "start": 535.04,
+        "duration": 4.4
+      },
+      {
+        "text": "think you can and can't do and say,",
+        "start": 536.56,
+        "duration": 4.32
+      },
+      {
+        "text": "\"Hey, you know, I really want something",
+        "start": 539.44,
+        "duration": 3.44
+      },
+      {
+        "text": "that'll stretch me a little bit here.\"",
+        "start": 540.88,
+        "duration": 3.84
+      },
+      {
+        "text": "Um, in that conversation, a lot of it's",
+        "start": 542.88,
+        "duration": 4.079
+      },
+      {
+        "text": "that initial conversation of like, you",
+        "start": 544.72,
+        "duration": 4.72
+      },
+      {
+        "text": "know, I want I want to be pushed a bit",
+        "start": 546.959,
+        "duration": 4.961
+      },
+      {
+        "text": "here and and take something a little bit",
+        "start": 549.44,
+        "duration": 4.72
+      },
+      {
+        "text": "more ambitious, but not like, you know,",
+        "start": 551.92,
+        "duration": 3.84
+      },
+      {
+        "text": "being candid and honest with people of",
+        "start": 554.16,
+        "duration": 3.28
+      },
+      {
+        "text": "like, hey, you know, if you tell me to",
+        "start": 555.76,
+        "duration": 2.88
+      },
+      {
+        "text": "build this whole thing over here, I",
+        "start": 557.44,
+        "duration": 4.16
+      },
+      {
+        "text": "probably can't, but um, you know, I'm",
+        "start": 558.64,
+        "duration": 4.639
+      },
+      {
+        "text": "willing to try for a day and then just",
+        "start": 561.6,
+        "duration": 3.28
+      },
+      {
+        "text": "check back or something, you know.",
+        "start": 563.279,
+        "duration": 2.881
+      },
+      {
+        "text": "Sure. Sure.",
+        "start": 564.88,
+        "duration": 2.56
+      },
+      {
+        "text": "So, a lot of it's Yeah, it's working",
+        "start": 566.16,
+        "duration": 2.72
+      },
+      {
+        "text": "with the team.",
+        "start": 567.44,
+        "duration": 4.16
+      },
+      {
+        "text": "I think I think Dr. Emily's uh objective",
+        "start": 568.88,
+        "duration": 6.88
+      },
+      {
+        "text": "in this is to practice vibe coding to to",
+        "start": 571.6,
+        "duration": 7.44
+      },
+      {
+        "text": "find out what it's about. Uh she's going",
+        "start": 575.76,
+        "duration": 5.759
+      },
+      {
+        "text": "to have uh some more experienced people",
+        "start": 579.04,
+        "duration": 5.6
+      },
+      {
+        "text": "take new people under their wings just",
+        "start": 581.519,
+        "duration": 4.401
+      },
+      {
+        "text": "to get a taste. Yeah.",
+        "start": 584.64,
+        "duration": 3.6
+      },
+      {
+        "text": "You know, this is kind of an idea of",
+        "start": 585.92,
+        "duration": 3.68
+      },
+      {
+        "text": "what you're going to look forward to in",
+        "start": 588.24,
+        "duration": 2.96
+      },
+      {
+        "text": "the future.",
+        "start": 589.6,
+        "duration": 4.16
+      },
+      {
+        "text": "And uh I think that's that's brilliant.",
+        "start": 591.2,
+        "duration": 4.0
+      },
+      {
+        "text": "I think that's that's a great way to",
+        "start": 593.76,
+        "duration": 4.24
+      },
+      {
+        "text": "look at it. And I think so if you're if",
+        "start": 595.2,
+        "duration": 4.319
+      },
+      {
+        "text": "you're putting in the time and she's",
+        "start": 598.0,
+        "duration": 3.44
+      },
+      {
+        "text": "making sure everybody's got support,",
+        "start": 599.519,
+        "duration": 4.241
+      },
+      {
+        "text": "then I think you're going to be set up",
+        "start": 601.44,
+        "duration": 4.24
+      },
+      {
+        "text": "to learn kind of no matter what, right?",
+        "start": 603.76,
+        "duration": 4.0
+      },
+      {
+        "text": "And so go up, you put in the effort,",
+        "start": 605.68,
+        "duration": 3.279
+      },
+      {
+        "text": "you're going to learn.",
+        "start": 607.76,
+        "duration": 1.68
+      },
+      {
+        "text": "Um,",
+        "start": 608.959,
+        "duration": 1.201
+      },
+      {
+        "text": "right.",
+        "start": 609.44,
+        "duration": 2.24
+      },
+      {
+        "text": "And I think, you know, what we're",
+        "start": 610.16,
+        "duration": 3.6
+      },
+      {
+        "text": "getting at now is like going sort of a",
+        "start": 611.68,
+        "duration": 3.839
+      },
+      {
+        "text": "step beyond, you know, just learning",
+        "start": 613.76,
+        "duration": 3.28
+      },
+      {
+        "text": "into",
+        "start": 615.519,
+        "duration": 4.721
+      },
+      {
+        "text": "um maximizing how much you learn and",
+        "start": 617.04,
+        "duration": 5.76
+      },
+      {
+        "text": "also maximizing your like personal",
+        "start": 620.24,
+        "duration": 4.0
+      },
+      {
+        "text": "satisfaction with that, which will help",
+        "start": 622.8,
+        "duration": 3.44
+      },
+      {
+        "text": "you learn more. You know, if you feel",
+        "start": 624.24,
+        "duration": 3.839
+      },
+      {
+        "text": "that personal sense of satisfaction and",
+        "start": 626.24,
+        "duration": 2.8
+      },
+      {
+        "text": "an ownership.",
+        "start": 628.079,
+        "duration": 2.961
+      },
+      {
+        "text": "Sure.",
+        "start": 629.04,
+        "duration": 3.52
+      },
+      {
+        "text": "And it's gratifying while you're on the",
+        "start": 631.04,
+        "duration": 2.72
+      },
+      {
+        "text": "journey. Yep.",
+        "start": 632.56,
+        "duration": 4.0
+      },
+      {
+        "text": "Yeah. Yeah. And, you know, of course,",
+        "start": 633.76,
+        "duration": 4.48
+      },
+      {
+        "text": "like like any of these things, you know,",
+        "start": 636.56,
+        "duration": 5.04
+      },
+      {
+        "text": "you want to um find things that you're",
+        "start": 638.24,
+        "duration": 5.039
+      },
+      {
+        "text": "excited about, but also things that kind",
+        "start": 641.6,
+        "duration": 3.12
+      },
+      {
+        "text": "of align with the group. So, there's",
+        "start": 643.279,
+        "duration": 2.881
+      },
+      {
+        "text": "always this, you know, kind of give and",
+        "start": 644.72,
+        "duration": 3.679
+      },
+      {
+        "text": "take uh with the team. Not everybody's",
+        "start": 646.16,
+        "duration": 6.239
+      },
+      {
+        "text": "going to be um",
+        "start": 648.399,
+        "duration": 5.761
+      },
+      {
+        "text": "you know people might be excited about",
+        "start": 652.399,
+        "duration": 3.041
+      },
+      {
+        "text": "some things that don't don't really",
+        "start": 654.16,
+        "duration": 2.64
+      },
+      {
+        "text": "align with the group or there'll be",
+        "start": 655.44,
+        "duration": 3.12
+      },
+      {
+        "text": "things that you know the group needs",
+        "start": 656.8,
+        "duration": 3.68
+      },
+      {
+        "text": "that you know aren't that exciting but",
+        "start": 658.56,
+        "duration": 3.36
+      },
+      {
+        "text": "you know you find some kind of kind of",
+        "start": 660.48,
+        "duration": 3.76
+      },
+      {
+        "text": "trade-off there so you can have like try",
+        "start": 661.92,
+        "duration": 3.76
+      },
+      {
+        "text": "to find a balance between things that",
+        "start": 664.24,
+        "duration": 2.96
+      },
+      {
+        "text": "are um",
+        "start": 665.68,
+        "duration": 3.839
+      },
+      {
+        "text": "you know important and necessary and",
+        "start": 667.2,
+        "duration": 4.4
+      },
+      {
+        "text": "enjoyable. Ideally, they're, you know,",
+        "start": 669.519,
+        "duration": 4.081
+      },
+      {
+        "text": "one and the same, but, you know,",
+        "start": 671.6,
+        "duration": 4.239
+      },
+      {
+        "text": "it's more complicated than that,",
+        "start": 673.6,
+        "duration": 3.919
+      },
+      {
+        "text": "right?",
+        "start": 675.839,
+        "duration": 3.841
+      },
+      {
+        "text": "Yeah. Well, thank you.",
+        "start": 677.519,
+        "duration": 4.481
+      },
+      {
+        "text": "Yeah. Yeah. Does that that help uh a",
+        "start": 679.68,
+        "duration": 3.2
+      },
+      {
+        "text": "bit?",
+        "start": 682.0,
+        "duration": 2.48
+      },
+      {
+        "text": "I believe so. Yeah.",
+        "start": 682.88,
+        "duration": 2.8
+      },
+      {
+        "text": "Yeah. Yeah, sorry I don't have like",
+        "start": 684.48,
+        "duration": 3.28
+      },
+      {
+        "text": "there's no you know complete answer on",
+        "start": 685.68,
+        "duration": 4.64
+      },
+      {
+        "text": "that one but a lot of it comes down",
+        "start": 687.76,
+        "duration": 4.16
+      },
+      {
+        "text": "especially in hackathons it really comes",
+        "start": 690.32,
+        "duration": 3.68
+      },
+      {
+        "text": "down to like the communication aspect",
+        "start": 691.92,
+        "duration": 5.84
+      },
+      {
+        "text": "with the group and and making sure that",
+        "start": 694.0,
+        "duration": 5.36
+      },
+      {
+        "text": "uh",
+        "start": 697.76,
+        "duration": 3.759
+      },
+      {
+        "text": "you know people know sort of your",
+        "start": 699.36,
+        "duration": 5.12
+      },
+      {
+        "text": "current capabilities and u know that",
+        "start": 701.519,
+        "duration": 5.681
+      },
+      {
+        "text": "you're looking for some like more of a",
+        "start": 704.48,
+        "duration": 6.24
+      },
+      {
+        "text": "challenge to level up um faster. And so",
+        "start": 707.2,
+        "duration": 5.199
+      },
+      {
+        "text": "a lot of it really comes down to and",
+        "start": 710.72,
+        "duration": 2.88
+      },
+      {
+        "text": "especially in group projects like",
+        "start": 712.399,
+        "duration": 2.961
+      },
+      {
+        "text": "working with the group",
+        "start": 713.6,
+        "duration": 5.28
+      },
+      {
+        "text": "um to push yourself. Um if those",
+        "start": 715.36,
+        "duration": 6.0
+      },
+      {
+        "text": "conversations don't go well, a plan B",
+        "start": 718.88,
+        "duration": 7.12
+      },
+      {
+        "text": "option that you can explore is to try to",
+        "start": 721.36,
+        "duration": 6.96
+      },
+      {
+        "text": "ask yourself like the the overall goal",
+        "start": 726.0,
+        "duration": 3.76
+      },
+      {
+        "text": "of the project from the user's",
+        "start": 728.32,
+        "duration": 4.56
+      },
+      {
+        "text": "perspective and try to imagine what it's",
+        "start": 729.76,
+        "duration": 5.44
+      },
+      {
+        "text": "like to use the thing that you're",
+        "start": 732.88,
+        "duration": 4.8
+      },
+      {
+        "text": "building and identify gaps in the",
+        "start": 735.2,
+        "duration": 4.4
+      },
+      {
+        "text": "planning of the the team or the group.",
+        "start": 737.68,
+        "duration": 4.719
+      },
+      {
+        "text": "and then proactively try to solve this.",
+        "start": 739.6,
+        "duration": 3.52
+      },
+      {
+        "text": "Okay,",
+        "start": 742.399,
+        "duration": 3.68
+      },
+      {
+        "text": "so that's that's one way to one way to",
+        "start": 743.12,
+        "duration": 6.32
+      },
+      {
+        "text": "go. Um, you know, that's kind of like a",
+        "start": 746.079,
+        "duration": 5.361
+      },
+      {
+        "text": "plan B. Plan A is real like, you know,",
+        "start": 749.44,
+        "duration": 3.44
+      },
+      {
+        "text": "talk to group, have candid",
+        "start": 751.44,
+        "duration": 4.639
+      },
+      {
+        "text": "conversations. Uh,",
+        "start": 752.88,
+        "duration": 4.639
+      },
+      {
+        "text": "especially in software, it can be a",
+        "start": 756.079,
+        "duration": 2.961
+      },
+      {
+        "text": "little bit awkward at first, but",
+        "start": 757.519,
+        "duration": 2.961
+      },
+      {
+        "text": "everybody in joy of coding has been",
+        "start": 759.04,
+        "duration": 3.039
+      },
+      {
+        "text": "pretty friendly. So, you know, I think I",
+        "start": 760.48,
+        "duration": 2.32
+      },
+      {
+        "text": "think that'll go well.",
+        "start": 762.079,
+        "duration": 1.681
+      },
+      {
+        "text": "Oh, yeah. You know,",
+        "start": 762.8,
+        "duration": 2.88
+      },
+      {
+        "text": "very friendly. You just got to like get",
+        "start": 763.76,
+        "duration": 4.96
+      },
+      {
+        "text": "over that that hump of like having that",
+        "start": 765.68,
+        "duration": 5.44
+      },
+      {
+        "text": "candid conversation about like, okay,",
+        "start": 768.72,
+        "duration": 3.52
+      },
+      {
+        "text": "here's where I'm at and what I'm looking",
+        "start": 771.12,
+        "duration": 3.04
+      },
+      {
+        "text": "to get out of this if I can and I want",
+        "start": 772.24,
+        "duration": 4.96
+      },
+      {
+        "text": "to improve as much as I can, too.",
+        "start": 774.16,
+        "duration": 6.479
+      },
+      {
+        "text": "All right. Right.",
+        "start": 777.2,
+        "duration": 4.639
+      },
+      {
+        "text": "Thank you very much. I've got another",
+        "start": 780.639,
+        "duration": 2.801
+      },
+      {
+        "text": "one right out of left field.",
+        "start": 781.839,
+        "duration": 4.881
+      },
+      {
+        "text": "Yeah, shoot.",
+        "start": 783.44,
+        "duration": 6.32
+      },
+      {
+        "text": "Considering LLMs and and the nature of",
+        "start": 786.72,
+        "duration": 5.2
+      },
+      {
+        "text": "programming to make effective use of",
+        "start": 789.76,
+        "duration": 5.36
+      },
+      {
+        "text": "them, um",
+        "start": 791.92,
+        "duration": 5.68
+      },
+      {
+        "text": "is there any tie to data science? I mean",
+        "start": 795.12,
+        "duration": 5.519
+      },
+      {
+        "text": "it would there be a reason to pursue",
+        "start": 797.6,
+        "duration": 7.56
+      },
+      {
+        "text": "data science to help facilitate",
+        "start": 800.639,
+        "duration": 4.521
+      },
+      {
+        "text": "that direction in programming? Um,",
+        "start": 805.2,
+        "duration": 6.8
+      },
+      {
+        "text": "you mean like like what do I think is",
+        "start": 810.32,
+        "duration": 3.28
+      },
+      {
+        "text": "going to happen to the field or do I",
+        "start": 812.0,
+        "duration": 3.6
+      },
+      {
+        "text": "think it would help like in at an",
+        "start": 813.6,
+        "duration": 3.76
+      },
+      {
+        "text": "individual level?",
+        "start": 815.6,
+        "duration": 3.52
+      },
+      {
+        "text": "Kind of at an individual level to turn",
+        "start": 817.36,
+        "duration": 3.52
+      },
+      {
+        "text": "out quality results. That's what I'm",
+        "start": 819.12,
+        "duration": 4.399
+      },
+      {
+        "text": "thinking because it's like balancing the",
+        "start": 820.88,
+        "duration": 4.32
+      },
+      {
+        "text": "the the",
+        "start": 823.519,
+        "duration": 4.081
+      },
+      {
+        "text": "data sources. I guess the paths to get",
+        "start": 825.2,
+        "duration": 5.12
+      },
+      {
+        "text": "there. I'm I'm not really sure, but",
+        "start": 827.6,
+        "duration": 4.239
+      },
+      {
+        "text": "that's",
+        "start": 830.32,
+        "duration": 3.759
+      },
+      {
+        "text": "seems to be the common elements.",
+        "start": 831.839,
+        "duration": 4.8
+      },
+      {
+        "text": "Yeah. No, you're right on. Um, so I",
+        "start": 834.079,
+        "duration": 5.2
+      },
+      {
+        "text": "would say that",
+        "start": 836.639,
+        "duration": 5.281
+      },
+      {
+        "text": "so data science I I use data science as",
+        "start": 839.279,
+        "duration": 4.481
+      },
+      {
+        "text": "kind of like a catch-all term for, you",
+        "start": 841.92,
+        "duration": 3.599
+      },
+      {
+        "text": "know, kind of everything. Um,",
+        "start": 843.76,
+        "duration": 2.48
+      },
+      {
+        "text": "yeah,",
+        "start": 845.519,
+        "duration": 2.88
+      },
+      {
+        "text": "you know, every couple years the terms",
+        "start": 846.24,
+        "duration": 4.0
+      },
+      {
+        "text": "change a little bit, so I try not to",
+        "start": 848.399,
+        "duration": 4.0
+      },
+      {
+        "text": "fuss about that too much. But I would",
+        "start": 850.24,
+        "duration": 4.959
+      },
+      {
+        "text": "say in general",
+        "start": 852.399,
+        "duration": 5.521
+      },
+      {
+        "text": "um",
+        "start": 855.199,
+        "duration": 5.281
+      },
+      {
+        "text": "what I've found is that my experiences",
+        "start": 857.92,
+        "duration": 5.599
+      },
+      {
+        "text": "in data science help me get more",
+        "start": 860.48,
+        "duration": 6.719
+      },
+      {
+        "text": "effective value out of LMS for coding.",
+        "start": 863.519,
+        "duration": 6.32
+      },
+      {
+        "text": "Um I'll give you a couple examples. Um,",
+        "start": 867.199,
+        "duration": 4.0
+      },
+      {
+        "text": "some of it actually just has to do with",
+        "start": 869.839,
+        "duration": 4.321
+      },
+      {
+        "text": "like leadership experience and like um,",
+        "start": 871.199,
+        "duration": 5.841
+      },
+      {
+        "text": "you know, understanding what it what",
+        "start": 874.16,
+        "duration": 4.799
+      },
+      {
+        "text": "context I have to give to a junior",
+        "start": 877.04,
+        "duration": 3.84
+      },
+      {
+        "text": "engineer or a mid-level engineer or a",
+        "start": 878.959,
+        "duration": 3.361
+      },
+      {
+        "text": "senior engineer for them to do good",
+        "start": 880.88,
+        "duration": 2.48
+      },
+      {
+        "text": "work,",
+        "start": 882.32,
+        "duration": 2.48
+      },
+      {
+        "text": "right?",
+        "start": 883.36,
+        "duration": 2.8
+      },
+      {
+        "text": "So, you know, that's a lot of it. But",
+        "start": 884.8,
+        "duration": 4.8
+      },
+      {
+        "text": "the data science stuff, uh, you know, a",
+        "start": 886.16,
+        "duration": 6.72
+      },
+      {
+        "text": "good a good example in data science is a",
+        "start": 889.6,
+        "duration": 6.239
+      },
+      {
+        "text": "focus on metrics, a focus on, um, okay,",
+        "start": 892.88,
+        "duration": 4.88
+      },
+      {
+        "text": "we have some goals. well, how can we",
+        "start": 895.839,
+        "duration": 4.321
+      },
+      {
+        "text": "measure it and how can we see if we're",
+        "start": 897.76,
+        "duration": 4.079
+      },
+      {
+        "text": "making like incremental progress towards",
+        "start": 900.16,
+        "duration": 3.52
+      },
+      {
+        "text": "that goal?",
+        "start": 901.839,
+        "duration": 3.761
+      },
+      {
+        "text": "And so, you know, that's an aspect of",
+        "start": 903.68,
+        "duration": 4.64
+      },
+      {
+        "text": "data science that I would say um can",
+        "start": 905.6,
+        "duration": 4.32
+      },
+      {
+        "text": "help",
+        "start": 908.32,
+        "duration": 4.959
+      },
+      {
+        "text": "um you know, is sort of",
+        "start": 909.92,
+        "duration": 4.719
+      },
+      {
+        "text": "taking that like, okay, what's the",
+        "start": 913.279,
+        "duration": 3.201
+      },
+      {
+        "text": "outcome we're looking for and then how",
+        "start": 914.639,
+        "duration": 4.64
+      },
+      {
+        "text": "are some ways we can measure that. Um,",
+        "start": 916.48,
+        "duration": 6.479
+      },
+      {
+        "text": "and when you start weaving that into",
+        "start": 919.279,
+        "duration": 5.92
+      },
+      {
+        "text": "your work with LLM coding and vibe",
+        "start": 922.959,
+        "duration": 5.12
+      },
+      {
+        "text": "coding, then you start to build systems",
+        "start": 925.199,
+        "duration": 5.121
+      },
+      {
+        "text": "that are more measurable and that are",
+        "start": 928.079,
+        "duration": 4.481
+      },
+      {
+        "text": "more on track for the goals that you're",
+        "start": 930.32,
+        "duration": 6.639
+      },
+      {
+        "text": "you have in mind. Um, so that can help.",
+        "start": 932.56,
+        "duration": 5.76
+      },
+      {
+        "text": "Um,",
+        "start": 936.959,
+        "duration": 3.12
+      },
+      {
+        "text": "I imagine a tremendous amount of that",
+        "start": 938.32,
+        "duration": 6.0
+      },
+      {
+        "text": "might have to do with generating",
+        "start": 940.079,
+        "duration": 7.041
+      },
+      {
+        "text": "good prompts.",
+        "start": 944.32,
+        "duration": 4.56
+      },
+      {
+        "text": "So a lot of it comes comes out in the",
+        "start": 947.12,
+        "duration": 6.56
+      },
+      {
+        "text": "prompts that you do you know um",
+        "start": 948.88,
+        "duration": 7.28
+      },
+      {
+        "text": "uh so so with something like metric you",
+        "start": 953.68,
+        "duration": 4.64
+      },
+      {
+        "text": "know a lot of it for for me is like",
+        "start": 956.16,
+        "duration": 4.56
+      },
+      {
+        "text": "providing lots and lots of context about",
+        "start": 958.32,
+        "duration": 4.4
+      },
+      {
+        "text": "the goals and sort of the high level",
+        "start": 960.72,
+        "duration": 4.72
+      },
+      {
+        "text": "product or business goals that we have",
+        "start": 962.72,
+        "duration": 4.799
+      },
+      {
+        "text": "our objectives",
+        "start": 965.44,
+        "duration": 3.6
+      },
+      {
+        "text": "um",
+        "start": 967.519,
+        "duration": 1.841
+      },
+      {
+        "text": "and",
+        "start": 969.04,
+        "duration": 2.799
+      },
+      {
+        "text": "yeah I saw one that you made you know we",
+        "start": 969.36,
+        "duration": 4.159
+      },
+      {
+        "text": "were looking over your shoulder one one",
+        "start": 971.839,
+        "duration": 4.0
+      },
+      {
+        "text": "that you made was just astounding it's",
+        "start": 973.519,
+        "duration": 3.76
+      },
+      {
+        "text": "like oh my god",
+        "start": 975.839,
+        "duration": 3.68
+      },
+      {
+        "text": "you know, it was beautiful.",
+        "start": 977.279,
+        "duration": 4.721
+      },
+      {
+        "text": "Oh, well, thanks. Uh",
+        "start": 979.519,
+        "duration": 5.44
+      },
+      {
+        "text": "uh yeah, I'll put I'll put a quote of",
+        "start": 982.0,
+        "duration": 6.0
+      },
+      {
+        "text": "that on my wall. Beautiful prompts. Um",
+        "start": 984.959,
+        "duration": 5.281
+      },
+      {
+        "text": "but uh",
+        "start": 988.0,
+        "duration": 5.279
+      },
+      {
+        "text": "yeah, I mean a lot of it's like let me",
+        "start": 990.24,
+        "duration": 5.92
+      },
+      {
+        "text": "see if I can find a recent one that I've",
+        "start": 993.279,
+        "duration": 7.321
+      },
+      {
+        "text": "done. Um",
+        "start": 996.16,
+        "duration": 4.44
+      },
+      {
+        "text": "so in terms of of the the things that",
+        "start": 1000.959,
+        "duration": 3.68
+      },
+      {
+        "text": "you gain in data science, some of it is",
+        "start": 1002.959,
+        "duration": 3.921
+      },
+      {
+        "text": "about sort of thinking uh sort of",
+        "start": 1004.639,
+        "duration": 4.401
+      },
+      {
+        "text": "systematically taking a complex problem,",
+        "start": 1006.88,
+        "duration": 5.44
+      },
+      {
+        "text": "breaking it down into pieces. Uh another",
+        "start": 1009.04,
+        "duration": 4.88
+      },
+      {
+        "text": "thing that helps from data science is",
+        "start": 1012.32,
+        "duration": 4.079
+      },
+      {
+        "text": "focusing on evidence. So you might have",
+        "start": 1013.92,
+        "duration": 3.919
+      },
+      {
+        "text": "the things that you think are going on,",
+        "start": 1016.399,
+        "duration": 2.88
+      },
+      {
+        "text": "but you have like what's the actual",
+        "start": 1017.839,
+        "duration": 3.12
+      },
+      {
+        "text": "evidence that you have, you know,",
+        "start": 1019.279,
+        "duration": 2.48
+      },
+      {
+        "text": "right?",
+        "start": 1020.959,
+        "duration": 2.56
+      },
+      {
+        "text": "And trying to separate those things in",
+        "start": 1021.759,
+        "duration": 3.521
+      },
+      {
+        "text": "your head. Well, this is my guess and",
+        "start": 1023.519,
+        "duration": 3.52
+      },
+      {
+        "text": "then this is this is what I know for",
+        "start": 1025.28,
+        "duration": 3.039
+      },
+      {
+        "text": "sure. You know, this is what I've",
+        "start": 1027.039,
+        "duration": 4.16
+      },
+      {
+        "text": "observed and uh that that can help with",
+        "start": 1028.319,
+        "duration": 6.961
+      },
+      {
+        "text": "LM. So, I would say that in general data",
+        "start": 1031.199,
+        "duration": 7.041
+      },
+      {
+        "text": "science can help uh get some more",
+        "start": 1035.28,
+        "duration": 8.559
+      },
+      {
+        "text": "mileage out of LLM coding. Um",
+        "start": 1038.24,
+        "duration": 9.36
+      },
+      {
+        "text": "trying to think if it",
+        "start": 1043.839,
+        "duration": 5.84
+      },
+      {
+        "text": "Yeah, some more mileage out of it. The",
+        "start": 1047.6,
+        "duration": 5.6
+      },
+      {
+        "text": "other stuff is really like I think for",
+        "start": 1049.679,
+        "duration": 5.841
+      },
+      {
+        "text": "prompt engineering like having an",
+        "start": 1053.2,
+        "duration": 3.92
+      },
+      {
+        "text": "understanding of how the systems sort of",
+        "start": 1055.52,
+        "duration": 5.12
+      },
+      {
+        "text": "work under the hood uh can help in terms",
+        "start": 1057.12,
+        "duration": 5.04
+      },
+      {
+        "text": "of",
+        "start": 1060.64,
+        "duration": 4.8
+      },
+      {
+        "text": "you know it it sort of primes you to be",
+        "start": 1062.16,
+        "duration": 5.68
+      },
+      {
+        "text": "thinking like okay how do I write",
+        "start": 1065.44,
+        "duration": 4.16
+      },
+      {
+        "text": "something so that I get the kind of",
+        "start": 1067.84,
+        "duration": 5.52
+      },
+      {
+        "text": "output that I'm looking for. Um, so it",
+        "start": 1069.6,
+        "duration": 5.52
+      },
+      {
+        "text": "can help. It can kind of help.",
+        "start": 1073.36,
+        "duration": 4.16
+      },
+      {
+        "text": "Other than the volume of tokens that are",
+        "start": 1075.12,
+        "duration": 5.52
+      },
+      {
+        "text": "generated from your prompt,",
+        "start": 1077.52,
+        "duration": 6.399
+      },
+      {
+        "text": "do you ever think about tokens and and",
+        "start": 1080.64,
+        "duration": 5.44
+      },
+      {
+        "text": "what tokens are being, you know, other",
+        "start": 1083.919,
+        "duration": 4.801
+      },
+      {
+        "text": "than the volume?",
+        "start": 1086.08,
+        "duration": 3.44
+      },
+      {
+        "text": "um",
+        "start": 1088.72,
+        "duration": 2.72
+      },
+      {
+        "text": "I guess is",
+        "start": 1089.52,
+        "duration": 6.68
+      },
+      {
+        "text": "sort of um",
+        "start": 1091.44,
+        "duration": 4.76
+      },
+      {
+        "text": "sort of so the times that I think about",
+        "start": 1096.24,
+        "duration": 5.28
+      },
+      {
+        "text": "the number of tokens when I'm like using",
+        "start": 1099.28,
+        "duration": 5.36
+      },
+      {
+        "text": "LM for coding um one problem happens is",
+        "start": 1101.52,
+        "duration": 6.96
+      },
+      {
+        "text": "if uh say I've",
+        "start": 1104.64,
+        "duration": 7.2
+      },
+      {
+        "text": "um had this like long coding session",
+        "start": 1108.48,
+        "duration": 4.88
+      },
+      {
+        "text": "what'll happen is that periodically",
+        "start": 1111.84,
+        "duration": 4.0
+      },
+      {
+        "text": "you'll see like it has to summarize and",
+        "start": 1113.36,
+        "duration": 4.319
+      },
+      {
+        "text": "when it goes and summarizes it tends to",
+        "start": 1115.84,
+        "duration": 4.32
+      },
+      {
+        "text": "forget stuff because it can't retain the",
+        "start": 1117.679,
+        "duration": 6.161
+      },
+      {
+        "text": "whole context. And so, um, that's that's",
+        "start": 1120.16,
+        "duration": 5.68
+      },
+      {
+        "text": "one that I notice and then like I'll",
+        "start": 1123.84,
+        "duration": 4.0
+      },
+      {
+        "text": "tend to like reexlain some things after",
+        "start": 1125.84,
+        "duration": 3.839
+      },
+      {
+        "text": "that happens.",
+        "start": 1127.84,
+        "duration": 3.52
+      },
+      {
+        "text": "Also, because that I know that it's",
+        "start": 1129.679,
+        "duration": 3.841
+      },
+      {
+        "text": "going to lose information,",
+        "start": 1131.36,
+        "duration": 4.4
+      },
+      {
+        "text": "uh, I'll start to build persistent",
+        "start": 1133.52,
+        "duration": 4.64
+      },
+      {
+        "text": "information into documentation and then",
+        "start": 1135.76,
+        "duration": 4.08
+      },
+      {
+        "text": "I'll just ask it to reread the",
+        "start": 1138.16,
+        "duration": 3.44
+      },
+      {
+        "text": "documentation instead of having to",
+        "start": 1139.84,
+        "duration": 3.76
+      },
+      {
+        "text": "reexplain myself.",
+        "start": 1141.6,
+        "duration": 3.52
+      },
+      {
+        "text": "Um, so that's sort of like working",
+        "start": 1143.6,
+        "duration": 3.6
+      },
+      {
+        "text": "around these like artificial context",
+        "start": 1145.12,
+        "duration": 5.2
+      },
+      {
+        "text": "limits. Um, or artificial is not the",
+        "start": 1147.2,
+        "duration": 5.76
+      },
+      {
+        "text": "right word. Um, just working around the",
+        "start": 1150.32,
+        "duration": 4.32
+      },
+      {
+        "text": "context limit problems,",
+        "start": 1152.96,
+        "duration": 2.16
+      },
+      {
+        "text": "right?",
+        "start": 1154.64,
+        "duration": 2.0
+      },
+      {
+        "text": "Um,",
+        "start": 1155.12,
+        "duration": 4.64
+      },
+      {
+        "text": "another case is that I've had this this",
+        "start": 1156.64,
+        "duration": 6.24
+      },
+      {
+        "text": "problem happen a few times where um, say",
+        "start": 1159.76,
+        "duration": 7.279
+      },
+      {
+        "text": "I have a prompt and LLMs will tend to",
+        "start": 1162.88,
+        "duration": 6.56
+      },
+      {
+        "text": "gravitate towards the topics that use",
+        "start": 1167.039,
+        "duration": 4.481
+      },
+      {
+        "text": "the most tokens.",
+        "start": 1169.44,
+        "duration": 4.56
+      },
+      {
+        "text": "Um, so if I spent five paragraphs",
+        "start": 1171.52,
+        "duration": 4.64
+      },
+      {
+        "text": "talking about one thing and only one",
+        "start": 1174.0,
+        "duration": 4.4
+      },
+      {
+        "text": "sentence talking about another thing,",
+        "start": 1176.16,
+        "duration": 5.04
+      },
+      {
+        "text": "it's going to be",
+        "start": 1178.4,
+        "duration": 5.76
+      },
+      {
+        "text": "I will say put more effort into being",
+        "start": 1181.2,
+        "duration": 4.4
+      },
+      {
+        "text": "consistent with the five paragraphs",
+        "start": 1184.16,
+        "duration": 3.12
+      },
+      {
+        "text": "versus the one sentence.",
+        "start": 1185.6,
+        "duration": 2.079
+      },
+      {
+        "text": "Right?",
+        "start": 1187.28,
+        "duration": 2.08
+      },
+      {
+        "text": "That makes sense. So that's one thing",
+        "start": 1187.679,
+        "duration": 3.681
+      },
+      {
+        "text": "that goes on in the back of my mind is",
+        "start": 1189.36,
+        "duration": 4.559
+      },
+      {
+        "text": "that I have to be a little bit careful u",
+        "start": 1191.36,
+        "duration": 4.96
+      },
+      {
+        "text": "when I'm explaining things not to spend",
+        "start": 1193.919,
+        "duration": 4.161
+      },
+      {
+        "text": "too much time on an unimportant topic",
+        "start": 1196.32,
+        "duration": 2.96
+      },
+      {
+        "text": "because then it may focus on the",
+        "start": 1198.08,
+        "duration": 3.12
+      },
+      {
+        "text": "unimportant topic.",
+        "start": 1199.28,
+        "duration": 2.32
+      },
+      {
+        "text": "Okay.",
+        "start": 1201.2,
+        "duration": 2.0
+      },
+      {
+        "text": "Um, but those are those are really the",
+        "start": 1201.6,
+        "duration": 5.76
+      },
+      {
+        "text": "the times that I think about tokens. Um,",
+        "start": 1203.2,
+        "duration": 6.16
+      },
+      {
+        "text": "um, yeah,",
+        "start": 1207.36,
+        "duration": 3.52
+      },
+      {
+        "text": "wonderful.",
+        "start": 1209.36,
+        "duration": 3.199
+      },
+      {
+        "text": "I'm sorry those came out of left field,",
+        "start": 1210.88,
+        "duration": 3.2
+      },
+      {
+        "text": "but it's valuable knowing.",
+        "start": 1212.559,
+        "duration": 4.401
+      },
+      {
+        "text": "No, no, it's Yeah, and I think with",
+        "start": 1214.08,
+        "duration": 4.8
+      },
+      {
+        "text": "other systems too, you know, I have a",
+        "start": 1216.96,
+        "duration": 6.0
+      },
+      {
+        "text": "friend that was telling me about using",
+        "start": 1218.88,
+        "duration": 6.0
+      },
+      {
+        "text": "maybe they're using cursor or some other",
+        "start": 1222.96,
+        "duration": 4.079
+      },
+      {
+        "text": "system where they sort of like pay more",
+        "start": 1224.88,
+        "duration": 4.72
+      },
+      {
+        "text": "per token rather than like using",
+        "start": 1227.039,
+        "duration": 4.961
+      },
+      {
+        "text": "copilot. It's just like a monthly and",
+        "start": 1229.6,
+        "duration": 4.24
+      },
+      {
+        "text": "then sure I can run out of some credits",
+        "start": 1232.0,
+        "duration": 3.919
+      },
+      {
+        "text": "but it's fine. Um,",
+        "start": 1233.84,
+        "duration": 3.04
+      },
+      {
+        "text": "sure.",
+        "start": 1235.919,
+        "duration": 3.521
+      },
+      {
+        "text": "So, you know, if I were if my bill were",
+        "start": 1236.88,
+        "duration": 4.48
+      },
+      {
+        "text": "directly proportional to my usage, I",
+        "start": 1239.44,
+        "duration": 4.719
+      },
+      {
+        "text": "might think about it more, but uh",
+        "start": 1241.36,
+        "duration": 4.0
+      },
+      {
+        "text": "Yeah.",
+        "start": 1244.159,
+        "duration": 1.601
+      },
+      {
+        "text": "Okay.",
+        "start": 1245.36,
+        "duration": 3.96
+      },
+      {
+        "text": "So far, it's not.",
+        "start": 1245.76,
+        "duration": 3.56
+      },
+      {
+        "text": "Well, I believe Turtle Wolf had a uh",
+        "start": 1251.039,
+        "duration": 5.041
+      },
+      {
+        "text": "Yeah, I saw. Let's see. So,",
+        "start": 1253.28,
+        "duration": 4.32
+      },
+      {
+        "text": "sorry.",
+        "start": 1256.08,
+        "duration": 4.88
+      },
+      {
+        "text": "Uh hopefully your your uh system's",
+        "start": 1257.6,
+        "duration": 7.04
+      },
+      {
+        "text": "working okay there. Um,",
+        "start": 1260.96,
+        "duration": 5.44
+      },
+      {
+        "text": "so let's see. If I ask Claude to make",
+        "start": 1264.64,
+        "duration": 4.24
+      },
+      {
+        "text": "SVGs, do I own the copyright? Does the",
+        "start": 1266.4,
+        "duration": 4.8
+      },
+      {
+        "text": "license on my repo give away any implied",
+        "start": 1268.88,
+        "duration": 4.64
+      },
+      {
+        "text": "ownership?",
+        "start": 1271.2,
+        "duration": 6.479
+      },
+      {
+        "text": "Uh, Geminina has several answers",
+        "start": 1273.52,
+        "duration": 8.2
+      },
+      {
+        "text": "just prompting. Uh,",
+        "start": 1277.679,
+        "duration": 4.041
+      },
+      {
+        "text": "so let's see here.",
+        "start": 1282.72,
+        "duration": 4.6
+      },
+      {
+        "text": "Uh,",
+        "start": 1287.76,
+        "duration": 6.24
+      },
+      {
+        "text": "so if you have SVGs in your repo and",
+        "start": 1289.36,
+        "duration": 7.84
+      },
+      {
+        "text": "there's a license on the repo,",
+        "start": 1294.0,
+        "duration": 4.88
+      },
+      {
+        "text": "I believe the license on the repo",
+        "start": 1297.2,
+        "duration": 3.839
+      },
+      {
+        "text": "probably applies to those to anything",
+        "start": 1298.88,
+        "duration": 4.799
+      },
+      {
+        "text": "stored in there. Um, it doesn't",
+        "start": 1301.039,
+        "duration": 4.561
+      },
+      {
+        "text": "generally the license on the repo is a",
+        "start": 1303.679,
+        "duration": 4.161
+      },
+      {
+        "text": "license not ownership",
+        "start": 1305.6,
+        "duration": 4.48
+      },
+      {
+        "text": "and so you know it's not transfer of",
+        "start": 1307.84,
+        "duration": 3.52
+      },
+      {
+        "text": "ownership. It's sort of saying what",
+        "start": 1310.08,
+        "duration": 4.88
+      },
+      {
+        "text": "people can use it for. Um, so that's a",
+        "start": 1311.36,
+        "duration": 5.6
+      },
+      {
+        "text": "little bit different. And I should",
+        "start": 1314.96,
+        "duration": 4.4
+      },
+      {
+        "text": "caveat, you know, I'm not a lawyer. Like",
+        "start": 1316.96,
+        "duration": 4.24
+      },
+      {
+        "text": "I know a little bit of, you know, I've",
+        "start": 1319.36,
+        "duration": 3.6
+      },
+      {
+        "text": "I've had my brushes with with these",
+        "start": 1321.2,
+        "duration": 3.52
+      },
+      {
+        "text": "topics, but I haven't haven't had to",
+        "start": 1322.96,
+        "duration": 4.959
+      },
+      {
+        "text": "deal with them much. Um, you know,",
+        "start": 1324.72,
+        "duration": 6.319
+      },
+      {
+        "text": "certainly not in court yet, thankfully.",
+        "start": 1327.919,
+        "duration": 6.721
+      },
+      {
+        "text": "And then, um, in terms of of copyright",
+        "start": 1331.039,
+        "duration": 5.52
+      },
+      {
+        "text": "ownerships, my understanding with that",
+        "start": 1334.64,
+        "duration": 3.68
+      },
+      {
+        "text": "is that",
+        "start": 1336.559,
+        "duration": 3.841
+      },
+      {
+        "text": "people have opinions on it, but my",
+        "start": 1338.32,
+        "duration": 3.28
+      },
+      {
+        "text": "understanding is that it hasn't been",
+        "start": 1340.4,
+        "duration": 3.84
+      },
+      {
+        "text": "tested in court yet, at least in the US.",
+        "start": 1341.6,
+        "duration": 6.319
+      },
+      {
+        "text": "And so, um, you know, until",
+        "start": 1344.24,
+        "duration": 5.439
+      },
+      {
+        "text": "there's a court case, I don't I don't",
+        "start": 1347.919,
+        "duration": 4.401
+      },
+      {
+        "text": "think we'll really have",
+        "start": 1349.679,
+        "duration": 7.561
+      },
+      {
+        "text": "resolution on that one. Um,",
+        "start": 1352.32,
+        "duration": 4.92
+      },
+      {
+        "text": "trying to think if I have I seen",
+        "start": 1357.28,
+        "duration": 4.519
+      },
+      {
+        "text": "anything",
+        "start": 1358.799,
+        "duration": 3.0
+      },
+      {
+        "text": "I've just noticed that Claude's",
+        "start": 1363.28,
+        "duration": 4.48
+      },
+      {
+        "text": "particularly good at SVGs. if you ask",
+        "start": 1364.48,
+        "duration": 6.88
+      },
+      {
+        "text": "for your art in code form. You know, I",
+        "start": 1367.76,
+        "duration": 6.72
+      },
+      {
+        "text": "always was fascinated by SVGs, but I've",
+        "start": 1371.36,
+        "duration": 4.96
+      },
+      {
+        "text": "had trouble finding a good SVG editor",
+        "start": 1374.48,
+        "duration": 5.04
+      },
+      {
+        "text": "that I could afford. And I like way like",
+        "start": 1376.32,
+        "duration": 5.04
+      },
+      {
+        "text": "seeing that, you know, here's each",
+        "start": 1379.52,
+        "duration": 4.56
+      },
+      {
+        "text": "element you're drawing and it's XML",
+        "start": 1381.36,
+        "duration": 4.96
+      },
+      {
+        "text": "format.",
+        "start": 1384.08,
+        "duration": 5.04
+      },
+      {
+        "text": "And so, yeah, I'm really digging the the",
+        "start": 1386.32,
+        "duration": 4.56
+      },
+      {
+        "text": "SV SVGs coming out of the cloud, but",
+        "start": 1389.12,
+        "duration": 3.039
+      },
+      {
+        "text": "then I put those into a repo and I",
+        "start": 1390.88,
+        "duration": 3.12
+      },
+      {
+        "text": "started thinking about it. you know, by",
+        "start": 1392.159,
+        "duration": 4.081
+      },
+      {
+        "text": "default, I'm usually using like a I",
+        "start": 1394.0,
+        "duration": 5.679
+      },
+      {
+        "text": "don't know, Apache 2 or MIT. And I",
+        "start": 1396.24,
+        "duration": 4.96
+      },
+      {
+        "text": "thought, well, do do I want to do these",
+        "start": 1399.679,
+        "duration": 3.36
+      },
+      {
+        "text": "unlicensed? Do I want to do them no",
+        "start": 1401.2,
+        "duration": 4.0
+      },
+      {
+        "text": "license? Like I don't know if I really",
+        "start": 1403.039,
+        "duration": 4.161
+      },
+      {
+        "text": "because I really some of the things I",
+        "start": 1405.2,
+        "duration": 3.2
+      },
+      {
+        "text": "started thinking about is like I could",
+        "start": 1407.2,
+        "duration": 2.88
+      },
+      {
+        "text": "print those out as like study cards, as",
+        "start": 1408.4,
+        "duration": 4.24
+      },
+      {
+        "text": "like playing cards or something. And I",
+        "start": 1410.08,
+        "duration": 3.839
+      },
+      {
+        "text": "already did like a children's book",
+        "start": 1412.64,
+        "duration": 2.88
+      },
+      {
+        "text": "earlier in the year. And so I don't know",
+        "start": 1413.919,
+        "duration": 3.841
+      },
+      {
+        "text": "if when I put that up, you know, I got",
+        "start": 1415.52,
+        "duration": 4.72
+      },
+      {
+        "text": "I'm used to doing open source but more",
+        "start": 1417.76,
+        "duration": 3.76
+      },
+      {
+        "text": "for the code. I'm not really thinking",
+        "start": 1420.24,
+        "duration": 3.439
+      },
+      {
+        "text": "about it from like a UI or a graphic",
+        "start": 1421.52,
+        "duration": 4.159
+      },
+      {
+        "text": "design point of view, which is my",
+        "start": 1423.679,
+        "duration": 3.441
+      },
+      {
+        "text": "original, you know, originally I was a",
+        "start": 1425.679,
+        "duration": 2.801
+      },
+      {
+        "text": "photographer before I ever started doing",
+        "start": 1427.12,
+        "duration": 4.559
+      },
+      {
+        "text": "code. So, it it started making me think",
+        "start": 1428.48,
+        "duration": 5.92
+      },
+      {
+        "text": "about that, you know, if I make these",
+        "start": 1431.679,
+        "duration": 6.24
+      },
+      {
+        "text": "study playing cards in SVG format that",
+        "start": 1434.4,
+        "duration": 5.84
+      },
+      {
+        "text": "are kind of unique and, you know, help",
+        "start": 1437.919,
+        "duration": 4.081
+      },
+      {
+        "text": "me study and those are usable to other",
+        "start": 1440.24,
+        "duration": 4.16
+      },
+      {
+        "text": "people. I don't mind putting those in a",
+        "start": 1442.0,
+        "duration": 4.24
+      },
+      {
+        "text": "repo, but if I printed those as playing",
+        "start": 1444.4,
+        "duration": 3.2
+      },
+      {
+        "text": "cards, I kind of like to keep the rights",
+        "start": 1446.24,
+        "duration": 3.36
+      },
+      {
+        "text": "on that somehow.",
+        "start": 1447.6,
+        "duration": 4.0
+      },
+      {
+        "text": "I see. CD.",
+        "start": 1449.6,
+        "duration": 4.0
+      },
+      {
+        "text": "So if it was say if it was something",
+        "start": 1451.6,
+        "duration": 6.16
+      },
+      {
+        "text": "like playing cards, probably",
+        "start": 1453.6,
+        "duration": 6.319
+      },
+      {
+        "text": "if it were me in that kind of situation",
+        "start": 1457.76,
+        "duration": 3.919
+      },
+      {
+        "text": "where I'm like I'm not exactly, you",
+        "start": 1459.919,
+        "duration": 5.521
+      },
+      {
+        "text": "know, I might want to sell them. Um but",
+        "start": 1461.679,
+        "duration": 6.0
+      },
+      {
+        "text": "I might want to have some kind of free",
+        "start": 1465.44,
+        "duration": 6.4
+      },
+      {
+        "text": "version of them. I would probably do um",
+        "start": 1467.679,
+        "duration": 6.321
+      },
+      {
+        "text": "I would probably keep the SVGs out of",
+        "start": 1471.84,
+        "duration": 5.76
+      },
+      {
+        "text": "the repo. Um because the sort of the",
+        "start": 1474.0,
+        "duration": 6.88
+      },
+      {
+        "text": "code's open source I try to not mix",
+        "start": 1477.6,
+        "duration": 4.88
+      },
+      {
+        "text": "actually this happens in industry a lot",
+        "start": 1480.88,
+        "duration": 4.64
+      },
+      {
+        "text": "where you try to be careful not to mix",
+        "start": 1482.48,
+        "duration": 6.079
+      },
+      {
+        "text": "uh you know the code that's open source",
+        "start": 1485.52,
+        "duration": 4.96
+      },
+      {
+        "text": "under a very permissive license and sort",
+        "start": 1488.559,
+        "duration": 3.441
+      },
+      {
+        "text": "of closed source which is very locked",
+        "start": 1490.48,
+        "duration": 4.0
+      },
+      {
+        "text": "down. Um I would do the same uh with",
+        "start": 1492.0,
+        "duration": 5.279
+      },
+      {
+        "text": "with something like that. But, uh, say",
+        "start": 1494.48,
+        "duration": 4.16
+      },
+      {
+        "text": "if you wanted to use them in your",
+        "start": 1497.279,
+        "duration": 3.441
+      },
+      {
+        "text": "project, what I might do is convert them",
+        "start": 1498.64,
+        "duration": 6.48
+      },
+      {
+        "text": "to, you know, JPEG or GIF or PNG or",
+        "start": 1500.72,
+        "duration": 7.36
+      },
+      {
+        "text": "something, but like lower res. And so",
+        "start": 1505.12,
+        "duration": 4.64
+      },
+      {
+        "text": "then, you know, you can have kind of",
+        "start": 1508.08,
+        "duration": 4.719
+      },
+      {
+        "text": "like a low res version in your repo.",
+        "start": 1509.76,
+        "duration": 5.84
+      },
+      {
+        "text": "Um, you know, maybe maybe even",
+        "start": 1512.799,
+        "duration": 5.201
+      },
+      {
+        "text": "watermarked or something.",
+        "start": 1515.6,
+        "duration": 4.4
+      },
+      {
+        "text": "Well, the whole reason I mean to tie",
+        "start": 1518.0,
+        "duration": 3.919
+      },
+      {
+        "text": "this into,",
+        "start": 1520.0,
+        "duration": 4.08
+      },
+      {
+        "text": "you know, more of the topic of the day,",
+        "start": 1521.919,
+        "duration": 3.521
+      },
+      {
+        "text": "the whole reason I was putting those in",
+        "start": 1524.08,
+        "duration": 3.04
+      },
+      {
+        "text": "there, you know, Claude not only makes",
+        "start": 1525.44,
+        "duration": 3.599
+      },
+      {
+        "text": "those, but I was going to kind of dog",
+        "start": 1527.12,
+        "duration": 4.159
+      },
+      {
+        "text": "food back and like, okay, now I need",
+        "start": 1529.039,
+        "duration": 4.24
+      },
+      {
+        "text": "bigger fonts, bolder fonts, you know,",
+        "start": 1531.279,
+        "duration": 3.52
+      },
+      {
+        "text": "make sure that or doesn't overlap. So, I",
+        "start": 1533.279,
+        "duration": 3.121
+      },
+      {
+        "text": "was actually going to have thought to",
+        "start": 1534.799,
+        "duration": 3.521
+      },
+      {
+        "text": "iterate on the the on the code in the",
+        "start": 1536.4,
+        "duration": 4.8
+      },
+      {
+        "text": "SVGs to improve those a little bit,",
+        "start": 1538.32,
+        "duration": 4.16
+      },
+      {
+        "text": "putting those, you know, that was the",
+        "start": 1541.2,
+        "duration": 2.719
+      },
+      {
+        "text": "first thing I put in the repo. It",
+        "start": 1542.48,
+        "duration": 3.12
+      },
+      {
+        "text": "actually was the SVG, so it could start",
+        "start": 1543.919,
+        "duration": 4.0
+      },
+      {
+        "text": "iterating on those.",
+        "start": 1545.6,
+        "duration": 5.679
+      },
+      {
+        "text": "I see. Yeah. Um,",
+        "start": 1547.919,
+        "duration": 5.76
+      },
+      {
+        "text": "I could make it a private repo, I guess,",
+        "start": 1551.279,
+        "duration": 5.28
+      },
+      {
+        "text": "and then make a public once I get done",
+        "start": 1553.679,
+        "duration": 4.561
+      },
+      {
+        "text": "with, you know, once I get the SVGs",
+        "start": 1556.559,
+        "duration": 4.0
+      },
+      {
+        "text": "edited the way I want them, then do a,",
+        "start": 1558.24,
+        "duration": 3.679
+      },
+      {
+        "text": "you know, a public branch maybe or",
+        "start": 1560.559,
+        "duration": 2.961
+      },
+      {
+        "text": "something like that.",
+        "start": 1561.919,
+        "duration": 2.161
+      },
+      {
+        "text": "Yeah,",
+        "start": 1563.52,
+        "duration": 1.92
+      },
+      {
+        "text": "I guess there are workarounds. I just",
+        "start": 1564.08,
+        "duration": 2.4
+      },
+      {
+        "text": "haven't thought all the way through it",
+        "start": 1565.44,
+        "duration": 1.92
+      },
+      {
+        "text": "yet.",
+        "start": 1566.48,
+        "duration": 2.079
+      },
+      {
+        "text": "Yeah, you can do something like a",
+        "start": 1567.36,
+        "duration": 3.36
+      },
+      {
+        "text": "private repo. Um, especially if you're",
+        "start": 1568.559,
+        "duration": 4.801
+      },
+      {
+        "text": "worried about sort of what what the",
+        "start": 1570.72,
+        "duration": 4.88
+      },
+      {
+        "text": "usage of it is. I would definitely",
+        "start": 1573.36,
+        "duration": 3.84
+      },
+      {
+        "text": "recommend, you know, starting off",
+        "start": 1575.6,
+        "duration": 2.959
+      },
+      {
+        "text": "private. You could always make it public",
+        "start": 1577.2,
+        "duration": 3.92
+      },
+      {
+        "text": "later, like you said.",
+        "start": 1578.559,
+        "duration": 5.12
+      },
+      {
+        "text": "Um,",
+        "start": 1581.12,
+        "duration": 7.4
+      },
+      {
+        "text": "yeah. I'm trying to think if I've have I",
+        "start": 1583.679,
+        "duration": 4.841
+      },
+      {
+        "text": "Yeah, honestly for for",
+        "start": 1592.559,
+        "duration": 6.161
+      },
+      {
+        "text": "uh for generating images,",
+        "start": 1595.52,
+        "duration": 5.68
+      },
+      {
+        "text": "I don't think I've seen that tested in",
+        "start": 1598.72,
+        "duration": 4.64
+      },
+      {
+        "text": "court yet, like any of the ownership",
+        "start": 1601.2,
+        "duration": 4.24
+      },
+      {
+        "text": "around that.",
+        "start": 1603.36,
+        "duration": 5.08
+      },
+      {
+        "text": "Um,",
+        "start": 1605.44,
+        "duration": 3.0
+      },
+      {
+        "text": "it's probably coming. Like, I would",
+        "start": 1611.44,
+        "duration": 4.56
+      },
+      {
+        "text": "guess probably in the next year or two.",
+        "start": 1613.36,
+        "duration": 4.24
+      },
+      {
+        "text": "Like, I'm sure there's court cases that",
+        "start": 1616.0,
+        "duration": 3.52
+      },
+      {
+        "text": "have been started, but I don't think I",
+        "start": 1617.6,
+        "duration": 3.52
+      },
+      {
+        "text": "haven't heard of any that have resolved",
+        "start": 1619.52,
+        "duration": 4.6
+      },
+      {
+        "text": "yet.",
+        "start": 1621.12,
+        "duration": 3.0
+      },
+      {
+        "text": "Yeah, sorry. I wish I knew more about",
+        "start": 1634.96,
+        "duration": 4.4
+      },
+      {
+        "text": "copyright to tell you, but uh I think",
+        "start": 1636.4,
+        "duration": 4.72
+      },
+      {
+        "text": "copyright part of the thing that's",
+        "start": 1639.36,
+        "duration": 4.319
+      },
+      {
+        "text": "really challenging with um legal topics",
+        "start": 1641.12,
+        "duration": 5.439
+      },
+      {
+        "text": "is is that there's like",
+        "start": 1643.679,
+        "duration": 4.641
+      },
+      {
+        "text": "there's",
+        "start": 1646.559,
+        "duration": 3.441
+      },
+      {
+        "text": "what's written in the law and that",
+        "start": 1648.32,
+        "duration": 3.2
+      },
+      {
+        "text": "changes depending on where you are in",
+        "start": 1650.0,
+        "duration": 2.799
+      },
+      {
+        "text": "the world and you have multiple",
+        "start": 1651.52,
+        "duration": 3.68
+      },
+      {
+        "text": "jurisdictions and all kinds of problems.",
+        "start": 1652.799,
+        "duration": 5.521
+      },
+      {
+        "text": "Um, and then there's the sort of status",
+        "start": 1655.2,
+        "duration": 5.76
+      },
+      {
+        "text": "quo interpretation of that and then",
+        "start": 1658.32,
+        "duration": 4.88
+      },
+      {
+        "text": "there's sort of what the legal precedent",
+        "start": 1660.96,
+        "duration": 5.199
+      },
+      {
+        "text": "is in terms of enforcement and like all",
+        "start": 1663.2,
+        "duration": 4.64
+      },
+      {
+        "text": "those things kind of affect what what",
+        "start": 1666.159,
+        "duration": 4.561
+      },
+      {
+        "text": "actually happens. Um, and then",
+        "start": 1667.84,
+        "duration": 6.88
+      },
+      {
+        "text": "unfortunately like being in software a",
+        "start": 1670.72,
+        "duration": 6.559
+      },
+      {
+        "text": "lot of the",
+        "start": 1674.72,
+        "duration": 5.36
+      },
+      {
+        "text": "experience that I've had",
+        "start": 1677.279,
+        "duration": 5.52
+      },
+      {
+        "text": "really comes down to like you know a",
+        "start": 1680.08,
+        "duration": 4.88
+      },
+      {
+        "text": "friend of a friend",
+        "start": 1682.799,
+        "duration": 4.561
+      },
+      {
+        "text": "uh had like one experience with the",
+        "start": 1684.96,
+        "duration": 4.4
+      },
+      {
+        "text": "legal system involving some of these",
+        "start": 1687.36,
+        "duration": 4.559
+      },
+      {
+        "text": "things and it's like you know but then",
+        "start": 1689.36,
+        "duration": 4.559
+      },
+      {
+        "text": "you might hear a different friend of a",
+        "start": 1691.919,
+        "duration": 5.281
+      },
+      {
+        "text": "friend had the opposite experience.",
+        "start": 1693.919,
+        "duration": 7.441
+      },
+      {
+        "text": "Um, so I yeah, I wish I had a better",
+        "start": 1697.2,
+        "duration": 7.8
+      },
+      {
+        "text": "answer for all that.",
+        "start": 1701.36,
+        "duration": 3.64
+      },
+      {
+        "text": "They're they're still in rough draft",
+        "start": 1706.72,
+        "duration": 3.04
+      },
+      {
+        "text": "form anyways, but I threw them in the",
+        "start": 1708.24,
+        "duration": 2.72
+      },
+      {
+        "text": "chat just because I was pretty happy",
+        "start": 1709.76,
+        "duration": 4.08
+      },
+      {
+        "text": "with how the the first draft turned out.",
+        "start": 1710.96,
+        "duration": 4.319
+      },
+      {
+        "text": "Oh, I'm looking at No, that's pretty",
+        "start": 1713.84,
+        "duration": 3.28
+      },
+      {
+        "text": "cool.",
+        "start": 1715.279,
+        "duration": 3.921
+      },
+      {
+        "text": "I originally started with the what I",
+        "start": 1717.12,
+        "duration": 6.96
+      },
+      {
+        "text": "call tier tier two, I guess.",
+        "start": 1719.2,
+        "duration": 8.479
+      },
+      {
+        "text": "See? Yeah, those are the 15.",
+        "start": 1724.08,
+        "duration": 4.4
+      },
+      {
+        "text": "Yeah,",
+        "start": 1727.679,
+        "duration": 3.761
+      },
+      {
+        "text": "patterns from leak code originally.",
+        "start": 1728.48,
+        "duration": 4.4
+      },
+      {
+        "text": "And then when I started trying to match",
+        "start": 1731.44,
+        "duration": 4.16
+      },
+      {
+        "text": "those up on the, you know, when I was",
+        "start": 1732.88,
+        "duration": 3.679
+      },
+      {
+        "text": "actually working through on the",
+        "start": 1735.6,
+        "duration": 3.199
+      },
+      {
+        "text": "problems, that's the quad's advice was",
+        "start": 1736.559,
+        "duration": 4.0
+      },
+      {
+        "text": "they were too complicated. I I needed",
+        "start": 1738.799,
+        "duration": 3.6
+      },
+      {
+        "text": "the more basic building blocks to get to",
+        "start": 1740.559,
+        "duration": 3.921
+      },
+      {
+        "text": "those. That's when I backed up and did",
+        "start": 1742.399,
+        "duration": 4.4
+      },
+      {
+        "text": "the tier one stuff.",
+        "start": 1744.48,
+        "duration": 4.24
+      },
+      {
+        "text": "I started with I think the if else",
+        "start": 1746.799,
+        "duration": 3.441
+      },
+      {
+        "text": "blocks and the switch blocks and I was",
+        "start": 1748.72,
+        "duration": 2.64
+      },
+      {
+        "text": "like, well, there's some other basic",
+        "start": 1750.24,
+        "duration": 3.679
+      },
+      {
+        "text": "stuff we could back fill in there.",
+        "start": 1751.36,
+        "duration": 6.96
+      },
+      {
+        "text": "Yeah, I could see like",
+        "start": 1753.919,
+        "duration": 6.0
+      },
+      {
+        "text": "actually. So, how does font stuff work",
+        "start": 1758.32,
+        "duration": 4.32
+      },
+      {
+        "text": "with SVGs? I I haven't I haven't done",
+        "start": 1759.919,
+        "duration": 4.161
+      },
+      {
+        "text": "that before.",
+        "start": 1762.64,
+        "duration": 4.159
+      },
+      {
+        "text": "It's a good question.",
+        "start": 1764.08,
+        "duration": 4.4
+      },
+      {
+        "text": "The only thing I know is I want it, you",
+        "start": 1766.799,
+        "duration": 3.441
+      },
+      {
+        "text": "know, bigger and bolder. Like I said, I",
+        "start": 1768.48,
+        "duration": 3.28
+      },
+      {
+        "text": "got old man eyes, so I want to be able",
+        "start": 1770.24,
+        "duration": 3.28
+      },
+      {
+        "text": "to what I really want to be able to do",
+        "start": 1771.76,
+        "duration": 3.919
+      },
+      {
+        "text": "because I know a lot of like you're when",
+        "start": 1773.52,
+        "duration": 4.879
+      },
+      {
+        "text": "you're testing for like an interview,",
+        "start": 1775.679,
+        "duration": 4.48
+      },
+      {
+        "text": "you're that's the whole thing is getting",
+        "start": 1778.399,
+        "duration": 3.041
+      },
+      {
+        "text": "ready for that tech interview. That was",
+        "start": 1780.159,
+        "duration": 3.76
+      },
+      {
+        "text": "always always my weak point. But they",
+        "start": 1781.44,
+        "duration": 4.239
+      },
+      {
+        "text": "don't want you to like even click out of",
+        "start": 1783.919,
+        "duration": 3.76
+      },
+      {
+        "text": "the tab or that window. You know, if you",
+        "start": 1785.679,
+        "duration": 3.6
+      },
+      {
+        "text": "go to another tab or another screen,",
+        "start": 1787.679,
+        "duration": 3.841
+      },
+      {
+        "text": "they assume you're cheating. But if I",
+        "start": 1789.279,
+        "duration": 3.841
+      },
+      {
+        "text": "had some kind of paper printed out at my",
+        "start": 1791.52,
+        "duration": 3.44
+      },
+      {
+        "text": "desk, you know, flip cards or flash",
+        "start": 1793.12,
+        "duration": 3.2
+      },
+      {
+        "text": "cards I could shuffle through real",
+        "start": 1794.96,
+        "duration": 3.28
+      },
+      {
+        "text": "quick, like, oh, how would I write this",
+        "start": 1796.32,
+        "duration": 3.839
+      },
+      {
+        "text": "in Python or what's the syntax to start",
+        "start": 1798.24,
+        "duration": 4.559
+      },
+      {
+        "text": "that code block off with? That's a lot",
+        "start": 1800.159,
+        "duration": 4.64
+      },
+      {
+        "text": "of times where I get stuck on a timed",
+        "start": 1802.799,
+        "duration": 3.921
+      },
+      {
+        "text": "interview, I think. So, got it.",
+        "start": 1804.799,
+        "duration": 3.921
+      },
+      {
+        "text": "I think having a paper print out of that",
+        "start": 1806.72,
+        "duration": 5.28
+      },
+      {
+        "text": "would really come in handy sometimes.",
+        "start": 1808.72,
+        "duration": 6.559
+      },
+      {
+        "text": "Yeah. Yeah, I see what you mean.",
+        "start": 1812.0,
+        "duration": 5.039
+      },
+      {
+        "text": "I'm trying to think. It's It's tough,",
+        "start": 1815.279,
+        "duration": 3.76
+      },
+      {
+        "text": "too, because like these things um you",
+        "start": 1817.039,
+        "duration": 3.681
+      },
+      {
+        "text": "kind of want them to I kind of like the",
+        "start": 1819.039,
+        "duration": 3.12
+      },
+      {
+        "text": "idea of them being these like little",
+        "start": 1820.72,
+        "duration": 4.559
+      },
+      {
+        "text": "cards. Uh but at the same time, it's",
+        "start": 1822.159,
+        "duration": 4.801
+      },
+      {
+        "text": "tough to fit so much text on them,",
+        "start": 1825.279,
+        "duration": 3.441
+      },
+      {
+        "text": "right?",
+        "start": 1826.96,
+        "duration": 4.24
+      },
+      {
+        "text": "Um",
+        "start": 1828.72,
+        "duration": 4.319
+      },
+      {
+        "text": "well, I always come at it too from like",
+        "start": 1831.2,
+        "duration": 3.839
+      },
+      {
+        "text": "a a game designer. Like I was always",
+        "start": 1833.039,
+        "duration": 3.76
+      },
+      {
+        "text": "into role playing games, like a game",
+        "start": 1835.039,
+        "duration": 4.081
+      },
+      {
+        "text": "master. And so I'm always thinking like,",
+        "start": 1836.799,
+        "duration": 3.921
+      },
+      {
+        "text": "you know, my original prompt even",
+        "start": 1839.12,
+        "duration": 3.12
+      },
+      {
+        "text": "suggested, you know, Magic the Gathering",
+        "start": 1840.72,
+        "duration": 2.8
+      },
+      {
+        "text": "type cards. And that's why I put the",
+        "start": 1842.24,
+        "duration": 2.96
+      },
+      {
+        "text": "complexity number in the top right like",
+        "start": 1843.52,
+        "duration": 3.68
+      },
+      {
+        "text": "the mana. It's like, oh, this is a a",
+        "start": 1845.2,
+        "duration": 4.079
+      },
+      {
+        "text": "twopoint complexity problem. So I",
+        "start": 1847.2,
+        "duration": 3.04
+      },
+      {
+        "text": "started wondering if there's a way to",
+        "start": 1849.279,
+        "duration": 2.961
+      },
+      {
+        "text": "make a card game out of it. Like, well,",
+        "start": 1850.24,
+        "duration": 4.64
+      },
+      {
+        "text": "I'll solve you with a case block.",
+        "start": 1852.24,
+        "duration": 6.72
+      },
+      {
+        "text": "Yeah. Yeah. No, I think that's it's fun.",
+        "start": 1854.88,
+        "duration": 8.12
+      },
+      {
+        "text": "I I like the",
+        "start": 1858.96,
+        "duration": 4.04
+      },
+      {
+        "text": "and you know like studying is is one of",
+        "start": 1864.0,
+        "duration": 4.0
+      },
+      {
+        "text": "those things it's like you know it can",
+        "start": 1866.64,
+        "duration": 3.039
+      },
+      {
+        "text": "be kind of mind-numbing. So any kind of",
+        "start": 1868.0,
+        "duration": 6.24
+      },
+      {
+        "text": "fun you can have in studying is great.",
+        "start": 1869.679,
+        "duration": 7.36
+      },
+      {
+        "text": "Yeah.",
+        "start": 1874.24,
+        "duration": 4.64
+      },
+      {
+        "text": "Huh.",
+        "start": 1877.039,
+        "duration": 4.321
+      },
+      {
+        "text": "Yeah. I'm trying to think. So the Yeah.",
+        "start": 1878.88,
+        "duration": 3.919
+      },
+      {
+        "text": "Yeah, the hard part with a lot of the",
+        "start": 1881.36,
+        "duration": 4.4
+      },
+      {
+        "text": "like um you know some of the topics are",
+        "start": 1882.799,
+        "duration": 6.401
+      },
+      {
+        "text": "kind of complex and it's hard to explain",
+        "start": 1885.76,
+        "duration": 5.76
+      },
+      {
+        "text": "it with just one little diagram, you",
+        "start": 1889.2,
+        "duration": 6.079
+      },
+      {
+        "text": "know, uh you kind of need you know like",
+        "start": 1891.52,
+        "duration": 5.519
+      },
+      {
+        "text": "like you've got you need some some",
+        "start": 1895.279,
+        "duration": 3.28
+      },
+      {
+        "text": "programming, you need some code on",
+        "start": 1897.039,
+        "duration": 3.441
+      },
+      {
+        "text": "there, you need some some words to",
+        "start": 1898.559,
+        "duration": 5.201
+      },
+      {
+        "text": "describe it. Uh",
+        "start": 1900.48,
+        "duration": 6.319
+      },
+      {
+        "text": "I think that's a cool goal though. I I",
+        "start": 1903.76,
+        "duration": 5.039
+      },
+      {
+        "text": "don't know how to solve it at all. I",
+        "start": 1906.799,
+        "duration": 3.521
+      },
+      {
+        "text": "think it's a really interesting",
+        "start": 1908.799,
+        "duration": 5.321
+      },
+      {
+        "text": "challenging goal though.",
+        "start": 1910.32,
+        "duration": 3.8
+      },
+      {
+        "text": "I'm looking for the first drafts and I",
+        "start": 1916.799,
+        "duration": 4.161
+      },
+      {
+        "text": "was really doing it's just like",
+        "start": 1919.36,
+        "duration": 5.039
+      },
+      {
+        "text": "highlighters and uh",
+        "start": 1920.96,
+        "duration": 5.52
+      },
+      {
+        "text": "I was just these these were kind of",
+        "start": 1924.399,
+        "duration": 3.52
+      },
+      {
+        "text": "going to be my first draft. I was really",
+        "start": 1926.48,
+        "duration": 3.039
+      },
+      {
+        "text": "doing them like abstract almost like",
+        "start": 1927.919,
+        "duration": 4.0
+      },
+      {
+        "text": "paintings just like here's a blue block",
+        "start": 1929.519,
+        "duration": 5.52
+      },
+      {
+        "text": "for you know definition or",
+        "start": 1931.919,
+        "duration": 5.6
+      },
+      {
+        "text": "Yeah. or a yellow block for a variable",
+        "start": 1935.039,
+        "duration": 4.321
+      },
+      {
+        "text": "kind of thing.",
+        "start": 1937.519,
+        "duration": 5.201
+      },
+      {
+        "text": "Yeah. So, did you um",
+        "start": 1939.36,
+        "duration": 4.88
+      },
+      {
+        "text": "did you like take a picture of those",
+        "start": 1942.72,
+        "duration": 3.28
+      },
+      {
+        "text": "ones that you did by hand and then sort",
+        "start": 1944.24,
+        "duration": 4.4
+      },
+      {
+        "text": "of said, \"Hey, oh yeah.",
+        "start": 1946.0,
+        "duration": 4.32
+      },
+      {
+        "text": "Oh, very cool. I love it.\"",
+        "start": 1948.64,
+        "duration": 2.72
+      },
+      {
+        "text": "That's why I was looking for it is",
+        "start": 1950.32,
+        "duration": 2.32
+      },
+      {
+        "text": "because it, you know, it was kind of",
+        "start": 1951.36,
+        "duration": 3.28
+      },
+      {
+        "text": "like somewhere in the middle of graphing",
+        "start": 1952.64,
+        "duration": 4.399
+      },
+      {
+        "text": "it out, but not trying to be is trying",
+        "start": 1954.64,
+        "duration": 4.24
+      },
+      {
+        "text": "to leave it as abstract as possible, but",
+        "start": 1957.039,
+        "duration": 3.76
+      },
+      {
+        "text": "almost do it like little Lego blocks",
+        "start": 1958.88,
+        "duration": 3.76
+      },
+      {
+        "text": "chunked together.",
+        "start": 1960.799,
+        "duration": 4.641
+      },
+      {
+        "text": "Yeah. No, I love that that style because",
+        "start": 1962.64,
+        "duration": 5.279
+      },
+      {
+        "text": "uh and you're right on that like so many",
+        "start": 1965.44,
+        "duration": 4.479
+      },
+      {
+        "text": "times you kind of you can picture what",
+        "start": 1967.919,
+        "duration": 5.841
+      },
+      {
+        "text": "you want, you can draw it on a page, but",
+        "start": 1969.919,
+        "duration": 5.441
+      },
+      {
+        "text": "then the work of turning that into an",
+        "start": 1973.76,
+        "duration": 5.84
+      },
+      {
+        "text": "SVG is like a you know it's a lot of",
+        "start": 1975.36,
+        "duration": 7.28
+      },
+      {
+        "text": "work, you know. So,",
+        "start": 1979.6,
+        "duration": 4.88
+      },
+      {
+        "text": "and it's not this first time I've seen I",
+        "start": 1982.64,
+        "duration": 3.519
+      },
+      {
+        "text": "mean I have seen Claude do some really",
+        "start": 1984.48,
+        "duration": 4.0
+      },
+      {
+        "text": "crummy SVGs, but I mean I would have",
+        "start": 1986.159,
+        "duration": 4.0
+      },
+      {
+        "text": "done crummy ones myself, but I've also",
+        "start": 1988.48,
+        "duration": 4.319
+      },
+      {
+        "text": "seen it when I really the first time I",
+        "start": 1990.159,
+        "duration": 5.041
+      },
+      {
+        "text": "asked to do some steampunk and it",
+        "start": 1992.799,
+        "duration": 3.76
+      },
+      {
+        "text": "knocked those out of the park and I was",
+        "start": 1995.2,
+        "duration": 2.64
+      },
+      {
+        "text": "like, \"Okay, I'm going to remember that",
+        "start": 1996.559,
+        "duration": 4.081
+      },
+      {
+        "text": "and come back to it.\" So, uh steampunk",
+        "start": 1997.84,
+        "duration": 4.559
+      },
+      {
+        "text": "logos. I mean, there's some stuff that",
+        "start": 2000.64,
+        "duration": 3.68
+      },
+      {
+        "text": "it just depends on the style you're",
+        "start": 2002.399,
+        "duration": 3.76
+      },
+      {
+        "text": "looking for, I guess, but there's some",
+        "start": 2004.32,
+        "duration": 2.479
+      },
+      {
+        "text": "stuff",
+        "start": 2006.159,
+        "duration": 2.4
+      },
+      {
+        "text": "that it really knocks it out of the park",
+        "start": 2006.799,
+        "duration": 3.921
+      },
+      {
+        "text": "on SVGs.",
+        "start": 2008.559,
+        "duration": 3.921
+      },
+      {
+        "text": "Oh, okay. I'll have to keep that in",
+        "start": 2010.72,
+        "duration": 2.64
+      },
+      {
+        "text": "mind.",
+        "start": 2012.48,
+        "duration": 3.679
+      },
+      {
+        "text": "Funue too. I did my office funue a",
+        "start": 2013.36,
+        "duration": 5.12
+      },
+      {
+        "text": "couple weeks ago. I I did like a graph",
+        "start": 2016.159,
+        "duration": 5.36
+      },
+      {
+        "text": "of the office. I drew it off like 13",
+        "start": 2018.48,
+        "duration": 6.079
+      },
+      {
+        "text": "squares by 13 squares. And then I I was",
+        "start": 2021.519,
+        "duration": 4.4
+      },
+      {
+        "text": "like, these are all the biggest pieces",
+        "start": 2024.559,
+        "duration": 2.881
+      },
+      {
+        "text": "of furniture that have to go somewhere.",
+        "start": 2025.919,
+        "duration": 3.6
+      },
+      {
+        "text": "Like a bookcase is so many squares. The",
+        "start": 2027.44,
+        "duration": 3.599
+      },
+      {
+        "text": "desk is so many squares. That chair is",
+        "start": 2029.519,
+        "duration": 4.241
+      },
+      {
+        "text": "so many squares. And so I was like, I've",
+        "start": 2031.039,
+        "duration": 4.48
+      },
+      {
+        "text": "got a door here, a door here, a window",
+        "start": 2033.76,
+        "duration": 5.039
+      },
+      {
+        "text": "there. The sun rises here, sets there.",
+        "start": 2035.519,
+        "duration": 4.88
+      },
+      {
+        "text": "And so I put all that in there. said",
+        "start": 2038.799,
+        "duration": 4.081
+      },
+      {
+        "text": "funue it for me that come up with the",
+        "start": 2040.399,
+        "duration": 4.0
+      },
+      {
+        "text": "best arrangement it could figure out.",
+        "start": 2042.88,
+        "duration": 2.88
+      },
+      {
+        "text": "That's what got me thinking down that",
+        "start": 2044.399,
+        "duration": 2.961
+      },
+      {
+        "text": "pathway.",
+        "start": 2045.76,
+        "duration": 5.04
+      },
+      {
+        "text": "It that drew those in SVGs too.",
+        "start": 2047.36,
+        "duration": 6.799
+      },
+      {
+        "text": "I like that. I mean I love like",
+        "start": 2050.8,
+        "duration": 5.52
+      },
+      {
+        "text": "personally I love starting on like pen",
+        "start": 2054.159,
+        "duration": 6.161
+      },
+      {
+        "text": "and paper, pencil and paper. Just I feel",
+        "start": 2056.32,
+        "duration": 7.039
+      },
+      {
+        "text": "like it's a really effective way for me",
+        "start": 2060.32,
+        "duration": 4.88
+      },
+      {
+        "text": "personally to kind of like think on the",
+        "start": 2063.359,
+        "duration": 3.52
+      },
+      {
+        "text": "page.",
+        "start": 2065.2,
+        "duration": 4.959
+      },
+      {
+        "text": "Um, and so I love this. Like I, you",
+        "start": 2066.879,
+        "duration": 6.081
+      },
+      {
+        "text": "know, use it to do like the the",
+        "start": 2070.159,
+        "duration": 5.76
+      },
+      {
+        "text": "frustrating mechanical parts of figure",
+        "start": 2072.96,
+        "duration": 4.879
+      },
+      {
+        "text": "out SVGs for me. You know, I know I want",
+        "start": 2075.919,
+        "duration": 3.841
+      },
+      {
+        "text": "it to look kind of like this. Figure out",
+        "start": 2077.839,
+        "duration": 4.481
+      },
+      {
+        "text": "all the details. Uh, yeah, I think",
+        "start": 2079.76,
+        "duration": 4.639
+      },
+      {
+        "text": "that's a great I think in this case it",
+        "start": 2082.32,
+        "duration": 4.88
+      },
+      {
+        "text": "would probably be like So in this kind",
+        "start": 2084.399,
+        "duration": 5.76
+      },
+      {
+        "text": "of",
+        "start": 2087.2,
+        "duration": 5.959
+      },
+      {
+        "text": "uh",
+        "start": 2090.159,
+        "duration": 3.0
+      },
+      {
+        "text": "I found it. I know they're gonna look",
+        "start": 2093.28,
+        "duration": 2.639
+      },
+      {
+        "text": "horrible on this camera, but we'll get",
+        "start": 2094.56,
+        "duration": 3.68
+      },
+      {
+        "text": "us in focus as much as possible.",
+        "start": 2095.919,
+        "duration": 4.881
+      },
+      {
+        "text": "Oh, easier just to like look through my",
+        "start": 2098.24,
+        "duration": 3.2
+      },
+      {
+        "text": "uh",
+        "start": 2100.8,
+        "duration": 4.84
+      },
+      {
+        "text": "folder where I've downloaded them.",
+        "start": 2101.44,
+        "duration": 4.2
+      },
+      {
+        "text": "Oh, yeah. Yeah.",
+        "start": 2106.4,
+        "duration": 4.28
+      },
+      {
+        "text": "Yeah.",
+        "start": 2114.0,
+        "duration": 3.839
+      },
+      {
+        "text": "Yeah. That those were my original study",
+        "start": 2116.4,
+        "duration": 2.88
+      },
+      {
+        "text": "notes. I was like, there's got to be a",
+        "start": 2117.839,
+        "duration": 3.121
+      },
+      {
+        "text": "better way to do that. So, I took that",
+        "start": 2119.28,
+        "duration": 2.96
+      },
+      {
+        "text": "photograph in and started talking to",
+        "start": 2120.96,
+        "duration": 3.76
+      },
+      {
+        "text": "Quad about it. That's several iterations",
+        "start": 2122.24,
+        "duration": 3.92
+      },
+      {
+        "text": "later.",
+        "start": 2124.72,
+        "duration": 4.8
+      },
+      {
+        "text": "That's cool. Actually, it kind of when",
+        "start": 2126.16,
+        "duration": 5.36
+      },
+      {
+        "text": "you're showing it like that, they kind",
+        "start": 2129.52,
+        "duration": 3.76
+      },
+      {
+        "text": "of looked a little bit like postcards to",
+        "start": 2131.52,
+        "duration": 3.599
+      },
+      {
+        "text": "me.",
+        "start": 2133.28,
+        "duration": 4.24
+      },
+      {
+        "text": "And now thinking like that would make a",
+        "start": 2135.119,
+        "duration": 5.121
+      },
+      {
+        "text": "kind of funny postcard, you know? It's",
+        "start": 2137.52,
+        "duration": 4.48
+      },
+      {
+        "text": "got like programming concepts on one",
+        "start": 2140.24,
+        "duration": 5.599
+      },
+      {
+        "text": "side. I sent a postcard to someone.",
+        "start": 2142.0,
+        "duration": 4.72
+      },
+      {
+        "text": "Yeah,",
+        "start": 2145.839,
+        "duration": 2.721
+      },
+      {
+        "text": "that would be cool.",
+        "start": 2146.72,
+        "duration": 6.879
+      },
+      {
+        "text": "If Niagara Falls go to line four",
+        "start": 2148.56,
+        "duration": 8.559
+      },
+      {
+        "text": "Yeah. Yeah.",
+        "start": 2153.599,
+        "duration": 6.081
+      },
+      {
+        "text": "Yeah. So, so in that kind of a case then",
+        "start": 2157.119,
+        "duration": 5.201
+      },
+      {
+        "text": "um I think some folks might consider",
+        "start": 2159.68,
+        "duration": 4.88
+      },
+      {
+        "text": "that to be like AI sort of doing the",
+        "start": 2162.32,
+        "duration": 5.039
+      },
+      {
+        "text": "work of of converting your original work",
+        "start": 2164.56,
+        "duration": 6.48
+      },
+      {
+        "text": "into a different form. And so,",
+        "start": 2167.359,
+        "duration": 4.961
+      },
+      {
+        "text": "you know, it might be considered that",
+        "start": 2171.04,
+        "duration": 3.12
+      },
+      {
+        "text": "way kind of like, you know, if you run",
+        "start": 2172.32,
+        "duration": 4.48
+      },
+      {
+        "text": "something through like uh like an image",
+        "start": 2174.16,
+        "duration": 4.4
+      },
+      {
+        "text": "filter to make it sharper or something",
+        "start": 2176.8,
+        "duration": 5.039
+      },
+      {
+        "text": "like that. um it doesn't sort of change",
+        "start": 2178.56,
+        "duration": 4.4
+      },
+      {
+        "text": "you know whose it is.",
+        "start": 2181.839,
+        "duration": 2.721
+      },
+      {
+        "text": "Well, I wondered too I don't know how",
+        "start": 2182.96,
+        "duration": 5.28
+      },
+      {
+        "text": "much I originally based those 15 you",
+        "start": 2184.56,
+        "duration": 6.88
+      },
+      {
+        "text": "know that tier two on the leak code",
+        "start": 2188.24,
+        "duration": 4.24
+      },
+      {
+        "text": "patterns.",
+        "start": 2191.44,
+        "duration": 2.96
+      },
+      {
+        "text": "So I don't know if those are",
+        "start": 2192.48,
+        "duration": 3.44
+      },
+      {
+        "text": "kind of best practices across the",
+        "start": 2194.4,
+        "duration": 3.28
+      },
+      {
+        "text": "industry or if those are specific like",
+        "start": 2195.92,
+        "duration": 3.84
+      },
+      {
+        "text": "the way they've named them and set up",
+        "start": 2197.68,
+        "duration": 3.28
+      },
+      {
+        "text": "those illustrations. I don't know if",
+        "start": 2199.76,
+        "duration": 2.64
+      },
+      {
+        "text": "those are very specific to what leak",
+        "start": 2200.96,
+        "duration": 4.0
+      },
+      {
+        "text": "code would even have rights on maybe. So",
+        "start": 2202.4,
+        "duration": 3.84
+      },
+      {
+        "text": "they may come back and I don't think",
+        "start": 2204.96,
+        "duration": 3.44
+      },
+      {
+        "text": "they would but",
+        "start": 2206.24,
+        "duration": 3.76
+      },
+      {
+        "text": "in theory come back and say oh that's",
+        "start": 2208.4,
+        "duration": 5.6
+      },
+      {
+        "text": "that's our parable for how to do ripple",
+        "start": 2210.0,
+        "duration": 6.88
+      },
+      {
+        "text": "programming or dynamic programming",
+        "start": 2214.0,
+        "duration": 6.0
+      },
+      {
+        "text": "p posters or whatever.",
+        "start": 2216.88,
+        "duration": 5.04
+      },
+      {
+        "text": "Yeah maybe I",
+        "start": 2220.0,
+        "duration": 3.76
+      },
+      {
+        "text": "I might be out brainstorming outside the",
+        "start": 2221.92,
+        "duration": 3.52
+      },
+      {
+        "text": "box just to think defensively a little",
+        "start": 2223.76,
+        "duration": 4.079
+      },
+      {
+        "text": "bit but you never know really.",
+        "start": 2225.44,
+        "duration": 5.919
+      },
+      {
+        "text": "Yeah. Yeah. I mean I guess usually I'm",
+        "start": 2227.839,
+        "duration": 7.441
+      },
+      {
+        "text": "in usually I work in startups. So uh",
+        "start": 2231.359,
+        "duration": 7.361
+      },
+      {
+        "text": "usually what happens in startups is that",
+        "start": 2235.28,
+        "duration": 5.68
+      },
+      {
+        "text": "the company just dies and then it",
+        "start": 2238.72,
+        "duration": 5.28
+      },
+      {
+        "text": "doesn't matter anymore. So",
+        "start": 2240.96,
+        "duration": 4.48
+      },
+      {
+        "text": "you know I've gone through so many",
+        "start": 2244.0,
+        "duration": 5.04
+      },
+      {
+        "text": "projects where uh",
+        "start": 2245.44,
+        "duration": 8.159
+      },
+      {
+        "text": "it did it didn't end up mattering. Um,",
+        "start": 2249.04,
+        "duration": 6.559
+      },
+      {
+        "text": "so I I tend not to worry about it too",
+        "start": 2253.599,
+        "duration": 2.881
+      },
+      {
+        "text": "much, but",
+        "start": 2255.599,
+        "duration": 3.201
+      },
+      {
+        "text": "move move faster and break le break more",
+        "start": 2256.48,
+        "duration": 4.24
+      },
+      {
+        "text": "things.",
+        "start": 2258.8,
+        "duration": 4.24
+      },
+      {
+        "text": "Yeah. Well, a little bit. You know, I",
+        "start": 2260.72,
+        "duration": 4.24
+      },
+      {
+        "text": "think there is I guess I will say that",
+        "start": 2263.04,
+        "duration": 5.799
+      },
+      {
+        "text": "there's uh",
+        "start": 2264.96,
+        "duration": 3.879
+      },
+      {
+        "text": "you know, I don't I don't always take",
+        "start": 2270.4,
+        "duration": 3.76
+      },
+      {
+        "text": "that stance of kind of move faster, move",
+        "start": 2272.0,
+        "duration": 5.44
+      },
+      {
+        "text": "fast and break things, but um",
+        "start": 2274.16,
+        "duration": 6.24
+      },
+      {
+        "text": "I would say like when say if I'm",
+        "start": 2277.44,
+        "duration": 5.04
+      },
+      {
+        "text": "creating something and I create some",
+        "start": 2280.4,
+        "duration": 6.16
+      },
+      {
+        "text": "kind of derivative work, um you know, my",
+        "start": 2282.48,
+        "duration": 6.16
+      },
+      {
+        "text": "my real check is like, you know, is this",
+        "start": 2286.56,
+        "duration": 4.08
+      },
+      {
+        "text": "do I think this is harming the original",
+        "start": 2288.64,
+        "duration": 3.6
+      },
+      {
+        "text": "creator of this in some way, shape,",
+        "start": 2290.64,
+        "duration": 5.28
+      },
+      {
+        "text": "perform. Um, you know, I try to take a",
+        "start": 2292.24,
+        "duration": 6.32
+      },
+      {
+        "text": "step back from sort of the legal way of",
+        "start": 2295.92,
+        "duration": 4.0
+      },
+      {
+        "text": "thinking to more of just like thinking",
+        "start": 2298.56,
+        "duration": 3.279
+      },
+      {
+        "text": "about the ethics of it, right? Thinking",
+        "start": 2299.92,
+        "duration": 3.84
+      },
+      {
+        "text": "about just like what does this mean to",
+        "start": 2301.839,
+        "duration": 4.321
+      },
+      {
+        "text": "another person, you know? Uh, try to",
+        "start": 2303.76,
+        "duration": 4.0
+      },
+      {
+        "text": "think from kind of more of a people",
+        "start": 2306.16,
+        "duration": 4.64
+      },
+      {
+        "text": "perspective. Uh,",
+        "start": 2307.76,
+        "duration": 5.359
+      },
+      {
+        "text": "because the legal stuff like that kind",
+        "start": 2310.8,
+        "duration": 4.64
+      },
+      {
+        "text": "of comes into play generally when",
+        "start": 2313.119,
+        "duration": 4.401
+      },
+      {
+        "text": "startups get big. Actually, what you're",
+        "start": 2315.44,
+        "duration": 4.08
+      },
+      {
+        "text": "seeing with Open AI, right? Nobody cared",
+        "start": 2317.52,
+        "duration": 4.319
+      },
+      {
+        "text": "when they weren't making money. Now that",
+        "start": 2319.52,
+        "duration": 3.76
+      },
+      {
+        "text": "they have money, everyone suddenly",
+        "start": 2321.839,
+        "duration": 4.561
+      },
+      {
+        "text": "cares, you know. Um, and that's just the",
+        "start": 2323.28,
+        "duration": 6.16
+      },
+      {
+        "text": "nature of startups, right? So,",
+        "start": 2326.4,
+        "duration": 6.08
+      },
+      {
+        "text": "um, and most of the time it's like, ah,",
+        "start": 2329.44,
+        "duration": 4.8
+      },
+      {
+        "text": "you know, you do you try something out,",
+        "start": 2332.48,
+        "duration": 4.56
+      },
+      {
+        "text": "it doesn't work out, you throw it away,",
+        "start": 2334.24,
+        "duration": 4.48
+      },
+      {
+        "text": "you try a different direction. So, a lot",
+        "start": 2337.04,
+        "duration": 4.4
+      },
+      {
+        "text": "of startup work is is uh things where",
+        "start": 2338.72,
+        "duration": 4.399
+      },
+      {
+        "text": "you're experimenting to figure out like",
+        "start": 2341.44,
+        "duration": 3.679
+      },
+      {
+        "text": "what makes sense for you, for your",
+        "start": 2343.119,
+        "duration": 4.561
+      },
+      {
+        "text": "company, for your your users and such.",
+        "start": 2345.119,
+        "duration": 4.72
+      },
+      {
+        "text": "So, you you cycle through a lot of ideas",
+        "start": 2347.68,
+        "duration": 5.52
+      },
+      {
+        "text": "real quick. Um, and that's sort of the",
+        "start": 2349.839,
+        "duration": 5.52
+      },
+      {
+        "text": "move fast and break things mentality is",
+        "start": 2353.2,
+        "duration": 4.32
+      },
+      {
+        "text": "like trying out different things. Not",
+        "start": 2355.359,
+        "duration": 4.561
+      },
+      {
+        "text": "necessarily like,",
+        "start": 2357.52,
+        "duration": 5.36
+      },
+      {
+        "text": "uh, I think the the statement move fast",
+        "start": 2359.92,
+        "duration": 5.12
+      },
+      {
+        "text": "and break things got a little bit used",
+        "start": 2362.88,
+        "duration": 4.08
+      },
+      {
+        "text": "as an excuse to be like, well, we got to",
+        "start": 2365.04,
+        "duration": 3.12
+      },
+      {
+        "text": "move fast, so we're going to hurt",
+        "start": 2366.96,
+        "duration": 3.119
+      },
+      {
+        "text": "people, you know? It's like, no, no, no.",
+        "start": 2368.16,
+        "duration": 5.199
+      },
+      {
+        "text": "Like like still be ethical. Come on. You",
+        "start": 2370.079,
+        "duration": 6.961
+      },
+      {
+        "text": "know. Um, but uh, you know, at least to",
+        "start": 2373.359,
+        "duration": 7.921
+      },
+      {
+        "text": "the best of your ability. Um, so",
+        "start": 2377.04,
+        "duration": 7.92
+      },
+      {
+        "text": "yeah. Yeah. I",
+        "start": 2381.28,
+        "duration": 6.48
+      },
+      {
+        "text": "Oh yeah. Silicon Valley. Yeah. Silicon",
+        "start": 2384.96,
+        "duration": 6.44
+      },
+      {
+        "text": "Valley was like",
+        "start": 2387.76,
+        "duration": 3.64
+      },
+      {
+        "text": "it's like some of it's too real. It's",
+        "start": 2391.839,
+        "duration": 6.921
+      },
+      {
+        "text": "it's too real. It's uh",
+        "start": 2394.16,
+        "duration": 4.6
+      },
+      {
+        "text": "like some of the dysfunction in it is",
+        "start": 2399.599,
+        "duration": 7.48
+      },
+      {
+        "text": "just very very relatable. Um,",
+        "start": 2401.44,
+        "duration": 5.639
+      },
+      {
+        "text": "yeah, I remember older than that was",
+        "start": 2408.079,
+        "duration": 4.481
+      },
+      {
+        "text": "Office Space. I remember Office Space",
+        "start": 2410.0,
+        "duration": 5.04
+      },
+      {
+        "text": "came out maybe when I was in college. I",
+        "start": 2412.56,
+        "duration": 3.92
+      },
+      {
+        "text": "saw it. I thought it was the funniest",
+        "start": 2415.04,
+        "duration": 4.24
+      },
+      {
+        "text": "thing in the world, you know, hilarious.",
+        "start": 2416.48,
+        "duration": 4.48
+      },
+      {
+        "text": "Me and my friends would like quote it to",
+        "start": 2419.28,
+        "duration": 4.24
+      },
+      {
+        "text": "each other. And then uh, you know, I",
+        "start": 2420.96,
+        "duration": 5.28
+      },
+      {
+        "text": "joined industry years later. Then I was",
+        "start": 2423.52,
+        "duration": 4.0
+      },
+      {
+        "text": "like, \"Oh, I haven't seen Office Space",
+        "start": 2426.24,
+        "duration": 3.2
+      },
+      {
+        "text": "in a while. Let me watch that.\" It was",
+        "start": 2427.52,
+        "duration": 3.599
+      },
+      {
+        "text": "like suddenly it was like too real. It",
+        "start": 2429.44,
+        "duration": 3.76
+      },
+      {
+        "text": "wasn't funny. It was like it was like oh",
+        "start": 2431.119,
+        "duration": 4.081
+      },
+      {
+        "text": "this is my this is what happens in my",
+        "start": 2433.2,
+        "duration": 4.56
+      },
+      {
+        "text": "daily life is people arguing about the",
+        "start": 2435.2,
+        "duration": 6.32
+      },
+      {
+        "text": "formatting of a document or like I'm",
+        "start": 2437.76,
+        "duration": 6.4
+      },
+      {
+        "text": "just like oh",
+        "start": 2441.52,
+        "duration": 4.8
+      },
+      {
+        "text": "so yeah Silicon Valley can do that for",
+        "start": 2444.16,
+        "duration": 3.679
+      },
+      {
+        "text": "some people some people have trouble",
+        "start": 2446.32,
+        "duration": 3.12
+      },
+      {
+        "text": "watching it because it's too close to",
+        "start": 2447.839,
+        "duration": 3.201
+      },
+      {
+        "text": "home",
+        "start": 2449.44,
+        "duration": 3.44
+      },
+      {
+        "text": "even though you know it's good satire",
+        "start": 2451.04,
+        "duration": 4.799
+      },
+      {
+        "text": "but sometimes it's like a little bit",
+        "start": 2452.88,
+        "duration": 6.76
+      },
+      {
+        "text": "a little bit close to home",
+        "start": 2455.839,
+        "duration": 3.801
+      },
+      {
+        "text": "you know I have not filled out my TPS",
+        "start": 2460.64,
+        "duration": 8.679
+      },
+      {
+        "text": "report this week. So, you know, uh",
+        "start": 2463.2,
+        "duration": 6.119
+      },
+      {
+        "text": "actually, no. Luckily, I haven't I",
+        "start": 2469.599,
+        "duration": 3.121
+      },
+      {
+        "text": "haven't had to deal with that in a long",
+        "start": 2471.28,
+        "duration": 4.44
+      },
+      {
+        "text": "time.",
+        "start": 2472.72,
+        "duration": 3.0
+      },
+      {
+        "text": "What other kinds of things are is on",
+        "start": 2489.92,
+        "duration": 5.24
+      },
+      {
+        "text": "everybody's mind?",
+        "start": 2491.68,
+        "duration": 3.48
+      },
+      {
+        "text": "Stick with AI. I'm debating on if it",
+        "start": 2496.0,
+        "duration": 4.8
+      },
+      {
+        "text": "because I've got Claude I think trying",
+        "start": 2498.16,
+        "duration": 4.88
+      },
+      {
+        "text": "to remember the difference. Pro is $20 a",
+        "start": 2500.8,
+        "duration": 6.16
+      },
+      {
+        "text": "month and max. So there's a hundred",
+        "start": 2503.04,
+        "duration": 6.799
+      },
+      {
+        "text": "there. They have $100 a month, $200 a",
+        "start": 2506.96,
+        "duration": 5.44
+      },
+      {
+        "text": "month, and $20 a month. I think I just",
+        "start": 2509.839,
+        "duration": 4.801
+      },
+      {
+        "text": "downgraded from the 100 to the 20. I",
+        "start": 2512.4,
+        "duration": 5.199
+      },
+      {
+        "text": "think I went from max to pro.",
+        "start": 2514.64,
+        "duration": 6.08
+      },
+      {
+        "text": "But what I noticed is doing a",
+        "start": 2517.599,
+        "duration": 6.081
+      },
+      {
+        "text": "So, if you don't have that, uh I think",
+        "start": 2520.72,
+        "duration": 6.32
+      },
+      {
+        "text": "Bob has it. So, you've not done any uh",
+        "start": 2523.68,
+        "duration": 6.08
+      },
+      {
+        "text": "cloud at the command line yet?",
+        "start": 2527.04,
+        "duration": 7.039
+      },
+      {
+        "text": "I haven't. Um I use um so I am using",
+        "start": 2529.76,
+        "duration": 6.96
+      },
+      {
+        "text": "claude but I'm using it through uh",
+        "start": 2534.079,
+        "duration": 5.201
+      },
+      {
+        "text": "co-pilot through GitHub copilot in",
+        "start": 2536.72,
+        "duration": 5.599
+      },
+      {
+        "text": "Visual Studio Code. Um",
+        "start": 2539.28,
+        "duration": 5.92
+      },
+      {
+        "text": "and",
+        "start": 2542.319,
+        "duration": 5.841
+      },
+      {
+        "text": "I actually don't entirely remember the",
+        "start": 2545.2,
+        "duration": 5.28
+      },
+      {
+        "text": "pricing on that, but let me see if I can",
+        "start": 2548.16,
+        "duration": 5.8
+      },
+      {
+        "text": "figure that one out.",
+        "start": 2550.48,
+        "duration": 3.48
+      },
+      {
+        "text": "So I might show it show you what I got",
+        "start": 2555.04,
+        "duration": 3.92
+      },
+      {
+        "text": "here on the screen.",
+        "start": 2556.56,
+        "duration": 4.0
+      },
+      {
+        "text": "Make it easier.",
+        "start": 2558.96,
+        "duration": 5.48
+      },
+      {
+        "text": "explain what I'm talking about.",
+        "start": 2560.56,
+        "duration": 3.88
+      },
+      {
+        "text": "[Music]",
+        "start": 2572.34,
+        "duration": 3.349
+      },
+      {
+        "text": "Old man are open a terminal.",
+        "start": 2579.599,
+        "duration": 4.441
+      },
+      {
+        "text": "Was",
+        "start": 2586.88,
+        "duration": 3.0
+      },
+      {
+        "text": "that sharing my screen?",
+        "start": 2598.24,
+        "duration": 2.8
+      },
+      {
+        "text": "Mhm. Yep.",
+        "start": 2599.68,
+        "duration": 5.2
+      },
+      {
+        "text": "Right. So, just go claude",
+        "start": 2601.04,
+        "duration": 5.76
+      },
+      {
+        "text": "code.",
+        "start": 2604.88,
+        "duration": 4.719
+      },
+      {
+        "text": "I'm in there.",
+        "start": 2606.8,
+        "duration": 5.12
+      },
+      {
+        "text": "So, I'm actually in the repo. So, it's",
+        "start": 2609.599,
+        "duration": 4.48
+      },
+      {
+        "text": "really it's context. The whole fact that",
+        "start": 2611.92,
+        "duration": 3.76
+      },
+      {
+        "text": "I'm directly in the repo is what makes",
+        "start": 2614.079,
+        "duration": 4.081
+      },
+      {
+        "text": "it convenient for me. So I think what I",
+        "start": 2615.68,
+        "duration": 6.6
+      },
+      {
+        "text": "want is forward slashmodels.",
+        "start": 2618.16,
+        "duration": 4.12
+      },
+      {
+        "text": "So yeah, it's on sonnet 4.",
+        "start": 2623.52,
+        "duration": 3.2
+      },
+      {
+        "text": "Yep.",
+        "start": 2626.0,
+        "duration": 4.16
+      },
+      {
+        "text": "But if I want to go back to",
+        "start": 2626.72,
+        "duration": 6.639
+      },
+      {
+        "text": "I guess 417 now to upgrade to that, I've",
+        "start": 2630.16,
+        "duration": 4.959
+      },
+      {
+        "text": "got to go back to max, which is the $100",
+        "start": 2633.359,
+        "duration": 3.521
+      },
+      {
+        "text": "a month, I believe.",
+        "start": 2635.119,
+        "duration": 6.321
+      },
+      {
+        "text": "Oh, I see. Yeah. Yeah. But I mean, I'm",
+        "start": 2636.88,
+        "duration": 5.76
+      },
+      {
+        "text": "really I'm really thinking the",
+        "start": 2641.44,
+        "duration": 4.24
+      },
+      {
+        "text": "difference between Sonnet and Max 41,",
+        "start": 2642.64,
+        "duration": 6.24
+      },
+      {
+        "text": "depending on what you're working on,",
+        "start": 2645.68,
+        "duration": 5.439
+      },
+      {
+        "text": "for what I'm working on, $100 a month,",
+        "start": 2648.88,
+        "duration": 4.239
+      },
+      {
+        "text": "might really be worth it in a lot of",
+        "start": 2651.119,
+        "duration": 3.681
+      },
+      {
+        "text": "cases.",
+        "start": 2653.119,
+        "duration": 2.881
+      },
+      {
+        "text": "you know, if I was going to pay like an",
+        "start": 2654.8,
+        "duration": 3.44
+      },
+      {
+        "text": "intern to help me out or just pay my own",
+        "start": 2656.0,
+        "duration": 3.68
+      },
+      {
+        "text": "self the amount of time it would take me",
+        "start": 2658.24,
+        "duration": 3.44
+      },
+      {
+        "text": "to type out those SVGs kind of thing or",
+        "start": 2659.68,
+        "duration": 3.52
+      },
+      {
+        "text": "go back and edit them,",
+        "start": 2661.68,
+        "duration": 2.96
+      },
+      {
+        "text": "you know, if I can hand that off to",
+        "start": 2663.2,
+        "duration": 3.68
+      },
+      {
+        "text": "something that's",
+        "start": 2664.64,
+        "duration": 4.64
+      },
+      {
+        "text": "can do that consistently for that price",
+        "start": 2666.88,
+        "duration": 4.56
+      },
+      {
+        "text": "range, it's almost worth if I'm already",
+        "start": 2669.28,
+        "duration": 3.76
+      },
+      {
+        "text": "paying 20 a month, it's almost worth the",
+        "start": 2671.44,
+        "duration": 3.28
+      },
+      {
+        "text": "$80 a month difference.",
+        "start": 2673.04,
+        "duration": 4.96
+      },
+      {
+        "text": "Yeah. Yeah. Yeah. I I'm coming around to",
+        "start": 2674.72,
+        "duration": 5.44
+      },
+      {
+        "text": "that. I haven't I haven't paid for any",
+        "start": 2678.0,
+        "duration": 5.2
+      },
+      {
+        "text": "of the, you know, that tier yet. But,",
+        "start": 2680.16,
+        "duration": 5.36
+      },
+      {
+        "text": "uh, you know, as I'm relying on it more",
+        "start": 2683.2,
+        "duration": 5.28
+      },
+      {
+        "text": "and more, I'm warming up to that.",
+        "start": 2685.52,
+        "duration": 7.28
+      },
+      {
+        "text": "Um, I think the the only thing that that",
+        "start": 2688.48,
+        "duration": 7.839
+      },
+      {
+        "text": "I find kind of a challenge is, uh,",
+        "start": 2692.8,
+        "duration": 5.2
+      },
+      {
+        "text": "you know, sometimes I'll I'll sign up",
+        "start": 2696.319,
+        "duration": 4.8
+      },
+      {
+        "text": "for a subscription and then I'll like",
+        "start": 2698.0,
+        "duration": 5.2
+      },
+      {
+        "text": "not use it one month at all or like",
+        "start": 2701.119,
+        "duration": 3.761
+      },
+      {
+        "text": "forget about it. So then it's kind of",
+        "start": 2703.2,
+        "duration": 3.919
+      },
+      {
+        "text": "that feels bad.",
+        "start": 2704.88,
+        "duration": 3.52
+      },
+      {
+        "text": "Yeah. And I'm going through that too",
+        "start": 2707.119,
+        "duration": 4.24
+      },
+      {
+        "text": "because I I just had it for two months",
+        "start": 2708.4,
+        "duration": 4.719
+      },
+      {
+        "text": "and totally didn't use it. I've hardly",
+        "start": 2711.359,
+        "duration": 3.76
+      },
+      {
+        "text": "coded anything for I kind of like took a",
+        "start": 2713.119,
+        "duration": 3.921
+      },
+      {
+        "text": "mental health break for the last I got",
+        "start": 2715.119,
+        "duration": 3.761
+      },
+      {
+        "text": "burnt on that last job and just kind of",
+        "start": 2717.04,
+        "duration": 3.84
+      },
+      {
+        "text": "got burned out and spent more time",
+        "start": 2718.88,
+        "duration": 3.6
+      },
+      {
+        "text": "cleaning up my like I said I worked on",
+        "start": 2720.88,
+        "duration": 4.16
+      },
+      {
+        "text": "the funu of the office and funue of the",
+        "start": 2722.48,
+        "duration": 5.2
+      },
+      {
+        "text": "garage, but I didn't really use it $100",
+        "start": 2725.04,
+        "duration": 5.12
+      },
+      {
+        "text": "a month worth. So I should have paused",
+        "start": 2727.68,
+        "duration": 4.96
+      },
+      {
+        "text": "it for those two months and didn't. And",
+        "start": 2730.16,
+        "duration": 4.56
+      },
+      {
+        "text": "now that it's down to the the lower one,",
+        "start": 2732.64,
+        "duration": 3.84
+      },
+      {
+        "text": "I'm like, \"Oh, let me go go do some",
+        "start": 2734.72,
+        "duration": 3.52
+      },
+      {
+        "text": "code.\" like, \"Oh, uh, wish I'd done this",
+        "start": 2736.48,
+        "duration": 3.92
+      },
+      {
+        "text": "last week when I had a lot better tools",
+        "start": 2738.24,
+        "duration": 3.52
+      },
+      {
+        "text": "to work with.\"",
+        "start": 2740.4,
+        "duration": 3.679
+      },
+      {
+        "text": "Very, very relatable.",
+        "start": 2741.76,
+        "duration": 3.2
+      },
+      {
+        "text": "What's that?",
+        "start": 2744.079,
+        "duration": 2.481
+      },
+      {
+        "text": "That's very relatable. That happens to",
+        "start": 2744.96,
+        "duration": 4.48
+      },
+      {
+        "text": "me a lot.",
+        "start": 2746.56,
+        "duration": 5.6
+      },
+      {
+        "text": "Um, so yeah, Bob's got me inspired to",
+        "start": 2749.44,
+        "duration": 5.04
+      },
+      {
+        "text": "look into I mean I was already wanting",
+        "start": 2752.16,
+        "duration": 5.52
+      },
+      {
+        "text": "to look into these MCP servers,",
+        "start": 2754.48,
+        "duration": 5.2
+      },
+      {
+        "text": "but uh that last job I was on, what I",
+        "start": 2757.68,
+        "duration": 5.6
+      },
+      {
+        "text": "pretty much set up was uh",
+        "start": 2759.68,
+        "duration": 7.04
+      },
+      {
+        "text": "the AI was going through an SSH shell.",
+        "start": 2763.28,
+        "duration": 6.24
+      },
+      {
+        "text": "So I basically hacked an MCP server",
+        "start": 2766.72,
+        "duration": 5.2
+      },
+      {
+        "text": "without having an MPC server yet. I was",
+        "start": 2769.52,
+        "duration": 5.12
+      },
+      {
+        "text": "going to an SSH shell to give Docker",
+        "start": 2771.92,
+        "duration": 8.32
+      },
+      {
+        "text": "commands to run WordPress in containers",
+        "start": 2774.64,
+        "duration": 7.52
+      },
+      {
+        "text": "and I was doing all that without MCP and",
+        "start": 2780.24,
+        "duration": 4.16
+      },
+      {
+        "text": "I think that would help you know like",
+        "start": 2782.16,
+        "duration": 4.0
+      },
+      {
+        "text": "the security layer and a lot of the",
+        "start": 2784.4,
+        "duration": 5.679
+      },
+      {
+        "text": "automation layer on there.",
+        "start": 2786.16,
+        "duration": 7.6
+      },
+      {
+        "text": "Yeah, I think if you're like if the if",
+        "start": 2790.079,
+        "duration": 6.561
+      },
+      {
+        "text": "you have full control over the AI, like",
+        "start": 2793.76,
+        "duration": 5.04
+      },
+      {
+        "text": "if it wasn't like the clawed code",
+        "start": 2796.64,
+        "duration": 6.56
+      },
+      {
+        "text": "command, but like your command, then I",
+        "start": 2798.8,
+        "duration": 5.92
+      },
+      {
+        "text": "think a lot of the way to go is to use",
+        "start": 2803.2,
+        "duration": 3.119
+      },
+      {
+        "text": "tool calling because then you have full",
+        "start": 2804.72,
+        "duration": 4.16
+      },
+      {
+        "text": "control. MCP is more like an add-on",
+        "start": 2806.319,
+        "duration": 4.161
+      },
+      {
+        "text": "system. So if you want to hook stuff",
+        "start": 2808.88,
+        "duration": 3.52
+      },
+      {
+        "text": "into theirs",
+        "start": 2810.48,
+        "duration": 4.639
+      },
+      {
+        "text": "um which like you know like cloud code",
+        "start": 2812.4,
+        "duration": 4.4
+      },
+      {
+        "text": "is getting really good like all of these",
+        "start": 2815.119,
+        "duration": 3.921
+      },
+      {
+        "text": "different systems are getting really",
+        "start": 2816.8,
+        "duration": 4.4
+      },
+      {
+        "text": "good. So I think MCP is going to be",
+        "start": 2819.04,
+        "duration": 3.68
+      },
+      {
+        "text": "really",
+        "start": 2821.2,
+        "duration": 4.159
+      },
+      {
+        "text": "um you know over time like a really good",
+        "start": 2822.72,
+        "duration": 5.28
+      },
+      {
+        "text": "way to inject additional capabilities",
+        "start": 2825.359,
+        "duration": 5.441
+      },
+      {
+        "text": "into these things. Uh",
+        "start": 2828.0,
+        "duration": 5.2
+      },
+      {
+        "text": "well I think for for a crop of us that",
+        "start": 2830.8,
+        "duration": 5.12
+      },
+      {
+        "text": "are looking for you know work or income",
+        "start": 2833.2,
+        "duration": 4.72
+      },
+      {
+        "text": "you know MCP feels like it's a new",
+        "start": 2835.92,
+        "duration": 3.679
+      },
+      {
+        "text": "protocol. It's been around less than a",
+        "start": 2837.92,
+        "duration": 3.919
+      },
+      {
+        "text": "year and it feels like the glue that's",
+        "start": 2839.599,
+        "duration": 4.641
+      },
+      {
+        "text": "about to tie everything together.",
+        "start": 2841.839,
+        "duration": 3.601
+      },
+      {
+        "text": "[Music]",
+        "start": 2844.24,
+        "duration": 3.92
+      },
+      {
+        "text": "Am I over hyping that?",
+        "start": 2845.44,
+        "duration": 5.52
+      },
+      {
+        "text": "I a little bit. I think",
+        "start": 2848.16,
+        "duration": 5.679
+      },
+      {
+        "text": "MCP, you know, the the like hype curve",
+        "start": 2850.96,
+        "duration": 5.04
+      },
+      {
+        "text": "or whatever. MCP is at like the peak",
+        "start": 2853.839,
+        "duration": 7.121
+      },
+      {
+        "text": "hype stage in the hype curve and then,",
+        "start": 2856.0,
+        "duration": 6.319
+      },
+      {
+        "text": "you know, probably in the next six",
+        "start": 2860.96,
+        "duration": 2.879
+      },
+      {
+        "text": "months we'll hit the trough of",
+        "start": 2862.319,
+        "duration": 4.161
+      },
+      {
+        "text": "disillusionment. you know this graphic",
+        "start": 2863.839,
+        "duration": 4.561
+      },
+      {
+        "text": "and then maybe in another few months",
+        "start": 2866.48,
+        "duration": 4.56
+      },
+      {
+        "text": "then we'll hit the uh what do they call",
+        "start": 2868.4,
+        "duration": 5.84
+      },
+      {
+        "text": "it like enlightenment or productivity on",
+        "start": 2871.04,
+        "duration": 5.6
+      },
+      {
+        "text": "the other side. So I think we we haven't",
+        "start": 2874.24,
+        "duration": 3.68
+      },
+      {
+        "text": "quite gotten through the hype curve on",
+        "start": 2876.64,
+        "duration": 4.64
+      },
+      {
+        "text": "MCP yet. Um there are some cases where",
+        "start": 2877.92,
+        "duration": 6.159
+      },
+      {
+        "text": "it's enabled productivity but what I'm",
+        "start": 2881.28,
+        "duration": 8.079
+      },
+      {
+        "text": "hearing from folks is that a lot of",
+        "start": 2884.079,
+        "duration": 7.361
+      },
+      {
+        "text": "uh like a lot of corporate folks won't",
+        "start": 2889.359,
+        "duration": 4.161
+      },
+      {
+        "text": "touch it because of just the security",
+        "start": 2891.44,
+        "duration": 3.6
+      },
+      {
+        "text": "challenges",
+        "start": 2893.52,
+        "duration": 3.52
+      },
+      {
+        "text": "like the nothing is worth a security",
+        "start": 2895.04,
+        "duration": 3.44
+      },
+      {
+        "text": "breach you know",
+        "start": 2897.04,
+        "duration": 5.2
+      },
+      {
+        "text": "right and so I actually thought it was",
+        "start": 2898.48,
+        "duration": 5.68
+      },
+      {
+        "text": "solving some security issues but you",
+        "start": 2902.24,
+        "duration": 3.44
+      },
+      {
+        "text": "think it's going the other direction",
+        "start": 2904.16,
+        "duration": 3.439
+      },
+      {
+        "text": "it's opening more than it's closing",
+        "start": 2905.68,
+        "duration": 4.72
+      },
+      {
+        "text": "it's a little bit of both I",
+        "start": 2907.599,
+        "duration": 4.72
+      },
+      {
+        "text": "maybe shifts where they're at.",
+        "start": 2910.4,
+        "duration": 3.36
+      },
+      {
+        "text": "A little bit of both. I mean, you know,",
+        "start": 2912.319,
+        "duration": 3.121
+      },
+      {
+        "text": "it'll get there. It'll get there. I just",
+        "start": 2913.76,
+        "duration": 3.839
+      },
+      {
+        "text": "think it's it's at kind of that early",
+        "start": 2915.44,
+        "duration": 4.32
+      },
+      {
+        "text": "stage and people are really excited for",
+        "start": 2917.599,
+        "duration": 6.48
+      },
+      {
+        "text": "it. Um I think once it once they figure",
+        "start": 2919.76,
+        "duration": 5.92
+      },
+      {
+        "text": "out like if there's another version of",
+        "start": 2924.079,
+        "duration": 3.681
+      },
+      {
+        "text": "it or enough of a modification of it",
+        "start": 2925.68,
+        "duration": 4.159
+      },
+      {
+        "text": "that really like gets the security piece",
+        "start": 2927.76,
+        "duration": 5.599
+      },
+      {
+        "text": "really good. Um, and maybe that's",
+        "start": 2929.839,
+        "duration": 6.641
+      },
+      {
+        "text": "already in the works, but um, I think",
+        "start": 2933.359,
+        "duration": 5.041
+      },
+      {
+        "text": "that that'll really unlock a lot of",
+        "start": 2936.48,
+        "duration": 4.639
+      },
+      {
+        "text": "stuff.",
+        "start": 2938.4,
+        "duration": 4.08
+      },
+      {
+        "text": "A lot of these commands I'm seeing for",
+        "start": 2941.119,
+        "duration": 3.2
+      },
+      {
+        "text": "the first time that security review",
+        "start": 2942.48,
+        "duration": 3.52
+      },
+      {
+        "text": "there seems very timely because we were",
+        "start": 2944.319,
+        "duration": 3.28
+      },
+      {
+        "text": "just talking about",
+        "start": 2946.0,
+        "duration": 3.44
+      },
+      {
+        "text": "open security issues. So, it actually",
+        "start": 2947.599,
+        "duration": 3.52
+      },
+      {
+        "text": "has security review complete the",
+        "start": 2949.44,
+        "duration": 3.76
+      },
+      {
+        "text": "security review of the pending branch",
+        "start": 2951.119,
+        "duration": 4.161
+      },
+      {
+        "text": "changes on the current branch.",
+        "start": 2953.2,
+        "duration": 6.44
+      },
+      {
+        "text": "That could be kind of neat. Um,",
+        "start": 2955.28,
+        "duration": 4.36
+      },
+      {
+        "text": "yeah, I actually haven't had much luck",
+        "start": 2961.92,
+        "duration": 4.88
+      },
+      {
+        "text": "with uh",
+        "start": 2964.4,
+        "duration": 6.08
+      },
+      {
+        "text": "LLMs for security reviews yet, but I",
+        "start": 2966.8,
+        "duration": 6.559
+      },
+      {
+        "text": "mean it's better than like dependabot",
+        "start": 2970.48,
+        "duration": 4.639
+      },
+      {
+        "text": "and all those like spammy warnings you",
+        "start": 2973.359,
+        "duration": 7.801
+      },
+      {
+        "text": "get, but still got a ways to go.",
+        "start": 2975.119,
+        "duration": 6.041
+      },
+      {
+        "text": "I'll give up the mic. That's kind of",
+        "start": 2982.0,
+        "duration": 5.52
+      },
+      {
+        "text": "where I'm at for the week.",
+        "start": 2983.76,
+        "duration": 3.76
+      },
+      {
+        "text": "Right on. Right on. Well, I mean, you",
+        "start": 2987.68,
+        "duration": 3.679
+      },
+      {
+        "text": "know, we only got a few few minutes left",
+        "start": 2989.52,
+        "duration": 4.48
+      },
+      {
+        "text": "anyway, but uh",
+        "start": 2991.359,
+        "duration": 3.76
+      },
+      {
+        "text": "that's why I didn't want to hog the",
+        "start": 2994.0,
+        "duration": 2.0
+      },
+      {
+        "text": "whole time.",
+        "start": 2995.119,
+        "duration": 2.321
+      },
+      {
+        "text": "Yeah. Yeah. I mean, you know, it's",
+        "start": 2996.0,
+        "duration": 5.24
+      },
+      {
+        "text": "Friday. It's uh",
+        "start": 2997.44,
+        "duration": 3.8
+      },
+      {
+        "text": "Oh, go ahead, Adam.",
+        "start": 3001.44,
+        "duration": 2.879
+      },
+      {
+        "text": "Oh, no. I was just going to say security",
+        "start": 3002.72,
+        "duration": 3.839
+      },
+      {
+        "text": "is a good good topic. I mean, there's",
+        "start": 3004.319,
+        "duration": 3.76
+      },
+      {
+        "text": "because there's all kinds of stuff.",
+        "start": 3006.559,
+        "duration": 3.841
+      },
+      {
+        "text": "There's um I I know I saw something in",
+        "start": 3008.079,
+        "duration": 5.441
+      },
+      {
+        "text": "the past week uh in my feed about it. I",
+        "start": 3010.4,
+        "duration": 6.56
+      },
+      {
+        "text": "don't remember exactly what it was, but",
+        "start": 3013.52,
+        "duration": 6.0
+      },
+      {
+        "text": "uh even just you know googling it, you",
+        "start": 3016.96,
+        "duration": 7.04
+      },
+      {
+        "text": "know, you get a top 10 MCP uh security",
+        "start": 3019.52,
+        "duration": 8.88
+      },
+      {
+        "text": "risks from uh tool poisoning, prompt",
+        "start": 3024.0,
+        "duration": 6.8
+      },
+      {
+        "text": "injection, privilege abuse, tool",
+        "start": 3028.4,
+        "duration": 4.24
+      },
+      {
+        "text": "shadowing,",
+        "start": 3030.8,
+        "duration": 4.4
+      },
+      {
+        "text": "uh indirect prompt injection, sensitive",
+        "start": 3032.64,
+        "duration": 5.76
+      },
+      {
+        "text": "data exposure, and token theft.",
+        "start": 3035.2,
+        "duration": 3.84
+      },
+      {
+        "text": "Yeah.",
+        "start": 3038.4,
+        "duration": 3.679
+      },
+      {
+        "text": "Yeah. All all kinds of stuff. So yeah, I",
+        "start": 3039.04,
+        "duration": 7.44
+      },
+      {
+        "text": "mean, and then just Gemini has a a",
+        "start": 3042.079,
+        "duration": 8.401
+      },
+      {
+        "text": "similar uh laundry list of it.",
+        "start": 3046.48,
+        "duration": 9.28
+      },
+      {
+        "text": "So yeah, there's there's definitely uh",
+        "start": 3050.48,
+        "duration": 8.32
+      },
+      {
+        "text": "the AI is a mixed bag. There's a lot of",
+        "start": 3055.76,
+        "duration": 5.76
+      },
+      {
+        "text": "uh",
+        "start": 3058.8,
+        "duration": 4.72
+      },
+      {
+        "text": "well, there's there's that apocryphal",
+        "start": 3061.52,
+        "duration": 4.079
+      },
+      {
+        "text": "thing like ear early on there was that",
+        "start": 3063.52,
+        "duration": 4.799
+      },
+      {
+        "text": "that vibe coding uh excuse me, vibe",
+        "start": 3065.599,
+        "duration": 5.201
+      },
+      {
+        "text": "coding um post",
+        "start": 3068.319,
+        "duration": 5.121
+      },
+      {
+        "text": "where the guy was like, \"Here, I can,",
+        "start": 3070.8,
+        "duration": 5.12
+      },
+      {
+        "text": "you know, I can go I I can code this in",
+        "start": 3073.44,
+        "duration": 5.44
+      },
+      {
+        "text": "in in like just a few minutes.\" And then",
+        "start": 3075.92,
+        "duration": 4.72
+      },
+      {
+        "text": "he's like all of a sudden on, you know,",
+        "start": 3078.88,
+        "duration": 4.959
+      },
+      {
+        "text": "on Twitter, he's like, \"Wait, you know,",
+        "start": 3080.64,
+        "duration": 5.36
+      },
+      {
+        "text": "what's happening to my repo? Why why is",
+        "start": 3083.839,
+        "duration": 4.401
+      },
+      {
+        "text": "this happening? Why is that happening?\"",
+        "start": 3086.0,
+        "duration": 6.16
+      },
+      {
+        "text": "And it's like, uh, dude,",
+        "start": 3088.24,
+        "duration": 7.52
+      },
+      {
+        "text": "you just went public with this",
+        "start": 3092.16,
+        "duration": 7.04
+      },
+      {
+        "text": "code that you just did in a minute that,",
+        "start": 3095.76,
+        "duration": 5.28
+      },
+      {
+        "text": "and that's the whole thing about five",
+        "start": 3099.2,
+        "duration": 3.919
+      },
+      {
+        "text": "coding is if you don't understand what",
+        "start": 3101.04,
+        "duration": 4.48
+      },
+      {
+        "text": "it just spat out,",
+        "start": 3103.119,
+        "duration": 4.881
+      },
+      {
+        "text": "you shouldn't be putting it public",
+        "start": 3105.52,
+        "duration": 4.16
+      },
+      {
+        "text": "facing.",
+        "start": 3108.0,
+        "duration": 4.079
+      },
+      {
+        "text": "Yeah. Yeah. I mean, I guess I would say",
+        "start": 3109.68,
+        "duration": 5.6
+      },
+      {
+        "text": "that that's a lot of like",
+        "start": 3112.079,
+        "duration": 4.881
+      },
+      {
+        "text": "that's another area where I kind of like",
+        "start": 3115.28,
+        "duration": 4.64
+      },
+      {
+        "text": "the management analogy like,",
+        "start": 3116.96,
+        "duration": 5.28
+      },
+      {
+        "text": "you know, to to manage a team well, you",
+        "start": 3119.92,
+        "duration": 4.48
+      },
+      {
+        "text": "got to have some basic understanding of",
+        "start": 3122.24,
+        "duration": 4.24
+      },
+      {
+        "text": "what the team does,",
+        "start": 3124.4,
+        "duration": 3.199
+      },
+      {
+        "text": "you know.",
+        "start": 3126.48,
+        "duration": 2.079
+      },
+      {
+        "text": "Yeah.",
+        "start": 3127.599,
+        "duration": 4.0
+      },
+      {
+        "text": "Uh similar with vibe coding, you gota",
+        "start": 3128.559,
+        "duration": 4.56
+      },
+      {
+        "text": "have, you know, at least some some",
+        "start": 3131.599,
+        "duration": 2.801
+      },
+      {
+        "text": "understanding. You don't necessarily",
+        "start": 3133.119,
+        "duration": 4.561
+      },
+      {
+        "text": "need to know every single detail but uh",
+        "start": 3134.4,
+        "duration": 5.28
+      },
+      {
+        "text": "you should at least you know generally",
+        "start": 3137.68,
+        "duration": 3.28
+      },
+      {
+        "text": "know stuff.",
+        "start": 3139.68,
+        "duration": 3.76
+      },
+      {
+        "text": "Yeah",
+        "start": 3140.96,
+        "duration": 5.599
+      },
+      {
+        "text": "buzz word that comes after vibe coding",
+        "start": 3143.44,
+        "duration": 4.96
+      },
+      {
+        "text": "where it's",
+        "start": 3146.559,
+        "duration": 4.56
+      },
+      {
+        "text": "you do let the AI work but then you know",
+        "start": 3148.4,
+        "duration": 6.32
+      },
+      {
+        "text": "you got to test it proofread it debug",
+        "start": 3151.119,
+        "duration": 4.561
+      },
+      {
+        "text": "it.",
+        "start": 3154.72,
+        "duration": 3.68
+      },
+      {
+        "text": "Yeah. So that not necessarily vibing but",
+        "start": 3155.68,
+        "duration": 6.32
+      },
+      {
+        "text": "something balanced surf coding or I",
+        "start": 3158.4,
+        "duration": 5.84
+      },
+      {
+        "text": "don't know it needs a good buzz word to",
+        "start": 3162.0,
+        "duration": 3.839
+      },
+      {
+        "text": "make it catch on but there's there's",
+        "start": 3164.24,
+        "duration": 2.96
+      },
+      {
+        "text": "something that comes after that where",
+        "start": 3165.839,
+        "duration": 3.52
+      },
+      {
+        "text": "you don't just accept all",
+        "start": 3167.2,
+        "duration": 6.399
+      },
+      {
+        "text": "yeah and to be fair I think the analogy",
+        "start": 3169.359,
+        "duration": 6.881
+      },
+      {
+        "text": "went kind of too far right like",
+        "start": 3173.599,
+        "duration": 4.48
+      },
+      {
+        "text": "Carpathy his thing was just like you",
+        "start": 3176.24,
+        "duration": 4.0
+      },
+      {
+        "text": "know it's kind of nice once in a while",
+        "start": 3178.079,
+        "duration": 4.561
+      },
+      {
+        "text": "to just like not think about it and just",
+        "start": 3180.24,
+        "duration": 5.76
+      },
+      {
+        "text": "like say fix this or you know kind of to",
+        "start": 3182.64,
+        "duration": 5.199
+      },
+      {
+        "text": "to check out a little bit mentally,",
+        "start": 3186.0,
+        "duration": 3.76
+      },
+      {
+        "text": "right? And I'm like, you know what?",
+        "start": 3187.839,
+        "duration": 3.76
+      },
+      {
+        "text": "Okay, right on. Like doing that once in",
+        "start": 3189.76,
+        "duration": 4.799
+      },
+      {
+        "text": "a while. Sure. But then,",
+        "start": 3191.599,
+        "duration": 4.401
+      },
+      {
+        "text": "you know, you don't want that to be the",
+        "start": 3194.559,
+        "duration": 3.201
+      },
+      {
+        "text": "way you operate all the time, right? You",
+        "start": 3196.0,
+        "duration": 3.359
+      },
+      {
+        "text": "want to be thoughtful most of the time.",
+        "start": 3197.76,
+        "duration": 3.52
+      },
+      {
+        "text": "And then sometimes you want to just say,",
+        "start": 3199.359,
+        "duration": 3.841
+      },
+      {
+        "text": "\"Ah, whatever. Let's accept all and see",
+        "start": 3201.28,
+        "duration": 6.96
+      },
+      {
+        "text": "what happens.\" But not all the time.",
+        "start": 3203.2,
+        "duration": 6.48
+      },
+      {
+        "text": "Yeah. There's there's a big difference",
+        "start": 3208.24,
+        "duration": 4.24
+      },
+      {
+        "text": "between his I I label his vibe coding",
+        "start": 3209.68,
+        "duration": 5.04
+      },
+      {
+        "text": "1.0 I know because if you look at his",
+        "start": 3212.48,
+        "duration": 3.599
+      },
+      {
+        "text": "tweet",
+        "start": 3214.72,
+        "duration": 3.68
+      },
+      {
+        "text": "from February,",
+        "start": 3216.079,
+        "duration": 4.24
+      },
+      {
+        "text": "I mean he outlines it and basically",
+        "start": 3218.4,
+        "duration": 4.32
+      },
+      {
+        "text": "says, okay, at this at the very end, I",
+        "start": 3220.319,
+        "duration": 4.961
+      },
+      {
+        "text": "mean, he he even says explicitly, this",
+        "start": 3222.72,
+        "duration": 6.16
+      },
+      {
+        "text": "isn't real coding and um this is this",
+        "start": 3225.28,
+        "duration": 5.839
+      },
+      {
+        "text": "isn't for production.",
+        "start": 3228.88,
+        "duration": 4.719
+      },
+      {
+        "text": "And then you have vibe coding, what I",
+        "start": 3231.119,
+        "duration": 5.681
+      },
+      {
+        "text": "call 3.0 because it even went so fast it",
+        "start": 3233.599,
+        "duration": 5.281
+      },
+      {
+        "text": "skipped 2.0.",
+        "start": 3236.8,
+        "duration": 4.559
+      },
+      {
+        "text": "And that's where everybody's putting, oh",
+        "start": 3238.88,
+        "duration": 5.28
+      },
+      {
+        "text": "yeah, we, you know, it's like like they",
+        "start": 3241.359,
+        "duration": 6.161
+      },
+      {
+        "text": "they took the they like vibing and they",
+        "start": 3244.16,
+        "duration": 5.04
+      },
+      {
+        "text": "they're like, \"Oh, yeah. I listen to",
+        "start": 3247.52,
+        "duration": 4.4
+      },
+      {
+        "text": "music and I vibe and I do stuff.\" And",
+        "start": 3249.2,
+        "duration": 4.72
+      },
+      {
+        "text": "then and then the other they're like,",
+        "start": 3251.92,
+        "duration": 4.32
+      },
+      {
+        "text": "\"Oh, but I want to do coding.\" So, you",
+        "start": 3253.92,
+        "duration": 3.919
+      },
+      {
+        "text": "know, they put those two together and",
+        "start": 3256.24,
+        "duration": 3.599
+      },
+      {
+        "text": "think, \"Okay, that's vibe coding and",
+        "start": 3257.839,
+        "duration": 4.801
+      },
+      {
+        "text": "that's what vibe coding 3.0 is.\" It's",
+        "start": 3259.839,
+        "duration": 3.841
+      },
+      {
+        "text": "like,",
+        "start": 3262.64,
+        "duration": 5.52
+      },
+      {
+        "text": "yeah. Yeah. I mean to be fair I",
+        "start": 3263.68,
+        "duration": 6.159
+      },
+      {
+        "text": "you know when we when we talk about it",
+        "start": 3268.16,
+        "duration": 3.6
+      },
+      {
+        "text": "like that it does remind me that I",
+        "start": 3269.839,
+        "duration": 4.081
+      },
+      {
+        "text": "really do appreciate that it's unlocked",
+        "start": 3271.76,
+        "duration": 4.48
+      },
+      {
+        "text": "a whole wave of like programming related",
+        "start": 3273.92,
+        "duration": 3.84
+      },
+      {
+        "text": "comedy.",
+        "start": 3276.24,
+        "duration": 2.079
+      },
+      {
+        "text": "Yeah.",
+        "start": 3277.76,
+        "duration": 2.96
+      },
+      {
+        "text": "There's like a there's a lot of good",
+        "start": 3278.319,
+        "duration": 4.401
+      },
+      {
+        "text": "good programming comedy out there",
+        "start": 3280.72,
+        "duration": 6.96
+      },
+      {
+        "text": "nowadays relating to vibe coding. Um,",
+        "start": 3282.72,
+        "duration": 8.96
+      },
+      {
+        "text": "yeah. I per personally I'm anti vibe",
+        "start": 3287.68,
+        "duration": 6.879
+      },
+      {
+        "text": "coder, but I you know I I understand",
+        "start": 3291.68,
+        "duration": 3.28
+      },
+      {
+        "text": "people",
+        "start": 3294.559,
+        "duration": 3.121
+      },
+      {
+        "text": "I think there's a time and a place. Um",
+        "start": 3294.96,
+        "duration": 4.96
+      },
+      {
+        "text": "oh what",
+        "start": 3297.68,
+        "duration": 6.159
+      },
+      {
+        "text": "I'm I'm all for android Carpat's vibe",
+        "start": 3299.92,
+        "duration": 6.72
+      },
+      {
+        "text": "coding in in that.",
+        "start": 3303.839,
+        "duration": 5.121
+      },
+      {
+        "text": "Oh yeah. Not the the regular",
+        "start": 3306.64,
+        "duration": 5.04
+      },
+      {
+        "text": "not not like here I'm I'm just gonna",
+        "start": 3308.96,
+        "duration": 4.56
+      },
+      {
+        "text": "vibe something and put it in right in",
+        "start": 3311.68,
+        "duration": 7.2
+      },
+      {
+        "text": "production and y it's done.",
+        "start": 3313.52,
+        "duration": 8.36
+      },
+      {
+        "text": "I",
+        "start": 3318.88,
+        "duration": 3.0
+      },
+      {
+        "text": "found I found some index cards I've been",
+        "start": 3323.68,
+        "duration": 4.399
+      },
+      {
+        "text": "looking for all afternoon.",
+        "start": 3325.599,
+        "duration": 6.801
+      },
+      {
+        "text": "So maybe I can maybe I can do some paper",
+        "start": 3328.079,
+        "duration": 7.201
+      },
+      {
+        "text": "uh prototypes of those cards now. So, I",
+        "start": 3332.4,
+        "duration": 5.439
+      },
+      {
+        "text": "got them marked up in the SVGs. Try and",
+        "start": 3335.28,
+        "duration": 4.4
+      },
+      {
+        "text": "get the info I don't want back on these",
+        "start": 3337.839,
+        "duration": 4.561
+      },
+      {
+        "text": "for studying. It's just the process of",
+        "start": 3339.68,
+        "duration": 4.159
+      },
+      {
+        "text": "writing them in pencil. I think would",
+        "start": 3342.4,
+        "duration": 2.88
+      },
+      {
+        "text": "help get some of that information to",
+        "start": 3343.839,
+        "duration": 4.161
+      },
+      {
+        "text": "stick. Anyways,",
+        "start": 3345.28,
+        "duration": 4.88
+      },
+      {
+        "text": "yeah. You know, that's another one too.",
+        "start": 3348.0,
+        "duration": 4.4
+      },
+      {
+        "text": "Um,",
+        "start": 3350.16,
+        "duration": 3.919
+      },
+      {
+        "text": "I learned this somewhere. I think I",
+        "start": 3352.4,
+        "duration": 4.959
+      },
+      {
+        "text": "learned this in grad school was that",
+        "start": 3354.079,
+        "duration": 4.881
+      },
+      {
+        "text": "like the act of writing kind of",
+        "start": 3357.359,
+        "duration": 4.24
+      },
+      {
+        "text": "solidifies the memory for me. And then",
+        "start": 3358.96,
+        "duration": 4.32
+      },
+      {
+        "text": "later on in life, I found out that there",
+        "start": 3361.599,
+        "duration": 4.081
+      },
+      {
+        "text": "were like some people actually like, you",
+        "start": 3363.28,
+        "duration": 4.4
+      },
+      {
+        "text": "know, did studies of that and I was",
+        "start": 3365.68,
+        "duration": 4.399
+      },
+      {
+        "text": "like, \"Oh, okay.\" So that was a real",
+        "start": 3367.68,
+        "duration": 3.919
+      },
+      {
+        "text": "thing. That wasn't just some weird thing",
+        "start": 3370.079,
+        "duration": 2.561
+      },
+      {
+        "text": "that I have.",
+        "start": 3371.599,
+        "duration": 5.121
+      },
+      {
+        "text": "No, it it really does. I um even even",
+        "start": 3372.64,
+        "duration": 6.56
+      },
+      {
+        "text": "something as simple as like I made a a",
+        "start": 3376.72,
+        "duration": 6.399
+      },
+      {
+        "text": "low low B this was years ago a a study",
+        "start": 3379.2,
+        "duration": 10.08
+      },
+      {
+        "text": "tool for a class um to uh on PowerPoint",
+        "start": 3383.119,
+        "duration": 10.321
+      },
+      {
+        "text": "uh ask the question and then um",
+        "start": 3389.28,
+        "duration": 6.4
+      },
+      {
+        "text": "had the the answer at the bottom but it",
+        "start": 3393.44,
+        "duration": 5.28
+      },
+      {
+        "text": "was blocked you know and and it would uh",
+        "start": 3395.68,
+        "duration": 6.08
+      },
+      {
+        "text": "time after a few seconds the the bottom",
+        "start": 3398.72,
+        "duration": 4.879
+      },
+      {
+        "text": "would scroll up so you could see the",
+        "start": 3401.76,
+        "duration": 5.28
+      },
+      {
+        "text": "answer and just the act of copying paste",
+        "start": 3403.599,
+        "duration": 6.321
+      },
+      {
+        "text": "and putting in the the hundred or some",
+        "start": 3407.04,
+        "duration": 5.84
+      },
+      {
+        "text": "odd you know questions",
+        "start": 3409.92,
+        "duration": 5.52
+      },
+      {
+        "text": "uh copy and paste even just that act",
+        "start": 3412.88,
+        "duration": 5.12
+      },
+      {
+        "text": "alone",
+        "start": 3415.44,
+        "duration": 4.639
+      },
+      {
+        "text": "without even having done the study",
+        "start": 3418.0,
+        "duration": 3.68
+      },
+      {
+        "text": "because I didn't wind up having enough",
+        "start": 3420.079,
+        "duration": 3.52
+      },
+      {
+        "text": "time to to actually go through it",
+        "start": 3421.68,
+        "duration": 5.679
+      },
+      {
+        "text": "afterwards was enough to",
+        "start": 3423.599,
+        "duration": 7.921
+      },
+      {
+        "text": "um have have that that knowledge of or",
+        "start": 3427.359,
+        "duration": 7.44
+      },
+      {
+        "text": "at least of of Thank you because the the",
+        "start": 3431.52,
+        "duration": 4.64
+      },
+      {
+        "text": "questions were done in a a",
+        "start": 3434.799,
+        "duration": 4.241
+      },
+      {
+        "text": "multiplechoice format so I could I could",
+        "start": 3436.16,
+        "duration": 6.08
+      },
+      {
+        "text": "recognize what the correct answer was.",
+        "start": 3439.04,
+        "duration": 6.0
+      },
+      {
+        "text": "Um even though I was more concerned",
+        "start": 3442.24,
+        "duration": 4.72
+      },
+      {
+        "text": "about you know the copy and paste and",
+        "start": 3445.04,
+        "duration": 4.96
+      },
+      {
+        "text": "the formatting the looking at the",
+        "start": 3446.96,
+        "duration": 4.96
+      },
+      {
+        "text": "question and answer was a secondary",
+        "start": 3450.0,
+        "duration": 4.319
+      },
+      {
+        "text": "thing but it was enough of an exposure",
+        "start": 3451.92,
+        "duration": 6.24
+      },
+      {
+        "text": "to it that it allowed that. Um, and it",
+        "start": 3454.319,
+        "duration": 6.321
+      },
+      {
+        "text": "was a class effort. Like I I was",
+        "start": 3458.16,
+        "duration": 4.959
+      },
+      {
+        "text": "frustrated because I had asked for input",
+        "start": 3460.64,
+        "duration": 4.56
+      },
+      {
+        "text": "and people were giving me input in so",
+        "start": 3463.119,
+        "duration": 4.561
+      },
+      {
+        "text": "many different formats and things.",
+        "start": 3465.2,
+        "duration": 3.04
+      },
+      {
+        "text": "Yeah.",
+        "start": 3467.68,
+        "duration": 3.2
+      },
+      {
+        "text": "Yeah. I was I was I was doing all that",
+        "start": 3468.24,
+        "duration": 4.879
+      },
+      {
+        "text": "trying to get the the final product for",
+        "start": 3470.88,
+        "duration": 4.719
+      },
+      {
+        "text": "everybody, you know. I because I I said",
+        "start": 3473.119,
+        "duration": 5.761
+      },
+      {
+        "text": "here, let's make a study study program",
+        "start": 3475.599,
+        "duration": 6.48
+      },
+      {
+        "text": "using using uh PowerPoint. So there",
+        "start": 3478.88,
+        "duration": 6.0
+      },
+      {
+        "text": "could be like a basically it was like a",
+        "start": 3482.079,
+        "duration": 6.48
+      },
+      {
+        "text": "before an you know it was like a cheap",
+        "start": 3484.88,
+        "duration": 6.239
+      },
+      {
+        "text": "let's you let you you scroll through",
+        "start": 3488.559,
+        "duration": 6.0
+      },
+      {
+        "text": "question and answer kind of thing and uh",
+        "start": 3491.119,
+        "duration": 6.161
+      },
+      {
+        "text": "and it was like for you know we put in",
+        "start": 3494.559,
+        "duration": 6.721
+      },
+      {
+        "text": "like a 100 120 questions or something.",
+        "start": 3497.28,
+        "duration": 8.4
+      },
+      {
+        "text": "Um but uh yeah that that was funny. I I",
+        "start": 3501.28,
+        "duration": 6.559
+      },
+      {
+        "text": "realize that and and that's just from",
+        "start": 3505.68,
+        "duration": 5.52
+      },
+      {
+        "text": "you know copy and paste because I I used",
+        "start": 3507.839,
+        "duration": 7.041
+      },
+      {
+        "text": "uh word word pad or not word pad but uh",
+        "start": 3511.2,
+        "duration": 7.84
+      },
+      {
+        "text": "just just text uh word word text um edit",
+        "start": 3514.88,
+        "duration": 5.6
+      },
+      {
+        "text": "I mean that's awesome the copy and paste",
+        "start": 3519.04,
+        "duration": 3.279
+      },
+      {
+        "text": "worked I",
+        "start": 3520.48,
+        "duration": 3.599
+      },
+      {
+        "text": "yeah for me I think it's it's mostly",
+        "start": 3522.319,
+        "duration": 5.04
+      },
+      {
+        "text": "been like physical writing uh like",
+        "start": 3524.079,
+        "duration": 5.841
+      },
+      {
+        "text": "typing not as much but if you're a lot",
+        "start": 3527.359,
+        "duration": 3.361
+      },
+      {
+        "text": "then yeah",
+        "start": 3529.92,
+        "duration": 3.6
+      },
+      {
+        "text": "and I and this past week I actually had",
+        "start": 3530.72,
+        "duration": 4.879
+      },
+      {
+        "text": "something in my feed about that where I",
+        "start": 3533.52,
+        "duration": 6.079
+      },
+      {
+        "text": "it is studied that um the doing physical",
+        "start": 3535.599,
+        "duration": 8.401
+      },
+      {
+        "text": "writing is so much better than",
+        "start": 3539.599,
+        "duration": 9.2
+      },
+      {
+        "text": "the for for memory um and and and evokes",
+        "start": 3544.0,
+        "duration": 7.2
+      },
+      {
+        "text": "more out of the brain than than just",
+        "start": 3548.799,
+        "duration": 4.8
+      },
+      {
+        "text": "copy and paste and you know little keep",
+        "start": 3551.2,
+        "duration": 6.72
+      },
+      {
+        "text": "keypad that's I mean so I've heard",
+        "start": 3553.599,
+        "duration": 7.681
+      },
+      {
+        "text": "also though like I think",
+        "start": 3557.92,
+        "duration": 4.879
+      },
+      {
+        "text": "one thing that I have learned with a lot",
+        "start": 3561.28,
+        "duration": 3.279
+      },
+      {
+        "text": "of studies is that there's this sense of",
+        "start": 3562.799,
+        "duration": 3.681
+      },
+      {
+        "text": "like,",
+        "start": 3564.559,
+        "duration": 3.52
+      },
+      {
+        "text": "you know, we kind of report the average",
+        "start": 3566.48,
+        "duration": 3.92
+      },
+      {
+        "text": "effect, but maybe it's a lot more for",
+        "start": 3568.079,
+        "duration": 4.48
+      },
+      {
+        "text": "some people and a lot less for others,",
+        "start": 3570.4,
+        "duration": 3.679
+      },
+      {
+        "text": "you know, like different people kind of,",
+        "start": 3572.559,
+        "duration": 4.0
+      },
+      {
+        "text": "you know, work a bit differently.",
+        "start": 3574.079,
+        "duration": 5.04
+      },
+      {
+        "text": "Yeah. Um",
+        "start": 3576.559,
+        "duration": 7.441
+      },
+      {
+        "text": "I maybe maybe see that um and and there",
+        "start": 3579.119,
+        "duration": 8.96
+      },
+      {
+        "text": "is a like you know",
+        "start": 3584.0,
+        "duration": 5.839
+      },
+      {
+        "text": "back when they had the the visual",
+        "start": 3588.079,
+        "duration": 4.641
+      },
+      {
+        "text": "auditory and kinesthetic learner type",
+        "start": 3589.839,
+        "duration": 6.72
+      },
+      {
+        "text": "thing like oh I I only learn this way.",
+        "start": 3592.72,
+        "duration": 4.399
+      },
+      {
+        "text": "Yeah,",
+        "start": 3596.559,
+        "duration": 3.361
+      },
+      {
+        "text": "there there is",
+        "start": 3597.119,
+        "duration": 5.68
+      },
+      {
+        "text": "I mean",
+        "start": 3599.92,
+        "duration": 4.32
+      },
+      {
+        "text": "there there there's a thing about",
+        "start": 3602.799,
+        "duration": 4.641
+      },
+      {
+        "text": "comfortability of learning",
+        "start": 3604.24,
+        "duration": 7.92
+      },
+      {
+        "text": "and our perception of what we learn. Um",
+        "start": 3607.44,
+        "duration": 8.639
+      },
+      {
+        "text": "and I how should I say uh I hate to use",
+        "start": 3612.16,
+        "duration": 7.679
+      },
+      {
+        "text": "the example um like do domestic abuse",
+        "start": 3616.079,
+        "duration": 7.04
+      },
+      {
+        "text": "like um people in domestic abuse they",
+        "start": 3619.839,
+        "duration": 7.441
+      },
+      {
+        "text": "get so abused they're not when the abuse",
+        "start": 3623.119,
+        "duration": 5.68
+      },
+      {
+        "text": "doesn't happen",
+        "start": 3627.28,
+        "duration": 3.839
+      },
+      {
+        "text": "they don't feel normal.",
+        "start": 3628.799,
+        "duration": 4.8
+      },
+      {
+        "text": "Yeah. Right. Right. Well, in in the same",
+        "start": 3631.119,
+        "duration": 7.361
+      },
+      {
+        "text": "sense, people have uh maybe sometimes a",
+        "start": 3633.599,
+        "duration": 7.281
+      },
+      {
+        "text": "modality that they have as their their",
+        "start": 3638.48,
+        "duration": 4.639
+      },
+      {
+        "text": "their their",
+        "start": 3640.88,
+        "duration": 4.56
+      },
+      {
+        "text": "comfort blanket.",
+        "start": 3643.119,
+        "duration": 5.281
+      },
+      {
+        "text": "Um even though it's not their optimal",
+        "start": 3645.44,
+        "duration": 4.96
+      },
+      {
+        "text": "way of learning.",
+        "start": 3648.4,
+        "duration": 5.6
+      },
+      {
+        "text": "Um but they perceive that it is that it",
+        "start": 3650.4,
+        "duration": 8.0
+      },
+      {
+        "text": "it's so tied to that. Um uh Ver",
+        "start": 3654.0,
+        "duration": 7.28
+      },
+      {
+        "text": "Veritasium did a good good show on that.",
+        "start": 3658.4,
+        "duration": 3.84
+      },
+      {
+        "text": "Oh okay.",
+        "start": 3661.28,
+        "duration": 4.88
+      },
+      {
+        "text": "Um and and there's a lot of study that",
+        "start": 3662.24,
+        "duration": 6.559
+      },
+      {
+        "text": "yeah we we fool ourselves into thinking",
+        "start": 3666.16,
+        "duration": 6.48
+      },
+      {
+        "text": "that we can't learn you know a different",
+        "start": 3668.799,
+        "duration": 7.921
+      },
+      {
+        "text": "way or optimal way",
+        "start": 3672.64,
+        "duration": 5.679
+      },
+      {
+        "text": "sometimes.",
+        "start": 3676.72,
+        "duration": 3.359
+      },
+      {
+        "text": "Oh yeah I definitely get that",
+        "start": 3678.319,
+        "duration": 3.76
+      },
+      {
+        "text": "we don't or I I guess the bottom point",
+        "start": 3680.079,
+        "duration": 3.921
+      },
+      {
+        "text": "is we don't always know ourselves as",
+        "start": 3682.079,
+        "duration": 3.841
+      },
+      {
+        "text": "well as what we think we do.",
+        "start": 3684.0,
+        "duration": 6.599
+      },
+      {
+        "text": "Oh yeah I 100% agree with that.",
+        "start": 3685.92,
+        "duration": 4.679
+      },
+      {
+        "text": "Yeah. So, it Yeah, it's interesting uh",
+        "start": 3691.839,
+        "duration": 7.52
+      },
+      {
+        "text": "because but but I do honestly feel um",
+        "start": 3694.96,
+        "duration": 7.2
+      },
+      {
+        "text": "because when when I hear something I I",
+        "start": 3699.359,
+        "duration": 5.121
+      },
+      {
+        "text": "don't remember it as well as if I I see",
+        "start": 3702.16,
+        "duration": 5.36
+      },
+      {
+        "text": "it like especially like a person's name.",
+        "start": 3704.48,
+        "duration": 3.599
+      },
+      {
+        "text": "Yeah. Yeah,",
+        "start": 3707.52,
+        "duration": 4.079
+      },
+      {
+        "text": "like the other day u or this past week I",
+        "start": 3708.079,
+        "duration": 7.76
+      },
+      {
+        "text": "you I had I I saw had a doctor's visit",
+        "start": 3711.599,
+        "duration": 6.801
+      },
+      {
+        "text": "and but I had to follow up on stuff and",
+        "start": 3715.839,
+        "duration": 4.0
+      },
+      {
+        "text": "I was like I I don't remember the",
+        "start": 3718.4,
+        "duration": 3.36
+      },
+      {
+        "text": "doctor's name because I in in the whole",
+        "start": 3719.839,
+        "duration": 4.081
+      },
+      {
+        "text": "course of everything it was only",
+        "start": 3721.76,
+        "duration": 5.12
+      },
+      {
+        "text": "auditory. I I only heard the doctor's",
+        "start": 3723.92,
+        "duration": 5.04
+      },
+      {
+        "text": "name. I never saw it written or anything",
+        "start": 3726.88,
+        "duration": 6.16
+      },
+      {
+        "text": "like that. and um you know so and and",
+        "start": 3728.96,
+        "duration": 7.2
+      },
+      {
+        "text": "then they're like oh doctor's name is",
+        "start": 3733.04,
+        "duration": 5.36
+      },
+      {
+        "text": "this and I said oh is it spelled like da",
+        "start": 3736.16,
+        "duration": 4.159
+      },
+      {
+        "text": "da da da da and they're like no it's",
+        "start": 3738.4,
+        "duration": 4.56
+      },
+      {
+        "text": "like da da da you know something else d",
+        "start": 3740.319,
+        "duration": 2.641
+      },
+      {
+        "text": "do d do d do d do d do d do d do d do d",
+        "start": 3742.96,
+        "duration": 3.359
+      },
+      {
+        "text": "do d do da dot and I'm like oh okay so",
+        "start": 3742.96,
+        "duration": 5.76
+      },
+      {
+        "text": "now now I can now I know it because now",
+        "start": 3746.319,
+        "duration": 6.641
+      },
+      {
+        "text": "I can at least visualize the letters",
+        "start": 3748.72,
+        "duration": 7.52
+      },
+      {
+        "text": "in my mind and and and cue that with",
+        "start": 3752.96,
+        "duration": 6.48
+      },
+      {
+        "text": "with auditory but it it went in one near",
+        "start": 3756.24,
+        "duration": 5.28
+      },
+      {
+        "text": "and out the other.",
+        "start": 3759.44,
+        "duration": 3.28
+      },
+      {
+        "text": "Right. Right.",
+        "start": 3761.52,
+        "duration": 2.4
+      },
+      {
+        "text": "Um",
+        "start": 3762.72,
+        "duration": 3.2
+      },
+      {
+        "text": "Well, actually, I got to get running.",
+        "start": 3763.92,
+        "duration": 4.72
+      },
+      {
+        "text": "Oh, yeah. Yeah, we're uh we're Yeah. At",
+        "start": 3765.92,
+        "duration": 4.08
+      },
+      {
+        "text": "that point, huh?",
+        "start": 3768.64,
+        "duration": 3.36
+      },
+      {
+        "text": "Well, yeah. Yeah. No, actually, I'm just",
+        "start": 3770.0,
+        "duration": 4.48
+      },
+      {
+        "text": "I would I would stay, but I've I've uh",
+        "start": 3772.0,
+        "duration": 3.92
+      },
+      {
+        "text": "we're a little bit past and then I've",
+        "start": 3774.48,
+        "duration": 3.839
+      },
+      {
+        "text": "got to go go off to meet a friend. So",
+        "start": 3775.92,
+        "duration": 5.52
+      },
+      {
+        "text": "Oh, it's all all good. Yeah. No. Um",
+        "start": 3778.319,
+        "duration": 6.161
+      },
+      {
+        "text": "awesome then. Uh yeah, sorry. Last last",
+        "start": 3781.44,
+        "duration": 5.44
+      },
+      {
+        "text": "week I was kind of out of it because uh",
+        "start": 3784.48,
+        "duration": 4.96
+      },
+      {
+        "text": "allergies and um",
+        "start": 3786.88,
+        "duration": 7.12
+      },
+      {
+        "text": "and uh and or something. I I was just uh",
+        "start": 3789.44,
+        "duration": 7.2
+      },
+      {
+        "text": "yeah, I was I was way out of it. Hey,",
+        "start": 3794.0,
+        "duration": 4.48
+      },
+      {
+        "text": "turtle.",
+        "start": 3796.64,
+        "duration": 3.919
+      },
+      {
+        "text": "All right.",
+        "start": 3798.48,
+        "duration": 5.639
+      },
+      {
+        "text": "All right. Laters.",
+        "start": 3800.559,
+        "duration": 3.56
+      }
+    ]
+  }
+}

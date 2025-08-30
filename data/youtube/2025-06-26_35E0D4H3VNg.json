@@ -1,0 +1,6851 @@
+{
+  "metadata": {
+    "kind": "youtube#video",
+    "etag": "5eI-5sTRJUFixan5q_YvnEl0EOg",
+    "id": "35E0D4H3VNg",
+    "snippet": {
+      "publishedAt": "2025-06-26T21:20:49Z",
+      "channelId": "UC26p3I1nr9F8G2WboH1SfTA",
+      "title": "2025-06-26T19:02:45Z - AI / Open Q & A w/Coach Keith",
+      "description": "AI / Open Q & A w/Coach Keith 2025-06-26T19:02:45Z",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/35E0D4H3VNg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/35E0D4H3VNg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/35E0D4H3VNg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/35E0D4H3VNg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/35E0D4H3VNg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Joy of Coding",
+      "categoryId": "24",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "2025-06-26T19:02:45Z - AI / Open Q & A w/Coach Keith",
+        "description": "AI / Open Q & A w/Coach Keith 2025-06-26T19:02:45Z"
+      }
+    },
+    "contentDetails": {
+      "duration": "PT1H23M56S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    },
+    "statistics": {
+      "viewCount": "1",
+      "likeCount": "0",
+      "favoriteCount": "0",
+      "commentCount": "0"
+    }
+  },
+  "transcript": {
+    "video_id": "35E0D4H3VNg",
+    "language": "English (auto-generated)",
+    "language_code": "en",
+    "is_generated": true,
+    "snippets": [
+      {
+        "text": "Can I put your bagel in container or you",
+        "start": 8.639,
+        "duration": 4.801
+      },
+      {
+        "text": "prefer to keep it outside?",
+        "start": 10.719,
+        "duration": 4.321
+      },
+      {
+        "text": "Outside. Not in the fridge. It gets",
+        "start": 13.44,
+        "duration": 4.0
+      },
+      {
+        "text": "really hard in the fridge.",
+        "start": 15.04,
+        "duration": 6.52
+      },
+      {
+        "text": "Do you have I have",
+        "start": 17.44,
+        "duration": 4.12
+      },
+      {
+        "text": "Hey.",
+        "start": 36.64,
+        "duration": 5.56
+      },
+      {
+        "text": "Hey.",
+        "start": 39.2,
+        "duration": 3.0
+      },
+      {
+        "text": "Hey, Melissa.",
+        "start": 47.12,
+        "duration": 3.32
+      },
+      {
+        "text": "Hello.",
+        "start": 51.76,
+        "duration": 7.88
+      },
+      {
+        "text": "Hello. Hello. How's Spain?",
+        "start": 54.559,
+        "duration": 5.081
+      },
+      {
+        "text": "It is going very well. My niece is here",
+        "start": 60.399,
+        "duration": 3.76
+      },
+      {
+        "text": "tonight. I don't know if you can hear",
+        "start": 63.039,
+        "duration": 4.321
+      },
+      {
+        "text": "her. She's screaming upstairs.",
+        "start": 64.159,
+        "duration": 5.601
+      },
+      {
+        "text": "But, uh, it's nice. It's going really",
+        "start": 67.36,
+        "duration": 3.92
+      },
+      {
+        "text": "well. I'm still having kind of a hard",
+        "start": 69.76,
+        "duration": 4.64
+      },
+      {
+        "text": "time adjusting to the",
+        "start": 71.28,
+        "duration": 6.12
+      },
+      {
+        "text": "time",
+        "start": 74.4,
+        "duration": 3.0
+      },
+      {
+        "text": "like still.",
+        "start": 77.439,
+        "duration": 4.401
+      },
+      {
+        "text": "Yeah, I guess that's what it is. I don't",
+        "start": 80.24,
+        "duration": 3.919
+      },
+      {
+        "text": "know. I've been here two weeks now, but",
+        "start": 81.84,
+        "duration": 4.24
+      },
+      {
+        "text": "um I still have a hard time like",
+        "start": 84.159,
+        "duration": 5.041
+      },
+      {
+        "text": "sleeping at night and then also a hard",
+        "start": 86.08,
+        "duration": 5.28
+      },
+      {
+        "text": "time getting up in the morning. But even",
+        "start": 89.2,
+        "duration": 4.8
+      },
+      {
+        "text": "when I keep my timing right, it's like",
+        "start": 91.36,
+        "duration": 4.48
+      },
+      {
+        "text": "my brain's not caught up yet. It doesn't",
+        "start": 94.0,
+        "duration": 5.439
+      },
+      {
+        "text": "start thinking well until super late at",
+        "start": 95.84,
+        "duration": 5.76
+      },
+      {
+        "text": "night when it would normally be my usual",
+        "start": 99.439,
+        "duration": 5.201
+      },
+      {
+        "text": "time to work at home.",
+        "start": 101.6,
+        "duration": 5.04
+      },
+      {
+        "text": "So, it's I don't know if it's routine or",
+        "start": 104.64,
+        "duration": 5.92
+      },
+      {
+        "text": "what, but still figuring it out.",
+        "start": 106.64,
+        "duration": 6.08
+      },
+      {
+        "text": "Yeah, that's a vicious cycle though if",
+        "start": 110.56,
+        "duration": 6.44
+      },
+      {
+        "text": "you don't go to sleep on time, right?",
+        "start": 112.72,
+        "duration": 4.28
+      },
+      {
+        "text": "Hopefully I'll probably get it figured",
+        "start": 117.68,
+        "duration": 4.96
+      },
+      {
+        "text": "out all day. Yeah, I'll figure out I'll",
+        "start": 118.799,
+        "duration": 5.36
+      },
+      {
+        "text": "probably get it figured out just in time",
+        "start": 122.64,
+        "duration": 4.56
+      },
+      {
+        "text": "to come home.",
+        "start": 124.159,
+        "duration": 7.641
+      },
+      {
+        "text": "That is exactly how that works, huh?",
+        "start": 127.2,
+        "duration": 4.6
+      },
+      {
+        "text": "All right.",
+        "start": 133.28,
+        "duration": 4.4
+      },
+      {
+        "text": "Yeah, I'm over in Hawaii, but I'm still",
+        "start": 135.52,
+        "duration": 4.4
+      },
+      {
+        "text": "working most days, so I'm still kind of",
+        "start": 137.68,
+        "duration": 5.44
+      },
+      {
+        "text": "on West Coast time. Yeah. Oh, wow. So,",
+        "start": 139.92,
+        "duration": 6.959
+      },
+      {
+        "text": "are you there on vacation or are you uh",
+        "start": 143.12,
+        "duration": 6.88
+      },
+      {
+        "text": "Yeah, kind of. It's um",
+        "start": 146.879,
+        "duration": 5.681
+      },
+      {
+        "text": "family reunion.",
+        "start": 150.0,
+        "duration": 5.84
+      },
+      {
+        "text": "Oh, okay. My mom's from out here.",
+        "start": 152.56,
+        "duration": 5.12
+      },
+      {
+        "text": "A bunch of her cousins and their family",
+        "start": 155.84,
+        "duration": 5.28
+      },
+      {
+        "text": "still lives out here. Oh, gotcha. So",
+        "start": 157.68,
+        "duration": 8.32
+      },
+      {
+        "text": "every few years we do a family reunion.",
+        "start": 161.12,
+        "duration": 7.52
+      },
+      {
+        "text": "So it rotates between families. So we",
+        "start": 166.0,
+        "duration": 4.56
+      },
+      {
+        "text": "have some family in Utah. So it's",
+        "start": 168.64,
+        "duration": 6.72
+      },
+      {
+        "text": "usually in California, Hawaii or",
+        "start": 170.56,
+        "duration": 9.039
+      },
+      {
+        "text": "Utah area. Oh wow, that's cool.",
+        "start": 175.36,
+        "duration": 6.799
+      },
+      {
+        "text": "Which island are you on?",
+        "start": 179.599,
+        "duration": 7.121
+      },
+      {
+        "text": "We are on Aahu. Nice. I was there.",
+        "start": 182.159,
+        "duration": 7.921
+      },
+      {
+        "text": "Oh nice. Yeah.",
+        "start": 186.72,
+        "duration": 6.72
+      },
+      {
+        "text": "Whereabouts did you stay? Um, we stayed",
+        "start": 190.08,
+        "duration": 6.799
+      },
+      {
+        "text": "in um around Honolulu for our first few",
+        "start": 193.44,
+        "duration": 6.64
+      },
+      {
+        "text": "days and then we stayed um all the way",
+        "start": 196.879,
+        "duration": 5.28
+      },
+      {
+        "text": "up I forget where it was called. It was",
+        "start": 200.08,
+        "duration": 4.879
+      },
+      {
+        "text": "like um kind of northwest the northwest",
+        "start": 202.159,
+        "duration": 5.44
+      },
+      {
+        "text": "area of the island.",
+        "start": 204.959,
+        "duration": 6.161
+      },
+      {
+        "text": "Oh, nice. Yeah, like around So, yeah, my",
+        "start": 207.599,
+        "duration": 5.841
+      },
+      {
+        "text": "family staying over there in my Kaliva",
+        "start": 211.12,
+        "duration": 4.72
+      },
+      {
+        "text": "around Northshore side.",
+        "start": 213.44,
+        "duration": 6.24
+      },
+      {
+        "text": "Okay. And then I'm in Wiki.",
+        "start": 215.84,
+        "duration": 6.0
+      },
+      {
+        "text": "But we did get to do a couple days on",
+        "start": 219.68,
+        "duration": 4.32
+      },
+      {
+        "text": "the Big Island.",
+        "start": 221.84,
+        "duration": 3.92
+      },
+      {
+        "text": "We got super lucky and got to see the",
+        "start": 224.0,
+        "duration": 5.36
+      },
+      {
+        "text": "volcano erupts. Oh, that's so cool. That",
+        "start": 225.76,
+        "duration": 6.64
+      },
+      {
+        "text": "was really cool.",
+        "start": 229.36,
+        "duration": 8.0
+      },
+      {
+        "text": "Very humbling what nature can do. Yeah,",
+        "start": 232.4,
+        "duration": 8.28
+      },
+      {
+        "text": "for sure.",
+        "start": 237.36,
+        "duration": 3.32
+      },
+      {
+        "text": "Nice. So yeah, I did not get a chance to",
+        "start": 241.84,
+        "duration": 5.119
+      },
+      {
+        "text": "do much last week either, Melissa. So no",
+        "start": 244.239,
+        "duration": 4.481
+      },
+      {
+        "text": "worries.",
+        "start": 246.959,
+        "duration": 4.56
+      },
+      {
+        "text": "We'll uh these projects always start off",
+        "start": 248.72,
+        "duration": 5.76
+      },
+      {
+        "text": "slow and then right speed up as",
+        "start": 251.519,
+        "duration": 5.28
+      },
+      {
+        "text": "everybody kind of ramps up. It's never",
+        "start": 254.48,
+        "duration": 6.319
+      },
+      {
+        "text": "never a linear process. It's always slow",
+        "start": 256.799,
+        "duration": 6.881
+      },
+      {
+        "text": "builds builds, but then you do get a lot",
+        "start": 260.799,
+        "duration": 4.561
+      },
+      {
+        "text": "of compound interest as you get ramped",
+        "start": 263.68,
+        "duration": 4.239
+      },
+      {
+        "text": "up. So",
+        "start": 265.36,
+        "duration": 5.44
+      },
+      {
+        "text": "that's good.",
+        "start": 267.919,
+        "duration": 6.961
+      },
+      {
+        "text": "right now. Let's hope um I am gonna go",
+        "start": 270.8,
+        "duration": 6.0
+      },
+      {
+        "text": "ahead and mute that way if my niece gets",
+        "start": 274.88,
+        "duration": 3.12
+      },
+      {
+        "text": "loud again, you guys don't have to",
+        "start": 276.8,
+        "duration": 4.64
+      },
+      {
+        "text": "listen to her. Oh yeah, no worries. But",
+        "start": 278.0,
+        "duration": 6.88
+      },
+      {
+        "text": "um I didn't hear her at all. Zoom",
+        "start": 281.44,
+        "duration": 8.16
+      },
+      {
+        "text": "filtering is Did you hear",
+        "start": 284.88,
+        "duration": 6.879
+      },
+      {
+        "text": "Well, that's cool. I uh I had to turn",
+        "start": 289.6,
+        "duration": 5.76
+      },
+      {
+        "text": "you guys up so I could hear you.",
+        "start": 291.759,
+        "duration": 7.041
+      },
+      {
+        "text": "She's Yeah, I literally uh grinded some",
+        "start": 295.36,
+        "duration": 5.92
+      },
+      {
+        "text": "coffee. Right. right next to the thing.",
+        "start": 298.8,
+        "duration": 4.399
+      },
+      {
+        "text": "I don't know if it was Apple's filtering",
+        "start": 301.28,
+        "duration": 4.56
+      },
+      {
+        "text": "because I had the ear AirPods on or if",
+        "start": 303.199,
+        "duration": 5.361
+      },
+      {
+        "text": "it was filtering, but my team couldn't",
+        "start": 305.84,
+        "duration": 4.96
+      },
+      {
+        "text": "hear anything. I was blown away. The",
+        "start": 308.56,
+        "duration": 3.76
+      },
+      {
+        "text": "coffee grinder right in front of me, you",
+        "start": 310.8,
+        "duration": 5.6
+      },
+      {
+        "text": "know. Wow, that's cool. Okay, well, I'll",
+        "start": 312.32,
+        "duration": 6.56
+      },
+      {
+        "text": "I'll stay unmuted then, but if you hear",
+        "start": 316.4,
+        "duration": 4.0
+      },
+      {
+        "text": "anything that makes it hard to",
+        "start": 318.88,
+        "duration": 2.96
+      },
+      {
+        "text": "concentrate, just let me know and I'll",
+        "start": 320.4,
+        "duration": 2.96
+      },
+      {
+        "text": "mute.",
+        "start": 321.84,
+        "duration": 5.24
+      },
+      {
+        "text": "Cool. Sounds good.",
+        "start": 323.36,
+        "duration": 3.72
+      },
+      {
+        "text": "Yeah. Did you hear anything, Alyssa?",
+        "start": 328.0,
+        "duration": 5.199
+      },
+      {
+        "text": "Nope, not at all. Not at all. Um, Nick,",
+        "start": 330.16,
+        "duration": 5.039
+      },
+      {
+        "text": "I posted some questions for you in the",
+        "start": 333.199,
+        "duration": 5.121
+      },
+      {
+        "text": "chat just whenever you I don't know when",
+        "start": 335.199,
+        "duration": 5.44
+      },
+      {
+        "text": "it would make sense to answer them, you",
+        "start": 338.32,
+        "duration": 3.52
+      },
+      {
+        "text": "know. Yeah, for sure. We could run",
+        "start": 340.639,
+        "duration": 3.921
+      },
+      {
+        "text": "through them real quick. Um, so question",
+        "start": 341.84,
+        "duration": 6.56
+      },
+      {
+        "text": "one, you saw a spike. What's a spike? So",
+        "start": 344.56,
+        "duration": 8.32
+      },
+      {
+        "text": "typically in uh so scrum is a flavor of",
+        "start": 348.4,
+        "duration": 7.44
+      },
+      {
+        "text": "agile and I don't remember if it's a",
+        "start": 352.88,
+        "duration": 4.8
+      },
+      {
+        "text": "scrum I think it's a scrum specific",
+        "start": 355.84,
+        "duration": 4.4
+      },
+      {
+        "text": "thing but I know they use it in agile in",
+        "start": 357.68,
+        "duration": 5.44
+      },
+      {
+        "text": "general but a spike is basically a story",
+        "start": 360.24,
+        "duration": 6.399
+      },
+      {
+        "text": "that doesn't end in code.",
+        "start": 363.12,
+        "duration": 6.639
+      },
+      {
+        "text": "Most of your stories, right, end in some",
+        "start": 366.639,
+        "duration": 4.641
+      },
+      {
+        "text": "kind of user value, some kind of",
+        "start": 369.759,
+        "duration": 4.801
+      },
+      {
+        "text": "shippable thing that the PM can review,",
+        "start": 371.28,
+        "duration": 6.08
+      },
+      {
+        "text": "right? Yeah. So, it's all about doing",
+        "start": 374.56,
+        "duration": 5.28
+      },
+      {
+        "text": "incremental development and just kind of",
+        "start": 377.36,
+        "duration": 5.52
+      },
+      {
+        "text": "defining that next little milestone. So,",
+        "start": 379.84,
+        "duration": 5.12
+      },
+      {
+        "text": "you'll usually have like a pull request",
+        "start": 382.88,
+        "duration": 3.68
+      },
+      {
+        "text": "associated with a story, right? You'll",
+        "start": 384.96,
+        "duration": 4.56
+      },
+      {
+        "text": "have some kind code that you're pushing,",
+        "start": 386.56,
+        "duration": 5.52
+      },
+      {
+        "text": "something that you can actually review.",
+        "start": 389.52,
+        "duration": 5.28
+      },
+      {
+        "text": "A spike is a story that doesn't have any",
+        "start": 392.08,
+        "duration": 5.2
+      },
+      {
+        "text": "of that kind of an output. So you might",
+        "start": 394.8,
+        "duration": 4.48
+      },
+      {
+        "text": "still be doing some coding, but you'll",
+        "start": 397.28,
+        "duration": 5.12
+      },
+      {
+        "text": "be doing it like in an off to the side",
+        "start": 399.28,
+        "duration": 6.4
+      },
+      {
+        "text": "experimental thing. A spike is like uh",
+        "start": 402.4,
+        "duration": 5.76
+      },
+      {
+        "text": "research like Yeah, exactly. I was just",
+        "start": 405.68,
+        "duration": 5.359
+      },
+      {
+        "text": "going to say research. That's cool.",
+        "start": 408.16,
+        "duration": 4.72
+      },
+      {
+        "text": "Yeah. So you can either like literally",
+        "start": 411.039,
+        "duration": 4.561
+      },
+      {
+        "text": "just be doing research or a lot of times",
+        "start": 412.88,
+        "duration": 4.96
+      },
+      {
+        "text": "it is also, hey, you know, let's code up",
+        "start": 415.6,
+        "duration": 4.4
+      },
+      {
+        "text": "a quick prototype, but it'll be like",
+        "start": 417.84,
+        "duration": 4.4
+      },
+      {
+        "text": "throwaway code, right? You don't have to",
+        "start": 420.0,
+        "duration": 5.44
+      },
+      {
+        "text": "gotcha write it very well. You don't",
+        "start": 422.24,
+        "duration": 5.679
+      },
+      {
+        "text": "have to do tests. You don't have to, you",
+        "start": 425.44,
+        "duration": 4.4
+      },
+      {
+        "text": "know, break up your concerns. It can",
+        "start": 427.919,
+        "duration": 3.521
+      },
+      {
+        "text": "just be total spaghetti code as long as",
+        "start": 429.84,
+        "duration": 3.6
+      },
+      {
+        "text": "you get it as long as you get the",
+        "start": 431.44,
+        "duration": 4.4
+      },
+      {
+        "text": "results that you're looking for uh from",
+        "start": 433.44,
+        "duration": 4.72
+      },
+      {
+        "text": "the experiment. Whatever it whatever it",
+        "start": 435.84,
+        "duration": 3.6
+      },
+      {
+        "text": "is you're looking into. Maybe you're",
+        "start": 438.16,
+        "duration": 2.64
+      },
+      {
+        "text": "like saying, \"Oh, I want to test out",
+        "start": 439.44,
+        "duration": 3.68
+      },
+      {
+        "text": "this framework or I want to see which",
+        "start": 440.8,
+        "duration": 7.36
+      },
+      {
+        "text": "one of these two approaches uh performs",
+        "start": 443.12,
+        "duration": 6.88
+      },
+      {
+        "text": "better.\" Right?",
+        "start": 448.16,
+        "duration": 3.599
+      },
+      {
+        "text": "Yeah, that makes so much sense. Yeah, I",
+        "start": 450.0,
+        "duration": 3.199
+      },
+      {
+        "text": "could definitely apply that to support",
+        "start": 451.759,
+        "duration": 4.401
+      },
+      {
+        "text": "local.",
+        "start": 453.199,
+        "duration": 4.961
+      },
+      {
+        "text": "Yeah, it's a useful little tool in the",
+        "start": 456.16,
+        "duration": 5.759
+      },
+      {
+        "text": "toolbox. Yeah. Uh for the AWS access,",
+        "start": 458.16,
+        "duration": 6.72
+      },
+      {
+        "text": "I'm actually looking into that now. Uh",
+        "start": 461.919,
+        "duration": 6.161
+      },
+      {
+        "text": "did think I got it, but I wasn't I still",
+        "start": 464.88,
+        "duration": 6.48
+      },
+      {
+        "text": "wasn't able to log in because I was",
+        "start": 468.08,
+        "duration": 7.519
+      },
+      {
+        "text": "using my old uh",
+        "start": 471.36,
+        "duration": 6.32
+      },
+      {
+        "text": "username and he set me up with a new",
+        "start": 475.599,
+        "duration": 6.401
+      },
+      {
+        "text": "username. So, he did send that to me",
+        "start": 477.68,
+        "duration": 6.88
+      },
+      {
+        "text": "and that's what try to log into first",
+        "start": 482.0,
+        "duration": 7.0
+      },
+      {
+        "text": "before I start screen sharing.",
+        "start": 484.56,
+        "duration": 4.44
+      },
+      {
+        "text": "And then is code tutor set up for unit",
+        "start": 489.919,
+        "duration": 7.12
+      },
+      {
+        "text": "testing? Nope, not at all. And that was",
+        "start": 494.4,
+        "duration": 5.84
+      },
+      {
+        "text": "something actually be interested in. We",
+        "start": 497.039,
+        "duration": 5.84
+      },
+      {
+        "text": "talked about it a couple.",
+        "start": 500.24,
+        "duration": 4.639
+      },
+      {
+        "text": "Um, and she said she has experience",
+        "start": 502.879,
+        "duration": 3.921
+      },
+      {
+        "text": "setting it up from the ground up. That's",
+        "start": 504.879,
+        "duration": 3.44
+      },
+      {
+        "text": "right, Melissa.",
+        "start": 506.8,
+        "duration": 3.839
+      },
+      {
+        "text": "Yeah. On uh like personal projects that",
+        "start": 508.319,
+        "duration": 6.4
+      },
+      {
+        "text": "I'm working on. Oh, nice.",
+        "start": 510.639,
+        "duration": 6.241
+      },
+      {
+        "text": "Good. Yeah, because I I watched a replay",
+        "start": 514.719,
+        "duration": 4.721
+      },
+      {
+        "text": "from a couple weeks ago and tests were",
+        "start": 516.88,
+        "duration": 3.92
+      },
+      {
+        "text": "mentioned. So, I'm like, \"All right,",
+        "start": 519.44,
+        "duration": 5.24
+      },
+      {
+        "text": "write unit test tickets.",
+        "start": 520.8,
+        "duration": 3.88
+      },
+      {
+        "text": "Yeah. So, we don't have piest or any",
+        "start": 527.92,
+        "duration": 6.479
+      },
+      {
+        "text": "kind of framework set up. Um that'll be",
+        "start": 530.8,
+        "duration": 7.039
+      },
+      {
+        "text": "the first ticket then support local",
+        "start": 534.399,
+        "duration": 7.681
+      },
+      {
+        "text": "Do you guys have uh like CI/CD set up or",
+        "start": 537.839,
+        "duration": 8.881
+      },
+      {
+        "text": "how do you guys Yeah. Yeah, we do. We um",
+        "start": 542.08,
+        "duration": 7.6
+      },
+      {
+        "text": "we so we use V test and Cypress for end",
+        "start": 546.72,
+        "duration": 6.08
+      },
+      {
+        "text": "to end testing and then we have some",
+        "start": 549.68,
+        "duration": 4.8
+      },
+      {
+        "text": "workflows",
+        "start": 552.8,
+        "duration": 4.479
+      },
+      {
+        "text": "running that run through all the tests.",
+        "start": 554.48,
+        "duration": 6.96
+      },
+      {
+        "text": "Whenever um whenever anybody pushes to",
+        "start": 557.279,
+        "duration": 6.161
+      },
+      {
+        "text": "their pull request, it runs through all",
+        "start": 561.44,
+        "duration": 5.6
+      },
+      {
+        "text": "the test. Kevin did the setup for that.",
+        "start": 563.44,
+        "duration": 7.44
+      },
+      {
+        "text": "I'm not sure exactly what or how that",
+        "start": 567.04,
+        "duration": 6.08
+      },
+      {
+        "text": "works,",
+        "start": 570.88,
+        "duration": 5.36
+      },
+      {
+        "text": "but it is there.",
+        "start": 573.12,
+        "duration": 8.88
+      },
+      {
+        "text": "So, your basic flow is you will go in",
+        "start": 576.24,
+        "duration": 7.279
+      },
+      {
+        "text": "um",
+        "start": 582.0,
+        "duration": 3.519
+      },
+      {
+        "text": "somebody will do some work. They'll",
+        "start": 583.519,
+        "duration": 4.641
+      },
+      {
+        "text": "create a pull request",
+        "start": 585.519,
+        "duration": 4.801
+      },
+      {
+        "text": "and then once that's approved, it will",
+        "start": 588.16,
+        "duration": 4.72
+      },
+      {
+        "text": "automatically be merged",
+        "start": 590.32,
+        "duration": 4.32
+      },
+      {
+        "text": "or it'll automatically be deployed to",
+        "start": 592.88,
+        "duration": 5.519
+      },
+      {
+        "text": "the environment. Is that correct?",
+        "start": 594.64,
+        "duration": 5.68
+      },
+      {
+        "text": "Let's see. So, they create the branch,",
+        "start": 598.399,
+        "duration": 3.761
+      },
+      {
+        "text": "they create the pull request, the pull",
+        "start": 600.32,
+        "duration": 4.8
+      },
+      {
+        "text": "request runs through a bunch of checks",
+        "start": 602.16,
+        "duration": 8.0
+      },
+      {
+        "text": "and it deploys to a preview environment.",
+        "start": 605.12,
+        "duration": 7.92
+      },
+      {
+        "text": "And then once we",
+        "start": 610.16,
+        "duration": 5.2
+      },
+      {
+        "text": "once we do a peer review and a senior",
+        "start": 613.04,
+        "duration": 5.12
+      },
+      {
+        "text": "review then it gets manually merged into",
+        "start": 615.36,
+        "duration": 5.68
+      },
+      {
+        "text": "me. But if it doesn't pass all the tests",
+        "start": 618.16,
+        "duration": 5.6
+      },
+      {
+        "text": "if it doesn't pass the llinters if it",
+        "start": 621.04,
+        "duration": 4.88
+      },
+      {
+        "text": "doesn't pass formatting",
+        "start": 623.76,
+        "duration": 5.12
+      },
+      {
+        "text": "um then it has to pass everything. Yeah.",
+        "start": 625.92,
+        "duration": 8.68
+      },
+      {
+        "text": "Yeah. Well merging is blocked. Mhm.",
+        "start": 628.88,
+        "duration": 5.72
+      },
+      {
+        "text": "I'm thinking our our",
+        "start": 637.68,
+        "duration": 7.599
+      },
+      {
+        "text": "GitHub Yeah, perfect. That's a good",
+        "start": 640.64,
+        "duration": 6.56
+      },
+      {
+        "text": "good setup. That's pretty much how it",
+        "start": 645.279,
+        "duration": 4.56
+      },
+      {
+        "text": "works in my job. Yeah, I think we",
+        "start": 647.2,
+        "duration": 8.04
+      },
+      {
+        "text": "learned a lot from Off-Road Funfinder.",
+        "start": 649.839,
+        "duration": 5.401
+      },
+      {
+        "text": "Okay, I'm pinging Adam right now to see",
+        "start": 675.04,
+        "duration": 5.359
+      },
+      {
+        "text": "if he can resend that email. Oh,",
+        "start": 677.44,
+        "duration": 6.639
+      },
+      {
+        "text": "perfect. Good. Because it's not letting",
+        "start": 680.399,
+        "duration": 6.68
+      },
+      {
+        "text": "me",
+        "start": 684.079,
+        "duration": 3.0
+      },
+      {
+        "text": "Thanks for answering all my questions,",
+        "start": 690.88,
+        "duration": 4.48
+      },
+      {
+        "text": "Nick. I really appreciate it.",
+        "start": 692.64,
+        "duration": 5.439
+      },
+      {
+        "text": "Yeah, for sure.",
+        "start": 695.36,
+        "duration": 4.24
+      },
+      {
+        "text": "Good questions. All right, let's see.",
+        "start": 698.079,
+        "duration": 2.961
+      },
+      {
+        "text": "He's typing. He's on his phone.",
+        "start": 699.6,
+        "duration": 5.479
+      },
+      {
+        "text": "Hopefully, he's around his computer.",
+        "start": 701.04,
+        "duration": 4.039
+      },
+      {
+        "text": "Otherwise, we can start um with",
+        "start": 705.279,
+        "duration": 10.281
+      },
+      {
+        "text": "maybe actually setting up some",
+        "start": 710.8,
+        "duration": 4.76
+      },
+      {
+        "text": "I still need to clean up the read me so",
+        "start": 721.2,
+        "duration": 3.68
+      },
+      {
+        "text": "we can go through that real quick. And",
+        "start": 722.72,
+        "duration": 5.84
+      },
+      {
+        "text": "then I wanted to set up uh Lang Smith",
+        "start": 724.88,
+        "duration": 5.92
+      },
+      {
+        "text": "after this",
+        "start": 728.56,
+        "duration": 5.279
+      },
+      {
+        "text": "so we can start doing some eval. So",
+        "start": 730.8,
+        "duration": 6.08
+      },
+      {
+        "text": "maybe that would be a good",
+        "start": 733.839,
+        "duration": 7.56
+      },
+      {
+        "text": "uh exercise to do.",
+        "start": 736.88,
+        "duration": 4.519
+      },
+      {
+        "text": "Okay. Yeah, he's not at his computer",
+        "start": 800.079,
+        "duration": 4.401
+      },
+      {
+        "text": "right now. So, we can probably walk",
+        "start": 801.839,
+        "duration": 6.201
+      },
+      {
+        "text": "through that.",
+        "start": 804.48,
+        "duration": 3.56
+      },
+      {
+        "text": "Updating",
+        "start": 808.24,
+        "duration": 3.0
+      },
+      {
+        "text": "blanksmith",
+        "start": 811.839,
+        "duration": 5.0
+      },
+      {
+        "text": "and",
+        "start": 813.839,
+        "duration": 3.0
+      },
+      {
+        "text": "real quick. Let's see.",
+        "start": 827.839,
+        "duration": 3.841
+      },
+      {
+        "text": "and updating that read me.",
+        "start": 842.72,
+        "duration": 4.44
+      },
+      {
+        "text": "And then I don't know, do we have a",
+        "start": 848.16,
+        "duration": 3.2
+      },
+      {
+        "text": "Jurro project set up for this? Maybe we",
+        "start": 849.36,
+        "duration": 3.36
+      },
+      {
+        "text": "can also go through and start cleaning",
+        "start": 851.36,
+        "duration": 4.479
+      },
+      {
+        "text": "up some tickets too. Um, we have a",
+        "start": 852.72,
+        "duration": 5.44
+      },
+      {
+        "text": "project board on GitHub.",
+        "start": 855.839,
+        "duration": 4.641
+      },
+      {
+        "text": "Perfect.",
+        "start": 858.16,
+        "duration": 6.76
+      },
+      {
+        "text": "this GitHub I have access to.",
+        "start": 860.48,
+        "duration": 4.44
+      },
+      {
+        "text": "I think we actually have a PR we can",
+        "start": 867.36,
+        "duration": 4.599
+      },
+      {
+        "text": "review.",
+        "start": 868.959,
+        "duration": 3.0
+      },
+      {
+        "text": "Somebody was using cursor. Nice. Oh",
+        "start": 876.32,
+        "duration": 6.6
+      },
+      {
+        "text": "yeah, that's Adam.",
+        "start": 879.44,
+        "duration": 3.48
+      },
+      {
+        "text": "Cool. Let's see.",
+        "start": 887.12,
+        "duration": 4.36
+      },
+      {
+        "text": "There we go.",
+        "start": 899.6,
+        "duration": 3.4
+      },
+      {
+        "text": "All right. So, projects.",
+        "start": 916.72,
+        "duration": 4.559
+      },
+      {
+        "text": "Oh, I might not have access to the",
+        "start": 919.839,
+        "duration": 3.521
+      },
+      {
+        "text": "board. Huh.",
+        "start": 921.279,
+        "duration": 4.641
+      },
+      {
+        "text": "Oh, see if I can because I think that",
+        "start": 923.36,
+        "duration": 5.36
+      },
+      {
+        "text": "was like a separate seat or something.",
+        "start": 925.92,
+        "duration": 4.159
+      },
+      {
+        "text": "But it doesn't matter. I can see the",
+        "start": 928.72,
+        "duration": 4.4
+      },
+      {
+        "text": "issues. Okay. So,",
+        "start": 930.079,
+        "duration": 5.601
+      },
+      {
+        "text": "can use these.",
+        "start": 933.12,
+        "duration": 5.2
+      },
+      {
+        "text": "Uh, looks like a bunch of these are",
+        "start": 935.68,
+        "duration": 4.719
+      },
+      {
+        "text": "really old.",
+        "start": 938.32,
+        "duration": 3.92
+      },
+      {
+        "text": "Yeah. And I don't know if we've used",
+        "start": 940.399,
+        "duration": 3.68
+      },
+      {
+        "text": "them for anything. Definitely the ones I",
+        "start": 942.24,
+        "duration": 5.399
+      },
+      {
+        "text": "made we can close.",
+        "start": 944.079,
+        "duration": 3.56
+      },
+      {
+        "text": "Mr. Notebook button.",
+        "start": 950.32,
+        "duration": 5.759
+      },
+      {
+        "text": "You can probably do that.",
+        "start": 953.519,
+        "duration": 7.081
+      },
+      {
+        "text": "Oh, fix that.",
+        "start": 956.079,
+        "duration": 4.521
+      },
+      {
+        "text": "Close that one.",
+        "start": 960.639,
+        "duration": 3.64
+      },
+      {
+        "text": "That's just an idea. That's just an",
+        "start": 964.88,
+        "duration": 5.16
+      },
+      {
+        "text": "idea.",
+        "start": 967.04,
+        "duration": 3.0
+      },
+      {
+        "text": "So we made that S3",
+        "start": 977.92,
+        "duration": 3.8
+      },
+      {
+        "text": "image saving.",
+        "start": 982.16,
+        "duration": 3.479
+      },
+      {
+        "text": "Yeah, I see you as an outside",
+        "start": 988.8,
+        "duration": 4.32
+      },
+      {
+        "text": "collaborator",
+        "start": 990.399,
+        "duration": 6.481
+      },
+      {
+        "text": "on the board. Uh, no, on um on our",
+        "start": 993.12,
+        "duration": 6.0
+      },
+      {
+        "text": "GitHub organization. So like it was just",
+        "start": 996.88,
+        "duration": 4.72
+      },
+      {
+        "text": "like you said, it's",
+        "start": 999.12,
+        "duration": 6.079
+      },
+      {
+        "text": "You do not have a seat on.",
+        "start": 1001.6,
+        "duration": 5.599
+      },
+      {
+        "text": "Got it.",
+        "start": 1005.199,
+        "duration": 5.44
+      },
+      {
+        "text": "Strike PDF. Okay.",
+        "start": 1007.199,
+        "duration": 4.481
+      },
+      {
+        "text": "So, I don't know if we're going to be",
+        "start": 1010.639,
+        "duration": 3.2
+      },
+      {
+        "text": "doing the PDF thing. So, I'm going to",
+        "start": 1011.68,
+        "duration": 5.64
+      },
+      {
+        "text": "close those.",
+        "start": 1013.839,
+        "duration": 3.481
+      },
+      {
+        "text": "That's a bug I need to fix.",
+        "start": 1018.0,
+        "duration": 4.12
+      },
+      {
+        "text": "[Music]",
+        "start": 1025.14,
+        "duration": 3.339
+      },
+      {
+        "text": "does automatically. This is just a",
+        "start": 1030.64,
+        "duration": 5.58
+      },
+      {
+        "text": "setting up a router. Setting up ahead",
+        "start": 1032.24,
+        "duration": 7.21
+      },
+      {
+        "text": "[Applause]",
+        "start": 1036.22,
+        "duration": 3.23
+      },
+      {
+        "text": "by",
+        "start": 1046.88,
+        "duration": 3.0
+      },
+      {
+        "text": "We already should be pulling the delta,",
+        "start": 1052.799,
+        "duration": 4.321
+      },
+      {
+        "text": "I think. Oh, that might have been adding",
+        "start": 1055.679,
+        "duration": 5.081
+      },
+      {
+        "text": "it to that. Okay.",
+        "start": 1057.12,
+        "duration": 3.64
+      },
+      {
+        "text": "What?",
+        "start": 1063.76,
+        "duration": 3.2
+      },
+      {
+        "text": "So, I'm keeping the ones that are",
+        "start": 1065.84,
+        "duration": 2.64
+      },
+      {
+        "text": "basically bugs. I can go through and",
+        "start": 1066.96,
+        "duration": 3.28
+      },
+      {
+        "text": "make sure they're fixed and I'll close",
+        "start": 1068.48,
+        "duration": 5.16
+      },
+      {
+        "text": "everything else.",
+        "start": 1070.24,
+        "duration": 3.4
+      },
+      {
+        "text": "This is a type error.",
+        "start": 1075.679,
+        "duration": 4.041
+      },
+      {
+        "text": "See what's that support for multiple",
+        "start": 1083.039,
+        "duration": 6.201
+      },
+      {
+        "text": "sources.",
+        "start": 1086.24,
+        "duration": 3.0
+      },
+      {
+        "text": "deploy.",
+        "start": 1089.84,
+        "duration": 4.16
+      },
+      {
+        "text": "It's kind of already in progress. It's",
+        "start": 1091.6,
+        "duration": 5.6
+      },
+      {
+        "text": "way too big for a single ticket anyway.",
+        "start": 1094.0,
+        "duration": 5.039
+      },
+      {
+        "text": "And then the web stuff is pretty much",
+        "start": 1097.2,
+        "duration": 5.12
+      },
+      {
+        "text": "dead, right?",
+        "start": 1099.039,
+        "duration": 4.88
+      },
+      {
+        "text": "There's nobody working on that right",
+        "start": 1102.32,
+        "duration": 4.599
+      },
+      {
+        "text": "now.",
+        "start": 1103.919,
+        "duration": 3.0
+      },
+      {
+        "text": "I'll just close these",
+        "start": 1108.32,
+        "duration": 4.2
+      },
+      {
+        "text": "I guess not planned. Yeah, it's fine.",
+        "start": 1120.16,
+        "duration": 5.08
+      },
+      {
+        "text": "I go back to open coal. All right, it's",
+        "start": 1129.6,
+        "duration": 5.199
+      },
+      {
+        "text": "just these.",
+        "start": 1132.0,
+        "duration": 5.039
+      },
+      {
+        "text": "I can get rid of that read me since we",
+        "start": 1134.799,
+        "duration": 5.721
+      },
+      {
+        "text": "have another one.",
+        "start": 1137.039,
+        "duration": 3.481
+      },
+      {
+        "text": "I guess this one's actually completed.",
+        "start": 1140.96,
+        "duration": 4.8
+      },
+      {
+        "text": "This was just setting up the initial",
+        "start": 1144.16,
+        "duration": 4.639
+      },
+      {
+        "text": "read me.",
+        "start": 1145.76,
+        "duration": 6.24
+      },
+      {
+        "text": "All right. Well, whatever.",
+        "start": 1148.799,
+        "duration": 6.481
+      },
+      {
+        "text": "We're not tracking story points anyway.",
+        "start": 1152.0,
+        "duration": 6.52
+      },
+      {
+        "text": "Let's see.",
+        "start": 1155.28,
+        "duration": 3.24
+      },
+      {
+        "text": "Okay. So, do some housekeeping.",
+        "start": 1163.039,
+        "duration": 5.561
+      },
+      {
+        "text": "Okay, we have two for product setup.",
+        "start": 1174.96,
+        "duration": 5.48
+      },
+      {
+        "text": "Yeah, that's a good one.",
+        "start": 1191.36,
+        "duration": 3.88
+      },
+      {
+        "text": "Oh, that's empty. Yeah. Yeah. So I guess",
+        "start": 1195.84,
+        "duration": 4.4
+      },
+      {
+        "text": "before adding unit tests, right, we just",
+        "start": 1198.32,
+        "duration": 3.52
+      },
+      {
+        "text": "kind of need to even add the whole like",
+        "start": 1200.24,
+        "duration": 3.76
+      },
+      {
+        "text": "framework. Yeah. Yeah. So we would need",
+        "start": 1201.84,
+        "duration": 4.88
+      },
+      {
+        "text": "to add piest in here, add like the first",
+        "start": 1204.0,
+        "duration": 7.28
+      },
+      {
+        "text": "unit test and then hook it up into",
+        "start": 1206.72,
+        "duration": 7.56
+      },
+      {
+        "text": "uh",
+        "start": 1211.28,
+        "duration": 3.0
+      },
+      {
+        "text": "hook it into uh",
+        "start": 1215.76,
+        "duration": 4.52
+      },
+      {
+        "text": "the GitHub actions.",
+        "start": 1220.88,
+        "duration": 4.96
+      },
+      {
+        "text": "Really use the sub issue thing. You",
+        "start": 1224.4,
+        "duration": 3.279
+      },
+      {
+        "text": "always just use those check boxes in",
+        "start": 1225.84,
+        "duration": 3.68
+      },
+      {
+        "text": "there.",
+        "start": 1227.679,
+        "duration": 5.041
+      },
+      {
+        "text": "We can give this a shot though.",
+        "start": 1229.52,
+        "duration": 7.88
+      },
+      {
+        "text": "So setup pi test",
+        "start": 1232.72,
+        "duration": 4.68
+      },
+      {
+        "text": "project",
+        "start": 1242.88,
+        "duration": 3.0
+      },
+      {
+        "text": "did anybody add it to the dependencies?",
+        "start": 1257.52,
+        "duration": 4.56
+      },
+      {
+        "text": "It's",
+        "start": 1259.2,
+        "duration": 5.88
+      },
+      {
+        "text": "nope.",
+        "start": 1262.08,
+        "duration": 3.0
+      },
+      {
+        "text": "Huh. Okay.",
+        "start": 1285.12,
+        "duration": 6.96
+      },
+      {
+        "text": "apply test.",
+        "start": 1288.72,
+        "duration": 4.959
+      },
+      {
+        "text": "I don't know what kind of granularity do",
+        "start": 1292.08,
+        "duration": 5.079
+      },
+      {
+        "text": "you use for these",
+        "start": 1293.679,
+        "duration": 3.48
+      },
+      {
+        "text": "it depends on sub isues or say again do",
+        "start": 1297.6,
+        "duration": 8.24
+      },
+      {
+        "text": "you even use the sub issues or",
+        "start": 1302.48,
+        "duration": 4.96
+      },
+      {
+        "text": "not really not unless it's like part of",
+        "start": 1305.84,
+        "duration": 4.24
+      },
+      {
+        "text": "a story.",
+        "start": 1307.44,
+        "duration": 5.04
+      },
+      {
+        "text": "Okay,",
+        "start": 1310.08,
+        "duration": 6.44
+      },
+      {
+        "text": "I'll just do it like this.",
+        "start": 1312.48,
+        "duration": 4.04
+      },
+      {
+        "text": "There we go. Test list. Yeah.",
+        "start": 1319.6,
+        "duration": 8.24
+      },
+      {
+        "text": "Set up pi test.",
+        "start": 1324.48,
+        "duration": 8.439
+      },
+      {
+        "text": "Add to dev dependencies.",
+        "start": 1327.84,
+        "duration": 5.079
+      },
+      {
+        "text": "You want pi test to have its own",
+        "start": 1338.48,
+        "duration": 5.84
+      },
+      {
+        "text": "configuration file. Mhm.",
+        "start": 1339.84,
+        "duration": 7.28
+      },
+      {
+        "text": "Should. Right.",
+        "start": 1344.32,
+        "duration": 5.92
+      },
+      {
+        "text": "I've I've seen tests set up without one,",
+        "start": 1347.12,
+        "duration": 4.96
+      },
+      {
+        "text": "but",
+        "start": 1350.24,
+        "duration": 4.88
+      },
+      {
+        "text": "it makes it a lot easier if there is",
+        "start": 1352.08,
+        "duration": 6.4
+      },
+      {
+        "text": "one. Cool.",
+        "start": 1355.12,
+        "duration": 7.559
+      },
+      {
+        "text": "Whatever you think is best",
+        "start": 1358.48,
+        "duration": 4.199
+      },
+      {
+        "text": "file,",
+        "start": 1363.2,
+        "duration": 7.839
+      },
+      {
+        "text": "write a unit test and then uh",
+        "start": 1365.12,
+        "duration": 9.2
+      },
+      {
+        "text": "hook is hooking it into GitHub actions.",
+        "start": 1371.039,
+        "duration": 5.841
+      },
+      {
+        "text": "Have you done that before, Melissa? That",
+        "start": 1374.32,
+        "duration": 5.68
+      },
+      {
+        "text": "I have not done, but I can research it",
+        "start": 1376.88,
+        "duration": 5.36
+      },
+      {
+        "text": "and figure it out. I'm sure. Okay. Yeah.",
+        "start": 1380.0,
+        "duration": 3.84
+      },
+      {
+        "text": "If it's a lot, maybe we just make this",
+        "start": 1382.24,
+        "duration": 5.64
+      },
+      {
+        "text": "one its own story.",
+        "start": 1383.84,
+        "duration": 4.04
+      },
+      {
+        "text": "We can update the title too to say like",
+        "start": 1389.679,
+        "duration": 5.281
+      },
+      {
+        "text": "set up",
+        "start": 1392.32,
+        "duration": 5.64
+      },
+      {
+        "text": "framework.",
+        "start": 1394.96,
+        "duration": 3.0
+      },
+      {
+        "text": "Cool. So that one.",
+        "start": 1402.24,
+        "duration": 4.2
+      },
+      {
+        "text": "Oh, nobody else. There we go.",
+        "start": 1412.159,
+        "duration": 4.841
+      },
+      {
+        "text": "Sweet.",
+        "start": 1418.24,
+        "duration": 3.0
+      },
+      {
+        "text": "Oh, yeah. So, this one we are",
+        "start": 1422.08,
+        "duration": 8.52
+      },
+      {
+        "text": "working is not planned.",
+        "start": 1426.64,
+        "duration": 3.96
+      },
+      {
+        "text": "into",
+        "start": 1446.48,
+        "duration": 5.319
+      },
+      {
+        "text": "actions.",
+        "start": 1448.799,
+        "duration": 3.0
+      },
+      {
+        "text": "One second. Somebody's at my door.",
+        "start": 1456.96,
+        "duration": 4.4
+      },
+      {
+        "text": "I'm not under I don't know why he",
+        "start": 1468.159,
+        "duration": 4.321
+      },
+      {
+        "text": "doesn't have access to the board because",
+        "start": 1469.76,
+        "duration": 6.64
+      },
+      {
+        "text": "he has a GitHub seat.",
+        "start": 1472.48,
+        "duration": 7.52
+      },
+      {
+        "text": "He's part of it's part of",
+        "start": 1476.4,
+        "duration": 5.92
+      },
+      {
+        "text": "like we're using 35 of 40 seats. I need",
+        "start": 1480.0,
+        "duration": 3.76
+      },
+      {
+        "text": "to get rid of five of the seats because",
+        "start": 1482.32,
+        "duration": 3.2
+      },
+      {
+        "text": "we're charged for them. But like he",
+        "start": 1483.76,
+        "duration": 3.6
+      },
+      {
+        "text": "already is using a seat. So, I don't",
+        "start": 1485.52,
+        "duration": 3.519
+      },
+      {
+        "text": "know why",
+        "start": 1487.36,
+        "duration": 3.6
+      },
+      {
+        "text": "he has access to the repository, but",
+        "start": 1489.039,
+        "duration": 5.64
+      },
+      {
+        "text": "he's not on the team.",
+        "start": 1490.96,
+        "duration": 3.719
+      },
+      {
+        "text": "I'm gonna ask",
+        "start": 1532.96,
+        "duration": 3.4
+      },
+      {
+        "text": "Oh, I'm still muted. Um,",
+        "start": 1538.159,
+        "duration": 5.681
+      },
+      {
+        "text": "all right. Uh, I was saying, uh, maybe I",
+        "start": 1541.919,
+        "duration": 3.041
+      },
+      {
+        "text": "need to be added to the board",
+        "start": 1543.84,
+        "duration": 3.199
+      },
+      {
+        "text": "specifically.",
+        "start": 1544.96,
+        "duration": 3.92
+      },
+      {
+        "text": "Maybe",
+        "start": 1547.039,
+        "duration": 3.201
+      },
+      {
+        "text": "I remember this was a whole like",
+        "start": 1548.88,
+        "duration": 3.039
+      },
+      {
+        "text": "separate thing that felt kind of bolted",
+        "start": 1550.24,
+        "duration": 3.36
+      },
+      {
+        "text": "on. But either way, I can see all the",
+        "start": 1551.919,
+        "duration": 4.0
+      },
+      {
+        "text": "issues. I just can't see like what phase",
+        "start": 1553.6,
+        "duration": 4.959
+      },
+      {
+        "text": "they're in. But",
+        "start": 1555.919,
+        "duration": 4.64
+      },
+      {
+        "text": "as long as I can see the issues, I'm not",
+        "start": 1558.559,
+        "duration": 5.24
+      },
+      {
+        "text": "really blocked.",
+        "start": 1560.559,
+        "duration": 3.24
+      },
+      {
+        "text": "Um, okay. So, we want to hook Piest into",
+        "start": 1564.4,
+        "duration": 5.04
+      },
+      {
+        "text": "GitHub actions. We want Piest to run. I",
+        "start": 1566.88,
+        "duration": 5.039
+      },
+      {
+        "text": "guess we should do this agile, right?",
+        "start": 1569.44,
+        "duration": 5.599
+      },
+      {
+        "text": "our pi test run with every pull request",
+        "start": 1571.919,
+        "duration": 6.64
+      },
+      {
+        "text": "so we can safely",
+        "start": 1575.039,
+        "duration": 7.081
+      },
+      {
+        "text": "and confidently",
+        "start": 1578.559,
+        "duration": 3.561
+      },
+      {
+        "text": "deploy changes to the codeex.",
+        "start": 1582.24,
+        "duration": 6.799
+      },
+      {
+        "text": "So I don't have the user persona in",
+        "start": 1587.36,
+        "duration": 6.36
+      },
+      {
+        "text": "there, but I at least got the why.",
+        "start": 1589.039,
+        "duration": 4.681
+      },
+      {
+        "text": "And then same thing with the unit test",
+        "start": 1593.76,
+        "duration": 4.919
+      },
+      {
+        "text": "framework.",
+        "start": 1595.679,
+        "duration": 3.0
+      },
+      {
+        "text": "I guess we could say as",
+        "start": 1603.679,
+        "duration": 7.161
+      },
+      {
+        "text": "developer",
+        "start": 1607.84,
+        "duration": 3.0
+      },
+      {
+        "text": "I want to be able to",
+        "start": 1611.44,
+        "duration": 6.239
+      },
+      {
+        "text": "run.",
+        "start": 1615.76,
+        "duration": 3.6
+      },
+      {
+        "text": "Guess this is mostly for regression",
+        "start": 1617.679,
+        "duration": 4.681
+      },
+      {
+        "text": "tests.",
+        "start": 1619.36,
+        "duration": 3.0
+      },
+      {
+        "text": "So I can",
+        "start": 1626.08,
+        "duration": 3.839
+      },
+      {
+        "text": "Make sure my changes",
+        "start": 1630.0,
+        "duration": 6.159
+      },
+      {
+        "text": "don't break",
+        "start": 1633.52,
+        "duration": 5.44
+      },
+      {
+        "text": "any",
+        "start": 1636.159,
+        "duration": 5.76
+      },
+      {
+        "text": "existing",
+        "start": 1638.96,
+        "duration": 5.959
+      },
+      {
+        "text": "functionality",
+        "start": 1641.919,
+        "duration": 3.0
+      },
+      {
+        "text": "and I can confidently",
+        "start": 1647.679,
+        "duration": 5.0
+      },
+      {
+        "text": "push changes",
+        "start": 1652.799,
+        "duration": 4.48
+      },
+      {
+        "text": "changes I",
+        "start": 1655.36,
+        "duration": 5.28
+      },
+      {
+        "text": "actually questioning them.",
+        "start": 1657.279,
+        "duration": 6.361
+      },
+      {
+        "text": "Cool.",
+        "start": 1660.64,
+        "duration": 3.0
+      },
+      {
+        "text": "All right, I'll go through the rest of",
+        "start": 1664.88,
+        "duration": 3.76
+      },
+      {
+        "text": "these bugs later and see what's still",
+        "start": 1666.0,
+        "duration": 5.64
+      },
+      {
+        "text": "relevant.",
+        "start": 1668.64,
+        "duration": 3.0
+      },
+      {
+        "text": "So, in the with the with the pi test set",
+        "start": 1671.919,
+        "duration": 6.48
+      },
+      {
+        "text": "up, do you want me to Are we Are we",
+        "start": 1674.799,
+        "duration": 5.76
+      },
+      {
+        "text": "trying to get this",
+        "start": 1678.399,
+        "duration": 4.561
+      },
+      {
+        "text": "program? I'm I just keep thinking of",
+        "start": 1680.559,
+        "duration": 4.321
+      },
+      {
+        "text": "like um support local. Are we trying to",
+        "start": 1682.96,
+        "duration": 3.28
+      },
+      {
+        "text": "get this set up to where eventually",
+        "start": 1684.88,
+        "duration": 3.84
+      },
+      {
+        "text": "interns can just come in and on this",
+        "start": 1686.24,
+        "duration": 4.48
+      },
+      {
+        "text": "project like they do on support local or",
+        "start": 1688.72,
+        "duration": 5.4
+      },
+      {
+        "text": "or others",
+        "start": 1690.72,
+        "duration": 3.4
+      },
+      {
+        "text": "or is Dr. running",
+        "start": 1696.0,
+        "duration": 4.84
+      },
+      {
+        "text": "for pi test you're saying or just",
+        "start": 1702.559,
+        "duration": 3.761
+      },
+      {
+        "text": "generally? Well, no just in general on",
+        "start": 1704.48,
+        "duration": 4.88
+      },
+      {
+        "text": "the project on for coding tutor.",
+        "start": 1706.32,
+        "duration": 5.28
+      },
+      {
+        "text": "Yeah, I think that's kind of the goal.",
+        "start": 1709.36,
+        "duration": 7.28
+      },
+      {
+        "text": "Okay. So with the um pi test and the",
+        "start": 1711.6,
+        "duration": 6.72
+      },
+      {
+        "text": "testing configuration and all that, do",
+        "start": 1716.64,
+        "duration": 3.36
+      },
+      {
+        "text": "you want me to create a section in the",
+        "start": 1718.32,
+        "duration": 3.44
+      },
+      {
+        "text": "read me",
+        "start": 1720.0,
+        "duration": 5.12
+      },
+      {
+        "text": "um to explain like new interns how to",
+        "start": 1721.76,
+        "duration": 7.6
+      },
+      {
+        "text": "set up pi tests and how to",
+        "start": 1725.12,
+        "duration": 5.919
+      },
+      {
+        "text": "um",
+        "start": 1729.36,
+        "duration": 4.4
+      },
+      {
+        "text": "like where the placement of the of the",
+        "start": 1731.039,
+        "duration": 6.081
+      },
+      {
+        "text": "files should be or how to yeah that' be",
+        "start": 1733.76,
+        "duration": 5.68
+      },
+      {
+        "text": "great how to check their coverage or you",
+        "start": 1737.12,
+        "duration": 3.919
+      },
+      {
+        "text": "know like that in the command line. I",
+        "start": 1739.44,
+        "duration": 2.8
+      },
+      {
+        "text": "don't",
+        "start": 1741.039,
+        "duration": 4.64
+      },
+      {
+        "text": "A lot of people coming into the um",
+        "start": 1742.24,
+        "duration": 6.64
+      },
+      {
+        "text": "internship initially may not know how to",
+        "start": 1745.679,
+        "duration": 6.36
+      },
+      {
+        "text": "do that.",
+        "start": 1748.88,
+        "duration": 3.159
+      },
+      {
+        "text": "Yeah. No, that'd be great. As a new",
+        "start": 1752.799,
+        "duration": 5.6
+      },
+      {
+        "text": "developer to the project,",
+        "start": 1754.799,
+        "duration": 6.081
+      },
+      {
+        "text": "I want to",
+        "start": 1758.399,
+        "duration": 5.52
+      },
+      {
+        "text": "be familiar",
+        "start": 1760.88,
+        "duration": 6.039
+      },
+      {
+        "text": "with",
+        "start": 1763.919,
+        "duration": 3.0
+      },
+      {
+        "text": "how we run tests.",
+        "start": 1767.52,
+        "duration": 5.8
+      },
+      {
+        "text": "Good to call out.",
+        "start": 1782.72,
+        "duration": 3.8
+      },
+      {
+        "text": "Nick, I sent you an invite to the code",
+        "start": 1790.96,
+        "duration": 4.959
+      },
+      {
+        "text": "tutor team.",
+        "start": 1793.44,
+        "duration": 6.599
+      },
+      {
+        "text": "Oh, cool. Yeah.",
+        "start": 1795.919,
+        "duration": 4.12
+      },
+      {
+        "text": "So I will hop on that.",
+        "start": 1806.0,
+        "duration": 4.2
+      },
+      {
+        "text": "Melissa, do you have access to the um",
+        "start": 1813.84,
+        "duration": 6.079
+      },
+      {
+        "text": "the codeutor project board?",
+        "start": 1816.64,
+        "duration": 5.519
+      },
+      {
+        "text": "Uh yeah, I believe so. Let me check real",
+        "start": 1819.919,
+        "duration": 5.24
+      },
+      {
+        "text": "quick.",
+        "start": 1822.159,
+        "duration": 3.0
+      },
+      {
+        "text": "I have like eight GitHub windows open. I",
+        "start": 1833.039,
+        "duration": 5.12
+      },
+      {
+        "text": "got to find one that I'm not currently",
+        "start": 1835.679,
+        "duration": 5.281
+      },
+      {
+        "text": "using. Let's see. I've recently gotten",
+        "start": 1838.159,
+        "duration": 5.281
+      },
+      {
+        "text": "into the habit of just closing my tabs",
+        "start": 1840.96,
+        "duration": 6.16
+      },
+      {
+        "text": "on my computer. Not on my phone.",
+        "start": 1843.44,
+        "duration": 6.239
+      },
+      {
+        "text": "My phone still has like",
+        "start": 1847.12,
+        "duration": 6.36
+      },
+      {
+        "text": "I don't know how many.",
+        "start": 1849.679,
+        "duration": 3.801
+      },
+      {
+        "text": "Yeah, pretty much at the beginning of",
+        "start": 1855.919,
+        "duration": 3.441
+      },
+      {
+        "text": "every day I'm like, \"How did I open so",
+        "start": 1857.36,
+        "duration": 5.84
+      },
+      {
+        "text": "many tabs?\" And I just knew all start it",
+        "start": 1859.36,
+        "duration": 7.24
+      },
+      {
+        "text": "all over again.",
+        "start": 1863.2,
+        "duration": 3.4
+      },
+      {
+        "text": "Cool. I can see.",
+        "start": 1867.84,
+        "duration": 4.079
+      },
+      {
+        "text": "I thought I had it and I thought I",
+        "start": 1870.24,
+        "duration": 5.2
+      },
+      {
+        "text": "started, but now I don't see it. See the",
+        "start": 1871.919,
+        "duration": 7.041
+      },
+      {
+        "text": "project for? You should. Oh, wait. There",
+        "start": 1875.44,
+        "duration": 5.839
+      },
+      {
+        "text": "it is.",
+        "start": 1878.96,
+        "duration": 4.959
+      },
+      {
+        "text": "Yep. Yep. I have it. Um Oh, cool.",
+        "start": 1881.279,
+        "duration": 4.721
+      },
+      {
+        "text": "Perfect. I did it right. I was I was",
+        "start": 1883.919,
+        "duration": 6.76
+      },
+      {
+        "text": "experimenting on on this.",
+        "start": 1886.0,
+        "duration": 4.679
+      },
+      {
+        "text": "Everything's Everything's good. I think",
+        "start": 1891.279,
+        "duration": 5.201
+      },
+      {
+        "text": "I'm gonna um",
+        "start": 1893.44,
+        "duration": 5.2
+      },
+      {
+        "text": "So, yeah, I had to add the board to the",
+        "start": 1896.48,
+        "duration": 6.24
+      },
+      {
+        "text": "team. So, I don't I'm not sure if you",
+        "start": 1898.64,
+        "duration": 5.68
+      },
+      {
+        "text": "had access to it like since Adam",
+        "start": 1902.72,
+        "duration": 5.679
+      },
+      {
+        "text": "rearranged everything. And then",
+        "start": 1904.32,
+        "duration": 7.28
+      },
+      {
+        "text": "Nick and Matthew are",
+        "start": 1908.399,
+        "duration": 5.041
+      },
+      {
+        "text": "outside collaborators. So you have",
+        "start": 1911.6,
+        "duration": 4.0
+      },
+      {
+        "text": "access to the repository but not the",
+        "start": 1913.44,
+        "duration": 6.0
+      },
+      {
+        "text": "board. So the invite all it did was it",
+        "start": 1915.6,
+        "duration": 6.079
+      },
+      {
+        "text": "just moved your seat from outside",
+        "start": 1919.44,
+        "duration": 4.56
+      },
+      {
+        "text": "collaborators to members. So it didn't",
+        "start": 1921.679,
+        "duration": 5.201
+      },
+      {
+        "text": "add anything extra. I was worried. I was",
+        "start": 1924.0,
+        "duration": 4.69
+      },
+      {
+        "text": "sweating.",
+        "start": 1926.88,
+        "duration": 5.17
+      },
+      {
+        "text": "[Laughter]",
+        "start": 1928.69,
+        "duration": 3.36
+      },
+      {
+        "text": "Got it. So now we're official. Official.",
+        "start": 1933.279,
+        "duration": 4.24
+      },
+      {
+        "text": "Nice. Yeah. I'm gonna do the same thing",
+        "start": 1935.44,
+        "duration": 6.599
+      },
+      {
+        "text": "for Matthew. Um, so",
+        "start": 1937.519,
+        "duration": 4.52
+      },
+      {
+        "text": "I'll send you a message.",
+        "start": 1943.919,
+        "duration": 3.64
+      },
+      {
+        "text": "Add this to the dependency. Let me do",
+        "start": 1960.32,
+        "duration": 5.88
+      },
+      {
+        "text": "that.",
+        "start": 1963.2,
+        "duration": 3.0
+      },
+      {
+        "text": "It's 2023. I swear there's a way to do",
+        "start": 1989.12,
+        "duration": 5.72
+      },
+      {
+        "text": "this now.",
+        "start": 1991.6,
+        "duration": 3.24
+      },
+      {
+        "text": "[Music]",
+        "start": 2017.38,
+        "duration": 3.189
+      },
+      {
+        "text": "Okay. So this is under specifically",
+        "start": 2026.48,
+        "duration": 5.24
+      },
+      {
+        "text": "poetry.",
+        "start": 2028.72,
+        "duration": 3.0
+      },
+      {
+        "text": "project section.",
+        "start": 2056.0,
+        "duration": 2.8
+      },
+      {
+        "text": "Oops.",
+        "start": 2070.639,
+        "duration": 3.0
+      },
+      {
+        "text": "Huh.",
+        "start": 2074.96,
+        "duration": 3.0
+      },
+      {
+        "text": "Guess we're going to put this under",
+        "start": 2081.679,
+        "duration": 4.761
+      },
+      {
+        "text": "optional dependencies.",
+        "start": 2082.879,
+        "duration": 3.561
+      },
+      {
+        "text": "I'm using like an older version.",
+        "start": 2093.919,
+        "duration": 4.2
+      },
+      {
+        "text": "My project file looks different.",
+        "start": 2098.64,
+        "duration": 4.6
+      },
+      {
+        "text": "Probably 128 be it.",
+        "start": 2104.72,
+        "duration": 4.76
+      },
+      {
+        "text": "Sorry, I was just looking at what I",
+        "start": 2112.079,
+        "duration": 3.04
+      },
+      {
+        "text": "currently have in my repo and seeing if",
+        "start": 2113.359,
+        "duration": 4.72
+      },
+      {
+        "text": "I want to save it.",
+        "start": 2115.119,
+        "duration": 4.881
+      },
+      {
+        "text": "That's good. All part of the problem",
+        "start": 2118.079,
+        "duration": 3.52
+      },
+      {
+        "text": "solving.",
+        "start": 2120.0,
+        "duration": 3.599
+      },
+      {
+        "text": "Let's see.",
+        "start": 2121.599,
+        "duration": 6.681
+      },
+      {
+        "text": "For some reason, this looks different.",
+        "start": 2123.599,
+        "duration": 4.681
+      },
+      {
+        "text": "Managing dependencies. Okay.",
+        "start": 2134.96,
+        "duration": 7.04
+      },
+      {
+        "text": "Oh, here we go.",
+        "start": 2139.28,
+        "duration": 4.16
+      },
+      {
+        "text": "Oh, cool. So, they have this test",
+        "start": 2142.0,
+        "duration": 4.44
+      },
+      {
+        "text": "dependencies",
+        "start": 2143.44,
+        "duration": 3.0
+      },
+      {
+        "text": "dependency group.",
+        "start": 2147.599,
+        "duration": 6.601
+      },
+      {
+        "text": "So, let me add that to the ticket.",
+        "start": 2149.92,
+        "duration": 4.28
+      },
+      {
+        "text": "So, it looks like you can add in the pi",
+        "start": 2156.8,
+        "duration": 4.08
+      },
+      {
+        "text": "project tommoal file this test",
+        "start": 2158.88,
+        "duration": 3.92
+      },
+      {
+        "text": "dependencies",
+        "start": 2160.88,
+        "duration": 4.92
+      },
+      {
+        "text": "part.",
+        "start": 2162.8,
+        "duration": 3.0
+      },
+      {
+        "text": "So, where is",
+        "start": 2167.52,
+        "duration": 7.36
+      },
+      {
+        "text": "where are the new ones we just made?",
+        "start": 2171.52,
+        "duration": 5.36
+      },
+      {
+        "text": "Oh, they're not even on the backlog",
+        "start": 2174.88,
+        "duration": 4.4
+      },
+      {
+        "text": "probably.",
+        "start": 2176.88,
+        "duration": 5.68
+      },
+      {
+        "text": "I remember this was tricky tricky. Okay,",
+        "start": 2179.28,
+        "duration": 7.04
+      },
+      {
+        "text": "let's come in here. Yeah, if you add",
+        "start": 2182.56,
+        "duration": 6.799
+      },
+      {
+        "text": "them from the issues,",
+        "start": 2186.32,
+        "duration": 6.799
+      },
+      {
+        "text": "um it doesn't automatically add to",
+        "start": 2189.359,
+        "duration": 10.601
+      },
+      {
+        "text": "Yeah. So I can add them to this project.",
+        "start": 2193.119,
+        "duration": 6.841
+      },
+      {
+        "text": "Yeah, that's right.",
+        "start": 2200.32,
+        "duration": 3.799
+      },
+      {
+        "text": "Cool.",
+        "start": 2204.88,
+        "duration": 3.0
+      },
+      {
+        "text": "All right. So now are they automatically",
+        "start": 2208.56,
+        "duration": 6.84
+      },
+      {
+        "text": "on the backlog? Cool.",
+        "start": 2211.28,
+        "duration": 4.12
+      },
+      {
+        "text": "Come back to the projects.",
+        "start": 2215.839,
+        "duration": 3.961
+      },
+      {
+        "text": "Awesome.",
+        "start": 2223.44,
+        "duration": 3.0
+      },
+      {
+        "text": "Cool.",
+        "start": 2243.68,
+        "duration": 3.0
+      },
+      {
+        "text": "So, it looks like they just have these",
+        "start": 2252.8,
+        "duration": 5.16
+      },
+      {
+        "text": "groups in there.",
+        "start": 2254.32,
+        "duration": 3.64
+      },
+      {
+        "text": "Okay, it looks like it's pretty",
+        "start": 2280.079,
+        "duration": 4.76
+      },
+      {
+        "text": "arbitrary.",
+        "start": 2281.839,
+        "duration": 3.0
+      },
+      {
+        "text": "So on one of the sessions early on I had",
+        "start": 2286.079,
+        "duration": 6.721
+      },
+      {
+        "text": "graph CLI, but that's not something that",
+        "start": 2289.839,
+        "duration": 4.481
+      },
+      {
+        "text": "you're going to need when you deploy",
+        "start": 2292.8,
+        "duration": 4.0
+      },
+      {
+        "text": "this thing. This was something that was",
+        "start": 2294.32,
+        "duration": 5.519
+      },
+      {
+        "text": "kind of like specifically in there",
+        "start": 2296.8,
+        "duration": 5.6
+      },
+      {
+        "text": "as part of like",
+        "start": 2299.839,
+        "duration": 5.28
+      },
+      {
+        "text": "development tooling.",
+        "start": 2302.4,
+        "duration": 4.16
+      },
+      {
+        "text": "And we're probably going to do the same",
+        "start": 2305.119,
+        "duration": 3.121
+      },
+      {
+        "text": "thing. Well, Ling Smith, we might want",
+        "start": 2306.56,
+        "duration": 4.88
+      },
+      {
+        "text": "to keep in there.",
+        "start": 2308.24,
+        "duration": 5.359
+      },
+      {
+        "text": "But the rest of these like you actually",
+        "start": 2311.44,
+        "duration": 5.36
+      },
+      {
+        "text": "need when you're like deploying it,",
+        "start": 2313.599,
+        "duration": 8.201
+      },
+      {
+        "text": "right? Python flash. M",
+        "start": 2316.8,
+        "duration": 5.0
+      },
+      {
+        "text": "psychopg. That's a",
+        "start": 2322.48,
+        "duration": 6.8
+      },
+      {
+        "text": "driver for Postgress.",
+        "start": 2325.52,
+        "duration": 7.64
+      },
+      {
+        "text": "These are to talk to AWS,",
+        "start": 2329.28,
+        "duration": 3.88
+      },
+      {
+        "text": "Olympic and SQ Alchemy or OM",
+        "start": 2333.76,
+        "duration": 5.12
+      },
+      {
+        "text": "Discord.",
+        "start": 2337.359,
+        "duration": 4.521
+      },
+      {
+        "text": "Discord",
+        "start": 2338.88,
+        "duration": 3.0
+      },
+      {
+        "text": "and some lang chain stuff and HTTPX is",
+        "start": 2342.64,
+        "duration": 9.199
+      },
+      {
+        "text": "for making HTTP requests.",
+        "start": 2347.52,
+        "duration": 6.319
+      },
+      {
+        "text": "But this one we only really need for",
+        "start": 2351.839,
+        "duration": 5.961
+      },
+      {
+        "text": "development. So",
+        "start": 2353.839,
+        "duration": 3.961
+      },
+      {
+        "text": "let's make sure this still installs.",
+        "start": 2361.44,
+        "duration": 4.44
+      },
+      {
+        "text": "Help real quick.",
+        "start": 2372.4,
+        "duration": 7.12
+      },
+      {
+        "text": "Good. I haven't used poetry in a while.",
+        "start": 2375.04,
+        "duration": 7.96
+      },
+      {
+        "text": "name space.",
+        "start": 2379.52,
+        "duration": 3.48
+      },
+      {
+        "text": "Okay.",
+        "start": 2383.599,
+        "duration": 3.0
+      },
+      {
+        "text": "[Music]",
+        "start": 2392.98,
+        "duration": 3.159
+      },
+      {
+        "text": "Literally looking at the pi project",
+        "start": 2398.48,
+        "duration": 3.68
+      },
+      {
+        "text": "total. So I don't know how you can not",
+        "start": 2400.32,
+        "duration": 5.08
+      },
+      {
+        "text": "find it.",
+        "start": 2402.16,
+        "duration": 3.24
+      },
+      {
+        "text": "Oh, it's under clients. That's why.",
+        "start": 2408.0,
+        "duration": 5.76
+      },
+      {
+        "text": "That's right. Because we set these up",
+        "start": 2412.079,
+        "duration": 5.881
+      },
+      {
+        "text": "not really as a mono repo.",
+        "start": 2413.76,
+        "duration": 4.2
+      },
+      {
+        "text": "Actually kind of separate repos in a",
+        "start": 2418.56,
+        "duration": 5.16
+      },
+      {
+        "text": "parent folder.",
+        "start": 2420.4,
+        "duration": 3.32
+      },
+      {
+        "text": "So maybe we do want to have this being a",
+        "start": 2423.839,
+        "duration": 6.201
+      },
+      {
+        "text": "top level thing, but whatever.",
+        "start": 2425.76,
+        "duration": 4.28
+      },
+      {
+        "text": "Okay.",
+        "start": 2435.839,
+        "duration": 5.0
+      },
+      {
+        "text": "list.",
+        "start": 2437.839,
+        "duration": 3.0
+      },
+      {
+        "text": "Oh, it's an end from So, let's just",
+        "start": 2443.839,
+        "duration": 5.76
+      },
+      {
+        "text": "start this off from",
+        "start": 2446.24,
+        "duration": 6.599
+      },
+      {
+        "text": "the beginning.",
+        "start": 2449.599,
+        "duration": 3.24
+      },
+      {
+        "text": "That one. We'll delete this one.",
+        "start": 2458.16,
+        "duration": 4.919
+      },
+      {
+        "text": "Are y'all familiar with poetry?",
+        "start": 2465.92,
+        "duration": 4.04
+      },
+      {
+        "text": "Not in the code sense, but like I'm from",
+        "start": 2470.24,
+        "duration": 4.079
+      },
+      {
+        "text": "Baltimore, so there's the Edgar Allen",
+        "start": 2472.64,
+        "duration": 4.679
+      },
+      {
+        "text": "Poe.",
+        "start": 2474.319,
+        "duration": 3.0
+      },
+      {
+        "text": "So in the code sense, uh this is just a",
+        "start": 2479.2,
+        "duration": 8.639
+      },
+      {
+        "text": "way to manage your dependencies and your",
+        "start": 2484.48,
+        "duration": 4.96
+      },
+      {
+        "text": "virtual environments. So rather than",
+        "start": 2487.839,
+        "duration": 4.961
+      },
+      {
+        "text": "doing virtual end you know you know",
+        "start": 2489.44,
+        "duration": 7.44
+      },
+      {
+        "text": "python-m vmvm whatever",
+        "start": 2492.8,
+        "duration": 6.64
+      },
+      {
+        "text": "you use this tool called poetry to kind",
+        "start": 2496.88,
+        "duration": 4.479
+      },
+      {
+        "text": "of help manage your dependencies. So",
+        "start": 2499.44,
+        "duration": 4.8
+      },
+      {
+        "text": "rather than a requirements",
+        "start": 2501.359,
+        "duration": 7.121
+      },
+      {
+        "text": "file it uses this pi project tommol",
+        "start": 2504.24,
+        "duration": 6.0
+      },
+      {
+        "text": "file.",
+        "start": 2508.48,
+        "duration": 4.8
+      },
+      {
+        "text": "Oh, interesting. I was looking at these",
+        "start": 2510.24,
+        "duration": 6.76
+      },
+      {
+        "text": "docks over here",
+        "start": 2513.28,
+        "duration": 3.72
+      },
+      {
+        "text": "to kind of figure out. So, you can take",
+        "start": 2520.88,
+        "duration": 4.32
+      },
+      {
+        "text": "a look at the poetry",
+        "start": 2522.56,
+        "duration": 5.64
+      },
+      {
+        "text": "documentation.",
+        "start": 2525.2,
+        "duration": 3.0
+      },
+      {
+        "text": "Um,",
+        "start": 2529.04,
+        "duration": 4.0
+      },
+      {
+        "text": "and I linked to this. So, they have this",
+        "start": 2531.44,
+        "duration": 3.04
+      },
+      {
+        "text": "idea of like groups. So, you can",
+        "start": 2533.04,
+        "duration": 4.559
+      },
+      {
+        "text": "actually put the test stuff under",
+        "start": 2534.48,
+        "duration": 5.599
+      },
+      {
+        "text": "an installation group.",
+        "start": 2537.599,
+        "duration": 4.72
+      },
+      {
+        "text": "So that way when we go to install like",
+        "start": 2540.079,
+        "duration": 4.881
+      },
+      {
+        "text": "deploy this say on AWS it doesn't",
+        "start": 2542.319,
+        "duration": 4.401
+      },
+      {
+        "text": "necessarily need the pi test stuff in",
+        "start": 2544.96,
+        "duration": 4.8
+      },
+      {
+        "text": "there right and that's awesome this",
+        "start": 2546.72,
+        "duration": 5.04
+      },
+      {
+        "text": "langraph CLI here is kind of the dev",
+        "start": 2549.76,
+        "duration": 3.52
+      },
+      {
+        "text": "dependency you can probably put this",
+        "start": 2551.76,
+        "duration": 3.44
+      },
+      {
+        "text": "under actually the dev dependency as",
+        "start": 2553.28,
+        "duration": 5.2
+      },
+      {
+        "text": "well because you'll need test for",
+        "start": 2555.2,
+        "duration": 5.84
+      },
+      {
+        "text": "development right",
+        "start": 2558.48,
+        "duration": 4.48
+      },
+      {
+        "text": "so you can either add it under here you",
+        "start": 2561.04,
+        "duration": 3.76
+      },
+      {
+        "text": "can create your own group you know",
+        "start": 2562.96,
+        "duration": 4.399
+      },
+      {
+        "text": "you're the one doing the work so I'll",
+        "start": 2564.8,
+        "duration": 5.92
+      },
+      {
+        "text": "leave that decision up to",
+        "start": 2567.359,
+        "duration": 3.361
+      },
+      {
+        "text": "Um, but right now what I did was I just",
+        "start": 2571.2,
+        "duration": 5.119
+      },
+      {
+        "text": "deleted my",
+        "start": 2573.2,
+        "duration": 4.72
+      },
+      {
+        "text": "environment because I want to see if I",
+        "start": 2576.319,
+        "duration": 3.52
+      },
+      {
+        "text": "can create a new one and install",
+        "start": 2577.92,
+        "duration": 4.32
+      },
+      {
+        "text": "everything",
+        "start": 2579.839,
+        "duration": 4.321
+      },
+      {
+        "text": "from",
+        "start": 2582.24,
+        "duration": 4.48
+      },
+      {
+        "text": "uh install everything fresh since I kind",
+        "start": 2584.16,
+        "duration": 7.0
+      },
+      {
+        "text": "of made this change manually to the",
+        "start": 2586.72,
+        "duration": 4.44
+      },
+      {
+        "text": "file. So,",
+        "start": 2591.76,
+        "duration": 7.16
+      },
+      {
+        "text": "let's see.",
+        "start": 2595.52,
+        "duration": 3.4
+      },
+      {
+        "text": "and activate and use.",
+        "start": 2599.839,
+        "duration": 6.961
+      },
+      {
+        "text": "Okay, so poetry",
+        "start": 2603.839,
+        "duration": 5.961
+      },
+      {
+        "text": "use",
+        "start": 2606.8,
+        "duration": 3.0
+      },
+      {
+        "text": "the Python argument.",
+        "start": 2611.68,
+        "duration": 3.88
+      },
+      {
+        "text": "this missing Python.",
+        "start": 2643.28,
+        "duration": 4.2
+      },
+      {
+        "text": "Oh, let's see.",
+        "start": 2647.599,
+        "duration": 4.961
+      },
+      {
+        "text": "[Music]",
+        "start": 2650.42,
+        "duration": 5.54
+      },
+      {
+        "text": "Is it list?",
+        "start": 2652.56,
+        "duration": 3.4
+      },
+      {
+        "text": "uh versions.",
+        "start": 2657.04,
+        "duration": 7.48
+      },
+      {
+        "text": "So I use Pym to manage different",
+        "start": 2659.04,
+        "duration": 5.48
+      },
+      {
+        "text": "flavors of Python on this machine. So",
+        "start": 2666.16,
+        "duration": 5.199
+      },
+      {
+        "text": "let's have a Python version in there",
+        "start": 2669.2,
+        "duration": 5.879
+      },
+      {
+        "text": "that's set to 11.4.",
+        "start": 2671.359,
+        "duration": 3.72
+      },
+      {
+        "text": "I am",
+        "start": 2679.28,
+        "duration": 3.4
+      },
+      {
+        "text": "there's a way to list.",
+        "start": 2682.88,
+        "duration": 3.8
+      },
+      {
+        "text": "Let's see.",
+        "start": 2688.24,
+        "duration": 3.32
+      },
+      {
+        "text": "There we go. DL",
+        "start": 2698.56,
+        "duration": 4.44
+      },
+      {
+        "text": "dash L. Then we're going to pipe this",
+        "start": 2703.52,
+        "duration": 4.16
+      },
+      {
+        "text": "and then grap because we just care about",
+        "start": 2705.599,
+        "duration": 4.961
+      },
+      {
+        "text": "the versions of 311.",
+        "start": 2707.68,
+        "duration": 6.36
+      },
+      {
+        "text": "We were on 3114.",
+        "start": 2710.56,
+        "duration": 3.48
+      },
+      {
+        "text": "So it looks like we can go up to 3119.",
+        "start": 2714.8,
+        "duration": 8.6
+      },
+      {
+        "text": "This will upgrade while we're in here.",
+        "start": 2718.88,
+        "duration": 4.52
+      },
+      {
+        "text": "What's um what's GP?",
+        "start": 2732.88,
+        "duration": 7.36
+      },
+      {
+        "text": "Uh GP is a command line tool for",
+        "start": 2736.319,
+        "duration": 8.681
+      },
+      {
+        "text": "searching. Okay. So,",
+        "start": 2740.24,
+        "duration": 4.76
+      },
+      {
+        "text": "uh you familiar with piping in Unix or",
+        "start": 2746.0,
+        "duration": 5.92
+      },
+      {
+        "text": "Linux based systems?",
+        "start": 2749.28,
+        "duration": 4.88
+      },
+      {
+        "text": "No, not really. I usually just use it as",
+        "start": 2751.92,
+        "duration": 5.199
+      },
+      {
+        "text": "the four operator.",
+        "start": 2754.16,
+        "duration": 5.36
+      },
+      {
+        "text": "Yeah. So this little guy basically says",
+        "start": 2757.119,
+        "duration": 4.641
+      },
+      {
+        "text": "take the output of this and make it the",
+        "start": 2759.52,
+        "duration": 6.72
+      },
+      {
+        "text": "input of this. Okay. So one of the Unix",
+        "start": 2761.76,
+        "duration": 7.2
+      },
+      {
+        "text": "there's like the Unix philosophy",
+        "start": 2766.24,
+        "duration": 5.68
+      },
+      {
+        "text": "and one of them is uh do one thing and",
+        "start": 2768.96,
+        "duration": 5.52
+      },
+      {
+        "text": "do it well. So they try to limit the",
+        "start": 2771.92,
+        "duration": 5.04
+      },
+      {
+        "text": "scope of their tools. So GP just does",
+        "start": 2774.48,
+        "duration": 5.2
+      },
+      {
+        "text": "search and another one of the Unix",
+        "start": 2776.96,
+        "duration": 5.84
+      },
+      {
+        "text": "philosophies is to uh use text for",
+        "start": 2779.68,
+        "duration": 5.28
+      },
+      {
+        "text": "everything. So by outputting one thing",
+        "start": 2782.8,
+        "duration": 4.96
+      },
+      {
+        "text": "in text, you can input it as text to",
+        "start": 2784.96,
+        "duration": 4.72
+      },
+      {
+        "text": "another and then you can come up with",
+        "start": 2787.76,
+        "duration": 5.52
+      },
+      {
+        "text": "these kind of funky incantations that do",
+        "start": 2789.68,
+        "duration": 5.52
+      },
+      {
+        "text": "things by chaining together a bunch of",
+        "start": 2793.28,
+        "duration": 4.48
+      },
+      {
+        "text": "different commands like said a things",
+        "start": 2795.2,
+        "duration": 5.8
+      },
+      {
+        "text": "like that.",
+        "start": 2797.76,
+        "duration": 3.24
+      },
+      {
+        "text": "Bet you didn't think we were going to",
+        "start": 2805.04,
+        "duration": 2.96
+      },
+      {
+        "text": "get into poetry and philosophy today,",
+        "start": 2806.079,
+        "duration": 4.561
+      },
+      {
+        "text": "huh?",
+        "start": 2808.0,
+        "duration": 4.8
+      },
+      {
+        "text": "That's really cool though.",
+        "start": 2810.64,
+        "duration": 4.32
+      },
+      {
+        "text": "So here you go. Make each program do one",
+        "start": 2812.8,
+        "duration": 4.16
+      },
+      {
+        "text": "thing well.",
+        "start": 2814.96,
+        "duration": 4.32
+      },
+      {
+        "text": "Expect the output to become the input of",
+        "start": 2816.96,
+        "duration": 4.48
+      },
+      {
+        "text": "another.",
+        "start": 2819.28,
+        "duration": 6.76
+      },
+      {
+        "text": "So keep things simple.",
+        "start": 2821.44,
+        "duration": 4.6
+      },
+      {
+        "text": "Yeah, I'd like to know more about Unix",
+        "start": 2828.96,
+        "duration": 7.24
+      },
+      {
+        "text": "eventually one day when I",
+        "start": 2832.0,
+        "duration": 4.2
+      },
+      {
+        "text": "Yeah, it's very good. one of my the guys",
+        "start": 2836.96,
+        "duration": 3.84
+      },
+      {
+        "text": "that I work with like we're doing, you",
+        "start": 2839.119,
+        "duration": 3.681
+      },
+      {
+        "text": "know, cutting edge AI stuff, but he",
+        "start": 2840.8,
+        "duration": 4.24
+      },
+      {
+        "text": "still swears by like a lot of his",
+        "start": 2842.8,
+        "duration": 3.92
+      },
+      {
+        "text": "productivity comes from just knowing all",
+        "start": 2845.04,
+        "duration": 5.12
+      },
+      {
+        "text": "the basics in Unix.",
+        "start": 2846.72,
+        "duration": 5.76
+      },
+      {
+        "text": "That's good.",
+        "start": 2850.16,
+        "duration": 3.76
+      },
+      {
+        "text": "So, it's one of those things that like",
+        "start": 2852.48,
+        "duration": 3.92
+      },
+      {
+        "text": "no matter what you're working on, it's",
+        "start": 2853.92,
+        "duration": 5.12
+      },
+      {
+        "text": "good to know.",
+        "start": 2856.4,
+        "duration": 5.439
+      },
+      {
+        "text": "So, let's see. This was Oh, look. So,",
+        "start": 2859.04,
+        "duration": 8.319
+      },
+      {
+        "text": "now we're going to do pm local 3119.",
+        "start": 2861.839,
+        "duration": 10.28
+      },
+      {
+        "text": "So, our Python version. Oh, whoops.",
+        "start": 2867.359,
+        "duration": 4.76
+      },
+      {
+        "text": "We actually want it a level higher",
+        "start": 2874.48,
+        "duration": 4.0
+      },
+      {
+        "text": "because this is where where is our",
+        "start": 2876.64,
+        "duration": 5.24
+      },
+      {
+        "text": "Python version.",
+        "start": 2878.48,
+        "duration": 3.4
+      },
+      {
+        "text": "Where's this set by?",
+        "start": 2883.839,
+        "duration": 5.441
+      },
+      {
+        "text": "Oh, yeah. Okay, it is here. LA. There we",
+        "start": 2886.24,
+        "duration": 5.52
+      },
+      {
+        "text": "go. Python version.",
+        "start": 2889.28,
+        "duration": 4.88
+      },
+      {
+        "text": "So now we're going to run Python and PM",
+        "start": 2891.76,
+        "duration": 4.8
+      },
+      {
+        "text": "local 311",
+        "start": 2894.16,
+        "duration": 6.48
+      },
+      {
+        "text": "9. So cat's another useful utility.",
+        "start": 2896.56,
+        "duration": 6.24
+      },
+      {
+        "text": "It's supposed to be concatenate, but you",
+        "start": 2900.64,
+        "duration": 4.479
+      },
+      {
+        "text": "can use print stuff out. So if you have",
+        "start": 2902.8,
+        "duration": 4.0
+      },
+      {
+        "text": "more than one file, you can print out",
+        "start": 2905.119,
+        "duration": 4.081
+      },
+      {
+        "text": "more than one file, but a lot of folks",
+        "start": 2906.8,
+        "duration": 4.559
+      },
+      {
+        "text": "use it just to",
+        "start": 2909.2,
+        "duration": 5.28
+      },
+      {
+        "text": "see the contents of a file.",
+        "start": 2911.359,
+        "duration": 5.441
+      },
+      {
+        "text": "So basically just upgraded our version",
+        "start": 2914.48,
+        "duration": 5.639
+      },
+      {
+        "text": "to 3119.",
+        "start": 2916.8,
+        "duration": 3.319
+      },
+      {
+        "text": "So, same thing we want to do here. This",
+        "start": 2920.88,
+        "duration": 5.84
+      },
+      {
+        "text": "file doesn't exist anymore.",
+        "start": 2923.839,
+        "duration": 4.961
+      },
+      {
+        "text": "So, yeah, at least 311. So, this will",
+        "start": 2926.72,
+        "duration": 6.16
+      },
+      {
+        "text": "take any version of Python that's 311.",
+        "start": 2928.8,
+        "duration": 6.0
+      },
+      {
+        "text": "So, now we've got we basically just",
+        "start": 2932.88,
+        "duration": 5.36
+      },
+      {
+        "text": "upgraded Python.",
+        "start": 2934.8,
+        "duration": 5.519
+      },
+      {
+        "text": "So, now we can go back into our poetry",
+        "start": 2938.24,
+        "duration": 4.0
+      },
+      {
+        "text": "list. So, you'll notice I like don't",
+        "start": 2940.319,
+        "duration": 3.441
+      },
+      {
+        "text": "know really how to use this, but I can",
+        "start": 2942.24,
+        "duration": 3.119
+      },
+      {
+        "text": "keep going back to just like the help",
+        "start": 2943.76,
+        "duration": 5.2
+      },
+      {
+        "text": "files just as a refresher.",
+        "start": 2945.359,
+        "duration": 5.76
+      },
+      {
+        "text": "Yeah, it's, you know, it's so funny",
+        "start": 2948.96,
+        "duration": 4.0
+      },
+      {
+        "text": "because you explained it really well. It",
+        "start": 2951.119,
+        "duration": 3.44
+      },
+      {
+        "text": "was like last week or the week before",
+        "start": 2952.96,
+        "duration": 5.119
+      },
+      {
+        "text": "with one of the newer students that it's",
+        "start": 2954.559,
+        "duration": 6.721
+      },
+      {
+        "text": "how it is in the beginning phases of the",
+        "start": 2958.079,
+        "duration": 5.04
+      },
+      {
+        "text": "academy is just how it is in real life.",
+        "start": 2961.28,
+        "duration": 4.559
+      },
+      {
+        "text": "You're just solving problems.",
+        "start": 2963.119,
+        "duration": 4.24
+      },
+      {
+        "text": "Yep.",
+        "start": 2965.839,
+        "duration": 3.28
+      },
+      {
+        "text": "Constantly just figuring out the next",
+        "start": 2967.359,
+        "duration": 3.441
+      },
+      {
+        "text": "thing. And that's why again this is all",
+        "start": 2969.119,
+        "duration": 4.161
+      },
+      {
+        "text": "like they used to have like man files",
+        "start": 2970.8,
+        "duration": 4.799
+      },
+      {
+        "text": "for any everything. So if you ever you",
+        "start": 2973.28,
+        "duration": 4.72
+      },
+      {
+        "text": "can run n pi test it just means like",
+        "start": 2975.599,
+        "duration": 5.52
+      },
+      {
+        "text": "manual or I say like p",
+        "start": 2978.0,
+        "duration": 6.4
+      },
+      {
+        "text": "and it gives you the full kind of manual",
+        "start": 2981.119,
+        "duration": 5.281
+      },
+      {
+        "text": "for it.",
+        "start": 2984.4,
+        "duration": 5.84
+      },
+      {
+        "text": "Oh wow. And that gives you everything.",
+        "start": 2986.4,
+        "duration": 7.919
+      },
+      {
+        "text": "So a lot of things ship with these.",
+        "start": 2990.24,
+        "duration": 6.96
+      },
+      {
+        "text": "So I'm aging myself. But this is what",
+        "start": 2994.319,
+        "duration": 4.321
+      },
+      {
+        "text": "you had to do before you could just jump",
+        "start": 2997.2,
+        "duration": 5.119
+      },
+      {
+        "text": "on Stack Overflow or now AI before you",
+        "start": 2998.64,
+        "duration": 6.8
+      },
+      {
+        "text": "can Google like this was how",
+        "start": 3002.319,
+        "duration": 4.561
+      },
+      {
+        "text": "kind of learn things. So people still",
+        "start": 3005.44,
+        "duration": 4.8
+      },
+      {
+        "text": "put in very helpful stuff and ideally",
+        "start": 3006.88,
+        "duration": 4.959
+      },
+      {
+        "text": "they have stuff like this too where",
+        "start": 3010.24,
+        "duration": 5.119
+      },
+      {
+        "text": "they're just their help file is",
+        "start": 3011.839,
+        "duration": 5.121
+      },
+      {
+        "text": "useful. So, if you looked at the",
+        "start": 3015.359,
+        "duration": 4.24
+      },
+      {
+        "text": "beginning, I went to poetry-help",
+        "start": 3016.96,
+        "duration": 4.32
+      },
+      {
+        "text": "and then I saw, okay, there's this",
+        "start": 3019.599,
+        "duration": 5.121
+      },
+      {
+        "text": "poetry list command or I saw in here",
+        "start": 3021.28,
+        "duration": 6.72
+      },
+      {
+        "text": "that it says this lists all the commands",
+        "start": 3024.72,
+        "duration": 6.32
+      },
+      {
+        "text": "and then that was how I got to",
+        "start": 3028.0,
+        "duration": 5.2
+      },
+      {
+        "text": "this and then I does help if you kind of",
+        "start": 3031.04,
+        "duration": 3.44
+      },
+      {
+        "text": "know the software. So, I happen to know",
+        "start": 3033.2,
+        "duration": 2.639
+      },
+      {
+        "text": "that I was looking for the virtual",
+        "start": 3034.48,
+        "duration": 3.68
+      },
+      {
+        "text": "environment stuff.",
+        "start": 3035.839,
+        "duration": 3.76
+      },
+      {
+        "text": "So, then I went through and listed my",
+        "start": 3038.16,
+        "duration": 4.399
+      },
+      {
+        "text": "virtual environments. I removed them and",
+        "start": 3039.599,
+        "duration": 5.041
+      },
+      {
+        "text": "now I did use which should have set up a",
+        "start": 3042.559,
+        "duration": 4.081
+      },
+      {
+        "text": "new virtual environment. So now if I go",
+        "start": 3044.64,
+        "duration": 5.199
+      },
+      {
+        "text": "to poetry list",
+        "start": 3046.64,
+        "duration": 7.439
+      },
+      {
+        "text": "uh sorry poetry and list",
+        "start": 3049.839,
+        "duration": 6.641
+      },
+      {
+        "text": "cool I've got my virtual environment",
+        "start": 3054.079,
+        "duration": 5.361
+      },
+      {
+        "text": "here and this is what is active. So now",
+        "start": 3056.48,
+        "duration": 6.48
+      },
+      {
+        "text": "if I got a witch python.",
+        "start": 3059.44,
+        "duration": 7.119
+      },
+      {
+        "text": "Okay, it's just using that one there.",
+        "start": 3062.96,
+        "duration": 6.24
+      },
+      {
+        "text": "Which pip?",
+        "start": 3066.559,
+        "duration": 4.721
+      },
+      {
+        "text": "That's weird. It shouldn't be activated",
+        "start": 3069.2,
+        "duration": 5.68
+      },
+      {
+        "text": "then. That seems like a",
+        "start": 3071.28,
+        "duration": 5.44
+      },
+      {
+        "text": "bug.",
+        "start": 3074.88,
+        "duration": 6.0
+      },
+      {
+        "text": "So that might be with my interpreter.",
+        "start": 3076.72,
+        "duration": 8.2
+      },
+      {
+        "text": "So this is more of a",
+        "start": 3080.88,
+        "duration": 4.04
+      },
+      {
+        "text": "VS Code specific thing. So I just hit",
+        "start": 3085.52,
+        "duration": 4.64
+      },
+      {
+        "text": "command shiftp.",
+        "start": 3087.839,
+        "duration": 6.28
+      },
+      {
+        "text": "I can go to select interpreter.",
+        "start": 3090.16,
+        "duration": 3.959
+      },
+      {
+        "text": "Let's see.",
+        "start": 3094.96,
+        "duration": 3.32
+      },
+      {
+        "text": "So this was code tutor clients. We see",
+        "start": 3100.48,
+        "duration": 6.639
+      },
+      {
+        "text": "this one in here.",
+        "start": 3104.4,
+        "duration": 8.159
+      },
+      {
+        "text": "So let's see if we can do in info poetry",
+        "start": 3107.119,
+        "duration": 8.44
+      },
+      {
+        "text": "info.",
+        "start": 3112.559,
+        "duration": 3.0
+      },
+      {
+        "text": "Okay. So, this is here.",
+        "start": 3116.559,
+        "duration": 6.161
+      },
+      {
+        "text": "So, what I'm going to do is just add",
+        "start": 3119.68,
+        "duration": 5.439
+      },
+      {
+        "text": "this here. Oh, no. It's down here. Oh,",
+        "start": 3122.72,
+        "duration": 6.16
+      },
+      {
+        "text": "no. That's 12. Why do I want 12?",
+        "start": 3125.119,
+        "duration": 7.361
+      },
+      {
+        "text": "It should be 119.",
+        "start": 3128.88,
+        "duration": 5.6
+      },
+      {
+        "text": "So, this gets a little funky if you're",
+        "start": 3132.48,
+        "duration": 4.8
+      },
+      {
+        "text": "using an IDE.",
+        "start": 3134.48,
+        "duration": 5.8
+      },
+      {
+        "text": "Yeah.",
+        "start": 3137.28,
+        "duration": 3.0
+      },
+      {
+        "text": "But this is another kind of good thing",
+        "start": 3142.319,
+        "duration": 4.561
+      },
+      {
+        "text": "to know. All right. Cool. It found it.",
+        "start": 3144.319,
+        "duration": 4.8
+      },
+      {
+        "text": "So by selecting my Python interpreter",
+        "start": 3146.88,
+        "duration": 3.76
+      },
+      {
+        "text": "here",
+        "start": 3149.119,
+        "duration": 3.921
+      },
+      {
+        "text": "now I'm telling VS code to basically use",
+        "start": 3150.64,
+        "duration": 4.88
+      },
+      {
+        "text": "this one. You can also do it right in",
+        "start": 3153.04,
+        "duration": 5.279
+      },
+      {
+        "text": "the shell by going to poetry and",
+        "start": 3155.52,
+        "duration": 5.799
+      },
+      {
+        "text": "activate.",
+        "start": 3158.319,
+        "duration": 3.0
+      },
+      {
+        "text": "And then now okay it should have",
+        "start": 3163.119,
+        "duration": 3.921
+      },
+      {
+        "text": "activated that one. So now if I run",
+        "start": 3164.72,
+        "duration": 5.04
+      },
+      {
+        "text": "which Python oh it's still using that",
+        "start": 3167.04,
+        "duration": 6.16
+      },
+      {
+        "text": "one. That's not correct. Right. If I",
+        "start": 3169.76,
+        "duration": 5.68
+      },
+      {
+        "text": "open a new one of these. Okay. Okay. So",
+        "start": 3173.2,
+        "duration": 4.56
+      },
+      {
+        "text": "now this one is in it. So by setting it",
+        "start": 3175.44,
+        "duration": 4.399
+      },
+      {
+        "text": "in VS Code",
+        "start": 3177.76,
+        "duration": 4.079
+      },
+      {
+        "text": "and opening a new terminal now I should",
+        "start": 3179.839,
+        "duration": 4.72
+      },
+      {
+        "text": "be in the right place Python. So now",
+        "start": 3181.839,
+        "duration": 4.081
+      },
+      {
+        "text": "it's using the one in my virtual",
+        "start": 3184.559,
+        "duration": 4.361
+      },
+      {
+        "text": "environment.",
+        "start": 3185.92,
+        "duration": 3.0
+      },
+      {
+        "text": "So yeah that's a little funky. It takes",
+        "start": 3189.52,
+        "duration": 6.079
+      },
+      {
+        "text": "a lot of trial and error. But yeah, it's",
+        "start": 3191.76,
+        "duration": 6.0
+      },
+      {
+        "text": "good to know if you use VS Code to",
+        "start": 3195.599,
+        "duration": 4.321
+      },
+      {
+        "text": "select your interpreter and that you can",
+        "start": 3197.76,
+        "duration": 4.88
+      },
+      {
+        "text": "have a whole bunch of different ones",
+        "start": 3199.92,
+        "duration": 4.399
+      },
+      {
+        "text": "and then a lot of times it'll show up",
+        "start": 3202.64,
+        "duration": 4.959
+      },
+      {
+        "text": "there if you're using the right one. So",
+        "start": 3204.319,
+        "duration": 9.881
+      },
+      {
+        "text": "now if I do pip list or pip, I think",
+        "start": 3207.599,
+        "duration": 6.601
+      },
+      {
+        "text": "I think that was it.",
+        "start": 3214.559,
+        "duration": 3.921
+      },
+      {
+        "text": "Okay, so yeah, this is all I have",
+        "start": 3216.72,
+        "duration": 3.359
+      },
+      {
+        "text": "installed. It's basically a blank",
+        "start": 3218.48,
+        "duration": 3.599
+      },
+      {
+        "text": "virtual environment. So now we can run",
+        "start": 3220.079,
+        "duration": 4.081
+      },
+      {
+        "text": "through",
+        "start": 3222.079,
+        "duration": 6.28
+      },
+      {
+        "text": "I think it's just poetry install",
+        "start": 3224.16,
+        "duration": 4.199
+      },
+      {
+        "text": "poetry list first and then just double",
+        "start": 3228.72,
+        "duration": 4.399
+      },
+      {
+        "text": "check.",
+        "start": 3230.72,
+        "duration": 4.639
+      },
+      {
+        "text": "Yeah,",
+        "start": 3233.119,
+        "duration": 5.121
+      },
+      {
+        "text": "installs the project dependencies. Cool.",
+        "start": 3235.359,
+        "duration": 4.96
+      },
+      {
+        "text": "So now that we're in this virtual",
+        "start": 3238.24,
+        "duration": 4.48
+      },
+      {
+        "text": "environment,",
+        "start": 3240.319,
+        "duration": 4.481
+      },
+      {
+        "text": "if I go to which pip and which Python,",
+        "start": 3242.72,
+        "duration": 3.68
+      },
+      {
+        "text": "it's using the one in my virtual",
+        "start": 3244.8,
+        "duration": 4.0
+      },
+      {
+        "text": "environment, which is just another Unix",
+        "start": 3246.4,
+        "duration": 5.04
+      },
+      {
+        "text": "command that says, \"Hey, when I'm",
+        "start": 3248.8,
+        "duration": 4.16
+      },
+      {
+        "text": "running this command, where's it",
+        "start": 3251.44,
+        "duration": 4.879
+      },
+      {
+        "text": "actually coming from?\" Yeah.",
+        "start": 3252.96,
+        "duration": 5.359
+      },
+      {
+        "text": "So I know I'm using the right one now.",
+        "start": 3256.319,
+        "duration": 6.321
+      },
+      {
+        "text": "So now I can go into poetry install.",
+        "start": 3258.319,
+        "duration": 8.401
+      },
+      {
+        "text": "Uh I need to go into clients.",
+        "start": 3262.64,
+        "duration": 6.24
+      },
+      {
+        "text": "tree install. Oh yeah, this also got a",
+        "start": 3266.72,
+        "duration": 3.52
+      },
+      {
+        "text": "little funky because we were doing",
+        "start": 3268.88,
+        "duration": 4.08
+      },
+      {
+        "text": "things at the subfolder level. So if you",
+        "start": 3270.24,
+        "duration": 4.64
+      },
+      {
+        "text": "switch between this and this, you would",
+        "start": 3272.96,
+        "duration": 5.119
+      },
+      {
+        "text": "actually have to switch",
+        "start": 3274.88,
+        "duration": 6.239
+      },
+      {
+        "text": "the the uh virtual environment you were",
+        "start": 3278.079,
+        "duration": 4.961
+      },
+      {
+        "text": "in. So we might want to just make this",
+        "start": 3281.119,
+        "duration": 3.921
+      },
+      {
+        "text": "an actual mono repo and have everything",
+        "start": 3283.04,
+        "duration": 4.4
+      },
+      {
+        "text": "in one.",
+        "start": 3285.04,
+        "duration": 5.92
+      },
+      {
+        "text": "Okay, stuff changed. Cool. So we need to",
+        "start": 3287.44,
+        "duration": 7.159
+      },
+      {
+        "text": "fix the lot file.",
+        "start": 3290.96,
+        "duration": 3.639
+      },
+      {
+        "text": "Cool.",
+        "start": 3295.04,
+        "duration": 2.799
+      },
+      {
+        "text": "Oh yeah, for now we don't need to do",
+        "start": 3309.92,
+        "duration": 5.48
+      },
+      {
+        "text": "that.",
+        "start": 3315.76,
+        "duration": 3.0
+      },
+      {
+        "text": "Cool.",
+        "start": 3322.72,
+        "duration": 6.8
+      },
+      {
+        "text": "So, Poetry also packages up this code",
+        "start": 3324.72,
+        "duration": 7.119
+      },
+      {
+        "text": "into",
+        "start": 3329.52,
+        "duration": 5.799
+      },
+      {
+        "text": "uh a",
+        "start": 3331.839,
+        "duration": 3.48
+      },
+      {
+        "text": "Python package that would then be",
+        "start": 3335.68,
+        "duration": 4.32
+      },
+      {
+        "text": "available like on your machine. So, what",
+        "start": 3337.44,
+        "duration": 4.24
+      },
+      {
+        "text": "this is saying is it's looking for code",
+        "start": 3340.0,
+        "duration": 4.079
+      },
+      {
+        "text": "tutor clients. So, we can set that up",
+        "start": 3341.68,
+        "duration": 4.48
+      },
+      {
+        "text": "later. So, we'll just run this with no",
+        "start": 3344.079,
+        "duration": 5.841
+      },
+      {
+        "text": "route right now. Okay.",
+        "start": 3346.16,
+        "duration": 6.08
+      },
+      {
+        "text": "And then we'll use it just to manage the",
+        "start": 3349.92,
+        "duration": 4.0
+      },
+      {
+        "text": "dependencies. That's why it's saying",
+        "start": 3352.24,
+        "duration": 3.92
+      },
+      {
+        "text": "here.",
+        "start": 3353.92,
+        "duration": 3.6
+      },
+      {
+        "text": "Or we can actually probably just add",
+        "start": 3356.16,
+        "duration": 5.8
+      },
+      {
+        "text": "this package mode false for now.",
+        "start": 3357.52,
+        "duration": 4.44
+      },
+      {
+        "text": "So poetry less.",
+        "start": 3369.92,
+        "duration": 4.52
+      },
+      {
+        "text": "No, that just removes it. But if I want",
+        "start": 3378.4,
+        "duration": 6.6
+      },
+      {
+        "text": "to remove all of them.",
+        "start": 3380.96,
+        "duration": 4.04
+      },
+      {
+        "text": "So now if I go into pip list. Cool. It",
+        "start": 3386.48,
+        "duration": 5.44
+      },
+      {
+        "text": "installed everything",
+        "start": 3389.2,
+        "duration": 5.52
+      },
+      {
+        "text": "including my",
+        "start": 3391.92,
+        "duration": 4.72
+      },
+      {
+        "text": "dependencies that are down here which is",
+        "start": 3394.72,
+        "duration": 4.92
+      },
+      {
+        "text": "good.",
+        "start": 3396.64,
+        "duration": 3.0
+      },
+      {
+        "text": "Awesome. So now I'm going to go back",
+        "start": 3400.24,
+        "duration": 5.559
+      },
+      {
+        "text": "into get status.",
+        "start": 3402.079,
+        "duration": 3.72
+      },
+      {
+        "text": "So I made changes to those two. What did",
+        "start": 3406.0,
+        "duration": 6.52
+      },
+      {
+        "text": "I change in the Docker file?",
+        "start": 3408.319,
+        "duration": 4.201
+      },
+      {
+        "text": "Oh, this database connection string.",
+        "start": 3413.28,
+        "duration": 8.76
+      },
+      {
+        "text": "Bless you, whoever that was.",
+        "start": 3417.92,
+        "duration": 4.12
+      },
+      {
+        "text": "Sorry. She says thank you.",
+        "start": 3429.359,
+        "duration": 4.121
+      },
+      {
+        "text": "All right. Uh, cool. All right. So, this",
+        "start": 3435.68,
+        "duration": 5.439
+      },
+      {
+        "text": "I remember we added last week, but I",
+        "start": 3439.2,
+        "duration": 4.08
+      },
+      {
+        "text": "don't remember why because I think it's",
+        "start": 3441.119,
+        "duration": 4.881
+      },
+      {
+        "text": "cuz we went from taking these separate",
+        "start": 3443.28,
+        "duration": 4.24
+      },
+      {
+        "text": "pieces",
+        "start": 3446.0,
+        "duration": 4.0
+      },
+      {
+        "text": "and then we ended up passing it in as a",
+        "start": 3447.52,
+        "duration": 4.4
+      },
+      {
+        "text": "single thing to get this working. So, I",
+        "start": 3450.0,
+        "duration": 6.24
+      },
+      {
+        "text": "think that was a change that Adam made",
+        "start": 3451.92,
+        "duration": 6.879
+      },
+      {
+        "text": "just to simplify the deployment. So,",
+        "start": 3456.24,
+        "duration": 5.76
+      },
+      {
+        "text": "let's see.",
+        "start": 3458.799,
+        "duration": 5.361
+      },
+      {
+        "text": "We can just search for this and confirm",
+        "start": 3462.0,
+        "duration": 5.68
+      },
+      {
+        "text": "that. So,",
+        "start": 3464.16,
+        "duration": 3.52
+      },
+      {
+        "text": "Yep. OS get database connection string.",
+        "start": 3470.4,
+        "duration": 5.719
+      },
+      {
+        "text": "Yeah, this was some code that Adam added",
+        "start": 3481.119,
+        "duration": 4.841
+      },
+      {
+        "text": "also. You should be able to see it.",
+        "start": 3486.72,
+        "duration": 4.68
+      },
+      {
+        "text": "Oh, this is a preview to replace. I",
+        "start": 3493.2,
+        "duration": 5.879
+      },
+      {
+        "text": "don't want that.",
+        "start": 3495.599,
+        "duration": 3.48
+      },
+      {
+        "text": "Oh, that's why I don't need to replace.",
+        "start": 3504.079,
+        "duration": 7.441
+      },
+      {
+        "text": "I'm just searching for it. Cool.",
+        "start": 3507.28,
+        "duration": 5.92
+      },
+      {
+        "text": "So, oh, it looks like I don't have the",
+        "start": 3511.52,
+        "duration": 4.319
+      },
+      {
+        "text": "git blame plugin, but if you get g get",
+        "start": 3513.2,
+        "duration": 4.08
+      },
+      {
+        "text": "blame, it'll tell you kind of who wrote",
+        "start": 3515.839,
+        "duration": 4.401
+      },
+      {
+        "text": "this code.",
+        "start": 3517.28,
+        "duration": 4.88
+      },
+      {
+        "text": "All right. So that's like a separate",
+        "start": 3520.24,
+        "duration": 4.96
+      },
+      {
+        "text": "thing from this",
+        "start": 3522.16,
+        "duration": 5.919
+      },
+      {
+        "text": "the AWS CLI. I think that was something",
+        "start": 3525.2,
+        "duration": 6.48
+      },
+      {
+        "text": "I was working on.",
+        "start": 3528.079,
+        "duration": 6.601
+      },
+      {
+        "text": "So",
+        "start": 3531.68,
+        "duration": 3.0
+      },
+      {
+        "text": "we'll just that was to deploy. I don't",
+        "start": 3534.96,
+        "duration": 6.0
+      },
+      {
+        "text": "think I actually even need it anymore.",
+        "start": 3537.44,
+        "duration": 7.72
+      },
+      {
+        "text": "So I'm just going to delete it.",
+        "start": 3540.96,
+        "duration": 4.2
+      },
+      {
+        "text": "Okay.",
+        "start": 3545.2,
+        "duration": 5.52
+      },
+      {
+        "text": "langraph API.",
+        "start": 3547.52,
+        "duration": 7.799
+      },
+      {
+        "text": "So I think this was something from",
+        "start": 3550.72,
+        "duration": 4.599
+      },
+      {
+        "text": "uh the that CLI that I did this langraph",
+        "start": 3559.44,
+        "duration": 4.639
+      },
+      {
+        "text": "CLI",
+        "start": 3562.559,
+        "duration": 4.0
+      },
+      {
+        "text": "created this langraph API folder that",
+        "start": 3564.079,
+        "duration": 4.641
+      },
+      {
+        "text": "holds some of its",
+        "start": 3566.559,
+        "duration": 4.961
+      },
+      {
+        "text": "pickled files. So it looks like that's",
+        "start": 3568.72,
+        "duration": 5.44
+      },
+      {
+        "text": "how it's storing stuff.",
+        "start": 3571.52,
+        "duration": 5.279
+      },
+      {
+        "text": "So we don't really need that. So, where",
+        "start": 3574.16,
+        "duration": 6.76
+      },
+      {
+        "text": "is my git ignore?",
+        "start": 3576.799,
+        "duration": 4.121
+      },
+      {
+        "text": "Where is get ignore?",
+        "start": 3583.68,
+        "duration": 5.28
+      },
+      {
+        "text": "There it is.",
+        "start": 3586.64,
+        "duration": 6.84
+      },
+      {
+        "text": "So, we can add that down here.",
+        "start": 3588.96,
+        "duration": 4.52
+      },
+      {
+        "text": "I think get ignore takes comments. Yeah.",
+        "start": 3601.359,
+        "duration": 5.921
+      },
+      {
+        "text": "This is",
+        "start": 3607.52,
+        "duration": 3.24
+      },
+      {
+        "text": "[Music]",
+        "start": 3613.25,
+        "duration": 3.079
+      },
+      {
+        "text": "CLI local files.",
+        "start": 3623.359,
+        "duration": 7.041
+      },
+      {
+        "text": "Cool.",
+        "start": 3627.839,
+        "duration": 5.041
+      },
+      {
+        "text": "I always try to leave",
+        "start": 3630.4,
+        "duration": 4.8
+      },
+      {
+        "text": "notes for my future self because you'll",
+        "start": 3632.88,
+        "duration": 4.16
+      },
+      {
+        "text": "be coming back into projects like this",
+        "start": 3635.2,
+        "duration": 3.68
+      },
+      {
+        "text": "and",
+        "start": 3637.04,
+        "duration": 5.44
+      },
+      {
+        "text": "completely forget what you did. Yeah.",
+        "start": 3638.88,
+        "duration": 6.239
+      },
+      {
+        "text": "Okay. So, this is the self-correcting",
+        "start": 3642.48,
+        "duration": 7.359
+      },
+      {
+        "text": "agent. So, this we also added for that.",
+        "start": 3645.119,
+        "duration": 7.68
+      },
+      {
+        "text": "And then let's see what did we change in",
+        "start": 3649.839,
+        "duration": 6.401
+      },
+      {
+        "text": "the ETL docker file.",
+        "start": 3652.799,
+        "duration": 5.76
+      },
+      {
+        "text": "Uh the ETL didn't have a Docker file at",
+        "start": 3656.24,
+        "duration": 6.839
+      },
+      {
+        "text": "all. So I think actually",
+        "start": 3658.559,
+        "duration": 4.52
+      },
+      {
+        "text": "Adam had a",
+        "start": 3663.68,
+        "duration": 3.72
+      },
+      {
+        "text": "thing for this.",
+        "start": 3667.599,
+        "duration": 3.48
+      },
+      {
+        "text": "Uh we are a little bit over. I hope",
+        "start": 3671.119,
+        "duration": 4.24
+      },
+      {
+        "text": "y'all don't mind. I should be wrapping",
+        "start": 3673.2,
+        "duration": 4.0
+      },
+      {
+        "text": "this up in like the next 10 minutes. But",
+        "start": 3675.359,
+        "duration": 3.44
+      },
+      {
+        "text": "if you need to drop, go ahead and drop.",
+        "start": 3677.2,
+        "duration": 3.76
+      },
+      {
+        "text": "This should be",
+        "start": 3678.799,
+        "duration": 4.081
+      },
+      {
+        "text": "recorded.",
+        "start": 3680.96,
+        "duration": 4.8
+      },
+      {
+        "text": "Yeah. No, I'm glad I can say. and I",
+        "start": 3682.88,
+        "duration": 7.76
+      },
+      {
+        "text": "think an Adam's pull request here. Yeah,",
+        "start": 3685.76,
+        "duration": 6.72
+      },
+      {
+        "text": "cool. So, we'll probably actually branch",
+        "start": 3690.64,
+        "duration": 3.84
+      },
+      {
+        "text": "off of Adams",
+        "start": 3692.48,
+        "duration": 5.28
+      },
+      {
+        "text": "and then we can add this same stuff into",
+        "start": 3694.48,
+        "duration": 6.24
+      },
+      {
+        "text": "here. So, what we're going to do right",
+        "start": 3697.76,
+        "duration": 6.48
+      },
+      {
+        "text": "now is so far we have",
+        "start": 3700.72,
+        "duration": 6.24
+      },
+      {
+        "text": "uh gone in, we went and cleaned up the",
+        "start": 3704.24,
+        "duration": 5.359
+      },
+      {
+        "text": "dependencies a little bit. We verified",
+        "start": 3706.96,
+        "duration": 4.159
+      },
+      {
+        "text": "that hey, this installs from the",
+        "start": 3709.599,
+        "duration": 3.041
+      },
+      {
+        "text": "beginning. That's why we had to restart",
+        "start": 3711.119,
+        "duration": 4.641
+      },
+      {
+        "text": "that lock file.",
+        "start": 3712.64,
+        "duration": 5.36
+      },
+      {
+        "text": "We found some changes that I did for the",
+        "start": 3715.76,
+        "duration": 4.88
+      },
+      {
+        "text": "Docker Compose to make that work with",
+        "start": 3718.0,
+        "duration": 5.52
+      },
+      {
+        "text": "the new code structure.",
+        "start": 3720.64,
+        "duration": 5.28
+      },
+      {
+        "text": "Um, this langraph CLI, we found some",
+        "start": 3723.52,
+        "duration": 5.039
+      },
+      {
+        "text": "stuff that's no longer used, some stuff",
+        "start": 3725.92,
+        "duration": 5.6
+      },
+      {
+        "text": "that we needed to ignore.",
+        "start": 3728.559,
+        "duration": 6.721
+      },
+      {
+        "text": "And then some things that are related to",
+        "start": 3731.52,
+        "duration": 5.599
+      },
+      {
+        "text": "Langraph CLI. So, what we'll do is we'll",
+        "start": 3735.28,
+        "duration": 6.319
+      },
+      {
+        "text": "make this a couple of different commits.",
+        "start": 3737.119,
+        "duration": 6.24
+      },
+      {
+        "text": "And I should probably turn these into",
+        "start": 3741.599,
+        "duration": 4.401
+      },
+      {
+        "text": "PRs.",
+        "start": 3743.359,
+        "duration": 5.121
+      },
+      {
+        "text": "So right now we're on origin main. Do we",
+        "start": 3746.0,
+        "duration": 6.559
+      },
+      {
+        "text": "have any kind of Okay, we do not.",
+        "start": 3748.48,
+        "duration": 5.68
+      },
+      {
+        "text": "Do you guys use any kind of patterns for",
+        "start": 3752.559,
+        "duration": 4.721
+      },
+      {
+        "text": "your pull requests",
+        "start": 3754.16,
+        "duration": 5.52
+      },
+      {
+        "text": "or your branching? What? What do you",
+        "start": 3757.28,
+        "duration": 4.96
+      },
+      {
+        "text": "mean? Name guidelines.",
+        "start": 3759.68,
+        "duration": 5.52
+      },
+      {
+        "text": "No, but we could if I'm at work, I",
+        "start": 3762.24,
+        "duration": 6.559
+      },
+      {
+        "text": "always need to do like get checkout B.",
+        "start": 3765.2,
+        "duration": 5.84
+      },
+      {
+        "text": "I'll do my name slash and then we'll",
+        "start": 3768.799,
+        "duration": 4.641
+      },
+      {
+        "text": "usually have like a Jira ticket number.",
+        "start": 3771.04,
+        "duration": 5.36
+      },
+      {
+        "text": "Okay, so maybe we should just start",
+        "start": 3773.44,
+        "duration": 6.08
+      },
+      {
+        "text": "doing that. Yes, we can totally do that.",
+        "start": 3776.4,
+        "duration": 5.6
+      },
+      {
+        "text": "I get to beat Nick.",
+        "start": 3779.52,
+        "duration": 4.559
+      },
+      {
+        "text": "Okay, so we should probably write some",
+        "start": 3782.0,
+        "duration": 5.68
+      },
+      {
+        "text": "issues for these things, too.",
+        "start": 3784.079,
+        "duration": 5.921
+      },
+      {
+        "text": "Okay, so new issues. So, what did we do",
+        "start": 3787.68,
+        "duration": 4.24
+      },
+      {
+        "text": "today?",
+        "start": 3790.0,
+        "duration": 3.359
+      },
+      {
+        "text": "And I'm not going to lie, this is how I",
+        "start": 3791.92,
+        "duration": 3.76
+      },
+      {
+        "text": "end up doing it at work a lot, too.",
+        "start": 3793.359,
+        "duration": 4.641
+      },
+      {
+        "text": "That's good to know. Do the work first,",
+        "start": 3795.68,
+        "duration": 4.879
+      },
+      {
+        "text": "then write the issue, right? Yeah. I",
+        "start": 3798.0,
+        "duration": 6.72
+      },
+      {
+        "text": "mean, you know, however works. So,",
+        "start": 3800.559,
+        "duration": 8.121
+      },
+      {
+        "text": "let's see. Uh",
+        "start": 3804.72,
+        "duration": 3.96
+      },
+      {
+        "text": "uh verify",
+        "start": 3809.92,
+        "duration": 3.56
+      },
+      {
+        "text": "uh",
+        "start": 3815.359,
+        "duration": 6.68
+      },
+      {
+        "text": "poetry config.",
+        "start": 3817.76,
+        "duration": 4.279
+      },
+      {
+        "text": "So,",
+        "start": 3824.48,
+        "duration": 4.559
+      },
+      {
+        "text": "just put a link to the replay.",
+        "start": 3826.0,
+        "duration": 7.039
+      },
+      {
+        "text": "Yep. It's been a while",
+        "start": 3829.039,
+        "duration": 8.08
+      },
+      {
+        "text": "since I installed the project from",
+        "start": 3833.039,
+        "duration": 7.08
+      },
+      {
+        "text": "scratch.",
+        "start": 3837.119,
+        "duration": 3.0
+      },
+      {
+        "text": "go through and make sure the",
+        "start": 3840.64,
+        "duration": 6.84
+      },
+      {
+        "text": "PI project actually this is all kind of",
+        "start": 3848.319,
+        "duration": 3.76
+      },
+      {
+        "text": "related to because what did I add this",
+        "start": 3850.559,
+        "duration": 4.081
+      },
+      {
+        "text": "langraph CLI so we'll just call it that",
+        "start": 3852.079,
+        "duration": 5.04
+      },
+      {
+        "text": "actually so",
+        "start": 3854.64,
+        "duration": 4.159
+      },
+      {
+        "text": "langraph",
+        "start": 3857.119,
+        "duration": 3.521
+      },
+      {
+        "text": "CLI",
+        "start": 3858.799,
+        "duration": 3.921
+      },
+      {
+        "text": "development",
+        "start": 3860.64,
+        "duration": 4.719
+      },
+      {
+        "text": "so this is something I learned",
+        "start": 3862.72,
+        "duration": 4.72
+      },
+      {
+        "text": "after I was first doing this project but",
+        "start": 3865.359,
+        "duration": 5.521
+      },
+      {
+        "text": "you can actually use this lang graph",
+        "start": 3867.44,
+        "duration": 5.599
+      },
+      {
+        "text": "local setup thing. So, this is some like",
+        "start": 3870.88,
+        "duration": 3.76
+      },
+      {
+        "text": "additional developer tooling that I",
+        "start": 3873.039,
+        "duration": 3.121
+      },
+      {
+        "text": "learned on the job that we weren't using",
+        "start": 3874.64,
+        "duration": 3.84
+      },
+      {
+        "text": "originally.",
+        "start": 3876.16,
+        "duration": 9.56
+      },
+      {
+        "text": "Um, so as a dev I want",
+        "start": 3878.48,
+        "duration": 7.24
+      },
+      {
+        "text": "so I can um",
+        "start": 3894.16,
+        "duration": 4.76
+      },
+      {
+        "text": "graph studio",
+        "start": 3899.92,
+        "duration": 3.639
+      },
+      {
+        "text": "assign myself to this create Cool.",
+        "start": 3904.48,
+        "duration": 7.119
+      },
+      {
+        "text": "So now I've got an issue number 184. So",
+        "start": 3908.96,
+        "duration": 6.44
+      },
+      {
+        "text": "I can just do nick184",
+        "start": 3911.599,
+        "duration": 3.801
+      },
+      {
+        "text": "and then add then graph cli.",
+        "start": 3915.44,
+        "duration": 7.0
+      },
+      {
+        "text": "So now I want to get at the pi project",
+        "start": 3924.72,
+        "duration": 6.28
+      },
+      {
+        "text": "tomal",
+        "start": 3928.0,
+        "duration": 3.0
+      },
+      {
+        "text": "uh",
+        "start": 3932.88,
+        "duration": 6.12
+      },
+      {
+        "text": "and the",
+        "start": 3935.119,
+        "duration": 3.881
+      },
+      {
+        "text": "get ignore",
+        "start": 3939.44,
+        "duration": 3.32
+      },
+      {
+        "text": "and I might as well add the poetry lock.",
+        "start": 3944.319,
+        "duration": 3.361
+      },
+      {
+        "text": "Normally I would break these up in like",
+        "start": 3946.24,
+        "duration": 5.599
+      },
+      {
+        "text": "separate commits but whatever.",
+        "start": 3947.68,
+        "duration": 7.159
+      },
+      {
+        "text": "Personally,",
+        "start": 3951.839,
+        "duration": 3.0
+      },
+      {
+        "text": "I like using the command line for the",
+        "start": 3956.799,
+        "duration": 5.601
+      },
+      {
+        "text": "git stuff. Feel free to use the",
+        "start": 3958.64,
+        "duration": 5.36
+      },
+      {
+        "text": "plugins or whatever you feel comfortable",
+        "start": 3962.4,
+        "duration": 3.679
+      },
+      {
+        "text": "with, but this way I kind of like know",
+        "start": 3964.0,
+        "duration": 5.039
+      },
+      {
+        "text": "what's happening, you know? Yeah. So,",
+        "start": 3966.079,
+        "duration": 5.601
+      },
+      {
+        "text": "get status. So, what did we do here? So,",
+        "start": 3969.039,
+        "duration": 6.601
+      },
+      {
+        "text": "now we want to get commit.",
+        "start": 3971.68,
+        "duration": 3.96
+      },
+      {
+        "text": "Um so we added lang graph cli to",
+        "start": 3975.839,
+        "duration": 11.841
+      },
+      {
+        "text": "pi project toml",
+        "start": 3983.839,
+        "duration": 7.681
+      },
+      {
+        "text": "updated python version uh we'll say",
+        "start": 3987.68,
+        "duration": 5.679
+      },
+      {
+        "text": "minor",
+        "start": 3991.52,
+        "duration": 6.039
+      },
+      {
+        "text": "python version",
+        "start": 3993.359,
+        "duration": 4.2
+      },
+      {
+        "text": "uh let's see",
+        "start": 3997.68,
+        "duration": 4.52
+      },
+      {
+        "text": "json son",
+        "start": 4002.799,
+        "duration": 3.32
+      },
+      {
+        "text": "ignored.",
+        "start": 4006.72,
+        "duration": 3.0
+      },
+      {
+        "text": "I think it was langraph API.",
+        "start": 4010.72,
+        "duration": 4.92
+      },
+      {
+        "text": "Yeah. Underscore",
+        "start": 4017.28,
+        "duration": 4.319
+      },
+      {
+        "text": "whatever. Cool. So now we have our",
+        "start": 4019.839,
+        "duration": 4.321
+      },
+      {
+        "text": "commit message.",
+        "start": 4021.599,
+        "duration": 5.041
+      },
+      {
+        "text": "We're going to go ahead and push. This",
+        "start": 4024.16,
+        "duration": 5.879
+      },
+      {
+        "text": "doesn't work.",
+        "start": 4026.64,
+        "duration": 3.399
+      },
+      {
+        "text": "So just do this real quick",
+        "start": 4031.2,
+        "duration": 4.28
+      },
+      {
+        "text": "config.",
+        "start": 4040.4,
+        "duration": 3.0
+      },
+      {
+        "text": "Okay, you can query replace and set.",
+        "start": 4044.88,
+        "duration": 9.959
+      },
+      {
+        "text": "Cool. So it should just be get config",
+        "start": 4049.52,
+        "duration": 5.319
+      },
+      {
+        "text": "It doesn't like this.",
+        "start": 4060.4,
+        "duration": 3.719
+      },
+      {
+        "text": "Cool. That should have worked. So now if",
+        "start": 4064.799,
+        "duration": 5.201
+      },
+      {
+        "text": "we go get push.",
+        "start": 4066.96,
+        "duration": 6.48
+      },
+      {
+        "text": "Oh, bad fullon.",
+        "start": 4070.0,
+        "duration": 7.319
+      },
+      {
+        "text": "See, does it take one?",
+        "start": 4073.44,
+        "duration": 3.879
+      },
+      {
+        "text": "Oh, doesn't need the equals. Got it.",
+        "start": 4080.0,
+        "duration": 7.559
+      },
+      {
+        "text": "Just the space.",
+        "start": 4084.079,
+        "duration": 3.48
+      },
+      {
+        "text": "Okay.",
+        "start": 4087.599,
+        "duration": 3.0
+      },
+      {
+        "text": "Get config place. Oh, let's",
+        "start": 4095.92,
+        "duration": 11.279
+      },
+      {
+        "text": "get config replace all push auto setup",
+        "start": 4102.319,
+        "duration": 9.161
+      },
+      {
+        "text": "remote set to one.",
+        "start": 4107.199,
+        "duration": 4.281
+      },
+      {
+        "text": "Cool. All right. It did it. It worked",
+        "start": 4112.64,
+        "duration": 3.599
+      },
+      {
+        "text": "that time.",
+        "start": 4114.159,
+        "duration": 5.68
+      },
+      {
+        "text": "So same loop, right? Go to the help then",
+        "start": 4116.239,
+        "duration": 5.841
+      },
+      {
+        "text": "just hack around until it works. So now",
+        "start": 4119.839,
+        "duration": 5.041
+      },
+      {
+        "text": "it created automatically",
+        "start": 4122.08,
+        "duration": 5.52
+      },
+      {
+        "text": "my or it pushed my branch automatically",
+        "start": 4124.88,
+        "duration": 5.12
+      },
+      {
+        "text": "to this and then I can just single click",
+        "start": 4127.6,
+        "duration": 6.28
+      },
+      {
+        "text": "to create my pull request.",
+        "start": 4130.0,
+        "duration": 3.88
+      },
+      {
+        "text": "Bam.",
+        "start": 4133.92,
+        "duration": 5.96
+      },
+      {
+        "text": "Oh, nice.",
+        "start": 4136.56,
+        "duration": 3.32
+      },
+      {
+        "text": "So then we can just say",
+        "start": 4142.159,
+        "duration": 8.2
+      },
+      {
+        "text": "addit lang graph cli",
+        "start": 4145.92,
+        "duration": 4.439
+      },
+      {
+        "text": "updated python later version.",
+        "start": 4150.4,
+        "duration": 9.68
+      },
+      {
+        "text": "Cool. We're going straight into main.",
+        "start": 4155.759,
+        "duration": 7.321
+      },
+      {
+        "text": "Perfect.",
+        "start": 4160.08,
+        "duration": 3.0
+      },
+      {
+        "text": "Adam can review.",
+        "start": 4163.12,
+        "duration": 3.639
+      },
+      {
+        "text": "Cool. Yeah. And then this is where our",
+        "start": 4175.279,
+        "duration": 4.56
+      },
+      {
+        "text": "pi tests would run. Yeah. So, I'm going",
+        "start": 4176.96,
+        "duration": 6.08
+      },
+      {
+        "text": "to do that for these other ones and then",
+        "start": 4179.839,
+        "duration": 6.32
+      },
+      {
+        "text": "probably just look into installing.",
+        "start": 4183.04,
+        "duration": 7.0
+      },
+      {
+        "text": "Oh, no. I got to go send",
+        "start": 4186.159,
+        "duration": 3.881
+      },
+      {
+        "text": "status. Cole. So, our Docker compose.",
+        "start": 4190.159,
+        "duration": 3.68
+      },
+      {
+        "text": "What do we do there? I think we just",
+        "start": 4192.48,
+        "duration": 4.239
+      },
+      {
+        "text": "added this. So",
+        "start": 4193.839,
+        "duration": 7.32
+      },
+      {
+        "text": "get checkout main",
+        "start": 4196.719,
+        "duration": 4.44
+      },
+      {
+        "text": "get checkout. So we wanted to go back to",
+        "start": 4201.44,
+        "duration": 4.16
+      },
+      {
+        "text": "main so we can start our branch from",
+        "start": 4203.76,
+        "duration": 4.32
+      },
+      {
+        "text": "here.",
+        "start": 4205.6,
+        "duration": 5.36
+      },
+      {
+        "text": "So same deal. We'll just come in. We'll",
+        "start": 4208.08,
+        "duration": 6.159
+      },
+      {
+        "text": "create an issue.",
+        "start": 4210.96,
+        "duration": 6.6
+      },
+      {
+        "text": "We'll say",
+        "start": 4214.239,
+        "duration": 3.321
+      },
+      {
+        "text": "stop our deploy. Why?",
+        "start": 4239.84,
+        "duration": 3.96
+      },
+      {
+        "text": "But it's",
+        "start": 4245.6,
+        "duration": 6.52
+      },
+      {
+        "text": "currently missing.",
+        "start": 4247.76,
+        "duration": 4.36
+      },
+      {
+        "text": "There we go. We got 186.",
+        "start": 4258.96,
+        "duration": 4.6
+      },
+      {
+        "text": "[Music]",
+        "start": 4263.96,
+        "duration": 3.06
+      },
+      {
+        "text": "bar",
+        "start": 4268.56,
+        "duration": 5.8
+      },
+      {
+        "text": "compose.",
+        "start": 4271.36,
+        "duration": 3.0
+      },
+      {
+        "text": "Let's just put in there.",
+        "start": 4275.92,
+        "duration": 4.44
+      },
+      {
+        "text": "Oh, what happened?",
+        "start": 4296.4,
+        "duration": 5.52
+      },
+      {
+        "text": "I don't know if you um uh yep, didn't",
+        "start": 4299.28,
+        "duration": 4.959
+      },
+      {
+        "text": "add it.",
+        "start": 4301.92,
+        "duration": 6.08
+      },
+      {
+        "text": "Oh, how come this is here?",
+        "start": 4304.239,
+        "duration": 5.521
+      },
+      {
+        "text": "That should have been get ignored. All",
+        "start": 4308.0,
+        "duration": 4.159
+      },
+      {
+        "text": "right, so we need to fix that bug real",
+        "start": 4309.76,
+        "duration": 4.32
+      },
+      {
+        "text": "quick.",
+        "start": 4312.159,
+        "duration": 5.441
+      },
+      {
+        "text": "Let's call get add that",
+        "start": 4314.08,
+        "duration": 6.76
+      },
+      {
+        "text": "get commit.",
+        "start": 4317.6,
+        "duration": 3.24
+      },
+      {
+        "text": "All right. Yeah, there we go. Commit",
+        "start": 4324.239,
+        "duration": 6.92
+      },
+      {
+        "text": "message.",
+        "start": 4328.159,
+        "duration": 3.0
+      },
+      {
+        "text": "Cool. Now, if we refresh this, I need to",
+        "start": 4346.48,
+        "duration": 7.199
+      },
+      {
+        "text": "do that that push config.",
+        "start": 4349.28,
+        "duration": 6.879
+      },
+      {
+        "text": "Yeah, it's very nice. Yeah, instead of",
+        "start": 4353.679,
+        "duration": 7.48
+      },
+      {
+        "text": "copy pasting the whole thing every time.",
+        "start": 4356.159,
+        "duration": 5.0
+      },
+      {
+        "text": "All right, so that's two down.",
+        "start": 4365.04,
+        "duration": 6.159
+      },
+      {
+        "text": "Get checkout",
+        "start": 4369.199,
+        "duration": 4.721
+      },
+      {
+        "text": "main.",
+        "start": 4371.199,
+        "duration": 4.641
+      },
+      {
+        "text": "So, actually, let's go back to this",
+        "start": 4373.92,
+        "duration": 6.16
+      },
+      {
+        "text": "other branch and fix this.",
+        "start": 4375.84,
+        "duration": 7.92
+      },
+      {
+        "text": "So that was 187.",
+        "start": 4380.08,
+        "duration": 7.96
+      },
+      {
+        "text": "No. Why is that not 186?",
+        "start": 4383.76,
+        "duration": 4.28
+      },
+      {
+        "text": "Why does it say 186 and that say 187?",
+        "start": 4389.36,
+        "duration": 5.0
+      },
+      {
+        "text": "Whatever.",
+        "start": 4396.88,
+        "duration": 6.2
+      },
+      {
+        "text": "This is 186.",
+        "start": 4399.44,
+        "duration": 3.64
+      },
+      {
+        "text": "Oh, okay. That's why.",
+        "start": 4411.36,
+        "duration": 6.92
+      },
+      {
+        "text": "Oh, wow.",
+        "start": 4414.96,
+        "duration": 3.32
+      },
+      {
+        "text": "This is uh pull request number 187, but",
+        "start": 4418.56,
+        "duration": 5.52
+      },
+      {
+        "text": "I attached it to issue 186. So, they're",
+        "start": 4421.679,
+        "duration": 6.0
+      },
+      {
+        "text": "only one off, which is weird. Usually,",
+        "start": 4424.08,
+        "duration": 6.0
+      },
+      {
+        "text": "you have a lot more issues than PRs",
+        "start": 4427.679,
+        "duration": 5.52
+      },
+      {
+        "text": "because you might have multiple in one.",
+        "start": 4430.08,
+        "duration": 5.92
+      },
+      {
+        "text": "Okay. So, that's that. That's that. So,",
+        "start": 4433.199,
+        "duration": 7.561
+      },
+      {
+        "text": "what was this branch called again?",
+        "start": 4436.0,
+        "duration": 4.76
+      },
+      {
+        "text": "We're going to get check out this",
+        "start": 4444.0,
+        "duration": 6.08
+      },
+      {
+        "text": "branch.",
+        "start": 4447.44,
+        "duration": 4.4
+      },
+      {
+        "text": "Oh, it was just showing up there because",
+        "start": 4450.08,
+        "duration": 6.4
+      },
+      {
+        "text": "I was back on master. Okay, cool.",
+        "start": 4451.84,
+        "duration": 6.64
+      },
+      {
+        "text": "I was wondering why this langraph API",
+        "start": 4456.48,
+        "duration": 4.0
+      },
+      {
+        "text": "was there again. Mhm. Then I was",
+        "start": 4458.48,
+        "duration": 5.199
+      },
+      {
+        "text": "thinking maybe I needed to add the",
+        "start": 4460.48,
+        "duration": 5.84
+      },
+      {
+        "text": "star star, but actually I don't. Okay,",
+        "start": 4463.679,
+        "duration": 6.641
+      },
+      {
+        "text": "good. Check out main code",
+        "start": 4466.32,
+        "duration": 7.04
+      },
+      {
+        "text": "status. So now the last thing we want to",
+        "start": 4470.32,
+        "duration": 7.359
+      },
+      {
+        "text": "do is add this docker file.",
+        "start": 4473.36,
+        "duration": 7.44
+      },
+      {
+        "text": "So for this one,",
+        "start": 4477.679,
+        "duration": 6.961
+      },
+      {
+        "text": "Adam already has this.",
+        "start": 4480.8,
+        "duration": 10.16
+      },
+      {
+        "text": "So we will get check out his branch.",
+        "start": 4484.64,
+        "duration": 10.92
+      },
+      {
+        "text": "We will get stash.",
+        "start": 4490.96,
+        "duration": 4.6
+      },
+      {
+        "text": "Okay. Why is get stash not working?",
+        "start": 4498.64,
+        "duration": 4.76
+      },
+      {
+        "text": "Untract working files.",
+        "start": 4506.239,
+        "duration": 4.041
+      },
+      {
+        "text": "Okay. Is it good to add them?",
+        "start": 4511.199,
+        "duration": 4.641
+      },
+      {
+        "text": "There we go.",
+        "start": 4521.84,
+        "duration": 3.399
+      },
+      {
+        "text": "Yeah. One main",
+        "start": 4530.96,
+        "duration": 8.16
+      },
+      {
+        "text": "cool stash is basically a uh",
+        "start": 4534.48,
+        "duration": 7.36
+      },
+      {
+        "text": "I think it's a heap structure where it's",
+        "start": 4539.12,
+        "duration": 5.039
+      },
+      {
+        "text": "first in first out. So this just got",
+        "start": 4541.84,
+        "duration": 5.52
+      },
+      {
+        "text": "added to the top of the heap.",
+        "start": 4544.159,
+        "duration": 5.441
+      },
+      {
+        "text": "So now if I go to my get status. Cool.",
+        "start": 4547.36,
+        "duration": 4.48
+      },
+      {
+        "text": "Nothing's there. So now I can get check",
+        "start": 4549.6,
+        "duration": 5.04
+      },
+      {
+        "text": "out ETL deploy.",
+        "start": 4551.84,
+        "duration": 6.839
+      },
+      {
+        "text": "Get stash pop.",
+        "start": 4554.64,
+        "duration": 4.039
+      },
+      {
+        "text": "All right.",
+        "start": 4558.8,
+        "duration": 3.0
+      },
+      {
+        "text": "Cool. I have a",
+        "start": 4564.719,
+        "duration": 8.0
+      },
+      {
+        "text": "conflict here. So we can reserve this.",
+        "start": 4567.92,
+        "duration": 7.2
+      },
+      {
+        "text": "So, he was using Alpine Latest and Hello",
+        "start": 4572.719,
+        "duration": 6.081
+      },
+      {
+        "text": "World. I've got all of this.",
+        "start": 4575.12,
+        "duration": 5.599
+      },
+      {
+        "text": "So, we can just delete this. You can",
+        "start": 4578.8,
+        "duration": 5.68
+      },
+      {
+        "text": "also do it in the merge editor,",
+        "start": 4580.719,
+        "duration": 6.721
+      },
+      {
+        "text": "but I'm pretty sure we got this working",
+        "start": 4584.48,
+        "duration": 5.28
+      },
+      {
+        "text": "last time. If not, we'll need to fix it",
+        "start": 4587.44,
+        "duration": 5.32
+      },
+      {
+        "text": "anyway.",
+        "start": 4589.76,
+        "duration": 3.0
+      },
+      {
+        "text": "Cool.",
+        "start": 4596.0,
+        "duration": 3.0
+      },
+      {
+        "text": "So this is the one tested but whatever",
+        "start": 4604.159,
+        "duration": 4.841
+      },
+      {
+        "text": "status.",
+        "start": 4609.6,
+        "duration": 3.0
+      },
+      {
+        "text": "I mean, you should always test before",
+        "start": 4645.92,
+        "duration": 5.12
+      },
+      {
+        "text": "merging anyway, right?",
+        "start": 4647.28,
+        "duration": 8.08
+      },
+      {
+        "text": "Yeah. Yeah. But before we do",
+        "start": 4651.04,
+        "duration": 6.08
+      },
+      {
+        "text": "That's why those automatic tests would",
+        "start": 4655.36,
+        "duration": 4.799
+      },
+      {
+        "text": "be good. Yeah. But now we have this",
+        "start": 4657.12,
+        "duration": 4.72
+      },
+      {
+        "text": "commit in here. We can also always roll",
+        "start": 4660.159,
+        "duration": 3.201
+      },
+      {
+        "text": "back this commit. But at least I have",
+        "start": 4661.84,
+        "duration": 4.8
+      },
+      {
+        "text": "that work saved. Right now I can go back",
+        "start": 4663.36,
+        "duration": 6.52
+      },
+      {
+        "text": "to main",
+        "start": 4666.64,
+        "duration": 3.24
+      },
+      {
+        "text": "uh filled in with code I",
+        "start": 4670.0,
+        "duration": 8.64
+      },
+      {
+        "text": "had on my machine.",
+        "start": 4675.28,
+        "duration": 5.2
+      },
+      {
+        "text": "didn't",
+        "start": 4678.64,
+        "duration": 7.519
+      },
+      {
+        "text": "get a chance to test before",
+        "start": 4680.48,
+        "duration": 8.679
+      },
+      {
+        "text": "committing.",
+        "start": 4686.159,
+        "duration": 3.0
+      },
+      {
+        "text": "Uh",
+        "start": 4689.52,
+        "duration": 6.08
+      },
+      {
+        "text": "we'll need to do",
+        "start": 4692.08,
+        "duration": 7.48
+      },
+      {
+        "text": "that for",
+        "start": 4695.6,
+        "duration": 3.96
+      },
+      {
+        "text": "this PR.",
+        "start": 4700.239,
+        "duration": 3.96
+      },
+      {
+        "text": "Cool.",
+        "start": 4706.56,
+        "duration": 2.88
+      },
+      {
+        "text": "All right. Then you can always come back",
+        "start": 4713.12,
+        "duration": 6.2
+      },
+      {
+        "text": "to this tape if you want.",
+        "start": 4715.44,
+        "duration": 3.88
+      },
+      {
+        "text": "All right. So, we got a couple of more",
+        "start": 4722.96,
+        "duration": 4.0
+      },
+      {
+        "text": "PRs in there. We added a few issues.",
+        "start": 4724.719,
+        "duration": 5.201
+      },
+      {
+        "text": "Clean a few things up.",
+        "start": 4726.96,
+        "duration": 9.199
+      },
+      {
+        "text": "I think I need to add these two to the",
+        "start": 4729.92,
+        "duration": 9.239
+      },
+      {
+        "text": "projects",
+        "start": 4736.159,
+        "duration": 3.0
+      },
+      {
+        "text": "and then do we have an in review? I'm",
+        "start": 4744.239,
+        "duration": 4.241
+      },
+      {
+        "text": "assuming",
+        "start": 4746.08,
+        "duration": 7.24
+      },
+      {
+        "text": "hopefully. Oh, we have a senior review.",
+        "start": 4748.48,
+        "duration": 4.84
+      },
+      {
+        "text": "Cool. That works.",
+        "start": 4753.84,
+        "duration": 3.72
+      },
+      {
+        "text": "All right.",
+        "start": 4773.36,
+        "duration": 3.08
+      },
+      {
+        "text": "This one need to still clean a bunch of",
+        "start": 4778.08,
+        "duration": 6.36
+      },
+      {
+        "text": "this up, but",
+        "start": 4780.8,
+        "duration": 3.64
+      },
+      {
+        "text": "cool.",
+        "start": 4785.28,
+        "duration": 5.56
+      },
+      {
+        "text": "looks much better than it did.",
+        "start": 4786.64,
+        "duration": 4.2
+      },
+      {
+        "text": "And I'll try to add some other",
+        "start": 4792.56,
+        "duration": 4.56
+      },
+      {
+        "text": "um",
+        "start": 4795.52,
+        "duration": 4.96
+      },
+      {
+        "text": "tickets from our other notes as well.",
+        "start": 4797.12,
+        "duration": 6.0
+      },
+      {
+        "text": "So after I get the credentials from",
+        "start": 4800.48,
+        "duration": 4.32
+      },
+      {
+        "text": "Adam, we'll go through the",
+        "start": 4803.12,
+        "duration": 3.36
+      },
+      {
+        "text": "troubleshooting so we can get the bot",
+        "start": 4804.8,
+        "duration": 5.76
+      },
+      {
+        "text": "working. Uh then from there,",
+        "start": 4806.48,
+        "duration": 5.92
+      },
+      {
+        "text": "if Melissa can have the pi test, that",
+        "start": 4810.56,
+        "duration": 3.679
+      },
+      {
+        "text": "would be awesome. we can hook that into",
+        "start": 4812.4,
+        "duration": 5.04
+      },
+      {
+        "text": "the CI/CD and get the CI/CD running. And",
+        "start": 4814.239,
+        "duration": 6.401
+      },
+      {
+        "text": "then on the eval side, I was setting up",
+        "start": 4817.44,
+        "duration": 4.88
+      },
+      {
+        "text": "part of the reason I set up langraph",
+        "start": 4820.64,
+        "duration": 4.48
+      },
+      {
+        "text": "server was so that I can also set up",
+        "start": 4822.32,
+        "duration": 5.68
+      },
+      {
+        "text": "Lang Smith",
+        "start": 4825.12,
+        "duration": 5.52
+      },
+      {
+        "text": "and that'll give us I don't know if",
+        "start": 4828.0,
+        "duration": 6.76
+      },
+      {
+        "text": "y'all were on that call,",
+        "start": 4830.64,
+        "duration": 4.12
+      },
+      {
+        "text": "but",
+        "start": 4835.76,
+        "duration": 7.88
+      },
+      {
+        "text": "lane graph. Let's see.",
+        "start": 4838.64,
+        "duration": 5.0
+      },
+      {
+        "text": "Look at there",
+        "start": 4844.56,
+        "duration": 5.52
+      },
+      {
+        "text": "studio is basically if you can run",
+        "start": 4847.52,
+        "duration": 6.0
+      },
+      {
+        "text": "langraph server and lang smith together",
+        "start": 4850.08,
+        "duration": 5.119
+      },
+      {
+        "text": "it'll give you this kind of nice little",
+        "start": 4853.52,
+        "duration": 4.0
+      },
+      {
+        "text": "IDE. So this is the developer experience",
+        "start": 4855.199,
+        "duration": 4.801
+      },
+      {
+        "text": "we're kind of shooting for",
+        "start": 4857.52,
+        "duration": 6.32
+      },
+      {
+        "text": "smith by itself will allow us to run",
+        "start": 4860.0,
+        "duration": 6.4
+      },
+      {
+        "text": "evaluations. So we can set up a data",
+        "start": 4863.84,
+        "duration": 4.48
+      },
+      {
+        "text": "set. We can have like here's our",
+        "start": 4866.4,
+        "duration": 4.56
+      },
+      {
+        "text": "expected answer, here's our actual",
+        "start": 4868.32,
+        "duration": 5.359
+      },
+      {
+        "text": "answer, and we can compare the two. So",
+        "start": 4870.96,
+        "duration": 5.759
+      },
+      {
+        "text": "any changes that we make to the prompts,",
+        "start": 4873.679,
+        "duration": 5.04
+      },
+      {
+        "text": "we can actually test. So this one right",
+        "start": 4876.719,
+        "duration": 4.0
+      },
+      {
+        "text": "here, you can like start at your top",
+        "start": 4878.719,
+        "duration": 5.201
+      },
+      {
+        "text": "node, give it an input, it'll run your",
+        "start": 4880.719,
+        "duration": 7.121
+      },
+      {
+        "text": "graph, and it'll give you kind of traces",
+        "start": 4883.92,
+        "duration": 6.96
+      },
+      {
+        "text": "and you can see what's going on as your",
+        "start": 4887.84,
+        "duration": 6.359
+      },
+      {
+        "text": "graph runs.",
+        "start": 4890.88,
+        "duration": 3.319
+      },
+      {
+        "text": "So this was stuff we didn't have the",
+        "start": 4894.32,
+        "duration": 5.2
+      },
+      {
+        "text": "first time we were doing this project.",
+        "start": 4896.64,
+        "duration": 4.559
+      },
+      {
+        "text": "So",
+        "start": 4899.52,
+        "duration": 3.679
+      },
+      {
+        "text": "if we can set this up, this will give us",
+        "start": 4901.199,
+        "duration": 3.921
+      },
+      {
+        "text": "a nice",
+        "start": 4903.199,
+        "duration": 6.721
+      },
+      {
+        "text": "kind of basis to start then, you know,",
+        "start": 4905.12,
+        "duration": 8.64
+      },
+      {
+        "text": "adding more participants and hopefully",
+        "start": 4909.92,
+        "duration": 5.84
+      },
+      {
+        "text": "folks can",
+        "start": 4913.76,
+        "duration": 4.8
+      },
+      {
+        "text": "focus a little bit less on all of this",
+        "start": 4915.76,
+        "duration": 4.72
+      },
+      {
+        "text": "like infrastructure stuff. we can take",
+        "start": 4918.56,
+        "duration": 6.0
+      },
+      {
+        "text": "care of that. And uh folks who are just",
+        "start": 4920.48,
+        "duration": 6.88
+      },
+      {
+        "text": "interested in kind of like the AI agent",
+        "start": 4924.56,
+        "duration": 4.4
+      },
+      {
+        "text": "portion",
+        "start": 4927.36,
+        "duration": 5.44
+      },
+      {
+        "text": "can really just focus on building",
+        "start": 4928.96,
+        "duration": 7.239
+      },
+      {
+        "text": "AI agents.",
+        "start": 4932.8,
+        "duration": 3.399
+      },
+      {
+        "text": "So I know I took up extra 25 minutes of",
+        "start": 4936.88,
+        "duration": 4.0
+      },
+      {
+        "text": "your time. Thank you all so much for",
+        "start": 4939.52,
+        "duration": 4.96
+      },
+      {
+        "text": "staying on and yeah, we'll keep this",
+        "start": 4940.88,
+        "duration": 6.48
+      },
+      {
+        "text": "thing rolling. So next week I'll be back",
+        "start": 4944.48,
+        "duration": 5.44
+      },
+      {
+        "text": "in uh LA. But yeah, Melissa, if you're",
+        "start": 4947.36,
+        "duration": 3.76
+      },
+      {
+        "text": "going to be out for a little bit, we can",
+        "start": 4949.92,
+        "duration": 3.68
+      },
+      {
+        "text": "look into moving the time around so it's",
+        "start": 4951.12,
+        "duration": 4.559
+      },
+      {
+        "text": "not 1:00 a.m. or whatever it was two",
+        "start": 4953.6,
+        "duration": 4.0
+      },
+      {
+        "text": "weeks ago.",
+        "start": 4955.679,
+        "duration": 7.04
+      },
+      {
+        "text": "I can I can do I can do whatever works",
+        "start": 4957.6,
+        "duration": 7.52
+      },
+      {
+        "text": "um for you is fine, especially since",
+        "start": 4962.719,
+        "duration": 7.361
+      },
+      {
+        "text": "it's only once a week. This uh was a lot",
+        "start": 4965.12,
+        "duration": 6.48
+      },
+      {
+        "text": "easier",
+        "start": 4970.08,
+        "duration": 5.04
+      },
+      {
+        "text": "this week, but um but normally I don't I",
+        "start": 4971.6,
+        "duration": 4.88
+      },
+      {
+        "text": "don't mind since it's only once a week.",
+        "start": 4975.12,
+        "duration": 4.24
+      },
+      {
+        "text": "It's not that big of a deal. Cool. Yeah.",
+        "start": 4976.48,
+        "duration": 4.64
+      },
+      {
+        "text": "How uh how much longer? You're out there",
+        "start": 4979.36,
+        "duration": 3.279
+      },
+      {
+        "text": "for like a couple months, right? Or",
+        "start": 4981.12,
+        "duration": 4.16
+      },
+      {
+        "text": "something. Um I come back I fly back",
+        "start": 4982.639,
+        "duration": 5.52
+      },
+      {
+        "text": "into St. Louis on July 22nd.",
+        "start": 4985.28,
+        "duration": 6.0
+      },
+      {
+        "text": "Okay. So, another month. Okay, cool.",
+        "start": 4988.159,
+        "duration": 4.56
+      },
+      {
+        "text": "Yeah, we'll look into moving it around",
+        "start": 4991.28,
+        "duration": 2.959
+      },
+      {
+        "text": "so it could be a little little less",
+        "start": 4992.719,
+        "duration": 4.321
+      },
+      {
+        "text": "brutal for you.",
+        "start": 4994.239,
+        "duration": 4.881
+      },
+      {
+        "text": "Yeah, at least for the next four weeks.",
+        "start": 4997.04,
+        "duration": 5.28
+      },
+      {
+        "text": "Yeah. And feel free to use whatever time",
+        "start": 4999.12,
+        "duration": 5.519
+      },
+      {
+        "text": "works for the both of you because if it",
+        "start": 5002.32,
+        "duration": 3.76
+      },
+      {
+        "text": "doesn't work for me, I can always catch",
+        "start": 5004.639,
+        "duration": 3.681
+      },
+      {
+        "text": "the replay. Not a big deal.",
+        "start": 5006.08,
+        "duration": 4.96
+      },
+      {
+        "text": "Okay, sounds good. Sounds good. Yeah,",
+        "start": 5008.32,
+        "duration": 5.04
+      },
+      {
+        "text": "I'll drop it in our group chat anyway",
+        "start": 5011.04,
+        "duration": 3.599
+      },
+      {
+        "text": "and we'll find out what works for",
+        "start": 5013.36,
+        "duration": 3.12
+      },
+      {
+        "text": "everybody.",
+        "start": 5014.639,
+        "duration": 5.52
+      },
+      {
+        "text": "Sounds good. Cool. Well, enjoy the rest",
+        "start": 5016.48,
+        "duration": 5.679
+      },
+      {
+        "text": "of your weekends and weeks and we'll",
+        "start": 5020.159,
+        "duration": 5.121
+      },
+      {
+        "text": "talk to you next week. Enjoy enjoy the",
+        "start": 5022.159,
+        "duration": 5.441
+      },
+      {
+        "text": "rest of your Hawaii.",
+        "start": 5025.28,
+        "duration": 5.919
+      },
+      {
+        "text": "I will. I will. I don't want to go home.",
+        "start": 5027.6,
+        "duration": 6.0
+      },
+      {
+        "text": "All right, y'all. You're on island time.",
+        "start": 5031.199,
+        "duration": 5.601
+      },
+      {
+        "text": "See you.",
+        "start": 5033.6,
+        "duration": 3.2
+      }
+    ]
+  }
+}
