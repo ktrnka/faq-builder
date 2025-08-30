@@ -3,6 +3,7 @@
 FAQ Builder CLI - A tool for building FAQs from various sources.
 """
 
+import json
 import os
 import time
 
@@ -48,18 +49,21 @@ def download_video_transcript(video_id, languages, output_dir, youtube_client=No
     Raises:
         click.ClickException: If file already exists or download fails
     """
-    # Get video metadata to extract publish date
+    # Get video metadata
+    metadata = None
     publish_date = "unknown"
+    
     if youtube_client:
         try:
             video_request = youtube_client.videos().list(
-                part="snippet",
+                part="snippet,statistics,contentDetails",
                 id=video_id
             )
             video_response = video_request.execute()
             
             if video_response["items"]:
-                published_at = video_response["items"][0]["snippet"]["publishedAt"]
+                metadata = video_response["items"][0]
+                published_at = metadata["snippet"]["publishedAt"]
                 # Convert from ISO format (2025-08-29T23:01:01Z) to YYYY-MM-DD
                 publish_date = published_at.split("T")[0]
         except Exception:
@@ -68,7 +72,7 @@ def download_video_transcript(video_id, languages, output_dir, youtube_client=No
     
     # Create youtube subdirectory structure
     youtube_dir = os.path.join(output_dir, "youtube")
-    filename = f"{publish_date}_{video_id}.txt"
+    filename = f"{publish_date}_{video_id}.json"
     output_file = os.path.join(youtube_dir, filename)
     
     # Check if file already exists
@@ -82,43 +86,32 @@ def download_video_transcript(video_id, languages, output_dir, youtube_client=No
     if not fetched_transcript or len(fetched_transcript) == 0:
         raise click.ClickException("No transcript found for this video.")
 
-    # Prepare transcript content (always with timestamps)
-    transcript_lines = []
+    # Convert transcript to serializable format
+    transcript_data = []
     for snippet in fetched_transcript:
-        text = snippet.text.strip()
-        # Convert start time to minutes:seconds format
-        start_seconds = int(snippet.start)
-        minutes = start_seconds // 60
-        seconds = start_seconds % 60
-        timestamp = f"[{minutes:02d}:{seconds:02d}]"
-        transcript_lines.append(f"{timestamp} {text}")
+        transcript_data.append({
+            "text": snippet.text,
+            "start": snippet.start,
+            "duration": snippet.duration
+        })
 
-    # Calculate total duration
-    total_minutes = 0
-    total_seconds = 0
-    if len(fetched_transcript) > 0:
-        last_snippet = fetched_transcript[-1]
-        total_duration = int(last_snippet.start + last_snippet.duration)
-        total_minutes = total_duration // 60
-        total_seconds = total_duration % 60
+    # Prepare the JSON data structure
+    json_data = {
+        "metadata": metadata,
+        "transcript": {
+            "video_id": fetched_transcript.video_id,
+            "language": fetched_transcript.language,
+            "language_code": fetched_transcript.language_code,
+            "is_generated": fetched_transcript.is_generated,
+            "snippets": transcript_data
+        }
+    }
 
     # Create output directory and save file
     os.makedirs(youtube_dir, exist_ok=True)
 
     with open(output_file, "w", encoding="utf-8") as f:
-        # Write header information
-        f.write("YouTube Video Transcript\n")
-        f.write(f"Video ID: {video_id}\n")
-        f.write(f"Publish Date: {publish_date}\n")
-        f.write(f"Language: {fetched_transcript.language} ({fetched_transcript.language_code})\n")
-        f.write(f"Generated: {'Yes' if fetched_transcript.is_generated else 'No'}\n")
-        f.write(f"Total segments: {len(fetched_transcript)}\n")
-        f.write(f"Total duration: {total_minutes:02d}:{total_seconds:02d}\n")
-        f.write("=" * 60 + "\n\n")
-
-        # Write transcript content
-        for line in transcript_lines:
-            f.write(line + "\n")
+        json.dump(json_data, f, indent=2, ensure_ascii=False)
 
     return output_file
 
@@ -247,18 +240,27 @@ def download_transcript(video_ids, languages, output_dir):
             click.echo(f"✅ Transcript saved to: {output_file}")
             successful_downloads.append(video_id)
             
-            # Read back the file to get summary info
+            # Read back the JSON file to get summary info
             with open(output_file, "r", encoding="utf-8") as f:
-                lines = f.readlines()
+                data = json.load(f)
 
-            # Extract info from header
-            segments_line = next((line for line in lines if line.startswith("Total segments:")), None)
-            duration_line = next((line for line in lines if line.startswith("Total duration:")), None)
+            # Extract info from JSON structure
+            transcript = data["transcript"]
+            snippet_count = len(transcript["snippets"])
+            
+            # Calculate total duration
+            total_duration = 0
+            if transcript["snippets"]:
+                last_snippet = transcript["snippets"][-1]
+                total_duration = int(last_snippet["start"] + last_snippet["duration"])
+            
+            total_minutes = total_duration // 60
+            total_seconds = total_duration % 60
 
-            if segments_line:
-                click.echo(f"📊 {segments_line.strip()}")
-            if duration_line:
-                click.echo(f"⏱️  {duration_line.strip()}")
+            click.echo(f"📊 Total segments: {snippet_count}")
+            click.echo(f"⏱️  Total duration: {total_minutes:02d}:{total_seconds:02d}")
+            click.echo(f"📝 Language: {transcript['language']} ({transcript['language_code']})")
+            click.echo(f"🤖 Generated: {'Yes' if transcript['is_generated'] else 'No'}")
                 
         except click.ClickException as e:
             click.echo(f"❌ Failed: {e}")
