@@ -178,7 +178,19 @@ def cli():
     pass
 
 
-@cli.command()
+@cli.group()
+def youtube():
+    """YouTube video processing commands."""
+    pass
+
+
+@cli.group()
+def reddit():
+    """Reddit comment processing commands."""
+    pass
+
+
+@youtube.command("list-videos")
 @click.option("--search-term", default="Keith", help="Search term to filter video titles (default: Keith)")
 @click.option("--playlist-id", default=TECHJOYLIVE_PLAYLIST_ID, help="YouTube playlist ID to scan")
 @click.option("--max-pages", default=10, help="Maximum number of pages to fetch (default: 10)")
@@ -251,7 +263,7 @@ def list_videos(search_term, playlist_id, max_pages):
         click.echo(f"❌ No videos found containing '{search_term}' in the title out of {total_videos_processed} total videos.")
 
 
-@cli.command()
+@youtube.command("download-transcript")
 @click.argument("video_ids", nargs=-1, required=True)
 @click.option("--languages", default="en", help="Comma-separated list of language codes (default: en)")
 @click.option("--output-dir", default="data", help="Directory to save transcript files (default: data)")
@@ -280,7 +292,6 @@ def download_transcript(video_ids, languages, output_dir):
 
     for i, video_id in enumerate(video_ids, 1):
         # Extract video ID from URL if needed
-        original_input = video_id
         if "youtube.com/watch?v=" in video_id or "youtu.be/" in video_id:
             if "youtube.com/watch?v=" in video_id:
                 video_id = video_id.split("watch?v=")[1].split("&")[0]
@@ -346,7 +357,7 @@ def download_transcript(video_ids, languages, output_dir):
             click.echo(f"   - {video_id}: {error}")
 
 
-@cli.command()
+@reddit.command("download-user-comments")
 @click.option("--username", default="trnka", help="Reddit username to fetch comments from (default: trnka)")
 @click.option("--subreddits", default="mlquestions,machinelearning,gamedev,learnmachinelearning,mlops,aws,LanguageTechnology", help="Comma-separated list of subreddits to filter comments by (default: mlquestions,machinelearning,gamedev,learnmachinelearning,mlops,aws,LanguageTechnology)")
 @click.option("--limit", default=50, help="Maximum total number of comments to fetch across all subreddits (default: 50)")
