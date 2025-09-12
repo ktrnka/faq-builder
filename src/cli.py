@@ -1,12 +1,8 @@
-#!/usr/bin/env python3
-"""
-FAQ Builder CLI - A tool for building FAQs from various sources.
-"""
-
 import json
 import os
 import time
 from datetime import datetime
+from typing import List, Optional, Tuple
 
 import click
 import praw
@@ -21,30 +17,16 @@ load_dotenv()
 TECHJOYLIVE_PLAYLIST_ID = "PLuePfAWKCLvUbnk7vAcQIXtPlMDtz6Ses"
 
 
-def get_youtube_api_key():
-    """Get YouTube API key from environment variables.
-
-    Returns:
-        str: The API key if found
-
-    Raises:
-        click.ClickException: If API key is not found
-    """
+def get_youtube_api_key() -> str:
+    """Get YouTube API key from environment variables."""
     api_key = os.getenv("YOUTUBE_API_KEY")
     if not api_key:
         raise click.ClickException("YOUTUBE_API_KEY not found in environment variables. Please add your YouTube API key to the .env file.")
     return api_key
 
 
-def get_reddit_client():
-    """Get Reddit client using credentials from environment variables.
-
-    Returns:
-        praw.Reddit: Authenticated Reddit client
-
-    Raises:
-        click.ClickException: If credentials are not found
-    """
+def get_reddit_client() -> praw.Reddit:
+    """Get Reddit client using credentials from environment variables."""
     client_id = os.getenv("REDDIT_CLIENT_ID")
     client_secret = os.getenv("REDDIT_CLIENT_SECRET")
     
@@ -58,54 +40,34 @@ def get_reddit_client():
     )
 
 
-def download_user_comments(username, subreddit_names, limit, output_dir):
-    """Download comments from a specific user across multiple subreddits.
-
-    Args:
-        username: Reddit username to fetch comments from
-        subreddit_names: List of subreddit names to filter comments by
-        limit: Maximum total number of comments to fetch across all subreddits
-        output_dir: Base directory to save the file
-
-    Returns:
-        tuple: (Path to the saved file, total comments found)
-
-    Raises:
-        click.ClickException: If download fails
-    """
-    # Create reddit subdirectory
+def download_user_comments(username: str, subreddit_names: list[str], limit: int, output_dir: str) -> tuple[str, int, dict[str, int]]:
+    """Download comments from a specific user across multiple subreddits."""
     reddit_dir = os.path.join(output_dir, "reddit")
     os.makedirs(reddit_dir, exist_ok=True)
     
-    # Generate filename with timestamp
     timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     subreddits_str = ",".join(subreddit_names)
     filename = f"{username}_{subreddits_str}_comments_{timestamp}.json"
     output_file = os.path.join(reddit_dir, filename)
     
-    # Get Reddit client
     reddit = get_reddit_client()
     
-    # Get user
     try:
         user = reddit.redditor(username)
     except Exception as e:
         raise click.ClickException(f"Failed to access Reddit user: {e}")
     
-    # Convert subreddit names to lowercase for case-insensitive matching
     target_subreddits = [name.lower() for name in subreddit_names]
     
-    # Fetch comments from the user in the specified subreddits
     comments_data = []
     comments_found = 0
     subreddit_counts = {name: 0 for name in subreddit_names}
     
     try:
-        for comment in user.comments.new(limit=None):  # Get all recent comments
+        for comment in user.comments.new(limit=None):
             comment_subreddit = comment.subreddit.display_name.lower()
             
             if comment_subreddit in target_subreddits:
-                # Find the original casing for the subreddit name
                 original_subreddit_name = comment.subreddit.display_name
                 
                 comments_data.append({
@@ -144,22 +106,8 @@ def download_user_comments(username, subreddit_names, limit, output_dir):
     return output_file, comments_found, subreddit_counts
 
 
-def download_video_transcript(video_id, languages, output_dir, youtube_client=None):
-    """Download transcript for a video and save to file.
-
-    Args:
-        video_id: YouTube video ID (already cleaned)
-        languages: List of language codes
-        output_dir: Base directory to save the file
-        youtube_client: Optional YouTube API client for getting video metadata
-
-    Returns:
-        str: Path to the saved file
-
-    Raises:
-        click.ClickException: If file already exists or download fails
-    """
-    # Get video metadata
+def download_video_transcript(video_id: str, languages: list[str], output_dir: str, youtube_client=None) -> str:
+    """Download transcript for a video and save to file."""
     metadata = None
     publish_date = "unknown"
 
@@ -180,18 +128,14 @@ def download_video_transcript(video_id, languages, output_dir, youtube_client=No
             if video_response["items"]:
                 metadata = video_response["items"][0]
                 published_at = metadata["snippet"]["publishedAt"]
-                # Convert from ISO format (2025-08-29T23:01:01Z) to YYYY-MM-DD
                 publish_date = published_at.split("T")[0]
         except Exception:
-            # If we can't get metadata, use unknown
             pass
     
-    # Create youtube subdirectory structure
     youtube_dir = os.path.join(output_dir, "youtube")
     filename = f"{publish_date}_{video_id}.json"
     output_file = os.path.join(youtube_dir, filename)
 
-    # Get transcript
     ytt_api = YouTubeTranscriptApi()
     fetched_transcript = ytt_api.fetch(video_id)
 
