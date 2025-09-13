@@ -11,6 +11,9 @@ from dotenv import load_dotenv
 from googleapiclient.discovery import build
 from youtube_transcript_api import YouTubeTranscriptApi
 
+from ..llm.client import get_openai_client
+from ..llm.prompts.transcript_cleaning import TranscriptCleaningPrompt
+
 # Load environment variables
 load_dotenv()
 
@@ -31,11 +34,14 @@ def download_video_transcript(video_id: str, languages: list[str], output_dir: s
     metadata = None
     publish_date = "unknown"
 
-    for file in os.listdir(output_dir):
-        if video_id in file:
-            path = os.path.join(output_dir, file)
-            click.echo(f"📄 Transcript already exists for video: {video_id} in {path}, skipping")
-            return path
+    # Check in the raw subdirectory for existing files
+    youtube_raw_dir = os.path.join(output_dir, "youtube", "raw")
+    if os.path.exists(youtube_raw_dir):
+        for file in os.listdir(youtube_raw_dir):
+            if video_id in file:
+                path = os.path.join(youtube_raw_dir, file)
+                click.echo(f"📄 Transcript already exists for video: {video_id} in {path}, skipping")
+                return path
 
     if youtube_client:
         try:
@@ -52,9 +58,9 @@ def download_video_transcript(video_id: str, languages: list[str], output_dir: s
         except Exception:
             pass
     
-    youtube_dir = os.path.join(output_dir, "youtube")
+    youtube_raw_dir = os.path.join(output_dir, "youtube", "raw")
     filename = f"{publish_date}_{video_id}.json"
-    output_file = os.path.join(youtube_dir, filename)
+    output_file = os.path.join(youtube_raw_dir, filename)
 
     ytt_api = YouTubeTranscriptApi()
     fetched_transcript = ytt_api.fetch(video_id)
@@ -84,7 +90,7 @@ def download_video_transcript(video_id: str, languages: list[str], output_dir: s
     }
 
     # Create output directory and save file
-    os.makedirs(youtube_dir, exist_ok=True)
+    os.makedirs(youtube_raw_dir, exist_ok=True)
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2, ensure_ascii=False)
@@ -225,7 +231,7 @@ def download_transcript(video_ids, languages, output_dir):
     VIDEO_IDS can be one or more YouTube video IDs (e.g., 'dQw4w9WgXcQ')
     or full YouTube URLs (e.g., 'https://www.youtube.com/watch?v=dQw4w9WgXcQ').
 
-    Saves transcripts with timestamps to data/youtube/{date}_{video_id}.txt
+    Saves transcripts with timestamps to data/youtube/raw/{date}_{video_id}.json
     """
     
     # Get YouTube API key and build client for metadata
@@ -317,7 +323,7 @@ def show_transcript(transcript_file):
     Takes a JSON transcript file and formats it with timestamps and metadata.
     Output can be piped to 'less' for paging through long transcripts.
     
-    Example: faq-builder youtube show-transcript data/youtube/2025-09-06__-tRDk3P7bg.json | less
+    Example: faq-builder youtube show-transcript data/youtube/raw/2025-09-06__-tRDk3P7bg.json | less
     """
     try:
         formatted_text = format_transcript_readable(transcript_file)
@@ -372,3 +378,143 @@ def count_tokens(transcript_file):
             
     except Exception as e:
         click.echo(f"❌ Error counting tokens: {e}", err=True)
+
+
+@youtube.command("clean-transcript")
+@click.argument("transcript_file", type=click.Path(exists=True, readable=True))
+@click.option("--max-lines", type=int, help="Maximum number of lines to process (for testing)")
+@click.option("--output-dir", default="data", help="Base output directory (default: data)")
+def clean_transcript(transcript_file, max_lines, output_dir):
+    """Clean and segment a YouTube transcript using LLM.
+    
+    Takes a JSON transcript file and produces a cleaned, segmented version
+    with chapters, speaker identification, and improved formatting.
+    
+    Automatically determines output path: raw/filename.json -> cleaned/filename.json
+    
+    TRANSCRIPT_FILE: Input JSON transcript (e.g., data/youtube/raw/2025-09-06__-tRDk3P7bg.json)
+    """
+    try:
+        click.echo(f"🔍 Processing transcript: {transcript_file}")
+        
+        # Determine output file path - same filename in cleaned directory
+        input_path = os.path.abspath(transcript_file)
+        filename = os.path.basename(input_path)
+        output_file = os.path.join(output_dir, "youtube", "cleaned", filename)
+        
+        click.echo(f"� Output will be saved to: {output_file}")
+        
+        # Get the formatted text (same as show-transcript)
+        formatted_text = format_transcript_readable(transcript_file)
+        
+        # Optionally truncate for testing
+        if max_lines:
+            lines = formatted_text.split('\n')
+            if len(lines) > max_lines:
+                formatted_text = '\n'.join(lines[:max_lines])
+                click.echo(f"📏 Truncated to {max_lines} lines for testing")
+        
+        # Count tokens for cost estimation
+        encoding = tiktoken.encoding_for_model("gpt-4")
+        token_count = len(encoding.encode(formatted_text))
+        click.echo(f"🔢 Processing {token_count:,} tokens")
+        
+        # Initialize LLM prompt
+        client = get_openai_client()
+        prompt = TranscriptCleaningPrompt(client)
+        
+        click.echo("🤖 Sending to LLM for cleaning and segmentation...")
+        
+        # Execute the prompt
+        cleaned_result = prompt.execute(transcript_text=formatted_text)
+        
+        # Create output directory if needed
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        
+        # Save the result as JSON
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(cleaned_result.model_dump(), f, indent=2, ensure_ascii=False)
+        
+        click.echo(f"✅ Cleaned transcript saved to: {output_file}")
+        
+        # Show summary stats
+        click.echo()
+        click.echo("📊 Summary:")
+        click.echo(f"   📖 Title: {cleaned_result.title}")
+        click.echo(f"   📅 Date: {cleaned_result.date}")
+        click.echo(f"   ⏱️  Duration: {int(cleaned_result.total_duration_seconds // 60):02d}:{int(cleaned_result.total_duration_seconds % 60):02d}")
+        click.echo(f"   📝 Chapters: {len(cleaned_result.chapters)}")
+        
+        # Show chapter breakdown
+        if cleaned_result.chapters:
+            click.echo()
+            click.echo("📚 Chapters:")
+            for i, chapter in enumerate(cleaned_result.chapters, 1):
+                duration_mins = int(chapter.start_time // 60)
+                duration_secs = int(chapter.start_time % 60)
+                click.echo(f"   {i}. [{duration_mins:02d}:{duration_secs:02d}] {chapter.title} ({chapter.chapter_type})")
+        
+        # Show processing notes if any
+        if cleaned_result.processing_notes:
+            click.echo()
+            click.echo("📋 Processing notes:")
+            for note in cleaned_result.processing_notes:
+                click.echo(f"   • {note}")
+                
+    except Exception as e:
+        click.echo(f"❌ Error cleaning transcript: {e}", err=True)
+        raise  # Let it crash during development as requested
+
+
+@youtube.command("show-cleaned-transcript")
+@click.argument("cleaned_file", type=click.Path(exists=True, readable=True))
+def show_cleaned_transcript(cleaned_file):
+    """Display a cleaned transcript in human-readable format.
+    
+    Takes a cleaned JSON transcript file and formats it for easy review.
+    Output can be piped to 'less' for paging through long transcripts.
+    
+    Example: faq-builder youtube show-cleaned-transcript data/cleaned/transcript_cleaned.json | less
+    """
+    try:
+        with open(cleaned_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        # Build the formatted output
+        lines = []
+        lines.append(f"Title: {data['title']}")
+        lines.append(f"Date: {data['date']}")
+        lines.append(f"Duration: {int(data['total_duration_seconds'] // 60):02d}:{int(data['total_duration_seconds'] % 60):02d}")
+        lines.append("")  # Empty line
+        
+        # Add chapters
+        for chapter in data['chapters']:
+            # Chapter header
+            start_mins = int(chapter['start_time'] // 60)
+            start_secs = int(chapter['start_time'] % 60)
+            lines.append(f"## [{start_mins:02d}:{start_secs:02d}] {chapter['title']} ({chapter['chapter_type']})")
+            lines.append("")
+            
+            # Chapter segments
+            for segment in chapter['segments']:
+                speaker_prefix = f"**{segment['speaker']}**: " if segment['speaker'] != "Host" else ""
+                lines.append(f"{speaker_prefix}{segment['text']}")
+                lines.append("")  # Empty line after each segment
+            
+            lines.append("---")  # Separator between chapters
+            lines.append("")
+        
+        # Add processing notes if any
+        if data.get('processing_notes'):
+            lines.append("## Processing Notes")
+            lines.append("")
+            for note in data['processing_notes']:
+                lines.append(f"• {note}")
+            lines.append("")
+        
+        # Output the formatted text
+        formatted_text = "\n".join(lines)
+        click.echo(formatted_text)
+        
+    except Exception as e:
+        click.echo(f"❌ Error formatting cleaned transcript: {e}", err=True)

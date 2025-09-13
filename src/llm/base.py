@@ -5,7 +5,7 @@ from abc import ABC, abstractmethod
 from typing import Generic, TypeVar
 
 from openai import OpenAI
-from openai.types.chat import ChatCompletion
+from openai.types.chat import ParsedChatCompletion
 from pydantic import BaseModel
 
 from .client import estimate_cost
@@ -44,7 +44,7 @@ class BasePrompt(ABC, Generic[T]):
         """
         pass
     
-    def execute_raw(self, **kwargs) -> ChatCompletion:
+    def execute_raw(self, **kwargs) -> ParsedChatCompletion[T]:
         """Execute prompt and return raw OpenAI response.
         
         Args:
@@ -55,13 +55,14 @@ class BasePrompt(ABC, Generic[T]):
         """
         user_message = self.format_input(**kwargs)
         
-        response = self.client.chat.completions.create(
+        response = self.client.chat.completions.parse(
             model=self.model,
             messages=[
                 {"role": "system", "content": self.system_prompt},
                 {"role": "user", "content": user_message}
             ],
-            response_format={"type": "json_object"}  # For Pydantic parsing
+            response_format=self.output_model,
+            temperature=0.2
         )
         
         # Log usage and cost
@@ -87,10 +88,8 @@ class BasePrompt(ABC, Generic[T]):
             Parsed output using the defined output_model
         """
         response = self.execute_raw(**kwargs)
-        
-        # Parse response content using Pydantic model
-        content = response.choices[0].message.content
-        if not content:
-            raise ValueError("Empty response from OpenAI")
-            
-        return self.output_model.model_validate_json(content)
+
+        if obj := response.choices[0].message.parsed:
+            return obj
+
+        raise ValueError("Empty object from OpenAI")

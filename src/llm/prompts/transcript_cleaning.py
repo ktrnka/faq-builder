@@ -33,7 +33,7 @@ class CleanedTranscript(BaseModel):
 class TranscriptCleaningPrompt(BasePrompt[CleanedTranscript]):
     """Prompt for cleaning and segmenting YouTube office hours transcripts."""
     
-    model = "gpt-4-turbo"
+    model = "gpt-4.1-nano"
     output_model = CleanedTranscript
     
     system_prompt = """You are an expert at cleaning and segmenting YouTube transcripts from technical office hours sessions.
