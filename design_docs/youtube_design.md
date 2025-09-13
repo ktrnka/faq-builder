@@ -2,52 +2,48 @@
 
 ## Overview
 
-A multi-stage ETL pipeline for extracting, cleaning, segmenting, and processing YouTube transcripts from office hours sessions for FAQ generation. The pipeline focuses on Keith's weekly officExample makefile rule:
-```makefile
-data/youtube/processed/%.json: data/youtube/raw/%.json
-    uv run faq-builder youtube clean-and-segment-transcript $< --output $@
+A multi-stage ETL pipeline for extracting, cleaning, segmenting, and processing YouTube transcripts from office hours sessions for FAQ generation. The pipeline focuses on Keith's weekly office hours with AI/ML content.
+
+## Current Implementation Status ✅
+
+**Completed Phase 1 & 2 (September 2025):**
+- ✅ Video discovery and transcript extraction
+- ✅ Token analysis and model selection (GPT-4.1-mini)
+- ✅ Combined transcript cleaning and segmentation
+- ✅ Human-readable display commands
+- ✅ Cost tracking and logging
+- ✅ Modular CLI structure
+- ✅ Clean directory organization (raw/ and cleaned/)
+
+## Goals
+
+- Extract transcripts from YouTube videos (primarily Keith's office hours)
+- Clean and improve auto-generated transcripts using LLMs
+- Segment long-form content into topical sections with speaker attribution
+- Support experimentation with different processing strategies
+- Build structured data suitable for FAQ generation and blog post creation
+
+## Current Pipeline Architecture
+
 ```
+Stage 1: Video Discovery & Transcript Extraction (✅ Implemented)
+├── list-videos → filter videos by search term
+├── download-transcript → data/youtube/raw/{date}_{video_id}.json
+├── show-transcript → human-readable format with timestamps
+└── count-tokens → model compatibility analysis
 
-## Next Implementation Steps
+Stage 2: Combined Cleaning & Segmentation (✅ Implemented)
+├── clean-transcript → data/youtube/cleaned/{date}_{video_id}.json
+└── show-cleaned-transcript → formatted output with chapters
 
-### Immediate Priority: Prompt Development
-1. **Iterative Prompt Engineering**: Develop and test prompts for combined cleaning + segmentation
-2. **Sample Processing**: Use `show-transcript` output to manually create example of desired output
-3. **Validation Approach**: Compare LLM output against manual examples
-4. **Cost Estimation**: Track token usage and costs during development
+Stage 3: Batch Processing & Automation (Next Phase)
+├── manifest generation for batch operations
+├── Makefile for dependency management
+└── Full pipeline automation
 
-### Prompt Design Considerations
-- **Input Format**: Use output from `show-transcript` as consistent input format
-- **Combined Operations**: Single prompt that handles both cleaning and segmentation
-- **Speaker Attribution**: Leverage context clues to identify Keith vs. students/participants
-- **Topic Boundaries**: Use natural conversation flow and question patterns to identify segments
-- **Technical Accuracy**: Preserve ML/AI terminology and technical discussions accurately
-
-### Development Workflow
-
-**Cost-Effective Iteration Strategy:**
-1. Run `show-transcript` on sample video to get human-readable format
-2. **Use partial transcripts for iteration**: Take first ~300 lines (`head -300`) for prompt development
-3. Manually create "gold standard" cleaned and segmented version for the partial transcript
-4. Develop prompt to reproduce this output on the partial transcript
-5. **Iterate rapidly on small samples**: Test and refine prompt using partial transcripts (~$0.05-0.10 per test vs ~$0.50-1.00 for full video)
-6. Once prompt quality is good on partial transcripts, test on full video
-7. Validate generalization across different videos
-8. Implement as `clean-and-segment-transcript` command
-
-**Rationale for Partial Transcript Iteration:**
-- 300 lines ≈ 1-2k tokens vs 22-24k tokens for full transcript
-- ~10-20x cost reduction during prompt development phase
-- Faster iteration cycles for prompt refinement
-- Can test multiple prompt variations economically
-- Transition to full processing once confident in prompt quality
-
-## Success Metrics
-
-- **Cleaning Quality**: Improved readability and technical accuracy compared to raw transcripts
-- **Segmentation Accuracy**: Segments align with natural topic boundaries and Q&A sessions
-- **Processing Speed**: Individual video processing completes within reasonable time limits
-- **Cost Efficiency**: API usage optimized for quality vs. cost trade-off
+Stage 4: FAQ Generation (Future)
+└── process-youtube-data → final FAQ/blog content
+```
 - **Pipeline Reliability**: Stages complete successfully with clear error handling
 
 ## Future Extensionsdesigned to be extensible to other speakers and content types.
@@ -83,116 +79,83 @@ process-youtube-data → final FAQ/blog content
 - Combining cleaning + segmentation reduces API costs and maintains context
 - Single LLM pass can better understand conversation flow for segmentation
 
-## Stage 1: Video Discovery & Transcript Extraction
+## Stage 1: Video Discovery & Transcript Extraction (✅ Implemented)
 
-### Current Implementation
-- **Command**: `list-videos` - Discovers videos in playlists by search term
-- **Command**: `download-transcript` - Extracts raw transcripts with metadata
+### Current Commands
+- **`list-videos`** - Discovers videos in playlists by search term
+- **`download-transcript`** - Extracts raw transcripts with metadata  
+- **`show-transcript`** - Displays human-readable formatted transcript with timestamps
+- **`count-tokens`** - Analyzes token count and model compatibility
 
-**Current Output Format**: 
+### Current Output Format & Storage
+**File Location**: `data/youtube/raw/{date}_{video_id}.json`
+
+**JSON Structure**:
 ```json
 {
   "metadata": {
-    "kind": "youtube#video",
-    "id": "video_id",
     "snippet": {
-      "publishedAt": "timestamp",
-      "title": "video title",
-      "description": "video description",
-      "channelTitle": "Joy of Coding"
-    },
-    "contentDetails": {"duration": "PT1H11M9S"},
-    "statistics": {"viewCount": "0", "likeCount": "0"}
+      "title": "AI / Open Q & A w/Coach Keith",
+      "publishedAt": "2025-09-05T23:01:57Z"
+    }
   },
   "transcript": {
     "video_id": "video_id",
-    "language": "English (auto-generated)",
-    "language_code": "en", 
+    "language": "English (auto-generated)", 
     "is_generated": true,
     "snippets": [
-      {
-        "text": "transcript text",
-        "start": 5.52,
-        "duration": 4.159
-      }
+      {"text": "transcript text", "start": 5.52, "duration": 4.159}
     ]
   }
 }
 ```
 
-**File Naming**: `{date}_{video_id}.json` (e.g., `2025-09-06__-tRDk3P7bg.json`)
+### Token Analysis Results (Actual Data)
+- **Typical video length**: 22-24k tokens for 1-hour sessions
+- **Character-to-token ratio**: ~3.0 chars/token
+- **Model selection**: GPT-4.1-mini (128k context, cost-effective)
+- **Cost per video**: ~$0.0008-0.0015 for cleaning (very affordable)
 
-### Analysis Commands (Implemented)
-- **Command**: `show-transcript` - Displays human-readable formatted transcript with timestamps
-- **Command**: `count-tokens` - Analyzes token count and model compatibility
+## Stage 2: Transcript Cleaning & Segmentation (✅ Implemented)
 
-#### Token Analysis Results
-Real transcript analysis reveals that office hours videos are significantly larger than initially anticipated:
+### Current Commands  
+- **`clean-transcript`** - Combined cleaning and segmentation using LLM
+- **`show-cleaned-transcript`** - Formatted display with chapters and speakers
 
-- **Typical video length**: ~22-24k tokens for 1-hour sessions
-- **Character-to-token ratio**: ~3.0 characters per token
-- **GitHub models compatibility**: ❌ Not viable (2k input limit vs 22k+ tokens needed)
-- **GPT-4 Turbo compatibility**: ✅ Viable (128k context window)
+### Implementation Details
+**Model Used**: GPT-4.1-mini via OpenAI structured outputs API
+**Cost Tracking**: Automatic logging with token usage and cost estimates
+**Quality Focus**: Readability, coherence, content preservation
 
-**Implications**: 
-- GitHub's free models are not suitable for full transcript processing
-- Must use OpenAI API directly with GPT-4 Turbo or similar large-context models
-- Cost considerations become important for batch processing
-- May need chunking strategies for very long videos (2+ hours)
+### Current Output Format & Storage
+**File Location**: `data/youtube/cleaned/{date}_{video_id}.json`
 
-### Future Enhancements
-- Support multiple playlists beyond "TechJoy Academy Replays"
-- Batch processing capabilities for pipeline efficiency
-- Resume capability for interrupted downloads
+**Pydantic Structure**:
+```python
+class CleanedTranscript(BaseModel):
+    title: str
+    date: str  
+    total_duration_seconds: float
+    chapters: list[Chapter]
+    processing_notes: list[str]
 
-## Stage 2: Transcript Cleaning & Segmentation (Combined Approach)
+class Chapter(BaseModel):
+    title: str
+    chapter_type: Literal["qa", "explanation", "live_coding", "admin", "discussion"]
+    start_time: float
+    segments: list[CleanedSegment]
 
-### Updated Strategy
-Based on token analysis, we're revising the approach to combine cleaning and segmentation into a single stage to optimize for the large context requirements and reduce API costs.
+class CleanedSegment(BaseModel):
+    speaker: Literal["Host", "Student", "Other"]
+    text: str
+```
 
-### Command: `clean-and-segment-transcript`
-
-**Purpose**: Improve auto-generated transcripts using LLMs to create clean, readable text suitable for downstream processing.
-
-**Input**: Raw transcript JSON from Stage 1
-**Output**: Cleaned transcript with speaker attribution and corrected text
-
-### Cleaning Operations
-
-#### Text Improvements
-- **Remove filler words**: "um", "uh", "like", "you know", etc.
-- **Fix speech repairs**: Remove false starts and self-corrections
-- **Correct auto-transcript errors**: Leverage LLM understanding of technical terminology
-- **Normalize punctuation**: Add proper sentence boundaries and capitalization
-- **Fix technical terms**: Ensure ML/AI terminology is correctly transcribed
-
-#### Speaker Attribution
-- **Identify speakers**: Distinguish between "Keith" and "Student"/"Participant"
-- **Handle unknown speakers**: Use generic labels when identification isn't possible
-- **Context-based detection**: Use speech patterns and content cues for attribution
-
-## Stage 3: Content Segmentation
-
-### Command: `segment-transcript`
-
-**Purpose**: Break long-form office hours into topical segments that align with questions, explanations, or demonstrations.
-
-**Input**: Cleaned transcript JSON from Stage 2
-**Output**: Segmented content with topic labels and categories
-
-### Segmentation Strategies
-
-#### Automatic Topic Detection
-- **LLM-based analysis**: Use context understanding to identify topic boundaries
-- **Question identification**: Detect Q&A patterns and student questions
-- **Content type recognition**: Distinguish between explanations, live coding, discussions
-
-#### Segment Types
-- **Q&A Sessions**: Student question followed by Keith's response
-- **Explanations**: Keith explaining concepts or techniques
-- **Live Coding**: Hands-on programming demonstrations
-- **Discussions**: General conversation or exploratory topics
-- **Administrative**: Session setup, announcements, wrap-up
+### Processing Quality Achieved
+- **Content Preservation**: Maintains all substantive information
+- **Readability**: Transforms speech into clear, coherent prose
+- **Speaker Attribution**: Identifies Host, Student, Other speakers
+- **Chapter Segmentation**: Logical topic-based divisions
+- **Cost Efficiency**: ~$0.0008 per video for full processing
 
 ## Implementation Strategy
 
@@ -254,39 +217,47 @@ Based on token analysis, we're revising the approach to combine cleaning and seg
 - **Atomic Operations**: Each stage produces complete output or fails cleanly
 - **Dependency Tracking**: Clear input/output relationships between stages
 
-## File Organization
-
-**Updated Structure (reflects combined processing):**
+## Current File Organization (✅ Implemented)
 
 ```
 data/youtube/
-├── raw/                    # Stage 1 output (✅ current implementation)
+├── raw/                    # Stage 1 output - original transcripts
 │   ├── 2025-09-06__-tRDk3P7bg.json
-│   └── 2025-08-30_2FcOn-1IZY0.json
-├── processed/              # Stage 2 output (combined cleaning + segmentation)
-│   ├── 2025-09-06__-tRDk3P7bg_processed.json
-│   └── 2025-08-30_2FcOn-1IZY0_processed.json
-└── final/                  # Stage 3 output (FAQ/blog generation)
-    ├── faq_content.json
-    └── blog_drafts/
+│   ├── 2025-08-30_2FcOn-1IZY0.json
+│   └── [14 total videos as of Sept 2025]
+└── cleaned/                # Stage 2 output - processed transcripts  
+    ├── 2025-09-06__-tRDk3P7bg.json
+    └── [processed as needed]
 ```
 
-**Rationale for Simplified Structure:**
-- Eliminates intermediate `cleaned/` and `segmented/` directories
-- Single `processed/` output contains both cleaned text and segmentation
-- Reduces complexity and file management overhead
-- Better aligns with combined API processing approach
+### Makefile-Friendly Design
+- **Consistent naming**: Same filename in raw/ and cleaned/ directories
+- **Clear dependencies**: `raw/video.json` → `cleaned/video.json`
+- **Conditional processing**: Only clean if raw file is newer
+- **Batch operations**: Easy to process entire directories
 
-### Makefile-Friendly Naming Convention
-- **Input dependency**: `data/youtube/raw/{date}_{video_id}.json`
-- **Output target**: `data/youtube/processed/{date}_{video_id}_processed.json`
-- **Base name**: `{date}_{video_id}` (consistent across all stages)
-
-Example makefile rule:
+Example makefile patterns:
 ```makefile
+# Single file processing
 data/youtube/cleaned/%.json: data/youtube/raw/%.json
-    uv run faq-builder clean-transcript $< --output $@
+	uv run faq-builder youtube clean-transcript $<
+
+# Process all raw transcripts
+clean-all: $(patsubst data/youtube/raw/%.json,data/youtube/cleaned/%.json,$(wildcard data/youtube/raw/*.json))
 ```
+
+## Next Phase: Batch Processing & Automation
+
+### Immediate Priorities (from TODO.md)
+1. **Manifest Generation**: Update `list-videos` to create manifest file
+2. **Batch Operations**: Commands that work with manifest files
+3. **Makefile Creation**: Full dependency automation
+4. **Scale-up**: Process all 14 raw transcripts
+
+### Future Pipeline Extensions
+- **FAQ Generation**: Convert cleaned transcripts to FAQ format
+- **Cross-referencing**: Link YouTube content with Reddit discussions
+- **Search/Index**: Make content searchable and browsable
 
 ## Success Metrics
 
