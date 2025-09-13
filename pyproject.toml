@@ -35,6 +35,7 @@ dependencies = [
     "google-api-python-client",
     "youtube-transcript-api",
     "praw",
+    "tiktoken",
 ]
 
 [project.optional-dependencies]

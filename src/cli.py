@@ -6,6 +6,7 @@ from typing import List, Optional, Tuple
 
 import click
 import praw
+import tiktoken
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
 from youtube_transcript_api import YouTubeTranscriptApi
@@ -170,6 +171,50 @@ def download_video_transcript(video_id: str, languages: list[str], output_dir: s
         json.dump(json_data, f, indent=2, ensure_ascii=False)
 
     return output_file
+
+
+def format_transcript_readable(transcript_file: str) -> str:
+    """Format a transcript JSON file into human-readable text."""
+    with open(transcript_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    # Extract metadata
+    metadata = data.get("metadata", {})
+    title = metadata.get("snippet", {}).get("title", "Unknown Title")
+    published_at = metadata.get("snippet", {}).get("publishedAt", "Unknown Date")
+    
+    # Format date nicely
+    try:
+        if published_at != "Unknown Date":
+            date_obj = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
+            formatted_date = date_obj.strftime("%Y-%m-%d")
+        else:
+            formatted_date = published_at
+    except Exception:
+        formatted_date = published_at
+    
+    # Build the formatted transcript
+    lines = []
+    lines.append(f"Title: {title}")
+    lines.append(f"Date: {formatted_date}")
+    lines.append("")  # Empty line
+    
+    # Add transcript segments
+    transcript = data.get("transcript", {})
+    snippets = transcript.get("snippets", [])
+    
+    for snippet in snippets:
+        start_time = snippet.get("start", 0)
+        text = snippet.get("text", "")
+        
+        # Convert start time to minutes:seconds format
+        minutes = int(start_time // 60)
+        seconds = int(start_time % 60)
+        timestamp = f"[{minutes:02d}:{seconds:02d}]"
+        
+        lines.append(f"{timestamp} {text}")
+    
+    return "\n".join(lines)
 
 
 @click.group()
@@ -355,6 +400,71 @@ def download_transcript(video_ids, languages, output_dir):
         click.echo("❌ Failed downloads:")
         for video_id, error in failed_downloads:
             click.echo(f"   - {video_id}: {error}")
+
+
+@youtube.command("show-transcript")
+@click.argument("transcript_file", type=click.Path(exists=True, readable=True))
+def show_transcript(transcript_file):
+    """Display a YouTube transcript in human-readable format.
+    
+    Takes a JSON transcript file and formats it with timestamps and metadata.
+    Output can be piped to 'less' for paging through long transcripts.
+    
+    Example: faq-builder youtube show-transcript data/youtube/2025-09-06__-tRDk3P7bg.json | less
+    """
+    try:
+        formatted_text = format_transcript_readable(transcript_file)
+        click.echo(formatted_text)
+    except Exception as e:
+        click.echo(f"❌ Error formatting transcript: {e}", err=True)
+
+
+@youtube.command("count-tokens")
+@click.argument("transcript_file", type=click.Path(exists=True, readable=True))
+def count_tokens(transcript_file):
+    """Count tokens in a YouTube transcript using GPT-4 tokenizer.
+    
+    Displays token count for the human-readable formatted transcript,
+    which is useful for determining if content fits within LLM context limits.
+    """
+    try:
+        # Get the formatted text (same as show-transcript)
+        formatted_text = format_transcript_readable(transcript_file)
+        
+        # Count tokens using tiktoken for GPT-4
+        encoding = tiktoken.encoding_for_model("gpt-4")
+        token_count = len(encoding.encode(formatted_text))
+        
+        # Calculate character count for reference
+        char_count = len(formatted_text)
+        
+        # Show results
+        click.echo(f"📄 File: {transcript_file}")
+        click.echo(f"🔢 Tokens: {token_count:,}")
+        click.echo(f"📝 Characters: {char_count:,}")
+        click.echo(f"📏 Ratio: {char_count/token_count:.2f} chars/token" if token_count > 0 else "📏 Ratio: N/A")
+        
+        # Show context window status for common models
+        click.echo()
+        click.echo("🤖 Model compatibility:")
+        
+        # GitHub models have 2k input + 1k output = 3k total budget
+        # But we need to reserve space for prompt, so let's say 1.5k for transcript
+        github_limit = 1500
+        if token_count <= github_limit:
+            click.echo(f"   ✅ GitHub models (2k input): {token_count}/{github_limit} tokens")
+        else:
+            click.echo(f"   ❌ GitHub models (2k input): {token_count}/{github_limit} tokens (too large)")
+        
+        # GPT-4 turbo has much larger context
+        gpt4_limit = 128000
+        if token_count <= gpt4_limit:
+            click.echo(f"   ✅ GPT-4 Turbo: {token_count}/{gpt4_limit:,} tokens")
+        else:
+            click.echo(f"   ❌ GPT-4 Turbo: {token_count}/{gpt4_limit:,} tokens (too large)")
+            
+    except Exception as e:
+        click.echo(f"❌ Error counting tokens: {e}", err=True)
 
 
 @reddit.command("download-user-comments")
