@@ -1,0 +1,233 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-09-13",
+  "total_duration_seconds": 3700.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Clarification on Anthropic Lawsuit",
+      "chapter_type": "explanation",
+      "start_time": 5.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's pause here and get into any questions or topics people have. Before that, I want to clarify something from last week. We talked about Anthropic settling a lawsuit with some book publishers for around 1.5 billion dollars. I initially thought it was about fair use and web scraping, but I was mistaken."
+        },
+        {
+          "speaker": "Host",
+          "text": "There were two parts to the case. One part, resolved earlier in the summer, was about fair use of web scraping. The judge didn't want to rule on that topic, so it wasn't declared illegal. The settlement we're discussing was about Anthropic using datasets that included books, like Books3 or LibGen, which were built by citizen researchers or open source developers, mostly outside industry."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some of these datasets were obtained illegally by mass downloading books. Anthropic had used some of those datasets in the past. Meta is in trouble for a similar reason. It wasn't that Anthropic deliberately downloaded books illegally, but they pulled in open datasets without vetting them carefully."
+        },
+        {
+          "speaker": "Host",
+          "text": "The settlement was really about illegal downloading of books. The per-book price in the settlement was higher than the actual price of the books. So, to clarify, this settlement does not settle the question of fair use. If you download a big dataset, especially in commercial space, you should check its contents and origin carefully."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on Meta's AI Self-Improvement Claims",
+      "chapter_type": "qa",
+      "start_time": 195.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I saw a news-related video about Meta's AI automatically revising and improving itself without human intervention, and doing so increasingly fast. Have you heard of that?"
+        },
+        {
+          "speaker": "Host",
+          "text": "No, let me see if I can find what that might be."
+        },
+        {
+          "speaker": "Student",
+          "text": "If it's true, the head of Meta, Mark Zuckerberg, is keeping that AI under wraps and it won't be made public."
+        },
+        {
+          "speaker": "Host",
+          "text": "I found an article about the pursuit of superintelligence. One approach is AI systems improving themselves to become smarter than humans. Zuckerberg said they've seen glimpses of AI systems improving themselves slowly but undeniably. If they achieve superintelligence, they might keep it private."
+        },
+        {
+          "speaker": "Host",
+          "text": "A system improving itself autonomously is a big step. The speed and computational efficiency matter. If it improves very slowly, like once a month on a supercomputer, that's different than rapid improvement. There are no concrete stats on this, so be wary."
+        },
+        {
+          "speaker": "Host",
+          "text": "Self-improvement might plateau if it's only able to do what a mid-level researcher could do. Also, keeping such AI private is a recurring theme in AI development, balancing safety and economic incentives."
+        },
+        {
+          "speaker": "Host",
+          "text": "Google once withheld a chat-like AI for safety reasons. OpenAI also hesitated to release powerful models. Democratizing AI access can enable good and bad outcomes. There's a race to capture the market with superintelligence, which complicates safety concerns."
+        },
+        {
+          "speaker": "Host",
+          "text": "Many statements from AI CEOs are repeated without much backing, so take them with a grain of salt."
+        }
+      ]
+    },
+    {
+      "title": "Exploring Spec-Driven Development with AI",
+      "chapter_type": "live_coding",
+      "start_time": 720.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's look at spec-driven development with AI, suggested by Turtle. I'll screen share while we explore this toolkit."
+        },
+        {
+          "speaker": "Host",
+          "text": "Specs can be the shared source of truth. I've been developing this way lately. When something doesn't make sense, you go back to the spec. As complexity grows, you refine and break down specs. Instead of coding first and writing docs later, start with a spec."
+        },
+        {
+          "speaker": "Host",
+          "text": "Specs describe what you're building and why. The coding agent generates detailed descriptions, including success criteria, users, problems solved, and technical plans. Tasks are broken down so each can be tested in isolation. You review and focus on changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "I agree with using specs to drive development as a form of pair programming. It forces me to think through my expertise and give specific instructions to AI for less critical parts. I prefer fewer tools and more integrated workflows, like a co-pilot chat where I control the order and detail level."
+        },
+        {
+          "speaker": "Host",
+          "text": "A vague prompt like 'add photo sharing' doesn't fill in all details. Thousands of unstated requirements exist, so developers need context about the larger technical system and user journey to fill in blanks early."
+        },
+        {
+          "speaker": "Host",
+          "text": "This approach works well in greenfield projects. I haven't tried it much for legacy modernization, unless you count recent projects. Using co-pilot chat for spec-driven development is the way to go."
+        }
+      ]
+    },
+    {
+      "title": "Technical Discussion on Development Tools and Testing",
+      "chapter_type": "discussion",
+      "start_time": 1500.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Regarding the CRUD kit, I included everything I could, like a progressive web app. I'm not sure if all the testing is working or if it's overkill."
+        },
+        {
+          "speaker": "Host",
+          "text": "The status dashboard is pretty cool, showing live testing and Lighthouse scores. Progressive web apps bridge the gap between mobile and native apps by installing web pages locally and using service workers to simulate internet features."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's a step beyond responsive pages but short of publishing on app stores. React Native pushes further toward native apps."
+        },
+        {
+          "speaker": "Student",
+          "text": "I've seen the backend as a hurdle. With progressive web apps, I might keep it single-player in the browser to start and build a fan base before adding backend features."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's a good place to start since it simplifies many parts."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm thinking of a location-based game where you start at a base camp and have random missions like going a quarter mile north. The story changes based on direction, like a real-world 'Which Way Do You Go' book."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's like Dungeons & Dragons in real life, with dice rolls for random adventures, like battling a merry-go-round dragon at a park."
+        },
+        {
+          "speaker": "Host",
+          "text": "Most browsers have geolocation APIs. Early apps used geolocation to find nearby truck stops for showers. The API provides latitude and longitude, but you need a map service to display it."
+        },
+        {
+          "speaker": "Host",
+          "text": "OpenStreetMap is a popular open-source map with roads and key locations, though it might not have very detailed features like playground swing sets."
+        },
+        {
+          "speaker": "Host",
+          "text": "Location accuracy varies between coarse and fine. Coarse uses cell towers and Wi-Fi, consuming less battery but less precise. Fine uses GPS and is more accurate but uses more battery. Apps balance accuracy and battery usage."
+        },
+        {
+          "speaker": "Student",
+          "text": "I want to add metrics like battery usage to the dashboard, but I'm not sure if progressive web apps can access that."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's an interesting question. I'm not sure if it's possible, but it would be a cool feature."
+        }
+      ]
+    },
+    {
+      "title": "General Discussion on Operating Systems and Security Practices",
+      "chapter_type": "discussion",
+      "start_time": 1980.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's talk about operating systems. I use Linux, specifically Ubuntu. Zoom on Ubuntu isn't perfect, but a new version with Wayland is coming soon."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some participants have had audio issues on Linux. Sometimes clicking the test speaker button in Zoom's audio settings fixes problems without changing any settings."
+        },
+        {
+          "speaker": "Host",
+          "text": "Linux uses fewer background resources than Windows, which often runs many background tasks. The biggest reason people stick with Windows is application compatibility, like advanced Excel or Word features."
+        },
+        {
+          "speaker": "Host",
+          "text": "Most startups use Macs because they are close to Linux but more polished. Newer Macs run Linux under the hood but use different package managers like Homebrew instead of Debian packages."
+        },
+        {
+          "speaker": "Host",
+          "text": "Linux office suites are sufficient for most users. I use Google Docs and VS Code on Linux, which work well."
+        },
+        {
+          "speaker": "Host",
+          "text": "Upgrading Linux versions can be tricky without a direct upgrade path, so I keep snapshots of configurations and installed applications to reproduce setups."
+        },
+        {
+          "speaker": "Host",
+          "text": "Configuration can be spread across many places, and sometimes trial and error is needed to get things working reliably."
+        },
+        {
+          "speaker": "Host",
+          "text": "Windows has annoying background sounds and location service pings that disrupt concentration. Windows also tried to enable persistent recording of user activity by default, which raised privacy concerns."
+        },
+        {
+          "speaker": "Host",
+          "text": "Registry settings can disable some unwanted features, but updates often reset them, requiring repeated fixes."
+        },
+        {
+          "speaker": "Host",
+          "text": "I miss playing Civilization 6 on Windows, but Linux is good enough for most tasks. Some people use dual systems: Linux for most work and Windows for tasks that require it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Security-wise, phishing and scams are getting more sophisticated, including voice cloning using AI. Scammers target older people with fake bank, medical, or customer support scams."
+        },
+        {
+          "speaker": "Host",
+          "text": "Supply chain attacks are increasing, where malicious code is introduced via dependencies like npm packages. Developers should be cautious about which dependencies they use to reduce attack surface."
+        },
+        {
+          "speaker": "Host",
+          "text": "Overall, security and scam prevention require vigilance and thoughtful practices."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Farewell",
+      "chapter_type": "admin",
+      "start_time": 3670.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Thanks everyone for joining. I appreciate the discussion. I'm going to walk the dog before it gets too dark. Sorry for the audio issues today. I'll try to reboot before next time. Have a nice weekend."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terms and clarified ambiguous references.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Classified chapters by type according to content.",
+    "Preserved all substantive content and chronological order."
+  ]
+}

@@ -87,7 +87,7 @@ def download_video_transcript(video_id: str, languages: list[str], output_dir: s
         for file in os.listdir(youtube_raw_dir):
             if video_id in file:
                 path = os.path.join(youtube_raw_dir, file)
-                click.echo(f"📄 Transcript already exists for video: {video_id} in {path}, skipping")
+                logger.debug(f"Transcript already exists for video: {video_id} in {path}, skipping")
                 return path
 
     if youtube_client:
@@ -276,9 +276,8 @@ def download_transcript(video_ids, languages, output_dir):
     # Parse language codes
     language_codes = [lang.strip() for lang in languages.split(",")]
 
-    click.echo(f"🔍 Downloading transcripts for {len(video_ids)} video(s)")
-    click.echo(f"📝 Languages: {', '.join(language_codes)}")
-    click.echo()
+    logger.debug(f"Downloading transcripts for {len(video_ids)} video(s)")
+    logger.debug(f"Languages: {', '.join(language_codes)}")
 
     successful_downloads = []
     failed_downloads = []
@@ -291,7 +290,7 @@ def download_transcript(video_ids, languages, output_dir):
             elif "youtu.be/" in video_id:
                 video_id = video_id.split("youtu.be/")[1].split("?")[0]
 
-        click.echo(f"📹 [{i}/{len(video_ids)}] Processing video ID: {video_id}")
+        logger.debug(f"[{i}/{len(video_ids)}] Processing video ID: {video_id}")
         
         try:
             # Download transcript to file
@@ -300,27 +299,16 @@ def download_transcript(video_ids, languages, output_dir):
             click.echo(f"✅ Transcript saved to: {output_file}")
             successful_downloads.append(video_id)
             
-            # Read back the JSON file to get summary info
+            # Basic validation - just check we got some content
             with open(output_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-
-            # Extract info from JSON structure
             transcript = data["transcript"]
             snippet_count = len(transcript["snippets"])
             
-            # Calculate total duration
-            total_duration = 0
-            if transcript["snippets"]:
-                last_snippet = transcript["snippets"][-1]
-                total_duration = int(last_snippet["start"] + last_snippet["duration"])
-            
-            total_minutes = total_duration // 60
-            total_seconds = total_duration % 60
-
-            click.echo(f"📊 Total segments: {snippet_count}")
-            click.echo(f"⏱️  Total duration: {total_minutes:02d}:{total_seconds:02d}")
-            click.echo(f"📝 Language: {transcript['language']} ({transcript['language_code']})")
-            click.echo(f"🤖 Generated: {'Yes' if transcript['is_generated'] else 'No'}")
+            if snippet_count == 0:
+                click.echo(f"⚠️  Warning: No transcript segments found")
+            else:
+                logger.debug(f"Retrieved {snippet_count} transcript segments")
                 
         except click.ClickException as e:
             click.echo(f"❌ Failed: {e}")
@@ -332,12 +320,10 @@ def download_transcript(video_ids, languages, output_dir):
         
         # Sleep between downloads (except after the last one)
         if i < len(video_ids):
-            click.echo("😴 Sleeping 10 seconds between downloads...")
+            logger.debug("Sleeping 10 seconds between downloads...")
             time.sleep(10)
-            click.echo()
 
     # Summary
-    click.echo()
     click.echo("=" * 60)
     click.echo(f"📊 Summary: {len(successful_downloads)} successful, {len(failed_downloads)} failed")
     
@@ -393,7 +379,6 @@ def count_tokens(transcript_file):
         click.echo(f"📏 Ratio: {char_count/token_count:.2f} chars/token" if token_count > 0 else "📏 Ratio: N/A")
         
         # Show context window status for common models
-        click.echo()
         click.echo("🤖 Model compatibility:")
         
         # GitHub models have 2k input + 1k output = 3k total budget
@@ -430,14 +415,14 @@ def clean_transcript(transcript_file, max_lines, output_dir):
     TRANSCRIPT_FILE: Input JSON transcript (e.g., data/youtube/raw/2025-09-06__-tRDk3P7bg.json)
     """
     try:
-        click.echo(f"🔍 Processing transcript: {transcript_file}")
+        logger.debug(f"Processing transcript: {transcript_file}")
         
         # Determine output file path - same filename in cleaned directory
         input_path = os.path.abspath(transcript_file)
         filename = os.path.basename(input_path)
         output_file = os.path.join(output_dir, "youtube", "cleaned_test" if max_lines else "cleaned", filename)
 
-        click.echo(f"🔍 Output will be saved to: {output_file}")
+        logger.debug(f"Output will be saved to: {output_file}")
 
         # Get the formatted text (same as show-transcript)
         formatted_text = format_transcript_readable(transcript_file)
@@ -447,18 +432,18 @@ def clean_transcript(transcript_file, max_lines, output_dir):
             lines = formatted_text.split('\n')
             if len(lines) > max_lines:
                 formatted_text = '\n'.join(lines[:max_lines])
-                click.echo(f"📏 Truncated to {max_lines} lines for testing")
+                logger.debug(f"Truncated to {max_lines} lines for testing")
         
         # Count tokens for cost estimation
         encoding = tiktoken.encoding_for_model("gpt-4")
         token_count = len(encoding.encode(formatted_text))
-        click.echo(f"🔢 Processing {token_count:,} tokens")
+        logger.debug(f"Processing {token_count:,} tokens")
         
         # Initialize LLM prompt
         client = get_openai_client()
         prompt = TranscriptCleaningPrompt(client)
         
-        click.echo("🤖 Sending to LLM for cleaning and segmentation...")
+        logger.debug("Sending to LLM for cleaning and segmentation...")
         
         # Execute the prompt
         cleaned_result = prompt.execute(transcript_text=formatted_text)
@@ -472,29 +457,11 @@ def clean_transcript(transcript_file, max_lines, output_dir):
         
         click.echo(f"✅ Cleaned transcript saved to: {output_file}")
         
-        # Show summary stats
-        click.echo()
-        click.echo("📊 Summary:")
-        click.echo(f"   📖 Title: {cleaned_result.title}")
-        click.echo(f"   📅 Date: {cleaned_result.date}")
-        click.echo(f"   ⏱️  Duration: {int(cleaned_result.total_duration_seconds // 60):02d}:{int(cleaned_result.total_duration_seconds % 60):02d}")
-        click.echo(f"   📝 Chapters: {len(cleaned_result.chapters)}")
-        
-        # Show chapter breakdown
-        if cleaned_result.chapters:
-            click.echo()
-            click.echo("📚 Chapters:")
-            for i, chapter in enumerate(cleaned_result.chapters, 1):
-                duration_mins = int(chapter.start_time // 60)
-                duration_secs = int(chapter.start_time % 60)
-                click.echo(f"   {i}. [{duration_mins:02d}:{duration_secs:02d}] {chapter.title} ({chapter.chapter_type})")
-        
-        # Show processing notes if any
-        if cleaned_result.processing_notes:
-            click.echo()
-            click.echo("📋 Processing notes:")
-            for note in cleaned_result.processing_notes:
-                click.echo(f"   • {note}")
+        # Basic validation - check we got chapters and content
+        if not cleaned_result.chapters:
+            click.echo("⚠️  Warning: No chapters found in cleaned transcript")
+        else:
+            logger.info(f"Created {len(cleaned_result.chapters)} chapters")
                 
     except Exception as e:
         click.echo(f"❌ Error cleaning transcript: {e}", err=True)
