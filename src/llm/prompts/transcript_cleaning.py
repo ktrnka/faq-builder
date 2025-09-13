@@ -33,7 +33,7 @@ class CleanedTranscript(BaseModel):
 class TranscriptCleaningPrompt(BasePrompt[CleanedTranscript]):
     """Prompt for cleaning and segmenting YouTube office hours transcripts."""
     
-    model = "gpt-4.1-nano"
+    model = "gpt-4.1-mini"
     output_model = CleanedTranscript
     
     system_prompt = """You are an expert at cleaning and segmenting YouTube transcripts from technical office hours sessions.
@@ -55,11 +55,19 @@ Chapter Guidelines:
 - discussion: General conversation or exploratory topics
 
 Cleaning Guidelines:
-- Preserve all technical content and terminology accurately
-- Maintain chronological order and natural conversation flow
-- Remove repetitive speech repairs and false starts
-- Correct obvious transcription errors, especially technical terms
-- Keep the meaning and tone of the original speech
+- PRESERVE ALL CONTENT: Only remove obvious filler words, false starts, and repetition - never remove substantive content
+- MAXIMIZE READABILITY: Transform speech into clear, coherent text that reads naturally
+- COMPLETE SENTENCES: Turn speech fragments into complete, well-formed sentences
+- SMOOTH FLOW: Remove stutters, repeated words, and speech repairs while maintaining natural conversation flow
+- CONSERVATIVE EDITING: When in doubt, keep the original meaning rather than risk losing information
+- Fix obvious transcription errors and clarify unclear references when context makes the meaning obvious
+- Maintain chronological order and preserve the speaker's intent and tone
+
+Speaker Recognition Guidelines:
+- Only identify speakers when clearly distinguishable from context
+- Host: Usually introduces topics, explains concepts, leads the session
+- Student: Asks questions, responds to Host prompts, seeks clarification
+- Other: When unsure, multiple speakers, or overlapping speech
 
 Output the result as valid JSON matching the specified schema."""
 
@@ -76,8 +84,10 @@ Output the result as valid JSON matching the specified schema."""
         if not transcript_text:
             raise ValueError("transcript_text is required")
             
-        return f"""Please clean and segment this YouTube office hours transcript:
+        return f"""Please clean and segment this YouTube office hours transcript into readable, coherent text:
 
 {transcript_text}
+
+Focus on making the output highly readable while preserving all substantive content. Transform speech patterns into clear prose that flows naturally.
 
 Return the cleaned and segmented transcript as valid JSON matching the CleanedTranscript schema."""

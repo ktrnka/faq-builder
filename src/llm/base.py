@@ -24,7 +24,7 @@ class BasePrompt(ABC, Generic[T]):
     """
     
     # Class attributes to be defined by subclasses
-    model: str = "gpt-4-turbo"
+    model: str = "gpt-4.1-nano"
     system_prompt: str
     output_model: type[T]
     
@@ -68,7 +68,7 @@ class BasePrompt(ABC, Generic[T]):
         # Log usage and cost
         usage = response.usage
         if usage:
-            cost = estimate_cost(self.model, usage.prompt_tokens, usage.completion_tokens)
+            cost = estimate_cost(self.model, usage)
             
             self.logger.info(
                 f"LLM call completed - Model: {self.model}, "
