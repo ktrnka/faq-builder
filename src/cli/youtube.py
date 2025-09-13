@@ -400,10 +400,10 @@ def clean_transcript(transcript_file, max_lines, output_dir):
         # Determine output file path - same filename in cleaned directory
         input_path = os.path.abspath(transcript_file)
         filename = os.path.basename(input_path)
-        output_file = os.path.join(output_dir, "youtube", "cleaned", filename)
-        
-        click.echo(f"� Output will be saved to: {output_file}")
-        
+        output_file = os.path.join(output_dir, "youtube", "cleaned_test" if max_lines else "cleaned", filename)
+
+        click.echo(f"🔍 Output will be saved to: {output_file}")
+
         # Get the formatted text (same as show-transcript)
         formatted_text = format_transcript_readable(transcript_file)
         
