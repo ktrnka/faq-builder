@@ -1,9 +1,11 @@
 """YouTube-related CLI commands."""
 
 import json
+import logging
 import os
 import time
 from datetime import datetime
+from typing import Iterator, Dict, Any
 
 import click
 import tiktoken
@@ -20,6 +22,8 @@ load_dotenv()
 # Hard-coded playlist ID for TechJoy Academy Replays
 TECHJOYLIVE_PLAYLIST_ID = "PLuePfAWKCLvUbnk7vAcQIXtPlMDtz6Ses"
 
+logger = logging.getLogger(__name__)
+
 
 def get_youtube_api_key() -> str:
     """Get YouTube API key from environment variables."""
@@ -27,6 +31,49 @@ def get_youtube_api_key() -> str:
     if not api_key:
         raise click.ClickException("YOUTUBE_API_KEY not found in environment variables. Please add your YouTube API key to the .env file.")
     return api_key
+
+
+def fetch_playlist_items(youtube_client, playlist_id: str, max_pages: int) -> Iterator[Dict[str, Any]]:
+    """Generator that fetches playlist items with pagination.
+    
+    Args:
+        youtube_client: YouTube API client
+        playlist_id: YouTube playlist ID to fetch from
+        max_pages: Maximum number of pages to fetch
+        
+    Yields:
+        Dict: Individual playlist item from API response
+    """
+    page_token = None
+    request_params = {
+        "part": "snippet,contentDetails",
+        "playlistId": playlist_id,
+        "maxResults": 50
+    }
+    
+    for page_num in range(max_pages):
+        if page_num > 0:
+            time.sleep(1)  # Rate limiting
+            
+        if page_token:
+            request_params["pageToken"] = page_token
+        elif "pageToken" in request_params:
+            del request_params["pageToken"]
+            
+        request = youtube_client.playlistItems().list(**request_params)
+        response = request.execute()
+        
+        logger.debug(f"Processed page {page_num + 1} with {len(response['items'])} videos")
+        
+        # Yield each item from this page
+        for item in response["items"]:
+            yield item
+        
+        # Check if there are more pages
+        page_token = response.get("nextPageToken")
+        if not page_token:
+            logger.info(f"Reached end of playlist at page {page_num + 1}")
+            break
 
 
 def download_video_transcript(video_id: str, languages: list[str], output_dir: str, youtube_client=None) -> str:
@@ -152,73 +199,61 @@ def youtube():
 @click.option("--search-term", default="Keith", help="Search term to filter video titles (default: Keith)")
 @click.option("--playlist-id", default=TECHJOYLIVE_PLAYLIST_ID, help="YouTube playlist ID to scan")
 @click.option("--max-pages", default=10, help="Maximum number of pages to fetch (default: 10)")
-def list_videos(search_term, playlist_id, max_pages):
-    """List videos from a YouTube playlist that contain the search term in the title."""
-
+@click.option("--output-file", type=str, help="File to save video IDs to (one per line for xargs)")
+def list_videos(search_term: str, playlist_id: str, max_pages: int, output_file: str) -> None:
+    """List videos from a YouTube playlist that contain the search term in the title.
+    
+    Args:
+        search_term: Term to search for in video titles
+        playlist_id: YouTube playlist ID to scan
+        max_pages: Maximum number of pages to fetch
+        output_file: Optional file to save video IDs to
+    """
     # Get YouTube API key from environment
     api_key = get_youtube_api_key()
 
     # Build YouTube API client
     youtube = build("youtube", "v3", developerKey=api_key)
 
-    click.echo(f"🔍 Searching for videos containing '{search_term}' in playlist...")
-    click.echo(f"📄 Will fetch up to {max_pages} pages of results...")
-    click.echo()
+    logger.debug(f"Searching for videos containing '{search_term}' in playlist...")
+    logger.debug(f"Will fetch up to {max_pages} pages of results...")
 
-    # Get all playlist items with pagination
+    # Get all playlist items with pagination using generator
     matching_videos = []
-    page_token = None
     total_videos_processed = 0
-    request_params = {
-        "part": "snippet,contentDetails",
-        "playlistId": playlist_id,
-        "maxResults": 50
-    }
     
-    for page_num in range(max_pages):
-        if page_num > 0:
-            time.sleep(1)
-        request = youtube.playlistItems().list(**request_params)
-        response = request.execute()
+    for item in fetch_playlist_items(youtube, playlist_id, max_pages):
+        total_videos_processed += 1
+        title = item["snippet"]["title"]
+        video_id = item["contentDetails"]["videoId"]
         
-        # Process videos from this page
-        page_videos = 0
-        for item in response["items"]:
-            total_videos_processed += 1
-            title = item["snippet"]["title"]
-            video_id = item["contentDetails"]["videoId"]
-            
-            # Check if search term is in the title (case-insensitive)
-            if search_term.lower() in title.lower():
-                matching_videos.append({
-                    "title": title,
-                    "video_id": video_id,
-                    "url": f"https://www.youtube.com/watch?v={video_id}"
-                })
-            page_videos += 1
-        
-        click.echo(f"📄 Processed page {page_num + 1} with {page_videos} videos (total: {total_videos_processed})")
-        
-        # Check if there are more pages
-        page_token = response.get("nextPageToken")
-        request_params["pageToken"] = page_token
-        if not page_token:
-            click.echo(f"🏁 Reached end of playlist at page {page_num + 1}")
-            break
-    
-    click.echo()
+        # Check if search term is in the title (case-insensitive)
+        if search_term.lower() in title.lower():
+            matching_videos.append({
+                "title": title,
+                "video_id": video_id,
+                "url": f"https://www.youtube.com/watch?v={video_id}"
+            })
 
-    # Display results
-    if matching_videos:
-        click.echo(f"✅ Found {len(matching_videos)} video(s) containing '{search_term}' out of {total_videos_processed} total videos:")
-        click.echo()
-
-        for i, video in enumerate(matching_videos, 1):
-            click.echo(f"{i}. {video['title']}")
-            click.echo(f"   🔗 {video['url']}")
-            click.echo()
+    # Handle output
+    if output_file:
+        # Save video IDs to file
+        with open(output_file, 'w') as f:
+            for video in matching_videos:
+                f.write(f"{video['video_id']}\n")
+        click.echo(f"✅ Saved {len(matching_videos)} video IDs to {output_file}")
     else:
-        click.echo(f"❌ No videos found containing '{search_term}' in the title out of {total_videos_processed} total videos.")
+        # Display results to console
+        if matching_videos:
+            click.echo(f"✅ Found {len(matching_videos)} video(s) containing '{search_term}' out of {total_videos_processed} total videos:")
+            click.echo()
+
+            for i, video in enumerate(matching_videos, 1):
+                click.echo(f"{i}. {video['title']}")
+                click.echo(f"   🔗 {video['url']}")
+                click.echo()
+        else:
+            click.echo(f"❌ No videos found containing '{search_term}' in the title out of {total_videos_processed} total videos.")
 
 
 @youtube.command("download-transcript")
