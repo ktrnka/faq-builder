@@ -1,9 +1,17 @@
 """Main CLI entry point for FAQ Builder."""
 
+import logging
+
 import click
 
 from .reddit import reddit
 from .youtube import youtube
+
+# Configure logging for the entire CLI application
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(levelname)s:%(name)s:%(message)s'
+)
 
 
 @click.group()
