@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "10vv9f4",
+    "title": "[deleted by user]",
+    "author": null,
+    "selftext": "[removed]",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
+    "url": "",
+    "permalink": "/r/MachineLearning/comments/10vv9f4/deleted_by_user/",
+    "subreddit": "MachineLearning",
+    "created_utc": 1675752780.0,
+    "score": 2,
+    "ups": 2,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": null,
+    "timestamp": "2023-02-06T22:53:00"
+  },
+  "comments": [
+    {
+      "id": "j7k2q06",
+      "author": "trnka",
+      "body": "That sounds reasonable to me. It might interact with your HP exploration method, for instance if it's random search it may end up selecting HPs wherever it happened to sample more. So it may not be very repeatable if you redo HP tuning, depending on how many you're testing.\n\nIf you're doing k-fold cross-validation on each HP, you might also consider introducing some small random noise between selecting the HP and training so that you get k variations on the HP. Then you can value stability in the results by aggregating with mean - stddev, or something similar.\n\nHope this gives you some ideas! It's not my area of expertise though I've done quite a bit of HP tuning over the years.",
+      "body_html": "<div class=\"md\"><p>That sounds reasonable to me. It might interact with your HP exploration method, for instance if it&#39;s random search it may end up selecting HPs wherever it happened to sample more. So it may not be very repeatable if you redo HP tuning, depending on how many you&#39;re testing.</p>\n\n<p>If you&#39;re doing k-fold cross-validation on each HP, you might also consider introducing some small random noise between selecting the HP and training so that you get k variations on the HP. Then you can value stability in the results by aggregating with mean - stddev, or something similar.</p>\n\n<p>Hope this gives you some ideas! It&#39;s not my area of expertise though I&#39;ve done quite a bit of HP tuning over the years.</p>\n</div>",
+      "created_utc": 1675766980.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/MachineLearning/comments/10vv9f4/deleted_by_user/j7k2q06/",
+      "parent_id": "t3_10vv9f4",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2023-02-07T02:49:40"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:32.328985"
+}

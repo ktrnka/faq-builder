@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1ifs7uc",
+    "title": "Where to look at for non-language-tasks",
+    "author": "ryp3gridId",
+    "selftext": "For example have a model fly a simulated, physicsbased drone\nor make a model drive joints of a simulated robot to make it stand/balance or even walk itself?\n\nI assume LLMs for this kind of task are out of the question because for example the attentionmechanism is kind of useless in this context?\n\nThx.",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>For example have a model fly a simulated, physicsbased drone\nor make a model drive joints of a simulated robot to make it stand/balance or even walk itself?</p>\n\n<p>I assume LLMs for this kind of task are out of the question because for example the attentionmechanism is kind of useless in this context?</p>\n\n<p>Thx.</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1ifs7uc/where_to_look_at_for_nonlanguagetasks/",
+    "permalink": "/r/MLQuestions/comments/1ifs7uc/where_to_look_at_for_nonlanguagetasks/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1738482101.0,
+    "score": 1,
+    "ups": 1,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Beginner question 👶",
+    "timestamp": "2025-02-01T23:41:41"
+  },
+  "comments": [
+    {
+      "id": "mav5tcp",
+      "author": "trnka",
+      "body": "The examples you mention are common in reinforcement learning. It's not my expertise but hopefully that gives you something to search for.\n\nI haven't heard of anyone using LLMs for RL-based robotic control and I can't imagine they'd work for low-level, low-latency control. Though I've seen a couple youtubers hook up a roomba to multimodal LLMs for high-level, high-latency control.",
+      "body_html": "<div class=\"md\"><p>The examples you mention are common in reinforcement learning. It&#39;s not my expertise but hopefully that gives you something to search for.</p>\n\n<p>I haven&#39;t heard of anyone using LLMs for RL-based robotic control and I can&#39;t imagine they&#39;d work for low-level, low-latency control. Though I&#39;ve seen a couple youtubers hook up a roomba to multimodal LLMs for high-level, high-latency control.</p>\n</div>",
+      "created_utc": 1738640931.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1ifs7uc/where_to_look_at_for_nonlanguagetasks/mav5tcp/",
+      "parent_id": "t3_1ifs7uc",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2025-02-03T19:48:51"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:06.068681"
+}

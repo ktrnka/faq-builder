@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "111k0fj",
+    "title": "Master thesis topic overcoming hallucination in NLG",
+    "author": "No-Manufacturer-8750",
+    "selftext": "[removed]",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/LanguageTechnology/comments/111k0fj/master_thesis_topic_overcoming_hallucination_in/",
+    "permalink": "/r/LanguageTechnology/comments/111k0fj/master_thesis_topic_overcoming_hallucination_in/",
+    "subreddit": "LanguageTechnology",
+    "created_utc": 1676322409.0,
+    "score": 2,
+    "ups": 2,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": null,
+    "timestamp": "2023-02-13T13:06:49"
+  },
+  "comments": [
+    {
+      "id": "j8hhabs",
+      "author": "trnka",
+      "body": "You might be able to use textual entailment models, like at least you could use them to see if the output is entailed by the input. Typically I've seen them used for short pieces of text but maybe there are some for longer texts, or you could extend them in that way.\n\nIf effective, you could use the entailment model as a sort of discriminator like a GAN to encourage the base model to be more factual.\n\nIt's not my area, but maybe it'll give you some ideas.",
+      "body_html": "<div class=\"md\"><p>You might be able to use textual entailment models, like at least you could use them to see if the output is entailed by the input. Typically I&#39;ve seen them used for short pieces of text but maybe there are some for longer texts, or you could extend them in that way.</p>\n\n<p>If effective, you could use the entailment model as a sort of discriminator like a GAN to encourage the base model to be more factual.</p>\n\n<p>It&#39;s not my area, but maybe it&#39;ll give you some ideas.</p>\n</div>",
+      "created_utc": 1676368650.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/LanguageTechnology/comments/111k0fj/master_thesis_topic_overcoming_hallucination_in/j8hhabs/",
+      "parent_id": "t3_111k0fj",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2023-02-14T01:57:30"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:31.717716"
+}

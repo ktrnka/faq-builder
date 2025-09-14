@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1i6kkod",
+    "title": "Alternating data entries in dataset columns",
+    "author": "Cebrysis",
+    "selftext": "The dataset I am preprocessing contains rowing training records with either **time** or **distance** recorded per session, but not both. I don't know what to do to best preprocess this. Calculating distance from time using **average speed** is challenging due to inconsistent time formats and potential inaccuracies from using average speed. Any advice would be much appreciated!\n\nExample:\n\n|Distance (m)|Time (minutes?)|\n|:-|:-|\n|1500|xx60|\n|500|1200|\n|300|5x60/60r|\n\nThank You!",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>The dataset I am preprocessing contains rowing training records with either <strong>time</strong> or <strong>distance</strong> recorded per session, but not both. I don&#39;t know what to do to best preprocess this. Calculating distance from time using <strong>average speed</strong> is challenging due to inconsistent time formats and potential inaccuracies from using average speed. Any advice would be much appreciated!</p>\n\n<p>Example:</p>\n\n<table><thead>\n<tr>\n<th align=\"left\">Distance (m)</th>\n<th align=\"left\">Time (minutes?)</th>\n</tr>\n</thead><tbody>\n<tr>\n<td align=\"left\">1500</td>\n<td align=\"left\">xx60</td>\n</tr>\n<tr>\n<td align=\"left\">500</td>\n<td align=\"left\">1200</td>\n</tr>\n<tr>\n<td align=\"left\">300</td>\n<td align=\"left\">5x60/60r</td>\n</tr>\n</tbody></table>\n\n<p>Thank You!</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1i6kkod/alternating_data_entries_in_dataset_columns/",
+    "permalink": "/r/MLQuestions/comments/1i6kkod/alternating_data_entries_in_dataset_columns/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1737471889.0,
+    "score": 0,
+    "ups": 0,
+    "downs": 0,
+    "upvote_ratio": 0.5,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Datasets 📚",
+    "timestamp": "2025-01-21T07:04:49"
+  },
+  "comments": [
+    {
+      "id": "m8dp5lk",
+      "author": "trnka",
+      "body": "It depends on what you're planning to do with the data. For example, if you're intending to train a model that will predict some output in real scenarios and those real scenarios only have distance, that's one thing to design for. On the other hand, if it's more of a data analysis problem that's something else to design for.\n\nEither way if the time column is useful, it's worth spending a couple hours trying to clean up the time formats as much as possible. If your example is representative, I'd suggest trying to build out a small list of regexes to parse it.\n\nHappy to chat more if you don't mind sharing more info about the use case",
+      "body_html": "<div class=\"md\"><p>It depends on what you&#39;re planning to do with the data. For example, if you&#39;re intending to train a model that will predict some output in real scenarios and those real scenarios only have distance, that&#39;s one thing to design for. On the other hand, if it&#39;s more of a data analysis problem that&#39;s something else to design for.</p>\n\n<p>Either way if the time column is useful, it&#39;s worth spending a couple hours trying to clean up the time formats as much as possible. If your example is representative, I&#39;d suggest trying to build out a small list of regexes to parse it.</p>\n\n<p>Happy to chat more if you don&#39;t mind sharing more info about the use case</p>\n</div>",
+      "created_utc": 1737480233.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1i6kkod/alternating_data_entries_in_dataset_columns/m8dp5lk/",
+      "parent_id": "t3_1i6kkod",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2025-01-21T09:23:53"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:16.560090"
+}

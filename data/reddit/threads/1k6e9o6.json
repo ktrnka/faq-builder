@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1k6e9o6",
+    "title": "Does Data Augmentation via Noise Addition improve Shallow Models, or just Deep Learning Models?",
+    "author": "ondek",
+    "selftext": "Hello\n\nI'm not very ML-savvy, but my intuition is that DA via Noise Addition only works with Deep Learning because of how models like CNN can learn patterns directly from raw data, while Shallow Models learn from engineered features that don't necessarily reflect the noise in the raw signal. \n\nI'm researching literature on using DA via Noise Addition to improve Shallow classifier performance on ECG signals in wearable hardware. I'm looking into SVMs and RBFNs, specifically. However, it seems like there is no literature surrounding this.\n\nIs my intuition correct? If so, do you advise looking into Wearable implementations of Deep Learning Models instead, like 1D CNN?\n\nThank you",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Hello</p>\n\n<p>I&#39;m not very ML-savvy, but my intuition is that DA via Noise Addition only works with Deep Learning because of how models like CNN can learn patterns directly from raw data, while Shallow Models learn from engineered features that don&#39;t necessarily reflect the noise in the raw signal. </p>\n\n<p>I&#39;m researching literature on using DA via Noise Addition to improve Shallow classifier performance on ECG signals in wearable hardware. I&#39;m looking into SVMs and RBFNs, specifically. However, it seems like there is no literature surrounding this.</p>\n\n<p>Is my intuition correct? If so, do you advise looking into Wearable implementations of Deep Learning Models instead, like 1D CNN?</p>\n\n<p>Thank you</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1k6e9o6/does_data_augmentation_via_noise_addition_improve/",
+    "permalink": "/r/MLQuestions/comments/1k6e9o6/does_data_augmentation_via_noise_addition_improve/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1745452574.0,
+    "score": 2,
+    "ups": 2,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 2,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Time series 📈",
+    "timestamp": "2025-04-23T16:56:14"
+  },
+  "comments": [
+    {
+      "id": "mp1dj2l",
+      "author": "trnka",
+      "body": "Caveat: I haven't worked with this kind of ML model before.\n\nI think of random additive noise as filling a similar role to L2 regularization or dropout. It discourages the model from depending too much on any one feature and discourages the model from being really sensitive to very specific relative values between features. (Among other benefits)\n\nIf your features are noise-invariant, it won't add anything. \n\nIf we take a step back, I like to use data augmentation as an alternative to feature engineering or network design. For example, in an image classifier, it's much easier to augment the data with random rotations than it is to design the model (or network) to be invariant to rotation. So that kind of data augmentation is a low-effort way to encourage the model to be rotation-invariant. That kind of benefit can help both shallow and deep models though it'll help deep models more, typically because they're running on raw features.\n\nI don't know much about ECGs, but there may be data augmentations that mirror real-world measurement problems that aren't already handled in your feature engineering. If so, designing augmentation for that may help.\n\nAlso I came across some papers while doing a quick search, sharing in case you haven't seen them:\n\n* [A Systematic Survey of Data Augmentation of ECG Signals for AI Applications](https://pmc.ncbi.nlm.nih.gov/articles/PMC10256074/)\n* [Data Augmentation for Electrocardiograms](https://arxiv.org/abs/2204.04360)\n* [Extraction of Features for Time Series Classification Using Noise Injection](https://www.mdpi.com/1424-8220/24/19/6402)\n\nSorry I don't have expertise with this kind of problem, hope this helps!",
+      "body_html": "<div class=\"md\"><p>Caveat: I haven&#39;t worked with this kind of ML model before.</p>\n\n<p>I think of random additive noise as filling a similar role to L2 regularization or dropout. It discourages the model from depending too much on any one feature and discourages the model from being really sensitive to very specific relative values between features. (Among other benefits)</p>\n\n<p>If your features are noise-invariant, it won&#39;t add anything. </p>\n\n<p>If we take a step back, I like to use data augmentation as an alternative to feature engineering or network design. For example, in an image classifier, it&#39;s much easier to augment the data with random rotations than it is to design the model (or network) to be invariant to rotation. So that kind of data augmentation is a low-effort way to encourage the model to be rotation-invariant. That kind of benefit can help both shallow and deep models though it&#39;ll help deep models more, typically because they&#39;re running on raw features.</p>\n\n<p>I don&#39;t know much about ECGs, but there may be data augmentations that mirror real-world measurement problems that aren&#39;t already handled in your feature engineering. If so, designing augmentation for that may help.</p>\n\n<p>Also I came across some papers while doing a quick search, sharing in case you haven&#39;t seen them:</p>\n\n<ul>\n<li><a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10256074/\">A Systematic Survey of Data Augmentation of ECG Signals for AI Applications</a></li>\n<li><a href=\"https://arxiv.org/abs/2204.04360\">Data Augmentation for Electrocardiograms</a></li>\n<li><a href=\"https://www.mdpi.com/1424-8220/24/19/6402\">Extraction of Features for Time Series Classification Using Noise Injection</a></li>\n</ul>\n\n<p>Sorry I don&#39;t have expertise with this kind of problem, hope this helps!</p>\n</div>",
+      "created_utc": 1745615089.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1k6e9o6/does_data_augmentation_via_noise_addition_improve/mp1dj2l/",
+      "parent_id": "t3_1k6e9o6",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2025-04-25T14:04:49"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:23.590631"
+}

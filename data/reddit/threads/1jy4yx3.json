@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1jy4yx3",
+    "title": "What’s Your Most Unexpected Case of 'Quiet Collapse'?",
+    "author": "munibkhanali",
+    "selftext": "We obsess over model decay from data drift, but what about **silent failures** where models *technically* perform well… until they don’t? Think of scenarios where the world changed in ways your metrics *didn’t capture*, leading to a slow, invisible erosion of trust or utility.  \n\n**Examples:**  \n- A stock prediction model that thrived for years… until a black swan event (e.g., COVID, war) made its ‘stable’ features meaningless.  \n- A hiring model that ‘worked’ until remote work rewrote the rules of ‘productivity’ signals in resumes.  \n- A climate-prediction model trained on 100 years of data… that fails to adapt to *accelerating* feedback loops (e.g., permafrost melt).  \n\n**Questions:**  \n1. What’s your most jarring example of a model that ‘quietly collapsed’ despite no obvious red flags?  \n2. How do you monitor for **unknown unknowns**—shifts in the world *or human behavior* that your system can’t sense?  \n3. Is constant retraining a band-aid? Should we focus on architectures that ‘fail gracefully’ instead?  ",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>We obsess over model decay from data drift, but what about <strong>silent failures</strong> where models <em>technically</em> perform well… until they don’t? Think of scenarios where the world changed in ways your metrics <em>didn’t capture</em>, leading to a slow, invisible erosion of trust or utility.  </p>\n\n<p><strong>Examples:</strong><br/>\n- A stock prediction model that thrived for years… until a black swan event (e.g., COVID, war) made its ‘stable’ features meaningless.<br/>\n- A hiring model that ‘worked’ until remote work rewrote the rules of ‘productivity’ signals in resumes.<br/>\n- A climate-prediction model trained on 100 years of data… that fails to adapt to <em>accelerating</em> feedback loops (e.g., permafrost melt).  </p>\n\n<p><strong>Questions:</strong><br/>\n1. What’s your most jarring example of a model that ‘quietly collapsed’ despite no obvious red flags?<br/>\n2. How do you monitor for <strong>unknown unknowns</strong>—shifts in the world <em>or human behavior</em> that your system can’t sense?<br/>\n3. Is constant retraining a band-aid? Should we focus on architectures that ‘fail gracefully’ instead?  </p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1jy4yx3/whats_your_most_unexpected_case_of_quiet_collapse/",
+    "permalink": "/r/MLQuestions/comments/1jy4yx3/whats_your_most_unexpected_case_of_quiet_collapse/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1744541417.0,
+    "score": 1,
+    "ups": 1,
+    "downs": 0,
+    "upvote_ratio": 0.6,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Other ❓",
+    "timestamp": "2025-04-13T03:50:17"
+  },
+  "comments": [
+    {
+      "id": "mmwp6z7",
+      "author": "trnka",
+      "body": "I like periodic retraining for those situations. I was leading the ML team in a telemedicine startup back when COVID hit, and all of our models at the time were retrained weekly. By the time someone asked us if we could update the diagnosis prediction model for the new diagnosis codes, it had already been updated and was actively predicting the new ICD-10 code. \n\nIn some ways, that was a happy accident. We launched ML systems while we were still small and didn't have a lot of data, and designed the production system as a human-in-the-loop system to generate data. So we wanted to retrain not just to handle drift but to take advantage of the additional data.\n\nIn an earlier job at Nuance, we built language models used for typing on mobile phones. There we had challenges in keeping up with the changing terminology of the real world, but we weren't setup to re-crawl the web, retrain, and redistribute LMs frequently enough. Instead, we had the main part of the language model stay the same, had a language model for each user that was iteratively updated on device, and a very small LM component that was updated \"over the air\" with trending topics.\n\n> Should we focus on architectures that ‘fail gracefully’ instead?\n\nIn the example of diagnosis prediction, we used it as a sort of autocomplete but didn't show the predictions until our doctors had already clicked in the diagnosis field. We were trying to avoid biasing the doctors' decisions by designing it that way, so that if the autocomplete was wrong it was very unlikely to harm patients.\n\nI don't think of retraining and failing gracefully as either/or though; I like to do both.\n\n> How do you monitor for unknown unknowns\n\nMonitor your business metrics. Unknown unknowns often lead to changes in business metrics even if your ML metrics look good. The hardest part is finding out that something changed. Once you know that, then you can deep dive into the data to try and figure it out.\n\nIt's also useful to listen for any subjective feedback about the quality of the system. That may help you detect some issues that aren't easy to spot in the metrics. That said, subjective feedback is unlikely to help you find issues that affect a small percent of your users.\n\n> What’s your most jarring example of a model that ‘quietly collapsed’ despite no obvious red flags?\n\nWe had a system for prioritizing urgent patients, but it was deeply connected to the system to auto-assign patients in general. At some point the clinic's policies on prioritization changed but the non-medical part of the system hadn't been updated for them so they turned off the whole thing and did prioritization manually.",
+      "body_html": "<div class=\"md\"><p>I like periodic retraining for those situations. I was leading the ML team in a telemedicine startup back when COVID hit, and all of our models at the time were retrained weekly. By the time someone asked us if we could update the diagnosis prediction model for the new diagnosis codes, it had already been updated and was actively predicting the new ICD-10 code. </p>\n\n<p>In some ways, that was a happy accident. We launched ML systems while we were still small and didn&#39;t have a lot of data, and designed the production system as a human-in-the-loop system to generate data. So we wanted to retrain not just to handle drift but to take advantage of the additional data.</p>\n\n<p>In an earlier job at Nuance, we built language models used for typing on mobile phones. There we had challenges in keeping up with the changing terminology of the real world, but we weren&#39;t setup to re-crawl the web, retrain, and redistribute LMs frequently enough. Instead, we had the main part of the language model stay the same, had a language model for each user that was iteratively updated on device, and a very small LM component that was updated &quot;over the air&quot; with trending topics.</p>\n\n<blockquote>\n<p>Should we focus on architectures that ‘fail gracefully’ instead?</p>\n</blockquote>\n\n<p>In the example of diagnosis prediction, we used it as a sort of autocomplete but didn&#39;t show the predictions until our doctors had already clicked in the diagnosis field. We were trying to avoid biasing the doctors&#39; decisions by designing it that way, so that if the autocomplete was wrong it was very unlikely to harm patients.</p>\n\n<p>I don&#39;t think of retraining and failing gracefully as either/or though; I like to do both.</p>\n\n<blockquote>\n<p>How do you monitor for unknown unknowns</p>\n</blockquote>\n\n<p>Monitor your business metrics. Unknown unknowns often lead to changes in business metrics even if your ML metrics look good. The hardest part is finding out that something changed. Once you know that, then you can deep dive into the data to try and figure it out.</p>\n\n<p>It&#39;s also useful to listen for any subjective feedback about the quality of the system. That may help you detect some issues that aren&#39;t easy to spot in the metrics. That said, subjective feedback is unlikely to help you find issues that affect a small percent of your users.</p>\n\n<blockquote>\n<p>What’s your most jarring example of a model that ‘quietly collapsed’ despite no obvious red flags?</p>\n</blockquote>\n\n<p>We had a system for prioritizing urgent patients, but it was deeply connected to the system to auto-assign patients in general. At some point the clinic&#39;s policies on prioritization changed but the non-medical part of the system hadn&#39;t been updated for them so they turned off the whole thing and did prioritization manually.</p>\n</div>",
+      "created_utc": 1744557692.0,
+      "score": 2,
+      "ups": 2,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1jy4yx3/whats_your_most_unexpected_case_of_quiet_collapse/mmwp6z7/",
+      "parent_id": "t3_1jy4yx3",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2025-04-13T08:21:32"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:10.118214"
+}

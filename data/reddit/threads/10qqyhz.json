@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "10qqyhz",
+    "title": "[P] What are all of the Improvements the recent neural network use?",
+    "author": "learning_to_meditate",
+    "selftext": "Hi, I'm currently going through a learning journey. I have created a vanilla neural network from scratch and I want to document what are the improvements that can be applied on.\n\nI'm only working toward the multi layer ANN, I don't want to tackle with others like CNN, RNN, LSTM, Transformers and so on, for the moment being.\n\nFrom my own research I have figured a few, which are:\n\n* Momentum based optimizers for saddle point problem\n* batch, mini-batch and stochastic gradient descent\n* batch normalization\n* L1, L2 regularization \n* dropouts\n\nCan you tell me what other techniques available? \n\n&#x200B;\n\n>!I have made a !<[Notebook](https://www.kaggle.com/code/mohamedahmedx2/build-a-simple-l-neural-network-from-scratch)>!on kaggle with the code just to give you a brief !<",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I&#39;m currently going through a learning journey. I have created a vanilla neural network from scratch and I want to document what are the improvements that can be applied on.</p>\n\n<p>I&#39;m only working toward the multi layer ANN, I don&#39;t want to tackle with others like CNN, RNN, LSTM, Transformers and so on, for the moment being.</p>\n\n<p>From my own research I have figured a few, which are:</p>\n\n<ul>\n<li>Momentum based optimizers for saddle point problem</li>\n<li>batch, mini-batch and stochastic gradient descent</li>\n<li>batch normalization</li>\n<li>L1, L2 regularization </li>\n<li>dropouts</li>\n</ul>\n\n<p>Can you tell me what other techniques available? </p>\n\n<p>&#x200B;</p>\n\n<p><span class=\"md-spoiler-text\">I have made a </span><a href=\"https://www.kaggle.com/code/mohamedahmedx2/build-a-simple-l-neural-network-from-scratch\">Notebook</a><span class=\"md-spoiler-text\">on kaggle with the code just to give you a brief </span></p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/10qqyhz/p_what_are_all_of_the_improvements_the_recent/",
+    "permalink": "/r/MLQuestions/comments/10qqyhz/p_what_are_all_of_the_improvements_the_recent/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1675249904.0,
+    "score": 0,
+    "ups": 0,
+    "downs": 0,
+    "upvote_ratio": 0.5,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": null,
+    "timestamp": "2023-02-01T03:11:44"
+  },
+  "comments": [
+    {
+      "id": "j6sedmh",
+      "author": "trnka",
+      "body": "That list looks good for plain neural networks. You might also want to try out alternative activation functions and hyperparameter tuning for key HPs like the learning rate and shape of the network.",
+      "body_html": "<div class=\"md\"><p>That list looks good for plain neural networks. You might also want to try out alternative activation functions and hyperparameter tuning for key HPs like the learning rate and shape of the network.</p>\n</div>",
+      "created_utc": 1675266548.0,
+      "score": 2,
+      "ups": 2,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/10qqyhz/p_what_are_all_of_the_improvements_the_recent/j6sedmh/",
+      "parent_id": "t3_10qqyhz",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2023-02-01T07:49:08"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:27.760062"
+}

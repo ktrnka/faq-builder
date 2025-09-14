@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1fl8qjg",
+    "title": "What advantage do LSTMs provide for Apple's language identification over other architectures?",
+    "author": "MediumPhrase5608",
+    "selftext": "Why do we use LSTMs over other architectures for character-based language identification (LID) from short-strings of text when the LSTM's power comes from its long-range dependency memory?\n\nFor example, Apple released an industry blog post stating that they use biLSTMs for language identification: [https://machinelearning.apple.com/research/language-identification-from-very-short-strings](https://machinelearning.apple.com/research/language-identification-from-very-short-strings)\n\nAnd then this paper tried to replicate it: [https://aclanthology.org/2021.eacl-srw.6/](https://aclanthology.org/2021.eacl-srw.6/)\n\nI was reading this famous [post ](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)on RNNs while trying to train a small language identification model for practice. I first tried a simple, intuitive (for me) method: tf-idf with a naive bayes classifier trained on bi- or trigam counts in the training data. My dataset has 13 languages across different language families. While my simple classifier does perform well, it makes mistakes when looking at similar languages. Spanish is often classified as Portuguese for example.\n\nI was looking into neural network architectures and found that LSTMs are often used in language identification tasks. After reading about RNNs and LSTMs, I can't fully understand why LSTMs are preferred for LID especially from short-strings of text. Isn't this counter-intuitive, because LSTMs are strong in remembering long-range dependencies whereas RNNs aren't? For short strings of text, I would have suggested using a vanilla RNN....\n\nThat Apple blog does say, \"In this article, we explore how we can improve LID accuracy **by treating it as a sequence labeling problem at the character level**, and using bi-directional long short-term memory (bi-LSTM) neural networks **trained on short character sequences**.\". I feel like I'm not understanding something fundamental here.\n\n1. Is the learning objective of their LSTM then to correctly classify a given character n-gram? Is that what they mean by \"sequence labelling\" problem? Isn't a sequence labelling task just a classification task at its root (\"label given input from the test set with 1 of N predefined labels\")?\n2. What's the point of training an LSTM on short character sequences when you're using an architecture that is expressly known to handle long sequences?\n\nThanks!",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Why do we use LSTMs over other architectures for character-based language identification (LID) from short-strings of text when the LSTM&#39;s power comes from its long-range dependency memory?</p>\n\n<p>For example, Apple released an industry blog post stating that they use biLSTMs for language identification: <a href=\"https://machinelearning.apple.com/research/language-identification-from-very-short-strings\">https://machinelearning.apple.com/research/language-identification-from-very-short-strings</a></p>\n\n<p>And then this paper tried to replicate it: <a href=\"https://aclanthology.org/2021.eacl-srw.6/\">https://aclanthology.org/2021.eacl-srw.6/</a></p>\n\n<p>I was reading this famous <a href=\"https://karpathy.github.io/2015/05/21/rnn-effectiveness/\">post </a>on RNNs while trying to train a small language identification model for practice. I first tried a simple, intuitive (for me) method: tf-idf with a naive bayes classifier trained on bi- or trigam counts in the training data. My dataset has 13 languages across different language families. While my simple classifier does perform well, it makes mistakes when looking at similar languages. Spanish is often classified as Portuguese for example.</p>\n\n<p>I was looking into neural network architectures and found that LSTMs are often used in language identification tasks. After reading about RNNs and LSTMs, I can&#39;t fully understand why LSTMs are preferred for LID especially from short-strings of text. Isn&#39;t this counter-intuitive, because LSTMs are strong in remembering long-range dependencies whereas RNNs aren&#39;t? For short strings of text, I would have suggested using a vanilla RNN....</p>\n\n<p>That Apple blog does say, &quot;In this article, we explore how we can improve LID accuracy <strong>by treating it as a sequence labeling problem at the character level</strong>, and using bi-directional long short-term memory (bi-LSTM) neural networks <strong>trained on short character sequences</strong>.&quot;. I feel like I&#39;m not understanding something fundamental here.</p>\n\n<ol>\n<li>Is the learning objective of their LSTM then to correctly classify a given character n-gram? Is that what they mean by &quot;sequence labelling&quot; problem? Isn&#39;t a sequence labelling task just a classification task at its root (&quot;label given input from the test set with 1 of N predefined labels&quot;)?</li>\n<li>What&#39;s the point of training an LSTM on short character sequences when you&#39;re using an architecture that is expressly known to handle long sequences?</li>\n</ol>\n\n<p>Thanks!</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1fl8qjg/what_advantage_do_lstms_provide_for_apples/",
+    "permalink": "/r/MLQuestions/comments/1fl8qjg/what_advantage_do_lstms_provide_for_apples/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1726828035.0,
+    "score": 5,
+    "ups": 5,
+    "downs": 0,
+    "upvote_ratio": 0.86,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Natural Language Processing 💬",
+    "timestamp": "2024-09-20T03:27:15"
+  },
+  "comments": [
+    {
+      "id": "lot252a",
+      "author": "trnka",
+      "body": "From a quick skim, the wording of the paper is confusing. They max-pool the predictions from each character as the overall output, so although inside the model it's predicting the language at each character their training objective is against the pooled output not anything at the character level. \n\nHaving predictions at the character level may be useful for text input -- in informal language it's common to code-switch between multiple languages and when you're implementing a keyboard it's very tricky to support that quick code-switching. Character-level LID would be helpful.\n\nIt looks like the advantage of LSTM here is really to save memory. Instead of a lookup table proportional to the number of distinct chars cubed for char trigrams, they have a much simpler single-character embedding and use the LSTM part to effectively represent trigrams, 4grams, 5grams, etc. So they're getting the accuracy of a higher order char ngram model with much less memory.\n\nThat said I'd imagine it uses more CPU and I can only assume from the paper that the CPU-memory tradeoff was worthwhile.\n\nThe replication paper is interesting. I've been using fastText for most LID tasks because it's fast, accurate, works on short texts, and has a pretrained model with a lot of languages. It's interesting to see that the LSTM outperforms fastText by a bit.",
+      "body_html": "<div class=\"md\"><p>From a quick skim, the wording of the paper is confusing. They max-pool the predictions from each character as the overall output, so although inside the model it&#39;s predicting the language at each character their training objective is against the pooled output not anything at the character level. </p>\n\n<p>Having predictions at the character level may be useful for text input -- in informal language it&#39;s common to code-switch between multiple languages and when you&#39;re implementing a keyboard it&#39;s very tricky to support that quick code-switching. Character-level LID would be helpful.</p>\n\n<p>It looks like the advantage of LSTM here is really to save memory. Instead of a lookup table proportional to the number of distinct chars cubed for char trigrams, they have a much simpler single-character embedding and use the LSTM part to effectively represent trigrams, 4grams, 5grams, etc. So they&#39;re getting the accuracy of a higher order char ngram model with much less memory.</p>\n\n<p>That said I&#39;d imagine it uses more CPU and I can only assume from the paper that the CPU-memory tradeoff was worthwhile.</p>\n\n<p>The replication paper is interesting. I&#39;ve been using fastText for most LID tasks because it&#39;s fast, accurate, works on short texts, and has a pretrained model with a lot of languages. It&#39;s interesting to see that the LSTM outperforms fastText by a bit.</p>\n</div>",
+      "created_utc": 1727238228.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1fl8qjg/what_advantage_do_lstms_provide_for_apples/lot252a/",
+      "parent_id": "t3_1fl8qjg",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2024-09-24T21:23:48"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:20.364948"
+}

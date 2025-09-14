@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1fsq7z8",
+    "title": "XML Transformation - where to begin?",
+    "author": "sticknotstick",
+    "selftext": "I work with moderately large (~600k lines) XML files. Each file has objects with the same ~50 attributes, including a start time attribute and duration attribute. In my work, we take these XML files, visualize them using in-house software, and then edit the times to “make sense” using unwritten rules.\n\nI’d like to write a program that can edit the “start times” of these objects prior to a human ever touching them to bring them closer to in-line with what we see as “making sense” and reduce time needed in manual processing. I could write a very long list of rules that gets some of what we intuitively do during processing down, but I also have access to thousands of these XML files pre and post processing, which leads me to think deep learning may be helpful.\n\nAny advice on how I’d get started on either approach (rules based or deep learning), or just terms I should investigate to get me on the right track? All answers are appreciated!",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>I work with moderately large (~600k lines) XML files. Each file has objects with the same ~50 attributes, including a start time attribute and duration attribute. In my work, we take these XML files, visualize them using in-house software, and then edit the times to “make sense” using unwritten rules.</p>\n\n<p>I’d like to write a program that can edit the “start times” of these objects prior to a human ever touching them to bring them closer to in-line with what we see as “making sense” and reduce time needed in manual processing. I could write a very long list of rules that gets some of what we intuitively do during processing down, but I also have access to thousands of these XML files pre and post processing, which leads me to think deep learning may be helpful.</p>\n\n<p>Any advice on how I’d get started on either approach (rules based or deep learning), or just terms I should investigate to get me on the right track? All answers are appreciated!</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1fsq7z8/xml_transformation_where_to_begin/",
+    "permalink": "/r/MLQuestions/comments/1fsq7z8/xml_transformation_where_to_begin/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1727682647.0,
+    "score": 1,
+    "ups": 1,
+    "downs": 0,
+    "upvote_ratio": 0.66,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Datasets 📚",
+    "timestamp": "2024-09-30T00:50:47"
+  },
+  "comments": [
+    {
+      "id": "lr0enob",
+      "author": "trnka",
+      "body": "The answer depends on how you edit the times to make sense.\n\nThat said, it'd be good to start by implementing rules and evaluating how well those rules work on your historical data. While doing that I'd suggest treating it like a machine learning problem by doing a train/test split, checking how well your rules work on the training data, inspecting the worst outputs on the training data, then revising the rules.\n\nThe reason I'd suggest starting with rules is that much of your code could be reusable for machine learning as well, like how you extract data from XML and how you evaluate your rules system. The rules-based system would also make a good baseline for any machine learning system, for instance you might say that the results were within 5% of the correct answer from the rules-based system and when you transition to a ML solution you'd want to see the prediction error decrease.\n\nBeyond that, the type of approach you take will depend on what kinds of changes you're making and what data you're using to make them. If you can share an example, that should help clear it up more.",
+      "body_html": "<div class=\"md\"><p>The answer depends on how you edit the times to make sense.</p>\n\n<p>That said, it&#39;d be good to start by implementing rules and evaluating how well those rules work on your historical data. While doing that I&#39;d suggest treating it like a machine learning problem by doing a train/test split, checking how well your rules work on the training data, inspecting the worst outputs on the training data, then revising the rules.</p>\n\n<p>The reason I&#39;d suggest starting with rules is that much of your code could be reusable for machine learning as well, like how you extract data from XML and how you evaluate your rules system. The rules-based system would also make a good baseline for any machine learning system, for instance you might say that the results were within 5% of the correct answer from the rules-based system and when you transition to a ML solution you&#39;d want to see the prediction error decrease.</p>\n\n<p>Beyond that, the type of approach you take will depend on what kinds of changes you&#39;re making and what data you&#39;re using to make them. If you can share an example, that should help clear it up more.</p>\n</div>",
+      "created_utc": 1728427122.0,
+      "score": 2,
+      "ups": 2,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1fsq7z8/xml_transformation_where_to_begin/lr0enob/",
+      "parent_id": "t3_1fsq7z8",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2024-10-08T15:38:42"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:28.692904"
+}

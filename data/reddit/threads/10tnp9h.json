@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "10tnp9h",
+    "title": "Support KB Chatbot - how to train best?",
+    "author": "_eL33Te_",
+    "selftext": "I have some basic AI/ML knowledge and played around with different projects successfully, but am far from an expert.  \nI have built a chatbot in the past and thought instead of providing QnA pairs, wouldn´t it be nice to have an on-premises hosted model that was trained on an extensive product documentation (available as web and pdf) and/or the support kb?  \n\n\nI just read a different post here, where similar task was accomplished for twitter.  \n\n\nIf you´d had to build something like that, what would be the best way?  \nSo what should I learn/read more about?",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>I have some basic AI/ML knowledge and played around with different projects successfully, but am far from an expert.<br/>\nI have built a chatbot in the past and thought instead of providing QnA pairs, wouldn´t it be nice to have an on-premises hosted model that was trained on an extensive product documentation (available as web and pdf) and/or the support kb?  </p>\n\n<p>I just read a different post here, where similar task was accomplished for twitter.  </p>\n\n<p>If you´d had to build something like that, what would be the best way?<br/>\nSo what should I learn/read more about?</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/LanguageTechnology/comments/10tnp9h/support_kb_chatbot_how_to_train_best/",
+    "permalink": "/r/LanguageTechnology/comments/10tnp9h/support_kb_chatbot_how_to_train_best/",
+    "subreddit": "LanguageTechnology",
+    "created_utc": 1675535933.0,
+    "score": 1,
+    "ups": 1,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": null,
+    "timestamp": "2023-02-04T10:38:53"
+  },
+  "comments": [
+    {
+      "id": "j78i4sy",
+      "author": "trnka",
+      "body": "I saw [KnowledgeGPT](https://github.com/mmz-001/knowledge_gpt) praised earlier today for Q&A, that might be worth trying.\n\nAlso, a while back I looked into AWS Kendra for Q&A. It looks like it's good for prototyping though I've read that it's expensive for production and it looked complex to maintain.\n\nI'm not sure if [Elicit](https://elicit.org/faq#how-is-elicit-built) has published their methods but they do something like you want for research papers. They've got a Slack too, so if they don't have publications you might be able to ask them.\n\nIt's not really my area of expertise but hopefully one of those will point you to some papers.",
+      "body_html": "<div class=\"md\"><p>I saw <a href=\"https://github.com/mmz-001/knowledge_gpt\">KnowledgeGPT</a> praised earlier today for Q&amp;A, that might be worth trying.</p>\n\n<p>Also, a while back I looked into AWS Kendra for Q&amp;A. It looks like it&#39;s good for prototyping though I&#39;ve read that it&#39;s expensive for production and it looked complex to maintain.</p>\n\n<p>I&#39;m not sure if <a href=\"https://elicit.org/faq#how-is-elicit-built\">Elicit</a> has published their methods but they do something like you want for research papers. They&#39;ve got a Slack too, so if they don&#39;t have publications you might be able to ask them.</p>\n\n<p>It&#39;s not really my area of expertise but hopefully one of those will point you to some papers.</p>\n</div>",
+      "created_utc": 1675548064.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/LanguageTechnology/comments/10tnp9h/support_kb_chatbot_how_to_train_best/j78i4sy/",
+      "parent_id": "t3_10tnp9h",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2023-02-04T14:01:04"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:37.146430"
+}

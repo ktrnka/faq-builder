@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1f81al7",
+    "title": "Seeking Advice on Building a Community-Led RAG-Based Open AI System",
+    "author": "Simon_LOLALandscape",
+    "selftext": "[removed]",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/LanguageTechnology/comments/1f81al7/seeking_advice_on_building_a_communityled/",
+    "permalink": "/r/LanguageTechnology/comments/1f81al7/seeking_advice_on_building_a_communityled/",
+    "subreddit": "LanguageTechnology",
+    "created_utc": 1725373581.0,
+    "score": 1,
+    "ups": 1,
+    "downs": 0,
+    "upvote_ratio": 0.6,
+    "num_comments": 2,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": null,
+    "timestamp": "2024-09-03T07:26:21"
+  },
+  "comments": [
+    {
+      "id": "llc2y00",
+      "author": "trnka",
+      "body": "Hopefully I can provide some pointers and things to think about! I'm currently involved in a couple RAG projects.\n\n> how to design a user-friendly database that allows multiple contributors to easily input their data independently\n\nThis sounds hard to me. In the past when I've built systems for users to input data for ML, most users quickly get bored of it and the system never gets critical mass of content. You *might* be able to overcome that if you build a way for contributors to quickly and easily see the impact of their effort. You could show contributors a list of common questions or topics that are lacking in content along with the number of people that need the content. Another way would be after they hit \"Submit\" to immediately show them their answer in the response.\n\nSimilarly, if the individuals are attributed in the responses that may motivate the contributors more. On the other hand, if the system re-writes their content without attribution, contributors may find that demotivating.\n\nAn alternative approach would be to build a subreddit or Discord for this kind of content and focus on the community-building aspect of it. That way contributors are getting immediate value (connection, answers, belonging, validation, etc) while building the data you want for this.\n\nIn short: Getting the volume of data is the hard part. Although structuring the data is very hard, it's considerably easier.\n\n# Product\n\n[https://thegigabrain.com/](https://thegigabrain.com/) is the closest product I can think of: It's a RAG-based application built on top of Reddit.\n\nA surprising number of people just to technology or AI when it's not needed, which can be costly or even harmful. I don't know what you've considered here but here are some questions to consider: Is there a faster, cheaper way to accomplish the same underlying goal? Is there a quick way to estimate the value of providing this without needing to build it all?\n\n# Technology\n\n- One area of research concerns conflicting opinions, which may be common in community content. These papers may help, and if they're close-but-not-quite I'd suggest using Connected Papers to find related work: [https://proceedings.neurips.cc/paper/2022/hash/f978c8f3b5f399cae464e85f72e28503-Abstract-Conference.html](https://proceedings.neurips.cc/paper/2022/hash/f978c8f3b5f399cae464e85f72e28503-Abstract-Conference.html) [https://arxiv.org/abs/2305.14647](https://arxiv.org/abs/2305.14647) [https://blender.cs.illinois.edu/paper/metareview2023.pdf](https://blender.cs.illinois.edu/paper/metareview2023.pdf)\n\n- Product reviews are another area in which people express diverse opinions. A lot of work has focused on simple approaches like extracting common phrases. Last time I checked, [Amazon.com](http://Amazon.com) used this. \n\n- Here's an assortment of best practices articles/etc about RAG and LLMs: [https://applied-llms.org/](https://applied-llms.org/) [https://huyenchip.com/2023/04/11/llm-engineering.html](https://huyenchip.com/2023/04/11/llm-engineering.html) [https://arxiv.org/abs/2407.01219](https://arxiv.org/abs/2407.01219)",
+      "body_html": "<div class=\"md\"><p>Hopefully I can provide some pointers and things to think about! I&#39;m currently involved in a couple RAG projects.</p>\n\n<blockquote>\n<p>how to design a user-friendly database that allows multiple contributors to easily input their data independently</p>\n</blockquote>\n\n<p>This sounds hard to me. In the past when I&#39;ve built systems for users to input data for ML, most users quickly get bored of it and the system never gets critical mass of content. You <em>might</em> be able to overcome that if you build a way for contributors to quickly and easily see the impact of their effort. You could show contributors a list of common questions or topics that are lacking in content along with the number of people that need the content. Another way would be after they hit &quot;Submit&quot; to immediately show them their answer in the response.</p>\n\n<p>Similarly, if the individuals are attributed in the responses that may motivate the contributors more. On the other hand, if the system re-writes their content without attribution, contributors may find that demotivating.</p>\n\n<p>An alternative approach would be to build a subreddit or Discord for this kind of content and focus on the community-building aspect of it. That way contributors are getting immediate value (connection, answers, belonging, validation, etc) while building the data you want for this.</p>\n\n<p>In short: Getting the volume of data is the hard part. Although structuring the data is very hard, it&#39;s considerably easier.</p>\n\n<h1>Product</h1>\n\n<p><a href=\"https://thegigabrain.com/\">https://thegigabrain.com/</a> is the closest product I can think of: It&#39;s a RAG-based application built on top of Reddit.</p>\n\n<p>A surprising number of people just to technology or AI when it&#39;s not needed, which can be costly or even harmful. I don&#39;t know what you&#39;ve considered here but here are some questions to consider: Is there a faster, cheaper way to accomplish the same underlying goal? Is there a quick way to estimate the value of providing this without needing to build it all?</p>\n\n<h1>Technology</h1>\n\n<ul>\n<li><p>One area of research concerns conflicting opinions, which may be common in community content. These papers may help, and if they&#39;re close-but-not-quite I&#39;d suggest using Connected Papers to find related work: <a href=\"https://proceedings.neurips.cc/paper/2022/hash/f978c8f3b5f399cae464e85f72e28503-Abstract-Conference.html\">https://proceedings.neurips.cc/paper/2022/hash/f978c8f3b5f399cae464e85f72e28503-Abstract-Conference.html</a> <a href=\"https://arxiv.org/abs/2305.14647\">https://arxiv.org/abs/2305.14647</a> <a href=\"https://blender.cs.illinois.edu/paper/metareview2023.pdf\">https://blender.cs.illinois.edu/paper/metareview2023.pdf</a></p></li>\n<li><p>Product reviews are another area in which people express diverse opinions. A lot of work has focused on simple approaches like extracting common phrases. Last time I checked, <a href=\"http://Amazon.com\">Amazon.com</a> used this. </p></li>\n<li><p>Here&#39;s an assortment of best practices articles/etc about RAG and LLMs: <a href=\"https://applied-llms.org/\">https://applied-llms.org/</a> <a href=\"https://huyenchip.com/2023/04/11/llm-engineering.html\">https://huyenchip.com/2023/04/11/llm-engineering.html</a> <a href=\"https://arxiv.org/abs/2407.01219\">https://arxiv.org/abs/2407.01219</a></p></li>\n</ul>\n</div>",
+      "created_utc": 1725384197.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/LanguageTechnology/comments/1f81al7/seeking_advice_on_building_a_communityled/llc2y00/",
+      "parent_id": "t3_1f81al7",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2024-09-03T10:23:17"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:21.996196"
+}

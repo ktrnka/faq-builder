@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1hco2en",
+    "title": "[deleted by user]",
+    "author": null,
+    "selftext": "[removed]",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>[removed]</p>\n</div><!-- SC_ON -->",
+    "url": "",
+    "permalink": "/r/MLQuestions/comments/1hco2en/deleted_by_user/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1734018733.0,
+    "score": 1,
+    "ups": 1,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 2,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": null,
+    "timestamp": "2024-12-12T07:52:13"
+  },
+  "comments": [
+    {
+      "id": "m1pjjfj",
+      "author": "trnka",
+      "body": "If you have a model like linear/logistic regression, check the weights. It should be very clear which features are leaking info about the target. Various random forest or xgboost implementations have feature importances you can use too.\n\nThe main differences from correlation tests:\n\n\\- If you already have a model that you suspect is training on target-leaks, you can directly inspect that model\n\n\\- In the rare case where two features combine to leak the target and you're using a non-linear model like a random forest, that will show up in feature importance\n\nI wouldn't bother switching from correlation testing if it's already working though. That's typically much faster than training a model just to inspect weights.",
+      "body_html": "<div class=\"md\"><p>If you have a model like linear/logistic regression, check the weights. It should be very clear which features are leaking info about the target. Various random forest or xgboost implementations have feature importances you can use too.</p>\n\n<p>The main differences from correlation tests:</p>\n\n<p>- If you already have a model that you suspect is training on target-leaks, you can directly inspect that model</p>\n\n<p>- In the rare case where two features combine to leak the target and you&#39;re using a non-linear model like a random forest, that will show up in feature importance</p>\n\n<p>I wouldn&#39;t bother switching from correlation testing if it&#39;s already working though. That&#39;s typically much faster than training a model just to inspect weights.</p>\n</div>",
+      "created_utc": 1734019529.0,
+      "score": 3,
+      "ups": 3,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1hco2en/deleted_by_user/m1pjjfj/",
+      "parent_id": "t3_1hco2en",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2024-12-12T08:05:29"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:20.990139"
+}

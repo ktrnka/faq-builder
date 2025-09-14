@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1grzax7",
+    "title": "[D] Leveling guidelines for machine learning engineers",
+    "author": "AdditionalWeb107",
+    "selftext": "wanted to learn what are some ways this community distinguishes between mid/senior/principal level machine learning engineers. For software engineering this is less of an art, as there are well documented cases and examples. But not super clear if machine learning engineers are subject to the same definitions...",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>wanted to learn what are some ways this community distinguishes between mid/senior/principal level machine learning engineers. For software engineering this is less of an art, as there are well documented cases and examples. But not super clear if machine learning engineers are subject to the same definitions...</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1grzax7/d_leveling_guidelines_for_machine_learning/",
+    "permalink": "/r/MachineLearning/comments/1grzax7/d_leveling_guidelines_for_machine_learning/",
+    "subreddit": "MachineLearning",
+    "created_utc": 1731685676.0,
+    "score": 4,
+    "ups": 4,
+    "downs": 0,
+    "upvote_ratio": 0.67,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Discussion",
+    "timestamp": "2024-11-15T07:47:56"
+  },
+  "comments": [
+    {
+      "id": "lxaklxn",
+      "author": "trnka",
+      "body": "Dropbox's leveling guidelines are a good place to start: [https://dropbox.github.io/dbx-career-framework/ic1\\_machine\\_learning\\_engineer.html](https://dropbox.github.io/dbx-career-framework/ic1_machine_learning_engineer.html)\n\nThere's some loose consistency across companies, for instance that staff+ is associated with cross-team impact. Beyond that, the details will vary from company to company and many companies don't even have formal leveling guidelines.",
+      "body_html": "<div class=\"md\"><p>Dropbox&#39;s leveling guidelines are a good place to start: <a href=\"https://dropbox.github.io/dbx-career-framework/ic1_machine_learning_engineer.html\">https://dropbox.github.io/dbx-career-framework/ic1_machine_learning_engineer.html</a></p>\n\n<p>There&#39;s some loose consistency across companies, for instance that staff+ is associated with cross-team impact. Beyond that, the details will vary from company to company and many companies don&#39;t even have formal leveling guidelines.</p>\n</div>",
+      "created_utc": 1731690828.0,
+      "score": 5,
+      "ups": 5,
+      "downs": 0,
+      "permalink": "/r/MachineLearning/comments/1grzax7/d_leveling_guidelines_for_machine_learning/lxaklxn/",
+      "parent_id": "t3_1grzax7",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2024-11-15T09:13:48"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:15.792024"
+}

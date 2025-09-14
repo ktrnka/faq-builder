@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1gvz4ll",
+    "title": "NLP Multi-class/label problem (could use some help 😅)",
+    "author": "CurrentAnalyst4791",
+    "selftext": "\nHello all, I am looking for some potential thoughts or guidance on a ML problem I am currently trying to tackle.\n\nI have been tasked with a project to create some infrastructure to derive customer intents from an agent/customer transcript of customer service interactions. We currently have just over 200 unique intents of things like ‘Bill Pay’, ‘Activate new device’, etc.\n\nThe plan is to derive said intents from a single, string-based customer utterance. However, the thought of acquiring training and validation data for each of those labels as well as utterances for the vast combination of unique multi-label scenarios seems arduous. My current method for acquiring the training data is pretty much me coming up with wildcard search criteria, per intent, to then run against a Snowflake database. Theoretically all of this training data would then be evaluated by myself (yes, i know.. quite tedious in itself) to confirm the validity of the utterance to label connection.\n\nTo avoid needing to train for the number of scenarios in which any number of intents could arise in one single utterance, I am leaning away from a multi-class/multi-label model as it could get quite complex. I am then led to some sort of ensemble approach where I just create binary classifiers (thinking of a BERT type model for now) for each intent and aggregate based on those results.\n\nI have never dealt with an NLP problem like this with so many labels to account for. Does this approach seem sound at a first glance? I am open to any recommendations or thoughts.\n\nAlso I am using python in a Databricks environment (: Thank you so much in advance! 🙏",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Hello all, I am looking for some potential thoughts or guidance on a ML problem I am currently trying to tackle.</p>\n\n<p>I have been tasked with a project to create some infrastructure to derive customer intents from an agent/customer transcript of customer service interactions. We currently have just over 200 unique intents of things like ‘Bill Pay’, ‘Activate new device’, etc.</p>\n\n<p>The plan is to derive said intents from a single, string-based customer utterance. However, the thought of acquiring training and validation data for each of those labels as well as utterances for the vast combination of unique multi-label scenarios seems arduous. My current method for acquiring the training data is pretty much me coming up with wildcard search criteria, per intent, to then run against a Snowflake database. Theoretically all of this training data would then be evaluated by myself (yes, i know.. quite tedious in itself) to confirm the validity of the utterance to label connection.</p>\n\n<p>To avoid needing to train for the number of scenarios in which any number of intents could arise in one single utterance, I am leaning away from a multi-class/multi-label model as it could get quite complex. I am then led to some sort of ensemble approach where I just create binary classifiers (thinking of a BERT type model for now) for each intent and aggregate based on those results.</p>\n\n<p>I have never dealt with an NLP problem like this with so many labels to account for. Does this approach seem sound at a first glance? I am open to any recommendations or thoughts.</p>\n\n<p>Also I am using python in a Databricks environment (: Thank you so much in advance! 🙏</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1gvz4ll/nlp_multiclasslabel_problem_could_use_some_help/",
+    "permalink": "/r/MLQuestions/comments/1gvz4ll/nlp_multiclasslabel_problem_could_use_some_help/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1732133939.0,
+    "score": 1,
+    "ups": 1,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Beginner question 👶",
+    "timestamp": "2024-11-20T12:18:59"
+  },
+  "comments": [
+    {
+      "id": "ly618h9",
+      "author": "trnka",
+      "body": "I worked on a similar problem in the medical space. We did multi-label annotation but added labels over time., so our data had lots of missing labels. We modified the loss function to ignore any missing labels.\n\nOne advantage of multi-label is that any domain-specific fine-tuning of the word embeddings/etc is shared across all labels. So even if a label only has 100 examples, it's benefitting from the fine-tuning of the model on more common classes.\n\nDepending on your data, you could try assuming that there's usually only one single class and train a single label, multi-class classifier. You *might* be able to use that multi-class classifier to identify cases where multiple labels could be relevant and filter those, then retrain on the examples that look to have only a single class.\n\nAnother approach would be to use an LLM to do the data labeling.",
+      "body_html": "<div class=\"md\"><p>I worked on a similar problem in the medical space. We did multi-label annotation but added labels over time., so our data had lots of missing labels. We modified the loss function to ignore any missing labels.</p>\n\n<p>One advantage of multi-label is that any domain-specific fine-tuning of the word embeddings/etc is shared across all labels. So even if a label only has 100 examples, it&#39;s benefitting from the fine-tuning of the model on more common classes.</p>\n\n<p>Depending on your data, you could try assuming that there&#39;s usually only one single class and train a single label, multi-class classifier. You <em>might</em> be able to use that multi-class classifier to identify cases where multiple labels could be relevant and filter those, then retrain on the examples that look to have only a single class.</p>\n\n<p>Another approach would be to use an LLM to do the data labeling.</p>\n</div>",
+      "created_utc": 1732146121.0,
+      "score": 2,
+      "ups": 2,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1gvz4ll/nlp_multiclasslabel_problem_could_use_some_help/ly618h9/",
+      "parent_id": "t3_1gvz4ll",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2024-11-20T15:42:01"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:15.488501"
+}

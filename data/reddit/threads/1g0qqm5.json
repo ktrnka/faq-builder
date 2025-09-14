@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1g0qqm5",
+    "title": "Advice Needed for MLE Career Move",
+    "author": "huzaifasuri",
+    "selftext": "Background: I'm a fresh MS grad from an ML degree (June 2024), not much CS background before but did extensive research during my MS.\n\n...\n\nI'm currently working in an early-stage startup (5 people total) as an ML Engineer. They're pre-seed, currently raising. Work has been going well, mostly just R&D, and I'm taking an interest in the business side as well, getting to learn some things about raising capital etc. I've established myself well and regarded highly among the company, to the point that I'm leading interviews for another ML Engineer since \"I will be supervising them\". Currently, pay is minimal but they will bump to a package around 100k including equity once seed is raised. However, I don't have senior engineers to learn from, no MLOps structure, no data pipelines, no best practices. The company is healthcare first so they don't plan to expand their tech team too beyond 1-2 more engineers and plan to offload model deployment to other companies, my role will stay R&D.\n\n  \nI am interviewing for another company (pharma industry) that is 15-20 people, operate like a startup but raised capital 7-8 years ago and have a good team of senior engineers. They'll provide me extensive training on MLOps with some AWS certifications, get me on to speed on a lot of best practices, pay is gonna be 100k-130k, but no fixed equity/bonus.\n\n  \n**I'm not sure what the right career move would be for me.** Current company has good growth prospects, their business model could blow up and I could potentially be in a very comfortable spot a few years down the road with equity and a senior position in the company (they plan to sell the company in a few years). But learning-wise it hasn't been great, and the other company offers more immediate learning and reward. Not sure if R&D is gonna lead me anywhere too, given that most big companies have PhD as pretty much a requirement for R&D roles.\n\n\n\nAny advice would be appreciated, thanks!",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Background: I&#39;m a fresh MS grad from an ML degree (June 2024), not much CS background before but did extensive research during my MS.</p>\n\n<p>...</p>\n\n<p>I&#39;m currently working in an early-stage startup (5 people total) as an ML Engineer. They&#39;re pre-seed, currently raising. Work has been going well, mostly just R&amp;D, and I&#39;m taking an interest in the business side as well, getting to learn some things about raising capital etc. I&#39;ve established myself well and regarded highly among the company, to the point that I&#39;m leading interviews for another ML Engineer since &quot;I will be supervising them&quot;. Currently, pay is minimal but they will bump to a package around 100k including equity once seed is raised. However, I don&#39;t have senior engineers to learn from, no MLOps structure, no data pipelines, no best practices. The company is healthcare first so they don&#39;t plan to expand their tech team too beyond 1-2 more engineers and plan to offload model deployment to other companies, my role will stay R&amp;D.</p>\n\n<p>I am interviewing for another company (pharma industry) that is 15-20 people, operate like a startup but raised capital 7-8 years ago and have a good team of senior engineers. They&#39;ll provide me extensive training on MLOps with some AWS certifications, get me on to speed on a lot of best practices, pay is gonna be 100k-130k, but no fixed equity/bonus.</p>\n\n<p><strong>I&#39;m not sure what the right career move would be for me.</strong> Current company has good growth prospects, their business model could blow up and I could potentially be in a very comfortable spot a few years down the road with equity and a senior position in the company (they plan to sell the company in a few years). But learning-wise it hasn&#39;t been great, and the other company offers more immediate learning and reward. Not sure if R&amp;D is gonna lead me anywhere too, given that most big companies have PhD as pretty much a requirement for R&amp;D roles.</p>\n\n<p>Any advice would be appreciated, thanks!</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1g0qqm5/advice_needed_for_mle_career_move/",
+    "permalink": "/r/MLQuestions/comments/1g0qqm5/advice_needed_for_mle_career_move/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1728587821.0,
+    "score": 3,
+    "ups": 3,
+    "downs": 0,
+    "upvote_ratio": 1.0,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Career question 💼",
+    "timestamp": "2024-10-10T12:17:01"
+  },
+  "comments": [
+    {
+      "id": "lrlkdkh",
+      "author": "trnka",
+      "body": "It sounds like you've got a lot going on!\n\nIf you get an offer from a company that has much better mentorship, that sounds like a great option.\n\nUntil that works out (whether that's weeks or years), I'd suggest looking for ways to learn more effectively within your current organization, such as:\n\n- Learn the expertise of the people you're around. If there's a software engineer you respect at your current employer, you can learn a lot from them even if they may not be able to mentor you in the ML parts.\n\n- Get support to spend more work time on learning. That could be something like attending conferences/etc once in a while. ML4H is a fun one in December, for instance: [https://ahli.cc/ml4h/](https://ahli.cc/ml4h/) I've learned a lot from those events, and meeting people with different challenges helps me figure out what to look into. Alternatively, you can spend your time reading books or taking courses in areas you want to learn.\n\n- Ask around for advice on very targeted questions (such as here, r/mlops, and others). If you have a specific problem you're facing, people can point you in the right direction. For example, if you had trouble quickly reverting a bad deployment, that's a very instructive topic in devops and mlops. If you're looking mainly for best practices/etc I'd start by asking for recommended books and videos.",
+      "body_html": "<div class=\"md\"><p>It sounds like you&#39;ve got a lot going on!</p>\n\n<p>If you get an offer from a company that has much better mentorship, that sounds like a great option.</p>\n\n<p>Until that works out (whether that&#39;s weeks or years), I&#39;d suggest looking for ways to learn more effectively within your current organization, such as:</p>\n\n<ul>\n<li><p>Learn the expertise of the people you&#39;re around. If there&#39;s a software engineer you respect at your current employer, you can learn a lot from them even if they may not be able to mentor you in the ML parts.</p></li>\n<li><p>Get support to spend more work time on learning. That could be something like attending conferences/etc once in a while. ML4H is a fun one in December, for instance: <a href=\"https://ahli.cc/ml4h/\">https://ahli.cc/ml4h/</a> I&#39;ve learned a lot from those events, and meeting people with different challenges helps me figure out what to look into. Alternatively, you can spend your time reading books or taking courses in areas you want to learn.</p></li>\n<li><p>Ask around for advice on very targeted questions (such as here, <a href=\"/r/mlops\">r/mlops</a>, and others). If you have a specific problem you&#39;re facing, people can point you in the right direction. For example, if you had trouble quickly reverting a bad deployment, that&#39;s a very instructive topic in devops and mlops. If you&#39;re looking mainly for best practices/etc I&#39;d start by asking for recommended books and videos.</p></li>\n</ul>\n</div>",
+      "created_utc": 1728755930.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1g0qqm5/advice_needed_for_mle_career_move/lrlkdkh/",
+      "parent_id": "t3_1g0qqm5",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2024-10-12T10:58:50"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:10.702945"
+}

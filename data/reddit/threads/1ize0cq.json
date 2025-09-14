@@ -1,0 +1,49 @@
+{
+  "submission": {
+    "id": "1ize0cq",
+    "title": "Web Scraper for Emails from a City for specific type of organisation",
+    "author": "MoonManDancing",
+    "selftext": "Hi, I need to scrape the web for email addresses, from a specific location (i.e. New South Wales, Australia) from a specific type of organisation (e.g. Churches). Struggling quite a bit with locating an AI that does this, or instructions on how to do it. Can anyone please assist me? I would prefer a free option if possible. Thank you",
+    "selftext_html": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I need to scrape the web for email addresses, from a specific location (i.e. New South Wales, Australia) from a specific type of organisation (e.g. Churches). Struggling quite a bit with locating an AI that does this, or instructions on how to do it. Can anyone please assist me? I would prefer a free option if possible. Thank you</p>\n</div><!-- SC_ON -->",
+    "url": "https://www.reddit.com/r/MLQuestions/comments/1ize0cq/web_scraper_for_emails_from_a_city_for_specific/",
+    "permalink": "/r/MLQuestions/comments/1ize0cq/web_scraper_for_emails_from_a_city_for_specific/",
+    "subreddit": "MLQuestions",
+    "created_utc": 1740657249.0,
+    "score": 0,
+    "ups": 0,
+    "downs": 0,
+    "upvote_ratio": 0.5,
+    "num_comments": 1,
+    "is_self": true,
+    "over_18": false,
+    "spoiler": false,
+    "stickied": false,
+    "locked": false,
+    "archived": false,
+    "distinguished": null,
+    "link_flair_text": "Beginner question 👶",
+    "timestamp": "2025-02-27T03:54:09"
+  },
+  "comments": [
+    {
+      "id": "mf38i4o",
+      "author": "trnka",
+      "body": "There are a lot of businesses that sell contact info like this and they probably do web scraping to get it. I haven't found anything that does a big list for free.\n\nIf you just need a small list though, Perplexity is probably a good option. You might have to go town by town though. This prompt gives some results and might be a good place to start:\n\n\\> Build a list of churches in Dubbo, New South Wales, Australia. For each church, include the name, website, and email address if available. Return the results as Json\n\nIf you want to build it yourself and you find a webpage that has the information you need, css selectors are a good way to extract structured information. If it's in a data table, you could even use Google Sheets to extract the table into a spreadsheet.",
+      "body_html": "<div class=\"md\"><p>There are a lot of businesses that sell contact info like this and they probably do web scraping to get it. I haven&#39;t found anything that does a big list for free.</p>\n\n<p>If you just need a small list though, Perplexity is probably a good option. You might have to go town by town though. This prompt gives some results and might be a good place to start:</p>\n\n<p>&gt; Build a list of churches in Dubbo, New South Wales, Australia. For each church, include the name, website, and email address if available. Return the results as Json</p>\n\n<p>If you want to build it yourself and you find a webpage that has the information you need, css selectors are a good way to extract structured information. If it&#39;s in a data table, you could even use Google Sheets to extract the table into a spreadsheet.</p>\n</div>",
+      "created_utc": 1740672566.0,
+      "score": 1,
+      "ups": 1,
+      "downs": 0,
+      "permalink": "/r/MLQuestions/comments/1ize0cq/web_scraper_for_emails_from_a_city_for_specific/mf38i4o/",
+      "parent_id": "t3_1ize0cq",
+      "depth": 0,
+      "is_submitter": false,
+      "stickied": false,
+      "edited": false,
+      "distinguished": null,
+      "timestamp": "2025-02-27T08:09:26"
+    }
+  ],
+  "total_comments": 1,
+  "fetched_at": "2025-09-13T20:47:14.511497"
+}
