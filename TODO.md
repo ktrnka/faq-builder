@@ -1,35 +1,40 @@
 # FAQ Builder TODO
 
-## Immediate Next Steps (Priority Order)
+## Content Categorization & Blog Post Development
 
-### 1. Manifest & Batch Operations
-- [ ] Update YouTube playlist scanning to create manifest file (JSON list of video IDs)
-- [ ] Add commands to work with manifest files (e.g., `youtube download-from-manifest`)
-- [ ] Test xargs integration for batch operations
+### 1. Data Collection & Preparation
+- [ ] Download more YouTube transcripts (expand beyond current 27 videos)
+- [ ] Complete inventory of all available Reddit threads
+- [ ] Ensure we have comprehensive content coverage
 
-### 2. Build Automation
+### 2. Categorization System Implementation
+- [ ] Split categorization analysis out of design doc into separate analysis document
+  - Move content from `/design_docs/categorization_system.md` to `/analysis/content_categorization.md`
+  - Keep design principles in design doc, move analysis results to analysis doc
+- [ ] Review ALL Reddit threads systematically (not just sample of 30)
+- [ ] Review ALL YouTube transcripts systematically (not just sample of 10)
+- [ ] Refine category taxonomy based on complete content review
+
+### 3. Blog Post Planning
+- [ ] Group Reddit posts and YouTube chapters into candidate blog post clusters
+- [ ] Identify top 3-5 blog post topics with strongest content coverage
+- [ ] Create blog post outlines for highest-priority topics
+- [ ] Map specific Reddit threads and YouTube chapters to each blog post
+
+## Technical Infrastructure (Lower Priority)
+
+### YouTube Pipeline Scale-Up
+- [ ] Run download for remaining videos in manifest
+- [ ] Run LLM cleaning on all raw transcripts
+- [ ] Verify cost estimates for full pipeline
+
+### Build Automation
 - [ ] Create Makefile with dependency chains:
   - Raw transcript download → Cleaned transcript → Display
   - Conditional execution (only process if source is newer)
   - Batch processing targets
 
-### 3. YouTube Pipeline Scale-Up
-- [ ] Run download for all videos in manifest
-- [ ] Run LLM cleaning on all raw transcripts
-- [ ] Verify cost estimates for full pipeline
-
-### 4. Reddit Pipeline Enhancement
-- [ ] Build Reddit enrichment pipeline
-- [ ] Add `reddit show-thread` command (by post ID/URL)
-- [ ] Format Reddit interactions as readable conversation threads
-- [ ] Test with actual Reddit data
-
-## Design Document Updates Needed
-- [ ] Update YouTube design doc with current implementation status
-- [ ] Document Reddit pipeline design (thread extraction & formatting)
-- [ ] Add Makefile/automation strategy to design docs
-
-## Technical Debt & Polish
+### Technical Debt & Polish
 - [ ] Add progress bars for batch operations
 - [ ] Improve error handling in batch scenarios
 - [ ] Add dry-run options for batch commands
