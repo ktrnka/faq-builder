@@ -1,0 +1,291 @@
+{
+  "title": "2025-04-04T23:01:17Z - Data Science / Open Q & A w/Coach Keith",
+  "date": "2025-04-05",
+  "total_duration_seconds": 3424.0,
+  "chapters": [
+    {
+      "title": "Introduction and Job Application Challenges",
+      "chapter_type": "qa",
+      "start_time": 3.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Sorry. I just like to record questions once we get into topics in case someone else has the same question."
+        },
+        {
+          "speaker": "Host",
+          "text": "No trouble at all. So, you're applying to jobs online on LinkedIn or elsewhere but not hearing back from any of them, right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, I apply left and right but don't hear anything back."
+        },
+        {
+          "speaker": "Host",
+          "text": "What other things have you tried besides applying online?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm trying FreeCodeCamp to get a full stack certificate, but I feel that might not make a difference."
+        },
+        {
+          "speaker": "Host",
+          "text": "I think there are sessions on resume review and interview prep during the week that might help. Also, some people recommend reaching out directly to hiring managers or through friends."
+        }
+      ]
+    },
+    {
+      "title": "Behind the Scenes of Hiring and Resume Screening",
+      "chapter_type": "explanation",
+      "start_time": 78.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I was a hiring manager for about four years before AI tools became widespread. Typically, hiring starts with budget discussions and approval from the CTO, then HR helps craft the job description and posts it on platforms like LinkedIn and company websites. Applications funnel into tracking systems like Greenhouse or Lever."
+        },
+        {
+          "speaker": "Host",
+          "text": "For junior roles, I once received about a hundred applications on the first day. Hiring managers have to review these on top of their regular work, often early mornings, under significant time pressure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Many applications are quickly screened out if candidates lack relevant programming experience. Those with some internships or related work get more attention, but time constraints limit how many can be interviewed."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nowadays, the volume of applications can be 500 to 1000 for bigger companies. Many candidates use tools to auto-apply or customize resumes with AI, making resumes sound very similar and harder to differentiate."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some job postings remain open due to organizational issues like layoffs or anticipating future vacancies, which can be confusing for applicants."
+        }
+      ]
+    },
+    {
+      "title": "Current Job Market Realities and Strategies",
+      "chapter_type": "discussion",
+      "start_time": 600.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "It's a tough market with more job seekers than entry-level jobs. Sometimes companies post jobs but prefer internal referrals. The competition is fierce."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm surprised people using AI tools to customize resumes don't get jobs more easily."
+        },
+        {
+          "speaker": "Host",
+          "text": "Knowing how to code isn't enough; you have to prove your skills quickly. Many people lie on resumes, so hiring managers rely on assessments or interviews to verify abilities."
+        },
+        {
+          "speaker": "Host",
+          "text": "Technical assessments usually last 45 to 60 minutes, and hiring managers can only spend limited hours per week on them, so only a few candidates get through."
+        },
+        {
+          "speaker": "Host",
+          "text": "One effective way to stand out is through internships or real applied projects that demonstrate your skills with tangible results."
+        }
+      ]
+    },
+    {
+      "title": "Showcasing Projects and Skills for Job Applications",
+      "chapter_type": "qa",
+      "start_time": 1080.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I have a project where I modified a Sonic game using the GDAU game engine, adding double jump and spin dash features. Would that impress a hiring manager?"
+        },
+        {
+          "speaker": "Host",
+          "text": "For gaming jobs, passion and relevant projects like yours are valuable. Showing your contributions on your resume helps. For other tech jobs, relevant experience in that domain is more important."
+        },
+        {
+          "speaker": "Student",
+          "text": "I also have a Python playground and am working on FreeCodeCamp projects like blogs and surveys to build my skills."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's great. You won't remember everything immediately, but skills come back quickly with practice. Projects that are actively used by others carry more weight in interviews."
+        }
+      ]
+    },
+    {
+      "title": "Balancing Learning with Work and Energy Constraints",
+      "chapter_type": "discussion",
+      "start_time": 1300.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I work long hours and get burnt out, making it hard to study or practice coding consistently."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's a common challenge. You have to work with the energy and time you have. Everyone progresses at their own pace, and even small weekly efforts add up over time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some years you have more time, some less. It's important to chip away steadily and rest when needed."
+        },
+        {
+          "speaker": "Student",
+          "text": "I have books on C++ and HTML but struggle to find time to study after work."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's understandable. Just keep at it when you can. The key is consistency over time."
+        }
+      ]
+    },
+    {
+      "title": "Job Market Dynamics and Degree Relevance",
+      "chapter_type": "discussion",
+      "start_time": 1560.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "It seems like having a degree doesn't guarantee job success or even a job."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's true. College degrees signal some skills but don't always correlate strongly with job performance. Programming jobs require creativity beyond following instructions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some schools prepare students better than others, but practical experience and problem-solving skills matter a lot."
+        }
+      ]
+    },
+    {
+      "title": "Session Introduction and Topics Overview",
+      "chapter_type": "admin",
+      "start_time": 2060.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Welcome to the session. My focus is usually on data science topics like AI, machine learning, applied statistics, reporting, and working with data. Sometimes we cover projects too."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks for the overview. I'm around the third week of the program."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great. Some sessions are busier than others. As a leader, I've learned to be comfortable with silence when asking for questions."
+        }
+      ]
+    },
+    {
+      "title": "Medical Coding vs Programming Discussion",
+      "chapter_type": "qa",
+      "start_time": 2280.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "What about medical coding? Is it the same as programming?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Medical coding usually refers to billing codes in healthcare, not programming. It's a different field."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm curious because my goal is to work from home, and I heard medical billing coding could be an option if programming doesn't work out."
+        },
+        {
+          "speaker": "Host",
+          "text": "Medical coding involves translating medical diagnoses and procedures into standardized billing codes. It's a big industry with complex interactions between hospitals and insurance companies."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are efforts to apply machine learning and natural language processing to automate coding, but it's a specialized area requiring knowledge of medical terminology and anatomy."
+        },
+        {
+          "speaker": "Student",
+          "text": "I also study herbs and art, including anatomy drawing."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's interesting. Different hospital departments use slightly different terminology, so medical coders need to be familiar with various vocabularies."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is medical coding less competitive than software development?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I don't know much about the job market for medical coders. Some companies are trying to automate those jobs with AI."
+        }
+      ]
+    },
+    {
+      "title": "Reflections on Career Paths and Job Mobility",
+      "chapter_type": "discussion",
+      "start_time": 2880.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I know someone very smart who ended up as a banker, while I work as a janitor. Life is unpredictable."
+        },
+        {
+          "speaker": "Host",
+          "text": "Long work shifts make it hard to switch careers. Jobs with better hours offer more mobility. Job mobility can be tough in demanding roles."
+        },
+        {
+          "speaker": "Host",
+          "text": "Healthcare and finance have inherent tensions, especially in the US system, which affects medical coding and billing."
+        }
+      ]
+    },
+    {
+      "title": "Code Tutor Project Update and Challenges",
+      "chapter_type": "explanation",
+      "start_time": 3060.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The Code Tutor project is going through a reset. The lead had to step away due to family health issues. Some team members are moving on, and others might help to get it launched."
+        },
+        {
+          "speaker": "Host",
+          "text": "I've been reflecting on challenges the team faced and am working on a curriculum to make onboarding easier. The project requires many DevOps and AWS skills, which can be overwhelming for learners."
+        },
+        {
+          "speaker": "Host",
+          "text": "As an advisor, I wait for the team lead to seek help. If I were managing, I'd be more hands-on to speed things up. We're trying to make the project a more effective training program."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Final Thoughts",
+      "chapter_type": "admin",
+      "start_time": 3360.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "It was great meeting you, Keith. Thanks for the reality check talk."
+        },
+        {
+          "speaker": "Host",
+          "text": "Glad it helped. Definitely check out job hunt and resume review sessions on the calendar and their replays."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'll head out now. Nice seeing you all. Have a good weekend."
+        },
+        {
+          "speaker": "Host",
+          "text": "Till next time. Good night."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terms and clarified ambiguous references.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Maintained chronological order and preserved speaker intent and tone."
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-08-23",
+  "total_duration_seconds": 4305.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Latest AI Trends in Coding",
+      "chapter_type": "explanation",
+      "start_time": 3.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Feel free to just blurt out questions or comments. I'll try to keep an eye on the chat. If I don't respond after a few minutes, please let me know."
+        },
+        {
+          "speaker": "Student",
+          "text": "What is the latest trend going on in AI regarding coding and other things?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The latest trend this week is that executives are starting to realize AI coding doesn't solve everything. You can't just replace engineers quickly with AI. CTOs and CEOs are toning down their excitement about AI. Some are realizing they need to put more effort into making their teams productive with AI coding. For example, Meta is reducing their AI hiring spree, and the CTO of AWS mentioned you can't just replace junior engineers with AI and call it good. So this week's news is that nobody's hiring as if AI will do everything."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is natural. Leaders who don't do much programming might use AI for prototyping apps, like with Vercel or other systems. But many didn't realize that moving from prototype to production takes much more work, including security, uptime, and updates. People excited about prototyping are now realizing the effort needed for production."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you haven't heard of the Gartner hype cycle, it's a meme but realistic. New technology gets hyped, then there's a trough of disillusionment when it doesn't solve all problems, and finally productivity gains come after effort. That's the trend I've noticed this week."
+        },
+        {
+          "speaker": "Host",
+          "text": "There's a Reddit quote about the point of vibe coding if you still have to pay a developer to fix it up at the end. People are realizing you can only go so far with AI coding."
+        }
+      ]
+    },
+    {
+      "title": "Upskilling for AI Development from Data Engineering Background",
+      "chapter_type": "qa",
+      "start_time": 301.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "What should I be learning if I want to upskill to develop projects that include AI? I come from a data platforms engineering background and want to pivot into that line of work."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are many types of AI projects. From a data engineering perspective, you might integrate AI into ETL pipelines, which is common. Coding Tutor within Joy of Coding Academy is a good project to get involved with."
+        },
+        {
+          "speaker": "Host",
+          "text": "In terms of learning, two big categories stand out. First, classic software engineering skills like making API calls, programming, and debugging are essential. Second, AI programming is probabilistic or stochastic, meaning it doesn't always behave the same way. You have to get used to working with controlled experiments, hypotheses, and testing to avoid fooling yourself."
+        },
+        {
+          "speaker": "Host",
+          "text": "I recommend starting with small projects, using APIs like GitHub models or OpenAI's API rather than running large language models locally, which is complex. Stay in Python to keep it simple. Practice is key, and talking to people helps."
+        },
+        {
+          "speaker": "Host",
+          "text": "Overall, focus on your CS fundamentals and get comfortable with probabilistic programming, which can be unintuitive even for experienced software engineers."
+        }
+      ]
+    },
+    {
+      "title": "Understanding ETL and Simplifying Complex Pipelines",
+      "chapter_type": "explanation",
+      "start_time": 603.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "ETL seems very complicated, especially function calling and how it's accommodated. Is there a simplest form of ETL?"
+        },
+        {
+          "speaker": "Host",
+          "text": "ETL stands for Extract, Transform, Load. The acronym can be confusing because the words don't always match what we do. Extract usually means downloading data, transform means processing it, and load means saving it to a database or file."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even something simple like downloading data from an API, extracting certain fields, and saving it in a format counts as ETL. Complexity arises in enterprise workloads where tools like Airflow, Snowflake, or Databricks manage multiple steps, dependencies, and parallel processing."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, you might download daily COVID stats and McDonald's stats separately, then analyze correlations. Complex ETL pipelines coordinate these steps, ensuring some run in parallel and others wait for dependencies."
+        },
+        {
+          "speaker": "Host",
+          "text": "Transform usually involves writing your own code to process data, like extracting specific fields from a large XML file and saving as JSON. Some platforms like Snowflake provide built-in extract and transform for popular APIs, but you still customize processing."
+        },
+        {
+          "speaker": "Host",
+          "text": "ETL as a concept is simple: download data, transform it, and load it somewhere. The complexity comes from tools managing large, interdependent workflows."
+        }
+      ]
+    },
+    {
+      "title": "Formal Training and Learning Paths for AI and Generative AI",
+      "chapter_type": "qa",
+      "start_time": 898.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Would formal training in AI, deep learning, machine learning, or generative AI be useful for a career pivot into software with AI elements?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Generative AI is probably the most useful starting point. Courses in machine learning or deep learning help you understand how AI works under the hood, but you don't necessarily need that depth to use large language models or generative AI applications."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's like driving a car—you don't need to know every part of the engine to drive. Generative AI courses are more general purpose and applicable to many tasks, while traditional machine learning courses focus on specialized models, data sets, and controlled experiments."
+        },
+        {
+          "speaker": "Host",
+          "text": "Specialized models are important for latency-sensitive applications, cost reduction, offline use, or regulated environments requiring auditing. But for most starting out, generative AI is the best entry point."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're curious about how it works, I recommend Andrej Karpathy's four-hour GPT-2 from scratch video. Don't try to watch it all at once; use it as a reference once you start building and want to understand details."
+        },
+        {
+          "speaker": "Host",
+          "text": "I don't have a specific applied AI course to recommend, but following tutorials and experimenting is a good approach. Concepts from machine learning transfer to generative AI, though generative AI has more randomness and requires different evaluation methods."
+        }
+      ]
+    },
+    {
+      "title": "Open Q&A and Discussion on AI Development and Prompting",
+      "chapter_type": "discussion",
+      "start_time": 1284.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Feel free to ask follow-up questions or bring up other topics. This is an open Q&A session."
+        },
+        {
+          "speaker": "Student",
+          "text": "Can I ask about ETL? It's complicated and difficult to comprehend, especially function calling and accommodation. Is there a simpler form?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I gave some basic examples earlier. ETL can be as simple as downloading data from an API, extracting fields, and saving it. Complexity arises with tools managing dependencies and parallelism."
+        },
+        {
+          "speaker": "Student",
+          "text": "What about the transform step?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Transform is usually code you write yourself to process data. For example, extracting a few fields from a large XML file and saving as JSON."
+        },
+        {
+          "speaker": "Student",
+          "text": "I had problems with AI changing code unexpectedly. How do you direct AI to the correct path?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Good prompting is important. You have to be specific about what you want and where to look. AI can't remember previous changes, so you have to guide it carefully. It's good to do your own coding too."
+        },
+        {
+          "speaker": "Host",
+          "text": "Getting good at prompting is a skill. I put a lot of work into upfront instructions to get better results and reduce frustration."
+        }
+      ]
+    },
+    {
+      "title": "Live Coding: ETL Project for Seattle Volunteering Events",
+      "chapter_type": "live_coding",
+      "start_time": 1668.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'll share my desktop to show a side project I made for aggregating Seattle volunteering events from multiple websites. I don't want to check five websites daily, so this app pulls data from various sources and displays it in one place."
+        },
+        {
+          "speaker": "Host",
+          "text": "At the bottom, you can see the data sources. They ran this morning at midnight, though some failed. For example, Green Seattle Partnership events link to their site where you can register."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some events have exact locations, others don't extract well. There's a link to add events to your calendar and a view of source data with fields like start and end date, title, ID, address, and URL."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some tags come from neighborhood data. I tried to tag events with icons, like a tree icon for parks activities, but some are mistagged or missing tags."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, blackberry management at Discovery Park is a volunteer event removing invasive plants but wasn't tagged correctly. Some events are duplicates with different titles but same time and place."
+        },
+        {
+          "speaker": "Host",
+          "text": "Other events like bike tours are social, not volunteering, so they need different tags. Tagging is inconsistent and missing in places."
+        },
+        {
+          "speaker": "Host",
+          "text": "I wrote code to extract data from these sources. For Green Seattle, I use a calendar extractor that builds a URL, fetches HTML, and uses Beautiful Soup to parse and structure events."
+        },
+        {
+          "speaker": "Host",
+          "text": "In ETL terms, fetch is extract, extract is transform, and then load saves data to the database. The database is a small SQL file stored in the git repo since the data is small."
+        },
+        {
+          "speaker": "Host",
+          "text": "I use UV to manage my Python environment. It handles dependencies, versions, and reproducibility. It locks package versions to prevent supply chain attacks and ensures consistent environments."
+        },
+        {
+          "speaker": "Host",
+          "text": "UV also manages Python version requirements and helps run daily jobs on GitHub Actions to ingest new data automatically."
+        }
+      ]
+    },
+    {
+      "title": "Implementing AI-Powered Event Categorization",
+      "chapter_type": "live_coding",
+      "start_time": 2748.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'd like to improve event tagging using a large language model to categorize source events before merging. We'll combine source events with computed AI categorizations and merge tags for front-end display."
+        },
+        {
+          "speaker": "Host",
+          "text": "The categorization will run as a CLI command that populates a new table linked to source events. This way, we only run the AI on new events and can limit the number processed daily."
+        },
+        {
+          "speaker": "Host",
+          "text": "We'll add a CLI command that takes a source name and ID, logs it, sends it through categorization, and writes output to the command line."
+        },
+        {
+          "speaker": "Host",
+          "text": "Categories include parks, volunteer/litter, social events, concerts, and others. Categories should be mutually exclusive. We'll add an 'other' category and not include confidence scores initially."
+        },
+        {
+          "speaker": "Host",
+          "text": "For error handling, if the AI fails or gives malformed output, we might retry or mark as failed. We'll start by testing quality before deciding on retries or database schema."
+        },
+        {
+          "speaker": "Host",
+          "text": "Prompt engineering will include examples of each category to improve reliability. We'll implement a dev CLI version that doesn't modify the database initially."
+        },
+        {
+          "speaker": "Host",
+          "text": "The AI input will include title and description fields, with optional venue and URL. We'll build the prompt context from these fields."
+        },
+        {
+          "speaker": "Host",
+          "text": "After implementing, we'll test the categorization on sample events. The AI did well categorizing volunteer and litter patrol events, social events, and concerts."
+        },
+        {
+          "speaker": "Host",
+          "text": "We noticed some improvements needed in output formatting and response constraints. Using Pydantic models helps constrain AI output to expected JSON formats, reducing errors."
+        },
+        {
+          "speaker": "Host",
+          "text": "Overall, the AI categorization works well on the first try, though some code style improvements are possible, like moving database lookups to the database layer."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Reflections on AI Coding and Prompting",
+      "chapter_type": "discussion",
+      "start_time": 3965.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I spend more time thinking about system design, edge cases, and why we're building features than writing code directly when using AI for coding."
+        },
+        {
+          "speaker": "Host",
+          "text": "Prompting well is important. If you don't specify what you want, AI might produce unexpected results. You have to be in the driver's seat making product decisions."
+        },
+        {
+          "speaker": "Student",
+          "text": "I had problems with AI changing code in unexpected ways. I need to specify exactly where to look in the code base to avoid bad changes. Sometimes I get fed up and code myself."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's understandable. AI can't remember previous changes, so you have to guide it carefully. Good prompting is a skill that improves results and reduces frustration."
+        },
+        {
+          "speaker": "Host",
+          "text": "I shared my prompting instructions in the chat. Putting effort into upfront instructions helps get better AI results and makes development more relaxing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks everyone for joining. I hope this session was helpful and inspires you to try AI-assisted coding with good prompting."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and false starts for clarity.",
+    "Corrected technical terminology and clarified references.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Transformed speech into clear, coherent prose with complete sentences.",
+    "Preserved all substantive content and chronological order."
+  ]
+}

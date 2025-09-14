@@ -1,0 +1,431 @@
+{
+  "title": "2024-12-13T01:00:00Z - Data Science / Open Q & A w/Coach Keith",
+  "date": "2024-12-13",
+  "total_duration_seconds": 3014.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Screen Sharing Setup",
+      "chapter_type": "admin",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's get started. One quick note about recording: make sure you don't flash API keys on the screen because they will be in the recording."
+        },
+        {
+          "speaker": "Other",
+          "text": "I thought you were going to say watch your language."
+        },
+        {
+          "speaker": "Host",
+          "text": "No, no, don't worry about that. Can you see my screen now?"
+        },
+        {
+          "speaker": "Other",
+          "text": "No, you can't."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hold on, I need to hit share again. There you go. This is what my front end looks like."
+        }
+      ]
+    },
+    {
+      "title": "Demonstration of Front End Filters and Date Range Issues",
+      "chapter_type": "live_coding",
+      "start_time": 42.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We have all these questions, and when you click on one, it goes to the retrieval augmented generation record. Mine looks a little different now, but it's tighter. I couldn't make it much smaller because I wanted the bar graph big enough, so I made them the same shape but closer together."
+        },
+        {
+          "speaker": "Student",
+          "text": "I wanted to apologize for missing the beginning of the meeting. I was waiting for the link to show up."
+        },
+        {
+          "speaker": "Host",
+          "text": "No worries. I was just showing that my filters work except if I put in '8', everything we have is from '87 to '88 on the screen. When I put in '8788', I don't get anything, but if I put in '8789', all the records come up. There's something to fix there."
+        },
+        {
+          "speaker": "Student",
+          "text": "On my screen, when I change the date from '87 to '88', it updates and pulls in the data fine."
+        },
+        {
+          "speaker": "Host",
+          "text": "On my current date range '87 to '88', everything disappears. I'll keep working on it."
+        }
+      ]
+    },
+    {
+      "title": "Front End Design and Responsiveness Improvements",
+      "chapter_type": "live_coding",
+      "start_time": 288.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I played with the colors and tried to fit the dashboard neatly on a laptop screen in landscape mode. I made it responsive and scrollable so you can scroll through different documents. I set a specific size so it doesn't stretch too long on different screens."
+        },
+        {
+          "speaker": "Host",
+          "text": "I arranged cards in a row, and on smaller screens, they become vertical and cram together. I made the back button more iconic, part of the header but separate, so it's clear it's a back button."
+        },
+        {
+          "speaker": "Student",
+          "text": "I like that. On smaller screens, how do you handle the layout?"
+        },
+        {
+          "speaker": "Host",
+          "text": "You can use breakpoints. Since we're using Tailwind CSS, it's easy to set different sizes for different screen widths. It took a bit to figure out, but it works well now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our next big step is to merge everything and get it all working together smoothly."
+        }
+      ]
+    },
+    {
+      "title": "Project Status Updates and Meeting Scheduling",
+      "chapter_type": "discussion",
+      "start_time": 450.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "So that's what we've accomplished so far. Cas, I was hoping for this meeting to show where we're at and discuss how to improve the user experience."
+        },
+        {
+          "speaker": "Host",
+          "text": "I've been mostly on pause lately but promised to deploy my side by the end of the year. Right now, we're dealing with test data, not real student data. The next step is to have a database with real user info."
+        },
+        {
+          "speaker": "Other",
+          "text": "You froze. We didn't hear you."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sorry, can you hear me now? We're scheduled to meet Monday evening at 7 PM Eastern, which is 4 PM your time. Does that work for everyone?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, Monday works for me."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great. I'll post the schedule in the code tutor channel and adjust if needed."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on Next Steps and Branch Merging Strategy",
+      "chapter_type": "qa",
+      "start_time": 600.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "If you can give input on what you saw from David and Glenn, that would be helpful. What would be most useful to discuss? User perspective, screen review, or something else?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I'd like to focus on next steps and then get their feedback."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good. I want to fix my filter and ensure the front end looks good on small screens."
+        },
+        {
+          "speaker": "Student",
+          "text": "We're on two different branches. If Dave merges first, then I pull from main and merge into my branch, will that cause conflicts?"
+        },
+        {
+          "speaker": "Host",
+          "text": "If you didn't modify the same files, you can open a pull request and it might auto-merge. If there are conflicts, you'll have to resolve them locally."
+        },
+        {
+          "speaker": "Student",
+          "text": "I worked on the prompt details and idx folder mostly. I also added some components."
+        },
+        {
+          "speaker": "Host",
+          "text": "I worked on the page tfx and some API routes. We mostly worked on separate parts, so conflicts should be minimal."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'll open a pull request and leave my branch alone until you're ready to merge."
+        },
+        {
+          "speaker": "Host",
+          "text": "Perfect. We can work through any issues in the next meeting."
+        }
+      ]
+    },
+    {
+      "title": "Scheduling and Wrap-up of Current Meeting",
+      "chapter_type": "admin",
+      "start_time": 900.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "So we're meeting Monday at 7 PM. Is everyone still here?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I'm here."
+        },
+        {
+          "speaker": "Host",
+          "text": "Dr. Hill said Monday works. I'll post the meeting time in the channel. She plans to watch the meeting since she couldn't make it tonight."
+        },
+        {
+          "speaker": "Student",
+          "text": "Monday night at 7 works for me."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great. There's enough work to do in the short term. Dave, I'll put in my pull request soon and leave my branch alone."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'll play with it on Saturday."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks, everyone. If there are no other questions, I'll wrap up."
+        }
+      ]
+    },
+    {
+      "title": "Overview of the Project and Technical Explanation",
+      "chapter_type": "explanation",
+      "start_time": 960.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "This project is a feedback system dashboard to analyze how well the other part of the project is working. It tracks user activity, accuracy, and areas for improvement."
+        },
+        {
+          "speaker": "Host",
+          "text": "The code tutor bot is programmed in Python. When a student has a question, they hit the help button. Typically, there's a 24 to 48 hour wait for a human response, but we want an automated response sooner."
+        },
+        {
+          "speaker": "Host",
+          "text": "We take all Discord messages and store them in a database. When a question is asked, the system searches for similar posts using retrieval augmented generation."
+        },
+        {
+          "speaker": "Host",
+          "text": "It sends the question and the top 10 relevant posts to a large language model, which generates a response based only on those documents."
+        },
+        {
+          "speaker": "Host",
+          "text": "The question, the documents sent, and the response are all stored in the database. What David and Glenn are showing is that database of asked questions and generated responses."
+        }
+      ]
+    },
+    {
+      "title": "User Interface Feedback and Markdown Formatting Discussion",
+      "chapter_type": "discussion",
+      "start_time": 2280.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "It would be useful to run through scenarios and ask what feels slow or fast from a user perspective."
+        },
+        {
+          "speaker": "Host",
+          "text": "A common scenario is when a machine learning system does something wrong and you need to figure out what happened. You can find bad cases easily in the dashboard."
+        },
+        {
+          "speaker": "Host",
+          "text": "Have someone unfamiliar with the project try it out to see what confuses them, especially regarding navigation and interactivity."
+        },
+        {
+          "speaker": "Student",
+          "text": "I was going to ask my wife to look at it since she's never seen it before."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's good. The big picture is easy to understand, but the details page is for someone familiar with the project."
+        },
+        {
+          "speaker": "Host",
+          "text": "One thing to watch out for is having a scroll inside a scroll, which can confuse users because scrollbars might be hidden."
+        },
+        {
+          "speaker": "Host",
+          "text": "Regarding message formatting, are the messages in markdown format from Discord?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, but right now they look crowded. It would be nice to have numbered lists and links rendered properly."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can convert markdown to HTML using libraries. If the library doesn't auto-link URLs, you can add that with pattern matching."
+        },
+        {
+          "speaker": "Student",
+          "text": "That gives me a direction to improve the formatting to make it more reader-friendly."
+        }
+      ]
+    },
+    {
+      "title": "Technical Debugging: Inspecting Backend Responses",
+      "chapter_type": "live_coding",
+      "start_time": 2520.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's look at the developer tools to see the actual response from the backend. Reload the page and check the network tab."
+        },
+        {
+          "speaker": "Host",
+          "text": "Find the rag records request and look at the response. This shows the raw response from the server, which appears to be in markdown format."
+        },
+        {
+          "speaker": "Host",
+          "text": "The formatting is lost when rendered as HTML because whitespace is treated equivalently. We should convert markdown to HTML properly."
+        },
+        {
+          "speaker": "Host",
+          "text": "If the response from the language model has links, converting to HTML will allow clickable links."
+        },
+        {
+          "speaker": "Host",
+          "text": "If the markdown library doesn't auto-link, we can use regex to linkify URLs."
+        }
+      ]
+    },
+    {
+      "title": "Project Summary and Final Q&A",
+      "chapter_type": "discussion",
+      "start_time": 2700.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "This is my first time looking at these things. It looks intuitive and useful, especially filtering through large amounts of Discord messages."
+        },
+        {
+          "speaker": "Student",
+          "text": "What language are you coding in?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We're using JavaScript with React for the front end, and Python for the backend code tutor bot."
+        },
+        {
+          "speaker": "Student",
+          "text": "I like the return documents feature because it shows the conversation history that led to the response."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, it helps understand why the system responded a certain way."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you know if there are any React libraries for converting Discord text to HTML?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm not sure. Is the data scraped from Discord?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, the messages are stored in a database from Discord posts."
+        },
+        {
+          "speaker": "Host",
+          "text": "The analysis portion shows how well the system is working, tracking user activity and accuracy."
+        },
+        {
+          "speaker": "Host",
+          "text": "The goal is to provide automated help responses faster than human response times."
+        }
+      ]
+    },
+    {
+      "title": "Data Science Career Advice and Concepts Overview",
+      "chapter_type": "explanation",
+      "start_time": 2460.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "If you're on the data science track, you need core programming skills, statistics, and the ability to present information effectively."
+        },
+        {
+          "speaker": "Host",
+          "text": "Data science involves telling a story with graphs and numbers, which isn't always covered in statistics programs."
+        },
+        {
+          "speaker": "Host",
+          "text": "Machine learning and AI require more math and understanding of common successful patterns."
+        },
+        {
+          "speaker": "Host",
+          "text": "Joy of Coding aspires to offer courses covering all these areas, but this project was a step into that."
+        },
+        {
+          "speaker": "Student",
+          "text": "Someone mentioned data modeling. What is that?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Data modeling usually means database design—how to represent concepts in tables, rows, and columns."
+        },
+        {
+          "speaker": "Host",
+          "text": "It can also refer to designing classes in code to represent objects."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're familiar with database design, you're probably good with data modeling."
+        },
+        {
+          "speaker": "Student",
+          "text": "I bought a book on statistics for data scientists to refresh my knowledge."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's good. Statistics knowledge helps, but you also need to communicate results clearly to different audiences."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sometimes complex analysis is correct but hard to convince others. You need to balance accuracy and understandability."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, in medical randomized control trials, heavy statistics are used, but the results must be communicated simply to the public."
+        },
+        {
+          "speaker": "Host",
+          "text": "A common practice is to create a simple one-sentence summary of findings for easy sharing."
+        }
+      ]
+    },
+    {
+      "title": "Session Closing and Farewell",
+      "chapter_type": "admin",
+      "start_time": 2990.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Thanks for joining. It's been fun. I appreciate Keith showing up every week and helping us progress."
+        },
+        {
+          "speaker": "Host",
+          "text": "See you all on Monday. Have a great rest of your evening and week."
+        },
+        {
+          "speaker": "Other",
+          "text": "Thank you. Bye everyone."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and false starts for clarity.",
+    "Corrected technical terms and clarified references.",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Classified chapters by type: admin, live_coding, qa, explanation, discussion.",
+    "Maintained chronological order and preserved speaker intent and tone."
+  ]
+}

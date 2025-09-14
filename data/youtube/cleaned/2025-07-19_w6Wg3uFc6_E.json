@@ -1,0 +1,484 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-07-19",
+  "total_duration_seconds": 4110.0,
+  "chapters": [
+    {
+      "title": "Discussion on YouTube Video Content and Shorts",
+      "chapter_type": "discussion",
+      "start_time": 4.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "On the topic of YouTube videos, there are a couple of interesting things going on. One is that the content people tend to watch is influenced by video length. YouTube auto-optimizes recommendations based on that."
+        },
+        {
+          "speaker": "Host",
+          "text": "Content creators have mentioned that YouTube is really pushing for shorter videos, giving them a boost. These include Shorts, which are similar to TikTok and Instagram short clips."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I've seen those Shorts. They seem to be promoted heavily."
+        },
+        {
+          "speaker": "Host",
+          "text": "Shorts are a good way to get a little clip out. I was thinking, wouldn't it be cool if there was something that automatically clips those from longer videos?"
+        },
+        {
+          "speaker": "Student",
+          "text": "That would be amazing. You could do an hour-long Q&A and autogenerate Shorts as highlights."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly, it could be a gateway for viewers to watch the full content if they find the clips interesting."
+        },
+        {
+          "speaker": "Student",
+          "text": "Are you talking about an AI that examines a video and extracts relevant portions automatically?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, that would be beautiful, especially for creators who don't have time to edit everything manually."
+        },
+        {
+          "speaker": "Student",
+          "text": "There would definitely be a market for that."
+        },
+        {
+          "speaker": "Host",
+          "text": "I think there are AI tools out there that do this, but I haven't done a deep dive yet."
+        },
+        {
+          "speaker": "Student",
+          "text": "I can't remember the term, but you can formulate prompts to develop an AI persona, which might help with this."
+        },
+        {
+          "speaker": "Host",
+          "text": "On the persona side, you don't necessarily need to create new videos but sample from the big content. The prompt might guide what topics are engaging for the audience."
+        },
+        {
+          "speaker": "Host",
+          "text": "An AI could suggest a few Shorts from a full video, and the creator could pick which ones to use."
+        },
+        {
+          "speaker": "Student",
+          "text": "That sounds like a great idea."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are some platforms that do this. I'll have to look into them."
+        },
+        {
+          "speaker": "Student",
+          "text": "Evaluating those platforms can be time-consuming market research."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, and many companies claim their tools are the best, so you have to cut through the hype."
+        },
+        {
+          "speaker": "Host",
+          "text": "Anyway, I might add this topic to my coding Q&A sessions."
+        }
+      ]
+    },
+    {
+      "title": "Session Introduction and Invitation for Questions",
+      "chapter_type": "admin",
+      "start_time": 2234.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We were just chatting, but are there any questions or topics people want to discuss?"
+        },
+        {
+          "speaker": "Host",
+          "text": "If not, no worries. I had meant to create a 'Getting Started with LLMs' repository. If there are no questions, maybe we can dive into that code along."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's a great idea. I thought Ahmad was going to ask a question but he stepped away."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll give people a couple of minutes in case something comes to mind."
+        }
+      ]
+    },
+    {
+      "title": "Current Projects Using AI and Machine Learning",
+      "chapter_type": "qa",
+      "start_time": 2145.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Keith, are there any projects you're currently involved in that utilize machine learning or AI?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The main project I can't talk about much because it's a pre-seed startup, but generally we're helping hiring managers find candidates for programming roles by analyzing GitHub contributions and blog posts."
+        },
+        {
+          "speaker": "Host",
+          "text": "We use a lot of large language models and other machine learning techniques in that project."
+        }
+      ]
+    },
+    {
+      "title": "AI in Microcontrollers and Hardware Acceleration",
+      "chapter_type": "qa",
+      "start_time": 2357.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "AI seems to be integrated into every microcontroller now. What exactly are they doing? Are these small neural networks on the chip or interfaces to bigger systems?"
+        },
+        {
+          "speaker": "Host",
+          "text": "You mentioned MCU meaning microprocessor unit, right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes."
+        },
+        {
+          "speaker": "Host",
+          "text": "Everything now has many cores and specialized hardware. Neural networks are a kind of specialized neural network. The term AI has become very generic."
+        },
+        {
+          "speaker": "Student",
+          "text": "What kinds of AI capabilities are available on phones now that weren't before? Is it just faster processing or new features?"
+        },
+        {
+          "speaker": "Host",
+          "text": "What's changing isn't what's possible, but the speed and power efficiency. Previously, running AI on phones was slow and drained battery quickly."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hardware changes focus on speeding up matrix multiplication and arithmetic, which are core to neural networks."
+        },
+        {
+          "speaker": "Host",
+          "text": "GPUs and neural chips are specialized for this and more power efficient than CPUs, though CPUs can still do it slower."
+        },
+        {
+          "speaker": "Student",
+          "text": "So facial recognition and UI improvements are easier because of these associations rather than fixed rules?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, machine learning uses examples to learn associations instead of hard-coded rules. The challenge is translating high-level tasks into matrix math problems."
+        },
+        {
+          "speaker": "Student",
+          "text": "Does AI need to load many images into memory for comparisons, or does it learn rules that adapt dynamically?"
+        },
+        {
+          "speaker": "Host",
+          "text": "For facial recognition on phones, you can't load the whole database, so you use different approaches like comparing two images to see if they match rather than classifying among millions."
+        },
+        {
+          "speaker": "Student",
+          "text": "Could AI like ChatGPT help determine intent or context for these comparisons?"
+        },
+        {
+          "speaker": "Host",
+          "text": "In the future, AI might quickly understand intent and adjust thresholds depending on use cases like banking or gaming."
+        }
+      ]
+    },
+    {
+      "title": "Image Recognition and Data Sources",
+      "chapter_type": "discussion",
+      "start_time": 1070.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I was amazed by Google's object recognition, like searching for castles and getting images of sandcastles."
+        },
+        {
+          "speaker": "Host",
+          "text": "Google likely uses models trained on billions of images with captions. One model generates captions from images, which can then be searched as text."
+        },
+        {
+          "speaker": "Host",
+          "text": "This generic approach avoids programming specific object detectors for every image type."
+        },
+        {
+          "speaker": "Student",
+          "text": "It's surprising they haven't monetized photo storage more given the vast amount of data."
+        },
+        {
+          "speaker": "Host",
+          "text": "Photo storage is expensive and hard to monetize. Early attempts in the 90s failed because few people had computers or color displays."
+        },
+        {
+          "speaker": "Host",
+          "text": "Now with so much content on phones, categorizing photos is a challenge. AI might help with organizing and scanning old photos."
+        }
+      ]
+    },
+    {
+      "title": "Exploring AI Tools and Frameworks for Mobile Devices",
+      "chapter_type": "explanation",
+      "start_time": 1440.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's explore how machine learning models are deployed across devices. For example, iNaturalist uses image classification to identify plant species."
+        },
+        {
+          "speaker": "Host",
+          "text": "Suppose we have a fine-tuned ImageNet model in PyTorch. How do we export it for iPhone and Android to take advantage of hardware acceleration?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Perplexity, an AI tool, provides guidance on converting PyTorch models to mobile formats. For iOS, you convert to TorchScript, quantize the model to reduce size, and use Apple's CoreML for hardware acceleration."
+        },
+        {
+          "speaker": "Host",
+          "text": "CoreML decides whether to use the neural engine, GPU, or CPU automatically."
+        },
+        {
+          "speaker": "Host",
+          "text": "For Android, you include PyTorch Android libraries and can optimize for GPU, DSP, and NPU acceleration. However, PyTorch is from Facebook and may not integrate fully with Google's TensorFlow Lite, which is optimized for Android hardware acceleration."
+        },
+        {
+          "speaker": "Host",
+          "text": "Converting PyTorch models to TensorFlow Lite can help utilize Google's hardware optimizations."
+        },
+        {
+          "speaker": "Host",
+          "text": "There's also ONNX, a standardized format that allows exporting a single model for use across platforms with hardware acceleration support."
+        }
+      ]
+    },
+    {
+      "title": "PyTorch Neural Network Example and Hardware Acceleration",
+      "chapter_type": "live_coding",
+      "start_time": 2100.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Here's an example of a basic PyTorch neural network with 100 floating point inputs, two hidden layers of 75 units each, and a softmax classification layer for 10 categories."
+        },
+        {
+          "speaker": "Host",
+          "text": "The network uses linear layers representing matrix multiplications: 100x75, then 75x75, then 75x10."
+        },
+        {
+          "speaker": "Host",
+          "text": "The forward method runs input data through these layers with activation functions, ending with softmax to produce a probability distribution."
+        },
+        {
+          "speaker": "Host",
+          "text": "When running this code, PyTorch detects if a GPU is available and runs on it automatically, though sometimes you need to specify the device."
+        },
+        {
+          "speaker": "Student",
+          "text": "CUDA is for Nvidia GPUs, right? What about AMD?"
+        },
+        {
+          "speaker": "Host",
+          "text": "AMD came late to the game and uses ROCm, which is less mature. You can get a PyTorch version implemented with ROCm, but you can't use Nvidia and AMD versions simultaneously."
+        },
+        {
+          "speaker": "Host",
+          "text": "AMD GPUs often have more memory, which is critical for some workloads."
+        },
+        {
+          "speaker": "Host",
+          "text": "Early adoption can lock you into certain hardware and software paradigms, which can be limiting as technology evolves."
+        }
+      ]
+    },
+    {
+      "title": "History and Evolution of GPUs in Machine Learning",
+      "chapter_type": "explanation",
+      "start_time": 2800.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The original Torch framework dates back to 2002, before GPUs were widely used for machine learning."
+        },
+        {
+          "speaker": "Host",
+          "text": "GPUs were initially designed for gaming, handling many parallel drawing operations efficiently."
+        },
+        {
+          "speaker": "Host",
+          "text": "Machine learning adopted GPUs because they excel at fast linear algebra, which is core to neural networks."
+        },
+        {
+          "speaker": "Host",
+          "text": "AlexNet was a breakthrough in 2012, using CUDA programming to leverage GPUs for deep learning, beating competitors by a wide margin."
+        },
+        {
+          "speaker": "Host",
+          "text": "Since then, frameworks like PyTorch and TensorFlow have evolved with support from major companies like Facebook, Google, and Apple."
+        }
+      ]
+    },
+    {
+      "title": "Cloud GPU Farms and Cost Considerations",
+      "chapter_type": "discussion",
+      "start_time": 3150.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Nowadays, most companies use cloud GPU services like AWS, Google Cloud, or Azure instead of managing their own hardware."
+        },
+        {
+          "speaker": "Student",
+          "text": "Using services like ChatGPT involves costs paid by someone, so nothing is truly free."
+        },
+        {
+          "speaker": "Host",
+          "text": "Many people get free access initially as a marketing strategy, but over time companies charge more and limit free usage."
+        },
+        {
+          "speaker": "Host",
+          "text": "Free tiers usually offer access to smaller, less compute-intensive models, while more powerful models require payment."
+        }
+      ]
+    },
+    {
+      "title": "Cost Models for AI Applications and On-Device Processing",
+      "chapter_type": "qa",
+      "start_time": 3400.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "If I wanted to build a plant identification app, how would costs work? Is it a few cents per query?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It depends on scale. For small scale, developer time dominates costs. Typically, you'd use a smaller specialized model costing fractions of a cent per call, resulting in a few dollars per month server cost."
+        },
+        {
+          "speaker": "Host",
+          "text": "Alternatively, you can run the model on the phone itself, paying bandwidth costs to deliver the model, but no server usage fees. The user pays with battery life."
+        },
+        {
+          "speaker": "Student",
+          "text": "Are many models small enough to run on-device?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, many models for tasks like plant classification are small enough to run on-device. Larger models like those generating summaries are getting smaller but still too large for practical on-device use."
+        }
+      ]
+    },
+    {
+      "title": "Retrieval-Augmented Generation and Data Trustworthiness",
+      "chapter_type": "explanation",
+      "start_time": 3450.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Models don't store all data internally. Retrieval-Augmented Generation (RAG) combines model knowledge with external web search results to answer questions about recent or obscure topics."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, when asked about AlexNet, the system searches web pages with transcripts and content, combining that with the model's internal knowledge to generate answers."
+        },
+        {
+          "speaker": "Host",
+          "text": "The challenge is trusting sources. Some websites may have inaccurate information, so ranking sources by truthfulness is an ongoing research area."
+        },
+        {
+          "speaker": "Host",
+          "text": "Currently, systems rank sources by relevance but not reliably by accuracy, which is a societal challenge."
+        }
+      ]
+    },
+    {
+      "title": "Effective Prompting and AI Communication",
+      "chapter_type": "explanation",
+      "start_time": 3700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Providing more context and being specific about goals leads to better AI answers."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's like managing people: you give clear goals but allow flexibility in how to achieve them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Avoid leading the AI too much with your opinions if you want unbiased views, as it tends to echo back what you suggest."
+        },
+        {
+          "speaker": "Host",
+          "text": "The core technology is a completion engine that generates consistent responses based on prior input."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on AI Safety and Jailbreaking",
+      "chapter_type": "discussion",
+      "start_time": 3820.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "There have been recent issues with AI models like Grok behaving inappropriately after being 'jailbroken'—manipulated to ignore safety instructions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Jailbreaking is the process of bypassing the AI's built-in behavioral constraints."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some organizations invest heavily in safety to prevent such issues, especially for business applications."
+        },
+        {
+          "speaker": "Host",
+          "text": "Others take a 'build it, break it, fix it later' approach, which can lead to problematic outputs."
+        },
+        {
+          "speaker": "Host",
+          "text": "Grok landed a $200 million Pentagon deal, which is interesting given its safety challenges."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Future Plans",
+      "chapter_type": "admin",
+      "start_time": 4010.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'm a bit over time but need to run. Thanks for the great discussion."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks, Keith. This was very interesting."
+        },
+        {
+          "speaker": "Host",
+          "text": "Next time I'll try to do some coding. Hopefully, I can prepare better."
+        },
+        {
+          "speaker": "Student",
+          "text": "I enjoyed the recent AI machine learning class by the instructor from Puerto Rico. He showed how to estimate clothing sizes from pictures using AI."
+        },
+        {
+          "speaker": "Student",
+          "text": "He also discussed cost issues and subscription models for AI services."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks, everyone. Have a good weekend."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terms and clarified ambiguous references.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Maintained chronological order and preserved speaker intent and tone."
+  ]
+}

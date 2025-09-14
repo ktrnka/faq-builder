@@ -1,0 +1,288 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-08-30",
+  "total_duration_seconds": 4200.0,
+  "chapters": [
+    {
+      "title": "Introduction and Clarifying AI Terminology",
+      "chapter_type": "qa",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I think some of you are going through a lot of AI topics and there's a lot of terminology. Are there certain terms you need clarification on?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Maybe, but now that you ask, I don't have any particular ones off the top of my head."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's fine. If anything comes up as we go through topics, feel free to jump in and ask."
+        }
+      ]
+    },
+    {
+      "title": "Understanding Language Models, Neural Networks, and Deep Learning",
+      "chapter_type": "explanation",
+      "start_time": 40.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I watched some videos from Databricks that segmented AI into deep learning and agentic AI. I understand LLMs as collections of data broken into tokens for processing. Machine learning and neural networks are involved, but I'm not sure how deep learning and agentic AI fit in."
+        },
+        {
+          "speaker": "Host",
+          "text": "Language modeling is a special type of machine learning focused on predicting the next token or word given previous context, like autocomplete. While some criticize large language models as just autocomplete, they can complete whole paragraphs accurately, which is quite useful. Most language modeling uses neural networks, which are a popular type of machine learning."
+        },
+        {
+          "speaker": "Host",
+          "text": "Deep learning refers to neural networks with many layers, a term that emerged around 2010 when such networks started having real success. It doesn't change the mechanics but requires thinking about the model differently due to its complexity. The term deep learning has become somewhat marketing speak, so don't worry too much about it."
+        }
+      ]
+    },
+    {
+      "title": "Explaining Agentic AI and Multi-step Processes",
+      "chapter_type": "explanation",
+      "start_time": 300.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Agentic AI typically involves using a large language model to perform multi-step processes where the model chooses its own path rather than following a strict flowchart. Sometimes, complex problems are broken into steps, and the model solves each step, deciding which step to take next based on output. Whether this counts as agentic depends on if the model or the programmer decides the next step."
+        }
+      ]
+    },
+    {
+      "title": "Role-playing and Prompt Engineering with AI",
+      "chapter_type": "qa",
+      "start_time": 360.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I've heard you can tell AI to respond as if it were a specific expert, like a PhD-level instructor in quality management, or even combine multiple experts to propose solutions. Is that correct?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, that's a useful technique. It tweaks the prompt to guide the AI's responses but doesn't change the fundamentals. However, it doesn't always work well, especially if the AI hasn't seen much about the person or if the name is ambiguous. It's better to describe the role and how the person thinks rather than just naming them."
+        },
+        {
+          "speaker": "Host",
+          "text": "In prompt engineering, providing context about goals, philosophy, and processes helps the AI produce better results. For example, explaining how you want the AI to break down tasks into steps can improve output quality."
+        }
+      ]
+    },
+    {
+      "title": "Practical Example of Prompt Engineering in Categorization",
+      "chapter_type": "explanation",
+      "start_time": 660.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I recently worked on a project where I wanted the AI to categorize volunteer events, like landscaping or social events. Providing the 'why' behind the categorization helps the AI handle ambiguous cases better. For instance, some volunteers might have physical limitations, so filtering events accordingly is important. Giving this extra context improves the AI's decisions."
+        }
+      ]
+    },
+    {
+      "title": "Importance of Prompt Engineering Skills",
+      "chapter_type": "discussion",
+      "start_time": 780.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Prompt engineering is a crucial skill because AI is not only applied in software but also used to write software. Learning how to instruct AI effectively improves both the final product and the coding assistance during development, making the process more efficient and effective."
+        }
+      ]
+    },
+    {
+      "title": "Generating Self-Documenting Code and Unit Testing",
+      "chapter_type": "qa",
+      "start_time": 840.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Can AI generate self-documenting code with hooks into UML or produce clean code that results in immaculate documentation?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm still learning that. AI tends to write long functions with many comments rather than shorter, well-named functions. Providing persistent guidance like 'don't repeat yourself' helps. Focusing on unit testing is also effective because it forces the AI to separate business logic from database or network calls, making code more modular and testable."
+        },
+        {
+          "speaker": "Host",
+          "text": "Unit testing involves testing small functions in isolation without external dependencies, which runs quickly and locally. Writing code with unit testing in mind helps maintain quality and structure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Another approach is to start by explaining the feature's goals and criteria, implement it, and then have a cleanup phase to remove duplication and improve organization. This iterative process works well."
+        }
+      ]
+    },
+    {
+      "title": "Prompt Engineering Techniques and Resources",
+      "chapter_type": "explanation",
+      "start_time": 1080.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Prompt engineering is as significant as AI itself. Clear interaction and instructions are essential to get good results. There are many techniques like few-shot prompting, where you provide examples of desired input-output pairs to guide the AI."
+        },
+        {
+          "speaker": "Host",
+          "text": "For coding, prompts tend to be large, so techniques like role description and detailed instructions help more than few-shot prompting. Chain-of-thought prompting, where the AI shows its reasoning, and iterative reflection patterns also improve output quality."
+        },
+        {
+          "speaker": "Host",
+          "text": "I can share a website that breaks down these techniques and walk you through it if you like."
+        }
+      ]
+    },
+    {
+      "title": "Prefiltering and Cost Management in AI Applications",
+      "chapter_type": "qa",
+      "start_time": 1380.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Have you heard of prefiltering in AI to reduce costs and improve efficiency? It seems to involve the human side as well."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, prefiltering can mean filtering data before processing to reduce costs. For example, I filtered YouTube videos to only those with Keith in the title before processing transcripts. In web scraping, filtering out short pages that indicate failed downloads is another example."
+        },
+        {
+          "speaker": "Host",
+          "text": "Cost management with large language models is a hot area. Techniques include using cheaper, lower-quality models for some inputs and higher-quality models for others, routing requests accordingly. OpenAI's GPT-5 uses such approaches to decide which model to use based on input."
+        }
+      ]
+    },
+    {
+      "title": "Local vs Cloud Models and Specialized AI",
+      "chapter_type": "qa",
+      "start_time": 1620.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Is it feasible to run local LLMs or aggregate solution domain information locally to reduce costs?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Not really at the moment. Cloud models run on powerful GPUs with lots of memory and optimizations. Open-weight models that can run locally lag behind in quality and require significant resources, making them slow and power-hungry on typical machines."
+        },
+        {
+          "speaker": "Host",
+          "text": "In the future, this may become more viable, but currently, cloud models are the best option for most people. Specialized smaller models can run locally for niche tasks, like identifying buffer overflow vulnerabilities, but they don't replace general-purpose LLMs."
+        }
+      ]
+    },
+    {
+      "title": "Business Use of AI and KPI Analysis",
+      "chapter_type": "discussion",
+      "start_time": 1920.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "How is AI used in business, for example, checking KPIs and making recommendations?"
+        },
+        {
+          "speaker": "Host",
+          "text": "That's an example of agentic AI where the system analyzes some KPIs and decides which others to examine, making recommendations accordingly. While impressive demos exist, real-world usability can be tricky."
+        },
+        {
+          "speaker": "Host",
+          "text": "AI helps accelerate tasks like generating initial graphs or interactive KPI dashboards, which executives can use to drill down into data. However, companies often struggle to pick good KPIs, and over-optimizing for certain metrics can harm the business."
+        },
+        {
+          "speaker": "Host",
+          "text": "Context and domain knowledge are crucial for interpreting KPIs correctly. AI requires prompt engineering to understand when to dive deeper or spot errors to avoid overconfident or incorrect conclusions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Garbage in, garbage out applies strongly here. High-quality, reliable data is essential for AI to provide value, just as it has been in traditional machine learning."
+        }
+      ]
+    },
+    {
+      "title": "Prompt Engineering for Software Development",
+      "chapter_type": "discussion",
+      "start_time": 2280.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "When designing features, I start with a detailed description of goals and criteria. Context engineering is important, and some guides like PRP provide frameworks for building tests and documentation as you develop."
+        },
+        {
+          "speaker": "Host",
+          "text": "I often have the AI generate a design document for a feature, iterating on it before coding. This document is stored in the repository so the AI can reference it in future sessions, improving continuity."
+        },
+        {
+          "speaker": "Host",
+          "text": "Providing persistent instructions about the project, technologies used, and codebase structure helps the AI assist effectively during development."
+        }
+      ]
+    },
+    {
+      "title": "Development Workflow and Reflection",
+      "chapter_type": "live_coding",
+      "start_time": 2520.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "During development sessions, I periodically pause to reflect on progress, what went well, and what could be improved. For example, we might realize we implemented categorization without sufficient architecture planning and adjust accordingly."
+        },
+        {
+          "speaker": "Host",
+          "text": "I also ask the AI for suggestions on improving persistent instructions to enhance future development efficiency and effectiveness. This iterative refinement helps the AI better understand the workflow over time."
+        }
+      ]
+    },
+    {
+      "title": "Data Enrichment and Volunteer Event Categorization Project",
+      "chapter_type": "live_coding",
+      "start_time": 2700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In my volunteer event project, I use 'LM enrichment' to add information to basic data, like categorizing events or correcting small data errors. Traditional enrichment might involve scraping additional details from event websites."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, an event record might have a start and end date but lack venue address or contact info. Enrichment adds these details, improving data quality for downstream use."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-up and Closing Remarks",
+      "chapter_type": "admin",
+      "start_time": 4080.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We're a bit over time now. Any last questions before we wrap up?"
+        },
+        {
+          "speaker": "Student",
+          "text": "All good here. Thank you very much."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hope you all have a good long weekend. Get some rest and enjoy your time."
+        },
+        {
+          "speaker": "Student",
+          "text": "You too, sir. Thank you again."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good night."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terminology and clarified ambiguous references.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters based on topic shifts and question boundaries.",
+    "Classified chapters by type according to content and interaction style.",
+    "Maintained chronological order and preserved speaker intent and tone."
+  ]
+}

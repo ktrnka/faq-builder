@@ -1,0 +1,752 @@
+{
+  "title": "2025-07-11T00:01:35Z - AI / Open Q & A w/Coach Keith",
+  "date": "2025-07-11",
+  "total_duration_seconds": 4370.0,
+  "chapters": [
+    {
+      "title": "Casual Greetings and Spain Weather",
+      "chapter_type": "discussion",
+      "start_time": 79.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Hey Melissa."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hello."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hello."
+        },
+        {
+          "speaker": "Host",
+          "text": "How's Spain treating you?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Good, except that it's so hot."
+        },
+        {
+          "speaker": "Host",
+          "text": "The air conditioner is not working at my sister's right now. So, I'm sitting right next to a fan because it's like 100 degrees."
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh yeah, that's a lot. Is it humid, too?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes. I'm about three blocks from the Mediterranean."
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh, yeah."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm inland just enough that I don't get the nice salty air breeze."
+        },
+        {
+          "speaker": "Student",
+          "text": "All the thick air, none of the breeze."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, yeah. Fun stuff."
+        },
+        {
+          "speaker": "Student",
+          "text": "How is it when you're outside? Is it nice once you start walking toward the beach?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, towards the beach. I can't really complain. I've spent at least an hour every single day I've been here on the beach."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's nice. How far is the walk to the beach?"
+        },
+        {
+          "speaker": "Host",
+          "text": "About three blocks. It's all uphill on the way back, but it's only a few blocks. It's not that bad."
+        },
+        {
+          "speaker": "Student",
+          "text": "Nice. Just being able to go is nice."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yep. It's about a 10-minute walk."
+        }
+      ]
+    },
+    {
+      "title": "Project Pull Requests and Approvals",
+      "chapter_type": "qa",
+      "start_time": 192.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's see. It looks like a few of these PRs are still open. I was going to see if Chris was going to connect. I still see connecting to audio. The name looks familiar. I can't remember if Chris was involved with the last project. I guess we can get started though."
+        },
+        {
+          "speaker": "Host",
+          "text": "You're there just for another couple weeks. Do you get to do anything touristy or vacation-like or have you just been kind of living life over there?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Just kind of living life, but I've tried a lot of new foods and gone to several different restaurants."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's awesome. What's been your favorite thing so far?"
+        },
+        {
+          "speaker": "Student",
+          "text": "The seafood paella with squid ink."
+        },
+        {
+          "speaker": "Host",
+          "text": "Paella actually from Spain sounds delicious."
+        },
+        {
+          "speaker": "Host",
+          "text": "My brother-in-law is from Spain. He grew up in Alicante and gave me a recipe for paella several years ago. My daughter's Spanish teacher in high school was from Spain. Once a semester they were supposed to bring some kind of authentic dish to share with everybody. Her freshman year I sent paella that was my brother-in-law's recipe and after that he requested it every year."
+        },
+        {
+          "speaker": "Host",
+          "text": "So, I have enjoyed paella for a long time before I came to Spain, but getting to actually eat it here is completely different. It's so good."
+        },
+        {
+          "speaker": "Student",
+          "text": "Does it look all black with the squid ink or dark?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yep. It's impossible to eat without getting messy, but it's definitely worth it."
+        },
+        {
+          "speaker": "Student",
+          "text": "Worth the mess."
+        },
+        {
+          "speaker": "Host",
+          "text": "Cool. It doesn't look like he's connecting. Let's start off. I was just kind of looking at some of the PRs. It looks like they're still open. You had a few though. Did any of yours get approved?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I think. I don't remember if Adam looked at that one or not, but he did look at the setting up Pytest and approved it and had me merge it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, maybe we should just merge this one. Oh, it looks like it's just a change to the README."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, that's all it is."
+        },
+        {
+          "speaker": "Host",
+          "text": "Oh, yeah. We can kill those old docs. Those are really out of date."
+        },
+        {
+          "speaker": "Student",
+          "text": "You might just want to remove that link completely."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, but we can go ahead and just merge this. I think with the README, I'll just go in and label the old one as old. That way, if there is any information in it that we end up needing, we still have it but just create a new file that's a new README until we get everything."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, that's a good way to approach it because at this point I don't know enough about this project to go in and correct the existing README, but I could create a new one and just pull as we go and then add to the new one as we're doing things and fixing things."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, that sounds good. Wonder why this one hasn't conflicted. Yeah, no, that's a good way to approach it. I kind of refactor, just keep the old stuff and slowly move things over."
+        }
+      ]
+    },
+    {
+      "title": "Resolving Merge Conflicts and Poetry Lock Updates",
+      "chapter_type": "live_coding",
+      "start_time": 435.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's see what's up with this one. Graph CLI local files are adding the CLI. So let's accept the incoming change. Anything else here? Nope. As for some poetry lock main dev versus main, I think we only need a main group. Did we add the dev group? I can't remember."
+        },
+        {
+          "speaker": "Host",
+          "text": "There's 48 conflicts. I don't know if I want to go through 48 conflicts. I just need to regenerate the lock file. Let's see what's up."
+        },
+        {
+          "speaker": "Host",
+          "text": "Looks like it didn't commit my change. I guess I never clicked merge on top. Okay, so both of those are still there. So we can either merge main into our branch or see. It would lose a lot of history. Whatever. Yeah, there's the problem."
+        },
+        {
+          "speaker": "Host",
+          "text": "Line 30. There was a bug in this. This is why we need tests."
+        },
+        {
+          "speaker": "Student",
+          "text": "When I put in pytest, I was in those files. That could be where the conflict came from."
+        },
+        {
+          "speaker": "Host",
+          "text": "Line 30, dependencies in there twice. That could be it. There we go. I think I can just delete the lock file."
+        },
+        {
+          "speaker": "Host",
+          "text": "Chris ever make it on? Still connecting to audio, huh? Yeah, update or regenerate the lock file. That's great. But how do I actually do that?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm just going to do it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Winter is still yelling. What don't you like, Mr. Lunter? You would have some red somewhere. Maybe it's just still processing. Oh, maybe that's just because that's where the conflict is."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, so I'm just going to save this poetry lock over both because I think you just added pytest, right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay. I will nuke that. Then what is gitignore? Yeah, we can keep that. No way I couldn't merge that. Okay."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, so it's got some merge conflict, one word. Cool."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can just add it. You can just ask it for things. I guess it didn't respond."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's just saying that poetry is not doing package mode, right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yep."
+        },
+        {
+          "speaker": "Host",
+          "text": "Dependencies. Depression. Yeah, I should add stuff for that."
+        },
+        {
+          "speaker": "Host",
+          "text": "Cool. So most of our changes are up."
+        }
+      ]
+    },
+    {
+      "title": "Troubleshooting Bot and Database Connections",
+      "chapter_type": "live_coding",
+      "start_time": 1200.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's try to recreate this error that we're seeing locally. When I had it running locally, I was also pointing it at... Yeah, there are documents. Let me get my test server running again."
+        },
+        {
+          "speaker": "Host",
+          "text": "Maybe I can check what's running in KWS and compare those settings against my settings and use my settings to troubleshoot."
+        },
+        {
+          "speaker": "Student",
+          "text": "Are you screen sharing?"
+        },
+        {
+          "speaker": "Host",
+          "text": "No, I'm just picking that up again. I was logging into something, so I didn't want to leak more credentials than I already have."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's see. I think we deploy this to AC. Maybe I should just pause the recording. Never mind. It won't let me see what the cluster is. Let's see. Where did that code go? I think he's just hardcoded it in here though. Let's go take a look."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, it is using that embeddings model and this data set ID. Last time, we pointed it at... Let me pause this guy. I can resume the recording."
+        },
+        {
+          "speaker": "Host",
+          "text": "Bots online. Generation is not good. Okay, something might have actually just changed there."
+        },
+        {
+          "speaker": "Host",
+          "text": "We got a message. Oh, I don't have access. That's right. I need to get this figured out. He said I should have all the specified model IDs though. I believe this is still recording."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sorry, I had recording off because I was looking at some secrets. Basically, what we just did was we turned OpenAI back on. We noticed some of this was commented out and it was hardcoded in there referring to something that was no longer there. So, we had to read it in and uncomment that out in order to find what was in there."
+        },
+        {
+          "speaker": "Host",
+          "text": "We came over here to GitHub. I went through and found the file. From the file, I clicked on the history. From the history, I was able to see what was my last commit before Adam made his simplifying changes. Then went down to the file itself, clicked view file, and it allowed me to see the file at that state."
+        },
+        {
+          "speaker": "Host",
+          "text": "The nice thing about all the Git history is it all kind of stays in there. Now I know that I can give it this model name."
+        },
+        {
+          "speaker": "Host",
+          "text": "So I went back into my main file. I added this LM model ID to the environment. Now it should use that key."
+        },
+        {
+          "speaker": "Host",
+          "text": "Removed that debug. It's not doing anything. Why do I only have that one message in there before? We had channel pages and it gave nothing. So all messages isn't working. Let's see what other things we have in the test data."
+        },
+        {
+          "speaker": "Host",
+          "text": "It does seem like the problem is that we need to run more embeddings."
+        },
+        {
+          "speaker": "Host",
+          "text": "Where is that? It's over in the ETL package. The data set loader just loads a bunch of them. I think it's in my main. We have all messages, add help messages, respond to messages, channel chunks. I think channel chunks is the one that wasn't returning anything."
+        },
+        {
+          "speaker": "Host",
+          "text": "Is that what was in there before? Channel pages. That's why that doesn't even exist."
+        },
+        {
+          "speaker": "Host",
+          "text": "Still just the one message. That's really weird."
+        },
+        {
+          "speaker": "Host",
+          "text": "If it is Postgres, we should be able to just do a select all from. So why don't we give that a shot? I'm going to pause this again and restart the recording."
+        },
+        {
+          "speaker": "Host",
+          "text": "Select star from PJ collection. Awesome. So we have all messages and oh, channel pages isn't there, not channel chunks."
+        },
+        {
+          "speaker": "Host",
+          "text": "How come when we pass channel pages there, it did not work? It's interesting."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's see how many records we have in each one of these. What does the actual embedding table look like?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Select collection name, count of everything from embedding as E join collection as C on E.collection ID equals C.UUID group by collection name."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our channel pages doesn't have any data in it. That's the problem. So our only one with messages in it is all messages."
+        },
+        {
+          "speaker": "Host",
+          "text": "If we go back to our bot settings, all messages, Amazon Titan, and embed text v2, and go ahead and copy this."
+        },
+        {
+          "speaker": "Host",
+          "text": "Where's the admit? Oh, there it is."
+        },
+        {
+          "speaker": "Host",
+          "text": "Is there somebody else? That's it. Hey Matt, how's it going?"
+        },
+        {
+          "speaker": "Host",
+          "text": "If we just come back here to test. Oh, actually I need to restart it anyway because I changed my data set ID and I don't know if that all reset."
+        },
+        {
+          "speaker": "Host",
+          "text": "Why does it still look like it's just returning that one message? That's so weird. It's very odd."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's our vector store. This is the one that we can pretty much delete. Oh, that's because I'm getting everything from reporting. That's why it's still weird that it's doing that. That was bad logging I shouldn't have left in there. Let's fix this."
+        },
+        {
+          "speaker": "Host",
+          "text": "I might want to make this higher. Maybe that's part of the problem. I think the threshold is anything. If I put it to one, it should get everything, not zero. We had it at like three before. Let's try that. Reset the bot."
+        },
+        {
+          "speaker": "Host",
+          "text": "Matt, did you ever make it in?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, I think the score threshold seemed almost like the inverse of what you would think it meant. I don't remember when you were saying between zero and one, maybe just letting it all through or no, it didn't work."
+        },
+        {
+          "speaker": "Host",
+          "text": "I set it to zero because I thought that would just not even do it. Maybe instead of similarity score threshold, I can just change the search type."
+        },
+        {
+          "speaker": "Host",
+          "text": "We can grab the LangChain PG vector. No, I just want the API reference. There it is. What does as retriever return? A vector score retriever."
+        },
+        {
+          "speaker": "Host",
+          "text": "Maybe we should just leave the default. Where is the... I get that. What else does it take though? It tells me that's the default. Here you go. Search types. I guess it's these three. Just switch it to similarity. Let's see what we get."
+        },
+        {
+          "speaker": "Host",
+          "text": "I don't think we really need any kind of threshold. Start our bot. Test that. Still nothing in the dockets, huh? We have 3,000 messages. Boom. Got it working."
+        },
+        {
+          "speaker": "Student",
+          "text": "Nice."
+        }
+      ]
+    },
+    {
+      "title": "Session Recap and Next Steps",
+      "chapter_type": "explanation",
+      "start_time": 2460.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "So just to recap what we went through today, we did a little more troubleshooting. Matt, I can also send you this tutorial I found. It's a pretty good tutorial that teaches you kind of end to end. This is stuff we use in industry for sure. I'm actually taking some ideas from this and applying it to my day job."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's a six-unit course that goes through architecture, building it up, observability, and structuring projects. We might want to switch over to UV2 which they use and it is a little more modern."
+        },
+        {
+          "speaker": "Host",
+          "text": "Then we spent a bunch of time troubleshooting the bot. We had to reactivate OpenAI support. The changes related to adding support, poetry lock changes, and Discord bot changes were all about getting it working again. It had nothing to do with OpenAI."
+        },
+        {
+          "speaker": "Host",
+          "text": "We do the work first and then add tickets after. So I created a new issue to reenable OpenAI support for local dev."
+        },
+        {
+          "speaker": "Host",
+          "text": "We merged the changes related to poetry lock and the Discord bot. The lock file looks totally different now, which is perfect."
+        },
+        {
+          "speaker": "Host",
+          "text": "We might still want to play with different vector types because I forgot what MMR is, but whatever works for now. Then we can run our evals. Once we have evals to run, we'll be able to make these decisions better."
+        },
+        {
+          "speaker": "Host",
+          "text": "To troubleshoot, we connected our local bot to the remote Neon DB. We weren't getting any locks from AWS, which was good. Because a lot of this stuff uses LangChain objects like retriever, it was hard to add additional logging within that."
+        },
+        {
+          "speaker": "Host",
+          "text": "One thought was to figure out how to turn up the logging from info to debug within their stuff. We connected the local service to the remote database. We still weren't getting any responses."
+        },
+        {
+          "speaker": "Host",
+          "text": "I looked at the different datasets available and connected to the Neon database using a command line client similar to pgAdmin. I did a search to see which collection actually had data in it."
+        },
+        {
+          "speaker": "Host",
+          "text": "There were three collections, but only one had any documents. I switched the config to pull from the one with documents. That's how we got the answer that had Dr. Emily, so we know now it works."
+        },
+        {
+          "speaker": "Host",
+          "text": "The problem was that we were pointing to the wrong collection, not the wrong database."
+        },
+        {
+          "speaker": "Host",
+          "text": "The database was fine. The tables are managed by LangGraph. They are LG embeddings and LG collections. It connects using a namespace that maps to a collection name. One of those collections didn't have anything in it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Now that we fixed the bug, we can push this up and they can see that it works."
+        },
+        {
+          "speaker": "Student",
+          "text": "Should we merge to main so we can start working with a functioning codebase?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, I could merge it. I wanted to give Adam a chance to review, but I can merge it now. It'll work with your local, but if you want to point it at that, that's fine."
+        },
+        {
+          "speaker": "Student",
+          "text": "Do you have the connection string for the data?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It should be in there as part of the code, all part of the secrets."
+        },
+        {
+          "speaker": "Student",
+          "text": "For Neon? I don't know where it's at. I haven't tried connecting forever. I can give that to you if you want, but a better thing might be to rerun it. Do you remember how to do the ETL?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, I could go through the steps. What would be most beneficial for me to work on? If there was a ticket or if it's just rebuild this, what should I focus on for the next week?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I would say get your local running. If you want a ticket, it would be to figure out how to get the ETL running. Then we need to port that over."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is there a specific ticket so I can track it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I can add one."
+        }
+      ]
+    },
+    {
+      "title": "Git Branch Display and Terminal Configuration",
+      "chapter_type": "explanation",
+      "start_time": 3160.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "How did you get that feature with GitHub where it showed the different branches you were on with a little color code and showed whether you were in main or a different one? It was on the right-hand side of your VS Code."
+        },
+        {
+          "speaker": "Host",
+          "text": "That is all part of my config. It's part of my Zsh RC file. It has a bunch of stuff set up for my terminal. One of those is get prompt which enables the colors and finds my git branch state and calculates a bunch of stuff. This is all bash stuff baked into my command line."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even if I ran this from here, it should do the same thing because I have it turned on. So if I go to dev code tutor, it does the same thing. It's a shell level thing."
+        },
+        {
+          "speaker": "Host",
+          "text": "I can post my dot files for you if you want to take a look."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, of course."
+        },
+        {
+          "speaker": "Host",
+          "text": "I think it's a private repo, but I can probably share it with you."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's pretty cool."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can find different people's examples of their dot files. Basically, your goal is to run the ETL."
+        }
+      ]
+    },
+    {
+      "title": "Running ETL Locally and Docker Setup",
+      "chapter_type": "explanation",
+      "start_time": 3360.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Long term, the first step is to run ETL locally and verify you can retrieve data and that it works."
+        },
+        {
+          "speaker": "Host",
+          "text": "After that, we'll need to figure out what command you ran and how to invoke ETL."
+        },
+        {
+          "speaker": "Host",
+          "text": "I need to make some code changes, but if you can just run it locally and reach out to me, I can walk you through the next steps."
+        },
+        {
+          "speaker": "Host",
+          "text": "We need to get the Docker file running. Adam had a PR to get this running in the cloud and he basically has this Docker file."
+        },
+        {
+          "speaker": "Host",
+          "text": "I populated this Docker file. I thought I pushed it to his branch, but maybe I didn't. You just have to set up the Docker file itself. The Docker Compose YAML is separate, but if you can get the Docker file running, that's good."
+        },
+        {
+          "speaker": "Student",
+          "text": "I was playing with Docker on different projects. It has a Docker file and a Docker Compose YAML."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you look at this commit, you should be able to pull this branch down. ETL deploy has the Docker file on there."
+        },
+        {
+          "speaker": "Host",
+          "text": "Run it locally, verify the app works, get Dockerized."
+        },
+        {
+          "speaker": "Student",
+          "text": "I need to figure out how to trigger it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Once you run the Docker container, how do you trigger the ETL inside the container?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I want to make sure it's set up to run or some type of trigger."
+        },
+        {
+          "speaker": "Host",
+          "text": "It might just run main.py. If you run the container, it might already do that. I can't remember how it was set up."
+        },
+        {
+          "speaker": "Host",
+          "text": "Looking at the code, main.py just runs Flask. You still have to run certain commands to trigger ETL. You should be able to run it in the Docker file and hit endpoints that kick off extract and load."
+        },
+        {
+          "speaker": "Student",
+          "text": "Okay."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you can get it running in the Docker file, then it's a conversation with Adam about how to deploy it to the cloud or trigger it there. You can invoke a Lambda or process directly or send a REST request, but the REST request might be a two-step process. We don't know if that's what we want."
+        },
+        {
+          "speaker": "Host",
+          "text": "We might want to get it all rolled up into one or just run this script."
+        },
+        {
+          "speaker": "Host",
+          "text": "Looking at the SST stuff, there's a cron. I don't know how the cron works. You'll have to talk to Adam."
+        },
+        {
+          "speaker": "Host",
+          "text": "The ETL runs this image once per day. We might have to refactor it to run directly instead of deploying a Flask app."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right now, main.py deploys a Flask app. Instead, you would just run the ETL directly."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Flask app allows REST communication. Without Flask, we wouldn't need REST communication, so we'd run the procedure directly."
+        },
+        {
+          "speaker": "Host",
+          "text": "We can leave the Flask app as an entry point for local devs but separate that from the cron job entry point which runs it directly. Maybe have a new Python script that the Docker file points to that just runs it."
+        },
+        {
+          "speaker": "Student",
+          "text": "That makes sense, mostly."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you have questions, message me directly on Discord. You can tag me in the code tutor channel but it can get noisy. DM me directly. I'm not always the most responsive but I'll try to check it over the week. Otherwise, I can give you my number and you can ping me if you run into problems."
+        },
+        {
+          "speaker": "Host",
+          "text": "Basically, run things locally, get ETL running, get the Docker file running, then replace the main Docker file Python script that launches Flask with another Python script that just runs ETL."
+        },
+        {
+          "speaker": "Host",
+          "text": "When the container starts, it would just run ETL and then close once done. We need to figure out the lifecycle of the cron job and how it all works. Also reach out to Adam, he's the tech lead and set up the cron job."
+        },
+        {
+          "speaker": "Student",
+          "text": "I heard Adam is going on vacation soon."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, he will be on vacation soon, not sure when."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-up and Future Work",
+      "chapter_type": "discussion",
+      "start_time": 4020.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Thanks for getting this working. I'm excited it worked. It wasn't too painful, just a little."
+        },
+        {
+          "speaker": "Host",
+          "text": "Melissa, do you have plenty of stuff to work on?"
+        },
+        {
+          "speaker": "Student",
+          "text": "That depends on what you want me to do. It was like the README and starting with testing."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's perfect, end-to-end testing would be huge, especially if Matt, you and I are contributing. Then we can try to get Adam to hook that into GitHub Actions so it'll run tests on every pull request and won't let us merge code unless tests pass."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's huge for codebase safety so no one accidentally breaks production. Adam also wants to set it up so it automatically deploys to production if tests pass."
+        },
+        {
+          "speaker": "Student",
+          "text": "Okay, that's what I'll focus on."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sweet. If we can get ETL working too, that'd be awesome."
+        },
+        {
+          "speaker": "Student",
+          "text": "It'll happen."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll send out that simulation, the FO agents tutorial. It walks you through all the RAG stuff. The next part we'll work on is observability."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can check this out to get ahead of where we're going. This is the stuff we were trying to do with testing. This is a much better way to do it. Evals are important to check how your agent is actually doing."
+        },
+        {
+          "speaker": "Host",
+          "text": "We need a lot of observability. We'll most likely use OPIC instead of Langsmith because Langsmith costs a lot of money. Not sure if Dr. Emily has a budget for that."
+        },
+        {
+          "speaker": "Host",
+          "text": "This open-source version goes through setting all that up. We'll check offline evaluation systematically. This is more or less like LangGraph."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can see each step, the messages it was getting, managing context. Context engineering is what they're calling it now at the application level because when building agents, you're managing the context window."
+        },
+        {
+          "speaker": "Host",
+          "text": "They have stuff around prompt versioning. This will be the next thing to implement after we get the basics down, which is getting ETL running in the CI/CD pipeline."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you can do that foundational work, it will be huge to get the rest of the project off the ground. We need this base to start building more things."
+        },
+        {
+          "speaker": "Host",
+          "text": "The last piece of the base is observability. Once we have that, we can focus on adding features, tweaking the agent, adding sources, extending the bot, and feature work."
+        },
+        {
+          "speaker": "Host",
+          "text": "Does anybody have any questions, comments, concerns, or paella recipes?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I had this awesome hamburger today with cornbread with blueberries and pepper in it. It's probably the best thing I've ever had."
+        },
+        {
+          "speaker": "Host",
+          "text": "That sounds delicious. All right, y'all. We'll see everybody next week. Probably talk to you sooner."
+        },
+        {
+          "speaker": "Other",
+          "text": "All right. Have a good one."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies to improve readability.",
+    "Corrected technical terms such as 'pytest', 'poetry lock', 'Postgres', 'Neon DB', 'LangChain', 'LangGraph', 'Docker', 'cron job', 'CI/CD pipeline', and 'REST request'.",
+    "Identified speakers as Host, Student, or Other based on context and dialogue roles.",
+    "Segmented transcript into chapters based on topic changes and conversation flow.",
+    "Preserved all substantive content and chronological order.",
+    "Transformed speech fragments into complete sentences and smoothed flow for natural reading.",
+    "Maintained technical accuracy and intent of speakers."
+  ]
+}

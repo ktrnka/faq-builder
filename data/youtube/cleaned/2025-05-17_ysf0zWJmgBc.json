@@ -1,0 +1,345 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-05-17",
+  "total_duration_seconds": 3954.0,
+  "chapters": [
+    {
+      "title": "Introduction to the History and Evolution of AI",
+      "chapter_type": "explanation",
+      "start_time": 5.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I often forget details, but anyway, there's a long history of AI. The term artificial intelligence dates back to about the 1950s, originating from the Dartmouth conference on AI. A professor thought that if some grad students worked together, they could solve all of artificial intelligence by next summer. He was very wrong, but they did good work."
+        },
+        {
+          "speaker": "Host",
+          "text": "The definition of AI has changed over time, even during my lifetime. In the early 90s, people thought beating a grandmaster at chess was AI. Then IBM's Deep Blue beat a grandmaster, and people said, 'That's not what we meant by AI.' The definition kept shifting as capabilities improved, like speech recognition becoming good enough but then no longer considered AI. So, AI is a fuzzy and constantly evolving term."
+        },
+        {
+          "speaker": "Host",
+          "text": "The challenge is that intelligence itself is hard to define precisely. People generally know what intelligence means, but when you look closely, it's ambiguous. For example, is memorizing a textbook intelligence? It's a skill, maybe it takes creativity, but the verdict is still out on some of these things."
+        }
+      ]
+    },
+    {
+      "title": "Clarifying AI Usage and Backend Integration",
+      "chapter_type": "qa",
+      "start_time": 53.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "To come back to your question, I think you were asking about using AI professionally, especially integrating it on the backend of an application rather than just the user front end. Is that right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I was curious about integrating AI into a web application backend."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great. On the backend, you might have an application running on the web and want to integrate AI into it. That would be useful knowledge. Also, Glenn mentioned that AI used to mean machine learning, fuzzy logic, and expert systems. Fuzzy logic had its phase in the 80s and 90s but fell out of favor. Expert systems were basically code with many if statements imitating expert knowledge, managed by software packages. Later, people stopped calling it expert systems and just called it if statements."
+        },
+        {
+          "speaker": "Host",
+          "text": "Machine learning is still talked about today, though the lines between AI and machine learning are blurry. Let me find a good example of using AI from the backend."
+        }
+      ]
+    },
+    {
+      "title": "Demonstrating AI Integration in a Hackathon Project",
+      "chapter_type": "live_coding",
+      "start_time": 209.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I want to show you a hackathon project I worked on. The idea was that when programming and making a pull request, people often forget to update the README documentation, which gets outdated. We used a large language model AI to look at code changes and the existing README, then suggest updates to the README."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll bring up the project in Visual Studio Code and walk through it. This project used Python with dependency management transitioning from pipfile to poetry. I made some changes like adding unit tests and switching dependency management, which are easy to forget to document in the README."
+        },
+        {
+          "speaker": "Host",
+          "text": "The AI is connected to the large language model and recommends changes to the README based on code changes. For example, it suggested how to install the project and run commands using a Makefile I added to simplify setup."
+        },
+        {
+          "speaker": "Host",
+          "text": "This approach starts from the application side, which is like the front end, though not a typical web app front end. I'll pause here to see if this makes sense or if you'd like me to explain anything before diving into the AI code."
+        }
+      ]
+    },
+    {
+      "title": "Student Feedback and Further Explanation",
+      "chapter_type": "qa",
+      "start_time": 724.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I'm new to this and mostly absorbing the information. I hadn't considered AI helping update documentation automatically. It's really cool."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great! The details of tools like poetry or pip aren't too important here. The big picture is that the AI helps update the README when code changes. I was lazy and forgot to update it, but the AI bot did it for me."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks for explaining. I'm just following along for now."
+        }
+      ]
+    },
+    {
+      "title": "Exploring the AI Code and Prompt Design",
+      "chapter_type": "live_coding",
+      "start_time": 870.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let me share my screen again and show you the AI code. Most of the code is in main.py, which is a command line tool. It assumes you have the repo checked out and shows where files are and how to get stuff from GitHub."
+        },
+        {
+          "speaker": "Host",
+          "text": "The interesting AI part is where we choose which large language model to use—OpenAI, Anthropic, or GitHub's. The code fetches information about the repo, the code, and the pull request, which is a review step where someone requests others to look over code changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "Then it gets the existing README, details of the changes, creates a prompt, sends it to the AI, and gets results about whether to update the README and how."
+        },
+        {
+          "speaker": "Host",
+          "text": "The prompt has two parts: a system prompt with high-level guidelines and a user prompt with exact data. The AI outputs three fields: a boolean indicating if the README should be updated, a string explaining why, and the updated README content."
+        },
+        {
+          "speaker": "Host",
+          "text": "We use a technique called chain of thought, where the AI explains its reasoning, which makes the update decision more reliable. The updated README replaces the old one, and GitHub compares the changes to ensure they're meaningful."
+        }
+      ]
+    },
+    {
+      "title": "Code Style and Readability Discussion",
+      "chapter_type": "discussion",
+      "start_time": 1215.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The code isn't my best; good code is not just code that runs but code that's easy to read. The indentation is complex because I use triple-quoted multi-line strings in Python for big blocks of text, which makes it easier for me to read."
+        },
+        {
+          "speaker": "Host",
+          "text": "These are f-strings, so variables inside braces get replaced with their values. For example, the README guidelines or pull request description get inserted dynamically."
+        },
+        {
+          "speaker": "Host",
+          "text": "In AI applications, there's often a system prompt and a user prompt. The system prompt has high-level instructions, and the user prompt has the actual data. This helps guide the AI to produce consistent results."
+        },
+        {
+          "speaker": "Host",
+          "text": "I also include guidelines for writing READMEs, like providing a brief overview, listing requirements, and giving step-by-step setup instructions. These come from blog posts on best practices and help guide the AI."
+        }
+      ]
+    },
+    {
+      "title": "Importance of Prompt Engineering and AI Guidance",
+      "chapter_type": "explanation",
+      "start_time": 1447.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "If you just ask the AI, 'What should I update in my README?' it might do random or verbose things. You have to give it enough guidance in the prompt to get consistent, useful updates."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, the AI can identify if environment variables or API keys changed, which should be mentioned in the README. I often forget to update those, but if users don't know about them, the code won't work for them."
+        },
+        {
+          "speaker": "Host",
+          "text": "The AI uses the guidelines, pull request changes, and existing README to regenerate the entire README, revising as needed. Large language models tend to repeat input, so the output is anchored to the existing README to avoid meaningless changes."
+        }
+      ]
+    },
+    {
+      "title": "Handling Pull Request Data and Markdown Formatting",
+      "chapter_type": "explanation",
+      "start_time": 1580.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The code formats pull request data in Markdown, which uses square brackets for link text and parentheses for URLs. I made a small bug where I closed parentheses incorrectly, but AI handled it gracefully."
+        },
+        {
+          "speaker": "Host",
+          "text": "The pull request body is included if provided; otherwise, it defaults to 'no description provided.' Commit messages are appended, and file changes are shown. All this information is sent to the AI to decide if the README should be updated."
+        }
+      ]
+    },
+    {
+      "title": "Automating README Updates and Pull Requests",
+      "chapter_type": "explanation",
+      "start_time": 1700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "If the AI recommends updating the README and no bugs occur, the code overwrites the README file and automatically creates a pull request with the updated README and the AI's reasoning included as the pull request description."
+        },
+        {
+          "speaker": "Host",
+          "text": "This automation makes it easier to keep documentation up to date without manual effort."
+        }
+      ]
+    },
+    {
+      "title": "Student Reflection on Code Organization",
+      "chapter_type": "qa",
+      "start_time": 1750.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I'm new and tend to think linearly, keeping related code together. Seeing how the code jumps around makes me think differently about organization."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's best to keep related code together for readability. Jumping around can indicate the code could be easier to understand. When code is hard to explain or understand, it's a sign improvements are possible."
+        }
+      ]
+    },
+    {
+      "title": "Explaining GitHub Actions and Automated Testing",
+      "chapter_type": "explanation",
+      "start_time": 1780.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "GitHub Actions is a system that runs automated tasks on GitHub servers when pull requests are made. For example, it runs tests automatically to check if code changes break anything."
+        },
+        {
+          "speaker": "Host",
+          "text": "In this project, the tests ran successfully, though there were warnings about upcoming Python version changes affecting a library called Pydantic. These warnings are helpful to prepare for future compatibility."
+        }
+      ]
+    },
+    {
+      "title": "Details of the Automated Test Workflow",
+      "chapter_type": "explanation",
+      "start_time": 1825.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The GitHub workflow uses YAML files specifying when to run tests, such as on pull requests to the main branch. It checks out the code, installs dependencies using poetry, sets up Python, and runs tests."
+        },
+        {
+          "speaker": "Host",
+          "text": "Make is a tool available on Unix-like systems that runs commands defined in a Makefile. Here, 'make test' runs the tests using pytest, which looks for functions starting with 'test_' and runs them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Tests use assertions to verify expected behavior. If an assertion fails, the test fails and the program crashes. Automated testing helps catch mistakes before merging code, especially important when working in teams."
+        }
+      ]
+    },
+    {
+      "title": "Dependency Management and Python Environment Setup",
+      "chapter_type": "explanation",
+      "start_time": 1900.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The 'make install' command installs dependencies listed in pyproject.toml using poetry. Poetry resolves all required packages and installs them, including their dependencies."
+        },
+        {
+          "speaker": "Host",
+          "text": "The project specifies Python 3.11 or newer, but GitHub Actions currently uses Python 3.13, which is newer than the latest official release. This setup ensures the environment is consistent."
+        },
+        {
+          "speaker": "Host",
+          "text": "Using poetry and isolated environments helps avoid conflicts between projects and makes it easier to manage dependencies."
+        }
+      ]
+    },
+    {
+      "title": "Handling Questions and Final Remarks",
+      "chapter_type": "qa",
+      "start_time": 1970.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Are there any other parts you're curious about?"
+        },
+        {
+          "speaker": "Other",
+          "text": "No further questions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Glenn asked about multi-line strings in Python. The triple quotes define multi-line strings. In some languages, the closing triple quotes must be on their own line, but in Python, it's flexible."
+        },
+        {
+          "speaker": "Host",
+          "text": "Indenting multi-line strings can add unwanted spaces, so I usually keep the closing triple quotes on their own line for readability. Different teams may have different styles, so it's important to agree on a style that works for everyone."
+        }
+      ]
+    },
+    {
+      "title": "Stylistic Choices and Team Collaboration",
+      "chapter_type": "discussion",
+      "start_time": 2040.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Stylistic choices like string formatting can vary between programmers. It's important to discuss and find compromises in a team to make code readable for everyone."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, the large prompt in this project is in the same file as the code, which some might find cluttered. Others prefer splitting it into separate files, but that can make navigation harder. These are trade-offs to discuss with your team."
+        }
+      ]
+    },
+    {
+      "title": "Challenges and Lessons Learned in AI Integration",
+      "chapter_type": "explanation",
+      "start_time": 2100.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Some parts of the code, like prompt caching, were tricky to implement due to sketchy documentation. I barely got it working after some trial and error."
+        },
+        {
+          "speaker": "Host",
+          "text": "Writing comments is important to remember why certain things were done, especially for tricky parts or workarounds."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, different AI models have different max token limits, which I note in comments because it's hard to remember."
+        },
+        {
+          "speaker": "Host",
+          "text": "Despite advanced features, there's still a lot of trial and error and mistakes in programming. Making mistakes is a natural part of learning and development."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Final Thoughts",
+      "chapter_type": "admin",
+      "start_time": 2350.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Any last questions before we wrap up?"
+        },
+        {
+          "speaker": "Other",
+          "text": "No, thank you."
+        },
+        {
+          "speaker": "Host",
+          "text": "This project was a hackathon example. Professional projects would have more serious code and infrastructure, but I hope this gives you a flavor of integrating AI into a project. Thanks for joining, and have a great weekend."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words such as 'um', 'uh', and speech disfluencies to improve readability.",
+    "Corrected transcription errors and clarified technical terms like 'pytest', 'poetry', 'GitHub Actions', and 'multi-line strings'.",
+    "Identified speakers as Host and Student based on context; 'Other' used when unclear or multiple speakers.",
+    "Segmented transcript into chapters based on topic changes and question boundaries.",
+    "Transformed speech fragments into complete, coherent sentences preserving original meaning and tone."
+  ]
+}

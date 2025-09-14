@@ -447,71 +447,116 @@ def count_tokens(transcript_file):
 
 
 @youtube.command("clean-transcript")
-@click.argument("transcript_file", type=click.Path(exists=True, readable=True))
+@click.argument("transcript_files", nargs=-1, required=True, type=click.Path(exists=True, readable=True))
 @click.option("--max-lines", type=int, help="Maximum number of lines to process (for testing)")
 @click.option("--output-dir", default="data", help="Base output directory (default: data)")
-def clean_transcript(transcript_file, max_lines, output_dir):
-    """Clean and segment a YouTube transcript using LLM.
+@click.option("--force", is_flag=True, help="Force rebuild even if cleaned file already exists")
+def clean_transcript(transcript_files, max_lines, output_dir, force):
+    """Clean and segment YouTube transcripts using LLM.
     
-    Takes a JSON transcript file and produces a cleaned, segmented version
+    Takes one or more JSON transcript files and produces cleaned, segmented versions
     with chapters, speaker identification, and improved formatting.
     
     Automatically determines output path: raw/filename.json -> cleaned/filename.json
+    Skips files that already have cleaned versions unless --force is used.
     
-    TRANSCRIPT_FILE: Input JSON transcript (e.g., data/youtube/raw/2025-09-06__-tRDk3P7bg.json)
+    Examples:
+        # Clean a single file
+        faq-builder youtube clean-transcript data/youtube/raw/video.json
+        
+        # Clean multiple files
+        faq-builder youtube clean-transcript data/youtube/raw/*.json
+        
+        # Force rebuild existing cleaned files
+        faq-builder youtube clean-transcript --force data/youtube/raw/*.json
     """
-    try:
-        logger.debug(f"Processing transcript: {transcript_file}")
+    
+    successful_cleans = []
+    failed_cleans = []
+    skipped_cleans = []
+    
+    for i, transcript_file in enumerate(transcript_files, 1):
+        click.echo(f"📄 [{i}/{len(transcript_files)}] Processing: {transcript_file}")
         
-        # Determine output file path - same filename in cleaned directory
-        input_path = os.path.abspath(transcript_file)
-        filename = os.path.basename(input_path)
-        output_file = os.path.join(output_dir, "youtube", "cleaned_test" if max_lines else "cleaned", filename)
+        try:
+            # Determine output file path - same filename in cleaned directory
+            input_path = os.path.abspath(transcript_file)
+            filename = os.path.basename(input_path)
+            output_file = os.path.join(output_dir, "youtube", "cleaned_test" if max_lines else "cleaned", filename)
 
-        logger.debug(f"Output will be saved to: {output_file}")
+            # Check if output file already exists and we're not forcing rebuild
+            if not force and os.path.exists(output_file):
+                click.echo(f"⏭️  Cleaned version already exists: {output_file}")
+                skipped_cleans.append(transcript_file)
+                continue
 
-        # Get the formatted text (same as show-transcript)
-        formatted_text = format_transcript_readable(transcript_file)
-        
-        # Optionally truncate for testing
-        if max_lines:
-            lines = formatted_text.split('\n')
-            if len(lines) > max_lines:
-                formatted_text = '\n'.join(lines[:max_lines])
-                logger.debug(f"Truncated to {max_lines} lines for testing")
-        
-        # Count tokens for cost estimation
-        encoding = tiktoken.encoding_for_model("gpt-4")
-        token_count = len(encoding.encode(formatted_text))
-        logger.debug(f"Processing {token_count:,} tokens")
-        
-        # Initialize LLM prompt
-        client = get_openai_client()
-        prompt = TranscriptCleaningPrompt(client)
-        
-        logger.debug("Sending to LLM for cleaning and segmentation...")
-        
-        # Execute the prompt
-        cleaned_result = prompt.execute(transcript_text=formatted_text)
-        
-        # Create output directory if needed
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
-        
-        # Save the result as JSON
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(cleaned_result.model_dump(), f, indent=2, ensure_ascii=False)
-        
-        click.echo(f"✅ Cleaned transcript saved to: {output_file}")
-        
-        # Basic validation - check we got chapters and content
-        if not cleaned_result.chapters:
-            click.echo("⚠️  Warning: No chapters found in cleaned transcript")
-        else:
-            logger.info(f"Created {len(cleaned_result.chapters)} chapters")
+            logger.debug(f"Output will be saved to: {output_file}")
+
+            # Get the formatted text (same as show-transcript)
+            formatted_text = format_transcript_readable(transcript_file)
+            
+            # Optionally truncate for testing
+            if max_lines:
+                lines = formatted_text.split('\n')
+                if len(lines) > max_lines:
+                    formatted_text = '\n'.join(lines[:max_lines])
+                    logger.debug(f"Truncated to {max_lines} lines for testing")
+            
+            # Count tokens for cost estimation
+            encoding = tiktoken.encoding_for_model("gpt-4")
+            token_count = len(encoding.encode(formatted_text))
+            logger.debug(f"Processing {token_count:,} tokens")
+            
+            # Initialize LLM prompt
+            client = get_openai_client()
+            prompt = TranscriptCleaningPrompt(client)
+            
+            logger.debug("Sending to LLM for cleaning and segmentation...")
+            
+            # Execute the prompt
+            cleaned_result = prompt.execute(transcript_text=formatted_text)
+            
+            # Create output directory if needed
+            os.makedirs(os.path.dirname(output_file), exist_ok=True)
+            
+            # Save the result as JSON
+            with open(output_file, "w", encoding="utf-8") as f:
+                json.dump(cleaned_result.model_dump(), f, indent=2, ensure_ascii=False)
+            
+            click.echo(f"✅ Cleaned transcript saved to: {output_file}")
+            successful_cleans.append(transcript_file)
+            
+            # Basic validation - check we got chapters and content
+            if not cleaned_result.chapters:
+                click.echo("⚠️  Warning: No chapters found in cleaned transcript")
+            else:
+                logger.info(f"Created {len(cleaned_result.chapters)} chapters")
                 
-    except Exception as e:
-        click.echo(f"❌ Error cleaning transcript: {e}", err=True)
-        raise  # Let it crash during development as requested
+        except Exception as e:
+            error_msg = f"Error cleaning transcript: {e}"
+            click.echo(f"❌ {error_msg}", err=True)
+            failed_cleans.append((transcript_file, error_msg))
+            # Continue processing other files instead of crashing
+            continue
+    
+    # Summary
+    click.echo("=" * 60)
+    click.echo(f"📊 Summary: {len(successful_cleans)} cleaned, {len(skipped_cleans)} skipped, {len(failed_cleans)} failed")
+    
+    if successful_cleans:
+        click.echo("✅ Successfully cleaned:")
+        for file in successful_cleans:
+            click.echo(f"   - {os.path.basename(file)}")
+    
+    if skipped_cleans:
+        click.echo("⏭️  Skipped (already exists):")
+        for file in skipped_cleans:
+            click.echo(f"   - {os.path.basename(file)}")
+    
+    if failed_cleans:
+        click.echo("❌ Failed:")
+        for file, error in failed_cleans:
+            click.echo(f"   - {os.path.basename(file)}: {error}")
 
 
 @youtube.command("show-cleaned-transcript")

@@ -1,0 +1,611 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-07-18",
+  "total_duration_seconds": 4900.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Participant Greetings",
+      "chapter_type": "admin",
+      "start_time": 2.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Hey Melissa, how's it going?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Good. How are you?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm all right."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hey boo."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hey Nick."
+        },
+        {
+          "speaker": "Host",
+          "text": "Are you all near the internship phase of the program or just dropping in?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm just dropping by. I'm very interested in AI, but unfortunately I have to miss some Zoom sessions including this one because I'm not there yet. However, I plan on coming back. I wanted to make sure you knew that. I'm making progress in the curriculum now, but only have a certain number of discretionary hours like all of us. I'm very interested in this and hope to engage in these sessions in the future."
+        },
+        {
+          "speaker": "Host",
+          "text": "I've heard about you, Nick. I hope you stay on and continue with this. It's great and we're lucky to have you."
+        },
+        {
+          "speaker": "Student",
+          "text": "Awesome."
+        }
+      ]
+    },
+    {
+      "title": "Project Overview and AI Tools Discussion",
+      "chapter_type": "explanation",
+      "start_time": 45.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Are you guys working on a project right now? It sounded that way from what I saw."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, this part is kind of like the working session. If you want to hang out and see what it's like, we go through an actual hands-on lab."
+        },
+        {
+          "speaker": "Host",
+          "text": "We're rebooting this project. I was a student last year and worked on this project. We've had a few people come and go, so it needed a full reboot. Melissa is now on full-time and on the call. We're looking for more folks interested in joining. We can run through this and then field questions about working in AI professionally."
+        },
+        {
+          "speaker": "Student",
+          "text": "Wonderful. I know I will be a user of this. As I develop my coding skills in the full stack program, I'm sure this will be useful because it will help me understand what kind of things I could target to do in programming AI. Would that be true?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, somewhat. It's good to understand the underlying things because it makes you a better user if you have a good mental model of what's going on under the hood. They are a bit different, but I want to incorporate using more AI tools. So far, we've been laying the groundwork. I've done a little bit for work, but working in an old codebase is tougher and less useful. Still, AI can be used for inspiration, ideas, feedback, debugging, and generating boilerplate code, but you have to be specific with it. We might get into using AI coding tools like Claude Code, Cursor, and Windsurf."
+        },
+        {
+          "speaker": "Host",
+          "text": "This project is more about implementing AI. When using AI or any large language model, it's really applied data science—taking data and extracting meaning. A lot of AI engineering on the application side involves context engineering. I just dropped a good overview in the chat."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Host",
+          "text": "I sent this to Melissa. It's a really good course. Melissa, did you get a chance to check it out?"
+        },
+        {
+          "speaker": "Student",
+          "text": "No, I haven't yet. I worked on testing part of the day and reworked my LinkedIn and resume, so I haven't had a chance."
+        },
+        {
+          "speaker": "Host",
+          "text": "That part is a full-time job."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on AI Hype Cycle and Coding with AI Tools",
+      "chapter_type": "discussion",
+      "start_time": 41.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Nick, from your perspective, it seems evident that as coders, especially full stack developers, we'll be in charge of intelligent agents that we dispatch like a team doing our bidding in the future. Agentic AI is quite exciting."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, to some degree."
+        },
+        {
+          "speaker": "Host",
+          "text": "Are you familiar with the hype cycle?"
+        },
+        {
+          "speaker": "Student",
+          "text": "No, not at all."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right now with large language models, we're probably at the peak of inflated expectations. Soon we'll be in the trough of disillusionment and then figure out what these things are actually good for. Will the job become telling agents what to do? Possibly, but maybe not."
+        },
+        {
+          "speaker": "Host",
+          "text": "There was a recent study where experienced developers were measured using AI tools and not using them. It actually slowed them down. The methodology was decent and controlled for confounding factors. The takeaway is that AI tools save some typing, but you still need to think about what you're doing, frame the problem correctly, and understand the other systems. You still need to do hands-on coding and back and forth with the tool. Sometimes it almost resembles coding it yourself by the time you have a detailed enough spec."
+        },
+        {
+          "speaker": "Student",
+          "text": "I've used Gemini somewhat effectively in learning, but you have to form intelligent questions to get good answers."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. Use AI to ask questions, dig deeper, and learn more rather than just asking for the answer. You'll get more use out of it. It can be a potential tutor and great for personalized education. It will take some coding off the table, but we'll see how it evolves."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm focusing on the full stack program but will partake in some AI. I hope to learn enough to contribute at some point. Some advanced sessions I'm attending are beyond my current level, so I'm reclaiming time to cover the curriculum better before devoting myself to AI."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can do full stack in AI. AI is just a domain. You can be a full stack AI developer. It's not either-or."
+        },
+        {
+          "speaker": "Student",
+          "text": "I love that. My original intention was to do full stack and then pick up AI afterwards. I'm committed to that path for now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm going to bow out now but will see you again. Promise."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good. Take care."
+        }
+      ]
+    },
+    {
+      "title": "New Participant Introduction and Project Status Update",
+      "chapter_type": "admin",
+      "start_time": 889.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Hi, Nick. This is Abu. Alicia told me you need some help, so you can count on me. I'm currently working with Support Local and was told to join your coding tutor project. I can be regular with you."
+        },
+        {
+          "speaker": "Host",
+          "text": "Welcome. You're in the internship part and might be joining our project."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, Alicia said he's probably going to transition over."
+        },
+        {
+          "speaker": "Host",
+          "text": "Very nice. To catch you up, we're resetting the project. We just got the bot working again. You can ask it questions now. Originally, it wasn't getting any data, but now we have some data. We have the ETL in the bot, everything deployed, but it's not running or calling functions due to an import error. Let's take a look."
+        }
+      ]
+    },
+    {
+      "title": "Project Code Review and Setup",
+      "chapter_type": "live_coding",
+      "start_time": 1000.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We need to fix our packaging and look at some Docker optimizations. There's a lot of refactoring to do, but we should get it working first. What's your coding background?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I learned Python from this code of jaw and Joy of Coding, then React and JavaScript with Suji, and Next.js from Support Local."
+        },
+        {
+          "speaker": "Host",
+          "text": "Are you aiming for full stack?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Not fully decided yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you know what areas you're interested in?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Not fully. I understand the whole coding process and can do anything if told. I understand how React and Next.js work and how the code runs."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's the right attitude. Are you solid in Python?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I worked with other organizations on Flask and Django and currently work on deployment."
+        },
+        {
+          "speaker": "Host",
+          "text": "Very cool. This project is less web-focused but has a front end. Whatever you are interested in, we have projects for it."
+        },
+        {
+          "speaker": "Student",
+          "text": "I mostly work with Python, Django, and Flask. I'm actually an AI developer."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good. As long as you have the fundamentals down, it's transferable."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you have access to the project repo yet?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Not yet. Today's my first day."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can pull down the repo and code along with us. Let me give you an overview of the status and what we're trying to do."
+        },
+        {
+          "speaker": "Host",
+          "text": "We just got the bot running. You can test the code tutor bot and ask basic questions. Last week we troubleshot it; it was a config issue, not a connection issue. Now we need to figure out what's going on there."
+        }
+      ]
+    },
+    {
+      "title": "Technical Explanation of Project Architecture and AI Concepts",
+      "chapter_type": "explanation",
+      "start_time": 1350.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The main parts of the project: it's an AI agent that uses retrieval augmented generation, or RAG. How familiar are you with large language models?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I have some training with Kaggle and BL."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great. You're familiar with RAG, vector transformers, and deep learning. These two links I shared are good to review."
+        },
+        {
+          "speaker": "Host",
+          "text": "At the application level, the job is managing what goes into the context window. The hot topic is inference over time. Longer windows increase error likelihood, so you have to pick what goes into the context window carefully."
+        },
+        {
+          "speaker": "Host",
+          "text": "Training models is expensive, so RAG injects relevant context at runtime. It uses vector search to grab relevant documents based on embeddings."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I'm familiar with embeddings."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good. You chunk your data into sizes that fit the context window. We experimented a lot with this. Then you load data into a vector database optimized for vector search."
+        },
+        {
+          "speaker": "Host",
+          "text": "It uses math like cosine similarity to find the most similar document. Think of it as points in hyperdimensional space. Instead of keyword matching, it does semantic search to grab relevant data."
+        },
+        {
+          "speaker": "Host",
+          "text": "Then it injects that data into the prompt context window."
+        },
+        {
+          "speaker": "Host",
+          "text": "Here's our project overview. We have clients that connect, an ETL process that loads data into the database. We'll focus on deploying or running it against fraud data today."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is our project linked to any LLM?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, the LLM does the inference and query search. We're using heavyweight models. I can walk you through the flow later."
+        }
+      ]
+    },
+    {
+      "title": "Live Coding: Database Setup and ETL Process",
+      "chapter_type": "live_coding",
+      "start_time": 1700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's connect to the database. I need to grab the hostname and credentials."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our database is running. I see default ports. I'll switch the port name."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our host is localhost, user is test user. It doesn't seem to need a password."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's look at the ETL. This is our database. We'll run our client. It will start up and populate the bot online."
+        },
+        {
+          "speaker": "Host",
+          "text": "The bot is booting up but there's a tool error in generation, probably because there's nothing in the database."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's try to run the ETL to load data."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have a Docker Compose running the job. We set up build and final stages, which is good practice. We have a logger and an indexer."
+        },
+        {
+          "speaker": "Host",
+          "text": "Before, the problem was we needed to load a dataset first. I think the previous code was missing that."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you want to walk through the project structure a bit?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Clients are clients, ETL is ETL. The embedding models have to match between generating vectors and searching the database or there will be a mismatch."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can't use Cohere embeddings to search a database embedded with something else because embeddings differ in size and math."
+        },
+        {
+          "speaker": "Host",
+          "text": "On our RAG side, we use an ETL. Are you familiar with that?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes."
+        },
+        {
+          "speaker": "Host",
+          "text": "In the main, you can see the extract and load steps. The extractor class was set up to allow different extraction methods."
+        },
+        {
+          "speaker": "Host",
+          "text": "Currently, it extracts all Discord data by hitting the same endpoint the website uses, not the official API. It's janky and needs fixing, which could be a good first task."
+        },
+        {
+          "speaker": "Host",
+          "text": "It pulls down all messages per channel. We have a channel list CSV. We might add other extractors for PDFs and YouTube videos later."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Discord token comes from the environment. The limit is how many messages to pull per pagination, default 100. We'll use the light version for now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Update mode can be full or incremental. Currently, it only supports incremental, which grabs only new messages since the last pull. This should be default behavior."
+        },
+        {
+          "speaker": "Host",
+          "text": "The database engine is created from the connection string using SQLAlchemy."
+        },
+        {
+          "speaker": "Host",
+          "text": "We need to clean up some code and remove hardcoded config values."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our extractor should be extracting now, and then we need to do the loading step."
+        },
+        {
+          "speaker": "Host",
+          "text": "We had the embeddings model ID set to 'all', which probably doesn't work. The update mode was half-baked and needs fixing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's check the embedding model IDs and fix the code."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you have extra time today or a hard stop soon?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I can stay a little longer."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great. Let's do some refactoring and continue walking through the code."
+        }
+      ]
+    },
+    {
+      "title": "Detailed Code Walkthrough: Data Extraction and Loading",
+      "chapter_type": "live_coding",
+      "start_time": 2880.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In our datasets class, extraction hits the Discord API and stores data in the database using SQLAlchemy models."
+        },
+        {
+          "speaker": "Host",
+          "text": "The dataset creator defines a dataset as a query from the raw data database plus a set of transformers."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can add multiple transformers to reuse. This is where data is transformed and loaded."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, we have queries for all messages or help messages that only pull messages tagged with the help bot response."
+        },
+        {
+          "speaker": "Host",
+          "text": "We experimented with chunking messages semantically but found that using all messages performed well, so we keep it simple for now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our loader class is based on LangChain's loader. It manages raw data with SQLAlchemy and embedded data with LangChain's loader."
+        },
+        {
+          "speaker": "Host",
+          "text": "It handles incremental embedding runs, skipping data already processed. It requires implementing a lazy load method for compatibility."
+        },
+        {
+          "speaker": "Host",
+          "text": "The loader processes data recursively applying transformation functions and returns the data."
+        },
+        {
+          "speaker": "Host",
+          "text": "Transformers include changing channel numbers to names, adding metadata, removing brackets from usernames, and basic data cleaning."
+        },
+        {
+          "speaker": "Host",
+          "text": "The page loader does semantic chunking grouping related messages rather than fixed width."
+        },
+        {
+          "speaker": "Host",
+          "text": "The indexer loads data into the vector database using LangChain's indexer function, handling deduplication and indexing optimizations."
+        },
+        {
+          "speaker": "Host",
+          "text": "We implemented multiprocessing to parallelize indexing and speed it up using threads."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you have questions, ping me on Discord. You should be able to navigate the codebase fine."
+        }
+      ]
+    },
+    {
+      "title": "Running the ETL and Debugging",
+      "chapter_type": "live_coding",
+      "start_time": 3500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's try running the ETL job. We need to refresh the Discord token."
+        },
+        {
+          "speaker": "Host",
+          "text": "I split the job out into separate files, so I need to fix some imports."
+        },
+        {
+          "speaker": "Host",
+          "text": "I installed dependencies with Poetry. Some things need fixing before packaging."
+        },
+        {
+          "speaker": "Host",
+          "text": "I realized the database wasn't set up. We need to run the Alembic migrations to create tables."
+        },
+        {
+          "speaker": "Host",
+          "text": "The user should have been set up with a different script, but we'll fix that."
+        },
+        {
+          "speaker": "Host",
+          "text": "After running migrations, let's run the job again."
+        },
+        {
+          "speaker": "Host",
+          "text": "We got some results saved to the database. We need better error catching because some expected data was missing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Caching or deduplication is handled by the indexer to avoid processing the same data twice."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have a proof of concept working and can push this up. We'll investigate errors next time."
+        }
+      ]
+    },
+    {
+      "title": "Client Side Code and LangGraph Agent Explanation",
+      "chapter_type": "explanation",
+      "start_time": 4000.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "On the client side, we have our agent implemented with LangGraph, which uses a graph data structure to represent the flow of steps in the LLM."
+        },
+        {
+          "speaker": "Host",
+          "text": "The state includes messages, question, document, candidate answer, and retry count."
+        },
+        {
+          "speaker": "Host",
+          "text": "The graph has nodes and edges. The entry point is document search, then generate answer, then finalize response."
+        },
+        {
+          "speaker": "Host",
+          "text": "We skip the transform query part for faster testing. Normally, the transform query rewrites the user's question to retrieve more relevant documents."
+        },
+        {
+          "speaker": "Host",
+          "text": "The graph checks if documents are relevant, generates an answer, checks if the answer is grounded in the documents, and if not, regenerates the answer. Finally, it checks if the answer addresses the question before returning it."
+        },
+        {
+          "speaker": "Host",
+          "text": "This self-reflective pattern increases answer accuracy."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Discord bot uses the Discord SDK to read messages. If the bot is mentioned, it does a vector search, gets the retriever, gets the LLM, and runs the workflow."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is the LLM running the whole model or just code-related parts?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We're connecting to the LLM as a service, not running it ourselves. The model is just a model; different models have different strengths."
+        },
+        {
+          "speaker": "Student",
+          "text": "Which models do you support?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We support OpenAI and Bedrock. We use GPT-4o Mini and Bedrock's Nova model, which is cheap but not for production."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is it open source or paid?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We're paying for it. Even open source models require hardware and GPU costs."
+        },
+        {
+          "speaker": "Host",
+          "text": "The class returns the right LLM object. We invoke the graph, send inputs through it, get the response, and write everything to a reporting database."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have a REST API with endpoints that invoke the same LLM class and graph for local testing without the bot."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-up and Next Steps",
+      "chapter_type": "admin",
+      "start_time": 4850.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Thanks for staying longer. Next week we'll continue cleanup and refactoring. Ping me on Discord once you get access and we can find good tickets for you."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you so much. Nice to meet you."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice to meet you too. Have a good one. Bye."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and false starts for clarity.",
+    "Corrected technical terms and clarified references to AI concepts and tools.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Maintained chronological order and preserved speaker intent and tone."
+  ]
+}

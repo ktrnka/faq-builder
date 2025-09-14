@@ -1,0 +1,302 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-07-26",
+  "total_duration_seconds": 3960.0,
+  "chapters": [
+    {
+      "title": "Introduction and Project Overview",
+      "chapter_type": "explanation",
+      "start_time": 6.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "All right. Let me unpause and get started. For the first half of tonight, I want to do a starter AI project. In the past, I've walked through some side projects, but they involved a lot of concepts all at once, like integrating GitHub Actions, APIs, and the GitHub API, which can be overwhelming. Combining that with the GitHub Marketplace adds complexity. So, I want to start with something really simple that people can follow along with and use as an example going forward. People might trickle in and have questions, so we'll see how it goes."
+        }
+      ]
+    },
+    {
+      "title": "Setting Up Screen Share and AI Provider Selection",
+      "chapter_type": "admin",
+      "start_time": 73.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'll screen share for the recording and try to talk aloud so you don't have to look away. Let me share my screen. I recently switched to Ubuntu, so Zoom works a bit differently than on Windows. For the AI provider, we'll use GitHub models because they offer free usage without needing a credit card. I usually Google 'GitHub models' to find the page. They have a big catalog of models, but we'll do something simple. The OpenAI GPT series, especially version 4.1, is a good place to start."
+        }
+      ]
+    },
+    {
+      "title": "Project Idea: Debiasing News Titles Using LLM",
+      "chapter_type": "explanation",
+      "start_time": 198.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Welcome, Adam. For this first half, I'm going through a basic starter large language model project. I have a news feed with various titles, but some are inflammatory or alarmist. For example, 'Inventor claims bleach injections will destroy cancer tumors' feels alarmist. Others are more neutral, like 'Dollar Patch to debut community patio.' There's a wide range of titles. The project is to use a large language model to rewrite news titles to be neutral, not inflaming emotions or injecting bias, just giving clear information so I can decide if I want to read the article. We'll rewrite titles with a prompt that includes directions to debias and the input title."
+        }
+      ]
+    },
+    {
+      "title": "Preparing the Prompt and Model Selection",
+      "chapter_type": "explanation",
+      "start_time": 312.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We'll use GPT-4.1 for now, which is more expensive, so we won't run it all the time. Later, we might switch to smaller models like 4.1 mini or nano. The prompt will have two parts: overall directions and the example input. For directions, I'll say we're debiasing news titles because some are highly inflammatory or exaggerated. I prefer titles that clearly indicate what the article is about in understandable terms. We're seeking to level the playing field in terms of titles. I'll provide a title and snippet, and the model will rewrite the title into a more neutral, content-rich style so I can gauge whether to read the article."
+        }
+      ]
+    },
+    {
+      "title": "Testing the Model with Sample Titles",
+      "chapter_type": "qa",
+      "start_time": 540.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's try the Ballard title. I expect the model to output a slightly revised title because it's already content-heavy. The rewritten title capitalizes and adds context, like 'Designed and built by local high school students at annual art in the garden festival,' which I like. I'll give that a thumbs up. Now, let's try the distant galaxy title. I'm curious if it will simplify the terminology around 'intermediate mass black hole.' I expect it might add some explanation and simplify terms. The rewritten title says astronomers detect X-ray emission suggesting a possible intermediate black hole consuming a star in distant galaxy NGC 6099. I like that it explains why we're talking about this. The galaxy name isn't very helpful to me, but overall it's more neutral than the original question form."
+        },
+        {
+          "speaker": "Student",
+          "text": "I don't know how they number galaxies like NGC 6099. It seems like a catalog number."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, it's probably from a catalog, maybe the New Galactic Catalog. The rewritten title is more neutral, which is good, although the question form reflects the article's content."
+        }
+      ]
+    },
+    {
+      "title": "Further Testing and Observations on Output Format",
+      "chapter_type": "qa",
+      "start_time": 960.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's try the bleach injection title. Testing multiple examples is important because the model behaves differently with each. The original title is 'Inventor claims bleach injections will destroy cancer tumors.' The rewritten title is 'Unlicensed inventor promotes unproven chlorine dioxide injections for cancer treatment,' which is more neutral and clearer that this isn't verified news. I'll thumbs up that. One issue is the output format varies a lot, which will be a problem when calling this from Python. We'll want to structure the data better, maybe using JSON response format later to parse easily and include reasons for revising the title."
+        }
+      ]
+    },
+    {
+      "title": "Setting Up the Development Environment and Repository",
+      "chapter_type": "live_coding",
+      "start_time": 1180.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's create a new GitHub repository called 'news title rewriter.' We'll make it public with a README and a Python .gitignore. I'll clone it locally and open it in VS Code. I use 'uv' as my virtual environment manager to manage Python versions and dependencies. I've created a main.py file for the project. The virtual environment is hooked into VS Code. I'll commit the initial project setup and sync the changes."
+        }
+      ]
+    },
+    {
+      "title": "Installing Dependencies and Preparing API Access",
+      "chapter_type": "live_coding",
+      "start_time": 1340.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Now, let's install the OpenAI SDK with 'uv add openai,' which updates our project lock file. The SDK provides sample code, which I'll paste into main.py. I'll also create a .env file to store the GitHub token securely. This prevents accidentally committing the token to the repository since .env is in .gitignore. Keeping the token private is important because if leaked, someone could use up my quota or delete repos. I'll generate a personal access token with model read permissions using GitHub's fine-grained tokens, setting it to expire quickly for security. I'll delete the token after this session to maintain security."
+        }
+      ]
+    },
+    {
+      "title": "Running the Code and Inspecting API Responses",
+      "chapter_type": "live_coding",
+      "start_time": 1700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Running main.py loads the .env file and sets the GitHub token in the environment. The OpenAI client is configured to use the GitHub AI server with the GPT-4.1 model. We call chat.completions.create with the prompt and parameters like temperature and top_p. The response is a nested structure with choices, messages, and content. Usually, there's one choice with the assistant's message content. We can pretty print the full response or just the message content to inspect it. The response includes finish reasons and other metadata. This helps us understand how the model generated the output."
+        }
+      ]
+    },
+    {
+      "title": "Refining the Prompt and Planning Improvements",
+      "chapter_type": "explanation",
+      "start_time": 1920.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "For the system prompt, I'll say: 'You're going to help me rewrite news titles to be more neutral and in plain language so I can decide whether to read the article. We're attempting to reduce bias and sensationalism in news headlines.' I'll provide the news headline and optional snippet and ask the model to rewrite the headline to be more neutral and straightforward. I plan to improve the prompt because the results in code seem worse than in the UI. I want to use JSON response format with Pydantic to return structured responses, so we don't have to parse strings and can easily ignore extra text. Also, I want to build a CLI interface that takes a URL as input and scrapes the headline and snippet from the page. I need to handle type errors and null responses better."
+        }
+      ]
+    },
+    {
+      "title": "Open Discussion: Upcoming AI Challenge Week and Resources",
+      "chapter_type": "discussion",
+      "start_time": 2490.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Are you going to do anything with the challenge week next week?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I hadn't heard about that. What's that?"
+        },
+        {
+          "speaker": "Student",
+          "text": "There's an email about teams doing AI coding challenges next week, starting with a kickoff party Sunday morning and sessions every day."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds like a week-long hackathon. That could be fun and a great learning experience."
+        },
+        {
+          "speaker": "Student",
+          "text": "Do you know if they'll use GitHub or another platform like HackerRank?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Usually people share code on GitHub, but every project is unique."
+        },
+        {
+          "speaker": "Host",
+          "text": "I deleted my accidentally shared access token to restore security."
+        },
+        {
+          "speaker": "Host",
+          "text": "GitHub models are good for hackathons because you don't need a credit card to start using them, unlike OpenAI or others. You get free usage until you hit the daily limit, which lowers the barrier to entry."
+        }
+      ]
+    },
+    {
+      "title": "Discussion: Learning AI Tools and Courses",
+      "chapter_type": "discussion",
+      "start_time": 2840.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Is it worth investing in something like Corsive to learn AI tools? It teaches 30 tools in 30 days."
+        },
+        {
+          "speaker": "Host",
+          "text": "I've looked into it. Reviews are mixed; some say it's a scam, others say it jump-started their learning. It has a discounted rate for the first four weeks but no trial period. LinkedIn Learning might be a better free resource, especially if you have a library card."
+        },
+        {
+          "speaker": "Host",
+          "text": "Learning one tool a day is fast, and the content can be superficial. Many concepts are the same across tools, so focus on the big picture: sending text in, getting text out, structured output, prompt optimization, and measuring results. Tools matter less than understanding concepts and having a good instructor you connect with. Build momentum and consistency in learning."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks for the insight. I won't buy Corsive but will focus on asking good questions and owning them."
+        },
+        {
+          "speaker": "Student",
+          "text": "W3Schools helped me learn concepts better by practicing Python and libraries. It's free and teaches in a similar order to our course."
+        },
+        {
+          "speaker": "Host",
+          "text": "There's a lot of good free content out there; the challenge is finding it. Machine Learning Mastery has free intro material and paid options."
+        }
+      ]
+    },
+    {
+      "title": "Discussion: Internship and Course Progress",
+      "chapter_type": "discussion",
+      "start_time": 3400.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "If you do one internship, do you do a second? I'm doing the low-code internship now."
+        },
+        {
+          "speaker": "Host",
+          "text": "It depends on your timeline and plans. One internship can extend your timeline. The low-code internship is a hidden blessing because it helps finish on time."
+        },
+        {
+          "speaker": "Student",
+          "text": "I want to finish the course to learn about libraries and dictionaries."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good plan."
+        }
+      ]
+    },
+    {
+      "title": "Discussion: AI Challenge Week Details and Support",
+      "chapter_type": "discussion",
+      "start_time": 3460.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Katrina, do you have anything to add about the challenge week?"
+        },
+        {
+          "speaker": "Other",
+          "text": "We've done React jams before and are channeling that energy into a week-long challenge. The goal is to go from zero to deployed in a week using AI and vibe coding. We'll show that AI is still buggy and developers are needed. We'll teach debugging, iteration, and team collaboration with AI. We have experts and team members participating, and it's going to be fun."
+        },
+        {
+          "speaker": "Host",
+          "text": "So it's a week-long event starting Sunday with sessions every evening at 9 p.m. Eastern. Students will likely have lots of AI questions."
+        },
+        {
+          "speaker": "Host",
+          "text": "I might be able to help with the morning session at 11 a.m. Eastern on Wednesday or Friday to assist students with their projects and vibe coding."
+        },
+        {
+          "speaker": "Other",
+          "text": "Friday morning is for last-minute polish and deployment. Having help then would be huge."
+        },
+        {
+          "speaker": "Host",
+          "text": "Where will everyone meet? Discord or Zoom?"
+        },
+        {
+          "speaker": "Other",
+          "text": "There will be a specialized Zoom room labeled under 'challenge.' The itinerary isn't posted yet. Braden will help lead the Friday evening deployment session."
+        },
+        {
+          "speaker": "Host",
+          "text": "I can do Friday morning and maybe one evening session. I'll coordinate via Discord."
+        },
+        {
+          "speaker": "Host",
+          "text": "Heavy reliance on AI for coding is new; no one has full expertise yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "Would you be interested in collaborating with Dr. Emily on Monday morning?"
+        },
+        {
+          "speaker": "Host",
+          "text": "She's doing the four pillars session Monday morning and would like someone to showcase vibe coding."
+        },
+        {
+          "speaker": "Host",
+          "text": "I can do both Monday and Friday sessions. I've done a fair share of vibe coding but won't claim to be an expert."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll check in online to see what projects you're doing to be effective with vibe coding."
+        },
+        {
+          "speaker": "Host",
+          "text": "Lately, I've been using vibe coding for frontend work to make changes faster, though it leads to poorly factored code that I'll need to refactor."
+        },
+        {
+          "speaker": "Host",
+          "text": "I have a meeting with peer mentors now but will get back about additional support. We'll likely send people to your Friday session to share their experience."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm happy to chat and offer pointers early on because it can be a lot to handle. I've never started a project from scratch with vibe coding, so this will be good practice."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll do Monday vibe coding with Dr. Emily and discuss Friday morning later. I have to start my meeting and dinner now. Have a good one, everybody."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terms and clarified ambiguous references.",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Classified chapters by type: explanation, admin, qa, live_coding, discussion.",
+    "Preserved all substantive content and chronological order.",
+    "Transformed speech into clear, coherent prose with complete sentences."
+  ]
+}

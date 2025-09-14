@@ -1,0 +1,489 @@
+{
+  "title": "AI / Open Q & A with Coach Keith - June 13, 2025",
+  "date": "2025-06-14",
+  "total_duration_seconds": 3300.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Participant Greetings",
+      "chapter_type": "admin",
+      "start_time": 324.0,
+      "segments": [
+        {
+          "speaker": "Other",
+          "text": "Hello, hello."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hello."
+        },
+        {
+          "speaker": "Other",
+          "text": "What time is it there? Is it 8?"
+        },
+        {
+          "speaker": "Other",
+          "text": "I'm on the west coast."
+        },
+        {
+          "speaker": "Other",
+          "text": "You're on the west coast? Okay, so would it be 7:45 here?"
+        },
+        {
+          "speaker": "Other",
+          "text": "Yeah, 4."
+        },
+        {
+          "speaker": "Other",
+          "text": "I'm in Spain, so I'm seven hours ahead of Central time."
+        },
+        {
+          "speaker": "Other",
+          "text": "Oh, nice. It's 1 here."
+        },
+        {
+          "speaker": "Other",
+          "text": "Crazy, it's 1 in the morning."
+        },
+        {
+          "speaker": "Other",
+          "text": "Yeah, late night."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks for joining. When did you get in?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I got to Spain about 9:30 last night, Spain time, which was 2:30 in the afternoon in Missouri, where I'm from."
+        },
+        {
+          "speaker": "Host",
+          "text": "Got it. So you're still a little jetlagged, still on US time a bit?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, a little bit."
+        },
+        {
+          "speaker": "Host",
+          "text": "It was supposed to be about 18 hours of travel, but because of storms in Dallas where our layover was, all flights got changed. Between flying and being in airports, it was 36 hours. Painful."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, it was rough."
+        },
+        {
+          "speaker": "Host",
+          "text": "At least you made it. Hopefully."
+        },
+        {
+          "speaker": "Student",
+          "text": "I set an alarm because I recognized how scattered I was all day with the time change and everything, so I set an alarm to make sure I wouldn't miss it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice. I haven't even made it to Spain yet. That 36 hours is crazy."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hey, Alyssa. Hey, Glenn."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hello."
+        }
+      ]
+    },
+    {
+      "title": "Overview of Today's Session and Participant Status",
+      "chapter_type": "admin",
+      "start_time": 460.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "This is kind of a reboot of the Code Tutor production lab. Today, we're going to try to troubleshoot some production issues. We'll see if we can get production working; otherwise, I'll try to set up my local environment to reproduce any issues we're seeing in production."
+        },
+        {
+          "speaker": "Host",
+          "text": "Glenn, where are you at in the program right now?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Very early. I just finished my first project, the Python project with the polygon wheel, functions, variables—very simple stuff. I was kind of here as a fly on the wall. I'll probably leave soon, but I wanted to get some exposure to the types of things I'll be looking forward to someday."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice. Those are definitely the building blocks. If you stick around a day, you'll see it's all kind of the same process: figure out what's not working, try to fix that, which usually creates a new error message. Then you fix that, get the next error message, and keep doing that until there are no more error messages. Then you pat yourself on the back for a deploy and start the process all over."
+        },
+        {
+          "speaker": "Student",
+          "text": "Sure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "title": "Login and Access Issues",
+      "chapter_type": "qa",
+      "start_time": 580.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I do have a login. I hope it's still good."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hi, Hope."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hi, everybody."
+        },
+        {
+          "speaker": "Host",
+          "text": "This might have expired."
+        },
+        {
+          "speaker": "Host",
+          "text": "I think this expired yesterday, so let me reach out to Adam. I did just get an invite to Prawn, but it's been a busy week. Looks like the invite just barely expired. I'll message him real quick."
+        }
+      ]
+    },
+    {
+      "title": "Current Status of the Bot and Project Components",
+      "chapter_type": "explanation",
+      "start_time": 660.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Recapping where we're at: the bot is deployed but for some reason is not returning any answers. It's basically saying it has no data. This could be an issue in the retrieval process, maybe a communication issue between the app and the database, or the data might not be populated or is populated incorrectly."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are a couple of moving pieces in this project. One is the ETL—extract, transform, load. It's a generic name for a pattern where you extract data, transform it, and load it. Most folks use this pattern."
+        },
+        {
+          "speaker": "Host",
+          "text": "I can pull up the code if you want to see it. Right now, I'm just talking through it."
+        }
+      ]
+    },
+    {
+      "title": "Code Walkthrough: Data Pipeline and ETL",
+      "chapter_type": "live_coding",
+      "start_time": 720.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Here is VS Code with our repo. We have a couple of main parts: the ETL, which might not be exactly an ETL but is a catchall name for a data pipeline. This pipeline pulls data from a source—in our case, Discord—and processes it."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have the concept of a data set, which is a set of data and transformers. Our ETL pipeline includes extract and load. The extract endpoint pulls raw data from Discord using a Discord extractor class that extends a base extractor class we set up. This base class is abstract and provides a common interface requiring an extract method that returns an integer."
+        },
+        {
+          "speaker": "Host",
+          "text": "This setup allows us to add additional data sources in the future. Right now, we pull from Discord, but we might want to pull from documents in Google or other places where we store data to load into the bot's context window."
+        },
+        {
+          "speaker": "Host",
+          "text": "The extractor pulls Discord messages and puts them in a table. We keep raw data so we can run different transformers on it. The load data step loads what we call a data set, which is really a query against the Discord data. For example, one data set selects all messages from the Discord source."
+        },
+        {
+          "speaker": "Host",
+          "text": "Then we have transformers that perform arbitrary transformations on the data. For example, the content-to-text transformer processes message content by removing brackets, formatting it, adding metadata, and sending it on."
+        },
+        {
+          "speaker": "Host",
+          "text": "In ETL, extracting is getting raw data, transforming is cleaning and normalizing data—like removing brackets or weird characters—and loading is putting it into the database."
+        },
+        {
+          "speaker": "Host",
+          "text": "When working with a retrieval-augmented generation system, we also have an embeddings model that creates an embeddings index we use. All these parts need to match."
+        },
+        {
+          "speaker": "Host",
+          "text": "When troubleshooting in production, we'll check if the client's current settings match the schema and embeddings used to generate the data. The problem could be communication between client and database or that the data shape in the database is unrecognized by the client."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is the heart of our ETL: the data set and the client needing matching embedding configurations."
+        }
+      ]
+    },
+    {
+      "title": "Checking Access and AWS Permissions",
+      "chapter_type": "qa",
+      "start_time": 1260.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Since we don't have production access, there's not much we can look into regarding logs. Alyssa, do you have AWS access?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I have some access. I use it to upload images to the support local S3 bucket, but I'm not sure how it works beyond that."
+        },
+        {
+          "speaker": "Host",
+          "text": "So you probably just have support local stuff, right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes."
+        },
+        {
+          "speaker": "Host",
+          "text": "Cool. We can run it through our other environment then."
+        }
+      ]
+    },
+    {
+      "title": "Local Environment Setup and Docker Explanation",
+      "chapter_type": "live_coding",
+      "start_time": 1280.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's look at our client. We have a self-correcting agent and a retriever. Why don't we try to get it running locally to see what problems we encounter."
+        },
+        {
+          "speaker": "Host",
+          "text": "My Zoom crashed, so I'll try again."
+        },
+        {
+          "speaker": "Host",
+          "text": "When working in a bigger codebase, you have to figure out how to navigate it. It's good to leave comments or notes to keep documentation up to date, though documentation often goes out of date and can mislead you."
+        },
+        {
+          "speaker": "Host",
+          "text": "For installation, we've already done the git clone. Let's make sure we're up to date with the latest code from the remote repo."
+        },
+        {
+          "speaker": "Host",
+          "text": "We need an .env file. I have one."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm going to pause the recording briefly while I look at some secret stuff, then restart."
+        },
+        {
+          "speaker": "Host",
+          "text": "Now sharing the screen. I can't remember when I set this up, so I'm going to clear it out. This is Docker, which runs containers. I have two containers in this Code Tutor stack. I'll clear them out and start from scratch."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm deleting most of these old images to avoid accidentally pulling an older build."
+        },
+        {
+          "speaker": "Host",
+          "text": "Docker is a way to run containers, which are lightweight virtual machines. It provides a standardized environment at the operating system level. There are many operating systems like Windows, Mac, and Linux, with Linux being the most widely used."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Docker images allow you to declaratively specify what you want. For example, we start with the official Python 3.12 image, set environment variables, install Poetry, add it to the path, set up working directories, install our project, and specify the main command to run."
+        },
+        {
+          "speaker": "Host",
+          "text": "This ensures that no matter what OS developers use, they have the same test environment. Clearing out old images helps us start fresh and avoid pulling old builds."
+        },
+        {
+          "speaker": "Host",
+          "text": "Next, I'll run docker compose up. This orchestrates multiple containers, including dependent services. Our Discord bot depends on our database, so this will stand up both the database and the bot. The ETL might need to run separately or be added to the Docker Compose file later."
+        }
+      ]
+    },
+    {
+      "title": "Troubleshooting Container Startup Issues",
+      "chapter_type": "live_coding",
+      "start_time": 1800.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The bot container is starting but immediately crashing. Let's see what's going on."
+        },
+        {
+          "speaker": "Host",
+          "text": "The bot is missing a database connection string, which is pulled from an environment variable. We need to make sure this is set in our environment."
+        },
+        {
+          "speaker": "Host",
+          "text": "Checking the Docker Compose and Docker files, I noticed the Python version is 3.8 instead of 3.12. We'll fix that."
+        },
+        {
+          "speaker": "Host",
+          "text": "Found the missing database connection string in the .env file. I'll pause the recording to add it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Restarting the container to see if it stays alive."
+        },
+        {
+          "speaker": "Host",
+          "text": "The container crashed again. We need to tear everything down and rebuild the container fresh since we changed the Docker file."
+        },
+        {
+          "speaker": "Host",
+          "text": "Tearing down all containers and images, then spinning back up."
+        },
+        {
+          "speaker": "Host",
+          "text": "Still crashing. Let's check the logs."
+        },
+        {
+          "speaker": "Other",
+          "text": "Nick asked if signing in to Docker Desktop affects features. It just gives access to additional features."
+        },
+        {
+          "speaker": "Host",
+          "text": "The container might not be picking up the .env file changes because I forgot to save it. Now that it's saved, let's try again."
+        },
+        {
+          "speaker": "Host",
+          "text": "Now we have a new error about the port."
+        },
+        {
+          "speaker": "Host",
+          "text": "I realized I put the literal word 'port' instead of the actual port number in the environment variable, causing a parsing error."
+        },
+        {
+          "speaker": "Host",
+          "text": "Fixing that and restarting the container."
+        },
+        {
+          "speaker": "Host",
+          "text": "The container started successfully this time."
+        }
+      ]
+    },
+    {
+      "title": "Testing Bot Locally and Investigating Errors",
+      "chapter_type": "live_coding",
+      "start_time": 2340.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I have some data now. Let me check Discord."
+        },
+        {
+          "speaker": "Host",
+          "text": "I have a test server set up. Here are directions in the client's README for setting up a Discord server and bot."
+        },
+        {
+          "speaker": "Host",
+          "text": "Currently, we use a hacky method to get the Discord bot token from the front end, which should be refactored to use a proper OAuth sign-in flow. That might be a good first project."
+        },
+        {
+          "speaker": "Host",
+          "text": "We're using Poetry as our dependency manager. The bot isn't running in debug mode right now, so running it locally in development mode would allow automatic refresh on code changes without rebuilding the Docker image."
+        },
+        {
+          "speaker": "Host",
+          "text": "When I ask the bot a question, it previously gave a specific answer based on our injected data, but now it returns an error."
+        },
+        {
+          "speaker": "Host",
+          "text": "Looking at the error, it seems to be a communication problem similar to what we're seeing in production. Fixing it locally might help us fix production as well."
+        },
+        {
+          "speaker": "Host",
+          "text": "The error shows connecting to the local server failed."
+        },
+        {
+          "speaker": "Host",
+          "text": "The project includes PG Admin, a database explorer tool. We can use it to check the database status."
+        },
+        {
+          "speaker": "Host",
+          "text": "Logging into PG Admin, we see no server set up yet. Adding a new server pointing to localhost on port 5432 with username 'testuser' and password 'testpass' from the .env file."
+        },
+        {
+          "speaker": "Host",
+          "text": "Connection to localhost:5432 failed. Checking the container, the database should be running there. This might be a Docker issue or require signing in to Docker Desktop for extra features."
+        },
+        {
+          "speaker": "Host",
+          "text": "Trying to connect to the database using the command line psql tool with the same credentials. It connected successfully and shows the 'code_tutor' database exists but has no tables."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Next Steps",
+      "chapter_type": "discussion",
+      "start_time": 2880.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We need to continue this later, but we made some progress this week. We walked through the local deploy and identified some things to clean up in the README. We almost recreated the problem we ran into, which looks like a connection issue."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hopefully, I'll get AWS access soon to look into production logs. Meanwhile, I'll continue running this locally."
+        },
+        {
+          "speaker": "Host",
+          "text": "Melissa, do you have any questions about running it locally?"
+        },
+        {
+          "speaker": "Student",
+          "text": "No questions. I recently finished a ticket on support local where I changed the default port from 5432 to 5433 due to potential conflicts running multiple projects on the same default port. Could that be an issue here?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It's possible but unlikely. Usually, if the port is taken, the database startup fails and you get an error indicating the port is in use. We'll verify that."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll clean up the README and let you know when it's ready. You can try running through the development docs and get your local environment going. Then we can figure out a good first project."
+        },
+        {
+          "speaker": "Host",
+          "text": "The janky Discord bot token retrieval might be a good place to start in production. We should also add some testing, which you were interested in."
+        },
+        {
+          "speaker": "Student",
+          "text": "I've done testing with pytest and vest on my own projects but not with Joy of Coding yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great. You might want to get familiar with Playwright, which is for end-to-end testing by running a headless browser. It's good for integration tests to check if requests and responses work as expected."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some people do test-driven development down to unit tests. I tend to start coding and add unit tests once things settle down. Either approach works as long as we get tests in to code confidently without breaking things."
+        },
+        {
+          "speaker": "Host",
+          "text": "That would be a good first project. Then we can clean up some AI data science aspects and pooling."
+        },
+        {
+          "speaker": "Host",
+          "text": "Glad you made it. Hope the rest of your trip is uneventful after that 36-hour flight."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you for joining, especially after all that. I'll get this cleaned up and sent over. See you all next week."
+        },
+        {
+          "speaker": "Other",
+          "text": "Thank you. Very interesting."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks for joining, Hope. Hope you keep coming. Have a good night, everyone."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words such as 'um', 'uh', 'like', and speech disfluencies to improve readability.",
+    "Corrected technical terminology and clarified references to tools and processes (e.g., ETL, Docker, PG Admin).",
+    "Identified speakers as Host, Student, or Other based on context and roles.",
+    "Segmented transcript into chapters based on topic shifts and conversation flow.",
+    "Transformed speech fragments into complete, coherent sentences while preserving original meaning and tone.",
+    "Maintained chronological order and preserved all substantive content."
+  ]
+}

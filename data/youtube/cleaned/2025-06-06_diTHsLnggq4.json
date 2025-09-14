@@ -1,0 +1,614 @@
+{
+  "title": "AI / Open Q & A with Coach Keith - 2025-06-06",
+  "date": "2025-06-06",
+  "total_duration_seconds": 4350.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Participant Greetings",
+      "chapter_type": "admin",
+      "start_time": 10.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Hello everyone. I see there were some messages in Discord I need to catch up on. We're doing a production launch this week, so it's been a fun week with everything going sideways."
+        },
+        {
+          "speaker": "Host",
+          "text": "I was thinking about announcing this session just in the regular channel for now. We probably don't need the mod 2 people here, right? Or do we want to announce it in the new channel? Not sure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Alright, we have folks here. I was about to drop the 'we're starting' announcement. I know we're supposed to switch to the new channel, but today we're kind of resetting, so I thought to drop it in the same one."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hey Keith, long time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah man, it's been a while. How have you been?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Not bad, getting my teeth cut on the real world AI building stuff."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, why do you focus so much on evaluations and defining what is good upfront?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Well, that's what it's all about. I'm working for Capital RX. They do PBM and are getting into general claims."
+        },
+        {
+          "speaker": "Host",
+          "text": "I meant a lot of companies say they define what's good upfront but don't, and it becomes a disaster."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, I'm pushing forward on the more unstructured side. Part of it is straightforward like data extraction. We have ground truth for that. For the rest, we have to define ground truth."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hello, Anna."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hello everyone."
+        },
+        {
+          "speaker": "Student",
+          "text": "Am I in the right meeting? This looks like a bunch of really advanced people."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, we're restarting the project. You joined before, right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, just reading the fine print. I might stick around to listen but probably jump out."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good. What part of the program are you in? Not an intern yet, right?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Just got there, still setting up my system."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good. Stick around and see if you're interested in this project."
+        },
+        {
+          "speaker": "Host",
+          "text": "Who else do we have? Hey Alyssa, hello Anthony and Melissa. Anthony, are you in the intern phase yet?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Not yet. I'm finishing up the last part of module 2. I signed up for the inner circle and saw this on the calendar, so I decided to join."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good."
+        }
+      ]
+    },
+    {
+      "title": "Project Overview and Technical Explanation",
+      "chapter_type": "explanation",
+      "start_time": 270.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's kick off by giving everyone an idea of what the project is and where we're at now, then discuss where we want to go."
+        },
+        {
+          "speaker": "Host",
+          "text": "This meeting is for the code tutor chatbot project. It's an AI intern project I spearheaded with Keith and Matt, who isn't here, and Adam was involved as well."
+        },
+        {
+          "speaker": "Host",
+          "text": "The goal is to create a chatbot in Discord to guide students on questions they would otherwise tag help for, especially basic coding questions, giving guidance without giving the answer."
+        },
+        {
+          "speaker": "Host",
+          "text": "Currently, if you tag the bot, it creates a ticket and someone gets back to you fairly quickly. The idea is to shorten that feedback loop, which is very important in development."
+        },
+        {
+          "speaker": "Host",
+          "text": "Feedback loops are why we do test-driven development and CI/CD. The whole job is figuring things out as you go: write code, push, test, and keep moving forward."
+        },
+        {
+          "speaker": "Host",
+          "text": "We got as far as setting the bot up. I'm not sure if it's running right now. It doesn't work on DMs, only public channels. It currently returns an error because there are no documents in the database."
+        },
+        {
+          "speaker": "Host",
+          "text": "The idea is you give it a question, it goes to the large language model (LLM), and provides an answer based on our curriculum for the Joy of Coding Academy."
+        },
+        {
+          "speaker": "Host",
+          "text": "We're using retrieval augmented generation (RAG). This means instead of retraining a model, you inject relevant documents at runtime as part of the system prompt to guide the AI's answer."
+        },
+        {
+          "speaker": "Host",
+          "text": "The bot searches for relevant documents using vector search, which is semantic rather than keyword-based. It embeds words into vectors in high-dimensional space and finds similar ones."
+        },
+        {
+          "speaker": "Host",
+          "text": "This vector search helps the AI find meaning and context. We don't need to know exactly how it works; it's mathematical magic."
+        },
+        {
+          "speaker": "Host",
+          "text": "To enable this, we have an ETL process—extract, transform, load. We extract raw data, transform it by cleaning and embedding into vectors, then load it into a database."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our ETL pulls messages from Discord, breaks them into chunks, runs embeddings on those chunks, and stores them in a vector database."
+        },
+        {
+          "speaker": "Host",
+          "text": "During the RAG process, the client reads from the database, performs similarity search with parameters like similarity score thresholds or top N documents, and loads relevant context into the LLM's prompt."
+        },
+        {
+          "speaker": "Host",
+          "text": "Managing the context window is crucial. Too much data is noisy; too little lacks context. LLMs predict the next token based on input, which is amazing but also limited in some ways."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, they can pass advanced tests but sometimes can't count letters correctly. So balancing input data is key."
+        },
+        {
+          "speaker": "Host",
+          "text": "Keith stressed defining what good looks like and testing against that. In production AI, we focus on evaluations like precision, recall, completeness, and accuracy."
+        },
+        {
+          "speaker": "Host",
+          "text": "In my day job, we process insurance claims for pharmacies, including prior authorizations to reduce waste and fraud. About 60% of documents are structured; 40% are faxes with handwriting."
+        },
+        {
+          "speaker": "Host",
+          "text": "We use LLMs to extract meaningful data from these unstructured documents. Testing is tricky because outputs are statistical, not deterministic."
+        },
+        {
+          "speaker": "Host",
+          "text": "Unlike traditional unit tests where input equals output, LLM outputs vary slightly even with the same input. So testing involves comparing outputs to ground truth with some tolerance."
+        },
+        {
+          "speaker": "Host",
+          "text": "We do offline evaluations comparing outputs to known answers, sometimes using LLMs as judges or human reviewers when needed."
+        },
+        {
+          "speaker": "Host",
+          "text": "In production, we set safeguards. For example, medical claim denials always go to human reviewers. We automate accepted claims to reduce errors, focusing on minimizing false negatives."
+        },
+        {
+          "speaker": "Host",
+          "text": "Currently, the chatbot is deployed but the ETL is not. We need to deploy the ETL to get the data pipeline running, then set up evaluations, probably using Lang Smith with Lang Graph."
+        },
+        {
+          "speaker": "Host",
+          "text": "Once the ETL is working, the bot will be functional. Then we can work on quality aspects like message chunking, embedding models, LLM models, and prompt tuning."
+        }
+      ]
+    },
+    {
+      "title": "Project Status and Development Environment Setup",
+      "chapter_type": "live_coding",
+      "start_time": 1260.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I've been trying to get the system running locally and setting it up with Lang Graph server to use modern tooling."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have clients set up. The deployment uses SST to define infrastructure declaratively on AWS, including VPC, cluster, and service."
+        },
+        {
+          "speaker": "Host",
+          "text": "The service configuration includes environment variables like database connection strings and Discord bot tokens, stored as AWS secrets."
+        },
+        {
+          "speaker": "Host",
+          "text": "Permissions allow the service to connect to Bedrock, our LLM provider, to invoke the model and get text responses."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Dockerfile for the client is standard Python: creating environment, installing dependencies, and running the Discord bot script."
+        },
+        {
+          "speaker": "Host",
+          "text": "The deploy was working months ago but is currently broken. The app itself still works, so I'm debugging that."
+        },
+        {
+          "speaker": "Host",
+          "text": "For the ETL, we want a similar structure: a Dockerfile runnable locally with Docker Compose, then deployable on AWS."
+        },
+        {
+          "speaker": "Host",
+          "text": "The current client runs a long-lived process connecting to Discord, waiting for messages and responding indefinitely."
+        },
+        {
+          "speaker": "Host",
+          "text": "The ETL will run as a batch job, triggered by a cron schedule, running and stopping as needed."
+        },
+        {
+          "speaker": "Host",
+          "text": "We can focus on getting the ETL running locally in Docker Compose first, then deploy it to AWS."
+        },
+        {
+          "speaker": "Host",
+          "text": "Regarding repository structure, I put the ETL and client in the same monorepo because they share configuration like embedding settings and database schema."
+        },
+        {
+          "speaker": "Host",
+          "text": "Using the same embeddings model is critical; otherwise, vector searches won't work due to mismatched vector lengths."
+        },
+        {
+          "speaker": "Host",
+          "text": "I recommend keeping the monorepo for now and breaking things out later if needed."
+        },
+        {
+          "speaker": "Host",
+          "text": "At my work, we have a 5 million line codebase in a monorepo, so it can scale but requires management."
+        }
+      ]
+    },
+    {
+      "title": "Repository Overview and Client Architecture",
+      "chapter_type": "explanation",
+      "start_time": 1680.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Melissa, and anyone interested, this is our repo. The main folder is clients, which holds the Discord bot that gets deployed."
+        },
+        {
+          "speaker": "Host",
+          "text": "The SST deployment points to the Dockerfile in the clients folder, allowing local testing with Docker Compose and deployment with the same image."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Discord bot is our main client. We had a REST API before, but it's probably gone now."
+        },
+        {
+          "speaker": "Host",
+          "text": "I recommend creating a second client for testing instead of using the Discord bot directly because the interaction pattern is tricky locally."
+        },
+        {
+          "speaker": "Host",
+          "text": "You need a separate Discord server and bot for testing to avoid responding to the real server's messages."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Discord bot opens a connection to Discord and receives all messages, so running it locally requires a test environment."
+        },
+        {
+          "speaker": "Host",
+          "text": "For testing changes to the LLM, RAG graph, or features, it's easier to use a REST API or web app client."
+        },
+        {
+          "speaker": "Host",
+          "text": "We can probably use Lang Graph server for that if I can get it running; it wasn't running earlier."
+        },
+        {
+          "speaker": "Host",
+          "text": "The clients folder contains the Discord bot and possibly the REST API client, which we might remove."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Discord bot is a wrapper that talks to Discord and imports the RAG self-correcting agent, which uses Lang Graph."
+        },
+        {
+          "speaker": "Host",
+          "text": "Lang Graph lets you create graph data structures to build LLM workflows and agents."
+        },
+        {
+          "speaker": "Host",
+          "text": "You feed a question into a retrieval node that searches the database for relevant documents, then the next node grades relevance."
+        },
+        {
+          "speaker": "Host",
+          "text": "If documents are relevant, it generates an answer; if not, it rewrites the query and tries again."
+        },
+        {
+          "speaker": "Host",
+          "text": "We also check for hallucinations—whether the answer is grounded in the documents—and if not, regenerate the answer."
+        },
+        {
+          "speaker": "Host",
+          "text": "Finally, it checks if the answer is useful to the client. This technique is called self-reflective RAG, using the LLM as an online judge."
+        }
+      ]
+    },
+    {
+      "title": "Lang Graph Workflow and Prompt Tuning",
+      "chapter_type": "explanation",
+      "start_time": 2220.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The self-correcting agent is implemented as a graph with nodes and edges. Nodes perform tasks like retrieve, generate, grade, transform, and query."
+        },
+        {
+          "speaker": "Host",
+          "text": "Edges define the flow between nodes, some conditional based on functions returning the next node."
+        },
+        {
+          "speaker": "Host",
+          "text": "The state object carries the question, documents, grades, and other data through the graph."
+        },
+        {
+          "speaker": "Host",
+          "text": "Each step involves LLM calls with prompts, such as grading whether the generated answer addresses the question or rewriting queries."
+        },
+        {
+          "speaker": "Host",
+          "text": "Prompt tuning is important because different prompt structures can yield very different results."
+        },
+        {
+          "speaker": "Host",
+          "text": "Early on, prompt writing was a specialized job, but now everyone working with AI is expected to know how to evaluate and tweak prompts."
+        },
+        {
+          "speaker": "Host",
+          "text": "Though this looks complicated, it's essentially passing state through nodes, making inference and database calls, and outputting an answer."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll send out the notebook with the reference implementation so you can explore it step by step."
+        }
+      ]
+    },
+    {
+      "title": "ETL Process and Data Chunking Strategies",
+      "chapter_type": "explanation",
+      "start_time": 2520.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "On the ETL side, we have a Dockerfile and a Flask app to trigger extraction via a REST endpoint, which can be scheduled with cron."
+        },
+        {
+          "speaker": "Host",
+          "text": "Cron is a Linux scheduler that can fire API requests on a schedule. We use it to hit the extract endpoint to update Discord data."
+        },
+        {
+          "speaker": "Host",
+          "text": "We might not need the REST API; instead, we could run a script directly in an AWS ECS task on a schedule, removing the need for a constantly deployed API."
+        },
+        {
+          "speaker": "Host",
+          "text": "The ETL extracts raw data from Discord channels, breaks it into chunks, runs embeddings, and loads it into the vector database."
+        },
+        {
+          "speaker": "Host",
+          "text": "We experimented with different chunking strategies: all messages chunked by size, channel chunks, and semantic chunking."
+        },
+        {
+          "speaker": "Host",
+          "text": "Evaluations showed that simply chunking all messages by size performed best or second best compared to semantic chunking."
+        },
+        {
+          "speaker": "Host",
+          "text": "We are still in experimental mode, trying different embeddings models and preprocessing functions to improve results."
+        },
+        {
+          "speaker": "Host",
+          "text": "Chunking is important because the context window size is limited; we can't load an entire Discord channel at once."
+        },
+        {
+          "speaker": "Host",
+          "text": "We also have filtering functions as part of the ETL to normalize and clean data before embedding."
+        }
+      ]
+    },
+    {
+      "title": "Project Scope, User Needs, and Future Directions",
+      "chapter_type": "discussion",
+      "start_time": 3060.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We need to consider the future of this project and whether to keep this complexity or refactor."
+        },
+        {
+          "speaker": "Host",
+          "text": "The quickest path to deployment is to deploy what we have now with the all messages chunking, then set up the evaluation framework."
+        },
+        {
+          "speaker": "Host",
+          "text": "We should also do product work by talking to peer mentors who answer help questions to understand what kinds of questions they get and what would help them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Maybe we focus on answering questions specific to the Joy of Coding program rather than general programming questions, since ChatGPT already handles those well."
+        },
+        {
+          "speaker": "Host",
+          "text": "We fed the bot some specific programming questions related to our curriculum, which was somewhat helpful."
+        },
+        {
+          "speaker": "Host",
+          "text": "Scheduling questions are tricky because schedules change, so pulling in up-to-date documents from sources like Google Drive might help."
+        },
+        {
+          "speaker": "Host",
+          "text": "We need to figure out what questions people are asking. We have a base set of questions clustered using ChatGPT, but no ground truth yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "We can use the history of help tickets to build a dataset of real questions asked."
+        },
+        {
+          "speaker": "Host",
+          "text": "We also want to explore categorizing questions and routing them to appropriate peer mentors to avoid giving bad answers directly."
+        },
+        {
+          "speaker": "Host",
+          "text": "Alyssa, I believe you were going to step in as the project manager?"
+        },
+        {
+          "speaker": "Other",
+          "text": "I'm still figuring out the project myself, watching and learning."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nick and I were tech leads, but the project has been dormant for months. We're resurrecting the code now."
+        },
+        {
+          "speaker": "Other",
+          "text": "For PM, we do weekly wins and priorities posts in Discord, showcasing progress and setting goals."
+        },
+        {
+          "speaker": "Host",
+          "text": "We should talk to peer mentors to scope and prioritize next steps. Maybe get Dr. Emily's time regularly or work asynchronously once organized."
+        },
+        {
+          "speaker": "Other",
+          "text": "Peer mentors mostly help beginning students with module one and two homework questions, not so much intern-specific or web development questions."
+        },
+        {
+          "speaker": "Host",
+          "text": "The bot currently points to an empty database, so it returns no documents. We need to debug the connection and get the ETL running regularly to update data."
+        },
+        {
+          "speaker": "Host",
+          "text": "The highest priority is debugging the bot's connection to the database and running the ETL regularly to keep data fresh."
+        }
+      ]
+    },
+    {
+      "title": "Participant Introductions and Testing Discussion",
+      "chapter_type": "qa",
+      "start_time": 3780.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Melissa, would you like to introduce yourself and share what part of the stack you'd like to work on?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm transitioning from intern to junior dev. I've done a lot with support local, and I prefer refactoring and testing. I'll probably do some debugging tickets soon."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good. We have a lot of refactoring and debugging to do."
+        },
+        {
+          "speaker": "Other",
+          "text": "I think there are no tests on this project yet. Writing tests is a good way to familiarize yourself with the code."
+        },
+        {
+          "speaker": "Other",
+          "text": "Melissa, how long will you be in Spain?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Six weeks."
+        },
+        {
+          "speaker": "Other",
+          "text": "Where do you live when you're back?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Missouri, Central Time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Does anyone have any last questions?"
+        },
+        {
+          "speaker": "Student",
+          "text": "What are the next steps? Nick, will you work on getting the ETL running locally?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Next step is debugging the bot connection. I'll need cloud access to check logs and figure out what's going wrong."
+        },
+        {
+          "speaker": "Other",
+          "text": "In the meantime, try running it locally to reproduce the issue."
+        },
+        {
+          "speaker": "Host",
+          "text": "Last time I ran it, it was fine, but we should check logs for connection errors or embedding model mismatches."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm curious about testing. Are we talking about unit testing like white box testing?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, Adam was referring to unit tests. Earlier I mentioned offline evaluations, which are more black box, comparing input and output without tracing internal workings."
+        },
+        {
+          "speaker": "Student",
+          "text": "I have a background in software testing but don't feel qualified here."
+        },
+        {
+          "speaker": "Host",
+          "text": "We'll definitely need to add unit tests. We'll start with end-to-end tests and then add unit tests after some refactoring."
+        },
+        {
+          "speaker": "Host",
+          "text": "Keep testing in mind as you progress to junior dev internship phase."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Next Steps",
+      "chapter_type": "admin",
+      "start_time": 4200.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'll send out notes to Adam, Alyssa, Melissa, and Matt in the team coding tutor channel with thoughts on what to focus on next."
+        },
+        {
+          "speaker": "Host",
+          "text": "Matt, let us know your availability. I'll be out next week, so I might push work to Friday."
+        },
+        {
+          "speaker": "Host",
+          "text": "We'll try to be more active asynchronously in the team coding tutor channel and on Discord."
+        },
+        {
+          "speaker": "Host",
+          "text": "Melissa, you'll be gone for six weeks but six hours ahead of Eastern time. Later in the week will be easier for you to join meetings."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, I'll be staying with my sister but doing the same work."
+        },
+        {
+          "speaker": "Host",
+          "text": "Great, so you'll have some availability. We'll coordinate asynchronously as well."
+        },
+        {
+          "speaker": "Host",
+          "text": "If this meeting time is tough, we can adjust."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you everyone for joining. We'll get things moving again in earnest."
+        },
+        {
+          "speaker": "Host",
+          "text": "Have a good night."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terminology and clarified references.",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into logical chapters by topic and conversation flow.",
+    "Preserved all substantive content and chronological order.",
+    "Transformed speech fragments into complete, coherent sentences for readability."
+  ]
+}

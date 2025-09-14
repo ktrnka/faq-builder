@@ -1,0 +1,412 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-05-24",
+  "total_duration_seconds": 3325.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Reflections on Last Week's Code Walkthrough",
+      "chapter_type": "admin",
+      "start_time": 11.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's get started. Since it's the end of the week, we're not too strict about topics."
+        },
+        {
+          "speaker": "Host",
+          "text": "After last week's session, I was thinking about what would be helpful because it seemed like going through actual code was beneficial for people."
+        },
+        {
+          "speaker": "Host",
+          "text": "I reviewed the session earlier today for a video, and it was nice to see the process and explanations."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm considering doing something similar again, like a code-along session, to keep things practical. I think people really appreciated that."
+        }
+      ]
+    },
+    {
+      "title": "Considering Data Science and Machine Learning Examples",
+      "chapter_type": "discussion",
+      "start_time": 102.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I could do something on the 'update your README' project, although that's the frustrating side of coding, not the fun side."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you want, we could also explore some data science aspects. You mentioned how machine learning is different."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even short five-minute examples could be useful, not the full context but just looking at some code, like the Iris project or similar."
+        },
+        {
+          "speaker": "Host",
+          "text": "I wonder what's currently on Kaggle; I haven't checked in a while. They probably have quite a bit."
+        }
+      ]
+    },
+    {
+      "title": "Logging into Kaggle and Free Online Courses by Dr. Chuck",
+      "chapter_type": "discussion",
+      "start_time": 192.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I wonder if I can still log into Kaggle. I don't recall if I signed up with Google or another method."
+        },
+        {
+          "speaker": "Host",
+          "text": "There's a guy named Dr. Chuck from Michigan State University who created free courses on Coursera like 'Python for Everybody' and follow-ups including Django and C programming."
+        },
+        {
+          "speaker": "Host",
+          "text": "His courses serve as a gateway for self-taught programmers to learn essential computer science concepts without needing a CS degree."
+        },
+        {
+          "speaker": "Host",
+          "text": "He uses Google login to avoid managing usernames and passwords, which simplifies things."
+        }
+      ]
+    },
+    {
+      "title": "Implementing Google Login and Challenges with Local Testing",
+      "chapter_type": "explanation",
+      "start_time": 438.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I've implemented Google login before, and there are a few painful parts."
+        },
+        {
+          "speaker": "Host",
+          "text": "When registering an app for Google login, you have to create an app on Google's side and specify a callback URL, which must be a stable domain."
+        },
+        {
+          "speaker": "Host",
+          "text": "This means if you're running a project locally on your computer, the redirect won't work unless you use something like dynamic DNS."
+        },
+        {
+          "speaker": "Host",
+          "text": "Testing the Google login flow locally is tough, so many developers push to the cloud to test and then avoid changing it once it works."
+        }
+      ]
+    },
+    {
+      "title": "Exploring Machine Learning in Different Programming Languages",
+      "chapter_type": "discussion",
+      "start_time": 1034.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'm used to doing machine learning in Python, but in theory, it can be done in other languages."
+        },
+        {
+          "speaker": "Host",
+          "text": "JavaScript is interesting because it's quite optimized and efficient now, though not as fast as C."
+        },
+        {
+          "speaker": "Host",
+          "text": "Many people would like to use machine learning in JavaScript for parts of their projects, even if not everything."
+        }
+      ]
+    },
+    {
+      "title": "Potential Side Projects: Language Classifier and YouTube Transcript Summaries",
+      "chapter_type": "discussion",
+      "start_time": 1090.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "A side project I've been thinking about is building a language classifier similar to the one Facebook made years ago, which is now deprecated."
+        },
+        {
+          "speaker": "Host",
+          "text": "The technical aspect of language classification isn't too difficult, so it might be a fun project for these sessions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Another idea is generating summaries and chapter titles from YouTube transcripts, which Gemini AI does very well."
+        },
+        {
+          "speaker": "Host",
+          "text": "Gemini can summarize videos under 20 minutes, providing bullet points or verbose summaries depending on the prompt."
+        }
+      ]
+    },
+    {
+      "title": "Using Gemini AI for Video Summaries and Considering Paid Features",
+      "chapter_type": "explanation",
+      "start_time": 1100.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Gemini AI can take a YouTube video, generate a transcript, and then summarize it with bullet points or detailed summaries."
+        },
+        {
+          "speaker": "Host",
+          "text": "The free version has a 20-minute limit, which is why I'm considering upgrading to the paid version for more features."
+        },
+        {
+          "speaker": "Host",
+          "text": "The paid model offers a huge input token limit, terabytes of storage, and premium features like deep research and creative content creation."
+        }
+      ]
+    },
+    {
+      "title": "Benefits of Summaries and Efficient Learning Strategies",
+      "chapter_type": "explanation",
+      "start_time": 690.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Summaries are a quick win for understanding video content because you get an overview upfront."
+        },
+        {
+          "speaker": "Host",
+          "text": "Learning is more efficient when you have bullet points and summaries to prime your brain, allowing it to piece together information like a jigsaw puzzle."
+        },
+        {
+          "speaker": "Host",
+          "text": "Students often make the mistake of copying notes word for word, which is just dictation, not effective note-taking."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good notes are snippets that relate back to the full presentation, helping with both initial learning and later review."
+        }
+      ]
+    },
+    {
+      "title": "Exploring GitHub Models and Free API Usage for Large Language Models",
+      "chapter_type": "discussion",
+      "start_time": 1320.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "GitHub offers API-based large language models with a wide variety, including OpenAI's and others like LLaMA and Mistral."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can use these models for free up to a point with your GitHub account, which is helpful since cloud-based LLMs usually require paid accounts."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm looking through the documentation and rate limits, which vary by model and tier."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, GPT-4.1 has a million tokens input limit and 33,000 tokens output with high rate limits."
+        }
+      ]
+    },
+    {
+      "title": "Token Limits and Suitability for YouTube Transcript Summarization",
+      "chapter_type": "explanation",
+      "start_time": 1500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The token limits for some models are around 8,000 tokens input and 4,000 output, which is decent for summarizing YouTube videos."
+        },
+        {
+          "speaker": "Host",
+          "text": "Typical YouTube transcripts have about 200 tokens per minute, so 8,000 tokens could cover roughly 40 minutes of video."
+        },
+        {
+          "speaker": "Host",
+          "text": "This means even with token limits, you can summarize quite a bit of content if the transcript is available."
+        }
+      ]
+    },
+    {
+      "title": "Challenges with YouTube Transcripts and Tools for Accessing Them",
+      "chapter_type": "discussion",
+      "start_time": 1800.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Some videos, like the Joy of Coding series, don't have captions available, which limits transcript-based summarization."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are different links and locations for replays and transcripts, which can be confusing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Automating the process would require detecting new videos, fetching transcripts, and breaking them down into summaries and chapter titles."
+        }
+      ]
+    },
+    {
+      "title": "Using YouTube API and Python for Transcript Access",
+      "chapter_type": "discussion",
+      "start_time": 2170.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The YouTube API has Python examples, but some are quite old, requiring Python 2.6 or greater, which is outdated."
+        },
+        {
+          "speaker": "Host",
+          "text": "Most professional code now uses Python 3, and upgrading legacy code can be challenging but necessary."
+        }
+      ]
+    },
+    {
+      "title": "Enterprise Software Upgrade Challenges and Legacy Systems",
+      "chapter_type": "discussion",
+      "start_time": 2250.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In enterprise environments, some apps update quickly while others delay upgrades for years, causing support challenges."
+        },
+        {
+          "speaker": "Host",
+          "text": "Java upgrades can break things, especially with JAR files, leading to blame between dev and admin teams."
+        },
+        {
+          "speaker": "Host",
+          "text": "Coordination and communication are key to smooth upgrades, but often teams are split and reluctant to update."
+        }
+      ]
+    },
+    {
+      "title": "Windows Updates and Risks in Production Environments",
+      "chapter_type": "discussion",
+      "start_time": 2460.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Windows updates, especially security patches, can be risky and disruptive, sometimes taking a long time to install."
+        },
+        {
+          "speaker": "Host",
+          "text": "There have been incidents where Windows updates caused major outages, like airline kiosks failing to boot."
+        },
+        {
+          "speaker": "Host",
+          "text": "One notable case involved CrowdStrike software bundled with Windows causing widespread issues, leading to lawsuits."
+        }
+      ]
+    },
+    {
+      "title": "Privacy Concerns with Microsoft Recall Feature and AI Integration",
+      "chapter_type": "discussion",
+      "start_time": 2760.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Microsoft's Recall feature records everything on your screen and uses AI to help recall information later, but it has faced privacy and security concerns."
+        },
+        {
+          "speaker": "Host",
+          "text": "The feature was pushed out prematurely, then dialed back, and is being reintroduced despite limited demand."
+        }
+      ]
+    },
+    {
+      "title": "AI Integration in Mobile Devices and Performance Issues",
+      "chapter_type": "discussion",
+      "start_time": 2820.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Google's AI updates on phones can cause slowdowns during boot or screen changes, likely due to loading AI components."
+        },
+        {
+          "speaker": "Host",
+          "text": "This highlights a common issue where AI features consume significant CPU and memory, which can outweigh benefits for some users."
+        }
+      ]
+    },
+    {
+      "title": "Challenges of Developing Software for Diverse Hardware",
+      "chapter_type": "discussion",
+      "start_time": 2880.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Software is often developed and tested on high-end hardware provided by employers, but end users may have less capable devices."
+        },
+        {
+          "speaker": "Host",
+          "text": "This mismatch can cause performance issues and user dissatisfaction."
+        }
+      ]
+    },
+    {
+      "title": "Legacy Software in Law Enforcement and Healthcare",
+      "chapter_type": "discussion",
+      "start_time": 3000.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Some specialized software in law enforcement still runs on Windows Server 2003 and cannot be updated."
+        },
+        {
+          "speaker": "Host",
+          "text": "In healthcare, some tools only run on Windows, requiring remote desktop access from Macs."
+        },
+        {
+          "speaker": "Host",
+          "text": "Changes in company ownership can cause software to stop working properly, as with a chiropractor's imaging software."
+        }
+      ]
+    },
+    {
+      "title": "Planning Future Sessions and Project Ideas",
+      "chapter_type": "admin",
+      "start_time": 3160.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I need to think about project ideas for these sessions that are simple enough to do live but also practical."
+        },
+        {
+          "speaker": "Host",
+          "text": "We could also discuss weighing options for tackling problems, like where to host a database and tradeoffs involved."
+        },
+        {
+          "speaker": "Host",
+          "text": "Starting from scratch and considering options could be beneficial for learning."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll come up with some ideas for next week."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Farewell",
+      "chapter_type": "admin",
+      "start_time": 3330.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I should get going now. It was good catching up."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hopefully, I'll return with some new ideas to discuss."
+        },
+        {
+          "speaker": "Host",
+          "text": "Have a good weekend."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terminology and clarified references where context was clear.",
+    "Segmented transcript into topical chapters based on topic shifts and question changes.",
+    "Identified speaker roles based on context: Host as instructor, no clear student questions detected.",
+    "Preserved all substantive content while improving readability and flow.",
+    "Converted speech fragments into complete, coherent sentences.",
+    "Maintained chronological order and speaker intent throughout."
+  ]
+}

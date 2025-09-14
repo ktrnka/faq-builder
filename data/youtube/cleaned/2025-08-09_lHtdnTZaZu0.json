@@ -1,0 +1,323 @@
+{
+  "title": "2025-08-08T23:01:23Z - AI / Open Q & A w/Coach Keith",
+  "date": "2025-08-09",
+  "total_duration_seconds": 3868.0,
+  "chapters": [
+    {
+      "title": "Introduction and Open Q&A Start",
+      "chapter_type": "admin",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Okay. Let's see if anyone has any topics or questions they want to jump into. Feel free."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, I have a question. Nowadays, I see that large language models can be used with RAGs and other context to prepare websites. I also saw that people are using LLMs with MCP servers. It seems pretty easy to build an MCP server that utilizes the LLM. Can you tell me about the conceptual difference between these two concepts?"
+        }
+      ]
+    },
+    {
+      "title": "Explanation of RAG and MCP Concepts",
+      "chapter_type": "explanation",
+      "start_time": 57.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Sure. For others, let's get on the same page. RAG stands for Retrieval-Augmented Generation. That's when you send a question into a large language model, which searches a database or the internet, retrieves documents, and injects them into the context along with your prompt. This helps get more recent information or follow special instructions. MCP stands for Model Context Protocol, which is newer. MCP is an evolution of tool calling. Traditionally, tool calling involved implementing various tools that the LLM could call with parameters. MCP standardizes this by having the tool calls be to MCP servers rather than local Python functions. You register MCP servers, and the LLM can choose to call them or not. Implementing an MCP server is relatively easy, but MCP was designed with a local machine context in mind, so early versions lack multi-user support, authentication, and security features. You could implement a web search as an MCP server or your RAG service as MCP. If you have many different types of actions, like structured database lookups and document store queries, MCP might be better than just RAG. However, I haven't used MCP extensively, so this is based on what I know."
+        }
+      ]
+    },
+    {
+      "title": "Clarifying Differences Between RAG and MCP",
+      "chapter_type": "qa",
+      "start_time": 257.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "So if I follow RAG, I get better results, or if I build an MCP server linked with different LLMs, I get better results? That's my dilemma."
+        },
+        {
+          "speaker": "Host",
+          "text": "I see. The difference between RAG and MCP isn't about quality but about capabilities. Exposing RAG through MCP or doing RAG the traditional way yields the same quality. MCP adds flexibility and capability but doesn't inherently improve quality."
+        },
+        {
+          "speaker": "Student",
+          "text": "So MCP is doing the same RAG in their codebase?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Not exactly. You could implement RAG as an MCP server. For example, in my startup, we use Linear for tickets. We could implement an MCP server that allows Co-pilot to search and retrieve tickets from Linear. That would be a custom RAG implementation via MCP. MCP lets you inject custom capabilities into an existing LLM solution, giving more flexibility. But it doesn't fundamentally change the quality potential, just who does the work and how it's integrated."
+        },
+        {
+          "speaker": "Student",
+          "text": "Can MCP servers do other things?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes. MCP generalizes tool calling. You can have MCP servers for code checking, running security tests, linting, math computations, or even deploying frontend code, rendering it in a browser, taking screenshots, and sending that back to the LLM. It exposes computation and external capabilities to the LLM."
+        }
+      ]
+    },
+    {
+      "title": "Using MCP Servers for Project Support and Code Assistance",
+      "chapter_type": "qa",
+      "start_time": 485.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "If I make an MCP server to find bugs in a project, can I do that?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, if you implement the MCP server, it can perform those actions."
+        },
+        {
+          "speaker": "Student",
+          "text": "What advantages would I get from implementing an MCP server?"
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're working with something like Co-pilot, for documentation it's best to put files in accessible locations so Co-pilot can access them directly without MCP. But for dynamic data like tickets or Discord logs, you could implement an MCP server to allow searching those sources. That way, Co-pilot can look up recent discussions or project info."
+        },
+        {
+          "speaker": "Student",
+          "text": "My project uses RAG. If I implement MCP, will they conflict?"
+        },
+        {
+          "speaker": "Host",
+          "text": "You want MCP capability in addition to RAG? MCP can be added, but it depends on your implementation."
+        },
+        {
+          "speaker": "Student",
+          "text": "In our project, we have a Discord board where help requests come in, supported by a coding tutor. If I want to use MCP to extract conversations and provide code help, can I do that?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Are you the user or developer of the coding tutor?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Developer, and I want it to assist in coding."
+        },
+        {
+          "speaker": "Host",
+          "text": "Those are different implementations. For assisting code evaluation or correction within the coding tutor, tool calling is probably easier and safer than MCP. MCP involves opening a port and sending data over the network, which requires security and network configuration. Function calling is more straightforward for code processing."
+        },
+        {
+          "speaker": "Student",
+          "text": "So I should write a function to do that?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, function calling is the traditional approach. MCP is more for exposing external services over the network."
+        },
+        {
+          "speaker": "Student",
+          "text": "I thought MCP could extract code issues and give instant guidance to users."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can do that, but MCP doesn't give you anything for free. I recommend trying tutorials on function calling and MCP to compare. MCP adds complexity and doesn't inherently improve response quality."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on Prompt Engineering and Project Challenges",
+      "chapter_type": "discussion",
+      "start_time": 900.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I was thinking about the price and how students could get feedback within seconds or minutes instead of waiting 24 to 48 hours for peer review."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's exactly what the coding tutor project aims to do. MCP isn't the solution to the problems causing delays. The challenges are more about integration, security, and cost."
+        },
+        {
+          "speaker": "Student",
+          "text": "What are possible solutions for getting prompt code assessments?"
+        },
+        {
+          "speaker": "Host",
+          "text": "You can do a decent solution with prompt engineering alone. Just send the student's code with instructions on how to advise them, get the output, and send it back. The hard part is hooking it up live, securely, and running 24/7. You don't need RAG or MCP for general programming help. RAG is used when students ask about specific lessons or recent info that the base LLM doesn't know."
+        },
+        {
+          "speaker": "Student",
+          "text": "I tested prompt engineering with ChatGPT and other models, and they give responsive answers for basic coding."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. For basic coding, LLMs are already good. You only need RAG if you want to incorporate recent or specific lesson content."
+        },
+        {
+          "speaker": "Student",
+          "text": "I was thinking MCP could extract from LLMs and deliver guidance instantly."
+        },
+        {
+          "speaker": "Host",
+          "text": "Really, you just need an API call to OpenAI or similar. Your coding tutor already uses the OpenAI API, so you don't need anything new for coding assistance."
+        },
+        {
+          "speaker": "Student",
+          "text": "So MCP isn't necessary for this kind of coding help?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Correct. MCP is useful for niche cases or advanced scenarios, like new programming languages or libraries where RAG helps provide up-to-date info."
+        },
+        {
+          "speaker": "Student",
+          "text": "Our students are at a basic level, and LLMs cover that well."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, basic coding is well covered by existing LLMs."
+        },
+        {
+          "speaker": "Student",
+          "text": "Our RAG is already hooked up to Discord. Can MCP and RAG exchange prompts?"
+        },
+        {
+          "speaker": "Host",
+          "text": "You can talk to the team if the prompt isn't working well. The reason Discord integration is slow is due to security and cost concerns. Running a 24/7 server and securing Discord tokens is tricky."
+        }
+      ]
+    },
+    {
+      "title": "Wrap-up of Q&A and Transition to Live Coding",
+      "chapter_type": "admin",
+      "start_time": 1300.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Thank you so much, sir."
+        },
+        {
+          "speaker": "Host",
+          "text": "You're welcome. I recommend exploring function calling and MCP tutorials to understand their differences better."
+        },
+        {
+          "speaker": "Host",
+          "text": "Anyone else have topics or questions? If not, I'll do some coding and we can chat through that."
+        },
+        {
+          "speaker": "Other",
+          "text": "I'm a fly on the wall. I'm interested in whatever you do, Keith."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right on. Let me get set up for some coding. If you remember any questions or topics, just bring them up."
+        }
+      ]
+    },
+    {
+      "title": "Live Coding: Building a Volunteer Event Aggregator",
+      "chapter_type": "live_coding",
+      "start_time": 1340.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'll start with a demo. I volunteer with the Green Seattle Partnership, which helps restore parks and native woodlands. They have many events, but not all are listed in one place. For example, some events are on different websites. I started building an aggregator to merge all these sources into one list. For instance, the Magnuson reforestation event was listed on three different sites. My code merges these into one line item, though some merges aren't perfect yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "I added a Google button so I can easily add events to my calendar. I found a local blog for the Fremont neighborhood that posts volunteer events not listed on official calendars. They might not get many volunteers because of that. I'd like to integrate this blog into the aggregator."
+        },
+        {
+          "speaker": "Host",
+          "text": "The blog has a mix of posts, some events, some not. It has a volunteering category, but not all posts there are events. I want to download the RSS feed and classify posts to identify volunteer events, their dates, times, locations, and activities."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some events involve light tasks like picking up litter; others are more strenuous like weeding. We want to capture these details."
+        },
+        {
+          "speaker": "Host",
+          "text": "First, let's find the RSS feed. After some searching, I found it. I'll download it into the repo's test data folder."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll use VS Code's agent mode to run a curl command to fetch the RSS feed. The feed is generated by WordPress and includes event details like cleanup dates and locations."
+        },
+        {
+          "speaker": "Host",
+          "text": "I started some experiments with prompts to extract event data but ran into some issues. For example, time zone handling is tricky because posts assume local time but code needs explicit time zones."
+        },
+        {
+          "speaker": "Host",
+          "text": "I looked at the test code which loads the RSS data and runs it through the Fremont neighborhood extractor. The extractor returns a list of events with titles, venues, start and end times, and URLs."
+        },
+        {
+          "speaker": "Host",
+          "text": "The event model uses Pydantic for validation. Some tests could be improved, but overall the structure is sound."
+        },
+        {
+          "speaker": "Host",
+          "text": "The extractor parses the RSS XML into a shallow article representation and then extracts event data using the LLM. It checks categories like volunteering and parks."
+        },
+        {
+          "speaker": "Host",
+          "text": "I prefer using sets for keyword checks for performance, but for small lists it's negligible."
+        },
+        {
+          "speaker": "Host",
+          "text": "The extraction prompt uses GPT-4 mini, which is outdated. We should use GPT-4.1 or newer. The prompt asks for JSON output of volunteer events with specific dates."
+        },
+        {
+          "speaker": "Host",
+          "text": "The current code parses LLM responses by searching for JSON in the text, which is unreliable and prone to errors. Modern approaches use structured response formats with Pydantic models."
+        },
+        {
+          "speaker": "Host",
+          "text": "The prompt instructs the LLM to extract one event, but some posts mention multiple events. We need to adjust the prompt and parsing to handle multiple events."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll work on setting a response format that allows an arbitrary number of events and update the model accordingly."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm using GitHub's LLM endpoint, which is compatible with OpenAI's API but requires a GitHub token."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll pause coding here and see if anyone has questions."
+        }
+      ]
+    },
+    {
+      "title": "Closing Remarks and Next Steps",
+      "chapter_type": "admin",
+      "start_time": 3736.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Since there are no questions, I'll get started on dinner and come back later to clean up the AI-generated code. I need to add guidelines for processing multiple events and implement caching to avoid repeated LLM calls during tests, which could exhaust usage quotas."
+        },
+        {
+          "speaker": "Host",
+          "text": "It was a good session. We talked through useful topics and made progress on a project that's been on my list. I hope you all have a good rest of your weekend."
+        },
+        {
+          "speaker": "Other",
+          "text": "Same to you. Thank you."
+        },
+        {
+          "speaker": "Host",
+          "text": "Alright, shutting down the screen share now."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terms such as 'RAG' (Retrieval-Augmented Generation) and 'MCP' (Model Context Protocol).",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into logical chapters based on topic shifts and conversation flow.",
+    "Preserved all substantive content and maintained natural conversational tone.",
+    "Transformed speech fragments into complete, coherent sentences for readability."
+  ]
+}

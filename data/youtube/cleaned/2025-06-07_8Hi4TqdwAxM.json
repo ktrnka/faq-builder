@@ -1,0 +1,480 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-06-07",
+  "total_duration_seconds": 4262.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Side Project Overview",
+      "chapter_type": "admin",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Recording started. I looked over some of the projects and came up with another idea, but it turned out to be a bit challenging for this session. I'll work on this side project I have to auto-update the README. Feel free to ask me questions about what I'm up to or bring up other topics on your mind."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice to see a new face. Ro, it's me. How's it going? Hey Keith, welcome."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you. I'm just getting set up here to work on a side project. If you have any topics on your mind, feel free to chat about them."
+        }
+      ]
+    },
+    {
+      "title": "Student Inquiry: Using ChatGPT in Data Science Careers",
+      "chapter_type": "qa",
+      "start_time": 70.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I've been learning more about data science and taking courses. I'm also learning Python through Joy of Coding. My big challenge is picking a direction. I like data science and analyzing figures and reports. My question is, when people get jobs in data science, do they use ChatGPT to help with research or pulling up reports? I've seen interviews where they say you need to know Python and understand ChatGPT, so they seem to go hand in hand. What's your take on that for someone wanting to get hired as a data scientist?"
+        },
+        {
+          "speaker": "Host",
+          "text": "That's a good question. I don't have all the answers because I've been doing side projects and out of the formal workforce for the last year. Things have changed a lot recently. From what I've seen and heard, people use ChatGPT as an essential tool for learning and troubleshooting, like figuring out weird error messages or how to do visualizations. However, I haven't seen anyone doing actual visualization analysis entirely with ChatGPT in real work—mostly demos."
+        },
+        {
+          "speaker": "Host",
+          "text": "General purpose use of ChatGPT is valuable. You should hone your skills in it to code better and faster and to learn more efficiently. I use it for some kinds of visualization, mainly for learning."
+        }
+      ]
+    },
+    {
+      "title": "Host Explains a Data Science Side Project Using Seattle Open Data",
+      "chapter_type": "explanation",
+      "start_time": 240.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let me share an example of how I used ChatGPT recently. I live in Seattle and have been doing volunteer work like picking up litter and cleaning storm drains. The City of Seattle has many open data sets, which is great, but the hard part is finding the right data because of obscure names."
+        },
+        {
+          "speaker": "Host",
+          "text": "I was thinking about storm drains and how to know which ones need attention. There's an app called Find It, Fix It where people report issues like damaged signs, garbage dumping, potholes, and clogged storm drains. I wanted to prioritize where to clear out first."
+        },
+        {
+          "speaker": "Host",
+          "text": "I used Perplexity, which is like ChatGPT, to find if this data was available without clicking through many websites. It confirmed the data was there. I went to the portal, found the data, and wanted to visualize it as a heat map of storm drain blockage hotspots."
+        },
+        {
+          "speaker": "Host",
+          "text": "It recommended third-party tools where I could download CSV files and plot them. But it didn't tell me that the Seattle data website has a built-in map-based plot feature. So I went through extra steps, but that’s part of learning different platforms."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on Visualization Tools and Data Challenges",
+      "chapter_type": "discussion",
+      "start_time": 510.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I'll have to check out that website. So you just play with the data and practice visualizing it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. AI systems can redirect you to popular visualization tools like Kepler.gl for map visualizations. The site runs quickly but doesn't have clear data on every web page. Some information might be buried in videos or obscure places."
+        },
+        {
+          "speaker": "Host",
+          "text": "You get a sense that AI is good at common things but oblivious about uncommon ones. For example, I was trying to visualize storm drain data with map plotting tools but had to log in again, which was a bit annoying."
+        }
+      ]
+    },
+    {
+      "title": "Sharing a Data Science Pipeline Visual and Session Setup",
+      "chapter_type": "admin",
+      "start_time": 660.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I also have a visual from my data science class showing a data science pipeline. One of the teachers made a great infographic about roles like data engineer, data scientist, and machine learning engineer, and how their responsibilities overlap."
+        },
+        {
+          "speaker": "Host",
+          "text": "Unfortunately, the boot camp I attended went defunct last year, which is a shame. Let me try to share the visual now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sorry for the delay. I’m opening Adobe Acrobat to show the visual. It’s a bit slow, but I’ll get it up shortly."
+        }
+      ]
+    },
+    {
+      "title": "Explaining the Data Science Pipeline Visual",
+      "chapter_type": "explanation",
+      "start_time": 900.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Here’s the visual. It shows the flow from data to information, knowledge, and intelligence. It also maps roles like data engineer, data scientist, and machine learning engineer, showing how their tasks overlap."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even though this visual is from six years ago, it’s still relevant with some updates. It captures a lot about data science in a simple infographic."
+        },
+        {
+          "speaker": "Student",
+          "text": "That’s pretty cool. I think SQL is important to know too."
+        }
+      ]
+    },
+    {
+      "title": "Student Question: Essential Skills for Aspiring Data Scientists",
+      "chapter_type": "qa",
+      "start_time": 1000.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "If you’re looking to get a data scientist role, what other programs or fundamentals should we know, especially with things changing fast due to AI?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Each hiring manager has different goals, so job descriptions vary. Generally, I look for Python programming skills, ability to do data analysis and visualization."
+        },
+        {
+          "speaker": "Host",
+          "text": "More importantly, I look for the thought process. When analyzing data, it’s easy to fool yourself. Good candidates have ways to check their work and investigate carefully."
+        },
+        {
+          "speaker": "Host",
+          "text": "Visualization is about communication—telling a story tailored to the audience, whether technical or non-technical."
+        }
+      ]
+    },
+    {
+      "title": "Example Interview Scenario and Data Analysis Skills",
+      "chapter_type": "explanation",
+      "start_time": 1100.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "For example, in an interview, I might give a take-home assignment with game data and ask if players from certain countries perform better. To answer, you need comfort with statistics and understanding data distribution."
+        },
+        {
+          "speaker": "Host",
+          "text": "A good candidate asks about the audience and chooses appropriate visualizations like box plots to show data range and variability."
+        },
+        {
+          "speaker": "Host",
+          "text": "I once gave a data set with no bias to see if candidates would notice. It’s important to check sample size and distribution to avoid false conclusions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even in a ChatGPT world, you need to avoid fooling yourself because data and AI can both mislead."
+        }
+      ]
+    },
+    {
+      "title": "Host Shares Seattle Storm Drain Data Visualization",
+      "chapter_type": "live_coding",
+      "start_time": 1300.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let me show you the storm drain data visualization from the City of Seattle. The data includes reports from the Find It, Fix It app with location coordinates."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can edit the data and map it by latitude and longitude to see points representing reports. The data includes various types like abandoned vehicles, graffiti, dumping, but I focus on storm drains."
+        },
+        {
+          "speaker": "Host",
+          "text": "I tried to filter data for the last year, but the system interpreted 'last year' as the previous calendar year, not the last 365 days. So I adjusted to 720 days to get two years of data."
+        },
+        {
+          "speaker": "Host",
+          "text": "The visualization shows clusters of reports, but some areas at hilltops have clogged drains, which seems unlikely. Seattle is hilly, so drainage should be downhill. This suggests other factors affect the data."
+        }
+      ]
+    },
+    {
+      "title": "Analyzing Data with Topographical Context",
+      "chapter_type": "explanation",
+      "start_time": 1500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I compared the data with a topographical map showing contours of Seattle’s hills and valleys. Some hotspots align with valleys where water collects, but others don’t, indicating complexities."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some reports might be due to local dumping like grass clippings blocking drains. Reporting bias is possible if some neighborhoods report more than others."
+        },
+        {
+          "speaker": "Host",
+          "text": "This kind of detective work is typical in data science—trying to understand what the data really tells you and what might be missing."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on Data Bias and Reporting Patterns",
+      "chapter_type": "discussion",
+      "start_time": 1700.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Are there multiple reports for the same drain?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, reports are grouped but sometimes split when zoomed in. The system uses a proprietary visualization tool, so documentation is limited compared to standard tools like Tableau."
+        },
+        {
+          "speaker": "Host",
+          "text": "Activism can cause multiple reports for the same issue, which biases the data but can help get problems fixed."
+        },
+        {
+          "speaker": "Host",
+          "text": "Personally identifiable information is removed for privacy, so it’s hard to tell if reports come from one person or many."
+        }
+      ]
+    },
+    {
+      "title": "Exploring Additional Data Layers and Bias Mitigation",
+      "chapter_type": "explanation",
+      "start_time": 1900.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "It would be helpful to have GIS data on sewer system layouts to group reports by actual drainage systems rather than just geographic proximity."
+        },
+        {
+          "speaker": "Host",
+          "text": "I also looked at other complaint types like abandoned vehicles, graffiti, and scooters to check for reporting bias across neighborhoods."
+        },
+        {
+          "speaker": "Host",
+          "text": "Scooter complaints often involve blocking sidewalks, which affects accessibility for people with mobility aids."
+        }
+      ]
+    },
+    {
+      "title": "Visualizing Population and Complaint Distribution",
+      "chapter_type": "explanation",
+      "start_time": 2100.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Zooming out, complaint density roughly matches population distribution. Some areas like gated communities or university campuses have different reporting patterns."
+        },
+        {
+          "speaker": "Host",
+          "text": "This helps understand where people live and report issues, which is important for interpreting the data."
+        }
+      ]
+    },
+    {
+      "title": "Challenges with Data Integration and Automation",
+      "chapter_type": "discussion",
+      "start_time": 2250.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The data is in the city’s system, so to auto-update visualizations, I’d need to do more work or use their platform. I want to overlay topographical info for better insights."
+        },
+        {
+          "speaker": "Host",
+          "text": "I’m also curious if data on recent service or repairs is available, so I don’t spend time on already fixed drains."
+        }
+      ]
+    },
+    {
+      "title": "Student Shares Learning Progress and Questions About Job Expectations",
+      "chapter_type": "qa",
+      "start_time": 2310.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I’ve been taking courses on DataCamp, working with datasets using Matplotlib and Seaborn. I’m learning sorting and data manipulation."
+        },
+        {
+          "speaker": "Student",
+          "text": "I understand the mechanics but wonder about the kinds of questions asked on the job. Are you expected to do your own research or respond to specific requests like analyzing storm drain reports and making a report?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Usually, someone higher up has a need or complaint, and you’re asked to investigate and report on it. Sometimes teams are proactive and look for ways to improve efficiency or anticipate issues."
+        }
+      ]
+    },
+    {
+      "title": "Host Shares Experience with Data Science in Gaming Industry",
+      "chapter_type": "explanation",
+      "start_time": 2400.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In gaming, data teams get questions about game balance, like whether chopping trees gives too much or too little in-game gold. These come from player complaints."
+        },
+        {
+          "speaker": "Host",
+          "text": "They respond to immediate concerns but also step back to see the big picture, like balancing options for beginners versus experts."
+        },
+        {
+          "speaker": "Host",
+          "text": "Experts are a small percentage but vocal on forums, so explaining data to different audiences is important."
+        }
+      ]
+    },
+    {
+      "title": "Insights on Data Science Realities and Office Politics",
+      "chapter_type": "discussion",
+      "start_time": 2500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Many people think data decides everything, but in reality, data is often incomplete and biased. Leaders may have pre-existing beliefs and use data to support their agenda."
+        },
+        {
+          "speaker": "Host",
+          "text": "Office politics frequently affect data science decisions. It’s important to recognize data’s limitations and try to understand the full story."
+        }
+      ]
+    },
+    {
+      "title": "Ethical Considerations in Data Science and Machine Learning",
+      "chapter_type": "discussion",
+      "start_time": 2600.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Ethics also come into play. I heard a story about a school using data to identify students at risk, but instead of helping them, they used it to disenroll them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Machine learning projects sometimes proceed without careful thought, leading to harmful outcomes. More ethics training is needed in the field."
+        },
+        {
+          "speaker": "Host",
+          "text": "Ethical dilemmas can catch you off guard, and it’s challenging to know how to respond appropriately."
+        }
+      ]
+    },
+    {
+      "title": "Legislation and Regulation Challenges for AI and Software",
+      "chapter_type": "discussion",
+      "start_time": 2700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Legislation hasn’t caught up with AI and machine learning. Software doesn’t have the same rigorous safety and regulatory standards as fields like mechanical engineering."
+        },
+        {
+          "speaker": "Host",
+          "text": "Ethically dubious software choices can cause harm long before legal consequences arise. I hope awareness and regulation improve over time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Maybe someday there will be ethical certification for AI systems, similar to regulatory bodies in other tech domains."
+        }
+      ]
+    },
+    {
+      "title": "Using ChatGPT to Brainstorm Ethical Issues in Data Projects",
+      "chapter_type": "live_coding",
+      "start_time": 2800.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let me show how to use ChatGPT to brainstorm ethical problems in directing service budgets for storm drain maintenance."
+        },
+        {
+          "speaker": "Host",
+          "text": "I asked ChatGPT to help identify possible ethical issues. It flagged concerns like reporting bias favoring tech-savvy, higher-income residents, complaint visibility, and historical disinvestment."
+        },
+        {
+          "speaker": "Host",
+          "text": "It suggested mitigations like equity weighting, minimum spending floors per neighborhood, blending reactive complaints with predictive data, and multilingual reporting options."
+        },
+        {
+          "speaker": "Host",
+          "text": "Duplicate reports can inflate hotspots, and lack of transparency in ranking can make it seem like favoritism. Privacy and safety risks also arise."
+        }
+      ]
+    },
+    {
+      "title": "Further Ethical Considerations and Community Engagement",
+      "chapter_type": "discussion",
+      "start_time": 2900.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Mass reporting could increase noise or air pollution if equipment is overused. Focusing only on hotspots might delay preventative maintenance, causing costlier failures later."
+        },
+        {
+          "speaker": "Host",
+          "text": "Community engagement and regulatory compliance are important to address these issues."
+        },
+        {
+          "speaker": "Host",
+          "text": "Using existing LLMs thoughtfully can help make data science work more ethical, even if the models themselves aren’t designed specifically for ethics."
+        }
+      ]
+    },
+    {
+      "title": "Historical Example of Reporting Bias in Smartphone Apps",
+      "chapter_type": "discussion",
+      "start_time": 3000.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "There’s a famous example from Boston where a smartphone app detected potholes by sensing bumps. It found potholes mostly in rich neighborhoods because those areas had more smartphone users."
+        },
+        {
+          "speaker": "Host",
+          "text": "When they realized the bias, they shut down the project. Smartphone apps still skew toward higher-income users, though less than before."
+        }
+      ]
+    },
+    {
+      "title": "Host Reflects on Using AI Tools for Coding and Learning",
+      "chapter_type": "discussion",
+      "start_time": 3060.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I’ve been meaning to do more Q&A and development sessions showing how I use ChatGPT and Perplexity to write code better and explore unfamiliar areas."
+        },
+        {
+          "speaker": "Host",
+          "text": "This report on ethical issues would be helpful for you. It’s interesting to see how AI can assist in these tasks."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Farewell",
+      "chapter_type": "admin",
+      "start_time": 3120.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Thanks for going over this and answering my questions, Keith. I learned a lot and appreciate it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Glad I could help. It’s fun to talk about data science and storytelling. Not many people ask about the data side of things."
+        },
+        {
+          "speaker": "Host",
+          "text": "Alright, I’ll let you go. Have a good weekend. Take care."
+        },
+        {
+          "speaker": "Student",
+          "text": "You too. Thanks. Bye."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words such as 'um', 'uh', 'like', and speech disfluencies to improve readability.",
+    "Corrected transcription errors and clarified references based on context.",
+    "Identified speakers as Host and Student based on dialogue cues.",
+    "Segmented transcript into chapters based on topic shifts and question boundaries.",
+    "Classified chapters according to content type: admin, qa, explanation, live_coding, and discussion.",
+    "Maintained chronological order and preserved speaker intent and tone throughout.",
+    "Transformed speech fragments into complete, coherent sentences for natural flow."
+  ]
+}

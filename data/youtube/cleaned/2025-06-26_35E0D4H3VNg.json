@@ -1,0 +1,645 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-06-26",
+  "total_duration_seconds": 5095.0,
+  "chapters": [
+    {
+      "title": "Casual Greetings and Personal Updates",
+      "chapter_type": "discussion",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Other",
+          "text": "Can I put your bagel in a container or do you prefer to keep it outside?"
+        },
+        {
+          "speaker": "Other",
+          "text": "Outside. Not in the fridge. It gets really hard in the fridge."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hey."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hey."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hey, Melissa."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hello."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hello. Hello. How's Spain?"
+        },
+        {
+          "speaker": "Student",
+          "text": "It is going very well. My niece is here tonight. I don't know if you can hear her. She's screaming upstairs. But it's nice. It's going really well. I'm still having kind of a hard time adjusting to the time."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, I guess that's what it is. I've been here two weeks now, but I still have a hard time sleeping at night and also getting up in the morning. Even when I keep my timing right, my brain's not caught up yet. It doesn't start thinking well until super late at night when it would normally be my usual time to work at home. So, I'm still figuring it out."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, that's a vicious cycle if you don't go to sleep on time."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hopefully I'll get it figured out all day. I'll probably get it figured out just in time to come home."
+        },
+        {
+          "speaker": "Host",
+          "text": "That is exactly how that works, huh?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, I'm over in Hawaii, but I'm still working most days, so I'm still kind of on West Coast time."
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh, wow. So, are you there on vacation or...?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Kind of. It's a family reunion. My mom's from out here. A bunch of her cousins and their families still live out here. So every few years we do a family reunion. It rotates between families in California, Hawaii, or Utah area."
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh wow, that's cool. Which island are you on?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We are on Oahu."
+        },
+        {
+          "speaker": "Student",
+          "text": "Nice. I was there."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah. We stayed around Honolulu for the first few days and then up in the northwest area of the island."
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh, nice. My family stays over there in Kailua around the North Shore side. I'm in Waikiki. We also did a couple days on the Big Island. We got super lucky and got to see the volcano erupt. That was really cool and very humbling what nature can do."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice. I did not get a chance to do much last week either, Melissa. No worries. These projects always start off slow and then speed up as everybody ramps up. It's never a linear process. It's always slow builds, but then you get a lot of compound interest as you get ramped up."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's good right now. Let's hope. I'm going to go ahead and mute in case your niece gets loud again so you don't have to listen to her."
+        },
+        {
+          "speaker": "Student",
+          "text": "No worries. I didn't hear her at all. Zoom filtering is good."
+        },
+        {
+          "speaker": "Host",
+          "text": "Did you hear anything?"
+        },
+        {
+          "speaker": "Student",
+          "text": "No, not at all. I literally ground some coffee right next to the mic. Not sure if it was Apple's filtering or Zoom's, but my team couldn't hear anything. I was blown away."
+        },
+        {
+          "speaker": "Host",
+          "text": "Wow, that's cool. I'll stay unmuted then, but if you hear anything that makes it hard to concentrate, just let me know and I'll mute."
+        },
+        {
+          "speaker": "Student",
+          "text": "Sounds good."
+        }
+      ]
+    },
+    {
+      "title": "Explaining Agile Spikes and Project Workflow",
+      "chapter_type": "explanation",
+      "start_time": 328.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Nick, I posted some questions for you in the chat whenever you have time to answer them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sure, we can run through them quickly. First question: you saw a spike. What's a spike?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Typically in Scrum, which is a flavor of Agile, a spike is a story that doesn't end in code. Most stories end in some kind of user value or shippable thing that the PM can review. It's about incremental development and defining the next milestone."
+        },
+        {
+          "speaker": "Host",
+          "text": "Usually, you have a pull request associated with a story with code to review. A spike is a story without that output. You might do some coding, but it's experimental or off to the side."
+        },
+        {
+          "speaker": "Student",
+          "text": "So a spike is like research?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. You can be doing research or coding a quick prototype. It can be throwaway code without tests or proper structure. The goal is to get results from the experiment, like testing a framework or comparing approaches."
+        },
+        {
+          "speaker": "Student",
+          "text": "That makes sense. I could apply that to support local."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, it's a useful tool in the toolbox."
+        },
+        {
+          "speaker": "Student",
+          "text": "For the AWS access, I'm looking into that now. I thought I got it, but I wasn't able to log in because I was using my old username. I was set up with a new username and will try logging in before screen sharing."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is Code Tutor set up for unit testing?"
+        },
+        {
+          "speaker": "Host",
+          "text": "No, not at all. That's something we're interested in. Melissa has experience setting it up from the ground up on personal projects."
+        },
+        {
+          "speaker": "Student",
+          "text": "Good. I watched a replay from a couple weeks ago and tests were mentioned, so I thought about writing unit test tickets."
+        },
+        {
+          "speaker": "Host",
+          "text": "We don't have pytest or any framework set up yet. That'll be the first ticket for support local."
+        },
+        {
+          "speaker": "Student",
+          "text": "Do you have CI/CD set up?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, we use Vitest and Cypress for end-to-end testing. We have workflows that run all tests whenever anyone pushes to their pull request. Kevin set that up. I'm not sure exactly how it works, but it's there."
+        },
+        {
+          "speaker": "Host",
+          "text": "The basic flow is: someone does work, creates a pull request, it runs checks and deploys to a preview environment. After peer and senior review, it gets manually merged. If tests, linters, or formatting fail, merging is blocked."
+        },
+        {
+          "speaker": "Student",
+          "text": "Sounds like a good setup. That's how it works in my job too. We learned a lot from Off-Road Funfinder."
+        }
+      ]
+    },
+    {
+      "title": "Project Setup and Ticket Management",
+      "chapter_type": "live_coding",
+      "start_time": 675.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'm pinging Adam to see if he can resend that email because it's not letting me in."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks for answering all my questions, Nick. I appreciate it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good questions. Let's see. He's typing on his phone. Hopefully he's near his computer. Otherwise, we can start setting up some things."
+        },
+        {
+          "speaker": "Host",
+          "text": "I still need to clean up the README, so we can go through that quickly. Then I want to set up Lang Smith after this to start doing some evaluation. That would be a good exercise."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, he's not at his computer right now, so we can walk through that."
+        },
+        {
+          "speaker": "Host",
+          "text": "Updating Lang Smith and the README."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do we have a Jira project set up? Maybe we can start cleaning up some tickets. We have a project board on GitHub."
+        },
+        {
+          "speaker": "Host",
+          "text": "I have access to this GitHub. I think we have a PR to review. Somebody was using Cursor. That's Adam."
+        },
+        {
+          "speaker": "Host",
+          "text": "Looks like a bunch of tickets are really old. I don't know if we've used them for anything. Definitely the ones I made we can close."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some are bugs, some are ideas. I'll keep the bugs and close the rest. For example, the S3 image saving ticket."
+        },
+        {
+          "speaker": "Host",
+          "text": "I see you as an outside collaborator on the GitHub organization, so you don't have a seat on the team."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some tickets like Strike PDF might not be relevant, so I'll close those."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll go through and make sure bugs are fixed and close everything else."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some tickets are too big for a single ticket, like support for multiple sources. The web stuff is mostly inactive, so I'll close those."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have two tickets for product setup. Before adding unit tests, we need to add the whole framework, like pytest, and hook it into GitHub Actions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you use sub-issues or checkboxes in tickets?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Not really, unless it's part of a story."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, I'll just do it like this. Setup pytest, add to dev dependencies, add configuration file, write a unit test, and hook it into GitHub Actions."
+        },
+        {
+          "speaker": "Student",
+          "text": "I haven't done hooking it into GitHub Actions, but I can research it and figure it out."
+        },
+        {
+          "speaker": "Host",
+          "text": "If it's a lot, we can make it its own story. We can update the title to 'Set up testing framework'."
+        },
+        {
+          "speaker": "Host",
+          "text": "We want pytest to run with every pull request so we can safely and confidently deploy changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "As a developer, I want to run regression tests to make sure my changes don't break existing functionality and confidently push changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll go through the rest of the bugs later to see what's still relevant."
+        },
+        {
+          "speaker": "Host",
+          "text": "Are we trying to get this project set up so interns can come in and work on it like they do on support local?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Yes, that's the goal."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you want me to create a section in the README to explain how to set up pytest, file placement, checking coverage, and command line usage for new interns?"
+        },
+        {
+          "speaker": "Student",
+          "text": "That would be great. Many new developers may not know how to do that initially."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good. As a new developer, I want to be familiar with how we run tests."
+        }
+      ]
+    },
+    {
+      "title": "Access and Permissions Discussion",
+      "chapter_type": "qa",
+      "start_time": 1750.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Nick, I sent you an invite to the Code Tutor team."
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh, cool. I'll hop on that."
+        },
+        {
+          "speaker": "Host",
+          "text": "Melissa, do you have access to the Code Tutor project board?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I believe so. Let me check."
+        },
+        {
+          "speaker": "Student",
+          "text": "I have many GitHub windows open and need to find the right one."
+        },
+        {
+          "speaker": "Student",
+          "text": "I thought I had access, but now I don't see the project board."
+        },
+        {
+          "speaker": "Host",
+          "text": "You should have it. Oh, there it is."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yep, I have it now. I was experimenting on this."
+        },
+        {
+          "speaker": "Host",
+          "text": "I had to add the board to the team. Nick and Matthew are outside collaborators, so they have access to the repository but not the board. The invite moved your seat from outside collaborator to member but didn't add anything extra."
+        },
+        {
+          "speaker": "Student",
+          "text": "Got it. So now we're official."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm going to do the same for Matthew and send you a message."
+        }
+      ]
+    },
+    {
+      "title": "Managing Dependencies with Poetry",
+      "chapter_type": "live_coding",
+      "start_time": 1930.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Adding pytest to the dependencies."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's 2023. There should be a way to do this now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Looking at Poetry documentation for managing dependencies."
+        },
+        {
+          "speaker": "Host",
+          "text": "Adding test dependencies group in pyproject.toml."
+        },
+        {
+          "speaker": "Host",
+          "text": "Adding issues to the project board."
+        },
+        {
+          "speaker": "Host",
+          "text": "Poetry allows grouping dependencies so test dependencies aren't installed in production."
+        },
+        {
+          "speaker": "Host",
+          "text": "Langraph CLI is a dev dependency and should be grouped accordingly."
+        },
+        {
+          "speaker": "Host",
+          "text": "Deleted my environment to create a new one and install everything fresh after manual changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "Using Poetry commands to manage virtual environments and dependencies."
+        },
+        {
+          "speaker": "Host",
+          "text": "Upgraded Python version to 3.11.9 using pyenv."
+        },
+        {
+          "speaker": "Host",
+          "text": "Explained Unix piping and the philosophy of doing one thing well and chaining commands."
+        },
+        {
+          "speaker": "Host",
+          "text": "Discussed the usefulness of Unix basics for productivity, even in cutting-edge AI work."
+        },
+        {
+          "speaker": "Host",
+          "text": "Configured Poetry to use Python 3.11.9 and managed virtual environments in VS Code."
+        },
+        {
+          "speaker": "Host",
+          "text": "Installed project dependencies with Poetry and verified the virtual environment is active."
+        },
+        {
+          "speaker": "Host",
+          "text": "Discussed the project structure with subfolders and the possibility of making it a monorepo."
+        },
+        {
+          "speaker": "Host",
+          "text": "Explained Poetry as a tool for managing dependencies and virtual environments instead of requirements.txt."
+        },
+        {
+          "speaker": "Host",
+          "text": "Shared links to Poetry documentation and explained grouping dependencies for development and production."
+        },
+        {
+          "speaker": "Host",
+          "text": "Deleted and recreated virtual environment to test installation."
+        },
+        {
+          "speaker": "Host",
+          "text": "Used Poetry commands to list virtual environments and select the correct Python interpreter in VS Code."
+        },
+        {
+          "speaker": "Host",
+          "text": "Demonstrated troubleshooting virtual environment activation and interpreter selection."
+        },
+        {
+          "speaker": "Host",
+          "text": "Checked installed packages with pip list inside the virtual environment."
+        },
+        {
+          "speaker": "Host",
+          "text": "Installed project dependencies with poetry install."
+        },
+        {
+          "speaker": "Host",
+          "text": "Discussed switching between subfolders and virtual environments and suggested making the project a monorepo."
+        }
+      ]
+    },
+    {
+      "title": "Code Cleanup and Git Workflow",
+      "chapter_type": "live_coding",
+      "start_time": 3360.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Reviewed changes made to Dockerfile and database connection string."
+        },
+        {
+          "speaker": "Host",
+          "text": "Explained some code added by Adam to simplify deployment by passing a single connection string."
+        },
+        {
+          "speaker": "Host",
+          "text": "Mentioned git blame plugin to see who wrote code."
+        },
+        {
+          "speaker": "Host",
+          "text": "Deleted unused AWS CLI deployment code."
+        },
+        {
+          "speaker": "Host",
+          "text": "Discussed langraph API folder holding pickled files and added it to .gitignore."
+        },
+        {
+          "speaker": "Host",
+          "text": "Left notes for future self to remember project details."
+        },
+        {
+          "speaker": "Host",
+          "text": "Mentioned self-correcting agent added for the project."
+        },
+        {
+          "speaker": "Host",
+          "text": "Noted ETL didn't have a Dockerfile and Adam had a branch for it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Announced wrapping up the session in about 10 minutes but the session is recorded."
+        },
+        {
+          "speaker": "Host",
+          "text": "Plan to branch off Adam's branch and add similar changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "Cleaned up dependencies, verified fresh install, updated Docker Compose for new code structure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Removed unused langraph CLI files and added necessary ignores."
+        },
+        {
+          "speaker": "Host",
+          "text": "Discussed pull request and branching naming conventions, suggested using name/Jira ticket format."
+        },
+        {
+          "speaker": "Host",
+          "text": "Created issues for today's work, including verifying Poetry config and Langraph CLI development."
+        },
+        {
+          "speaker": "Host",
+          "text": "Added commit messages and pushed changes with automatic remote setup."
+        },
+        {
+          "speaker": "Host",
+          "text": "Demonstrated creating pull requests with single click."
+        },
+        {
+          "speaker": "Host",
+          "text": "Mentioned running pytest in CI and planning to add more PRs and issues."
+        },
+        {
+          "speaker": "Host",
+          "text": "Checked Docker Compose changes and fixed .gitignore bugs."
+        },
+        {
+          "speaker": "Host",
+          "text": "Used git stash to save work before switching branches and resolved merge conflicts."
+        },
+        {
+          "speaker": "Host",
+          "text": "Emphasized testing before merging and using automatic tests for safety."
+        },
+        {
+          "speaker": "Host",
+          "text": "Summarized session progress and plans for next steps including troubleshooting bot and setting up CI/CD."
+        }
+      ]
+    },
+    {
+      "title": "Future Plans and Session Wrap-Up",
+      "chapter_type": "discussion",
+      "start_time": 4920.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "After getting credentials from Adam, we'll troubleshoot to get the bot working."
+        },
+        {
+          "speaker": "Host",
+          "text": "Melissa, if you can set up pytest, that would be great to hook into CI/CD."
+        },
+        {
+          "speaker": "Host",
+          "text": "On the evaluation side, I set up Langraph server to also set up Lang Smith for evaluations."
+        },
+        {
+          "speaker": "Host",
+          "text": "Langraph Studio combined with Lang Smith provides a nice developer IDE experience."
+        },
+        {
+          "speaker": "Host",
+          "text": "Lang Smith allows running evaluations by comparing expected and actual answers to test prompt changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "This setup was not available the first time we did this project."
+        },
+        {
+          "speaker": "Host",
+          "text": "If we set this up, it will give us a good basis to add more participants and let folks focus on building AI agents rather than infrastructure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you all for staying on. I'll be back in LA next week."
+        },
+        {
+          "speaker": "Host",
+          "text": "Melissa, if you're going to be out for a while, we can look into moving the meeting time so it's not so late for you."
+        },
+        {
+          "speaker": "Student",
+          "text": "I can do whatever works for you since it's only once a week. This week was easier, but normally I don't mind since it's only once a week."
+        },
+        {
+          "speaker": "Host",
+          "text": "How much longer will you be out there?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I fly back into St. Louis on July 22nd, so about another month."
+        },
+        {
+          "speaker": "Host",
+          "text": "We'll look into moving it around to make it less brutal for you for the next four weeks."
+        },
+        {
+          "speaker": "Student",
+          "text": "Feel free to use whatever time works for both of you. If it doesn't work for me, I can catch the replay."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good. I'll drop it in the group chat and we'll find out what works for everyone."
+        },
+        {
+          "speaker": "Host",
+          "text": "Enjoy the rest of your weekend and week. We'll talk next week. Enjoy the rest of your time in Hawaii."
+        },
+        {
+          "speaker": "Student",
+          "text": "I will. I don't want to go home."
+        },
+        {
+          "speaker": "Host",
+          "text": "Alright, you're on island time. See you."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terminology and clarified references.",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Classified chapters by type: discussion, explanation, live_coding, qa.",
+    "Preserved all substantive content and chronological order.",
+    "Transformed speech into clear, coherent prose with complete sentences."
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "title": "AI / Open Q & A with Coach Keith - Medical AI Models and Cloud Hosting",
+  "date": "2025-07-12",
+  "total_duration_seconds": 2948.0,
+  "chapters": [
+    {
+      "title": "Introduction and Finding the Medical AI Model",
+      "chapter_type": "admin",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's see if I can find my Perplexity window buried among a bajillion windows."
+        },
+        {
+          "speaker": "Host",
+          "text": "I read some news today, maybe from The Rundown AI or a similar publication, about a new medical AI model."
+        },
+        {
+          "speaker": "Host",
+          "text": "I vaguely remember it was about Gemini or MedGamma in a medical setting, but I wasn't sure which company was behind it—Meta, Alphabet, or Facebook."
+        },
+        {
+          "speaker": "Host",
+          "text": "After searching, I found that Google just released new open source AI models for healthcare called MedGamma."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let me organize my screen a bit and then we can dive into it together."
+        },
+        {
+          "speaker": "Host",
+          "text": "Since I've done some medical work before, I thought you might find this interesting."
+        }
+      ]
+    },
+    {
+      "title": "Overview of MedGamma Model and Medical QA",
+      "chapter_type": "explanation",
+      "start_time": 120.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "MedGamma 27B can process both medical text and images, which is pretty cool."
+        },
+        {
+          "speaker": "Host",
+          "text": "It achieved some score on Med QA, which tests foundational medical knowledge but not necessarily the kind of knowledge a doctor applies during a patient visit."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's great to see a much smaller model achieving similar quality to a bigger one."
+        },
+        {
+          "speaker": "Student",
+          "text": "Do they have libraries for images or client interactions where you can test your AI and compare it to others, like with image matching for different skin tones?"
+        },
+        {
+          "speaker": "Host",
+          "text": "That's a good question. Let me check if there's a website hosting leaderboards for Med QA or if evaluation is done by researchers or uploaded by them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Med QA and PubMed QA track diverse medical datasets, but these are mostly text-based quizzes similar to medical class or board exam questions."
+        },
+        {
+          "speaker": "Host",
+          "text": "They might not test image capabilities, so doing well on these might not indicate how well the model handles images."
+        },
+        {
+          "speaker": "Host",
+          "text": "Also, these evaluations don't assess bias or demographic fairness."
+        }
+      ]
+    },
+    {
+      "title": "Exploring Google's Medical AI Announcement and Multimodal Capabilities",
+      "chapter_type": "explanation",
+      "start_time": 480.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's look at Google's announcement. They have a research blog with a full paper and a shorter blog post that's easier to read."
+        },
+        {
+          "speaker": "Host",
+          "text": "MedGamma complements previously released models by adding support for complex multimodal inputs—meaning multiple types like text plus images or video."
+        },
+        {
+          "speaker": "Host",
+          "text": "Longitudinal electronic health record interpretation is important because patients often have complex histories across multiple care settings."
+        },
+        {
+          "speaker": "Student",
+          "text": "Are they using 'multimodal' in a data science sense or a medical sense? Like combining X-rays and other medical data?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I think here they mean multimodal in the data science sense, but we'll see as we go on."
+        },
+        {
+          "speaker": "Host",
+          "text": "They have a second new model, but we won't focus on that now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Multimodal clinical reasoning might mean the medical sense, combining different viewpoints like from a GP or oncologist."
+        },
+        {
+          "speaker": "Host",
+          "text": "They are trying to integrate imaging from radiology, text, and electronic health records, which is a loose standard format for health records."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can't just give it a CT scan it hasn't seen before; it needs to have seen many examples and associated physician interpretations."
+        },
+        {
+          "speaker": "Host",
+          "text": "Radiology report generation is common; some companies focus on translating radiologist terminology into terms GPs can understand safely."
+        },
+        {
+          "speaker": "Host",
+          "text": "EHR summarization and retrieval is important because patients can have years of notes no one has time to read."
+        }
+      ]
+    },
+    {
+      "title": "Evaluating MedGamma's Performance and Limitations",
+      "chapter_type": "explanation",
+      "start_time": 840.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In an unblinded study, 81% of generated chest X-ray reports were judged sufficiently accurate to result in similar patient management."
+        },
+        {
+          "speaker": "Host",
+          "text": "However, they don't specify the risk level in the 19% where it differed—whether it could lead to adverse effects or just suboptimal approaches."
+        },
+        {
+          "speaker": "Host",
+          "text": "Accuracy numbers are a good starting point but not sufficient to decide if this can be used in medical practice."
+        },
+        {
+          "speaker": "Host",
+          "text": "MedGamma achieves competitive performance on medical image classification tests, which is a first step."
+        },
+        {
+          "speaker": "Host",
+          "text": "Image classification might detect diseases like dermatology conditions, but without safety and error analysis, we can't consider it for real use yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "They show a chart of Med QA score versus cost, indicating better quality for cost, but it doesn't tell us enough for medical use decisions."
+        },
+        {
+          "speaker": "Student",
+          "text": "What does the cost refer to? CPU cycles, licensing, or hardware?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The cost is dollars per million tokens on a log scale, mostly for text processing, focusing on operating costs like power and cooling for GPUs."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's not about buying hardware but the ongoing power and cooling costs, usually paid through SaaS systems."
+        }
+      ]
+    },
+    {
+      "title": "Cloud Hosting, Privacy, and Security Considerations",
+      "chapter_type": "explanation",
+      "start_time": 1140.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "People like us won't host these models ourselves; companies might rent Google or AWS servers and charge API usage fees."
+        },
+        {
+          "speaker": "Host",
+          "text": "Google hosts their models on their systems, profiting from compute and model overhead."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you use MedGamma 27B, you'd likely use Google Cloud's Vertex AI rather than running it on your own hardware or AWS."
+        },
+        {
+          "speaker": "Host",
+          "text": "Google has expertise in efficient hosting and autoscaling, which is a lot of programming work even for smaller models."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you trust Google Cloud's privacy and security, that's the best path."
+        },
+        {
+          "speaker": "Host",
+          "text": "In healthcare, companies try to minimize the number of vendors with access to patient data, even beyond legal requirements like HIPAA."
+        },
+        {
+          "speaker": "Student",
+          "text": "Could you obfuscate data to prevent tying it to specific people while still using it?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, but it's tough. Some medical images have identifiers embedded, so you have to clip or anonymize carefully."
+        },
+        {
+          "speaker": "Host",
+          "text": "Text data also needs thorough anonymization to prevent patient identification, especially in case of data breaches."
+        },
+        {
+          "speaker": "Host",
+          "text": "Different companies have different risk tolerances, but a layered approach to privacy and security is best."
+        }
+      ]
+    },
+    {
+      "title": "Autoscaling Challenges and Recommendations",
+      "chapter_type": "explanation",
+      "start_time": 1500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Autoscaling is complex. If you have few users, one server is fine, but if usage spikes, you need to scale up dynamically."
+        },
+        {
+          "speaker": "Host",
+          "text": "Autoscaling means creating the right number of servers for the load and scaling down when demand decreases to save costs."
+        },
+        {
+          "speaker": "Host",
+          "text": "Google's autoscaling for MedGamma is reliable and tested, and it's best to use their solution rather than implement your own."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is autoscaling part of data science?"
+        },
+        {
+          "speaker": "Host",
+          "text": "No, most autoscaling uses simple rules like CPU load thresholds to add or remove servers."
+        },
+        {
+          "speaker": "Host",
+          "text": "Simple rules are easy to test, understand, and trace. Using machine learning for autoscaling can be risky and costly if it goes wrong."
+        },
+        {
+          "speaker": "Host",
+          "text": "Large companies like Google can predict usage patterns and pre-scale accordingly, but small companies face unpredictable loads."
+        }
+      ]
+    },
+    {
+      "title": "Integration and Cost Management in Cloud AI Solutions",
+      "chapter_type": "discussion",
+      "start_time": 2040.0,
+      "segments": [
+        {
+          "speaker": "Other",
+          "text": "From an end-user perspective, integrating AI with Google Cloud allows setting spend and resource thresholds to avoid overspending."
+        },
+        {
+          "speaker": "Other",
+          "text": "Google handles security and many complex problems within their cloud, making integration smoother than building your own environment."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, Google Cloud lets you set actual cost limits and cut off usage if thresholds are exceeded, with notifications."
+        },
+        {
+          "speaker": "Host",
+          "text": "In large organizations like Mayo Clinic, dedicated staff monitor spend limits, but small companies wear many hats."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm a bit weak on building APIs to interface with AI solutions. Conceptually, I understand sending inputs and receiving outputs."
+        },
+        {
+          "speaker": "Host",
+          "text": "API usage is fairly basic: you send input data and receive output. Sometimes outputs are structured rather than just text or images."
+        },
+        {
+          "speaker": "Host",
+          "text": "Autoscaling is challenging because loading large models into memory takes time, unlike simple web services."
+        }
+      ]
+    },
+    {
+      "title": "Training vs Inference in AI Models and Use Cases",
+      "chapter_type": "explanation",
+      "start_time": 2280.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "AI has training and inference phases. Training is expensive and involves learning from large datasets, like the entire internet."
+        },
+        {
+          "speaker": "Host",
+          "text": "Inference is applying the trained model to specific inputs, like a patient's medical record and images, to generate outputs."
+        },
+        {
+          "speaker": "Host",
+          "text": "MedGamma 27B interprets multimodal inputs and generates outputs consistent with its training and the input context."
+        },
+        {
+          "speaker": "Host",
+          "text": "Traditional machine learning models are narrow and task-specific, like classifying dermatology images, and less adaptable."
+        },
+        {
+          "speaker": "Host",
+          "text": "Narrow models allow specific tests for fairness and quality, but general models like MedGamma cover many use cases with broader but shallower testing."
+        },
+        {
+          "speaker": "Student",
+          "text": "Would you combine general and specialized models, loading specific data for particular issues like dermatology?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, patients come with specific problems, and models can incorporate relevant data, but covering all medical specialties deeply is challenging."
+        }
+      ]
+    },
+    {
+      "title": "Medical Imaging and Preventative Care Discussion",
+      "chapter_type": "discussion",
+      "start_time": 2580.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "There was a 60 Minutes segment about AI analyzing oncology X-rays, finding some cases missed by professionals."
+        },
+        {
+          "speaker": "Host",
+          "text": "The challenge is whether AI errors could lead to harmful patient outcomes."
+        },
+        {
+          "speaker": "Host",
+          "text": "I wonder why whole-body scans aren't routine. Some friends found cancer incidentally during scans for other issues."
+        },
+        {
+          "speaker": "Host",
+          "text": "Whole-body scans are available but expensive and not covered by insurance, and often considered not useful because findings are rare."
+        },
+        {
+          "speaker": "Host",
+          "text": "MRI scans are safer than CT scans because they don't use ionizing radiation, but cost and time are barriers."
+        },
+        {
+          "speaker": "Host",
+          "text": "I wish medicine used technology more proactively for prevention, especially with AI helping analyze high-resolution imaging."
+        },
+        {
+          "speaker": "Student",
+          "text": "I want to address that if we have time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sure, go ahead."
+        }
+      ]
+    },
+    {
+      "title": "Risks of Diagnostic Procedures and Regulatory Perspectives",
+      "chapter_type": "discussion",
+      "start_time": 3050.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "The FDA once classified many food additives as safe, but later found some to be carcinogenic."
+        },
+        {
+          "speaker": "Student",
+          "text": "Similarly, diagnostic procedures like X-rays have risks; early X-ray technicians wore badges and lead aprons due to radiation exposure."
+        },
+        {
+          "speaker": "Student",
+          "text": "As technology advances, we discover new risks, so use of diagnostic tools requires discretion."
+        },
+        {
+          "speaker": "Host",
+          "text": "Non-ionizing radiation like MRI is much safer, but all energy applied to the body carries some risk."
+        },
+        {
+          "speaker": "Student",
+          "text": "Everything is a balance; even driving to the hospital has risks, and sedentary lifestyles are dangerous too."
+        }
+      ]
+    },
+    {
+      "title": "Cloud AI Hosting Options and Global Data Regulations",
+      "chapter_type": "explanation",
+      "start_time": 3150.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Are there similar AI models hosted on AWS or in other countries like China that might be cheaper?"
+        },
+        {
+          "speaker": "Host",
+          "text": "AWS hosts many AI models through Bedrock, similar to Google's Vertex AI, but last I checked, no specific medical AI model was available there."
+        },
+        {
+          "speaker": "Host",
+          "text": "For medical use, start with platforms your organization already has agreements with, like AWS, then consider others."
+        },
+        {
+          "speaker": "Host",
+          "text": "Security, budgeting, and vendor approval take more time than switching platforms."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hosting in cheaper locations hasn't proven effective yet; prices are generally pegged to US rates worldwide."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some startups try moving servers near cheap power sources to reduce costs, but big players are also investing in power generation."
+        },
+        {
+          "speaker": "Host",
+          "text": "Microsoft is exploring nuclear power for data centers, which is cost-effective long term despite high upfront costs."
+        },
+        {
+          "speaker": "Host",
+          "text": "China has strict data regulations requiring separate data centers, so data hosting there is complex."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-up and API Learning Resources",
+      "chapter_type": "qa",
+      "start_time": 3720.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "This is my first time attending. I have a background in development and business analysis but have been unemployed for 20 months."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is there API documentation I can study to refresh my memory for job applications? Also, what does a data custodian do?"
+        },
+        {
+          "speaker": "Host",
+          "text": "APIs vary by system, so experience with multiple APIs is best. I can share some beginner-friendly guides and examples."
+        },
+        {
+          "speaker": "Host",
+          "text": "Data custodian roles are like digital librarians managing data access and security."
+        },
+        {
+          "speaker": "Student",
+          "text": "I also want to know if AI can rewrite or edit Word documents online, similar to macros I used to create."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can use ChatGPT for writing tasks by providing a draft and instructions. Google Docs and Microsoft Word have some AI editing features built-in."
+        },
+        {
+          "speaker": "Host",
+          "text": "Microsoft partners with OpenAI, so their AI features use similar underlying models with specialized prompts."
+        },
+        {
+          "speaker": "Host",
+          "text": "A common use case is AI helping to spot-check emails before sending to avoid regrettable messages."
+        },
+        {
+          "speaker": "Host",
+          "text": "I will look up more resources for next time and share the chat transcript."
+        }
+      ]
+    },
+    {
+      "title": "Session Conclusion and Farewell",
+      "chapter_type": "admin",
+      "start_time": 4440.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Thanks, everyone. Sorry for going a bit long. I have some homework of my own now."
+        },
+        {
+          "speaker": "Host",
+          "text": "I hope you all have a good evening and a great weekend."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you very much."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terms and clarified ambiguous references.",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Classified chapters by type: admin, explanation, qa, and discussion.",
+    "Preserved all substantive content and chronological order.",
+    "Transformed speech into clear, coherent prose with complete sentences."
+  ]
+}

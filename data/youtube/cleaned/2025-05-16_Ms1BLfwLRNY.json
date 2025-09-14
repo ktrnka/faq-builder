@@ -1,0 +1,367 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-05-16",
+  "total_duration_seconds": 3794.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Participant Greetings",
+      "chapter_type": "admin",
+      "start_time": 72.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Hello. How's your Thursday going so far?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you. How about yours?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Pretty good. Good deal."
+        }
+      ]
+    },
+    {
+      "title": "Introduction to the Code Tutor Project and Roles",
+      "chapter_type": "discussion",
+      "start_time": 103.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I just moved into module two and I'm working on my first exercise. I wanted to participate more in these group meetings, but I wasn't sure what the tutor lab was. If I'm not supposed to be here, I can log off."
+        },
+        {
+          "speaker": "Host",
+          "text": "No, it's fine. The Code Tutor is a project I was involved with during my internship at Joy of Coding Academy. I graduated and got a full-time job in AI. I came back to advise the project and help take it to the next step. It's getting ready for production launch and needs some organization and a push."
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh, okay."
+        },
+        {
+          "speaker": "Host",
+          "text": "Matt, one of the original members, might join today. Right now, the project is rebuilding and we need more people involved. I plan to talk to Dr. Emily about recruiting and expectations. The immediate next step is to get this launched."
+        },
+        {
+          "speaker": "Student",
+          "text": "It sounds like I don't belong here."
+        },
+        {
+          "speaker": "Host",
+          "text": "No, it's all good. These are open meetings. I'm happy to answer any questions since it looks like no one else is here today. If you have questions about AI or software development, feel free to ask. Otherwise, we can turn this into a working session to get the project running locally again. You can watch and ask questions about that process."
+        },
+        {
+          "speaker": "Student",
+          "text": "That'd be great because I don't know enough yet to have questions about AI or the project. Thank you."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hi, I'm Nick. I worked with Keith originally. He was the adviser early on and I was the lead coder. I'm filling in his role now as Dr. Emily asked me to come back."
+        },
+        {
+          "speaker": "Host",
+          "text": "Did you have any questions, Glenn?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Host",
+          "text": "Welcome to the academy. I got a lot out of it. I worked in tech for a while but wanted to pivot to engineering. This program was great for problem solving and fundamentals like data structures and algorithms. You might not use them daily, but they help with interviews. Engineering is about finding the right solution within constraints, considering algorithm complexity in time and space."
+        }
+      ]
+    },
+    {
+      "title": "Overview of Problem Solving and Project Setup",
+      "chapter_type": "explanation",
+      "start_time": 422.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The process is the same whether you're starting or working on complex projects. It's all problem solving: figuring out how to move forward, scoping the project, and finding solutions. Let's see where we're at. Adam made some updates and there were front-end changes since I last looked."
+        },
+        {
+          "speaker": "Host",
+          "text": "The first step with any problem is getting your bearings. The Air Force has a loop called OODA: Observe, Orient, Decide, Act. If you're in a plane, you might get flipped around and need to use instruments to orient yourself. Then observe what's important, decide the next step, and act. This loop is similar to engineering because problems are always new and evolving."
+        },
+        {
+          "speaker": "Host",
+          "text": "Code is like a garden, constantly growing and tended by many people. Especially with AI, it can grow on its own. It's never static or boring. My first goal in getting reinvolved is to get the code running locally. We'll go through the process and see if we can get it working on my machine."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have a README with instructions. We did the git clone and have the repo in VS Code. I should still have my environment file. Let's check if anything needs updating."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'll check what I have running in Docker. Looks like this will need a refresh. I can try to re-trigger the ETL process, but let's try the code I have running with some new stuff."
+        },
+        {
+          "speaker": "Host",
+          "text": "Docker compose is already up. I'll start fresh by deleting everything and stopping containers to free resources."
+        },
+        {
+          "speaker": "Host",
+          "text": "We just launched everything except the ETL. Let's see what's going on with that."
+        }
+      ]
+    },
+    {
+      "title": "Project Purpose and AI Architecture Overview",
+      "chapter_type": "explanation",
+      "start_time": 850.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let me give you a quick tour. This project aims to create a Slackbot to field student questions. Currently, students tag @help to create Jira tickets, but feedback takes a day or two. We want to shorten that feedback loop."
+        },
+        {
+          "speaker": "Host",
+          "text": "Feedback loops are important in engineering. You make an educated guess, try it out, get feedback, and iterate. You run code, check if it works, and if not, look at error logs and fix it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Last week, Matt shot a sample question, but the bot didn't have access to documents, so the database might be empty. It answered based on existing knowledge."
+        },
+        {
+          "speaker": "Host",
+          "text": "Are you interested in learning about AI architecture or would you prefer to dive into the code?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I don't have a preference. I'd like to know everything."
+        },
+        {
+          "speaker": "Host",
+          "text": "Okay, Glenn, what do you think? Would you prefer a high-level architecture overview or to dive into the code?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Let's start with the architecture."
+        },
+        {
+          "speaker": "Host",
+          "text": "Alright. At a high level, the bot says it can't find anything in the database. We implemented something called Retrieval Augmented Generation, or RAG. Training large language models costs millions of dollars to create a base model with connections between ideas."
+        },
+        {
+          "speaker": "Host",
+          "text": "An LLM takes in tokens, which are usually words or parts of words, and predicts the next token. It's impressive that it can write code and pass tests because it predicts tokens to generate human-like intelligence."
+        },
+        {
+          "speaker": "Host",
+          "text": "Fine-tuning these models is expensive. It involves retraining some outer layers of the neural network to optimize a reward function, nudging the output tone or format. This is used to shape chatbot responses or output formats like JSON."
+        },
+        {
+          "speaker": "Host",
+          "text": "A more cost-effective approach is Retrieval Augmented Generation. It performs a vector search to grab relevant information, then injects that into the prompt at runtime."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our project has an ETL process—Extract, Transform, Load—that populates the database. We need to fix that. We also have a Discord bot that uses this data."
+        },
+        {
+          "speaker": "Host",
+          "text": "Tokens are small units, about the size of a word or part of a word. The model reads many sentences to understand relationships between tokens at a very low level."
+        },
+        {
+          "speaker": "Host",
+          "text": "The transformer architecture with attention, introduced in 2016 in the paper 'Attention Is All You Need,' enabled breakthroughs like ChatGPT."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're interested, there's a good overview video that builds LLMs and explains how they compress chunks of the internet as a basis."
+        },
+        {
+          "speaker": "Host",
+          "text": "We use a framework called Langraph at work. It allows you to use graph data structures with nodes and edges to set up workflows."
+        }
+      ]
+    },
+    {
+      "title": "Setting Up Development Environment and Tools",
+      "chapter_type": "live_coding",
+      "start_time": 1470.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's fire up the virtual environment. We use Poetry to manage packages. I typed 'poetry' and got help commands. I want to list environments with 'poetry environment list.' Looks like it's already activated."
+        },
+        {
+          "speaker": "Host",
+          "text": "Checking Python version, it's 3.11, which looks right. This tells me what's installed. Early on, I didn't know about this."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's try installing Langchain CLI as a development dependency with 'poetry add --dev langchain-cli.'"
+        },
+        {
+          "speaker": "Host",
+          "text": "The install didn't work initially. I tried variations and quotes to fix syntax errors."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is a good way to learn. Many people do live coding sessions."
+        },
+        {
+          "speaker": "Host",
+          "text": "We don't have Langsmith installed, so we'll try running without it. We might need to add it later."
+        },
+        {
+          "speaker": "Host",
+          "text": "We got our first error. Errors are progress. Metadata version is higher than supported. We might need to update Poetry."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's try updating Poetry to support the latest metadata version."
+        },
+        {
+          "speaker": "Host",
+          "text": "After updating, we still get errors running the graph dev command. We need a langraph.json configuration file."
+        },
+        {
+          "speaker": "Host",
+          "text": "We need to create this configuration file to compile the graph."
+        },
+        {
+          "speaker": "Host",
+          "text": "We added the configuration file and pointed to it. We probably need an environment file with tokens and bot AWS profile."
+        },
+        {
+          "speaker": "Host",
+          "text": "I forgot to activate the Poetry shell. After that, we got a success."
+        },
+        {
+          "speaker": "Host",
+          "text": "The Langsmith service might need to run locally. I'm troubleshooting why it isn't running on the expected port."
+        }
+      ]
+    },
+    {
+      "title": "Understanding Development Tools and Workflow",
+      "chapter_type": "explanation",
+      "start_time": 2770.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "No dumb questions. Coding on the command line means using the terminal, which is an interactive way to use the computer by typing commands instead of clicking menus."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is VS Code, an integrated development environment or IDE. It has an editor for files and a terminal for commands."
+        },
+        {
+          "speaker": "Host",
+          "text": "We haven't started coding yet; we're still getting familiar with the project setup."
+        },
+        {
+          "speaker": "Host",
+          "text": "Back in the day, development and operations were separate roles. Now, DevOps combines both, so you need to understand development and system operations."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm troubleshooting some issues with running the graph server. It might be a problem with the graph or async code needing an await."
+        },
+        {
+          "speaker": "Host",
+          "text": "Using AI for research and breaking down tasks is helpful, but it's not the only tool I use."
+        },
+        {
+          "speaker": "Host",
+          "text": "You'll feel overwhelmed sometimes. You go from feeling smart to dumb in the same day with new projects. Just take it one step at a time and remember others have done it too."
+        }
+      ]
+    },
+    {
+      "title": "Visualizing the Graph Data Structure and Agent Pattern",
+      "chapter_type": "explanation",
+      "start_time": 3240.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let me show you a visual way to see our graph. This is a graph data structure with nodes and edges. The dots mean conditional edges where logic decides which node to go to."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is the agent pattern. The start is your query. The agent accesses tools, like a web search, and returns results. It decides the next step, either answering the user or calling another tool."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is all in Langraph Studio. It gives a better idea of what's going on in our graph."
+        },
+        {
+          "speaker": "Host",
+          "text": "Our graph has a retrieval node that finds relevant documents. It checks if documents are relevant; if yes, it answers. If not, it rewrites the query and tries again."
+        },
+        {
+          "speaker": "Host",
+          "text": "The query rewriting makes it more computer-friendly. This self-corrective pattern helps reduce hallucinations by verifying if answers are grounded in documents."
+        },
+        {
+          "speaker": "Host",
+          "text": "I can drop links in the chat if you're interested. Next week, you'll have a better idea of what's going on."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on AI Training Data and Legal Issues",
+      "chapter_type": "discussion",
+      "start_time": 3480.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "This is a huge topic. Mark Zuckerberg's Facebook released an open-source model called Llama, which was apparently trained on books from a pirated source called Libgen."
+        },
+        {
+          "speaker": "Host",
+          "text": "There's controversy because the decision to use copyrighted data went all the way to the top. Sam Altman from OpenAI argues this should be considered fair use to keep the US ahead."
+        },
+        {
+          "speaker": "Host",
+          "text": "Creators are understandably upset that their work is used without permission or compensation. AI needs data to train on, some of which is open, like Stack Overflow, but much is copyrighted."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are many lawsuits ongoing about this. It's a big topic worth researching."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Next Steps",
+      "chapter_type": "admin",
+      "start_time": 3690.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We didn't get too far today, but this is the process. We found issues with our server. This tooling is important for a better development experience."
+        },
+        {
+          "speaker": "Host",
+          "text": "The video I shared shows how you can tweak AI parts without worrying about boilerplate code. You still need to understand how the LLM works, tokens, and managing the context window."
+        },
+        {
+          "speaker": "Host",
+          "text": "You get a mix of visual experience and full control by diving into the code."
+        },
+        {
+          "speaker": "Host",
+          "text": "Next week, we'll continue trying to get this working. Once we have a good base, we can build up from there, clean up the code, make it easier for contributors, and fix production."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hope to see you all next week. Enjoy the rest of your Thursday night."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies while preserving all substantive content.",
+    "Corrected technical terminology and clarified references for readability.",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into chapters based on topic changes and conversation flow.",
+    "Chapters classified by type: admin, discussion, explanation, live_coding, and qa.",
+    "Transformed speech into clear, coherent prose with complete sentences.",
+    "Maintained chronological order and speaker intent."
+  ]
+}

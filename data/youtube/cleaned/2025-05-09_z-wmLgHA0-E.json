@@ -1,0 +1,717 @@
+{
+  "title": "AI / Open Q & A with Coach Keith - 2025-05-09",
+  "date": "2025-05-09",
+  "total_duration_seconds": 3346.0,
+  "chapters": [
+    {
+      "title": "Session Start and Introductions",
+      "chapter_type": "admin",
+      "start_time": 40.0,
+      "segments": [
+        {
+          "speaker": "Other",
+          "text": "Hello. Hello."
+        },
+        {
+          "speaker": "Student",
+          "text": "Was this cancelled?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Nope. It should be running. Maybe you're just very early or something."
+        },
+        {
+          "speaker": "Student",
+          "text": "You might be the only one here so far. Last week was a small group. I think we're still ramping up again."
+        },
+        {
+          "speaker": "Host",
+          "text": "I was actually an old member from when this project started. It used to be Coke's Q&A hour, and now I'm starting to take it over again. The past couple weeks had only two people, so it might be a small group."
+        },
+        {
+          "speaker": "Student",
+          "text": "I saw it on the calendar and was just curious, so I jumped in to see what this is about."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice. How long have you been with Joy of Coding?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm embarrassed to say, no worries."
+        },
+        {
+          "speaker": "Host",
+          "text": "What are you interested in? Any interest in working in AI?"
+        },
+        {
+          "speaker": "Student",
+          "text": "Oh, so this is for AI? I see a lot about AI now. I'm curious about it. Maybe it's a good niche."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, definitely a growing field."
+        },
+        {
+          "speaker": "Other",
+          "text": "Hey, what's up, Matt? You're on mute."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hi, Nick. I'm doing well."
+        },
+        {
+          "speaker": "Student",
+          "text": "Hi, Anna. Nice to meet you. I'm just curious. I doubt I'm at your level."
+        },
+        {
+          "speaker": "Host",
+          "text": "All good."
+        }
+      ]
+    },
+    {
+      "title": "Project Status and Background Discussion",
+      "chapter_type": "discussion",
+      "start_time": 160.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I think today will be an official start time for me because since we last talked, I haven't done anything with it. I missed the last meeting because my wife just finished her semester, so I have more time now."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice."
+        },
+        {
+          "speaker": "Student",
+          "text": "I was catching up with the last meeting, looking over some documents Keith put together about next steps and what we want to do with the project. I also talked with Adam, who said it was very close to or launched in production."
+        },
+        {
+          "speaker": "Student",
+          "text": "He mentioned Terraform or something else. I think he used SST, a JavaScript framework that works well with React and Node backends but not as easily for our Python project."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, he was able to get the CodeTutor bot running on AWS, but the backend stuff to generate data in the database is still just uploaded what was current at that time."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is it all in one codebase?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It should be, but I wasn't around when he did that, so I don't know all the details."
+        },
+        {
+          "speaker": "Student",
+          "text": "Last time I talked with him, he said it had a bug. Do you know if it got fully working?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I don't know if it's still active. If you go to CodeTutor on the channel, you can check."
+        },
+        {
+          "speaker": "Student",
+          "text": "Let me check there myself."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is there a specific channel to be in or can I just hit it from anywhere?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I think you can do it from anywhere, but I don't think it works in direct messages yet."
+        }
+      ]
+    },
+    {
+      "title": "Project Purpose and AI Chatbot Overview",
+      "chapter_type": "explanation",
+      "start_time": 365.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "You guys are working on a project for a real-life client, the Joy of Coding Academy itself. The project is a chatbot that works for the academy."
+        },
+        {
+          "speaker": "Host",
+          "text": "Currently, if you tag the help bot with a question, it fires off a Jira ticket and a human responds within 24 hours. The idea is to get an AI response quickly, with a human following up if the AI doesn't answer correctly."
+        },
+        {
+          "speaker": "Host",
+          "text": "The goal is to shorten response time, but AI projects require good practice, especially evaluations. You need a good set of questions and test data to tune prompts and parameters affecting the large language models."
+        },
+        {
+          "speaker": "Student",
+          "text": "That makes sense."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even traditional AI techniques need good test and training data, so you have to build out a database with questions, categories, keywords, and importantly, the right answers."
+        },
+        {
+          "speaker": "Student",
+          "text": "I work at a company processing healthcare claims. We're working on a chatbot and my boss emphasized having good scripts. We'll have one AI ask questions, another AI respond, and a third AI judge the response's accuracy."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's a full AI cycle. You need a script with questions and an idea of correct answers, and you need hundreds or thousands of examples."
+        },
+        {
+          "speaker": "Student",
+          "text": "Do you work with health support people or business analysts to compile questions and answers?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, ideally you get questions and answers from subject matter experts, not engineers. Business analysts and help desk technicians who interact with customers are key sources."
+        },
+        {
+          "speaker": "Student",
+          "text": "I was a QA tester and worked with business analysts to get requirements for testing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. You want the people who know the business side to provide the questions and answers."
+        }
+      ]
+    },
+    {
+      "title": "Healthcare Claims AI Use Case and Team Roles",
+      "chapter_type": "discussion",
+      "start_time": 780.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The project involves prior authorizations for prescriptions. Some data comes electronically, but about 40% is faxed from doctor's offices and must be manually entered."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have AI tools to extract data and answer questions, but to ensure they fit workflows, we have a working group including technicians who do the day-to-day work."
+        },
+        {
+          "speaker": "Student",
+          "text": "So you still need human involvement. We're not at Star Trek level yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "Not yet."
+        },
+        {
+          "speaker": "Student",
+          "text": "I've never worked with claims but know people who have. I was on the receiving end when I picked up my prescription yesterday."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, many humans behind the scenes pushing paper. Our job is to make their job easier."
+        },
+        {
+          "speaker": "Student",
+          "text": "I tested software processing insurance claims documentation, mostly automobile and property insurance."
+        },
+        {
+          "speaker": "Host",
+          "text": "Similar. At the end of the day, it's paperwork on the insurance side."
+        },
+        {
+          "speaker": "Student",
+          "text": "Are you interns?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm an intern, and Nick is a coach guiding the project."
+        },
+        {
+          "speaker": "Host",
+          "text": "I was an intern, graduated from the program, now working full-time as an AI engineer, and came back as a coach."
+        },
+        {
+          "speaker": "Student",
+          "text": "He had prior experience before joining Joy of Coding."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's why I need to stop dragging my feet on the technical interview. Mod one and two were easy for me since I had something to work with."
+        },
+        {
+          "speaker": "Host",
+          "text": "Logic is the main thing; code is just the tool."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm going to take the technical interview, and if I trip, I'll get back up and try again."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's the only way to do it."
+        }
+      ]
+    },
+    {
+      "title": "Open Q&A and AI Chatbot Testing",
+      "chapter_type": "qa",
+      "start_time": 1000.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "This is an open Q&A, so any questions are fair game."
+        },
+        {
+          "speaker": "Student",
+          "text": "I wouldn't know what to ask about AI. The only things that come to mind are R2D2 or C3PO."
+        },
+        {
+          "speaker": "Host",
+          "text": "Do you remember Clippy, the Microsoft helper? We plan to use a little cat thing as the first front end for our chatbot, with a graphical interface saying, 'Hi, I got your request. How can I help you?'"
+        },
+        {
+          "speaker": "Student",
+          "text": "That would be so cool."
+        },
+        {
+          "speaker": "Host",
+          "text": "I looked at the bot's response to a question about making a list. It didn't find the document, so it used its existing knowledge. It might be an issue with database access."
+        },
+        {
+          "speaker": "Student",
+          "text": "Did you manually trigger it? It should check the database for knowledge."
+        },
+        {
+          "speaker": "Host",
+          "text": "It must be using prior knowledge since the database might be empty."
+        },
+        {
+          "speaker": "Host",
+          "text": "I tried messaging the bot directly with 'Who is Emily Hill?' but it didn't reply. It might only read from channels, not direct messages."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'd like to test this without all tests being visible."
+        },
+        {
+          "speaker": "Host",
+          "text": "We could make a private channel, but I'm not sure if we have privileges."
+        },
+        {
+          "speaker": "Student",
+          "text": "I don't know how to make channels."
+        },
+        {
+          "speaker": "Host",
+          "text": "We could run the bot locally again to create our own bots for testing."
+        },
+        {
+          "speaker": "Student",
+          "text": "I haven't run it locally."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let's look into that."
+        }
+      ]
+    },
+    {
+      "title": "Access and AWS Hosting Discussion",
+      "chapter_type": "discussion",
+      "start_time": 1230.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "To troubleshoot database access, I assume I'd need AWS access?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes. Do you still have that?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I don't think I was given access to the hosting permissions. I only have my personal AWS account."
+        },
+        {
+          "speaker": "Host",
+          "text": "Adam has the keys to the kingdom, as Emily would say."
+        },
+        {
+          "speaker": "Student",
+          "text": "He sent me instructions last year. Let me check what I have."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you can't get in, we can try running it locally again since we have instructions."
+        },
+        {
+          "speaker": "Student",
+          "text": "I found the test server token but should probably delete it."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm past my free AWS year, and some free services might not be free anymore. Should I get a new account?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It's up to you. We should be able to work in the client's AWS account going forward. We used our own accounts before because it was faster."
+        },
+        {
+          "speaker": "Host",
+          "text": "We might set up better practices like CI/CD and work in their AWS account rather than personal ones."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm not sure if they set up a staging environment, but we should be able to work there. The database supports branching and versioning."
+        }
+      ]
+    },
+    {
+      "title": "Development Environments and Workflow Explanation",
+      "chapter_type": "explanation",
+      "start_time": 1440.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Normally, you have development or staging environments where you do your development."
+        },
+        {
+          "speaker": "Host",
+          "text": "At my current job, we push pull requests against master, which triggers deployment to staging. Staging is a wild west environment where you have admin access and can test freely."
+        },
+        {
+          "speaker": "Host",
+          "text": "Once a week, code is pushed to UAT, user acceptance testing, which is closer to production and uses production data. It's a tightly controlled environment."
+        },
+        {
+          "speaker": "Host",
+          "text": "After testing in UAT, code is pushed to production weekly."
+        },
+        {
+          "speaker": "Host",
+          "text": "We want to do something similar, ideally automated, pushing changes to the client's AWS account rather than personal accounts."
+        },
+        {
+          "speaker": "Host",
+          "text": "We need to get those environments set up again."
+        }
+      ]
+    },
+    {
+      "title": "Planning to Run Project Locally and Next Steps",
+      "chapter_type": "live_coding",
+      "start_time": 1620.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We might want to get the project running locally again. Matt, do you want to try or should I drive while you watch?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I can't find the email Adam sent with credentials."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's fine. Running locally doesn't require credentials."
+        },
+        {
+          "speaker": "Student",
+          "text": "Okay, I'll share my screen and try to get it running."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sounds good."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm signing in and looking at the README."
+        },
+        {
+          "speaker": "Student",
+          "text": "I realized recursion and sorting algorithms from module two are tricky."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, those are the hard parts and what interviewers mostly look for."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'm in the middle of a big change, so I might start over."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is mostly Python, not React."
+        }
+      ]
+    },
+    {
+      "title": "New Participants and Project Recap",
+      "chapter_type": "admin",
+      "start_time": 1930.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Hey Abu, welcome. Sorry you're late."
+        },
+        {
+          "speaker": "Student",
+          "text": "No problem. This is my first time here. I'm just trying to see what's going on."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nice. This was a Joy of Coding internship project to build an AI chatbot for the academy."
+        },
+        {
+          "speaker": "Host",
+          "text": "The chatbot uses previous Discord messages with retrieval augmented generation to answer student questions based on prior knowledge."
+        },
+        {
+          "speaker": "Host",
+          "text": "I was part of the project before, got a full-time job, and now I'm back as a coach to get it going again."
+        },
+        {
+          "speaker": "Host",
+          "text": "Matt was also previously on the project and rejoined."
+        },
+        {
+          "speaker": "Host",
+          "text": "Today we're starting from ground zero, trying to get the project running locally again as a working session."
+        },
+        {
+          "speaker": "Host",
+          "text": "Feel free to ask questions. This has historically been an open Q&A session."
+        }
+      ]
+    },
+    {
+      "title": "AI Models and Amazon Bedrock Explanation",
+      "chapter_type": "explanation",
+      "start_time": 2050.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Is this an OpenAI project or do you use ChatGPT?"
+        },
+        {
+          "speaker": "Host",
+          "text": "OpenAI and ChatGPT are pretty much the same. We use the ChatGPT API through Amazon Bedrock."
+        },
+        {
+          "speaker": "Host",
+          "text": "The project was structured to test different inference engines or large language models (LLMs)."
+        },
+        {
+          "speaker": "Host",
+          "text": "Bedrock is Amazon's AI as a service platform, allowing us to swap different models easily on the same cloud provider."
+        },
+        {
+          "speaker": "Student",
+          "text": "So you don't have multiple accounts with OpenAI or Claude, just one with Bedrock?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly."
+        },
+        {
+          "speaker": "Student",
+          "text": "Do you store data or tokens locally or just use the models?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We store data in a database. We use retrieval augmented generation (RAG), which gives the model your own information by injecting relevant data into the prompt at runtime."
+        },
+        {
+          "speaker": "Host",
+          "text": "Training your own model or fine-tuning is expensive. RAG avoids that by grabbing relevant data from sources like Discord history and adding it to the context window."
+        },
+        {
+          "speaker": "Host",
+          "text": "This way, no retraining or hosting your own models is needed."
+        }
+      ]
+    },
+    {
+      "title": "Embeddings and Vector Search Explanation",
+      "chapter_type": "explanation",
+      "start_time": 2300.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We use embeddings and a vector database. Embeddings convert text or images into points in a high-dimensional space."
+        },
+        {
+          "speaker": "Host",
+          "text": "We cut Discord messages into chunks, run them through an embeddings model, and store the resulting vectors in a database."
+        },
+        {
+          "speaker": "Host",
+          "text": "User queries go through the same embeddings model to produce vectors. We then use cosine similarity to find the most relevant documents."
+        },
+        {
+          "speaker": "Host",
+          "text": "The math is complex, but it works well. We tune parameters like how many documents to return and similarity thresholds."
+        },
+        {
+          "speaker": "Host",
+          "text": "The goal is to load enough relevant information into the context window to answer questions accurately without confusing the model."
+        },
+        {
+          "speaker": "Host",
+          "text": "We track precision and recall to measure if the bot answers correctly or gets confused by too much or too little information."
+        },
+        {
+          "speaker": "Host",
+          "text": "Evaluations are critical in applied AI projects."
+        }
+      ]
+    },
+    {
+      "title": "Project Management and Evaluation Importance",
+      "chapter_type": "explanation",
+      "start_time": 2650.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I shared videos about evaluations and project management in AI. One covers common mistakes and why evaluations matter."
+        },
+        {
+          "speaker": "Host",
+          "text": "The other discusses end-to-end project management, focusing on upfront planning and finding the sweet spot between too many and too few documents."
+        },
+        {
+          "speaker": "Host",
+          "text": "Good questions so far. Any others?"
+        }
+      ]
+    },
+    {
+      "title": "Next Steps and Project Refactoring Discussion",
+      "chapter_type": "discussion",
+      "start_time": 2730.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Looking at the time, my next step is to get this running locally."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, that could be easy or might have issues that take time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Most work done was web development for the dashboard. Adam also cleaned up some Python code and disabled a few things."
+        },
+        {
+          "speaker": "Host",
+          "text": "Getting it running locally is a good next step. Then I'll talk to Adam about credentials for the cloud version."
+        },
+        {
+          "speaker": "Host",
+          "text": "We'll focus on setting up our process again: developing locally, pushing changes, adding tests, and improving workflow."
+        },
+        {
+          "speaker": "Student",
+          "text": "When we met weeks ago, there was talk about starting fresh. Technologies have changed fast, so I want your input."
+        },
+        {
+          "speaker": "Host",
+          "text": "We don't need to start over completely, but some ETL parts were convoluted. We might split the Discord bot from ETL layers and simplify."
+        },
+        {
+          "speaker": "Host",
+          "text": "Agents are popular now. We can consider working with an AI agent versus the earlier approach."
+        },
+        {
+          "speaker": "Student",
+          "text": "It depends on project goals. We need a clear idea of goals and target students."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, is it for all students or just those in the first few months? Those are different groups."
+        },
+        {
+          "speaker": "Student",
+          "text": "I think this is targeted for interns."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is it for navigating Joy of Coding or for solving coding problems? Those are different questions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. We need a good test set of questions to define expectations and tune the bot."
+        },
+        {
+          "speaker": "Host",
+          "text": "We should restart conversations with Dr. Emily to clarify expectations since Joy of Coding is the client."
+        },
+        {
+          "speaker": "Host",
+          "text": "We want to resume regular meetings for feedback."
+        },
+        {
+          "speaker": "Host",
+          "text": "Step one is getting it running again and attracting interested folks."
+        },
+        {
+          "speaker": "Host",
+          "text": "Then we can do more project management properly with clear goals and evaluation sets."
+        },
+        {
+          "speaker": "Host",
+          "text": "It would be good to add tests and move toward test-driven development and continuous integration/continuous deployment workflows."
+        },
+        {
+          "speaker": "Student",
+          "text": "I don't remember the acronym TDD."
+        },
+        {
+          "speaker": "Host",
+          "text": "Test-driven development means writing tests first, then code to pass them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Continuous integration means running tests automatically on pull requests to catch issues early."
+        },
+        {
+          "speaker": "Host",
+          "text": "At work, running all tests can take up to an hour with thousands of tests."
+        },
+        {
+          "speaker": "Host",
+          "text": "We don't need that scale, but having some basic end-to-end tests helps developers get quick feedback and avoid breaking things."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-up and Open Invitation",
+      "chapter_type": "admin",
+      "start_time": 3300.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Does anyone have any final questions?"
+        },
+        {
+          "speaker": "Host",
+          "text": "We'll continue general Q&A sessions. Feel free to ask about AI or working as an engineer in industry."
+        },
+        {
+          "speaker": "Host",
+          "text": "Even if you're not on the CodeTutor project, you can drop in anytime."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks, Nick."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you. Hope you enjoy the rest of your evening."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terminology and clarified ambiguous references.",
+    "Identified speakers as Host, Student, or Other based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Preserved all substantive content and chronological order.",
+    "Transformed speech into coherent, readable prose with complete sentences."
+  ]
+}

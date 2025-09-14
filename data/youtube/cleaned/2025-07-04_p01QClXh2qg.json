@@ -1,0 +1,212 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-07-04",
+  "total_duration_seconds": 3240.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Initial Setup",
+      "chapter_type": "admin",
+      "start_time": 463.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Hello everyone. I've put in the chat a list of tasks mostly from Emily regarding the code tutor project."
+        },
+        {
+          "speaker": "Host",
+          "text": "I just got AWS access from Adam with the right permissions to check logs, but there doesn't seem to be anything useful in them yet."
+        },
+        {
+          "speaker": "Host",
+          "text": "Melissa has been on mute, but we sorted the AWS permissions. The first task is to get the logs working and then deploy the bot in its own channel."
+        },
+        {
+          "speaker": "Host",
+          "text": "Once deployed, we can take it to Keith to ask how we should set it up further, especially regarding emails and improving quality."
+        },
+        {
+          "speaker": "Host",
+          "text": "Emily mentioned setting up the pipeline, which Langfuse should help with. Langfuse is an open-source platform for observability and evaluations, similar to Langsmith Cloud."
+        },
+        {
+          "speaker": "Host",
+          "text": "Offline evaluations involve running your large language model against inputs with expected outputs and comparing them using evaluation functions. This helps determine if prompt tuning or model changes improve performance."
+        }
+      ]
+    },
+    {
+      "title": "Internship Paths and Project Overview",
+      "chapter_type": "qa",
+      "start_time": 840.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I'm in the advanced course starting data structures and algorithms. I have a question about the internship paths. Are there only two paths: AI and web development?"
+        },
+        {
+          "speaker": "Host",
+          "text": "There are several internship paths, but AI and web development are two of them. Everyone starts on the web development support project to get acclimated, then can move to other projects like AI once ready."
+        },
+        {
+          "speaker": "Host",
+          "text": "The AI path project is almost ready for interns by the time you reach that phase. Many recommend studying data science and AI for future-proofing."
+        },
+        {
+          "speaker": "Student",
+          "text": "Some people say web development is hard to compete with overseas developers who work cheaper and faster."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's true for many fields, but passion and experience matter. Many people continue web development regardless of competition."
+        }
+      ]
+    },
+    {
+      "title": "Live Troubleshooting of Discord Bot and AWS Logs",
+      "chapter_type": "live_coding",
+      "start_time": 1080.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's start troubleshooting the bot. Adam sent a message to the bot but got an error: 'Error while processing requests. Try again later. Contact support.' We need to find where this error is coming from."
+        },
+        {
+          "speaker": "Host",
+          "text": "We have code deployed on AWS, so the first place to check is the logs. The AWS logs are thin and not very helpful, so let's look at the Neon database logs."
+        },
+        {
+          "speaker": "Host",
+          "text": "Initially, I was looking in the wrong log group. The correct one is for the Discord bot. Here we can see Discord events and messages."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some logs show 'provided documents are empty,' likely due to timezone differences. The error might be from the large language model response rather than Discord itself."
+        },
+        {
+          "speaker": "Host",
+          "text": "There was a connection error with Neon, which is a serverless database that can cold start after inactivity. This might explain initial connection failures."
+        },
+        {
+          "speaker": "Host",
+          "text": "The logs indicate the bot can talk to the database, but we need to validate that further. We also need to get access to the Neon dashboard to investigate more."
+        }
+      ]
+    },
+    {
+      "title": "Database Access and Code Review",
+      "chapter_type": "discussion",
+      "start_time": 1500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We need to get access to the Neon dashboard. You might have to reach out to Emily for that. Sometimes sending her a message on Discord helps."
+        },
+        {
+          "speaker": "Host",
+          "text": "Looking at the data in Neon, the embeddings might have changed because the models changed. The vectors could be different, so we need to ensure the same embedding model is used."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are logs of received messages but no logs showing queries or failures. The Postgres logs are missing or not visible."
+        },
+        {
+          "speaker": "Host",
+          "text": "The recent Neon logs show some compute activity and inserts into the reporting table, so the database connection is working to some extent."
+        },
+        {
+          "speaker": "Host",
+          "text": "The problem likely lies in the configuration. We should add more logging around that to understand the issue better."
+        }
+      ]
+    },
+    {
+      "title": "Local Testing and Code Deployment",
+      "chapter_type": "live_coding",
+      "start_time": 1800.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I have the database connection string for Neon. I will try running the bot locally using your connection string to reproduce the error and add better logging."
+        },
+        {
+          "speaker": "Host",
+          "text": "Connecting to Discord locally works. The bot logs some secrets, so I need to edit the recording to remove those."
+        },
+        {
+          "speaker": "Host",
+          "text": "We want to verify that the retriever and vector store are working correctly. I'll try logging the vector store and connection status."
+        },
+        {
+          "speaker": "Host",
+          "text": "The retriever similarity search requires embedding the query first. The config passes the graph and retriever, which happens under the hood."
+        },
+        {
+          "speaker": "Host",
+          "text": "Langsmith would provide better observability, but since it didn't work for us, we might try Langfuse later."
+        },
+        {
+          "speaker": "Host",
+          "text": "I tested the bot by tagging it and it responded, but we need to refine the search and error handling to avoid index errors and empty results."
+        }
+      ]
+    },
+    {
+      "title": "Testing Strategy and Priorities",
+      "chapter_type": "qa",
+      "start_time": 2670.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I have a question about testing. I have pytest configured and ran a smoke test. What should be the priority for writing actual test files?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Good question. I would start with end-to-end or regression tests to verify the whole system works. Then test bigger subsystems and finally unit tests."
+        },
+        {
+          "speaker": "Host",
+          "text": "Unit tests are better once the project stabilizes because the code changes a lot early on. Some people prefer test-driven development, but I usually hack first then add tests."
+        },
+        {
+          "speaker": "Host",
+          "text": "For this project, start by testing if you can send a message and get a response from the bot or the REST API. Mocking Discord messages could also work."
+        },
+        {
+          "speaker": "Host",
+          "text": "Testing the self-correcting agent, which builds the langraph graph, is a good place to start since it does the heavy lifting."
+        }
+      ]
+    },
+    {
+      "title": "Project Architecture Overview",
+      "chapter_type": "explanation",
+      "start_time": 3060.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The project has two clients: the Discord bot and the REST API. Both use the same underlying bot code."
+        },
+        {
+          "speaker": "Host",
+          "text": "The self-correcting agent builds a graph data structure with nodes and edges. It sends state through the graph, and each node updates it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Both clients use this agent, which creates a vector store and uses it as a retriever to process queries."
+        },
+        {
+          "speaker": "Host",
+          "text": "Testing can be done by sending inputs to the agent or the REST API to verify responses without needing Discord."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terms such as 'retriever', 'embedding model', 'Neon' (serverless database), 'Langfuse', and 'Langsmith'.",
+    "Identified speakers as Host or Student based on context.",
+    "Segmented transcript into chapters based on topic shifts and question boundaries.",
+    "Preserved all substantive content and maintained chronological order.",
+    "Transformed speech fragments into complete, coherent sentences for readability."
+  ]
+}

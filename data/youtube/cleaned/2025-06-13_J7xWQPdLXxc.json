@@ -1,0 +1,332 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-06-13",
+  "total_duration_seconds": 3600.0,
+  "chapters": [
+    {
+      "title": "Introduction to AI Discord Bot Project",
+      "chapter_type": "explanation",
+      "start_time": 2.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Sorry about that. There was a project that started last year to create a Discord bot that automatically responds to help requests. Sometimes, questions come up in the middle of the night when staff isn't available, and many of those questions are repeatable or similar to ones asked before. The system looks at past questions and responses to generate new answers to student questions. It's basically a chat designed for question and answer, not for full discussions."
+        },
+        {
+          "speaker": "Host",
+          "text": "What makes this different from just asking Python questions to ChatGPT is that it focuses on specific topics like the joy of coding, particular modules, or how this program likes to set things up. The approach is to gather data from past Discord questions and answers and build that into the AI."
+        }
+      ]
+    },
+    {
+      "title": "Perspectives on AI and Its Impact on Healthcare",
+      "chapter_type": "discussion",
+      "start_time": 42.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I always hesitate when I say AI because my background is actually in AI. Every five to ten years, the definition of AI changes. Many professions will be immediately impacted. AI will likely take over tasks like doctor visits or analyzing blood tests, moving from treating symptoms to addressing causes, which is a more intelligent approach."
+        },
+        {
+          "speaker": "Host",
+          "text": "Expert systems, though old terminology, still form the basis of many AI applications. I spent six years leading an AI and machine learning team at a healthcare technology startup from 2016 to 2022, before the current generation of AI improvements."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's tough to say which parts of healthcare AI will replace doctors, but offloading menial tasks allows doctors to focus on where their expertise and bedside manner are most needed. This frees them to handle complex cases and provide the human touch."
+        },
+        {
+          "speaker": "Host",
+          "text": "Doctors want to get to the underlying cause of medical conditions but often lack the time. If AI can handle routine interviews and data collection, doctors can spend more time listening to patients and making informed decisions. AI could even suggest possible diagnoses to guide doctors on the best course of action."
+        }
+      ]
+    },
+    {
+      "title": "Automating Medical Interviews and Improving Safety",
+      "chapter_type": "explanation",
+      "start_time": 336.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "My team's marquee project was automating much of the medical interview process for primary care, handling routine cases like colds, sprains, or medication refills. We identified the questions doctors are likely to ask and automated those, formatting the information for quick review. This saved doctors time and improved efficiency since doctor salaries are the main cost."
+        },
+        {
+          "speaker": "Host",
+          "text": "Interestingly, the system also improved safety by providing consistent double-checking. Doctors can have off days or distractions, but the automated system ensures routine questions are asked consistently, reducing the chance of missing important details."
+        },
+        {
+          "speaker": "Host",
+          "text": "We also explored diagnosis models, but gathering accurate information was the harder part. The system helped doctors focus on the important aspects of patient care."
+        }
+      ]
+    },
+    {
+      "title": "Challenges in Medical Coding and Diagnosis for AI",
+      "chapter_type": "discussion",
+      "start_time": 1080.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Regarding expert systems, interviewing patients is one side, but interviewing experts is the other. We focused on the front end, interviewing patients to feed data into diagnostic systems that include physicians."
+        },
+        {
+          "speaker": "Host",
+          "text": "Machine learning in healthcare involves programming with data rather than explicit rules. Instead of writing many if statements, machine learning finds patterns in data automatically, which is essential because medical decisions are complex and can't be fully captured by simple rules."
+        },
+        {
+          "speaker": "Host",
+          "text": "Diagnosis is complicated. Before working in healthcare AI, I thought diagnosis was straightforward: share information, run tests, and get a diagnosis. But in digital healthcare, diagnosis codes like ICD10 are primarily billing codes influenced by insurance, not purely medical classifications."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, doctors might code 'acute sinusitis' differently based on their interpretation—some see it as bacterial infection requiring antibiotics, others as viral. This subtext affects treatment decisions but isn't captured in the codes. Different doctors have different coding habits, making machine learning challenging."
+        },
+        {
+          "speaker": "Host",
+          "text": "Financial incentives and insurance interests introduce biases in the data. Some hospital departments employ medical coders to optimize billing codes, sometimes fudging details. Data scientists must understand these biases when working with healthcare data."
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning Models for Diagnosis and Treatment",
+      "chapter_type": "explanation",
+      "start_time": 2160.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "We developed models to predict diagnoses from patient information with about 80% accuracy a few years ago. Since then, AI has improved. Sometimes, the exact location of a condition matters; other times, it doesn't."
+        },
+        {
+          "speaker": "Host",
+          "text": "Clinical guidelines exist for treatments like antibiotics and antivirals, but not everyone follows the latest best practices. Machine learning models learn from average behavior, which may lag behind current guidelines."
+        },
+        {
+          "speaker": "Host",
+          "text": "Doctors bring value by knowing what information to gather and how to assess severity. Diagnosis isn't just matching symptoms to conditions; it involves judgment and prioritizing urgent cases."
+        },
+        {
+          "speaker": "Host",
+          "text": "We also explored predicting appropriate medications. This was less accurate because patient history, like prior medications, isn't always available in data. Doctors also have personal preferences and habits, which affect prescriptions."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, in urinary tract infections, some doctors prefer a pricier single-dose antibiotic to ensure compliance and reduce antibiotic resistance, while others follow standard two-dose regimens. These subtle decisions come from experience and are hard to capture in data."
+        }
+      ]
+    },
+    {
+      "title": "Healthcare AI: Opportunities and System Complexity",
+      "chapter_type": "discussion",
+      "start_time": 2880.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Healthcare is a fascinating area for AI because much of doctors' time is spent on routine tasks that could be delegated to physician assistants or AI systems, allowing doctors to focus on complex cases."
+        },
+        {
+          "speaker": "Host",
+          "text": "However, the US healthcare system is messy, with financial biases and insurance influences complicating data and decision-making. There are parallels to other fields like auto mechanics, where diagnosis, remedies, and financial considerations interplay."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you, Keith. I don't want to monopolize the time, but if possible, could you briefly explain large language models after other questions?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Sure, let's see if anyone else has questions first, then we can circle back to large language models."
+        }
+      ]
+    },
+    {
+      "title": "Building a Simple AI Chatbot: Basics and Options",
+      "chapter_type": "qa",
+      "start_time": 1500.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I'd like to ask about building an AI chatbot or code editor. First, I need to write code that receives queries from the front end and processes them in the back end. The chatbot will be linked with a large language model, right?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, that's right."
+        },
+        {
+          "speaker": "Student",
+          "text": "Why do I need a large language model? It seems big and complex. How do I break down my project requirements? I want to build a small project, not a big one."
+        },
+        {
+          "speaker": "Host",
+          "text": "It depends on what you want to accomplish. You can build a basic chatbot without a large language model. For example, if the input is 'What's the weather?', you can check the text and call a weather API to respond. This approach compares text directly."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you want a simple interaction flow, you don't need a large language model. But if you want to support many different ways people phrase things, or handle a wide range of topics, a large language model helps."
+        },
+        {
+          "speaker": "Host",
+          "text": "Systems like Siri still use simpler models, not large language models. So it depends on the experience you want to provide."
+        },
+        {
+          "speaker": "Student",
+          "text": "So, you're saying I can just use if statements?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, you can start with if statements. Let me share some example pseudo code."
+        }
+      ]
+    },
+    {
+      "title": "Example Code for Chatbot with and without Large Language Model",
+      "chapter_type": "live_coding",
+      "start_time": 1780.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Here's some example pseudo code without a large language model. We define a function respond_to_message that takes a message string and returns a string. If the message is exactly 'What is the weather?', we return a response like 'Today's weather is...' after looking up the location."
+        },
+        {
+          "speaker": "Host",
+          "text": "We can add other exact matches, like jokes. If the message doesn't match, we return 'I'm not sure how to respond to that.' This approach is simple but limited."
+        },
+        {
+          "speaker": "Host",
+          "text": "With a large language model, we generate a response by providing context and the user's query. The model can handle many different phrasings and topics because it understands language patterns."
+        },
+        {
+          "speaker": "Host",
+          "text": "We can improve the keyword matching by checking if words like 'weather' or 'joke' appear in the message, allowing more flexible matching. However, this can sometimes produce inappropriate responses."
+        },
+        {
+          "speaker": "Host",
+          "text": "Large language models require more upfront work to set up but usually less maintenance in the long run."
+        }
+      ]
+    },
+    {
+      "title": "Resources and Libraries for Building Chatbots",
+      "chapter_type": "explanation",
+      "start_time": 2200.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "There are different levels of chatbot complexity. Level one is exact match on questions, level two is keyword matching, level three uses libraries like NLTK, and level four uses large language models."
+        },
+        {
+          "speaker": "Host",
+          "text": "NLTK is an open-source Python library for natural language processing, around for about 20 years. It helps with matching inputs and outputs but still requires work to add responses."
+        },
+        {
+          "speaker": "Host",
+          "text": "Large language models require more upfront effort but can handle a wide range of inputs more flexibly."
+        }
+      ]
+    },
+    {
+      "title": "Using Large Language Models in Practice",
+      "chapter_type": "explanation",
+      "start_time": 2340.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "If I use a large language model, does it interact directly with my database or an open-source model?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Usually, you use a large language model hosted in the cloud, running on someone else's server. You can run your own server, but it's a lot more work."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let me show you a project where I use a large language model to automatically update README files. The code calls the large language model with a prompt containing context and user needs."
+        },
+        {
+          "speaker": "Host",
+          "text": "The prompt can get complicated as the system grows. We use a function to create the prompt. This example uses LangChain syntax to generate a Python object with fields like whether to update the README, the reason, and the updated content."
+        },
+        {
+          "speaker": "Host",
+          "text": "The system runs on GitHub Actions, automatically creating pull requests with suggested README updates based on code changes."
+        }
+      ]
+    },
+    {
+      "title": "Demonstration of Automated README Updates Using AI",
+      "chapter_type": "live_coding",
+      "start_time": 2460.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Here's a pull request created by the system. It suggests removing support for certain APIs and updates the README accordingly. The system regenerates the entire README for consistency."
+        },
+        {
+          "speaker": "Host",
+          "text": "The input to the large language model includes the existing README content and the pull request diff. The model decides whether to update the README, explains why, and generates the updated content."
+        },
+        {
+          "speaker": "Host",
+          "text": "The process involves fetching the current README, getting the pull request diff, and running the model with configuration parameters like temperature and max tokens."
+        }
+      ]
+    },
+    {
+      "title": "Configuring Large Language Model Parameters",
+      "chapter_type": "explanation",
+      "start_time": 2700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The model configuration includes parameters like temperature, which controls creativity. A higher temperature means more creative responses; a lower temperature means more focused and deterministic responses."
+        },
+        {
+          "speaker": "Host",
+          "text": "For less creative tasks, researchers often use temperatures around 0.2 or 0.3. The best setting depends on experimentation and the specific model."
+        }
+      ]
+    },
+    {
+      "title": "Integrating AI Suggestions and User Control",
+      "chapter_type": "explanation",
+      "start_time": 2820.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The system creates comments on pull requests suggesting README updates. If the user doesn't like the suggestion, they can ignore or close it. This approach ensures the AI doesn't cause harm and gives control to the user."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can adapt this approach to other files, like Python modules, by changing the input and output formats accordingly."
+        },
+        {
+          "speaker": "Host",
+          "text": "We also use a technique called chain of thought, where the model explains its reasoning. This improves output quality, similar to asking students to show their work on a test."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Final Questions",
+      "chapter_type": "admin",
+      "start_time": 3500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Tony, do you have any questions?"
+        },
+        {
+          "speaker": "Student",
+          "text": "No, I just enjoy hanging out and watching."
+        },
+        {
+          "speaker": "Host",
+          "text": "Glad I could help. Thank you all for joining. We'll call it a night. It was a good session covering a wide range of topics. Have a good night."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terminology and clarified ambiguous references.",
+    "Segmented transcript into topical chapters based on content and flow.",
+    "Identified speakers as Host and Student based on context.",
+    "Transformed speech patterns into clear, coherent prose while preserving all substantive content."
+  ]
+}

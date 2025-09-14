@@ -1,0 +1,467 @@
+{
+  "title": "2025-05-09T23:00:03Z - AI / Open Q & A w/Coach Keith",
+  "date": "2025-05-10",
+  "total_duration_seconds": 3405.0,
+  "chapters": [
+    {
+      "title": "Comparing AI Models for Coding Tasks",
+      "chapter_type": "explanation",
+      "start_time": 19.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "When people say one AI model is better than another, it often depends on personal experience or specific benchmarks. For example, Matthew Burman reviewed some models and found Gemini to be pretty good and one of the least expensive. The only cheaper option is Deep Seek, which is open source and essentially free."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're doing quick one-shot coding tasks, like Andrew Karpathy's vibe coding 1.0—weekend side projects or throwaway scripts—Gemini tends to be a better choice. But if you're incorporating AI more deeply into your workflow, curating code, prompting, and tweaking, then Claude might be preferable."
+        },
+        {
+          "speaker": "Student",
+          "text": "I see. So for more involved coding, Claude is better?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, exactly. When you're doing more teasing and curating of code, Claude excels."
+        },
+        {
+          "speaker": "Host",
+          "text": "Designing a controlled experiment to measure these differences is tough. Each company trains their models on slightly different datasets, so models perform better on use cases similar to their training data. For example, if one model is trained more on vibe coding data, it will excel there."
+        },
+        {
+          "speaker": "Host",
+          "text": "It can also depend on the programming language. Some models have more data in one language than another. The base language models have broad training data, but fine-tuning or reinforcement learning layers might affect performance differently across languages."
+        }
+      ]
+    },
+    {
+      "title": "Learning Scripting Languages Through Examples",
+      "chapter_type": "explanation",
+      "start_time": 308.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In general, a programming language needs a lot of documentation, usage examples, or shown examples to become accessible. For instance, I learned PowerShell scripting much easier when I had examples to follow."
+        },
+        {
+          "speaker": "Host",
+          "text": "Going through articles or comments showing how people use commands helped me start using the language almost immediately. These bite-sized examples are very helpful, especially for scripting."
+        },
+        {
+          "speaker": "Host",
+          "text": "Scripts tend to be short because many scripting patterns are repetitive and common, like stringing a few commands together with error handling. This makes examples very effective."
+        },
+        {
+          "speaker": "Host",
+          "text": "In contrast, languages like Python often involve building larger programs combining many patterns, so finding complete examples is less common."
+        },
+        {
+          "speaker": "Student",
+          "text": "So scripting is more about one-liners and small patterns, while programming languages involve more complex interactions?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. Scripting often involves more relevant one-liners, while programming languages have more complex and varied patterns."
+        }
+      ]
+    },
+    {
+      "title": "Using OpenAI's Reasoning Models for Programming",
+      "chapter_type": "live_coding",
+      "start_time": 554.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I tried using OpenAI's 03 reasoning model for programming recently, and it worked pretty well. It's probably a paid version, but I'm not 100% sure."
+        },
+        {
+          "speaker": "Host",
+          "text": "Reasoning models help when you provide lots of context, like all your requirements, and then they fill in the blanks. In my case, it made some parts of the code more complex than I wanted, which surprised me, but it saved me from frustrating typing."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, I worked with the GitHub GraphQL API to access data programmatically. I wanted to request information in batches, even though the API doesn't have a batch endpoint. The model helped me write code to query multiple users and integrate a local cache to avoid redundant lookups."
+        },
+        {
+          "speaker": "Host",
+          "text": "It worked quite well overall, missing only one or two things. It got me from a blank page to something close pretty quickly."
+        },
+        {
+          "speaker": "Host",
+          "text": "Specifying details like using a particular cache library, handling mapping on the Python side rather than in GraphQL, helped the model perform better. Earlier attempts to do mapping in GraphQL produced more complex code than I wanted."
+        },
+        {
+          "speaker": "Student",
+          "text": "So giving detailed instructions improves the output?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, once you provide enough instructions, the model does really well."
+        },
+        {
+          "speaker": "Host",
+          "text": "One issue was the response format. Each API returns data slightly differently, and the model looked in the wrong place for some responses. That was an easy fix once I realized it."
+        },
+        {
+          "speaker": "Host",
+          "text": "You can also have AI break down documentation to understand these details."
+        }
+      ]
+    },
+    {
+      "title": "Challenges with API Documentation and Model Search Behavior",
+      "chapter_type": "discussion",
+      "start_time": 840.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "One frustration with chat models is the limited control over how they search API documentation. They try to minimize searches because each search is expensive in tokens and compute."
+        },
+        {
+          "speaker": "Host",
+          "text": "They tend to be conservative, doing the minimum number of searches needed to answer your question."
+        },
+        {
+          "speaker": "Host",
+          "text": "On the other hand, tools like Perplexity do extensive searching but are usually weaker at the large language model part after the search. I've had mixed results using Perplexity for programming."
+        },
+        {
+          "speaker": "Student",
+          "text": "With Gemini, you can input a million tokens. Does performance degrade with longer input?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Typically, large language model performance degrades as input length increases, even if they support large contexts. If the new Gemini is based on the Titans paper, it might have less degradation with input length."
+        },
+        {
+          "speaker": "Host",
+          "text": "One strategy is to have Gemini condense or summarize large inputs into smaller formats, then feed that into a more expensive model like GPT. I've done this and it works well to manage costs."
+        }
+      ]
+    },
+    {
+      "title": "Estimating and Managing AI Model Costs",
+      "chapter_type": "qa",
+      "start_time": 1126.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Have you seen anything that helps predict costs for jobs you're doing with AI?"
+        },
+        {
+          "speaker": "Host",
+          "text": "If you know the input and output tokens, you can calculate cost directly. But for higher-level estimates, I usually start with a cheaper model and run some tests to log average input sizes."
+        },
+        {
+          "speaker": "Host",
+          "text": "Then I extrapolate costs for other models. For example, in one project, I did most steps with a cheaper model and only used a more expensive one for the final summarization. That balanced cost and quality well."
+        },
+        {
+          "speaker": "Host",
+          "text": "Balancing cost and quality is tricky. Published stats help, but your specific prompt and use case can affect results. You have to try things out and adjust with prompt engineering, examples, or switching models."
+        },
+        {
+          "speaker": "Host",
+          "text": "Model costs ramp up steeply. For instance, GPT-4 Mini costs about a tenth of GPT-4. So you might spend five dollars a month on Mini versus fifty on full GPT-4."
+        },
+        {
+          "speaker": "Student",
+          "text": "That makes sense. Cost trade-offs are tricky to navigate."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, and some companies offer services that analyze your prompts to recommend the best cost-quality trade-off model automatically."
+        }
+      ]
+    },
+    {
+      "title": "Politeness and Interaction with Large Language Models",
+      "chapter_type": "discussion",
+      "start_time": 1393.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I recently read an article exploring whether being polite—saying please and thank you—to large language models improves results."
+        },
+        {
+          "speaker": "Student",
+          "text": "What did they find?"
+        },
+        {
+          "speaker": "Host",
+          "text": "The article suggested that kinder prompts might yield better responses. It's a bit unusual, but some people have believed this for a long time."
+        },
+        {
+          "speaker": "Host",
+          "text": "It probably varies by model and how they were trained. It's one of those urban legends in software and AI that might have some truth."
+        }
+      ]
+    },
+    {
+      "title": "Collecting and Managing Articles for Learning",
+      "chapter_type": "discussion",
+      "start_time": 1500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I often send myself interesting articles from my Google feed with titles and links. I go through them in binges but don't get to all of them."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's very relatable."
+        },
+        {
+          "speaker": "Host",
+          "text": "One article compared GPT-4 and Claude 3.7 in a seven-round face-off, with Claude 3.7 winning decisively. It's a good middle ground between formal benchmarks and casual testing."
+        }
+      ]
+    },
+    {
+      "title": "Whale and Shark Lifespans and Biology",
+      "chapter_type": "discussion",
+      "start_time": 1625.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I read that some of the oldest whales were alive before Moby Dick was written, with harpoons found in them as proof."
+        },
+        {
+          "speaker": "Student",
+          "text": "Wow, how old do whales live?"
+        },
+        {
+          "speaker": "Host",
+          "text": "It depends on the species, but some live several hundred years, which surprised me since I thought it was only 50 or 60 years."
+        },
+        {
+          "speaker": "Host",
+          "text": "Regarding sharks, their DNA is ancient, but individual sharks can also live very long. One was found with armor dating back to the Renaissance or medieval times."
+        },
+        {
+          "speaker": "Host",
+          "text": "Apparently, some sharks don't have a natural mechanism for death and can keep living unless affected by disease or predation."
+        },
+        {
+          "speaker": "Host",
+          "text": "This longevity is interesting for research because understanding their biology could have benefits for humans."
+        }
+      ]
+    },
+    {
+      "title": "Trends in Data Science Programming Languages",
+      "chapter_type": "discussion",
+      "start_time": 1752.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I saw an article claiming Python is no longer the top choice for data science, mentioning a resurgence of Java, but I don't buy that."
+        },
+        {
+          "speaker": "Student",
+          "text": "I haven't heard of that either."
+        },
+        {
+          "speaker": "Host",
+          "text": "It depends on the use case. For live dashboards, Java might be used, but most people I know are moving away from Java over the last 10-15 years."
+        },
+        {
+          "speaker": "Host",
+          "text": "Another article mentioned DBT and Polars. DBT stands for database tool and leverages SQL to analyze data transformations. Polars might be an alternative to pandas."
+        },
+        {
+          "speaker": "Host",
+          "text": "The field changes constantly, with some technologies fading and others emerging. For example, Mojo has been touted as a Python replacement, and Julia is gaining some traction in data science."
+        },
+        {
+          "speaker": "Host",
+          "text": "Adoption of new languages is slow, and Python will likely remain dominant in data science for at least the next five years due to its extensive ecosystem."
+        },
+        {
+          "speaker": "Host",
+          "text": "Companies rarely do major rewrites of their codebase unless there's a compelling reason."
+        }
+      ]
+    },
+    {
+      "title": "Fine-Tuning vs Prompt Engineering in Large Language Models",
+      "chapter_type": "explanation",
+      "start_time": 2086.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I read an article on fine-tuning versus prompt engineering. I haven't fine-tuned a large language model myself, but I have fine-tuned other models."
+        },
+        {
+          "speaker": "Host",
+          "text": "Fine-tuning OpenAI models involves APIs that do low-rank adaptations, which don't adjust all weights. Surprisingly, you don't need many examples—maybe around 100—to make fine-tuning worthwhile."
+        },
+        {
+          "speaker": "Host",
+          "text": "However, fine-tuned models cost about twice as much per token as non-fine-tuned ones, so you have to balance quality gains against cost."
+        },
+        {
+          "speaker": "Host",
+          "text": "Fine-tuned models tend to be more reliable in quality, even if the average quality is similar to prompt-engineered models. Prompt engineering can yield great results most of the time but may fail a third of the time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Reliability is critical when you need your system to work almost all the time, so paying more for fine-tuning can be worth it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Few-shot learning by including examples in prompts has been reliable for me and helps me rethink prompt guidelines."
+        }
+      ]
+    },
+    {
+      "title": "Deploying In-House Vision Language Models",
+      "chapter_type": "discussion",
+      "start_time": 2415.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I saw a clip about deploying an in-house vision language model to parse millions of documents, saying goodbye to Gemini and OpenAI."
+        },
+        {
+          "speaker": "Host",
+          "text": "Before models like Gemini and OpenAI, this was the approach, but it took a lot of work. Now people prefer easier solutions."
+        },
+        {
+          "speaker": "Host",
+          "text": "The model uses Quen 2.5 and something called VLLM, which might stand for visual something. It requires no training or data collection."
+        },
+        {
+          "speaker": "Host",
+          "text": "I find it a bit odd when people call models that process images 'large language models' since they aren't really processing language."
+        }
+      ]
+    },
+    {
+      "title": "Sound Waves and Cellular Biology Research",
+      "chapter_type": "discussion",
+      "start_time": 2536.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "There was research about how sound waves can revive the body at a cellular level. It sounds esoteric but probably has interesting scientific backing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sound is just vibrations in the air, and cells experience vibrations, so it makes sense to study this."
+        },
+        {
+          "speaker": "Host",
+          "text": "I plan to look more into this topic as it sounds fascinating."
+        }
+      ]
+    },
+    {
+      "title": "Recent Astronomy Discoveries and Concepts",
+      "chapter_type": "discussion",
+      "start_time": 2571.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Astronomy news is always fun unless it relates to funding. Recently, there was a hubbub about a planet that might show signs of life, but the evidence is vague."
+        },
+        {
+          "speaker": "Host",
+          "text": "I want to do more surveys of that planet to understand it better."
+        },
+        {
+          "speaker": "Host",
+          "text": "Another interesting topic is using the sun as a gravitational lens. Gravity bends light, and by positioning a telescope at a certain distance, we could use the sun's gravity to focus light."
+        },
+        {
+          "speaker": "Host",
+          "text": "However, there are challenges. We can't control exactly what the lens focuses on, and the details are harder than initially thought."
+        },
+        {
+          "speaker": "Host",
+          "text": "I enjoy this kind of science because, without expertise, I can still feel childlike wonder about these discoveries."
+        }
+      ]
+    },
+    {
+      "title": "Clarifying DBT and Data Engineering Tools",
+      "chapter_type": "qa",
+      "start_time": 2791.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "What does DBT stand for?"
+        },
+        {
+          "speaker": "Host",
+          "text": "DBT stands for database tool. It leverages SQL to analyze data transformations and optimize data pipelines. People who use DBT tend to be data engineers who spend a lot of time in SQL."
+        }
+      ]
+    },
+    {
+      "title": "AI Interviewers and Fake Job Seekers",
+      "chapter_type": "discussion",
+      "start_time": 2874.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "A friend experienced an AI interviewer recently. The company used AI for initial phone screens. The AI read his resume and asked relevant questions, including good follow-ups, making the experience engaging."
+        },
+        {
+          "speaker": "Host",
+          "text": "This was eye-opening because many phone screens feel inattentive, but this AI seemed to think deeply and be engaged."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's impressive. What about fake job seekers?"
+        },
+        {
+          "speaker": "Host",
+          "text": "I saw a video by an HR professional about fake job seekers flooding the market. They use AI to fabricate photo IDs, generate fake employment histories, and provide answers during interviews."
+        },
+        {
+          "speaker": "Host",
+          "text": "Fake resumes have been common, but AI has taken it further. Gartner projects that by 2028, one in four job candidates will be fake."
+        },
+        {
+          "speaker": "Host",
+          "text": "Fake candidates can pose security risks, like installing malware or stealing data once hired."
+        },
+        {
+          "speaker": "Host",
+          "text": "Companies need to verify identities, often through background checks and previous employer calls, but it's challenging."
+        },
+        {
+          "speaker": "Host",
+          "text": "In some industries, background checks are mandatory before accessing sensitive data."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Participant Comments",
+      "chapter_type": "admin",
+      "start_time": 3359.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I'm just beyond the first week in the program and look forward to contributing more."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks for joining. It's been fun chatting. Have a great night."
+        },
+        {
+          "speaker": "Student",
+          "text": "Good night."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies while preserving all substantive content.",
+    "Corrected transcription errors and clarified technical terms based on context.",
+    "Identified speakers as Host and Student where context was clear.",
+    "Segmented transcript into chapters based on topic changes and question boundaries.",
+    "Classified chapters according to content type: explanation, live_coding, qa, discussion, admin.",
+    "Transformed speech into clear, coherent prose with complete sentences and smooth flow."
+  ]
+}

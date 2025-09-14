@@ -1,0 +1,561 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-05-31",
+  "total_duration_seconds": 4716.0,
+  "chapters": [
+    {
+      "title": "Session Introduction and Setup",
+      "chapter_type": "admin",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I thought this time around we could continue with some of the topics we discussed last time. It might be helpful for everyone if I work on some side projects during the calls. I started a list of ideas we can go through, and maybe we can talk through different concepts. Of course, others can add their input as well."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hello and welcome. Let me share my screen. Can you hear me? My headset is acting up; I have two options for audio output, and sometimes one doesn't work. Mic issues are always frustrating."
+        },
+        {
+          "speaker": "Host",
+          "text": "Welcome to the session. I was planning to walk through some material, but if you have any burning questions, feel free to ask."
+        }
+      ]
+    },
+    {
+      "title": "Clarifying Session Purpose and Coding Journey Discussion",
+      "chapter_type": "qa",
+      "start_time": 124.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I'm on project two and need some help."
+        },
+        {
+          "speaker": "Host",
+          "text": "I might be able to help, but I don't know all the project details. This session is focused on data science topics like artificial intelligence, machine learning, and data analytics, which is different from software development."
+        },
+        {
+          "speaker": "Student",
+          "text": "I see. I wasn't sure what this session was about."
+        },
+        {
+          "speaker": "Host",
+          "text": "At the beginning of training, everyone learns programming, but as you gain experience, you might specialize in backend, frontend, databases, cloud servers, or data science. Do you have specific questions about your assignment?"
+        },
+        {
+          "speaker": "Student",
+          "text": "It's procedural and involves coding."
+        },
+        {
+          "speaker": "Host",
+          "text": "How has your coding journey been so far?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I love it, but I struggle because it's not fun when you're not good at something. This is my second boot camp. The first one showed me how to code, but here I feel like I'm actually learning how to code. It's gritty work, and I have to do it myself. I'm struggling and feel like I need help at every step. I'm learning to take my pride out of it and trust the process."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's great you recognize that. Many trainings focus on following steps, but in the real world, you have to figure out the right steps yourself, and it's different every time. No one will hold your hand on the job; you'll be given a feature to build and expected to figure it out independently. This community offers support, but you still have to tackle challenging problems."
+        },
+        {
+          "speaker": "Student",
+          "text": "Exactly, I want independence and to learn that here. It feels like sink or swim, but with support."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's true. Even people starting in the industry face that. You learn to deal with discomfort, ask for help, and search for solutions. Those skills are important and never go away; problems just get harder."
+        },
+        {
+          "speaker": "Student",
+          "text": "I appreciate the hope."
+        },
+        {
+          "speaker": "Host",
+          "text": "Hard problems can be frustrating but also thrilling when you solve them. Celebrate your wins and remember where you started. For example, I couldn't solve the easiest LeetCode problem at first, but one day I'll be building features as a successful software engineer and can look back on this journey."
+        },
+        {
+          "speaker": "Host",
+          "text": "That's common in many areas. I started running a few years ago and had never run more than a mile. Progress is gradual, and looking back shows how far you've come. Sticking with it and asking for help is key. Also, knowing when to push through and when to take a break is important."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's real. Sometimes you have to push yourself, other times you need a break. Knowing which is which is wisdom."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. In the moment, frustration is real. I sometimes push too hard or not enough. Physical training is easier to understand: you strain muscles to build them but overstraining sets you back. Training 80% some days is better than zero. You can't give 110% every day."
+        },
+        {
+          "speaker": "Host",
+          "text": "Programming is mentally intensive, like being a professional athlete. Researching, problem-solving, and debugging require full concentration. At the end of the day, you can feel physically tired from mental work."
+        },
+        {
+          "speaker": "Student",
+          "text": "I feel that. Physical work gives stress relief, but mental work sitting at a screen doesn't have that outlet."
+        },
+        {
+          "speaker": "Host",
+          "text": "Right. Many people benefit from light exercise or walks when hitting a wall with coding. Heavy exercise helps more but is hard to schedule during the day."
+        }
+      ]
+    },
+    {
+      "title": "Side Project Ideas and Planning",
+      "chapter_type": "explanation",
+      "start_time": 742.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I took enough of your time. You're welcome to stay as I go through some side project ideas. A couple of sessions ago, I walked through code from a side project, which people found helpful to see practical stuff. Adam and I talked about how useful that was."
+        },
+        {
+          "speaker": "Host",
+          "text": "I plan to pick a side project or something to work on during these sessions, chipping away week by week. Adam was interested in how to pick what to work on when starting out, so I'll share my process."
+        },
+        {
+          "speaker": "Host",
+          "text": "I start by brainstorming many ideas without rejecting too many, focusing on areas I'm interested in. After some time, I prioritize based on time, skills, and excitement. I have an unprioritized list now, and we can walk through it, add ideas, and maybe spend about 20 minutes on that before prioritizing together. Any questions before I start?"
+        },
+        {
+          "speaker": "Student",
+          "text": "We're good."
+        }
+      ]
+    },
+    {
+      "title": "YouTube Video Summarization Project Idea",
+      "chapter_type": "explanation",
+      "start_time": 934.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "One idea that came up in Joy of Coding is that recorded videos get uploaded to YouTube, but often the titles don't clearly describe the content. Could we write code to automatically generate summaries, chapters, and titles for these recordings?"
+        },
+        {
+          "speaker": "Host",
+          "text": "This might use the video's transcript to summarize what was discussed, then create an API to generate titles, chapters, and summaries, and upload them back to YouTube via the API."
+        },
+        {
+          "speaker": "Host",
+          "text": "The process would be: get transcript from YouTube API, feed it into a large language model to generate summary and chapters, then upload that data back to YouTube API."
+        },
+        {
+          "speaker": "Host",
+          "text": "Another technology I'm curious about is GitHub models, which provide free large language model API usage through your GitHub account. This is interesting because cost is a barrier for many people, so using free models could help more users."
+        },
+        {
+          "speaker": "Host",
+          "text": "These ideas are mostly based on existing side projects I have. For example, I showed a project that updates your README file automatically when you make pull requests on GitHub."
+        }
+      ]
+    },
+    {
+      "title": "GitHub README Auto-Update Project Details",
+      "chapter_type": "explanation",
+      "start_time": 1128.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The README auto-update project works by checking if your README should be updated when you make changes in a pull request. It suggests updates automatically. I use it in my own projects."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are some extensions I want to add. Currently, it uses a GitHub personal access token, which requires more setup than the newer GitHub Actions token. GitHub recently added support for the Actions token, so I want to port it over to make it easier for others to use."
+        },
+        {
+          "speaker": "Host",
+          "text": "Another issue is that it only updates the main README, but many projects have multiple README files or different documentation files that all need updating. This is a common problem users face."
+        },
+        {
+          "speaker": "Host",
+          "text": "Also, the tool was too aggressive, suggesting README updates almost anytime code changed, which is unrealistic. Not all code changes require README updates."
+        },
+        {
+          "speaker": "Host",
+          "text": "I'm thinking of ways to make it less spammy, like analyzing past repository activity to see when README updates were made and using that to guide suggestions."
+        }
+      ]
+    },
+    {
+      "title": "AI-Driven Product Placement in Images Project",
+      "chapter_type": "explanation",
+      "start_time": 1260.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Another project I did last summer was a playful idea about AI and product placement. The concept was to generate an image, like someone running by a lake, and then automatically insert product placements or brand logos into the image."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's a silly project but reflects a direction AI advertising might take, as seen with companies like Google and Facebook."
+        },
+        {
+          "speaker": "Host",
+          "text": "I haven't worked on it since last August or September, but newer image generators are better now, so I could revisit it."
+        },
+        {
+          "speaker": "Host",
+          "text": "Extending this idea to video generation and voice-over is another possibility."
+        },
+        {
+          "speaker": "Host",
+          "text": "I want the project to feel like satire and be funny, not too painful or horrifying. Many software products are free until monetized through advertising, so this explores that concept."
+        },
+        {
+          "speaker": "Host",
+          "text": "I also thought about applying this to language generation models like ChatGPT, where responses might include brand mentions as paid placements. Making it inappropriate could add humor."
+        }
+      ]
+    },
+    {
+      "title": "Discussion on Personalized AI Ads and Humor",
+      "chapter_type": "discussion",
+      "start_time": 1470.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In the future, ads might be tailored on the fly for each person, which is a neat idea."
+        },
+        {
+          "speaker": "Student",
+          "text": "Yeah, ads are always the same now, but AI could generate unique ads for everyone."
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. Since companies track our activity, AI could generate ads based on recent behavior, like watching baking shows leading to ads for sweets."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's best not to overthink it; cheesy but not too cringe humor works well. Different people enjoy sarcasm, satire, or dry humor, so there's an audience for various styles."
+        },
+        {
+          "speaker": "Host",
+          "text": "A few months ago, someone made a large language model system to roast people's LinkedIn profiles automatically, which was funny but got a cease and desist from LinkedIn."
+        },
+        {
+          "speaker": "Student",
+          "text": "That's too bad. Corporate America takes away the fun."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yeah, it got too popular. That project was created in good faith and didn't intend harm."
+        }
+      ]
+    },
+    {
+      "title": "Seattle Housing and Property Research Using AI",
+      "chapter_type": "discussion",
+      "start_time": 1708.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I live in Seattle and have been researching vacant properties and housing shortages. There are abandoned buildings in prime locations that haven't been redeveloped, possibly because people are waiting for the area to improve."
+        },
+        {
+          "speaker": "Student",
+          "text": "I lived in Seattle too, in Chinatown."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, I lived in Wallingford and before that in Upper or Lower Queen Anne. The housing shortage is out of control."
+        },
+        {
+          "speaker": "Host",
+          "text": "I tried using AI models to research property histories, but it's difficult to find all the information online. Some records are available but not easily searchable. County clerks still keep paper records."
+        },
+        {
+          "speaker": "Host",
+          "text": "I found many documents about a vacant lot near where I used to live, but the information is buried deep and not connected to large language models."
+        },
+        {
+          "speaker": "Student",
+          "text": "Could AI parse that data to return what you want?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, but existing tools like Perplexity don't handle it well because the data is spread across many documents, often PDFs."
+        }
+      ]
+    },
+    {
+      "title": "Technical Exploration of Seattle Property Data APIs",
+      "chapter_type": "live_coding",
+      "start_time": 2010.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I used Perplexity to find information about a property at 118 West Mercer. It gave some historical data but lacked specifics on why it hasn't been developed."
+        },
+        {
+          "speaker": "Host",
+          "text": "I found the Seattle Department of Construction and Inspections Permit database, which has hundreds of documents related to the property."
+        },
+        {
+          "speaker": "Host",
+          "text": "The challenge is that Perplexity can't access these documents directly. The data is in many PDFs, making it hard to analyze."
+        },
+        {
+          "speaker": "Host",
+          "text": "To automate this, we would need to call the Seattle government search API by address, get JSON responses listing documents, then download and process those PDFs with AI."
+        },
+        {
+          "speaker": "Host",
+          "text": "Using Chrome DevTools, I inspected how the site fetches data. It sends requests with the address and receives JSON with document metadata and links to PDFs."
+        },
+        {
+          "speaker": "Host",
+          "text": "Automating this would involve calling the API, parsing the JSON, downloading documents, and feeding them into AI for analysis."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Participant Farewells",
+      "chapter_type": "admin",
+      "start_time": 2285.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "I have to go, but it was nice to meet you."
+        },
+        {
+          "speaker": "Host",
+          "text": "You too. Have a good weekend. These meetings happen weekly at the same time."
+        },
+        {
+          "speaker": "Student",
+          "text": "I'll check it out next week. Have a good one."
+        },
+        {
+          "speaker": "Host",
+          "text": "This meeting is for folks on the AI track or interested in AI, machine learning, data science, and analytics."
+        }
+      ]
+    },
+    {
+      "title": "Data Analytics and Web Scraping Discussion",
+      "chapter_type": "discussion",
+      "start_time": 2304.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "When I hear data analytics, I think of using SQL or Python to extract data and get metrics, which is applied statistics to answer specific business questions."
+        },
+        {
+          "speaker": "Student",
+          "text": "On your track, do you do projects where you reconstruct web pages for training purposes?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, but you have to be careful not to overload websites, especially government sites, which are public but can be slow. You want to be considerate and legal, avoiding aggressive bots that can crash sites."
+        },
+        {
+          "speaker": "Host",
+          "text": "Many small websites can't handle heavy scraping traffic, so respectful scraping is important."
+        }
+      ]
+    },
+    {
+      "title": "Web Scraping Techniques and Tools",
+      "chapter_type": "discussion",
+      "start_time": 2730.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Web scraping is surprisingly common but not often taught in depth. Usually, classes cover simple cases like pulling a paragraph from a page."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, pulling text from a div with an ID is doable. I noticed the Seattle site shows data like drinking water treated, residents, parks, and animals all on the front page."
+        },
+        {
+          "speaker": "Host",
+          "text": "I want to give a quick tour of other ideas and see if you have any."
+        }
+      ]
+    },
+    {
+      "title": "Startup Project Ideas and Challenges",
+      "chapter_type": "explanation",
+      "start_time": 2839.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'm working on a startup called Layer. Some job-related ideas include taking a job description and optimizing it to attract the right candidates."
+        },
+        {
+          "speaker": "Host",
+          "text": "Since it's just two of us, we haven't updated our web page in a while. Automating updates based on other changes would be helpful but challenging since companies store information differently."
+        },
+        {
+          "speaker": "Host",
+          "text": "We use FastText for language classification, but it's been abandoned and might break eventually. It's concerning because many large language models rely on it for classifying web pages during training."
+        }
+      ]
+    },
+    {
+      "title": "Healthcare and Machine Translation Projects",
+      "chapter_type": "explanation",
+      "start_time": 2985.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I worked at a health tech startup called 98.6. Two interesting areas are automating medical interviews and forecasting scheduling for doctors who are always on call."
+        },
+        {
+          "speaker": "Host",
+          "text": "Scheduling is complex because patients can come anytime, so staffing must be predicted based on expected patient arrivals at different times."
+        },
+        {
+          "speaker": "Host",
+          "text": "I also worked in gaming and saw challenges with machine translation, like Google Translate not understanding context, which can cause errors such as translating character names incorrectly."
+        },
+        {
+          "speaker": "Host",
+          "text": "Supporting multiple languages can cause UI issues because translated strings might be longer than the original, causing layout problems."
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning Model Deployment and Optimization",
+      "chapter_type": "explanation",
+      "start_time": 3180.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I've been interested in machine learning in various programming languages. ONNX is a format to export neural networks and has clients for many languages."
+        },
+        {
+          "speaker": "Host",
+          "text": "Llama.cpp has variants and integrations with different languages."
+        },
+        {
+          "speaker": "Host",
+          "text": "Deploying ML models as Python packages is an idea I had to simplify development instead of building separate services."
+        },
+        {
+          "speaker": "Host",
+          "text": "For our current project Layer, we run large language model prompts on data, usually using cheaper models. If results are poor, we send data to more expensive models and use that to improve the cheaper ones."
+        }
+      ]
+    },
+    {
+      "title": "Joy of Coding and Medical Topics",
+      "chapter_type": "qa",
+      "start_time": 3320.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Any Joy of Coding related updates?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Not much besides their bot project. I saw a video about a girl with POTS syndrome, which causes fainting. She has a service dog and a watch monitoring her heart."
+        },
+        {
+          "speaker": "Host",
+          "text": "I thought about making an AI-enabled voice app with a QR code that explains her condition and gives instructions, like calling 911 if she's not breathing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Phones have emergency info features where EMTs can access medical data without unlocking the device, which is useful."
+        }
+      ]
+    },
+    {
+      "title": "Healthcare AI and ChatGPT Use",
+      "chapter_type": "discussion",
+      "start_time": 3540.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "People use ChatGPT for healthcare advice, which can be helpful for hard-to-diagnose issues when combined with doctors."
+        },
+        {
+          "speaker": "Host",
+          "text": "However, blindly trusting AI advice is risky because it's not always correct."
+        }
+      ]
+    },
+    {
+      "title": "Browser Extensions and Web Scraping Tools",
+      "chapter_type": "discussion",
+      "start_time": 3600.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I've been curious about Chrome and Firefox extensions. Have you used any?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I've used text-to-speech extensions but not much else."
+        },
+        {
+          "speaker": "Host",
+          "text": "Extensions can help with scraping by letting you highlight parts of a page to extract data. Kimono Labs was a platform that did this but may no longer exist."
+        },
+        {
+          "speaker": "Host",
+          "text": "I mostly use Grammarly and ad blockers. Ad blockers improve usability but can hurt small websites that rely on respectful ads."
+        }
+      ]
+    },
+    {
+      "title": "Annoying Recipe Websites and AI Humor Ideas",
+      "chapter_type": "discussion",
+      "start_time": 4170.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Recipe sites often have intrusive ads and slide shows that make them hard to use. I thought about making the most annoying recipe website as a joke."
+        },
+        {
+          "speaker": "Host",
+          "text": "I like cooking and baking and wish there were AI tools to help, like monitoring bread rising by taking pictures periodically."
+        },
+        {
+          "speaker": "Host",
+          "text": "I plan to pick one project idea and start coding or editing it next week after doing feasibility assessments."
+        }
+      ]
+    },
+    {
+      "title": "Project Prioritization and AI Nag Idea",
+      "chapter_type": "explanation",
+      "start_time": 4380.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I usually start broad with ideas and then narrow down. In corporate life, it's better to separate problem and solution when prioritizing."
+        },
+        {
+          "speaker": "Host",
+          "text": "For side projects, it's a bit different. One idea is an AI nag tool that manages your to-do list and intelligently reminds you based on your daily and weekly activity patterns."
+        },
+        {
+          "speaker": "Host",
+          "text": "It could also check in periodically to gauge your mental state and energy for tasks, helping you balance work and rest."
+        }
+      ]
+    },
+    {
+      "title": "Session Closing",
+      "chapter_type": "admin",
+      "start_time": 4620.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "It's been good chatting. I should get dinner now. Have a good weekend, everyone."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters based on topic changes and conversation flow.",
+    "Classified chapters by type: admin, qa, explanation, live_coding, and discussion.",
+    "Preserved all substantive content while improving readability and flow."
+  ]
+}

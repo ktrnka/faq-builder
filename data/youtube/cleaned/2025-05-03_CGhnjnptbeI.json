@@ -1,0 +1,494 @@
+{
+  "title": "AI / Open Q & A with Coach Keith",
+  "date": "2025-05-03",
+  "total_duration_seconds": 4393.0,
+  "chapters": [
+    {
+      "title": "Introduction and Considering Multiple Solutions",
+      "chapter_type": "explanation",
+      "start_time": 5.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "It's no trouble. The dreaded recording."
+        },
+        {
+          "speaker": "Host",
+          "text": "I think there are a couple of ways to approach that. The concept you're getting at is to consider multiple options before picking one."
+        },
+        {
+          "speaker": "Host",
+          "text": "This applies to many things, like comparison shopping—you don't just buy the first thing you see. Even with vacation planning, you come up with several options before deciding."
+        },
+        {
+          "speaker": "Host",
+          "text": "Similarly, in coding, it's good to consider multiple approaches before committing to one."
+        },
+        {
+          "speaker": "Host",
+          "text": "There's also a saying in software engineering: beware an engineer's second solution."
+        },
+        {
+          "speaker": "Host",
+          "text": "The first time someone builds something, they get it working and see the problems. Then they overdesign the second version to fix all those problems, often going way overboard."
+        },
+        {
+          "speaker": "Host",
+          "text": "The third version usually pulls back to a more reasonable design. It all depends on the architect's starting point and the timeframe they have to design a solution."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're boots on the ground trying to get something working, you use all your knowledge to decide how to do it, considering budget and time to resolution."
+        }
+      ]
+    },
+    {
+      "title": "Designing Under Time Pressure and Capacity Planning Challenges",
+      "chapter_type": "explanation",
+      "start_time": 54.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "When you're short on time and design something quickly, then hand it off, sometimes problems remain."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, an engineer might provide capacity at an endpoint for internet or video channels transferring to a smaller cable company."
+        },
+        {
+          "speaker": "Host",
+          "text": "You budget hardware for that, but then a sales person might add another connection without considering video, which oversubscribes the box and causes issues."
+        },
+        {
+          "speaker": "Host",
+          "text": "This happens when building for capacity, so often it's best to build for current needs and plan for upgrades later to budget appropriately."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's important to have business acumen—to do what's right, enough, and what customers expect."
+        }
+      ]
+    },
+    {
+      "title": "Similarities Between Networking and Software Industry Challenges",
+      "chapter_type": "discussion",
+      "start_time": 122.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "A lot of what you're saying sounds similar to challenges I've faced in software, especially with software as a service vendors overpromising."
+        },
+        {
+          "speaker": "Host",
+          "text": "Yes, that happens a lot. You have to ask tough questions to get a feel for what's realistic."
+        },
+        {
+          "speaker": "Host",
+          "text": "Pressure and changing situations are common. You design for one thing, but the situation changes."
+        },
+        {
+          "speaker": "Host",
+          "text": "With time pressure, you might spend an hour considering alternatives if you have a week to build something, or a day if you have a month."
+        },
+        {
+          "speaker": "Host",
+          "text": "Planning should be proportional to implementation to reduce risk and balance demands."
+        }
+      ]
+    },
+    {
+      "title": "Quick Programming Stories and Automation Tools",
+      "chapter_type": "discussion",
+      "start_time": 195.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I once had a sharp young engineer who liked programming in Perl and Bash. We needed a quick interface reset script."
+        },
+        {
+          "speaker": "Host",
+          "text": "I asked if he could do it in five minutes. He spun around at his desk and was done exactly in five minutes. It was funny and motivating."
+        },
+        {
+          "speaker": "Host",
+          "text": "In networking, my programming was mostly for change automation, like looping through interfaces and subinterfaces to configure parameters."
+        },
+        {
+          "speaker": "Host",
+          "text": "I used TCL, a language created by Don Libes at NIST, with the 'expect' tool, which is included in most Unix/Linux distributions."
+        },
+        {
+          "speaker": "Host",
+          "text": "Expect lets you send commands and wait for specific output strings before sending the next command, automating interactive sessions."
+        },
+        {
+          "speaker": "Student",
+          "text": "So 'expect' runs a command and waits for particular output before proceeding?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Exactly. It looks for a string, then sends the next command. It's very useful for scripting device configurations."
+        },
+        {
+          "speaker": "Host",
+          "text": "Nowadays, Python modules can do similar things via SSH, but expect is still straightforward for many tasks."
+        }
+      ]
+    },
+    {
+      "title": "Fundamental Programming Concepts and Department Terminology",
+      "chapter_type": "qa",
+      "start_time": 756.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "What are the seven basics of programming that a department expects?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Good question. Different companies call programming groups different things—programming, technology, engineering."
+        },
+        {
+          "speaker": "Host",
+          "text": "The seven basics generally include variables, math and logic, input/output, conditions, loops, functions, and data structures."
+        },
+        {
+          "speaker": "Host",
+          "text": "Reading and predicting code outcomes is integral, though not always listed as a basic."
+        },
+        {
+          "speaker": "Host",
+          "text": "These basics are standard across languages and jobs. For example, variables exist in C, TypeScript, and many others, though handled differently."
+        }
+      ]
+    },
+    {
+      "title": "Work Environment Expectations and Communication Challenges",
+      "chapter_type": "explanation",
+      "start_time": 1136.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "In any programming job, you encounter requirements and negotiation about what work to do."
+        },
+        {
+          "speaker": "Host",
+          "text": "Miscommunication is a major source of issues—someone says, 'Build this website,' but the result isn't what was wanted."
+        },
+        {
+          "speaker": "Host",
+          "text": "Clarifying expectations through active listening and specs is important. Some companies have formal specs; others rely on product or project managers to mediate."
+        },
+        {
+          "speaker": "Host",
+          "text": "This process varies but is common across companies. Communication skills are fundamental to success."
+        }
+      ]
+    },
+    {
+      "title": "Estimating Effort and Handling Unfamiliar Work",
+      "chapter_type": "explanation",
+      "start_time": 1600.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Estimating level of effort and delivery time is a common need in all companies."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you negotiate to simplify requirements, you can deliver sooner."
+        },
+        {
+          "speaker": "Host",
+          "text": "Estimating is hard, especially for work you've never done before. In my career, 80 to 90% of coding time is on new things."
+        },
+        {
+          "speaker": "Host",
+          "text": "For familiar tasks, work is quick. For new challenges, it can be a real struggle and take most of the time."
+        },
+        {
+          "speaker": "Host",
+          "text": "I usually double my initial estimates to account for unknowns. Studies show people underestimate how much can go wrong."
+        },
+        {
+          "speaker": "Host",
+          "text": "Breaking complex tasks into parts and estimating each separately improves accuracy. Collaborating with peers to review estimates helps too."
+        }
+      ]
+    },
+    {
+      "title": "Collaboration, Expertise, and Protecting Intellectual Property",
+      "chapter_type": "discussion",
+      "start_time": 1970.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I usually have peers to discuss ideas with, even if not in the same area."
+        },
+        {
+          "speaker": "Host",
+          "text": "If no one in your company has expertise, you might reach out to former colleagues or friends for advice, sometimes buying lunch to discuss ideas."
+        },
+        {
+          "speaker": "Host",
+          "text": "You have to be careful about protecting intellectual property when sharing ideas."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some topics are more sensitive than others, and companies vary in how strict they are about sharing information."
+        },
+        {
+          "speaker": "Host",
+          "text": "Balancing safety and productivity is important."
+        }
+      ]
+    },
+    {
+      "title": "Testing, Quality Assurance, and Dogfooding",
+      "chapter_type": "explanation",
+      "start_time": 2130.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Almost every company has some form of testing, quality assurance, and user acceptance."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are many types: stress testing, load testing, automated unit, integration, regression, end-to-end, and UI testing."
+        },
+        {
+          "speaker": "Host",
+          "text": "Manual QA testing is also common."
+        },
+        {
+          "speaker": "Host",
+          "text": "One interesting practice is dogfooding—using your own product to understand its strengths and weaknesses."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, in gaming, playing the game you're building helps identify issues like lag or poor user experience."
+        }
+      ]
+    },
+    {
+      "title": "Prioritization and Managing Multiple Projects",
+      "chapter_type": "explanation",
+      "start_time": 2340.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Prioritization is essential because there's always more work than time."
+        },
+        {
+          "speaker": "Host",
+          "text": "Usually, project managers handle prioritization, but even individual contributors face choices about what to focus on."
+        },
+        {
+          "speaker": "Host",
+          "text": "Early in your career, you typically work on one project at a time. Later, you might juggle multiple projects, often with team support."
+        },
+        {
+          "speaker": "Host",
+          "text": "You constantly make decisions about how to spend your time, such as whether to use third-party code or write your own."
+        },
+        {
+          "speaker": "Host",
+          "text": "Researching options takes time, so balancing time spent researching versus coding is a common challenge."
+        }
+      ]
+    },
+    {
+      "title": "Learning Resources and Time Allocation for Education",
+      "chapter_type": "qa",
+      "start_time": 2510.0,
+      "segments": [
+        {
+          "speaker": "Student",
+          "text": "Do companies usually provide subscriptions like O'Reilly or other resources for learning?"
+        },
+        {
+          "speaker": "Host",
+          "text": "Learning resources vary widely by company. Some provide O'Reilly, online courses, or budgets for conferences and workshops."
+        },
+        {
+          "speaker": "Host",
+          "text": "All companies expect self-guided learning, but the support for learning during work hours varies."
+        },
+        {
+          "speaker": "Host",
+          "text": "Typically, 5 to 10% of work time, about two to four hours a week, is reasonable to spend on learning."
+        },
+        {
+          "speaker": "Host",
+          "text": "Some companies offer more, like Google, which historically allowed up to 10% time for side projects, though with some restrictions."
+        }
+      ]
+    },
+    {
+      "title": "Status Updates and Communication Efficiency",
+      "chapter_type": "explanation",
+      "start_time": 2880.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Status updates are part of every job. You estimate how long work will take and then provide updates regularly."
+        },
+        {
+          "speaker": "Host",
+          "text": "The skill is to give everyone the information they need while minimizing time spent on updates."
+        },
+        {
+          "speaker": "Host",
+          "text": "There are many ways to do this: Trello boards, ticketing systems, daily standups, or Slack messages."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's important not to surprise people with bad news. If you're behind schedule, communicate early so adjustments can be made."
+        },
+        {
+          "speaker": "Host",
+          "text": "Different stakeholders need different updates: team members, project managers, managers, and executives."
+        },
+        {
+          "speaker": "Host",
+          "text": "Written updates can be efficient if done well, serving multiple audiences without duplication."
+        }
+      ]
+    },
+    {
+      "title": "Release Planning and Deployment Challenges",
+      "chapter_type": "explanation",
+      "start_time": 3230.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Release schedules and planning are fundamental. For example, in gaming, we aimed for monthly updates with bug fixes and major releases."
+        },
+        {
+          "speaker": "Host",
+          "text": "To release on platforms like Nintendo Switch, you must submit the final version well in advance, often 10 days before release."
+        },
+        {
+          "speaker": "Host",
+          "text": "Testing takes several days, and if issues are found by the platform's QA, you may have to fix and resubmit, which can delay launch."
+        },
+        {
+          "speaker": "Host",
+          "text": "Sometimes fixes are quick; other times, parts of the product are disabled to meet deadlines."
+        },
+        {
+          "speaker": "Host",
+          "text": "Developers may work long hours to meet these deadlines and then take time off afterward."
+        }
+      ]
+    },
+    {
+      "title": "App Store Review and Platform Differences",
+      "chapter_type": "discussion",
+      "start_time": 3570.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "App stores have their own review processes. For example, Apple does manual testing, which is slow and expensive, while Google Play uses automated checks."
+        },
+        {
+          "speaker": "Host",
+          "text": "Rules can be interpreted differently by different reviewers, causing inconsistent outcomes."
+        },
+        {
+          "speaker": "Host",
+          "text": "For instance, Apple might reject an app for content that is central to the app's purpose, which can be frustrating."
+        },
+        {
+          "speaker": "Host",
+          "text": "This variability is common across companies and platforms."
+        }
+      ]
+    },
+    {
+      "title": "Software Lifecycle and Legacy Systems",
+      "chapter_type": "explanation",
+      "start_time": 3760.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Technological solutions have a lifecycle: planning, building, operating, and eventually becoming legacy as new solutions arrive."
+        },
+        {
+          "speaker": "Host",
+          "text": "You may need to integrate or phase out old systems carefully."
+        },
+        {
+          "speaker": "Host",
+          "text": "Deployment varies by platform. App stores handle deployment and versioning, but web apps and backend systems require manual management."
+        },
+        {
+          "speaker": "Host",
+          "text": "For backend systems, upgrades must be coordinated to minimize downtime and allow rollback if needed."
+        }
+      ]
+    },
+    {
+      "title": "High Availability Systems and Rollbacks",
+      "chapter_type": "explanation",
+      "start_time": 4000.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "High availability systems require special considerations to ensure 24/7 uptime."
+        },
+        {
+          "speaker": "Host",
+          "text": "If a new version is bad, you need a quick rollback plan."
+        },
+        {
+          "speaker": "Host",
+          "text": "We used the concept of a 'golden config'—a known good configuration to revert to if problems arise."
+        },
+        {
+          "speaker": "Host",
+          "text": "In software, once a version has run successfully for some time, it becomes the new golden config."
+        },
+        {
+          "speaker": "Host",
+          "text": "Rolling back code is easier than rolling back database changes, which can be tricky because data written in the new version can't always be undone."
+        }
+      ]
+    },
+    {
+      "title": "Session Wrap-Up and Final Thoughts",
+      "chapter_type": "admin",
+      "start_time": 4290.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I appreciate your time. This discussion gives a good expectation of the work environment you'll be aiming for."
+        },
+        {
+          "speaker": "Host",
+          "text": "People problems and communication challenges are common across industries, and effective communication helps you navigate them."
+        },
+        {
+          "speaker": "Host",
+          "text": "Habits vary by industry, but as long as you communicate well, you'll learn the necessary practices."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thanks for joining. Have a good evening and weekend."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you very much. Appreciate it. Take care. Good night."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and false starts for clarity.",
+    "Corrected technical terminology and clarified references.",
+    "Identified speakers as Host and Student based on context.",
+    "Segmented transcript into chapters by topic and conversation flow.",
+    "Classified chapters by type according to content.",
+    "Transformed speech patterns into clear, coherent prose while preserving all substantive content."
+  ]
+}
