@@ -119,35 +119,40 @@ From the content analyzed, several topic clusters emerged that could support foc
 ### Factor 1: Topic Categories
 
 **Career & Professional Development**
-- `career-transition` - Moving into AI/ML from other fields
-- `job-search` - Application strategies, hiring processes, resume advice
-- `skill-development` - Learning programming, statistics, ML concepts
-- `academic-guidance` - Thesis topics, research vs industry decisions
-- `management-advice` - Leading technical teams, project management
+- `career-transition` - Moving into AI/ML from other fields (e.g., "How Employers Measure DS Performance")
+- `job-search` - Application strategies, hiring processes, resume advice (e.g., YouTube career guidance sessions)
+- `skill-development` - Learning programming, statistics, ML concepts (e.g., simple questions threads)
+- `academic-guidance` - Thesis topics, research vs industry decisions (e.g., "Master Thesis on NLG Hallucination")
+- `management-advice` - Leading technical teams, project management (e.g., "Is DataBricks Worth It?" evaluation)
 
 **Technical Implementation & Best Practices**
-- `model-evaluation` - Comparison methodologies, metrics, experimental design
-- `data-management` - Annotation, pipeline design, version control, quality
-- `ml-deployment` - Production systems, monitoring, MLOps
-- `research-methodology` - Experimental design, statistical practices
-- `tool-selection` - Framework comparisons, cost-benefit analysis
-- `infrastructure-setup` - AWS deployment, Docker configurations, CI/CD pipeline design
+- `model-evaluation` - Comparison methodologies, metrics, experimental design (e.g., "Train/Test Separation in LLMs")
+- `data-management` - Annotation, pipeline design, version control, quality (e.g., "Synthetic Data for Privacy")
+- `ml-deployment` - Production systems, monitoring, MLOps (e.g., "Dockerfile Lambda vs ECS", "CI/CD Pipelines for ML")
+- `research-methodology` - Experimental design, statistical practices (e.g., hyperparameter stability discussions)
+- `tool-selection` - Framework comparisons, cost-benefit analysis (e.g., DataBricks evaluation, scikit-learn support)
+- `infrastructure-setup` - AWS deployment, Docker configurations, CI/CD pipeline design (e.g., "CI/CD Pipelines for ML")
+- `prompt-engineering` - Crafting effective prompts, AI instruction techniques, context management (e.g., YouTube prompt engineering discussions)
+- `neural-networks-deep-learning` - Educational content on neural network fundamentals, deep learning concepts (e.g., digit recognition tutorials)
+- `ai-assisted-development` - Using AI tools for coding, spec-driven development, AI collaboration workflows (e.g., live coding with AI)
 
 **Domain-Specific Technical Challenges**
-- `low-resource-ml` - Working with limited data or underrepresented languages
-- `healthcare-ai` - Medical applications, regulatory considerations, team dynamics
-- `nlp-applications` - Language models, translation, text processing
+- `low-resource-ml` - Working with limited data or underrepresented languages (e.g., native language training)
+- `healthcare-ai` - Medical applications, regulatory considerations, team dynamics (e.g., "NLP for Healthcare Clinical Notes")
+- `nlp-applications` - Language models, translation, text processing (e.g., "Support KB Chatbot Training")
 - `ai-safety-ethics` - Responsible AI practices, bias mitigation
-- `data-privacy` - HIPAA compliance, synthetic data, regulatory concerns
+- `data-privacy` - HIPAA compliance, synthetic data, regulatory concerns (e.g., "Synthetic Data for Privacy")
 
 **Learning & Knowledge Transfer**
-- `concept-explanation` - Breaking down complex technical topics
+- `concept-explanation` - Breaking down complex technical topics (e.g., "Neural Network Probabilities")
 - `troubleshooting` - Common pitfalls and debugging strategies
 - `industry-insights` - Market trends, technology adoption patterns
-- `academic-projects` - University coursework, project ideas, research guidance
+- `academic-projects` - University coursework, project ideas, research guidance (e.g., "Font Generator Project")
+- `study-techniques-educational-tools` - Learning methodologies, study strategies, educational technology (e.g., SVG study cards, memory retention discussions)
 
 **Process & Team Management**
-- `team-processes` - Manual vs automated workflows, knowledge sharing, team coordination
+- `team-processes` - Manual vs automated workflows, knowledge sharing, team coordination (e.g., "Manual Training Job Execution")
+- `system-administration` - Linux administration, security practices, infrastructure management (e.g., operating system discussions, security practices)
 
 ### Factor 2: Application Domain
 
@@ -257,118 +262,9 @@ From the content analyzed, several topic clusters emerged that could support foc
    - Audience: `researchers`, `practitioners`
    - Content: Language modeling, translation, thesis work
 
-## Taxonomy Assessment - 20 Additional Reddit Posts
 
-### Posts Analyzed and Classifications
 
-1. **Support KB Chatbot Training** (10tnp9h)
-   - Topics: `tool-selection`, `nlp-applications`
-   - Domain: `general-tech`
-   - Audience: `practitioners`, `beginners`
-
-2. **Webscraping ML Project Ideas** (10uyjpj)
-   - Topics: `academic-guidance`, `concept-explanation`
-   - Domain: `general-tech`
-   - Audience: `beginners`, `researchers`
-
-3. **[Deleted] Hyperparameter Stability** (10vv9f4)
-   - Topics: `model-evaluation`, `research-methodology`
-   - Domain: `general-tech`
-   - Audience: `practitioners`, `researchers`
-
-4. **Correct Phrase from Bag of Words** (10w6nik)
-   - Topics: `nlp-applications`, `concept-explanation`
-   - Domain: `general-tech`
-   - Audience: `practitioners`
-
-5. **Font Generator Project** (10w8d29)
-   - Topics: `academic-guidance`, `concept-explanation`
-   - Domain: `general-tech`
-   - Audience: `beginners`, `researchers`
-
-6. **Simple Questions Thread** (110j0cp)
-   - Topics: `nlp-applications`, `concept-explanation`, `tool-selection`
-   - Domain: `general-tech`
-   - Audience: `practitioners`, `beginners`
-
-7. **Master Thesis on NLG Hallucination** (111k0fj)
-   - Topics: `academic-guidance`, `research-methodology`
-   - Domain: `general-tech`
-   - Audience: `researchers`
-
-8. **[Deleted] Scikit-learn Support** (114m3wb)
-   - Topics: `tool-selection`, `concept-explanation`
-   - Domain: `general-tech`
-   - Audience: `practitioners`
-
-9. **Neural Network Probabilities** (1161hdg)
-   - Topics: `concept-explanation`, `model-evaluation`
-   - Domain: `general-tech`
-   - Audience: `practitioners`, `beginners`
-
-10. **Simple Questions Thread** (11ckopj)
-    - Topics: `career-transition`, `tool-selection`, `model-evaluation`, `concept-explanation`
-    - Domain: `general-tech`
-    - Audience: `beginners`, `practitioners`
-
-11. **Is DataBricks Worth It?** (11hcbgw)
-    - Topics: `tool-selection`, `management-advice`, `ml-deployment`
-    - Domain: `healthcare`
-    - Audience: `managers`, `practitioners`
-
-12. **Simple Questions Thread** (11pgj86)
-    - Topics: `nlp-applications`, `concept-explanation`
-    - Domain: `general-tech`
-    - Audience: `practitioners`, `beginners`
-
-13. **NLP for Healthcare Clinical Notes** (11toa73)
-    - Topics: `healthcare-ai`, `nlp-applications`, `tool-selection`
-    - Domain: `healthcare`
-    - Audience: `practitioners`
-
-14. **How Employers Measure DS Performance** (11wkz4s)
-    - Topics: `management-advice`, `career-transition`
-    - Domain: `general-tech`
-    - Audience: `managers`, `practitioners`
-
-15. **MLOps Deployment Questions** (11yetg8)
-    - Topics: `ml-deployment`, `concept-explanation`
-    - Domain: `general-tech`
-    - Audience: `practitioners`
-
-16. **Train/Test Separation in LLMs** (11zqaw2)
-    - Topics: `model-evaluation`, `research-methodology`
-    - Domain: `general-tech`
-    - Audience: `practitioners`, `researchers`
-
-17. **Dockerfile Lambda vs ECS** (120ois4)
-    - Topics: `ml-deployment`, `tool-selection`
-    - Domain: `general-tech`
-    - Audience: `practitioners`
-
-18. **CI/CD Pipelines for ML** (126l5x1)
-    - Topics: `ml-deployment`, `tool-selection`
-    - Domain: `general-tech`
-    - Audience: `practitioners`
-
-19. **Synthetic Data for Privacy** (12aq49v)
-    - Topics: `data-management`, `healthcare-ai`
-    - Domain: `healthcare`
-    - Audience: `practitioners`, `managers`
-
-20. **Manual Training Job Execution** (12b8n4j)
-    - Topics: `ml-deployment`, `management-advice`
-    - Domain: `general-tech`
-    - Audience: `practitioners`, `managers`
-
-### Key Findings and Taxonomy Gaps
-
-#### Missing Topic Categories Identified:
-
-1. **`data-privacy`** - Several posts dealt with HIPAA compliance, synthetic data, and privacy concerns
-2. **`infrastructure-setup`** - AWS deployment specifics, Docker configurations, CI/CD pipeline design
-3. **`academic-projects`** - University coursework, thesis guidance, research project ideas
-4. **`team-processes`** - Manual vs automated workflows, team knowledge sharing
+### Key Findings and Taxonomy Validation
 
 #### Classification Challenges:
 
@@ -421,10 +317,10 @@ From the content analyzed, several topic clusters emerged that could support foc
 
 ### Taxonomy Refinement Recommendations
 
-1. **Add missing topic categories** for data privacy, infrastructure setup, academic projects
-2. **Consider audience sub-specialization** for healthcare practitioners vs general
-3. **Handle multi-topic content** with primary/secondary topic classification
-4. **Domain expertise indicators** to prioritize content where Keith has deep experience
+1. **Consider audience sub-specialization** for healthcare practitioners vs general
+2. **Handle multi-topic content** with primary/secondary topic classification
+3. **Domain expertise indicators** to prioritize content where Keith has deep experience
+4. **Expand content analysis** to cover all available Reddit threads and YouTube transcripts
 
 ## Comprehensive Content Analysis Summary
 
