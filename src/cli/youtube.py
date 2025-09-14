@@ -25,6 +25,20 @@ TECHJOYLIVE_PLAYLIST_ID = "PLuePfAWKCLvUbnk7vAcQIXtPlMDtz6Ses"
 logger = logging.getLogger(__name__)
 
 
+def is_youtube_blocking_error(error_msg: str) -> bool:
+    """Check if error message indicates YouTube is blocking requests."""
+    blocking_indicators = [
+        "YouTube is blocking requests from your IP",
+        "too many requests",
+        "IP has been blocked by YouTube",
+        "cloud provider",
+        "requests from an IP belonging to a cloud provider",
+        "Could not retrieve a transcript for the video",
+        "This is most likely caused by:"
+    ]
+    return any(indicator.lower() in error_msg.lower() for indicator in blocking_indicators)
+
+
 def get_youtube_api_key() -> str:
     """Get YouTube API key from environment variables."""
     api_key = os.getenv("YOUTUBE_API_KEY")
@@ -76,8 +90,12 @@ def fetch_playlist_items(youtube_client, playlist_id: str, max_pages: int) -> It
             break
 
 
-def download_video_transcript(video_id: str, languages: list[str], output_dir: str, youtube_client=None) -> str:
-    """Download transcript for a video and save to file."""
+def download_video_transcript(video_id: str, languages: list[str], output_dir: str, youtube_client=None) -> tuple[str, bool]:
+    """Download transcript for a video and save to file.
+    
+    Returns:
+        tuple: (file_path, was_downloaded) where was_downloaded is False if file already existed
+    """
     metadata = None
     publish_date = "unknown"
 
@@ -88,7 +106,7 @@ def download_video_transcript(video_id: str, languages: list[str], output_dir: s
             if video_id in file:
                 path = os.path.join(youtube_raw_dir, file)
                 logger.debug(f"Transcript already exists for video: {video_id} in {path}, skipping")
-                return path
+                return path, False
 
     if youtube_client:
         try:
@@ -142,7 +160,7 @@ def download_video_transcript(video_id: str, languages: list[str], output_dir: s
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2, ensure_ascii=False)
 
-    return output_file
+    return output_file, True
 
 
 def format_transcript_readable(transcript_file: str) -> str:
@@ -260,7 +278,9 @@ def list_videos(search_term: str, playlist_id: str, max_pages: int, output_file:
 @click.argument("video_ids", nargs=-1, required=True)
 @click.option("--languages", default="en", help="Comma-separated list of language codes (default: en)")
 @click.option("--output-dir", default="data", help="Directory to save transcript files (default: data)")
-def download_transcript(video_ids, languages, output_dir):
+@click.option("--block-retry-delay", default=300, help="Seconds to wait when YouTube blocks us (default: 300 = 5 minutes)")
+@click.option("--max-retries", default=3, help="Maximum number of retries for blocked requests (default: 3)")
+def download_transcript(video_ids, languages, output_dir, block_retry_delay, max_retries):
     """Download and save transcripts for one or more YouTube videos.
 
     VIDEO_IDS can be one or more YouTube video IDs (e.g., 'dQw4w9WgXcQ')
@@ -292,31 +312,57 @@ def download_transcript(video_ids, languages, output_dir):
 
         logger.debug(f"[{i}/{len(video_ids)}] Processing video ID: {video_id}")
         
-        try:
-            # Download transcript to file
-            output_file = download_video_transcript(video_id, language_codes, output_dir, youtube)
-            
-            click.echo(f"✅ Transcript saved to: {output_file}")
-            successful_downloads.append(video_id)
-            
-            # Basic validation - just check we got some content
-            with open(output_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            transcript = data["transcript"]
-            snippet_count = len(transcript["snippets"])
-            
-            if snippet_count == 0:
-                click.echo(f"⚠️  Warning: No transcript segments found")
-            else:
-                logger.debug(f"Retrieved {snippet_count} transcript segments")
+        # Retry logic for YouTube blocking
+        attempt = 0
+        while attempt < max_retries:
+            try:
+                # Download transcript to file
+                output_file, was_downloaded = download_video_transcript(video_id, language_codes, output_dir, youtube)
                 
-        except click.ClickException as e:
-            click.echo(f"❌ Failed: {e}")
-            failed_downloads.append((video_id, str(e)))
-        except Exception as e:
-            error_msg = f"Unexpected error: {e}"
-            click.echo(f"❌ Failed: {error_msg}")
-            failed_downloads.append((video_id, error_msg))
+                if was_downloaded:
+                    click.echo(f"✅ Transcript downloaded to: {output_file}")
+                else:
+                    click.echo(f"⏭️  Transcript already exists: {output_file}")
+                successful_downloads.append(video_id)
+                
+                # Basic validation - just check we got some content
+                with open(output_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                transcript = data["transcript"]
+                snippet_count = len(transcript["snippets"])
+                
+                if snippet_count == 0:
+                    click.echo(f"⚠️  Warning: No transcript segments found")
+                else:
+                    logger.debug(f"Retrieved {snippet_count} transcript segments")
+                break  # Success, exit retry loop
+                    
+            except Exception as e:
+                error_msg = str(e)
+                
+                # Check for YouTube blocking
+                if is_youtube_blocking_error(error_msg):
+                    attempt += 1
+                    if attempt < max_retries:
+                        click.echo(f"🚫 YouTube blocking detected (attempt {attempt}/{max_retries})")
+                        click.echo(f"😴 Waiting {block_retry_delay} seconds ({block_retry_delay//60} minutes) before retry...")
+                        time.sleep(block_retry_delay)
+                        continue
+                    else:
+                        final_error = f"YouTube blocking after {max_retries} attempts: {error_msg}"
+                        click.echo(f"❌ Failed: {final_error}")
+                        failed_downloads.append((video_id, final_error))
+                        break
+                else:
+                    # Non-blocking error, don't retry
+                    if isinstance(e, click.ClickException):
+                        click.echo(f"❌ Failed: {e}")
+                        failed_downloads.append((video_id, str(e)))
+                    else:
+                        error_msg = f"Unexpected error: {e}"
+                        click.echo(f"❌ Failed: {error_msg}")
+                        failed_downloads.append((video_id, error_msg))
+                    break
         
         # Sleep between downloads (except after the last one)
         if i < len(video_ids):

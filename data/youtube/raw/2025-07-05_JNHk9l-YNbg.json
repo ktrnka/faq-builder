@@ -1,0 +1,6461 @@
+{
+  "metadata": {
+    "kind": "youtube#video",
+    "etag": "qLtT-dJmlnltgDy3RUC8eX8Ps2I",
+    "id": "JNHk9l-YNbg",
+    "snippet": {
+      "publishedAt": "2025-07-05T00:54:13Z",
+      "channelId": "UC26p3I1nr9F8G2WboH1SfTA",
+      "title": "2025-07-04T23:01:11Z - AI / Open Q & A w/Coach Keith",
+      "description": "AI / Open Q & A w/Coach Keith 2025-07-04T23:01:11Z",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/JNHk9l-YNbg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JNHk9l-YNbg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JNHk9l-YNbg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JNHk9l-YNbg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/JNHk9l-YNbg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Joy of Coding",
+      "categoryId": "24",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "2025-07-04T23:01:11Z - AI / Open Q & A w/Coach Keith",
+        "description": "AI / Open Q & A w/Coach Keith 2025-07-04T23:01:11Z"
+      }
+    },
+    "contentDetails": {
+      "duration": "PT58M47S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    },
+    "statistics": {
+      "viewCount": "0",
+      "likeCount": "0",
+      "favoriteCount": "0",
+      "commentCount": "0"
+    }
+  },
+  "transcript": {
+    "video_id": "JNHk9l-YNbg",
+    "language": "English (auto-generated)",
+    "language_code": "en",
+    "is_generated": true,
+    "snippets": [
+      {
+        "text": "And yeah, it's just informal. So if you",
+        "start": 4.4,
+        "duration": 4.239
+      },
+      {
+        "text": "have things that you were curious about",
+        "start": 7.2,
+        "duration": 4.64
+      },
+      {
+        "text": "or wanted to learn more about um or if",
+        "start": 8.639,
+        "duration": 5.361
+      },
+      {
+        "text": "you had some topic that you know you",
+        "start": 11.84,
+        "duration": 4.4
+      },
+      {
+        "text": "wanted to to bring up, it's it's really",
+        "start": 14.0,
+        "duration": 4.64
+      },
+      {
+        "text": "open to anyone to come in and and uh",
+        "start": 16.24,
+        "duration": 4.24
+      },
+      {
+        "text": "bring up anything like that if if either",
+        "start": 18.64,
+        "duration": 4.96
+      },
+      {
+        "text": "of you have anything you wanted to to um",
+        "start": 20.48,
+        "duration": 6.6
+      },
+      {
+        "text": "to chat about.",
+        "start": 23.6,
+        "duration": 3.48
+      },
+      {
+        "text": "Well, yesterday was Nick's um",
+        "start": 38.96,
+        "duration": 8.96
+      },
+      {
+        "text": "coding lab on AI",
+        "start": 43.68,
+        "duration": 5.52
+      },
+      {
+        "text": "and he was messing with a lot of",
+        "start": 47.92,
+        "duration": 3.44
+      },
+      {
+        "text": "different things like looking at asking",
+        "start": 49.2,
+        "duration": 4.32
+      },
+      {
+        "text": "a question and going back and seeing",
+        "start": 51.36,
+        "duration": 4.719
+      },
+      {
+        "text": "what the code was.",
+        "start": 53.52,
+        "duration": 4.96
+      },
+      {
+        "text": "It was very interesting. Very back and",
+        "start": 56.079,
+        "duration": 5.401
+      },
+      {
+        "text": "forth.",
+        "start": 58.48,
+        "duration": 3.0
+      },
+      {
+        "text": "Yeah. Yeah. He um so he had gotten that",
+        "start": 61.52,
+        "duration": 6.72
+      },
+      {
+        "text": "uh",
+        "start": 66.24,
+        "duration": 4.08
+      },
+      {
+        "text": "that like code tutor like the question",
+        "start": 68.24,
+        "duration": 6.4
+      },
+      {
+        "text": "answer bot um started about maybe it was",
+        "start": 70.32,
+        "duration": 7.52
+      },
+      {
+        "text": "last summer and then he got a job and",
+        "start": 74.64,
+        "duration": 5.2
+      },
+      {
+        "text": "then he didn't you know then he was",
+        "start": 77.84,
+        "duration": 4.639
+      },
+      {
+        "text": "busy. Um but he's he's back to sort of",
+        "start": 79.84,
+        "duration": 5.36
+      },
+      {
+        "text": "help get it uh to the point where other",
+        "start": 82.479,
+        "duration": 4.241
+      },
+      {
+        "text": "people can work on it because what you",
+        "start": 85.2,
+        "duration": 3.36
+      },
+      {
+        "text": "saw probably was that there's just a lot",
+        "start": 86.72,
+        "duration": 3.12
+      },
+      {
+        "text": "of things going on. It's really",
+        "start": 88.56,
+        "duration": 5.599
+      },
+      {
+        "text": "complicated. Um it's a really um",
+        "start": 89.84,
+        "duration": 7.599
+      },
+      {
+        "text": "sometimes projects can get,",
+        "start": 94.159,
+        "duration": 5.521
+      },
+      {
+        "text": "you know, kind of not very beginner",
+        "start": 97.439,
+        "duration": 4.64
+      },
+      {
+        "text": "friendly. Like of course the most",
+        "start": 99.68,
+        "duration": 4.96
+      },
+      {
+        "text": "important thing is that it works, but uh",
+        "start": 102.079,
+        "duration": 4.881
+      },
+      {
+        "text": "also with education you want it to be",
+        "start": 104.64,
+        "duration": 4.159
+      },
+      {
+        "text": "easy for for people to use. And that's",
+        "start": 106.96,
+        "duration": 3.519
+      },
+      {
+        "text": "even harder to have something that both",
+        "start": 108.799,
+        "duration": 5.721
+      },
+      {
+        "text": "works and is beginner friendly.",
+        "start": 110.479,
+        "duration": 4.041
+      },
+      {
+        "text": "That's true.",
+        "start": 115.92,
+        "duration": 5.76
+      },
+      {
+        "text": "Well, I think I'll just chuck off um for",
+        "start": 118.88,
+        "duration": 5.44
+      },
+      {
+        "text": "today. I just wanted to say Oh, well,",
+        "start": 121.68,
+        "duration": 4.16
+      },
+      {
+        "text": "thanks for swinging by and, you know,",
+        "start": 124.32,
+        "duration": 3.919
+      },
+      {
+        "text": "hope you hope you have a good uh good",
+        "start": 125.84,
+        "duration": 5.039
+      },
+      {
+        "text": "weekend, good rest of your day. Thanks.",
+        "start": 128.239,
+        "duration": 5.961
+      },
+      {
+        "text": "You as well.",
+        "start": 130.879,
+        "duration": 3.321
+      },
+      {
+        "text": "How's",
+        "start": 139.2,
+        "duration": 3.0
+      },
+      {
+        "text": "I keep on forgetting there there was",
+        "start": 144.16,
+        "duration": 7.799
+      },
+      {
+        "text": "something I wanted to mention but uh",
+        "start": 146.8,
+        "duration": 5.159
+      },
+      {
+        "text": "it's like something was happening in AI",
+        "start": 153.12,
+        "duration": 6.08
+      },
+      {
+        "text": "and it was from weeks ago and I keep on",
+        "start": 155.68,
+        "duration": 6.16
+      },
+      {
+        "text": "don't write it down and I remember it",
+        "start": 159.2,
+        "duration": 5.759
+      },
+      {
+        "text": "during the week and then I forget got",
+        "start": 161.84,
+        "duration": 5.6
+      },
+      {
+        "text": "around this time.",
+        "start": 164.959,
+        "duration": 4.321
+      },
+      {
+        "text": "I'm trying to think if I've seen much",
+        "start": 167.44,
+        "duration": 3.439
+      },
+      {
+        "text": "lately.",
+        "start": 169.28,
+        "duration": 5.84
+      },
+      {
+        "text": "Um, it was kind of like what I I think",
+        "start": 170.879,
+        "duration": 6.64
+      },
+      {
+        "text": "what I was trying to remember was",
+        "start": 175.12,
+        "duration": 5.199
+      },
+      {
+        "text": "something it was like something not good",
+        "start": 177.519,
+        "duration": 4.72
+      },
+      {
+        "text": "happening.",
+        "start": 180.319,
+        "duration": 5.28
+      },
+      {
+        "text": "Oh, yeah. It was uh",
+        "start": 182.239,
+        "duration": 7.441
+      },
+      {
+        "text": "and uh something about a tool or",
+        "start": 185.599,
+        "duration": 7.761
+      },
+      {
+        "text": "something, but I you know kind of like a",
+        "start": 189.68,
+        "duration": 7.52
+      },
+      {
+        "text": "warning or but ah",
+        "start": 193.36,
+        "duration": 7.2
+      },
+      {
+        "text": "yeah there there was um",
+        "start": 197.2,
+        "duration": 5.679
+      },
+      {
+        "text": "I know there was there's a couple news",
+        "start": 200.56,
+        "duration": 4.08
+      },
+      {
+        "text": "stories that are have been making the",
+        "start": 202.879,
+        "duration": 4.08
+      },
+      {
+        "text": "rounds about",
+        "start": 204.64,
+        "duration": 5.04
+      },
+      {
+        "text": "uh what was it? Gemini has some like",
+        "start": 206.959,
+        "duration": 6.081
+      },
+      {
+        "text": "weird situation like when it's when it",
+        "start": 209.68,
+        "duration": 5.199
+      },
+      {
+        "text": "starts doing real bad at coding. It's",
+        "start": 213.04,
+        "duration": 3.759
+      },
+      {
+        "text": "like",
+        "start": 214.879,
+        "duration": 3.601
+      },
+      {
+        "text": "I I don't know what it says. It says",
+        "start": 216.799,
+        "duration": 4.08
+      },
+      {
+        "text": "it'll kill itself or uninstall or",
+        "start": 218.48,
+        "duration": 4.88
+      },
+      {
+        "text": "something. I don't know.",
+        "start": 220.879,
+        "duration": 6.041
+      },
+      {
+        "text": "Says something ridiculous.",
+        "start": 223.36,
+        "duration": 3.56
+      },
+      {
+        "text": "Yeah, there's still uh I mean so many",
+        "start": 227.84,
+        "duration": 6.28
+      },
+      {
+        "text": "hidden things in the LLMs.",
+        "start": 230.08,
+        "duration": 4.04
+      },
+      {
+        "text": "Yeah, I mean that's there's that and",
+        "start": 234.239,
+        "duration": 7.08
+      },
+      {
+        "text": "then but then it's also like",
+        "start": 237.04,
+        "duration": 4.279
+      },
+      {
+        "text": "you know how much of it is how the",
+        "start": 241.36,
+        "duration": 6.4
+      },
+      {
+        "text": "specific person prompted it and then",
+        "start": 243.439,
+        "duration": 5.921
+      },
+      {
+        "text": "yeah you know a lot of times in the news",
+        "start": 247.76,
+        "duration": 2.96
+      },
+      {
+        "text": "stories it gets kind of taken out of",
+        "start": 249.36,
+        "duration": 3.599
+      },
+      {
+        "text": "context right but that context of how it",
+        "start": 250.72,
+        "duration": 4.159
+      },
+      {
+        "text": "was instructed is really really",
+        "start": 252.959,
+        "duration": 3.761
+      },
+      {
+        "text": "important for these things.",
+        "start": 254.879,
+        "duration": 6.161
+      },
+      {
+        "text": "Yeah, definitely. Oh, yeah. It's I mean",
+        "start": 256.72,
+        "duration": 7.919
+      },
+      {
+        "text": "how how people misinterpret what you",
+        "start": 261.04,
+        "duration": 7.12
+      },
+      {
+        "text": "know vibe coding I'll say.",
+        "start": 264.639,
+        "duration": 6.401
+      },
+      {
+        "text": "Yeah. Yeah. Oh, I saw actually a really",
+        "start": 268.16,
+        "duration": 7.68
+      },
+      {
+        "text": "cool one today. Um",
+        "start": 271.04,
+        "duration": 7.2
+      },
+      {
+        "text": "on hacker news. Uh welcome Eric. We just",
+        "start": 275.84,
+        "duration": 4.079
+      },
+      {
+        "text": "do kind of open Q&A. So if you've got",
+        "start": 278.24,
+        "duration": 3.36
+      },
+      {
+        "text": "any kind of questions or topics you want",
+        "start": 279.919,
+        "duration": 4.0
+      },
+      {
+        "text": "to bring up, just feel free to jump in.",
+        "start": 281.6,
+        "duration": 4.64
+      },
+      {
+        "text": "No, nothing specific. I just wanted to",
+        "start": 283.919,
+        "duration": 4.881
+      },
+      {
+        "text": "uh eaves drop and listen to what you",
+        "start": 286.24,
+        "duration": 5.6
+      },
+      {
+        "text": "smart people are talking about.",
+        "start": 288.8,
+        "duration": 5.36
+      },
+      {
+        "text": "Well, I don't know about claiming to be",
+        "start": 291.84,
+        "duration": 5.44
+      },
+      {
+        "text": "a smart person, but uh I'll try. I'll",
+        "start": 294.16,
+        "duration": 6.64
+      },
+      {
+        "text": "try. Wouldn't be using AI and stuff like",
+        "start": 297.28,
+        "duration": 5.84
+      },
+      {
+        "text": "that.",
+        "start": 300.8,
+        "duration": 2.32
+      },
+      {
+        "text": "H man. Yeah, I saw someone today over on",
+        "start": 303.84,
+        "duration": 7.52
+      },
+      {
+        "text": "Hacker News um",
+        "start": 308.0,
+        "duration": 6.16
+      },
+      {
+        "text": "really they used",
+        "start": 311.36,
+        "duration": 5.76
+      },
+      {
+        "text": "they basically like Vive Vivecoded a",
+        "start": 314.16,
+        "duration": 5.36
+      },
+      {
+        "text": "video game, you know, like a basic on a",
+        "start": 317.12,
+        "duration": 5.359
+      },
+      {
+        "text": "video game. Um trying to see if there's",
+        "start": 319.52,
+        "duration": 7.399
+      },
+      {
+        "text": "anything interesting in here about that.",
+        "start": 322.479,
+        "duration": 4.44
+      },
+      {
+        "text": "Okay, actually this this could be pretty",
+        "start": 332.4,
+        "duration": 4.239
+      },
+      {
+        "text": "okay. Yeah, let me share my screen.",
+        "start": 335.12,
+        "duration": 2.56
+      },
+      {
+        "text": "There's there's some interesting stuff",
+        "start": 336.639,
+        "duration": 5.641
+      },
+      {
+        "text": "in here. Um",
+        "start": 337.68,
+        "duration": 4.6
+      },
+      {
+        "text": "desktop 2 share",
+        "start": 343.199,
+        "duration": 4.121
+      },
+      {
+        "text": "and this was just uh",
+        "start": 347.36,
+        "duration": 4.64
+      },
+      {
+        "text": "you know from hacker news. I saw it",
+        "start": 350.16,
+        "duration": 3.36
+      },
+      {
+        "text": "today. there's this, you know, show",
+        "start": 352.0,
+        "duration": 4.0
+      },
+      {
+        "text": "hacker news. I AI coded a tower defense",
+        "start": 353.52,
+        "duration": 4.399
+      },
+      {
+        "text": "game and some of the comments were",
+        "start": 356.0,
+        "duration": 3.28
+      },
+      {
+        "text": "pretty neat. You know, this person",
+        "start": 357.919,
+        "duration": 2.72
+      },
+      {
+        "text": "saying that they really enjoyed reading",
+        "start": 359.28,
+        "duration": 5.199
+      },
+      {
+        "text": "over the prompts for development. Um,",
+        "start": 360.639,
+        "duration": 5.601
+      },
+      {
+        "text": "and I'd seen that that this morning and",
+        "start": 364.479,
+        "duration": 3.201
+      },
+      {
+        "text": "I just, you know, hadn't looked into it",
+        "start": 366.24,
+        "duration": 3.92
+      },
+      {
+        "text": "yet. Um, so let's double check. Yeah.",
+        "start": 367.68,
+        "duration": 5.519
+      },
+      {
+        "text": "So, they're linking to prompts",
+        "start": 370.16,
+        "duration": 5.52
+      },
+      {
+        "text": "and",
+        "start": 373.199,
+        "duration": 5.481
+      },
+      {
+        "text": "maybe",
+        "start": 375.68,
+        "duration": 3.0
+      },
+      {
+        "text": "see the thing with this is this uh maybe",
+        "start": 379.12,
+        "duration": 7.6
+      },
+      {
+        "text": "I'll just do it as raw. Will that",
+        "start": 382.24,
+        "duration": 6.32
+      },
+      {
+        "text": "h That's okay. That's okay. I'll just",
+        "start": 386.72,
+        "duration": 4.4
+      },
+      {
+        "text": "make it a little bit bigger. All right.",
+        "start": 388.56,
+        "duration": 5.04
+      },
+      {
+        "text": "Prompts used to develop Tower of Time",
+        "start": 391.12,
+        "duration": 6.16
+      },
+      {
+        "text": "contains almost all the prompts used.",
+        "start": 393.6,
+        "duration": 5.52
+      },
+      {
+        "text": "Uh",
+        "start": 397.28,
+        "duration": 4.32
+      },
+      {
+        "text": "somewhere generated with Fraser editor.",
+        "start": 399.12,
+        "duration": 6.24
+      },
+      {
+        "text": "Okay. Yeah, Phaser is a a game editor.",
+        "start": 401.6,
+        "duration": 6.96
+      },
+      {
+        "text": "Uh Oh, okay. Like JavaScript. Oh, right",
+        "start": 405.36,
+        "duration": 6.08
+      },
+      {
+        "text": "on. Yeah, it's a it's like a game uh",
+        "start": 408.56,
+        "duration": 6.56
+      },
+      {
+        "text": "engine type of thing.",
+        "start": 411.44,
+        "duration": 5.599
+      },
+      {
+        "text": "Visually build a level, place some",
+        "start": 415.12,
+        "duration": 4.24
+      },
+      {
+        "text": "elements like spawn or pass. Each",
+        "start": 417.039,
+        "duration": 4.241
+      },
+      {
+        "text": "heading is one conversation with an AI",
+        "start": 419.36,
+        "duration": 4.32
+      },
+      {
+        "text": "agent. Okay. Or either augment code or",
+        "start": 421.28,
+        "duration": 5.84
+      },
+      {
+        "text": "cursor agent with Cloud Son F4.",
+        "start": 423.68,
+        "duration": 6.48
+      },
+      {
+        "text": "Uh, sometimes I would go back and forth,",
+        "start": 427.12,
+        "duration": 5.519
+      },
+      {
+        "text": "of course.",
+        "start": 430.16,
+        "duration": 5.439
+      },
+      {
+        "text": "Uh, oh, if a conversation ended, that",
+        "start": 432.639,
+        "duration": 5.601
+      },
+      {
+        "text": "usually means an agent did his job or I",
+        "start": 435.599,
+        "duration": 5.521
+      },
+      {
+        "text": "gave up kind of. Um, yeah, that's",
+        "start": 438.24,
+        "duration": 4.48
+      },
+      {
+        "text": "relatable.",
+        "start": 441.12,
+        "duration": 4.16
+      },
+      {
+        "text": "Uh, can't guarantee. Yeah, they're",
+        "start": 442.72,
+        "duration": 4.56
+      },
+      {
+        "text": "probably, you know, a lot of development",
+        "start": 445.28,
+        "duration": 3.759
+      },
+      {
+        "text": "is not, you know, you develop one thing",
+        "start": 447.28,
+        "duration": 3.12
+      },
+      {
+        "text": "and you kind of go back and forth,",
+        "start": 449.039,
+        "duration": 2.88
+      },
+      {
+        "text": "right?",
+        "start": 450.4,
+        "duration": 4.519
+      },
+      {
+        "text": "Uh",
+        "start": 451.919,
+        "duration": 3.0
+      },
+      {
+        "text": "sometimes I would manually add certain",
+        "start": 456.16,
+        "duration": 3.68
+      },
+      {
+        "text": "files to the agent context. Yeah, that",
+        "start": 457.84,
+        "duration": 4.88
+      },
+      {
+        "text": "makes sense. I mostly use uh co-pilot",
+        "start": 459.84,
+        "duration": 8.079
+      },
+      {
+        "text": "chat or yeah, for the agent mode and um",
+        "start": 462.72,
+        "duration": 6.96
+      },
+      {
+        "text": "yeah, that's one where you have to",
+        "start": 467.919,
+        "duration": 3.521
+      },
+      {
+        "text": "almost always have to add the files",
+        "start": 469.68,
+        "duration": 4.4
+      },
+      {
+        "text": "manually to the context. Um, but I'm",
+        "start": 471.44,
+        "duration": 4.64
+      },
+      {
+        "text": "guessing with curs with cursor you",
+        "start": 474.08,
+        "duration": 3.679
+      },
+      {
+        "text": "usually don't have to and you only",
+        "start": 476.08,
+        "duration": 4.239
+      },
+      {
+        "text": "sometimes have to.",
+        "start": 477.759,
+        "duration": 5.041
+      },
+      {
+        "text": "Uh, player implement player movement.",
+        "start": 480.319,
+        "duration": 3.841
+      },
+      {
+        "text": "The player can move in all four",
+        "start": 482.8,
+        "duration": 4.239
+      },
+      {
+        "text": "directions using arrow keys.",
+        "start": 484.16,
+        "duration": 4.4
+      },
+      {
+        "text": "Okay,",
+        "start": 487.039,
+        "duration": 3.761
+      },
+      {
+        "text": "but make it generic enough so it accepts",
+        "start": 488.56,
+        "duration": 4.88
+      },
+      {
+        "text": "gamepad input later on. Okay, this is",
+        "start": 490.8,
+        "duration": 5.76
+      },
+      {
+        "text": "good. Plus, there'll be some inputs",
+        "start": 493.44,
+        "duration": 5.12
+      },
+      {
+        "text": "later like an interact button. Make it",
+        "start": 496.56,
+        "duration": 4.24
+      },
+      {
+        "text": "so the player cannot go beyond the",
+        "start": 498.56,
+        "duration": 4.0
+      },
+      {
+        "text": "boundary of the parent scene. That's",
+        "start": 500.8,
+        "duration": 3.92
+      },
+      {
+        "text": "actually a pretty interesting prompt",
+        "start": 502.56,
+        "duration": 4.56
+      },
+      {
+        "text": "because it uh it's already demonstrating",
+        "start": 504.72,
+        "duration": 5.44
+      },
+      {
+        "text": "that the person writing the prompt has a",
+        "start": 507.12,
+        "duration": 4.799
+      },
+      {
+        "text": "lot of knowledge.",
+        "start": 510.16,
+        "duration": 3.679
+      },
+      {
+        "text": "Um",
+        "start": 511.919,
+        "duration": 4.081
+      },
+      {
+        "text": "so they know to be careful about game",
+        "start": 513.839,
+        "duration": 5.041
+      },
+      {
+        "text": "pads. Um I can tell you having worked in",
+        "start": 516.0,
+        "duration": 6.399
+      },
+      {
+        "text": "gaming, if you make it for a keyboard",
+        "start": 518.88,
+        "duration": 6.0
+      },
+      {
+        "text": "and uh you don't think about the game",
+        "start": 522.399,
+        "duration": 4.321
+      },
+      {
+        "text": "pad later on, it's going to be a lot of",
+        "start": 524.88,
+        "duration": 3.76
+      },
+      {
+        "text": "extra work.",
+        "start": 526.72,
+        "duration": 3.52
+      },
+      {
+        "text": "But it's it's much less work when you're",
+        "start": 528.64,
+        "duration": 3.199
+      },
+      {
+        "text": "setting it up, you know, in the first",
+        "start": 530.24,
+        "duration": 6.0
+      },
+      {
+        "text": "place. And so they know that and but",
+        "start": 531.839,
+        "duration": 6.241
+      },
+      {
+        "text": "they don't trust that the AI will just",
+        "start": 536.24,
+        "duration": 3.12
+      },
+      {
+        "text": "automatically know that. So they're",
+        "start": 538.08,
+        "duration": 2.56
+      },
+      {
+        "text": "putting that information into the",
+        "start": 539.36,
+        "duration": 4.159
+      },
+      {
+        "text": "prompt. That's really good.",
+        "start": 540.64,
+        "duration": 4.639
+      },
+      {
+        "text": "And then this again, this is a really",
+        "start": 543.519,
+        "duration": 4.161
+      },
+      {
+        "text": "good one of like anticipating future",
+        "start": 545.279,
+        "duration": 4.961
+      },
+      {
+        "text": "needs. Um because a lot of when we build",
+        "start": 547.68,
+        "duration": 4.48
+      },
+      {
+        "text": "code, right, if we're writing it a big",
+        "start": 550.24,
+        "duration": 4.0
+      },
+      {
+        "text": "project, we're anticipating what it",
+        "start": 552.16,
+        "duration": 5.52
+      },
+      {
+        "text": "might become down the line. But the AI",
+        "start": 554.24,
+        "duration": 4.64
+      },
+      {
+        "text": "doesn't ne, you know, it's kind of doing",
+        "start": 557.68,
+        "duration": 3.44
+      },
+      {
+        "text": "what you tell it to do. And so if you",
+        "start": 558.88,
+        "duration": 3.92
+      },
+      {
+        "text": "want it to anticipate, you have to sort",
+        "start": 561.12,
+        "duration": 5.2
+      },
+      {
+        "text": "of tell it what to anticipate a bit.",
+        "start": 562.8,
+        "duration": 5.12
+      },
+      {
+        "text": "Uh, make it so the player can't go",
+        "start": 566.32,
+        "duration": 3.28
+      },
+      {
+        "text": "beyond the boundary of the parent scene.",
+        "start": 567.92,
+        "duration": 5.0
+      },
+      {
+        "text": "I mean,",
+        "start": 569.6,
+        "duration": 3.32
+      },
+      {
+        "text": "yeah,",
+        "start": 574.399,
+        "duration": 4.401
+      },
+      {
+        "text": "I'm guessing the parent scene is kind of",
+        "start": 576.8,
+        "duration": 4.479
+      },
+      {
+        "text": "lingo from phaser editor where it's just",
+        "start": 578.8,
+        "duration": 5.2
+      },
+      {
+        "text": "kind of like the boundaries of the um",
+        "start": 581.279,
+        "duration": 5.281
+      },
+      {
+        "text": "like the scene is sort of like the level",
+        "start": 584.0,
+        "duration": 3.92
+      },
+      {
+        "text": "is what it would be called in other",
+        "start": 586.56,
+        "duration": 4.0
+      },
+      {
+        "text": "editors. Then parent scene is probably",
+        "start": 587.92,
+        "duration": 5.359
+      },
+      {
+        "text": "just, you know, basically your screen.",
+        "start": 590.56,
+        "duration": 5.36
+      },
+      {
+        "text": "Um",
+        "start": 593.279,
+        "duration": 6.761
+      },
+      {
+        "text": "or I'm wondering if it",
+        "start": 595.92,
+        "duration": 4.12
+      },
+      {
+        "text": "if um like uh I I used to play one of",
+        "start": 600.16,
+        "duration": 7.6
+      },
+      {
+        "text": "those massive online games and um there",
+        "start": 603.2,
+        "duration": 6.88
+      },
+      {
+        "text": "was an actual like you know boundary of",
+        "start": 607.76,
+        "duration": 4.96
+      },
+      {
+        "text": "the of the world and every once in a",
+        "start": 610.08,
+        "duration": 4.16
+      },
+      {
+        "text": "while we would find little glitches",
+        "start": 612.72,
+        "duration": 4.799
+      },
+      {
+        "text": "where you could go beyond it. You could",
+        "start": 614.24,
+        "duration": 6.4
+      },
+      {
+        "text": "go Yeah. go past the screen. So it's",
+        "start": 617.519,
+        "duration": 5.121
+      },
+      {
+        "text": "like you could fall through the floor",
+        "start": 620.64,
+        "duration": 5.36
+      },
+      {
+        "text": "kind of thing or something. I'm I'm",
+        "start": 622.64,
+        "duration": 5.04
+      },
+      {
+        "text": "Yeah, we had to do something like that",
+        "start": 626.0,
+        "duration": 4.48
+      },
+      {
+        "text": "in uh in Paleia. Um I'm trying to",
+        "start": 627.68,
+        "duration": 6.64
+      },
+      {
+        "text": "remember how it was implemented. Um",
+        "start": 630.48,
+        "duration": 6.24
+      },
+      {
+        "text": "if I remember right, it's implemented as",
+        "start": 634.32,
+        "duration": 4.8
+      },
+      {
+        "text": "3D polygons.",
+        "start": 636.72,
+        "duration": 4.559
+      },
+      {
+        "text": "Uh like you know, a whole bunch of 3D",
+        "start": 639.12,
+        "duration": 4.48
+      },
+      {
+        "text": "planes and you hope that you enclosed it",
+        "start": 641.279,
+        "duration": 3.841
+      },
+      {
+        "text": "perfectly, but you might miss some",
+        "start": 643.6,
+        "duration": 5.44
+      },
+      {
+        "text": "spots. Um yeah, falling through the",
+        "start": 645.12,
+        "duration": 7.52
+      },
+      {
+        "text": "world. That was part of the problem is",
+        "start": 649.04,
+        "duration": 8.12
+      },
+      {
+        "text": "that um the",
+        "start": 652.64,
+        "duration": 4.52
+      },
+      {
+        "text": "at least in Unreal Engine which we used",
+        "start": 658.079,
+        "duration": 5.361
+      },
+      {
+        "text": "the visual what you see you know it's",
+        "start": 661.12,
+        "duration": 4.8
+      },
+      {
+        "text": "it's taking this complex object and",
+        "start": 663.44,
+        "duration": 4.959
+      },
+      {
+        "text": "we're represented representing it in you",
+        "start": 665.92,
+        "duration": 4.32
+      },
+      {
+        "text": "know lots of triangles or some kind of",
+        "start": 668.399,
+        "duration": 5.921
+      },
+      {
+        "text": "mesh um and so you know the 3D triangles",
+        "start": 670.24,
+        "duration": 6.24
+      },
+      {
+        "text": "they get converted to 2D when you kind",
+        "start": 674.32,
+        "duration": 6.32
+      },
+      {
+        "text": "of project it onto the screen Um,",
+        "start": 676.48,
+        "duration": 6.64
+      },
+      {
+        "text": "that's pretty high resolution, but for",
+        "start": 680.64,
+        "duration": 4.96
+      },
+      {
+        "text": "physics, for uh, you know, are you",
+        "start": 683.12,
+        "duration": 4.0
+      },
+      {
+        "text": "hitting something? Can you go through",
+        "start": 685.6,
+        "duration": 4.32
+      },
+      {
+        "text": "something? Um,",
+        "start": 687.12,
+        "duration": 5.2
+      },
+      {
+        "text": "to save performance, to make the game",
+        "start": 689.92,
+        "duration": 4.24
+      },
+      {
+        "text": "run faster,",
+        "start": 692.32,
+        "duration": 5.519
+      },
+      {
+        "text": "they approximate the same complex object",
+        "start": 694.16,
+        "duration": 6.32
+      },
+      {
+        "text": "using fewer polygons for the physics for",
+        "start": 697.839,
+        "duration": 4.721
+      },
+      {
+        "text": "the collision models. So, the collision",
+        "start": 700.48,
+        "duration": 4.16
+      },
+      {
+        "text": "models are often actually different than",
+        "start": 702.56,
+        "duration": 4.399
+      },
+      {
+        "text": "the visual models for performance",
+        "start": 704.64,
+        "duration": 3.759
+      },
+      {
+        "text": "reasons.",
+        "start": 706.959,
+        "duration": 4.481
+      },
+      {
+        "text": "Um, and that can partly result in some",
+        "start": 708.399,
+        "duration": 4.481
+      },
+      {
+        "text": "of the falling through the world thing,",
+        "start": 711.44,
+        "duration": 3.12
+      },
+      {
+        "text": "right? You know, if you if it gets",
+        "start": 712.88,
+        "duration": 3.519
+      },
+      {
+        "text": "approximated in a certain way or the",
+        "start": 714.56,
+        "duration": 5.519
+      },
+      {
+        "text": "floor is um",
+        "start": 716.399,
+        "duration": 6.0
+      },
+      {
+        "text": "Yeah, all kinds of weird things happen",
+        "start": 720.079,
+        "duration": 4.241
+      },
+      {
+        "text": "with the floor, I'll tell you. Yeah,",
+        "start": 722.399,
+        "duration": 4.401
+      },
+      {
+        "text": "that that makes sense. I think with the",
+        "start": 724.32,
+        "duration": 5.44
+      },
+      {
+        "text": "floor also another thing would happen is",
+        "start": 726.8,
+        "duration": 5.76
+      },
+      {
+        "text": "if some c certain kinds of interactions",
+        "start": 729.76,
+        "duration": 5.44
+      },
+      {
+        "text": "would uh change the position of a",
+        "start": 732.56,
+        "duration": 6.959
+      },
+      {
+        "text": "character maybe up or down and um if one",
+        "start": 735.2,
+        "duration": 7.6
+      },
+      {
+        "text": "piece of code moved the character down",
+        "start": 739.519,
+        "duration": 5.041
+      },
+      {
+        "text": "um sort of the physics for gravity might",
+        "start": 742.8,
+        "duration": 3.36
+      },
+      {
+        "text": "be set from like the bottom of the feet",
+        "start": 744.56,
+        "duration": 4.56
+      },
+      {
+        "text": "of the character. So if it got below",
+        "start": 746.16,
+        "duration": 6.08
+      },
+      {
+        "text": "that very you know just thin wrapper",
+        "start": 749.12,
+        "duration": 4.56
+      },
+      {
+        "text": "around the world then it might just keep",
+        "start": 752.24,
+        "duration": 3.44
+      },
+      {
+        "text": "falling. I forget exactly what causes",
+        "start": 753.68,
+        "duration": 3.839
+      },
+      {
+        "text": "the fall through the world thing, but",
+        "start": 755.68,
+        "duration": 4.56
+      },
+      {
+        "text": "yeah, we had a bunch of those.",
+        "start": 757.519,
+        "duration": 5.521
+      },
+      {
+        "text": "That wasn't my area, so I'm just um",
+        "start": 760.24,
+        "duration": 4.88
+      },
+      {
+        "text": "trying to trying to remember what I can,",
+        "start": 763.04,
+        "duration": 4.72
+      },
+      {
+        "text": "but maybe a little bit beyond my my",
+        "start": 765.12,
+        "duration": 5.04
+      },
+      {
+        "text": "level of knowledge there.",
+        "start": 767.76,
+        "duration": 5.68
+      },
+      {
+        "text": "Um, let's keep going through this. Uh,",
+        "start": 770.16,
+        "duration": 5.44
+      },
+      {
+        "text": "player sprite always faces north. Okay,",
+        "start": 773.44,
+        "duration": 5.6
+      },
+      {
+        "text": "so it's probably a 2D game.",
+        "start": 775.6,
+        "duration": 8.08
+      },
+      {
+        "text": "Um, because it says sprite. Uh, make it",
+        "start": 779.04,
+        "duration": 6.96
+      },
+      {
+        "text": "so that it rotates to face the direction",
+        "start": 783.68,
+        "duration": 6.04
+      },
+      {
+        "text": "it's flying.",
+        "start": 786.0,
+        "duration": 3.72
+      },
+      {
+        "text": "Well, don't don't they just use sprite",
+        "start": 791.2,
+        "duration": 6.92
+      },
+      {
+        "text": "generically for the whatever the",
+        "start": 792.959,
+        "duration": 5.161
+      },
+      {
+        "text": "character? Um,",
+        "start": 798.24,
+        "duration": 6.64
+      },
+      {
+        "text": "are are do do 3D characters not actually",
+        "start": 800.48,
+        "duration": 7.28
+      },
+      {
+        "text": "use sprite? Uh, I think usually we would",
+        "start": 804.88,
+        "duration": 8.56
+      },
+      {
+        "text": "say model or um there was some other um",
+        "start": 807.76,
+        "duration": 7.36
+      },
+      {
+        "text": "name that we used for it. Let me see if",
+        "start": 813.44,
+        "duration": 3.12
+      },
+      {
+        "text": "we can get some. Okay, so this is what",
+        "start": 815.12,
+        "duration": 4.159
+      },
+      {
+        "text": "it kind of looks like. We've got uh",
+        "start": 816.56,
+        "duration": 5.6
+      },
+      {
+        "text": "Yeah. Okay. So, it's kind of a 2D",
+        "start": 819.279,
+        "duration": 5.441
+      },
+      {
+        "text": "and it's I guess fly flying around. Oh,",
+        "start": 822.16,
+        "duration": 4.08
+      },
+      {
+        "text": "that's right. It's a tower defense type",
+        "start": 824.72,
+        "duration": 4.32
+      },
+      {
+        "text": "game. So, I guess you have something and",
+        "start": 826.24,
+        "duration": 4.8
+      },
+      {
+        "text": "you can move and then these little you",
+        "start": 829.04,
+        "duration": 4.72
+      },
+      {
+        "text": "know blobby things move through here.",
+        "start": 831.04,
+        "duration": 4.32
+      },
+      {
+        "text": "Um,",
+        "start": 833.76,
+        "duration": 3.759
+      },
+      {
+        "text": "I guess so that it rotates to face the",
+        "start": 835.36,
+        "duration": 5.88
+      },
+      {
+        "text": "So this makes sense.",
+        "start": 837.519,
+        "duration": 3.721
+      },
+      {
+        "text": "But does that imply that it's always",
+        "start": 842.24,
+        "duration": 4.88
+      },
+      {
+        "text": "flying north? I don't think so.",
+        "start": 844.0,
+        "duration": 4.72
+      },
+      {
+        "text": "So that's actually an interesting prompt",
+        "start": 847.12,
+        "duration": 3.04
+      },
+      {
+        "text": "where it's a little hard for me to",
+        "start": 848.72,
+        "duration": 4.16
+      },
+      {
+        "text": "figure it out. But um I think this",
+        "start": 850.16,
+        "duration": 4.32
+      },
+      {
+        "text": "probably means it always starts facing",
+        "start": 852.88,
+        "duration": 4.56
+      },
+      {
+        "text": "north or something and then you know",
+        "start": 854.48,
+        "duration": 6.0
+      },
+      {
+        "text": "this part makes total sense. Um",
+        "start": 857.44,
+        "duration": 5.44
+      },
+      {
+        "text": "as the player moves around the And I can",
+        "start": 860.48,
+        "duration": 6.4
+      },
+      {
+        "text": "say like uh they know enough about game",
+        "start": 862.88,
+        "duration": 6.24
+      },
+      {
+        "text": "programming to know that you have to say",
+        "start": 866.88,
+        "duration": 3.6
+      },
+      {
+        "text": "these things like you have to actually",
+        "start": 869.12,
+        "duration": 3.44
+      },
+      {
+        "text": "write code to make these things happen.",
+        "start": 870.48,
+        "duration": 4.0
+      },
+      {
+        "text": "you know, it doesn't just like, you",
+        "start": 872.56,
+        "duration": 3.6
+      },
+      {
+        "text": "know, most game engines aren't going to",
+        "start": 874.48,
+        "duration": 3.2
+      },
+      {
+        "text": "give you something that'll like auto",
+        "start": 876.16,
+        "duration": 3.44
+      },
+      {
+        "text": "face the the correct direction or",
+        "start": 877.68,
+        "duration": 5.279
+      },
+      {
+        "text": "whatnot. Um,",
+        "start": 879.6,
+        "duration": 4.799
+      },
+      {
+        "text": "as the player moves around the map,",
+        "start": 882.959,
+        "duration": 3.12
+      },
+      {
+        "text": "highlight the tile that's just below",
+        "start": 884.399,
+        "duration": 4.401
+      },
+      {
+        "text": "them using the center point of the",
+        "start": 886.079,
+        "duration": 5.44
+      },
+      {
+        "text": "player sprite by rendering a 20% opacity",
+        "start": 888.8,
+        "duration": 4.8
+      },
+      {
+        "text": "white square on top of the tile, but",
+        "start": 891.519,
+        "duration": 5.12
+      },
+      {
+        "text": "under the player sprite. Okay,",
+        "start": 893.6,
+        "duration": 4.88
+      },
+      {
+        "text": "so let's see here. Can I zoom in on",
+        "start": 896.639,
+        "duration": 4.801
+      },
+      {
+        "text": "this? Uh,",
+        "start": 898.48,
+        "duration": 5.44
+      },
+      {
+        "text": "where is",
+        "start": 901.44,
+        "duration": 4.56
+      },
+      {
+        "text": "I don't want to download it. I want the",
+        "start": 903.92,
+        "duration": 5.359
+      },
+      {
+        "text": "raw file.",
+        "start": 906.0,
+        "duration": 6.24
+      },
+      {
+        "text": "All right, let's make this big.",
+        "start": 909.279,
+        "duration": 6.881
+      },
+      {
+        "text": "All right. So, so this this prompt about",
+        "start": 912.24,
+        "duration": 7.039
+      },
+      {
+        "text": "the uh Oh, no. It made all GitHub user",
+        "start": 916.16,
+        "duration": 6.16
+      },
+      {
+        "text": "content. Oh, well. Uh,",
+        "start": 919.279,
+        "duration": 6.081
+      },
+      {
+        "text": "so uh this made this part here white",
+        "start": 922.32,
+        "duration": 5.68
+      },
+      {
+        "text": "underneath here. And it's sort of saying",
+        "start": 925.36,
+        "duration": 6.8
+      },
+      {
+        "text": "go from the center of the 2D sprite to",
+        "start": 928.0,
+        "duration": 6.16
+      },
+      {
+        "text": "the center of the thing below. So it's",
+        "start": 932.16,
+        "duration": 3.6
+      },
+      {
+        "text": "not actually doing a, you know, a",
+        "start": 934.16,
+        "duration": 5.2
+      },
+      {
+        "text": "correct sort of 3D projection. Um, but",
+        "start": 935.76,
+        "duration": 5.04
+      },
+      {
+        "text": "it's sort of making that assumption",
+        "start": 939.36,
+        "duration": 2.88
+      },
+      {
+        "text": "that, hey, that's probably not going to",
+        "start": 940.8,
+        "duration": 5.12
+      },
+      {
+        "text": "matter in this particular game.",
+        "start": 942.24,
+        "duration": 6.159
+      },
+      {
+        "text": "Um, so again, yeah, actually like baking",
+        "start": 945.92,
+        "duration": 4.8
+      },
+      {
+        "text": "in quite a bit of knowledge about uh",
+        "start": 948.399,
+        "duration": 4.56
+      },
+      {
+        "text": "game programming there.",
+        "start": 950.72,
+        "duration": 4.88
+      },
+      {
+        "text": "Um,",
+        "start": 952.959,
+        "duration": 4.401
+      },
+      {
+        "text": "but you can also see some of it's like,",
+        "start": 955.6,
+        "duration": 3.28
+      },
+      {
+        "text": "you know, pretty nice and specific. So,",
+        "start": 957.36,
+        "duration": 4.08
+      },
+      {
+        "text": "it says, you know, 20% opacity white.",
+        "start": 958.88,
+        "duration": 5.519
+      },
+      {
+        "text": "So, it's 20% opacity white. So, you have",
+        "start": 961.44,
+        "duration": 6.079
+      },
+      {
+        "text": "to, you know, kind of say, um, the color",
+        "start": 964.399,
+        "duration": 5.761
+      },
+      {
+        "text": "that you're drawing on top of it. Um,",
+        "start": 967.519,
+        "duration": 4.481
+      },
+      {
+        "text": "and it's, you know, being very specific",
+        "start": 970.16,
+        "duration": 3.44
+      },
+      {
+        "text": "like on top of the tile, but under the",
+        "start": 972.0,
+        "duration": 3.92
+      },
+      {
+        "text": "player sprite. So, again, like, you",
+        "start": 973.6,
+        "duration": 3.84
+      },
+      {
+        "text": "know, this is a good way to to kind of",
+        "start": 975.92,
+        "duration": 5.2
+      },
+      {
+        "text": "use to do the prompting. Um, you have to",
+        "start": 977.44,
+        "duration": 8.639
+      },
+      {
+        "text": "be pretty specific about what you want.",
+        "start": 981.12,
+        "duration": 6.719
+      },
+      {
+        "text": "Let's see. The highlight should only be",
+        "start": 986.079,
+        "duration": 3.2
+      },
+      {
+        "text": "visible if the player is currently above",
+        "start": 987.839,
+        "duration": 3.44
+      },
+      {
+        "text": "a tile that is not defined on the path",
+        "start": 989.279,
+        "duration": 5.521
+      },
+      {
+        "text": "layer. Huh.",
+        "start": 991.279,
+        "duration": 6.521
+      },
+      {
+        "text": "Um.",
+        "start": 994.8,
+        "duration": 3.0
+      },
+      {
+        "text": "Oh, so maybe this is the path layer here",
+        "start": 998.32,
+        "duration": 5.12
+      },
+      {
+        "text": "where these monsters go.",
+        "start": 1000.56,
+        "duration": 5.36
+      },
+      {
+        "text": "That would make sense.",
+        "start": 1003.44,
+        "duration": 7.36
+      },
+      {
+        "text": "Yeah. And he's like where he's at. Um,",
+        "start": 1005.92,
+        "duration": 6.719
+      },
+      {
+        "text": "isn't that like the wall? So, there's",
+        "start": 1010.8,
+        "duration": 3.599
+      },
+      {
+        "text": "like",
+        "start": 1012.639,
+        "duration": 5.44
+      },
+      {
+        "text": "there's Right. You see how the Yeah, the",
+        "start": 1014.399,
+        "duration": 6.721
+      },
+      {
+        "text": "it's a little bit more white. So, I",
+        "start": 1018.079,
+        "duration": 5.12
+      },
+      {
+        "text": "think what he's wanting it to do is that",
+        "start": 1021.12,
+        "duration": 4.079
+      },
+      {
+        "text": "so you can move the plane over these",
+        "start": 1023.199,
+        "duration": 4.961
+      },
+      {
+        "text": "parts with the monsters,",
+        "start": 1025.199,
+        "duration": 5.12
+      },
+      {
+        "text": "but you're",
+        "start": 1028.16,
+        "duration": 3.84
+      },
+      {
+        "text": "I think what he's setting up is that you",
+        "start": 1030.319,
+        "duration": 3.921
+      },
+      {
+        "text": "can only get like this stuff to place",
+        "start": 1032.0,
+        "duration": 4.88
+      },
+      {
+        "text": "towers if you're on this in between spot",
+        "start": 1034.24,
+        "duration": 4.88
+      },
+      {
+        "text": "if you're off the path.",
+        "start": 1036.88,
+        "duration": 4.4
+      },
+      {
+        "text": "And so we defined the prompt to do this",
+        "start": 1039.12,
+        "duration": 4.959
+      },
+      {
+        "text": "part here about like the highlight area",
+        "start": 1041.28,
+        "duration": 6.0
+      },
+      {
+        "text": "but not yet about these menus and then",
+        "start": 1044.079,
+        "duration": 5.521
+      },
+      {
+        "text": "well hasn't defined what the path layer",
+        "start": 1047.28,
+        "duration": 4.0
+      },
+      {
+        "text": "is yet and hasn't you know defined these",
+        "start": 1049.6,
+        "duration": 4.8
+      },
+      {
+        "text": "like monsters yet but and we have gotten",
+        "start": 1051.28,
+        "duration": 6.32
+      },
+      {
+        "text": "the facing direction of the plane um and",
+        "start": 1054.4,
+        "duration": 6.8
+      },
+      {
+        "text": "the movement of the plane. So,",
+        "start": 1057.6,
+        "duration": 5.439
+      },
+      {
+        "text": "okay. So, he's like, you know, getting",
+        "start": 1061.2,
+        "duration": 3.52
+      },
+      {
+        "text": "piece by piece in here, but you can sort",
+        "start": 1063.039,
+        "duration": 3.441
+      },
+      {
+        "text": "of see when he described like, oh, they",
+        "start": 1064.72,
+        "duration": 3.52
+      },
+      {
+        "text": "might not be in the right order, you",
+        "start": 1066.48,
+        "duration": 5.36
+      },
+      {
+        "text": "know, cuz um it's a little bit weird to",
+        "start": 1068.24,
+        "duration": 5.12
+      },
+      {
+        "text": "say like, you know, something about the",
+        "start": 1071.84,
+        "duration": 5.68
+      },
+      {
+        "text": "path layer if that doesn't exist yet.",
+        "start": 1073.36,
+        "duration": 7.199
+      },
+      {
+        "text": "Um, oh wow, this thing is pretty long.",
+        "start": 1077.52,
+        "duration": 4.8
+      },
+      {
+        "text": "um",
+        "start": 1080.559,
+        "duration": 3.761
+      },
+      {
+        "text": "player menu. New component called player",
+        "start": 1082.32,
+        "duration": 3.68
+      },
+      {
+        "text": "menu that will render a menu around a",
+        "start": 1084.32,
+        "duration": 4.08
+      },
+      {
+        "text": "player with circle icons that represent",
+        "start": 1086.0,
+        "duration": 5.44
+      },
+      {
+        "text": "different actions. So that's these four",
+        "start": 1088.4,
+        "duration": 6.639
+      },
+      {
+        "text": "circle icons. You know, those look like",
+        "start": 1091.44,
+        "duration": 7.119
+      },
+      {
+        "text": "guns, I don't know, mines maybe. I don't",
+        "start": 1095.039,
+        "duration": 5.041
+      },
+      {
+        "text": "know.",
+        "start": 1098.559,
+        "duration": 4.321
+      },
+      {
+        "text": "Um can have up to four items that are",
+        "start": 1100.08,
+        "duration": 5.12
+      },
+      {
+        "text": "placed above, below, to the left, right,",
+        "start": 1102.88,
+        "duration": 3.84
+      },
+      {
+        "text": "player in the center. So again being",
+        "start": 1105.2,
+        "duration": 3.76
+      },
+      {
+        "text": "very specific",
+        "start": 1106.72,
+        "duration": 4.24
+      },
+      {
+        "text": "when it's open with the action button",
+        "start": 1108.96,
+        "duration": 5.44
+      },
+      {
+        "text": "bind it to space key the arrow keys no",
+        "start": 1110.96,
+        "duration": 4.88
+      },
+      {
+        "text": "longer move the player but instead",
+        "start": 1114.4,
+        "duration": 3.2
+      },
+      {
+        "text": "highlight the selected menu option. Okay",
+        "start": 1115.84,
+        "duration": 3.44
+      },
+      {
+        "text": "so you press space and then you're going",
+        "start": 1117.6,
+        "duration": 5.12
+      },
+      {
+        "text": "to use the arrow to to select the cancel",
+        "start": 1119.28,
+        "duration": 5.279
+      },
+      {
+        "text": "button bind it to escape key closes the",
+        "start": 1122.72,
+        "duration": 4.959
+      },
+      {
+        "text": "menu and resumes the movement.",
+        "start": 1124.559,
+        "duration": 6.641
+      },
+      {
+        "text": "Um okay.",
+        "start": 1127.679,
+        "duration": 4.801
+      },
+      {
+        "text": "So that's stuff that's like, you know,",
+        "start": 1131.2,
+        "duration": 2.24
+      },
+      {
+        "text": "we're not going to see in the",
+        "start": 1132.48,
+        "duration": 3.439
+      },
+      {
+        "text": "screenshot. But",
+        "start": 1133.44,
+        "duration": 4.4
+      },
+      {
+        "text": "uh if player is near the screen",
+        "start": 1135.919,
+        "duration": 4.0
+      },
+      {
+        "text": "boundary, make sure the center point of",
+        "start": 1137.84,
+        "duration": 5.28
+      },
+      {
+        "text": "the menu is drawn in a way that makes",
+        "start": 1139.919,
+        "duration": 4.801
+      },
+      {
+        "text": "the whole menu visible on the screen",
+        "start": 1143.12,
+        "duration": 3.679
+      },
+      {
+        "text": "instead of parts of it being drawn off",
+        "start": 1144.72,
+        "duration": 4.4
+      },
+      {
+        "text": "screen.",
+        "start": 1146.799,
+        "duration": 6.081
+      },
+      {
+        "text": "Okay. Okay. So like say if we were here",
+        "start": 1149.12,
+        "duration": 6.559
+      },
+      {
+        "text": "like at the very bottom,",
+        "start": 1152.88,
+        "duration": 5.2
+      },
+      {
+        "text": "um it would I think it would want to",
+        "start": 1155.679,
+        "duration": 5.201
+      },
+      {
+        "text": "shift the menu up a bit. I think is what",
+        "start": 1158.08,
+        "duration": 5.04
+      },
+      {
+        "text": "this is saying.",
+        "start": 1160.88,
+        "duration": 4.72
+      },
+      {
+        "text": "Make sure the center is drawn.",
+        "start": 1163.12,
+        "duration": 4.16
+      },
+      {
+        "text": "This actually I'm surprised this worked",
+        "start": 1165.6,
+        "duration": 3.84
+      },
+      {
+        "text": "because it's not very specific about how",
+        "start": 1167.28,
+        "duration": 4.16
+      },
+      {
+        "text": "to do that.",
+        "start": 1169.44,
+        "duration": 5.0
+      },
+      {
+        "text": "Um",
+        "start": 1171.44,
+        "duration": 3.0
+      },
+      {
+        "text": "but yeah, maybe that's coming later or",
+        "start": 1174.88,
+        "duration": 6.88
+      },
+      {
+        "text": "uh maybe it's fine",
+        "start": 1178.64,
+        "duration": 5.36
+      },
+      {
+        "text": "if there's less than four. Yeah. Telling",
+        "start": 1181.76,
+        "duration": 3.76
+      },
+      {
+        "text": "us sort of like how to fill it up if you",
+        "start": 1184.0,
+        "duration": 3.44
+      },
+      {
+        "text": "have two items or three items or one",
+        "start": 1185.52,
+        "duration": 4.64
+      },
+      {
+        "text": "item. That makes sense.",
+        "start": 1187.44,
+        "duration": 6.4
+      },
+      {
+        "text": "map the a a gamepad button to the action",
+        "start": 1190.16,
+        "duration": 6.68
+      },
+      {
+        "text": "button.",
+        "start": 1193.84,
+        "duration": 3.0
+      },
+      {
+        "text": "That's an interesting uh game pads are a",
+        "start": 1197.6,
+        "duration": 5.6
+      },
+      {
+        "text": "little more complicated than that, but",
+        "start": 1201.2,
+        "duration": 4.32
+      },
+      {
+        "text": "um",
+        "start": 1203.2,
+        "duration": 7.359
+      },
+      {
+        "text": "unless maybe uh it could be that uh",
+        "start": 1205.52,
+        "duration": 7.039
+      },
+      {
+        "text": "you know phaser editor makes it simple.",
+        "start": 1210.559,
+        "duration": 4.881
+      },
+      {
+        "text": "So maybe maybe it's fine. uh make the",
+        "start": 1212.559,
+        "duration": 5.201
+      },
+      {
+        "text": "mapping mechanism generic so that the",
+        "start": 1215.44,
+        "duration": 3.84
+      },
+      {
+        "text": "actual button press checking uses",
+        "start": 1217.76,
+        "duration": 3.36
+      },
+      {
+        "text": "generic names. Yeah. Yeah. Yeah. So you",
+        "start": 1219.28,
+        "duration": 3.44
+      },
+      {
+        "text": "really want to do that so that you can",
+        "start": 1221.12,
+        "duration": 5.04
+      },
+      {
+        "text": "have like even if you're on a on a PC,",
+        "start": 1222.72,
+        "duration": 5.12
+      },
+      {
+        "text": "you know, someone might one person might",
+        "start": 1226.16,
+        "duration": 3.6
+      },
+      {
+        "text": "plug in an Xbox controller, a different",
+        "start": 1227.84,
+        "duration": 3.76
+      },
+      {
+        "text": "person might plug in a PlayStation",
+        "start": 1229.76,
+        "duration": 3.84
+      },
+      {
+        "text": "controller. Their buttons are a little",
+        "start": 1231.6,
+        "duration": 4.559
+      },
+      {
+        "text": "bit different. Um you know, someone else",
+        "start": 1233.6,
+        "duration": 4.16
+      },
+      {
+        "text": "might have just a generic game pad",
+        "start": 1236.159,
+        "duration": 3.681
+      },
+      {
+        "text": "that's not associated with any game",
+        "start": 1237.76,
+        "duration": 4.24
+      },
+      {
+        "text": "console. So, this is sort of like",
+        "start": 1239.84,
+        "duration": 4.64
+      },
+      {
+        "text": "hinting like, hey, you know, like set it",
+        "start": 1242.0,
+        "duration": 4.32
+      },
+      {
+        "text": "up this way, but make sure that it's",
+        "start": 1244.48,
+        "duration": 6.0
+      },
+      {
+        "text": "configurable, which is good.",
+        "start": 1246.32,
+        "duration": 6.16
+      },
+      {
+        "text": "Um,",
+        "start": 1250.48,
+        "duration": 4.4
+      },
+      {
+        "text": "and I can tell you actually like this",
+        "start": 1252.48,
+        "duration": 5.28
+      },
+      {
+        "text": "caused us a lot of grief uh dealing with",
+        "start": 1254.88,
+        "duration": 5.039
+      },
+      {
+        "text": "Paleia when we were like trying to make",
+        "start": 1257.76,
+        "duration": 5.12
+      },
+      {
+        "text": "it work on Nintendo Switch and Xbox and",
+        "start": 1259.919,
+        "duration": 5.441
+      },
+      {
+        "text": "PlayStation 5.",
+        "start": 1262.88,
+        "duration": 5.44
+      },
+      {
+        "text": "um is having like the button mappings",
+        "start": 1265.36,
+        "duration": 5.76
+      },
+      {
+        "text": "work on all the platforms.",
+        "start": 1268.32,
+        "duration": 5.359
+      },
+      {
+        "text": "Um you know having the same thing work",
+        "start": 1271.12,
+        "duration": 5.6
+      },
+      {
+        "text": "on PC which is where we started. Um",
+        "start": 1273.679,
+        "duration": 4.88
+      },
+      {
+        "text": "there's a lot of other console specific",
+        "start": 1276.72,
+        "duration": 4.16
+      },
+      {
+        "text": "requirements too like you know for a",
+        "start": 1278.559,
+        "duration": 4.0
+      },
+      {
+        "text": "game where you might chat with someone",
+        "start": 1280.88,
+        "duration": 4.08
+      },
+      {
+        "text": "you there's it's hard to type on",
+        "start": 1282.559,
+        "duration": 4.961
+      },
+      {
+        "text": "PlayStation or Xbox.",
+        "start": 1284.96,
+        "duration": 5.68
+      },
+      {
+        "text": "Um anyway, so so yeah, it's good to sort",
+        "start": 1287.52,
+        "duration": 5.2
+      },
+      {
+        "text": "of",
+        "start": 1290.64,
+        "duration": 4.8
+      },
+      {
+        "text": "see that the developer here is like",
+        "start": 1292.72,
+        "duration": 4.48
+      },
+      {
+        "text": "taking their knowledge of gaming game",
+        "start": 1295.44,
+        "duration": 4.8
+      },
+      {
+        "text": "programming and kind of injecting it.",
+        "start": 1297.2,
+        "duration": 4.719
+      },
+      {
+        "text": "Um",
+        "start": 1300.24,
+        "duration": 3.36
+      },
+      {
+        "text": "let's see. When inside the player menu,",
+        "start": 1301.919,
+        "duration": 3.76
+      },
+      {
+        "text": "pressing the space key successfully",
+        "start": 1303.6,
+        "duration": 5.28
+      },
+      {
+        "text": "fires the action and closes the menu.",
+        "start": 1305.679,
+        "duration": 5.441
+      },
+      {
+        "text": "However, pressing the A does not close",
+        "start": 1308.88,
+        "duration": 3.919
+      },
+      {
+        "text": "the menu, but instead resets it to the",
+        "start": 1311.12,
+        "duration": 4.16
+      },
+      {
+        "text": "initial state.",
+        "start": 1312.799,
+        "duration": 4.561
+      },
+      {
+        "text": "Also, while holding the button, I see",
+        "start": 1315.28,
+        "duration": 3.92
+      },
+      {
+        "text": "the actions being fired many times. I",
+        "start": 1317.36,
+        "duration": 3.28
+      },
+      {
+        "text": "think the issue is that the gamepad",
+        "start": 1319.2,
+        "duration": 3.599
+      },
+      {
+        "text": "button tracking should only trigger once",
+        "start": 1320.64,
+        "duration": 4.72
+      },
+      {
+        "text": "per button press until gets released, at",
+        "start": 1322.799,
+        "duration": 5.12
+      },
+      {
+        "text": "least for menu interactions. Oh, yeah.",
+        "start": 1325.36,
+        "duration": 4.559
+      },
+      {
+        "text": "Okay.",
+        "start": 1327.919,
+        "duration": 3.521
+      },
+      {
+        "text": "This is kind of this is cool to see",
+        "start": 1329.919,
+        "duration": 3.361
+      },
+      {
+        "text": "because it's sort of showing that like",
+        "start": 1331.44,
+        "duration": 4.56
+      },
+      {
+        "text": "something didn't go quite right.",
+        "start": 1333.28,
+        "duration": 5.759
+      },
+      {
+        "text": "Let's see.",
+        "start": 1336.0,
+        "duration": 6.559
+      },
+      {
+        "text": "So, that works correctly. Pressing the A",
+        "start": 1339.039,
+        "duration": 5.441
+      },
+      {
+        "text": "doesn't close ascend and resets to the",
+        "start": 1342.559,
+        "duration": 4.881
+      },
+      {
+        "text": "initial state. Uh holding button I see",
+        "start": 1344.48,
+        "duration": 5.679
+      },
+      {
+        "text": "fires many times per second.",
+        "start": 1347.44,
+        "duration": 4.64
+      },
+      {
+        "text": "Yeah. Yeah. So that's probably a",
+        "start": 1350.159,
+        "duration": 3.601
+      },
+      {
+        "text": "situation of like usually with button",
+        "start": 1352.08,
+        "duration": 4.32
+      },
+      {
+        "text": "presses there's a um on press and on",
+        "start": 1353.76,
+        "duration": 4.159
+      },
+      {
+        "text": "release.",
+        "start": 1356.4,
+        "duration": 4.48
+      },
+      {
+        "text": "Um, and",
+        "start": 1357.919,
+        "duration": 5.201
+      },
+      {
+        "text": "like like say if you're using a keyboard",
+        "start": 1360.88,
+        "duration": 4.08
+      },
+      {
+        "text": "and you just like hold down a key, it's",
+        "start": 1363.12,
+        "duration": 5.439
+      },
+      {
+        "text": "going to like you know uh keep",
+        "start": 1364.96,
+        "duration": 5.52
+      },
+      {
+        "text": "generating that key press over and over",
+        "start": 1368.559,
+        "duration": 3.761
+      },
+      {
+        "text": "again unless you're triggering something",
+        "start": 1370.48,
+        "duration": 3.84
+      },
+      {
+        "text": "on release.",
+        "start": 1372.32,
+        "duration": 3.52
+      },
+      {
+        "text": "Um,",
+        "start": 1374.32,
+        "duration": 4.56
+      },
+      {
+        "text": "so and they they clearly know the the",
+        "start": 1375.84,
+        "duration": 7.839
+      },
+      {
+        "text": "keyword there release. Um,",
+        "start": 1378.88,
+        "duration": 5.919
+      },
+      {
+        "text": "so okay, this is an interesting",
+        "start": 1383.679,
+        "duration": 4.801
+      },
+      {
+        "text": "situation where there was a a bug",
+        "start": 1384.799,
+        "duration": 5.441
+      },
+      {
+        "text": "And they they gave it still doesn't",
+        "start": 1388.48,
+        "duration": 3.439
+      },
+      {
+        "text": "quite work right. All right. Now the",
+        "start": 1390.24,
+        "duration": 3.679
+      },
+      {
+        "text": "issue",
+        "start": 1391.919,
+        "duration": 3.441
+      },
+      {
+        "text": "triggering multiple times a second is",
+        "start": 1393.919,
+        "duration": 3.361
+      },
+      {
+        "text": "gone. But pressing A on the gamepad",
+        "start": 1395.36,
+        "duration": 3.84
+      },
+      {
+        "text": "still doesn't hide the menu. Okay. So",
+        "start": 1397.28,
+        "duration": 4.399
+      },
+      {
+        "text": "it's it hooked it up to on release",
+        "start": 1399.2,
+        "duration": 5.12
+      },
+      {
+        "text": "probably.",
+        "start": 1401.679,
+        "duration": 4.561
+      },
+      {
+        "text": "But um it's probably only calling one",
+        "start": 1404.32,
+        "duration": 4.96
+      },
+      {
+        "text": "function, not two. And then add add",
+        "start": 1406.24,
+        "duration": 7.24
+      },
+      {
+        "text": "debug console logs. Okay.",
+        "start": 1409.28,
+        "duration": 4.2
+      },
+      {
+        "text": "remove the logs that are firing on every",
+        "start": 1415.2,
+        "duration": 5.92
+      },
+      {
+        "text": "frame. Okay. Yeah, that uh yeah, I mean,",
+        "start": 1417.039,
+        "duration": 6.0
+      },
+      {
+        "text": "if if a game's running at 60 frames a",
+        "start": 1421.12,
+        "duration": 2.96
+      },
+      {
+        "text": "second, there's no way you're going to",
+        "start": 1423.039,
+        "duration": 4.681
+      },
+      {
+        "text": "be able to read that.",
+        "start": 1424.08,
+        "duration": 3.64
+      },
+      {
+        "text": "Here are the logs.",
+        "start": 1428.799,
+        "duration": 3.641
+      },
+      {
+        "text": "Wow. Okay, so this is interesting.",
+        "start": 1433.84,
+        "duration": 4.28
+      },
+      {
+        "text": "So, essentially they got down to the",
+        "start": 1439.84,
+        "duration": 4.719
+      },
+      {
+        "text": "point of like",
+        "start": 1441.52,
+        "duration": 4.56
+      },
+      {
+        "text": "you know, go through the logs, do this",
+        "start": 1444.559,
+        "duration": 4.081
+      },
+      {
+        "text": "thing, and then copy them in, and then",
+        "start": 1446.08,
+        "duration": 6.04
+      },
+      {
+        "text": "it could fix it.",
+        "start": 1448.64,
+        "duration": 3.48
+      },
+      {
+        "text": "H",
+        "start": 1452.88,
+        "duration": 3.0
+      },
+      {
+        "text": "yeah, I'm not sure what to think of that",
+        "start": 1458.72,
+        "duration": 5.319
+      },
+      {
+        "text": "cuz it's um",
+        "start": 1460.08,
+        "duration": 3.959
+      },
+      {
+        "text": "like this thing sounds like a relatively",
+        "start": 1464.4,
+        "duration": 4.0
+      },
+      {
+        "text": "simple bug once you know to where to",
+        "start": 1466.559,
+        "duration": 4.841
+      },
+      {
+        "text": "look.",
+        "start": 1468.4,
+        "duration": 3.0
+      },
+      {
+        "text": "Um,",
+        "start": 1471.679,
+        "duration": 4.761
+      },
+      {
+        "text": "but",
+        "start": 1473.44,
+        "duration": 3.0
+      },
+      {
+        "text": "but I guess you know if he's using",
+        "start": 1476.559,
+        "duration": 4.081
+      },
+      {
+        "text": "cursor or they're using cursor, I think",
+        "start": 1478.0,
+        "duration": 7.6
+      },
+      {
+        "text": "that's a key name. Um,",
+        "start": 1480.64,
+        "duration": 6.96
+      },
+      {
+        "text": "if they're using cursor, then maybe",
+        "start": 1485.6,
+        "duration": 5.679
+      },
+      {
+        "text": "that's fine to go through the iteration.",
+        "start": 1487.6,
+        "duration": 6.72
+      },
+      {
+        "text": "All right, building system.",
+        "start": 1491.279,
+        "duration": 4.4
+      },
+      {
+        "text": "The player menu already has a",
+        "start": 1494.32,
+        "duration": 4.0
+      },
+      {
+        "text": "placeholder build option when selected.",
+        "start": 1495.679,
+        "duration": 4.321
+      },
+      {
+        "text": "A",
+        "start": 1498.32,
+        "duration": 3.52
+      },
+      {
+        "text": "such and such should be created at the",
+        "start": 1500.0,
+        "duration": 3.52
+      },
+      {
+        "text": "tile below the player. The same tile",
+        "start": 1501.84,
+        "duration": 3.04
+      },
+      {
+        "text": "that is highlighted. Building should",
+        "start": 1503.52,
+        "duration": 3.279
+      },
+      {
+        "text": "only be possible on tires that don't.",
+        "start": 1504.88,
+        "duration": 4.159
+      },
+      {
+        "text": "Yeah. Okay. So, this is kind of getting",
+        "start": 1506.799,
+        "duration": 5.041
+      },
+      {
+        "text": "into the build system.",
+        "start": 1509.039,
+        "duration": 4.24
+      },
+      {
+        "text": "The game should have an easy way of",
+        "start": 1511.84,
+        "duration": 3.12
+      },
+      {
+        "text": "keeping track of which tiles contain a",
+        "start": 1513.279,
+        "duration": 4.321
+      },
+      {
+        "text": "building. Uh-huh.",
+        "start": 1514.96,
+        "duration": 5.52
+      },
+      {
+        "text": "For selling buildings can only build on",
+        "start": 1517.6,
+        "duration": 5.679
+      },
+      {
+        "text": "empty nonpat. Uh-huh. Robust and",
+        "start": 1520.48,
+        "duration": 5.76
+      },
+      {
+        "text": "extendable.",
+        "start": 1523.279,
+        "duration": 4.801
+      },
+      {
+        "text": "That's",
+        "start": 1526.24,
+        "duration": 4.319
+      },
+      {
+        "text": "so this part here like making sure that",
+        "start": 1528.08,
+        "duration": 5.92
+      },
+      {
+        "text": "it's robust and extendable is",
+        "start": 1530.559,
+        "duration": 6.72
+      },
+      {
+        "text": "it's an okay direction but it's not like",
+        "start": 1534.0,
+        "duration": 4.88
+      },
+      {
+        "text": "if someone just told you to make your",
+        "start": 1537.279,
+        "duration": 3.841
+      },
+      {
+        "text": "code robust and extendable like you",
+        "start": 1538.88,
+        "duration": 3.76
+      },
+      {
+        "text": "would probably try to make it a little",
+        "start": 1541.12,
+        "duration": 2.799
+      },
+      {
+        "text": "bit more generic but it doesn't really",
+        "start": 1542.64,
+        "duration": 3.76
+      },
+      {
+        "text": "tell you much but this stuff over here",
+        "start": 1543.919,
+        "duration": 4.24
+      },
+      {
+        "text": "we will later have more building types",
+        "start": 1546.4,
+        "duration": 4.399
+      },
+      {
+        "text": "upgrades etc tells you a bit of what to",
+        "start": 1548.159,
+        "duration": 4.561
+      },
+      {
+        "text": "anticipate.",
+        "start": 1550.799,
+        "duration": 5.041
+      },
+      {
+        "text": "Um, so this this stuff here is is some",
+        "start": 1552.72,
+        "duration": 4.72
+      },
+      {
+        "text": "of the really important stuff because",
+        "start": 1555.84,
+        "duration": 2.8
+      },
+      {
+        "text": "we're sort of saying, okay, this is",
+        "start": 1557.44,
+        "duration": 2.88
+      },
+      {
+        "text": "what's coming in the future. Make sure",
+        "start": 1558.64,
+        "duration": 2.96
+      },
+      {
+        "text": "it's set up so that we can do that",
+        "start": 1560.32,
+        "duration": 3.44
+      },
+      {
+        "text": "easily later. So again, it's really",
+        "start": 1561.6,
+        "duration": 4.959
+      },
+      {
+        "text": "about um context. Actually, this this",
+        "start": 1563.76,
+        "duration": 4.08
+      },
+      {
+        "text": "might have been what you're thinking of",
+        "start": 1566.559,
+        "duration": 3.681
+      },
+      {
+        "text": "too, Adam, is uh a whole bunch of people",
+        "start": 1567.84,
+        "duration": 4.24
+      },
+      {
+        "text": "started saying like context engineering",
+        "start": 1570.24,
+        "duration": 5.36
+      },
+      {
+        "text": "instead of prompt engineering, which Oh,",
+        "start": 1572.08,
+        "duration": 5.68
+      },
+      {
+        "text": "well yeah, that that that is something",
+        "start": 1575.6,
+        "duration": 6.679
+      },
+      {
+        "text": "I've been seeing lately now.",
+        "start": 1577.76,
+        "duration": 4.519
+      },
+      {
+        "text": "And that seems I don't know that seems",
+        "start": 1585.6,
+        "duration": 3.679
+      },
+      {
+        "text": "actually I kind of like that change",
+        "start": 1587.36,
+        "duration": 3.679
+      },
+      {
+        "text": "because it's",
+        "start": 1589.279,
+        "duration": 4.76
+      },
+      {
+        "text": "um",
+        "start": 1591.039,
+        "duration": 3.0
+      },
+      {
+        "text": "it's a little bit closer to",
+        "start": 1594.72,
+        "duration": 5.52
+      },
+      {
+        "text": "like giving good information for another",
+        "start": 1597.76,
+        "duration": 5.44
+      },
+      {
+        "text": "engineer is like sharing the right",
+        "start": 1600.24,
+        "duration": 4.799
+      },
+      {
+        "text": "context, sharing enough information in",
+        "start": 1603.2,
+        "duration": 4.88
+      },
+      {
+        "text": "the context, not having like irrelevant",
+        "start": 1605.039,
+        "duration": 5.281
+      },
+      {
+        "text": "context. So, it's kind of bringing it",
+        "start": 1608.08,
+        "duration": 4.24
+      },
+      {
+        "text": "more in line with the skills that we",
+        "start": 1610.32,
+        "duration": 5.359
+      },
+      {
+        "text": "already need to work with other people,",
+        "start": 1612.32,
+        "duration": 5.44
+      },
+      {
+        "text": "whereas the prompting part is like more",
+        "start": 1615.679,
+        "duration": 4.48
+      },
+      {
+        "text": "focusing on the phrasing, which is kind",
+        "start": 1617.76,
+        "duration": 6.48
+      },
+      {
+        "text": "of like a not as um",
+        "start": 1620.159,
+        "duration": 7.52
+      },
+      {
+        "text": "not as interesting. Yeah. Kind of. and",
+        "start": 1624.24,
+        "duration": 5.52
+      },
+      {
+        "text": "the the stuff like just from a moment",
+        "start": 1627.679,
+        "duration": 3.841
+      },
+      {
+        "text": "ago when you were talking about with the",
+        "start": 1629.76,
+        "duration": 4.88
+      },
+      {
+        "text": "um how he's putting in the prompt for",
+        "start": 1631.52,
+        "duration": 5.279
+      },
+      {
+        "text": "building a robust system or something",
+        "start": 1634.64,
+        "duration": 3.68
+      },
+      {
+        "text": "that's almost like saying yeah just",
+        "start": 1636.799,
+        "duration": 3.521
+      },
+      {
+        "text": "don't get in an accident you know it's",
+        "start": 1638.32,
+        "duration": 5.599
+      },
+      {
+        "text": "not it's not it's not concrete. Yeah.",
+        "start": 1640.32,
+        "duration": 6.4
+      },
+      {
+        "text": "Yeah. Yeah. And that's that's why it's",
+        "start": 1643.919,
+        "duration": 4.081
+      },
+      {
+        "text": "the reason why I'm kind of going through",
+        "start": 1646.72,
+        "duration": 4.88
+      },
+      {
+        "text": "and dissecting it um is is sort of like",
+        "start": 1648.0,
+        "duration": 6.08
+      },
+      {
+        "text": "just for",
+        "start": 1651.6,
+        "duration": 3.84
+      },
+      {
+        "text": "uh you know, of course this gets",
+        "start": 1654.08,
+        "duration": 4.16
+      },
+      {
+        "text": "recorded and others uh listen to it, but",
+        "start": 1655.44,
+        "duration": 6.479
+      },
+      {
+        "text": "just to help kind of think through like",
+        "start": 1658.24,
+        "duration": 5.679
+      },
+      {
+        "text": "which parts of what they're doing here",
+        "start": 1661.919,
+        "duration": 4.24
+      },
+      {
+        "text": "are actually important because not all",
+        "start": 1663.919,
+        "duration": 5.281
+      },
+      {
+        "text": "of this stuff was probably necessary,",
+        "start": 1666.159,
+        "duration": 4.64
+      },
+      {
+        "text": "but there's some parts like sort of",
+        "start": 1669.2,
+        "duration": 3.52
+      },
+      {
+        "text": "telling it what to anticipate is",
+        "start": 1670.799,
+        "duration": 4.321
+      },
+      {
+        "text": "probably very important.",
+        "start": 1672.72,
+        "duration": 5.439
+      },
+      {
+        "text": "Um, some of the specific directions are",
+        "start": 1675.12,
+        "duration": 6.08
+      },
+      {
+        "text": "important. Um, some of the they're kind",
+        "start": 1678.159,
+        "duration": 5.201
+      },
+      {
+        "text": "of injecting a little bit of game",
+        "start": 1681.2,
+        "duration": 4.8
+      },
+      {
+        "text": "programming knowledge and",
+        "start": 1683.36,
+        "duration": 5.12
+      },
+      {
+        "text": "that'll kind of force the large language",
+        "start": 1686.0,
+        "duration": 5.279
+      },
+      {
+        "text": "model to be thinking thinking quote",
+        "start": 1688.48,
+        "duration": 5.76
+      },
+      {
+        "text": "unquote in a game pro programming way.",
+        "start": 1691.279,
+        "duration": 5.921
+      },
+      {
+        "text": "So it'll kind of be um",
+        "start": 1694.24,
+        "duration": 5.12
+      },
+      {
+        "text": "more likely to generate code that's",
+        "start": 1697.2,
+        "duration": 4.479
+      },
+      {
+        "text": "associated with you know actual game",
+        "start": 1699.36,
+        "duration": 3.84
+      },
+      {
+        "text": "engineering because they're using the",
+        "start": 1701.679,
+        "duration": 4.0
+      },
+      {
+        "text": "terminology from it.",
+        "start": 1703.2,
+        "duration": 4.24
+      },
+      {
+        "text": "Um",
+        "start": 1705.679,
+        "duration": 4.88
+      },
+      {
+        "text": "let's see. Works great. Small issue.",
+        "start": 1707.44,
+        "duration": 4.719
+      },
+      {
+        "text": "Buildings are being rendered on top of",
+        "start": 1710.559,
+        "duration": 4.561
+      },
+      {
+        "text": "the player sprite. Yep. Yep. Yep. We",
+        "start": 1712.159,
+        "duration": 4.721
+      },
+      {
+        "text": "should have a layering system. Yep. Yep.",
+        "start": 1715.12,
+        "duration": 3.84
+      },
+      {
+        "text": "Yep.",
+        "start": 1716.88,
+        "duration": 6.88
+      },
+      {
+        "text": "Uhhuh. That didn't work. basically.",
+        "start": 1718.96,
+        "duration": 6.56
+      },
+      {
+        "text": "Uh, but I guess they're saying help me",
+        "start": 1723.76,
+        "duration": 5.88
+      },
+      {
+        "text": "debug and fix. All right.",
+        "start": 1725.52,
+        "duration": 4.12
+      },
+      {
+        "text": "So, maybe that worked. All right. Seems",
+        "start": 1730.0,
+        "duration": 4.48
+      },
+      {
+        "text": "I can only build at tiles from 00 to to",
+        "start": 1731.44,
+        "duration": 4.56
+      },
+      {
+        "text": "99.",
+        "start": 1734.48,
+        "duration": 2.96
+      },
+      {
+        "text": "When I try to build outside of this",
+        "start": 1736.0,
+        "duration": 3.2
+      },
+      {
+        "text": "rectangle, even though the tile does not",
+        "start": 1737.44,
+        "duration": 3.52
+      },
+      {
+        "text": "belong to the path layer, I still",
+        "start": 1739.2,
+        "duration": 4.4
+      },
+      {
+        "text": "cannot.",
+        "start": 1740.96,
+        "duration": 6.599
+      },
+      {
+        "text": "Okay, that's like",
+        "start": 1743.6,
+        "duration": 3.959
+      },
+      {
+        "text": "actually this is it's great being able",
+        "start": 1747.679,
+        "duration": 3.201
+      },
+      {
+        "text": "to read through it because it this is",
+        "start": 1749.279,
+        "duration": 3.52
+      },
+      {
+        "text": "sort of showcasing like the mistake that",
+        "start": 1750.88,
+        "duration": 7.6
+      },
+      {
+        "text": "it made the AI made the first time. Um",
+        "start": 1752.799,
+        "duration": 8.721
+      },
+      {
+        "text": "I can't imagine someone like a person",
+        "start": 1758.48,
+        "duration": 7.36
+      },
+      {
+        "text": "coding it up that way, but um",
+        "start": 1761.52,
+        "duration": 5.84
+      },
+      {
+        "text": "you know, okay, fine. It's a starting",
+        "start": 1765.84,
+        "duration": 3.68
+      },
+      {
+        "text": "place.",
+        "start": 1767.36,
+        "duration": 3.76
+      },
+      {
+        "text": "Make sure the player menu is always",
+        "start": 1769.52,
+        "duration": 3.12
+      },
+      {
+        "text": "drawn on top of everything. Now the",
+        "start": 1771.12,
+        "duration": 3.439
+      },
+      {
+        "text": "buildings are drawn on top of it. Okay.",
+        "start": 1772.64,
+        "duration": 5.2
+      },
+      {
+        "text": "Okay. So this this player menu again",
+        "start": 1774.559,
+        "duration": 5.12
+      },
+      {
+        "text": "like",
+        "start": 1777.84,
+        "duration": 4.24
+      },
+      {
+        "text": "it's sort of uh like zordering or sort",
+        "start": 1779.679,
+        "duration": 5.521
+      },
+      {
+        "text": "of like like layering. Um,",
+        "start": 1782.08,
+        "duration": 4.719
+      },
+      {
+        "text": "so when you're doing frontends, you",
+        "start": 1785.2,
+        "duration": 3.92
+      },
+      {
+        "text": "know, in uh even in joy coding, you",
+        "start": 1786.799,
+        "duration": 4.561
+      },
+      {
+        "text": "probably end up dealing with like sort",
+        "start": 1789.12,
+        "duration": 5.679
+      },
+      {
+        "text": "of the the the Z index, sort of how how",
+        "start": 1791.36,
+        "duration": 5.28
+      },
+      {
+        "text": "layered everything is, what's layered on",
+        "start": 1794.799,
+        "duration": 4.961
+      },
+      {
+        "text": "top of what",
+        "start": 1796.64,
+        "duration": 6.68
+      },
+      {
+        "text": "enemy walking",
+        "start": 1799.76,
+        "duration": 3.56
+      },
+      {
+        "text": "should have a target position or vector",
+        "start": 1804.96,
+        "duration": 6.56
+      },
+      {
+        "text": "that specify where does it want to go.",
+        "start": 1808.08,
+        "duration": 5.52
+      },
+      {
+        "text": "And then on every update, it should move",
+        "start": 1811.52,
+        "duration": 3.44
+      },
+      {
+        "text": "there. Oh, that's a dangerous",
+        "start": 1813.6,
+        "duration": 3.84
+      },
+      {
+        "text": "instruction. As it moves, it should play",
+        "start": 1814.96,
+        "duration": 5.199
+      },
+      {
+        "text": "the animation that fits their current",
+        "start": 1817.44,
+        "duration": 6.44
+      },
+      {
+        "text": "movement vector.",
+        "start": 1820.159,
+        "duration": 3.721
+      },
+      {
+        "text": "So the",
+        "start": 1825.039,
+        "duration": 3.561
+      },
+      {
+        "text": "I guess you know there isn't a second",
+        "start": 1829.279,
+        "duration": 3.041
+      },
+      {
+        "text": "instruction so maybe it worked on the",
+        "start": 1830.88,
+        "duration": 4.24
+      },
+      {
+        "text": "first try, but um you know say you have",
+        "start": 1832.32,
+        "duration": 6.0
+      },
+      {
+        "text": "a target position",
+        "start": 1835.12,
+        "duration": 6.159
+      },
+      {
+        "text": "uh where does it want to go? And then on",
+        "start": 1838.32,
+        "duration": 5.12
+      },
+      {
+        "text": "every update, it really should be like",
+        "start": 1841.279,
+        "duration": 5.201
+      },
+      {
+        "text": "moving along the path in that direction.",
+        "start": 1843.44,
+        "duration": 6.239
+      },
+      {
+        "text": "Um, so here,",
+        "start": 1846.48,
+        "duration": 5.28
+      },
+      {
+        "text": "um, I can't tell if they're starting out",
+        "start": 1849.679,
+        "duration": 4.801
+      },
+      {
+        "text": "here or if they're starting here. Um,",
+        "start": 1851.76,
+        "duration": 4.56
+      },
+      {
+        "text": "let's say that they're starting at this",
+        "start": 1854.48,
+        "duration": 3.36
+      },
+      {
+        "text": "gem",
+        "start": 1856.32,
+        "duration": 5.12
+      },
+      {
+        "text": "and going along, you know, the path.",
+        "start": 1857.84,
+        "duration": 6.48
+      },
+      {
+        "text": "Um, say you might say their goal is over",
+        "start": 1861.44,
+        "duration": 4.8
+      },
+      {
+        "text": "here.",
+        "start": 1864.32,
+        "duration": 4.479
+      },
+      {
+        "text": "And if we follow the directions",
+        "start": 1866.24,
+        "duration": 4.48
+      },
+      {
+        "text": "literally, it should move there. Then it",
+        "start": 1868.799,
+        "duration": 3.521
+      },
+      {
+        "text": "would just jump there. That's not what",
+        "start": 1870.72,
+        "duration": 5.04
+      },
+      {
+        "text": "we want. We want it to take a step along",
+        "start": 1872.32,
+        "duration": 7.28
+      },
+      {
+        "text": "the path that gets it closer to there.",
+        "start": 1875.76,
+        "duration": 6.159
+      },
+      {
+        "text": "Um,",
+        "start": 1879.6,
+        "duration": 3.84
+      },
+      {
+        "text": "that",
+        "start": 1881.919,
+        "duration": 3.601
+      },
+      {
+        "text": "would work here. Boop, boop, boop, boop,",
+        "start": 1883.44,
+        "duration": 4.959
+      },
+      {
+        "text": "boop, boop, boop, boop. Here we actually",
+        "start": 1885.52,
+        "duration": 6.72
+      },
+      {
+        "text": "have to go away from that that uh we're",
+        "start": 1888.399,
+        "duration": 5.441
+      },
+      {
+        "text": "actually getting a little bit further so",
+        "start": 1892.24,
+        "duration": 6.4
+      },
+      {
+        "text": "that we can go along this thing. So, I",
+        "start": 1893.84,
+        "duration": 6.8
+      },
+      {
+        "text": "I think that that actually might be a",
+        "start": 1898.64,
+        "duration": 3.519
+      },
+      {
+        "text": "little bit underspecified, but we'll",
+        "start": 1900.64,
+        "duration": 4.32
+      },
+      {
+        "text": "have to come back and see.",
+        "start": 1902.159,
+        "duration": 5.041
+      },
+      {
+        "text": "Um, but getting getting the enemy",
+        "start": 1904.96,
+        "duration": 4.0
+      },
+      {
+        "text": "walking to sort of follow the path might",
+        "start": 1907.2,
+        "duration": 3.52
+      },
+      {
+        "text": "actually be take a little bit more",
+        "start": 1908.96,
+        "duration": 5.04
+      },
+      {
+        "text": "direction. Um,",
+        "start": 1910.72,
+        "duration": 5.28
+      },
+      {
+        "text": "let's see. Rewindable sprite objects.",
+        "start": 1914.0,
+        "duration": 3.679
+      },
+      {
+        "text": "Since this was the core game mechanic, I",
+        "start": 1916.0,
+        "duration": 5.36
+      },
+      {
+        "text": "spent time carefully. Okay. Okay. Oh,",
+        "start": 1917.679,
+        "duration": 7.48
+      },
+      {
+        "text": "tried it with three LLMs.",
+        "start": 1921.36,
+        "duration": 3.799
+      },
+      {
+        "text": "Rewindable sprite that will be the base",
+        "start": 1925.36,
+        "duration": 5.799
+      },
+      {
+        "text": "for all. Okay.",
+        "start": 1927.36,
+        "duration": 3.799
+      },
+      {
+        "text": "This object holds all of its state in a",
+        "start": 1931.919,
+        "duration": 4.48
+      },
+      {
+        "text": "special serializable object that gets",
+        "start": 1934.399,
+        "duration": 5.041
+      },
+      {
+        "text": "stored every n update ticks. Updates",
+        "start": 1936.399,
+        "duration": 5.921
+      },
+      {
+        "text": "time offset. It has a time mode. Uh-huh.",
+        "start": 1939.44,
+        "duration": 5.44
+      },
+      {
+        "text": "Forward or rewind. When forward is set,",
+        "start": 1942.32,
+        "duration": 4.32
+      },
+      {
+        "text": "sprite works as usual. It fires its",
+        "start": 1944.88,
+        "duration": 4.159
+      },
+      {
+        "text": "update. Yep. Yep. Yep.",
+        "start": 1946.64,
+        "duration": 5.12
+      },
+      {
+        "text": "when rewind is set",
+        "start": 1949.039,
+        "duration": 4.64
+      },
+      {
+        "text": "does not advance it state and does not",
+        "start": 1951.76,
+        "duration": 3.759
+      },
+      {
+        "text": "record it but instead it just renders",
+        "start": 1953.679,
+        "duration": 3.761
+      },
+      {
+        "text": "itself using",
+        "start": 1955.519,
+        "duration": 4.321
+      },
+      {
+        "text": "the recorded state at current time",
+        "start": 1957.44,
+        "duration": 5.359
+      },
+      {
+        "text": "offset.",
+        "start": 1959.84,
+        "duration": 4.8
+      },
+      {
+        "text": "It also has a public method for",
+        "start": 1962.799,
+        "duration": 4.561
+      },
+      {
+        "text": "rewinding the time by decreasing. Okay,",
+        "start": 1964.64,
+        "duration": 6.639
+      },
+      {
+        "text": "so it keeps track of history",
+        "start": 1967.36,
+        "duration": 6.72
+      },
+      {
+        "text": "and then we can set the time offset to",
+        "start": 1971.279,
+        "duration": 6.561
+      },
+      {
+        "text": "say, okay, we're gonna sort of pause",
+        "start": 1974.08,
+        "duration": 6.719
+      },
+      {
+        "text": "time and go offset to some amount back",
+        "start": 1977.84,
+        "duration": 5.679
+      },
+      {
+        "text": "in history. That's kind of neat.",
+        "start": 1980.799,
+        "duration": 6.321
+      },
+      {
+        "text": "Um, one thing that's pretty again,",
+        "start": 1983.519,
+        "duration": 5.28
+      },
+      {
+        "text": "um,",
+        "start": 1987.12,
+        "duration": 3.439
+      },
+      {
+        "text": "you know, they're having to really think",
+        "start": 1988.799,
+        "duration": 3.6
+      },
+      {
+        "text": "through like, okay, we want this to be a",
+        "start": 1990.559,
+        "duration": 4.881
+      },
+      {
+        "text": "generic sprite probably class that",
+        "start": 1992.399,
+        "duration": 5.681
+      },
+      {
+        "text": "everything shares so that the rewinding",
+        "start": 1995.44,
+        "duration": 4.239
+      },
+      {
+        "text": "capability affects everything in the",
+        "start": 1998.08,
+        "duration": 6.079
+      },
+      {
+        "text": "game. Um, not just uh, not just the uh,",
+        "start": 1999.679,
+        "duration": 6.48
+      },
+      {
+        "text": "not just the ship here, not just the",
+        "start": 2004.159,
+        "duration": 5.441
+      },
+      {
+        "text": "turrets, not just the monsters. Wants it",
+        "start": 2006.159,
+        "duration": 6.721
+      },
+      {
+        "text": "to affect everything.",
+        "start": 2009.6,
+        "duration": 8.64
+      },
+      {
+        "text": "Uh renamed it to weird. Okay. Uh",
+        "start": 2012.88,
+        "duration": 7.84
+      },
+      {
+        "text": "apply this to our enemy class TS so the",
+        "start": 2018.24,
+        "duration": 4.559
+      },
+      {
+        "text": "enemies can be rewinded. Make it so that",
+        "start": 2020.72,
+        "duration": 4.079
+      },
+      {
+        "text": "that when the rewind button is pressed",
+        "start": 2022.799,
+        "duration": 3.6
+      },
+      {
+        "text": "down",
+        "start": 2024.799,
+        "duration": 5.041
+      },
+      {
+        "text": "in input manager, all the enemies in the",
+        "start": 2026.399,
+        "duration": 6.4
+      },
+      {
+        "text": "level are set to rewind mode.",
+        "start": 2029.84,
+        "duration": 6.6
+      },
+      {
+        "text": "And every frame",
+        "start": 2032.799,
+        "duration": 3.641
+      },
+      {
+        "text": "it's held, we rewind one step.",
+        "start": 2036.88,
+        "duration": 5.36
+      },
+      {
+        "text": "Then when the button gets released, the",
+        "start": 2040.399,
+        "duration": 3.601
+      },
+      {
+        "text": "enemies are switched back into forward",
+        "start": 2042.24,
+        "duration": 4.319
+      },
+      {
+        "text": "time.",
+        "start": 2044.0,
+        "duration": 5.2
+      },
+      {
+        "text": "Oh, okay. So, we hold down. So, it's",
+        "start": 2046.559,
+        "duration": 5.28
+      },
+      {
+        "text": "like a hold kind of mechanic.",
+        "start": 2049.2,
+        "duration": 4.56
+      },
+      {
+        "text": "So, we hold the rewind button to like",
+        "start": 2051.839,
+        "duration": 5.52
+      },
+      {
+        "text": "rewind for a certain amount. So, then",
+        "start": 2053.76,
+        "duration": 5.68
+      },
+      {
+        "text": "this part here, the configuration of the",
+        "start": 2057.359,
+        "duration": 4.161
+      },
+      {
+        "text": "update ticks,",
+        "start": 2059.44,
+        "duration": 4.239
+      },
+      {
+        "text": "um, it might actually have to be",
+        "start": 2061.52,
+        "duration": 3.92
+      },
+      {
+        "text": "configured pretty high since it's, you",
+        "start": 2063.679,
+        "duration": 3.761
+      },
+      {
+        "text": "know, maybe updating at 30 frames per",
+        "start": 2065.44,
+        "duration": 4.479
+      },
+      {
+        "text": "second or 60 or whatever.",
+        "start": 2067.44,
+        "duration": 5.479
+      },
+      {
+        "text": "Um,",
+        "start": 2069.919,
+        "duration": 3.0
+      },
+      {
+        "text": "and that's kind of interesting because",
+        "start": 2074.32,
+        "duration": 3.759
+      },
+      {
+        "text": "it's it's talking about update ticks,",
+        "start": 2075.839,
+        "duration": 6.401
+      },
+      {
+        "text": "which um, in most game engines that's,",
+        "start": 2078.079,
+        "duration": 8.161
+      },
+      {
+        "text": "you know, when it draws a frame and so",
+        "start": 2082.24,
+        "duration": 5.919
+      },
+      {
+        "text": "the and the frame rate depends on your",
+        "start": 2086.24,
+        "duration": 4.72
+      },
+      {
+        "text": "hardware a bit. Um, I'm guessing in a 2D",
+        "start": 2088.159,
+        "duration": 4.561
+      },
+      {
+        "text": "game that's probably just capped, so",
+        "start": 2090.96,
+        "duration": 4.719
+      },
+      {
+        "text": "it's probably fine. But um but what I'm",
+        "start": 2092.72,
+        "duration": 4.56
+      },
+      {
+        "text": "getting at is that this configuration if",
+        "start": 2095.679,
+        "duration": 4.001
+      },
+      {
+        "text": "we're configurating by the n update",
+        "start": 2097.28,
+        "duration": 4.4
+      },
+      {
+        "text": "ticks then that means someone with a",
+        "start": 2099.68,
+        "duration": 5.52
+      },
+      {
+        "text": "better computer would um",
+        "start": 2101.68,
+        "duration": 7.84
+      },
+      {
+        "text": "accumulate uh more ticks per second than",
+        "start": 2105.2,
+        "duration": 5.76
+      },
+      {
+        "text": "someone with a worse computer. So",
+        "start": 2109.52,
+        "duration": 2.88
+      },
+      {
+        "text": "someone with a worse computer would be",
+        "start": 2110.96,
+        "duration": 4.08
+      },
+      {
+        "text": "able to rewind more seconds than someone",
+        "start": 2112.4,
+        "duration": 5.199
+      },
+      {
+        "text": "with a better computer.",
+        "start": 2115.04,
+        "duration": 5.559
+      },
+      {
+        "text": "Um,",
+        "start": 2117.599,
+        "duration": 3.0
+      },
+      {
+        "text": "I probably shouldn't be thinking about",
+        "start": 2121.28,
+        "duration": 3.28
+      },
+      {
+        "text": "the the software engineering of it. I",
+        "start": 2122.64,
+        "duration": 2.959
+      },
+      {
+        "text": "should probably be thinking more about",
+        "start": 2124.56,
+        "duration": 3.36
+      },
+      {
+        "text": "the AI of it. But it's it's kind of",
+        "start": 2125.599,
+        "duration": 5.361
+      },
+      {
+        "text": "interesting to to read through. It's",
+        "start": 2127.92,
+        "duration": 4.4
+      },
+      {
+        "text": "this is actually a fun way to read",
+        "start": 2130.96,
+        "duration": 5.32
+      },
+      {
+        "text": "through a project, I'll say.",
+        "start": 2132.32,
+        "duration": 3.96
+      },
+      {
+        "text": "Make it so that uh is in an animation.",
+        "start": 2137.28,
+        "duration": 6.4
+      },
+      {
+        "text": "Make it so that the animation's playing",
+        "start": 2142.32,
+        "duration": 3.6
+      },
+      {
+        "text": "in reverse. Oh, that's cool. I mean, if",
+        "start": 2143.68,
+        "duration": 6.399
+      },
+      {
+        "text": "that's easy to do, that's that's great.",
+        "start": 2145.92,
+        "duration": 6.08
+      },
+      {
+        "text": "There's an issue. When I hold rewind for",
+        "start": 2150.079,
+        "duration": 4.961
+      },
+      {
+        "text": "long enough, the enemies stop animating,",
+        "start": 2152.0,
+        "duration": 5.28
+      },
+      {
+        "text": "and then when I release it, they never",
+        "start": 2155.04,
+        "duration": 4.559
+      },
+      {
+        "text": "start moving forward again. So, that",
+        "start": 2157.28,
+        "duration": 4.0
+      },
+      {
+        "text": "probably means when it hits the end of",
+        "start": 2159.599,
+        "duration": 6.561
+      },
+      {
+        "text": "that configuring uh time.",
+        "start": 2161.28,
+        "duration": 6.559
+      },
+      {
+        "text": "Let's see. When the rewind button is",
+        "start": 2166.16,
+        "duration": 3.52
+      },
+      {
+        "text": "released, all the state records that",
+        "start": 2167.839,
+        "duration": 5.201
+      },
+      {
+        "text": "happen after the time offset",
+        "start": 2169.68,
+        "duration": 4.96
+      },
+      {
+        "text": "at the time of release should be",
+        "start": 2173.04,
+        "duration": 4.6
+      },
+      {
+        "text": "discarded.",
+        "start": 2174.64,
+        "duration": 3.0
+      },
+      {
+        "text": "Okay. Okay. So, this is sort of saying",
+        "start": 2178.88,
+        "duration": 4.239
+      },
+      {
+        "text": "this is again getting to like what",
+        "start": 2181.599,
+        "duration": 4.641
+      },
+      {
+        "text": "happens when you release that button.",
+        "start": 2183.119,
+        "duration": 6.161
+      },
+      {
+        "text": "You kind of rewinded time and you need",
+        "start": 2186.24,
+        "duration": 5.839
+      },
+      {
+        "text": "to kind of throw away you know what used",
+        "start": 2189.28,
+        "duration": 4.96
+      },
+      {
+        "text": "to be the past but now is this alternate",
+        "start": 2192.079,
+        "duration": 3.921
+      },
+      {
+        "text": "future.",
+        "start": 2194.24,
+        "duration": 4.24
+      },
+      {
+        "text": "Uh,",
+        "start": 2196.0,
+        "duration": 4.4
+      },
+      {
+        "text": "when rewinding, render a small rewind",
+        "start": 2198.48,
+        "duration": 5.2
+      },
+      {
+        "text": "icon. That makes total sense.",
+        "start": 2200.4,
+        "duration": 6.0
+      },
+      {
+        "text": "Um,",
+        "start": 2203.68,
+        "duration": 4.48
+      },
+      {
+        "text": "wait till the triangle space. That's",
+        "start": 2206.4,
+        "duration": 3.36
+      },
+      {
+        "text": "okay.",
+        "start": 2208.16,
+        "duration": 4.4
+      },
+      {
+        "text": "I mean, that's I guess like describing",
+        "start": 2209.76,
+        "duration": 7.359
+      },
+      {
+        "text": "the BCR rewind button. Uh, that's kind",
+        "start": 2212.56,
+        "duration": 6.16
+      },
+      {
+        "text": "of funny.",
+        "start": 2217.119,
+        "duration": 3.281
+      },
+      {
+        "text": "Enemy path. Okay, so we didn't actually",
+        "start": 2218.72,
+        "duration": 5.84
+      },
+      {
+        "text": "do enemy path finding yet. Um,",
+        "start": 2220.4,
+        "duration": 6.719
+      },
+      {
+        "text": "set target. Uh, it takes a destination",
+        "start": 2224.56,
+        "duration": 6.88
+      },
+      {
+        "text": "XY and a path table layer set and it'll",
+        "start": 2227.119,
+        "duration": 6.081
+      },
+      {
+        "text": "find its way while only stepping on",
+        "start": 2231.44,
+        "duration": 4.0
+      },
+      {
+        "text": "tiles that belong to the path. Such a",
+        "start": 2233.2,
+        "duration": 5.04
+      },
+      {
+        "text": "path is not found. Stop all movement and",
+        "start": 2235.44,
+        "duration": 4.72
+      },
+      {
+        "text": "set the current enemy state to idle.",
+        "start": 2238.24,
+        "duration": 5.119
+      },
+      {
+        "text": "Okay, so if say there were something",
+        "start": 2240.16,
+        "duration": 5.36
+      },
+      {
+        "text": "blocking the path so that it couldn't",
+        "start": 2243.359,
+        "duration": 4.641
+      },
+      {
+        "text": "get there, then don't move at all. That",
+        "start": 2245.52,
+        "duration": 4.319
+      },
+      {
+        "text": "makes sense.",
+        "start": 2248.0,
+        "duration": 4.72
+      },
+      {
+        "text": "Uh, should use a star.",
+        "start": 2249.839,
+        "duration": 4.481
+      },
+      {
+        "text": "Oh, with diagonal movement being",
+        "start": 2252.72,
+        "duration": 3.68
+      },
+      {
+        "text": "permitted. Okay.",
+        "start": 2254.32,
+        "duration": 4.72
+      },
+      {
+        "text": "Um, so AAR is a standard algorithm for",
+        "start": 2256.4,
+        "duration": 5.52
+      },
+      {
+        "text": "path finding. Um, it's taught in in AI",
+        "start": 2259.04,
+        "duration": 5.84
+      },
+      {
+        "text": "classes still as far as I know. Um, it's",
+        "start": 2261.92,
+        "duration": 5.6
+      },
+      {
+        "text": "used for trying to find the shortest",
+        "start": 2264.88,
+        "duration": 5.84
+      },
+      {
+        "text": "path from from uh, you know, one source",
+        "start": 2267.52,
+        "duration": 8.0
+      },
+      {
+        "text": "to one target. Um, it relies on",
+        "start": 2270.72,
+        "duration": 7.92
+      },
+      {
+        "text": "its efficiency relies on a heristic um,",
+        "start": 2275.52,
+        "duration": 7.36
+      },
+      {
+        "text": "to guide the search. And in a star, if I",
+        "start": 2278.64,
+        "duration": 5.84
+      },
+      {
+        "text": "remember right, the most common heristic",
+        "start": 2282.88,
+        "duration": 4.239
+      },
+      {
+        "text": "is sort of the direct line distance. So",
+        "start": 2284.48,
+        "duration": 4.32
+      },
+      {
+        "text": "it's sort of saying like, well, explore",
+        "start": 2287.119,
+        "duration": 3.601
+      },
+      {
+        "text": "paths that that have a shorter, you",
+        "start": 2288.8,
+        "duration": 3.6
+      },
+      {
+        "text": "know, direct line distance, ignoring",
+        "start": 2290.72,
+        "duration": 3.76
+      },
+      {
+        "text": "collision. And most of the time that's",
+        "start": 2292.4,
+        "duration": 5.36
+      },
+      {
+        "text": "correct. Um or at least you should try",
+        "start": 2294.48,
+        "duration": 5.68
+      },
+      {
+        "text": "those first.",
+        "start": 2297.76,
+        "duration": 5.599
+      },
+      {
+        "text": "Anyway, um",
+        "start": 2300.16,
+        "duration": 7.48
+      },
+      {
+        "text": "enemies at destination. Yeah,",
+        "start": 2303.359,
+        "duration": 4.281
+      },
+      {
+        "text": "if it's not a destination then",
+        "start": 2308.88,
+        "duration": 6.4
+      },
+      {
+        "text": "okay. I mean just seeing this like my",
+        "start": 2312.48,
+        "duration": 4.32
+      },
+      {
+        "text": "thought is that like this is getting",
+        "start": 2315.28,
+        "duration": 4.4
+      },
+      {
+        "text": "pretty close to code.",
+        "start": 2316.8,
+        "duration": 5.88
+      },
+      {
+        "text": "Um",
+        "start": 2319.68,
+        "duration": 3.0
+      },
+      {
+        "text": "I guess they aren't having to type",
+        "start": 2323.599,
+        "duration": 5.48
+      },
+      {
+        "text": "everything out though, right?",
+        "start": 2325.04,
+        "duration": 4.039
+      },
+      {
+        "text": "That's a tough call. I don't know. It's",
+        "start": 2338.079,
+        "duration": 8.121
+      },
+      {
+        "text": "it's interesting because I think it's um",
+        "start": 2340.24,
+        "duration": 5.96
+      },
+      {
+        "text": "like this this whole thing here feels a",
+        "start": 2346.56,
+        "duration": 5.36
+      },
+      {
+        "text": "lot like programming to me um using",
+        "start": 2348.72,
+        "duration": 7.6
+      },
+      {
+        "text": "English um or you know English slash",
+        "start": 2351.92,
+        "duration": 6.64
+      },
+      {
+        "text": "computer science language.",
+        "start": 2356.32,
+        "duration": 5.24
+      },
+      {
+        "text": "Um,",
+        "start": 2358.56,
+        "duration": 3.0
+      },
+      {
+        "text": "so it's not it's not just straight up",
+        "start": 2363.44,
+        "duration": 3.919
+      },
+      {
+        "text": "vibe coding,",
+        "start": 2365.2,
+        "duration": 3.84
+      },
+      {
+        "text": "uh, where you just sort of like, you",
+        "start": 2367.359,
+        "duration": 4.081
+      },
+      {
+        "text": "know, make it work or fix it or it",
+        "start": 2369.04,
+        "duration": 4.64
+      },
+      {
+        "text": "doesn't work, try again. Uh, there's a",
+        "start": 2371.44,
+        "duration": 3.919
+      },
+      {
+        "text": "lot of intentionality here, a lot of",
+        "start": 2373.68,
+        "duration": 3.76
+      },
+      {
+        "text": "knowledge going into it. But they aren't",
+        "start": 2375.359,
+        "duration": 3.601
+      },
+      {
+        "text": "necessarily having to, you know, it's",
+        "start": 2377.44,
+        "duration": 3.04
+      },
+      {
+        "text": "maybe",
+        "start": 2378.96,
+        "duration": 3.28
+      },
+      {
+        "text": "depending on some of in some of these",
+        "start": 2380.48,
+        "duration": 5.599
+      },
+      {
+        "text": "cases the um",
+        "start": 2382.24,
+        "duration": 5.76
+      },
+      {
+        "text": "some of these, you know, one-s sentence",
+        "start": 2386.079,
+        "duration": 5.52
+      },
+      {
+        "text": "things might turn into, you know, 20 30",
+        "start": 2388.0,
+        "duration": 5.359
+      },
+      {
+        "text": "lines of code or something like that. So",
+        "start": 2391.599,
+        "duration": 6.041
+      },
+      {
+        "text": "maybe saving them a bit of time.",
+        "start": 2393.359,
+        "duration": 4.281
+      },
+      {
+        "text": "Uh when debug is true,",
+        "start": 2398.24,
+        "duration": 5.68
+      },
+      {
+        "text": "draw the last computed enemy path",
+        "start": 2401.28,
+        "duration": 5.2
+      },
+      {
+        "text": "visually on the screen. Okay. Yeah.",
+        "start": 2403.92,
+        "duration": 4.4
+      },
+      {
+        "text": "Yeah,",
+        "start": 2406.48,
+        "duration": 5.2
+      },
+      {
+        "text": "that makes a lot of sense because uh I",
+        "start": 2408.32,
+        "duration": 4.96
+      },
+      {
+        "text": "tell you with path finding, you know,",
+        "start": 2411.68,
+        "duration": 3.679
+      },
+      {
+        "text": "you gota",
+        "start": 2413.28,
+        "duration": 5.04
+      },
+      {
+        "text": "there's a lot of debugging involved. So,",
+        "start": 2415.359,
+        "duration": 5.041
+      },
+      {
+        "text": "and visually debugging it is definitely",
+        "start": 2418.32,
+        "duration": 7.2
+      },
+      {
+        "text": "going to help for the developer. Um",
+        "start": 2420.4,
+        "duration": 8.56
+      },
+      {
+        "text": "it may or may not be easy to take that",
+        "start": 2425.52,
+        "duration": 5.68
+      },
+      {
+        "text": "information and send it back into the",
+        "start": 2428.96,
+        "duration": 4.96
+      },
+      {
+        "text": "AI.",
+        "start": 2431.2,
+        "duration": 4.639
+      },
+      {
+        "text": "Issue with enemy movement. The path",
+        "start": 2433.92,
+        "duration": 3.679
+      },
+      {
+        "text": "visualization shows that the path",
+        "start": 2435.839,
+        "duration": 5.921
+      },
+      {
+        "text": "algorithm is working fine. Okay.",
+        "start": 2437.599,
+        "duration": 7.041
+      },
+      {
+        "text": "But when I run it briefly shows the path",
+        "start": 2441.76,
+        "duration": 4.319
+      },
+      {
+        "text": "and every frame the next node gets",
+        "start": 2444.64,
+        "duration": 2.88
+      },
+      {
+        "text": "highlighted in yellow and then the enemy",
+        "start": 2446.079,
+        "duration": 4.76
+      },
+      {
+        "text": "stops after",
+        "start": 2447.52,
+        "duration": 3.319
+      },
+      {
+        "text": "adjust make enemy pathfind player method",
+        "start": 2450.96,
+        "duration": 4.56
+      },
+      {
+        "text": "so that it continuously tries to go to a",
+        "start": 2453.44,
+        "duration": 7.879
+      },
+      {
+        "text": "player unless already. Okay, sure.",
+        "start": 2455.52,
+        "duration": 5.799
+      },
+      {
+        "text": "created an enemy spawner object. Again,",
+        "start": 2462.64,
+        "duration": 4.959
+      },
+      {
+        "text": "you know, spawner is like these, you",
+        "start": 2464.88,
+        "duration": 4.88
+      },
+      {
+        "text": "know, things that create create other",
+        "start": 2467.599,
+        "duration": 3.681
+      },
+      {
+        "text": "things.",
+        "start": 2469.76,
+        "duration": 4.319
+      },
+      {
+        "text": "Um, so they they know the the language",
+        "start": 2471.28,
+        "duration": 5.2
+      },
+      {
+        "text": "of of game programming.",
+        "start": 2474.079,
+        "duration": 4.961
+      },
+      {
+        "text": "Uh, place I want to make it spawns",
+        "start": 2476.48,
+        "duration": 4.4
+      },
+      {
+        "text": "enemies randomly inside its bounds every",
+        "start": 2479.04,
+        "duration": 3.68
+      },
+      {
+        "text": "two seconds. Should have spawn for",
+        "start": 2480.88,
+        "duration": 4.239
+      },
+      {
+        "text": "manual spawning.",
+        "start": 2482.72,
+        "duration": 5.359
+      },
+      {
+        "text": "Then after spawning each enemy, After",
+        "start": 2485.119,
+        "duration": 4.641
+      },
+      {
+        "text": "spawning, each enemy should be set to",
+        "start": 2488.079,
+        "duration": 5.201
+      },
+      {
+        "text": "walk towards the goal object. Uh-huh.",
+        "start": 2489.76,
+        "duration": 5.359
+      },
+      {
+        "text": "Add a buffer so enemies stop just",
+        "start": 2493.28,
+        "duration": 4.24
+      },
+      {
+        "text": "before. Okay, sure. Want to make a",
+        "start": 2495.119,
+        "duration": 5.281
+      },
+      {
+        "text": "towers so the towers the player build",
+        "start": 2497.52,
+        "duration": 5.12
+      },
+      {
+        "text": "shoot bullets. Right now I have a basic",
+        "start": 2500.4,
+        "duration": 5.439
+      },
+      {
+        "text": "tower that when placed should shoot one",
+        "start": 2502.64,
+        "duration": 6.719
+      },
+      {
+        "text": "bullet per second way. Uhhuh. Set radius",
+        "start": 2505.839,
+        "duration": 8.801
+      },
+      {
+        "text": "checks enemies in it. If it is spawn",
+        "start": 2509.359,
+        "duration": 8.081
+      },
+      {
+        "text": "it should spawn a bullet with a vector",
+        "start": 2514.64,
+        "duration": 5.04
+      },
+      {
+        "text": "towards that enemy. The bullet itself",
+        "start": 2517.44,
+        "duration": 3.6
+      },
+      {
+        "text": "should check whether it collided with",
+        "start": 2519.68,
+        "duration": 3.439
+      },
+      {
+        "text": "any. Uhhuh.",
+        "start": 2521.04,
+        "duration": 3.6
+      },
+      {
+        "text": "And if it did, it should mark the enemy",
+        "start": 2523.119,
+        "duration": 3.761
+      },
+      {
+        "text": "as dead. Uhhuh.",
+        "start": 2524.64,
+        "duration": 3.76
+      },
+      {
+        "text": "Oh, it should mark them as dead in their",
+        "start": 2526.88,
+        "duration": 3.92
+      },
+      {
+        "text": "serializable state,",
+        "start": 2528.4,
+        "duration": 4.08
+      },
+      {
+        "text": "which will disable all and make it",
+        "start": 2530.8,
+        "duration": 3.92
+      },
+      {
+        "text": "invisible, but it would still be okay.",
+        "start": 2532.48,
+        "duration": 4.32
+      },
+      {
+        "text": "So, they've",
+        "start": 2534.72,
+        "duration": 4.96
+      },
+      {
+        "text": "I find it interesting because like here",
+        "start": 2536.8,
+        "duration": 5.12
+      },
+      {
+        "text": "at this part of the sentence, you can I",
+        "start": 2539.68,
+        "duration": 4.24
+      },
+      {
+        "text": "could tell that they're anticipating the",
+        "start": 2541.92,
+        "duration": 4.399
+      },
+      {
+        "text": "design of rewinding. So they're thinking",
+        "start": 2543.92,
+        "duration": 6.399
+      },
+      {
+        "text": "about the system architecture in enough",
+        "start": 2546.319,
+        "duration": 6.8
+      },
+      {
+        "text": "detail to anticipate all the pieces that",
+        "start": 2550.319,
+        "duration": 4.881
+      },
+      {
+        "text": "they need to create um the experience",
+        "start": 2553.119,
+        "duration": 4.24
+      },
+      {
+        "text": "that they want. Um so they are actually",
+        "start": 2555.2,
+        "duration": 4.56
+      },
+      {
+        "text": "thinking very much like you know like",
+        "start": 2557.359,
+        "duration": 4.96
+      },
+      {
+        "text": "programming. Uh try to make the enemy",
+        "start": 2559.76,
+        "duration": 4.72
+      },
+      {
+        "text": "targeting and bullet collision checks",
+        "start": 2562.319,
+        "duration": 5.201
+      },
+      {
+        "text": "perform it. Yep. Yep. Yep. Because there",
+        "start": 2564.48,
+        "duration": 6.08
+      },
+      {
+        "text": "can be many on the same. Uh-huh. Yep.",
+        "start": 2567.52,
+        "duration": 5.12
+      },
+      {
+        "text": "Think hard about that. Uh, I mean that",
+        "start": 2570.56,
+        "duration": 8.44
+      },
+      {
+        "text": "might sometimes that works. Um,",
+        "start": 2572.64,
+        "duration": 6.36
+      },
+      {
+        "text": "yeah, sometimes that works.",
+        "start": 2580.96,
+        "duration": 7.68
+      },
+      {
+        "text": "It's interesting because up here",
+        "start": 2584.48,
+        "duration": 6.56
+      },
+      {
+        "text": "he said you know use a star for pathf",
+        "start": 2588.64,
+        "duration": 6.64
+      },
+      {
+        "text": "finding um which",
+        "start": 2591.04,
+        "duration": 8.16
+      },
+      {
+        "text": "um is mostly a performance choice but I",
+        "start": 2595.28,
+        "duration": 6.64
+      },
+      {
+        "text": "think people are used to that in gaming.",
+        "start": 2599.2,
+        "duration": 5.6
+      },
+      {
+        "text": "So um might be a for familiarity a",
+        "start": 2601.92,
+        "duration": 6.0
+      },
+      {
+        "text": "little bit but here",
+        "start": 2604.8,
+        "duration": 5.92
+      },
+      {
+        "text": "um",
+        "start": 2607.92,
+        "duration": 5.76
+      },
+      {
+        "text": "try to make these performance uh he's",
+        "start": 2610.72,
+        "duration": 5.2
+      },
+      {
+        "text": "not specifying",
+        "start": 2613.68,
+        "duration": 4.0
+      },
+      {
+        "text": "which algorithm to use which is kind of",
+        "start": 2615.92,
+        "duration": 5.96
+      },
+      {
+        "text": "interesting. Um",
+        "start": 2617.68,
+        "duration": 4.2
+      },
+      {
+        "text": "I'm trying to think if",
+        "start": 2622.64,
+        "duration": 7.0
+      },
+      {
+        "text": "how would I do it.",
+        "start": 2625.839,
+        "duration": 3.801
+      },
+      {
+        "text": "So for enemy targeting,",
+        "start": 2630.48,
+        "duration": 3.8
+      },
+      {
+        "text": "I don't know. I might not know enough",
+        "start": 2637.52,
+        "duration": 5.28
+      },
+      {
+        "text": "for that.",
+        "start": 2640.0,
+        "duration": 6.24
+      },
+      {
+        "text": "Uh, so I can kind of kind of see",
+        "start": 2642.8,
+        "duration": 6.799
+      },
+      {
+        "text": "in general like",
+        "start": 2646.24,
+        "duration": 6.16
+      },
+      {
+        "text": "I don't like to say this is kind of like",
+        "start": 2649.599,
+        "duration": 5.601
+      },
+      {
+        "text": "a last resort for me in in prompting to",
+        "start": 2652.4,
+        "duration": 5.12
+      },
+      {
+        "text": "say think hard about that or like",
+        "start": 2655.2,
+        "duration": 5.119
+      },
+      {
+        "text": "there's a lot of jokes about you know be",
+        "start": 2657.52,
+        "duration": 5.52
+      },
+      {
+        "text": "like oh like if you don't if it's slow",
+        "start": 2660.319,
+        "duration": 4.161
+      },
+      {
+        "text": "then you're going to be fired just you",
+        "start": 2663.04,
+        "duration": 5.039
+      },
+      {
+        "text": "know like whatever but uh to try to",
+        "start": 2664.48,
+        "duration": 7.599
+      },
+      {
+        "text": "threaten the AI or some such. Um I think",
+        "start": 2668.079,
+        "duration": 7.361
+      },
+      {
+        "text": "a lot of times um if I want to force the",
+        "start": 2672.079,
+        "duration": 5.921
+      },
+      {
+        "text": "AI to think about things uh the most",
+        "start": 2675.44,
+        "duration": 3.919
+      },
+      {
+        "text": "common technique is called chain of",
+        "start": 2678.0,
+        "duration": 6.079
+      },
+      {
+        "text": "thought. And so um you force it you say",
+        "start": 2679.359,
+        "duration": 7.121
+      },
+      {
+        "text": "you ask it to share its reasoning. Say",
+        "start": 2684.079,
+        "duration": 4.161
+      },
+      {
+        "text": "you know explain your reasoning for your",
+        "start": 2686.48,
+        "duration": 5.92
+      },
+      {
+        "text": "choices. Um especially if the model is",
+        "start": 2688.24,
+        "duration": 6.079
+      },
+      {
+        "text": "explaining its reasoning before making a",
+        "start": 2692.4,
+        "duration": 4.719
+      },
+      {
+        "text": "decision that tends to work really well.",
+        "start": 2694.319,
+        "duration": 6.561
+      },
+      {
+        "text": "And then um if you need it to you know",
+        "start": 2697.119,
+        "duration": 5.361
+      },
+      {
+        "text": "think in a certain way you can offer",
+        "start": 2700.88,
+        "duration": 3.84
+      },
+      {
+        "text": "guidance about how it should critique",
+        "start": 2702.48,
+        "duration": 3.839
+      },
+      {
+        "text": "how it should be reasoning. So you can",
+        "start": 2704.72,
+        "duration": 3.76
+      },
+      {
+        "text": "sort of do um like guided chain of",
+        "start": 2706.319,
+        "duration": 3.841
+      },
+      {
+        "text": "thought and that's that's worked pretty",
+        "start": 2708.48,
+        "duration": 4.639
+      },
+      {
+        "text": "well for me. Um sort of to say what does",
+        "start": 2710.16,
+        "duration": 5.439
+      },
+      {
+        "text": "it mean to think hard about that? Um",
+        "start": 2713.119,
+        "duration": 4.48
+      },
+      {
+        "text": "maybe you don't have all the details but",
+        "start": 2715.599,
+        "duration": 3.601
+      },
+      {
+        "text": "you're you're giving instruction to say",
+        "start": 2717.599,
+        "duration": 3.441
+      },
+      {
+        "text": "what does it mean to think you know when",
+        "start": 2719.2,
+        "duration": 3.6
+      },
+      {
+        "text": "when can you check that box about hey",
+        "start": 2721.04,
+        "duration": 3.92
+      },
+      {
+        "text": "yeah you thought hard about that. Um",
+        "start": 2722.8,
+        "duration": 3.68
+      },
+      {
+        "text": "because because that's such a vague",
+        "start": 2724.96,
+        "duration": 4.32
+      },
+      {
+        "text": "ambiguous thing.",
+        "start": 2726.48,
+        "duration": 4.48
+      },
+      {
+        "text": "Um",
+        "start": 2729.28,
+        "duration": 6.92
+      },
+      {
+        "text": "instead of having separate Uhhuh. Uhhuh.",
+        "start": 2730.96,
+        "duration": 5.24
+      },
+      {
+        "text": "Uh okay. So maybe it had implemented",
+        "start": 2736.72,
+        "duration": 5.28
+      },
+      {
+        "text": "some like",
+        "start": 2739.599,
+        "duration": 5.201
+      },
+      {
+        "text": "separate state history for for dead",
+        "start": 2742.0,
+        "duration": 5.52
+      },
+      {
+        "text": "stuff. Um and he doesn't want to",
+        "start": 2744.8,
+        "duration": 5.039
+      },
+      {
+        "text": "duplicate code. That makes sense. The",
+        "start": 2747.52,
+        "duration": 3.76
+      },
+      {
+        "text": "bolts are being spawned, but they don't",
+        "start": 2749.839,
+        "duration": 6.081
+      },
+      {
+        "text": "move at all. Yep. Yep. Yep.",
+        "start": 2751.28,
+        "duration": 4.64
+      },
+      {
+        "text": "Yeah, we need to call their update",
+        "start": 2756.0,
+        "duration": 4.319
+      },
+      {
+        "text": "method from the level. Uhhuh.",
+        "start": 2757.599,
+        "duration": 4.561
+      },
+      {
+        "text": "Oh, so maybe it implemented the update",
+        "start": 2760.319,
+        "duration": 4.161
+      },
+      {
+        "text": "method, but it didn't call that. Okay,",
+        "start": 2762.16,
+        "duration": 4.72
+      },
+      {
+        "text": "that makes sense. When bolts hit an",
+        "start": 2764.48,
+        "duration": 6.56
+      },
+      {
+        "text": "enemy, uncaught cannot. Uhhuh.",
+        "start": 2766.88,
+        "duration": 7.92
+      },
+      {
+        "text": "Reading cameras. So,",
+        "start": 2771.04,
+        "duration": 6.4
+      },
+      {
+        "text": "it's trying to",
+        "start": 2774.8,
+        "duration": 6.64
+      },
+      {
+        "text": "call something on cameras, I don't know.",
+        "start": 2777.44,
+        "duration": 7.0
+      },
+      {
+        "text": "Um",
+        "start": 2781.44,
+        "duration": 3.0
+      },
+      {
+        "text": "ah instead of this so okay so this is",
+        "start": 2786.64,
+        "duration": 7.04
+      },
+      {
+        "text": "saying initially when it collided it it",
+        "start": 2789.359,
+        "duration": 6.72
+      },
+      {
+        "text": "deleted the bullet",
+        "start": 2793.68,
+        "duration": 5.28
+      },
+      {
+        "text": "and it did the thing where it like made",
+        "start": 2796.079,
+        "duration": 6.961
+      },
+      {
+        "text": "the thing it hit invisible. Um but it",
+        "start": 2798.96,
+        "duration": 5.68
+      },
+      {
+        "text": "didn't it didn't make the bullet",
+        "start": 2803.04,
+        "duration": 3.76
+      },
+      {
+        "text": "rewindable. So, this is kind of an",
+        "start": 2804.64,
+        "duration": 6.6
+      },
+      {
+        "text": "interesting one because um",
+        "start": 2806.8,
+        "duration": 4.44
+      },
+      {
+        "text": "yeah, it didn't it didn't fully think",
+        "start": 2812.4,
+        "duration": 5.04
+      },
+      {
+        "text": "about those directions about, you know,",
+        "start": 2815.52,
+        "duration": 4.799
+      },
+      {
+        "text": "making uh making that hit making like",
+        "start": 2817.44,
+        "duration": 4.72
+      },
+      {
+        "text": "the bullet killing, you know, a bad guy",
+        "start": 2820.319,
+        "duration": 5.28
+      },
+      {
+        "text": "like rewindable.",
+        "start": 2822.16,
+        "duration": 5.679
+      },
+      {
+        "text": "But it makes sense, you know, definitely",
+        "start": 2825.599,
+        "duration": 6.041
+      },
+      {
+        "text": "easy to make that mistake.",
+        "start": 2827.839,
+        "duration": 3.801
+      },
+      {
+        "text": "Similar to how we handle enemies, when",
+        "start": 2831.76,
+        "duration": 3.2
+      },
+      {
+        "text": "it gets rewinded to the beginning of its",
+        "start": 2833.28,
+        "duration": 3.28
+      },
+      {
+        "text": "existence, we should destroy it. Okay,",
+        "start": 2834.96,
+        "duration": 4.72
+      },
+      {
+        "text": "so rewinding to destroy. Okay, it makes",
+        "start": 2836.56,
+        "duration": 5.2
+      },
+      {
+        "text": "sense that we would have to We haven't",
+        "start": 2839.68,
+        "duration": 4.88
+      },
+      {
+        "text": "explained that. Um, but I could see why",
+        "start": 2841.76,
+        "duration": 6.359
+      },
+      {
+        "text": "they would want that.",
+        "start": 2844.56,
+        "duration": 3.559
+      },
+      {
+        "text": "During a rewind, the tower should not be",
+        "start": 2850.24,
+        "duration": 6.079
+      },
+      {
+        "text": "active. Yep, makes sense.",
+        "start": 2852.24,
+        "duration": 5.839
+      },
+      {
+        "text": "Enemy",
+        "start": 2856.319,
+        "duration": 4.401
+      },
+      {
+        "text": "health and hit animation should not be",
+        "start": 2858.079,
+        "duration": 4.561
+      },
+      {
+        "text": "marked as dead immediately when hit by a",
+        "start": 2860.72,
+        "duration": 6.16
+      },
+      {
+        "text": "bullet. Uh, yep. We're going to have HP.",
+        "start": 2862.64,
+        "duration": 5.92
+      },
+      {
+        "text": "Each bullet hit subtracts one point.",
+        "start": 2866.88,
+        "duration": 4.56
+      },
+      {
+        "text": "Yep. Yep. Kind of standard stuff. Um,",
+        "start": 2868.56,
+        "duration": 4.64
+      },
+      {
+        "text": "but I guess this hadn't been implemented",
+        "start": 2871.44,
+        "duration": 5.919
+      },
+      {
+        "text": "yet. Uh, when a bullet hits the enemy,",
+        "start": 2873.2,
+        "duration": 5.2
+      },
+      {
+        "text": "this probably should have a flash",
+        "start": 2877.359,
+        "duration": 3.201
+      },
+      {
+        "text": "effect. Yep. Yep. Yep. Yeah. Doing some",
+        "start": 2878.4,
+        "duration": 4.4
+      },
+      {
+        "text": "animation. That's always good. kind of",
+        "start": 2880.56,
+        "duration": 4.88
+      },
+      {
+        "text": "makes it um",
+        "start": 2882.8,
+        "duration": 5.279
+      },
+      {
+        "text": "uh like feel like like the sound and",
+        "start": 2885.44,
+        "duration": 5.76
+      },
+      {
+        "text": "animation together really like convey",
+        "start": 2888.079,
+        "duration": 6.481
+      },
+      {
+        "text": "that sense of impact um even if it's you",
+        "start": 2891.2,
+        "duration": 5.76
+      },
+      {
+        "text": "know just this silly little thing. Uh, a",
+        "start": 2894.56,
+        "duration": 6.4
+      },
+      {
+        "text": "lot of these like sound and animation um",
+        "start": 2896.96,
+        "duration": 6.0
+      },
+      {
+        "text": "types of things really make the",
+        "start": 2900.96,
+        "duration": 4.8
+      },
+      {
+        "text": "difference between something that that",
+        "start": 2902.96,
+        "duration": 5.84
+      },
+      {
+        "text": "you know looks like uh looks like a",
+        "start": 2905.76,
+        "duration": 4.559
+      },
+      {
+        "text": "homework assignment and something that",
+        "start": 2908.8,
+        "duration": 4.16
+      },
+      {
+        "text": "starts to feel like a game.",
+        "start": 2910.319,
+        "duration": 4.481
+      },
+      {
+        "text": "Um,",
+        "start": 2912.96,
+        "duration": 3.92
+      },
+      {
+        "text": "then he gets hit flash red for one frame",
+        "start": 2914.8,
+        "duration": 6.72
+      },
+      {
+        "text": "then. Uhhuh. Uhhuh. Uh so just you know",
+        "start": 2916.88,
+        "duration": 6.16
+      },
+      {
+        "text": "uh",
+        "start": 2921.52,
+        "duration": 4.4
+      },
+      {
+        "text": "I don't know what this stuff is but um",
+        "start": 2923.04,
+        "duration": 5.039
+      },
+      {
+        "text": "it is cool that it can say that you can",
+        "start": 2925.92,
+        "duration": 3.919
+      },
+      {
+        "text": "say consult the docs. That's I like",
+        "start": 2928.079,
+        "duration": 4.321
+      },
+      {
+        "text": "that.",
+        "start": 2929.839,
+        "duration": 5.201
+      },
+      {
+        "text": "And then maybe it didn't quite work. All",
+        "start": 2932.4,
+        "duration": 4.719
+      },
+      {
+        "text": "right.",
+        "start": 2935.04,
+        "duration": 5.68
+      },
+      {
+        "text": "Issues with rewind. Okay. Okay. Very",
+        "start": 2937.119,
+        "duration": 6.161
+      },
+      {
+        "text": "relatable. Very relatable. Uh, a lot of",
+        "start": 2940.72,
+        "duration": 4.48
+      },
+      {
+        "text": "game programming involves like trying to",
+        "start": 2943.28,
+        "duration": 4.48
+      },
+      {
+        "text": "make creative mechanics, which means",
+        "start": 2945.2,
+        "duration": 4.159
+      },
+      {
+        "text": "that you're writing code that hasn't",
+        "start": 2947.76,
+        "duration": 2.88
+      },
+      {
+        "text": "really been written before. So, you",
+        "start": 2949.359,
+        "duration": 4.24
+      },
+      {
+        "text": "don't have patterns to go to. Um, so it",
+        "start": 2950.64,
+        "duration": 4.24
+      },
+      {
+        "text": "makes total sense that you're going to",
+        "start": 2953.599,
+        "duration": 2.96
+      },
+      {
+        "text": "make mistakes uh your first time",
+        "start": 2954.88,
+        "duration": 4.0
+      },
+      {
+        "text": "creating trying to create an experience",
+        "start": 2956.559,
+        "duration": 4.161
+      },
+      {
+        "text": "that's coherent and consistent and",
+        "start": 2958.88,
+        "duration": 3.679
+      },
+      {
+        "text": "understandable.",
+        "start": 2960.72,
+        "duration": 5.359
+      },
+      {
+        "text": "Yep. Yep. Yep.",
+        "start": 2962.559,
+        "duration": 4.961
+      },
+      {
+        "text": "Anyway, I feel like I've I've just been",
+        "start": 2966.079,
+        "duration": 3.601
+      },
+      {
+        "text": "going on and on and we're only like a",
+        "start": 2967.52,
+        "duration": 4.799
+      },
+      {
+        "text": "third way through this prompt file.",
+        "start": 2969.68,
+        "duration": 4.24
+      },
+      {
+        "text": "Um,",
+        "start": 2972.319,
+        "duration": 4.321
+      },
+      {
+        "text": "let me let me paste this this thing in",
+        "start": 2973.92,
+        "duration": 6.919
+      },
+      {
+        "text": "in chat because it's pretty interesting.",
+        "start": 2976.64,
+        "duration": 4.199
+      },
+      {
+        "text": "Uh,",
+        "start": 2981.28,
+        "duration": 3.0
+      },
+      {
+        "text": "I'm sorry. I have to find chat.",
+        "start": 2988.4,
+        "duration": 4.679
+      },
+      {
+        "text": "Oh, I see your circle might be an area",
+        "start": 2998.64,
+        "duration": 5.12
+      },
+      {
+        "text": "effect. Yeah, area effect is another",
+        "start": 3000.88,
+        "duration": 4.479
+      },
+      {
+        "text": "interesting thing too because now you",
+        "start": 3003.76,
+        "duration": 3.68
+      },
+      {
+        "text": "have to do",
+        "start": 3005.359,
+        "duration": 4.0
+      },
+      {
+        "text": "um",
+        "start": 3007.44,
+        "duration": 5.639
+      },
+      {
+        "text": "different kinds of collisions.",
+        "start": 3009.359,
+        "duration": 3.72
+      },
+      {
+        "text": "Maybe we can we can scroll towards the",
+        "start": 3022.0,
+        "duration": 4.559
+      },
+      {
+        "text": "bottom of this thing and see like",
+        "start": 3023.92,
+        "duration": 4.32
+      },
+      {
+        "text": "like what did what did stuff get to",
+        "start": 3026.559,
+        "duration": 5.241
+      },
+      {
+        "text": "towards the end.",
+        "start": 3028.24,
+        "duration": 3.56
+      },
+      {
+        "text": "Improve performance by cleaning up dead",
+        "start": 3035.92,
+        "duration": 5.199
+      },
+      {
+        "text": "objects. Yep.",
+        "start": 3037.68,
+        "duration": 6.159
+      },
+      {
+        "text": "Oh yeah. Yeah. Yeah. So this is sort of",
+        "start": 3041.119,
+        "duration": 5.2
+      },
+      {
+        "text": "a situation that was created by the",
+        "start": 3043.839,
+        "duration": 5.121
+      },
+      {
+        "text": "because they want to re he wants to be",
+        "start": 3046.319,
+        "duration": 5.52
+      },
+      {
+        "text": "able to rewind something dying",
+        "start": 3048.96,
+        "duration": 4.639
+      },
+      {
+        "text": "and so it makes sense that the game is",
+        "start": 3051.839,
+        "duration": 4.401
+      },
+      {
+        "text": "just going to use that like invisible",
+        "start": 3053.599,
+        "duration": 4.24
+      },
+      {
+        "text": "but now you need to make sure you",
+        "start": 3056.24,
+        "duration": 5.2
+      },
+      {
+        "text": "periodically like you know once they are",
+        "start": 3057.839,
+        "duration": 6.0
+      },
+      {
+        "text": "beyond the horizon of what you can",
+        "start": 3061.44,
+        "duration": 5.2
+      },
+      {
+        "text": "rewind then um you should start thinking",
+        "start": 3063.839,
+        "duration": 6.161
+      },
+      {
+        "text": "about uh deleting them. Um, otherwise",
+        "start": 3066.64,
+        "duration": 7.719
+      },
+      {
+        "text": "it'll kind of clog up the list.",
+        "start": 3070.0,
+        "duration": 4.359
+      },
+      {
+        "text": "There's a tutorial",
+        "start": 3075.2,
+        "duration": 3.399
+      },
+      {
+        "text": "HP bars. Yeah.",
+        "start": 3080.4,
+        "duration": 3.88
+      },
+      {
+        "text": "Yeah.",
+        "start": 3085.28,
+        "duration": 3.76
+      },
+      {
+        "text": "So, it looks like some, you know,",
+        "start": 3087.44,
+        "duration": 3.84
+      },
+      {
+        "text": "sometimes it's making these uh when it",
+        "start": 3089.04,
+        "duration": 4.24
+      },
+      {
+        "text": "has the AI do an update, it's not quite",
+        "start": 3091.28,
+        "duration": 4.96
+      },
+      {
+        "text": "updating everything.",
+        "start": 3093.28,
+        "duration": 5.96
+      },
+      {
+        "text": "Uh",
+        "start": 3096.24,
+        "duration": 3.0
+      },
+      {
+        "text": "oh, we have a music system. Okay, that's",
+        "start": 3114.0,
+        "duration": 3.52
+      },
+      {
+        "text": "cool.",
+        "start": 3116.0,
+        "duration": 4.0
+      },
+      {
+        "text": "Yep. Yep. Playing multiple sounds at",
+        "start": 3117.52,
+        "duration": 6.2
+      },
+      {
+        "text": "once. Yep.",
+        "start": 3120.0,
+        "duration": 3.72
+      },
+      {
+        "text": "Yep. Adding more and more sounds. Yep.",
+        "start": 3135.68,
+        "duration": 4.0
+      },
+      {
+        "text": "Yep.",
+        "start": 3137.76,
+        "duration": 7.96
+      },
+      {
+        "text": "Boss enemy type. Make it twice as big.",
+        "start": 3139.68,
+        "duration": 6.04
+      },
+      {
+        "text": "Uhhuh.",
+        "start": 3146.48,
+        "duration": 3.0
+      },
+      {
+        "text": "add a sh a shadow to the players. Okay,",
+        "start": 3158.0,
+        "duration": 5.2
+      },
+      {
+        "text": "that's cool.",
+        "start": 3160.319,
+        "duration": 4.401
+      },
+      {
+        "text": "Again, it's just sort of like adding",
+        "start": 3163.2,
+        "duration": 5.359
+      },
+      {
+        "text": "like little um",
+        "start": 3164.72,
+        "duration": 6.639
+      },
+      {
+        "text": "not full realism necessarily, but things",
+        "start": 3168.559,
+        "duration": 5.921
+      },
+      {
+        "text": "that kind of like little hints of of,",
+        "start": 3171.359,
+        "duration": 4.801
+      },
+      {
+        "text": "you know, what what makes sense in the",
+        "start": 3174.48,
+        "duration": 5.119
+      },
+      {
+        "text": "real world. sort of helps people",
+        "start": 3176.16,
+        "duration": 8.76
+      },
+      {
+        "text": "uh understand what's going on.",
+        "start": 3179.599,
+        "duration": 5.321
+      },
+      {
+        "text": "Oh, yeah. Kind of like when something's",
+        "start": 3190.48,
+        "duration": 6.0
+      },
+      {
+        "text": "open, pause everything. Yep. Yep. Yep.",
+        "start": 3193.76,
+        "duration": 4.559
+      },
+      {
+        "text": "And then when paused, Yeah. we have to",
+        "start": 3196.48,
+        "duration": 3.2
+      },
+      {
+        "text": "do a whole bunch of different things.",
+        "start": 3198.319,
+        "duration": 3.681
+      },
+      {
+        "text": "Yeah.",
+        "start": 3199.68,
+        "duration": 5.04
+      },
+      {
+        "text": "See what else we got in here. Alo, so",
+        "start": 3202.0,
+        "duration": 6.319
+      },
+      {
+        "text": "there are some cases where",
+        "start": 3204.72,
+        "duration": 5.28
+      },
+      {
+        "text": "yeah, it's just like a a straight up",
+        "start": 3208.319,
+        "duration": 6.601
+      },
+      {
+        "text": "copy paste of the uh error message.",
+        "start": 3210.0,
+        "duration": 4.92
+      },
+      {
+        "text": "uh tutorial system.",
+        "start": 3232.96,
+        "duration": 3.879
+      },
+      {
+        "text": "Mhm.",
+        "start": 3238.24,
+        "duration": 3.0
+      },
+      {
+        "text": "This is this is actually this is",
+        "start": 3243.04,
+        "duration": 5.039
+      },
+      {
+        "text": "fascinating. Um, I should probably just",
+        "start": 3245.04,
+        "duration": 6.079
+      },
+      {
+        "text": "stop stop sharing there. But,",
+        "start": 3248.079,
+        "duration": 6.04
+      },
+      {
+        "text": "uh,",
+        "start": 3251.119,
+        "duration": 3.0
+      },
+      {
+        "text": "it's so interesting to to read how",
+        "start": 3255.76,
+        "duration": 5.12
+      },
+      {
+        "text": "someone else went through prompting on",
+        "start": 3258.319,
+        "duration": 5.561
+      },
+      {
+        "text": "this.",
+        "start": 3260.88,
+        "duration": 3.0
+      },
+      {
+        "text": "Yeah. how how extensive it is actually",
+        "start": 3272.079,
+        "duration": 7.52
+      },
+      {
+        "text": "or wind up how it gets. You see how it",
+        "start": 3275.359,
+        "duration": 8.24
+      },
+      {
+        "text": "starts to balloon out of control almost.",
+        "start": 3279.599,
+        "duration": 9.24
+      },
+      {
+        "text": "Well, yeah, it's I think",
+        "start": 3283.599,
+        "duration": 5.24
+      },
+      {
+        "text": "in some ways I guess I would say that's",
+        "start": 3290.24,
+        "duration": 5.44
+      },
+      {
+        "text": "it's uh",
+        "start": 3293.44,
+        "duration": 4.639
+      },
+      {
+        "text": "the ballooning out of control is kind of",
+        "start": 3295.68,
+        "duration": 4.32
+      },
+      {
+        "text": "very similar to just how game",
+        "start": 3298.079,
+        "duration": 4.961
+      },
+      {
+        "text": "programming goes. and and why games are",
+        "start": 3300.0,
+        "duration": 7.4
+      },
+      {
+        "text": "often delayed. Um",
+        "start": 3303.04,
+        "duration": 4.36
+      },
+      {
+        "text": "it's surprising maybe maybe almost like",
+        "start": 3308.16,
+        "duration": 6.08
+      },
+      {
+        "text": "a little reassuring to see that the same",
+        "start": 3311.76,
+        "duration": 4.48
+      },
+      {
+        "text": "sort of thing happens even as you're",
+        "start": 3314.24,
+        "duration": 6.96
+      },
+      {
+        "text": "going through using cursor um to create",
+        "start": 3316.24,
+        "duration": 8.2
+      },
+      {
+        "text": "your game.",
+        "start": 3321.2,
+        "duration": 3.24
+      },
+      {
+        "text": "Yeah, I'm I'm reminded of the uh",
+        "start": 3325.68,
+        "duration": 7.12
+      },
+      {
+        "text": "of the the thought about the paradox of",
+        "start": 3330.559,
+        "duration": 5.52
+      },
+      {
+        "text": "learning. Um",
+        "start": 3332.8,
+        "duration": 6.88
+      },
+      {
+        "text": "h how it's sometimes described as a as a",
+        "start": 3336.079,
+        "duration": 6.881
+      },
+      {
+        "text": "balloon. As it as it gets larger, you",
+        "start": 3339.68,
+        "duration": 6.8
+      },
+      {
+        "text": "have more surface area of the not known.",
+        "start": 3342.96,
+        "duration": 7.52
+      },
+      {
+        "text": "So as as your your area of you know your",
+        "start": 3346.48,
+        "duration": 7.839
+      },
+      {
+        "text": "in internal area of of knowledge does",
+        "start": 3350.48,
+        "duration": 6.879
+      },
+      {
+        "text": "increase however all now you're touching",
+        "start": 3354.319,
+        "duration": 5.201
+      },
+      {
+        "text": "more points of the unknown and that and",
+        "start": 3357.359,
+        "duration": 6.72
+      },
+      {
+        "text": "that's what it yeah it sort of seems",
+        "start": 3359.52,
+        "duration": 8.24
+      },
+      {
+        "text": "like then yeah you keep on hitting",
+        "start": 3364.079,
+        "duration": 6.24
+      },
+      {
+        "text": "hitting one little bug and then it opens",
+        "start": 3367.76,
+        "duration": 6.319
+      },
+      {
+        "text": "up more when you add more things.",
+        "start": 3370.319,
+        "duration": 9.8
+      },
+      {
+        "text": "Yeah. Uh, you know, I think there's uh",
+        "start": 3374.079,
+        "duration": 6.04
+      },
+      {
+        "text": "I don't know, there's a part of it that",
+        "start": 3381.2,
+        "duration": 5.359
+      },
+      {
+        "text": "I find it can be can be pretty fun to to",
+        "start": 3382.72,
+        "duration": 9.48
+      },
+      {
+        "text": "operate in that situation. Um,",
+        "start": 3386.559,
+        "duration": 5.641
+      },
+      {
+        "text": "you have to think a lot. But",
+        "start": 3392.48,
+        "duration": 5.52
+      },
+      {
+        "text": "you know there's a lot of programming",
+        "start": 3396.64,
+        "duration": 2.56
+      },
+      {
+        "text": "things that the the other kind of",
+        "start": 3398.0,
+        "duration": 3.68
+      },
+      {
+        "text": "programming that that's really common is",
+        "start": 3399.2,
+        "duration": 4.32
+      },
+      {
+        "text": "uh you know things that have been done a",
+        "start": 3401.68,
+        "duration": 3.6
+      },
+      {
+        "text": "million times right like a database",
+        "start": 3403.52,
+        "duration": 3.44
+      },
+      {
+        "text": "lookup for something or whatever like",
+        "start": 3405.28,
+        "duration": 5.92
+      },
+      {
+        "text": "that's been done a million times um the",
+        "start": 3406.96,
+        "duration": 6.32
+      },
+      {
+        "text": "context is different from one situation",
+        "start": 3411.2,
+        "duration": 3.84
+      },
+      {
+        "text": "to another of course and that changes",
+        "start": 3413.28,
+        "duration": 4.24
+      },
+      {
+        "text": "things but um",
+        "start": 3415.04,
+        "duration": 5.039
+      },
+      {
+        "text": "you know yeah I kind of like uh dealing",
+        "start": 3417.52,
+        "duration": 5.599
+      },
+      {
+        "text": "with the unknown a bit uh you know like",
+        "start": 3420.079,
+        "duration": 5.361
+      },
+      {
+        "text": "within the limits of my own frustration,",
+        "start": 3423.119,
+        "duration": 5.561
+      },
+      {
+        "text": "of course.",
+        "start": 3425.44,
+        "duration": 3.24
+      },
+      {
+        "text": "Yeah, this is neat. This is neat. Some",
+        "start": 3436.799,
+        "duration": 5.441
+      },
+      {
+        "text": "of it also is uh part of the reason why",
+        "start": 3438.799,
+        "duration": 5.76
+      },
+      {
+        "text": "it's uh it's pretty interesting, too, is",
+        "start": 3442.24,
+        "duration": 5.2
+      },
+      {
+        "text": "because I was helping my uh uh just a",
+        "start": 3444.559,
+        "duration": 4.0
+      },
+      {
+        "text": "couple weeks ago, I was helping my",
+        "start": 3447.44,
+        "duration": 2.879
+      },
+      {
+        "text": "nephew.",
+        "start": 3448.559,
+        "duration": 6.161
+      },
+      {
+        "text": "He's in I don't know, maybe",
+        "start": 3450.319,
+        "duration": 4.401
+      },
+      {
+        "text": "first grade or something like that.",
+        "start": 3454.96,
+        "duration": 4.56
+      },
+      {
+        "text": "Anyway, they have some with school, they",
+        "start": 3456.559,
+        "duration": 4.321
+      },
+      {
+        "text": "give them something where they can like",
+        "start": 3459.52,
+        "duration": 4.079
+      },
+      {
+        "text": "make their own little video games. U of",
+        "start": 3460.88,
+        "duration": 4.08
+      },
+      {
+        "text": "course there's no like typing",
+        "start": 3463.599,
+        "duration": 2.641
+      },
+      {
+        "text": "programming language or anything. It's",
+        "start": 3464.96,
+        "duration": 4.879
+      },
+      {
+        "text": "kind of like drag and drop, but uh a lot",
+        "start": 3466.24,
+        "duration": 6.079
+      },
+      {
+        "text": "of the stuff is similar to this where",
+        "start": 3469.839,
+        "duration": 5.041
+      },
+      {
+        "text": "it's like, well, you can you can place a",
+        "start": 3472.319,
+        "duration": 4.24
+      },
+      {
+        "text": "little rocket ship, but you know, it's",
+        "start": 3474.88,
+        "duration": 3.52
+      },
+      {
+        "text": "not going to point in it's only going to",
+        "start": 3476.559,
+        "duration": 3.201
+      },
+      {
+        "text": "point in one direction unless you",
+        "start": 3478.4,
+        "duration": 2.8
+      },
+      {
+        "text": "program it to unless you hook it up to",
+        "start": 3479.76,
+        "duration": 3.68
+      },
+      {
+        "text": "your arrow keys or or any of these",
+        "start": 3481.2,
+        "duration": 6.639
+      },
+      {
+        "text": "things. So, um it's kind of I don't",
+        "start": 3483.44,
+        "duration": 6.24
+      },
+      {
+        "text": "know.",
+        "start": 3487.839,
+        "duration": 4.0
+      },
+      {
+        "text": "It's interesting to see see a lot of the",
+        "start": 3489.68,
+        "duration": 6.72
+      },
+      {
+        "text": "same stuff in a more uh",
+        "start": 3491.839,
+        "duration": 8.121
+      },
+      {
+        "text": "capable system.",
+        "start": 3496.4,
+        "duration": 3.56
+      },
+      {
+        "text": "Well, I should probably get going, but",
+        "start": 3505.68,
+        "duration": 5.919
+      },
+      {
+        "text": "uh yeah, it was a nice was fun. Yeah,",
+        "start": 3508.16,
+        "duration": 6.56
+      },
+      {
+        "text": "thanks. I appreciate it. All right, have",
+        "start": 3511.599,
+        "duration": 5.601
+      },
+      {
+        "text": "a good rest of the fourth. Yeah, I hope",
+        "start": 3514.72,
+        "duration": 5.68
+      },
+      {
+        "text": "you guys have a good fourth, too.",
+        "start": 3517.2,
+        "duration": 6.24
+      },
+      {
+        "text": "Take care, Eric. You, too. Bye. Have a",
+        "start": 3520.4,
+        "duration": 6.199
+      },
+      {
+        "text": "good one.",
+        "start": 3523.44,
+        "duration": 3.159
+      }
+    ]
+  }
+}

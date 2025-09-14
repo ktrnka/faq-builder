@@ -1,0 +1,6756 @@
+{
+  "metadata": {
+    "kind": "youtube#video",
+    "etag": "W39GtDOK--IjpqeG_ry-ns_VtmU",
+    "id": "lHtdnTZaZu0",
+    "snippet": {
+      "publishedAt": "2025-08-09T01:06:09Z",
+      "channelId": "UC26p3I1nr9F8G2WboH1SfTA",
+      "title": "2025-08-08T23:01:23Z - AI / Open Q & A w/Coach Keith",
+      "description": "AI / Open Q & A w/Coach Keith 2025-08-08T23:01:23Z",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/lHtdnTZaZu0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lHtdnTZaZu0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lHtdnTZaZu0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lHtdnTZaZu0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/lHtdnTZaZu0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Joy of Coding",
+      "categoryId": "24",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "2025-08-08T23:01:23Z - AI / Open Q & A w/Coach Keith",
+        "description": "AI / Open Q & A w/Coach Keith 2025-08-08T23:01:23Z"
+      }
+    },
+    "contentDetails": {
+      "duration": "PT1H7M31S",
+      "dimension": "2d",
+      "definition": "hd",
+      "caption": "false",
+      "licensedContent": false,
+      "contentRating": {},
+      "projection": "rectangular"
+    },
+    "statistics": {
+      "viewCount": "0",
+      "likeCount": "0",
+      "favoriteCount": "0",
+      "commentCount": "0"
+    }
+  },
+  "transcript": {
+    "video_id": "lHtdnTZaZu0",
+    "language": "English (auto-generated)",
+    "language_code": "en",
+    "is_generated": true,
+    "snippets": [
+      {
+        "text": "Okay.",
+        "start": 5.6,
+        "duration": 3.12
+      },
+      {
+        "text": ">> And let's see, you know, if anyone has",
+        "start": 6.24,
+        "duration": 4.64
+      },
+      {
+        "text": "any topics or questions they wanted to",
+        "start": 8.72,
+        "duration": 6.52
+      },
+      {
+        "text": "to jump into, feel free.",
+        "start": 10.88,
+        "duration": 4.36
+      },
+      {
+        "text": "Yeah, I have a question.",
+        "start": 18.16,
+        "duration": 7.76
+      },
+      {
+        "text": "like nowadays I see the LLM uh you can",
+        "start": 20.8,
+        "duration": 8.0
+      },
+      {
+        "text": "use it with the rags and other context",
+        "start": 25.92,
+        "duration": 7.04
+      },
+      {
+        "text": "and prepare some websites and I al saw",
+        "start": 28.8,
+        "duration": 7.2
+      },
+      {
+        "text": "that people are using LLM with MCP",
+        "start": 32.96,
+        "duration": 4.0
+      },
+      {
+        "text": "server.",
+        "start": 36.0,
+        "duration": 2.32
+      },
+      {
+        "text": ">> Mhm.",
+        "start": 36.96,
+        "duration": 5.04
+      },
+      {
+        "text": ">> And it is pretty easy to just build an",
+        "start": 38.32,
+        "duration": 7.84
+      },
+      {
+        "text": "MCP server and this uh uh is utilizing",
+        "start": 42.0,
+        "duration": 6.16
+      },
+      {
+        "text": "the LLM.",
+        "start": 46.16,
+        "duration": 4.719
+      },
+      {
+        "text": "uh can you tell me about the total",
+        "start": 48.16,
+        "duration": 5.84
+      },
+      {
+        "text": "conceptual uh uh difference between",
+        "start": 50.879,
+        "duration": 6.16
+      },
+      {
+        "text": "these two concept?",
+        "start": 54.0,
+        "duration": 6.48
+      },
+      {
+        "text": ">> Oh sure. Um so uh you know for for",
+        "start": 57.039,
+        "duration": 5.921
+      },
+      {
+        "text": "others just to kind of get us all on the",
+        "start": 60.48,
+        "duration": 4.639
+      },
+      {
+        "text": "same page. So rag is retrieved augmented",
+        "start": 62.96,
+        "duration": 4.96
+      },
+      {
+        "text": "generation. That's the deal where uh",
+        "start": 65.119,
+        "duration": 4.481
+      },
+      {
+        "text": "maybe you send a question into a large",
+        "start": 67.92,
+        "duration": 4.16
+      },
+      {
+        "text": "language model and it does a search over",
+        "start": 69.6,
+        "duration": 5.36
+      },
+      {
+        "text": "some database or the internet and then",
+        "start": 72.08,
+        "duration": 5.039
+      },
+      {
+        "text": "gets some documents and injects those",
+        "start": 74.96,
+        "duration": 4.479
+      },
+      {
+        "text": "into the context along with your prompt.",
+        "start": 77.119,
+        "duration": 4.401
+      },
+      {
+        "text": "Um so that will help it get more recent",
+        "start": 79.439,
+        "duration": 4.481
+      },
+      {
+        "text": "information or if you have some special",
+        "start": 81.52,
+        "duration": 4.88
+      },
+      {
+        "text": "instructions that you want it to follow.",
+        "start": 83.92,
+        "duration": 5.44
+      },
+      {
+        "text": "And then MCP is model context protocol",
+        "start": 86.4,
+        "duration": 6.64
+      },
+      {
+        "text": "and that's that's uh it's much newer. Um",
+        "start": 89.36,
+        "duration": 7.68
+      },
+      {
+        "text": "but the I will say MCP is an evolution",
+        "start": 93.04,
+        "duration": 7.039
+      },
+      {
+        "text": "of tool calling. So for a long time we",
+        "start": 97.04,
+        "duration": 4.399
+      },
+      {
+        "text": "had tool calling and you would have to",
+        "start": 100.079,
+        "duration": 4.161
+      },
+      {
+        "text": "implement all these different tools. Um",
+        "start": 101.439,
+        "duration": 6.561
+      },
+      {
+        "text": "and then you could give your LLM access",
+        "start": 104.24,
+        "duration": 6.559
+      },
+      {
+        "text": "to call those tools.",
+        "start": 108.0,
+        "duration": 5.119
+      },
+      {
+        "text": "um and say okay well you have these five",
+        "start": 110.799,
+        "duration": 5.68
+      },
+      {
+        "text": "tools and you can respond you know the",
+        "start": 113.119,
+        "duration": 4.96
+      },
+      {
+        "text": "output of the thing can be something",
+        "start": 116.479,
+        "duration": 5.92
+      },
+      {
+        "text": "like uh uh generate text or it can be",
+        "start": 118.079,
+        "duration": 6.481
+      },
+      {
+        "text": "call this tool with this parameter that",
+        "start": 122.399,
+        "duration": 4.961
+      },
+      {
+        "text": "kind of thing and then MCP is the",
+        "start": 124.56,
+        "duration": 4.72
+      },
+      {
+        "text": "evolution of that is a more it's sort of",
+        "start": 127.36,
+        "duration": 3.599
+      },
+      {
+        "text": "standardizing that and saying oh well",
+        "start": 129.28,
+        "duration": 4.56
+      },
+      {
+        "text": "okay the tools aren't going to be um a",
+        "start": 130.959,
+        "duration": 6.081
+      },
+      {
+        "text": "function in Python that the the return",
+        "start": 133.84,
+        "duration": 5.28
+      },
+      {
+        "text": "will be sent into a Python function and",
+        "start": 137.04,
+        "duration": 5.279
+      },
+      {
+        "text": "then back out to the LL LLM. Um the the",
+        "start": 139.12,
+        "duration": 5.92
+      },
+      {
+        "text": "sort of quote unquote tool call is going",
+        "start": 142.319,
+        "duration": 7.041
+      },
+      {
+        "text": "to uh like call one of the MCP servers.",
+        "start": 145.04,
+        "duration": 7.04
+      },
+      {
+        "text": "So you're sort of registering a bunch of",
+        "start": 149.36,
+        "duration": 4.959
+      },
+      {
+        "text": "MCP servers",
+        "start": 152.08,
+        "duration": 5.92
+      },
+      {
+        "text": "uh to you know essentially in I think",
+        "start": 154.319,
+        "duration": 5.361
+      },
+      {
+        "text": "through the prompt. I'm not I haven't",
+        "start": 158.0,
+        "duration": 7.44
+      },
+      {
+        "text": "actually done much MCP stuff. Um and uh",
+        "start": 159.68,
+        "duration": 10.0
+      },
+      {
+        "text": "sorry I'm a little bit distracted. Um,",
+        "start": 165.44,
+        "duration": 6.879
+      },
+      {
+        "text": "so you're exposing that LLM can choose",
+        "start": 169.68,
+        "duration": 7.68
+      },
+      {
+        "text": "to call those or not to call those. Uh,",
+        "start": 172.319,
+        "duration": 7.361
+      },
+      {
+        "text": "implementing an MCP server is relatively",
+        "start": 177.36,
+        "duration": 4.799
+      },
+      {
+        "text": "easy. Just to give you some like highle",
+        "start": 179.68,
+        "duration": 4.479
+      },
+      {
+        "text": "context where where it starts to get",
+        "start": 182.159,
+        "duration": 5.761
+      },
+      {
+        "text": "hard is that um, MCP is really designed",
+        "start": 184.159,
+        "duration": 6.08
+      },
+      {
+        "text": "as an evolution of tool calling where",
+        "start": 187.92,
+        "duration": 3.679
+      },
+      {
+        "text": "they're kind of thinking about it in",
+        "start": 190.239,
+        "duration": 3.841
+      },
+      {
+        "text": "like a very like local sense of like",
+        "start": 191.599,
+        "duration": 6.401
+      },
+      {
+        "text": "running on your machine. Um, and so a",
+        "start": 194.08,
+        "duration": 7.519
+      },
+      {
+        "text": "lot of the early steps in MCP um,",
+        "start": 198.0,
+        "duration": 5.04
+      },
+      {
+        "text": "weren't really designed for like",
+        "start": 201.599,
+        "duration": 3.441
+      },
+      {
+        "text": "multi-user support and authentication",
+        "start": 203.04,
+        "duration": 4.08
+      },
+      {
+        "text": "and security. And so there can be some",
+        "start": 205.04,
+        "duration": 4.479
+      },
+      {
+        "text": "issues with that or some challenges with",
+        "start": 207.12,
+        "duration": 5.52
+      },
+      {
+        "text": "that. But uh, yeah, I mean that's that's",
+        "start": 209.519,
+        "duration": 5.44
+      },
+      {
+        "text": "kind of the gist. So like you could for",
+        "start": 212.64,
+        "duration": 5.44
+      },
+      {
+        "text": "instance implement a web search as an",
+        "start": 214.959,
+        "duration": 5.441
+      },
+      {
+        "text": "MCP server and inject it into a large",
+        "start": 218.08,
+        "duration": 5.12
+      },
+      {
+        "text": "language model that way or you could",
+        "start": 220.4,
+        "duration": 7.119
+      },
+      {
+        "text": "implement um your rag service as MCP and",
+        "start": 223.2,
+        "duration": 6.399
+      },
+      {
+        "text": "have it injected that way or you can do",
+        "start": 227.519,
+        "duration": 4.561
+      },
+      {
+        "text": "it kind of the traditional way. Um, I",
+        "start": 229.599,
+        "duration": 5.601
+      },
+      {
+        "text": "would say probably if you have a lot of",
+        "start": 232.08,
+        "duration": 5.28
+      },
+      {
+        "text": "different types of actions you wanted to",
+        "start": 235.2,
+        "duration": 3.92
+      },
+      {
+        "text": "take where some are like a structured",
+        "start": 237.36,
+        "duration": 5.04
+      },
+      {
+        "text": "database lookup, some are looking over",
+        "start": 239.12,
+        "duration": 5.52
+      },
+      {
+        "text": "document stores, that's probably when",
+        "start": 242.4,
+        "duration": 4.24
+      },
+      {
+        "text": "you would want to go to MCP versus like",
+        "start": 244.64,
+        "duration": 5.84
+      },
+      {
+        "text": "a like, you know, just rag. Um, but uh I",
+        "start": 246.64,
+        "duration": 5.36
+      },
+      {
+        "text": "actually haven't played around with MCP",
+        "start": 250.48,
+        "duration": 3.2
+      },
+      {
+        "text": "much. So, I'm sort of, you know, just",
+        "start": 252.0,
+        "duration": 3.2
+      },
+      {
+        "text": "sharing the knowledge that I have, but",
+        "start": 253.68,
+        "duration": 3.44
+      },
+      {
+        "text": "it's not firsthand knowledge.",
+        "start": 255.2,
+        "duration": 6.08
+      },
+      {
+        "text": ">> Okay, got you. Uh so uh my point is uh",
+        "start": 257.12,
+        "duration": 8.079
+      },
+      {
+        "text": "basically if I follow the rag so I am",
+        "start": 261.28,
+        "duration": 7.28
+      },
+      {
+        "text": "getting the better result or if I built",
+        "start": 265.199,
+        "duration": 6.641
+      },
+      {
+        "text": "a MCP server to link up with different",
+        "start": 268.56,
+        "duration": 6.72
+      },
+      {
+        "text": "LLM I'll get the better result. So that",
+        "start": 271.84,
+        "duration": 6.32
+      },
+      {
+        "text": "is my uh dilemma you can say.",
+        "start": 275.28,
+        "duration": 8.08
+      },
+      {
+        "text": ">> I see. I see. So um it's rag versus MCP",
+        "start": 278.16,
+        "duration": 7.92
+      },
+      {
+        "text": "isn't about a difference in quality.",
+        "start": 283.36,
+        "duration": 4.559
+      },
+      {
+        "text": "It's about a difference in capabilities.",
+        "start": 286.08,
+        "duration": 5.28
+      },
+      {
+        "text": "So if you expose rag through MCP versus",
+        "start": 287.919,
+        "duration": 6.56
+      },
+      {
+        "text": "doing Rag the same way, you'll get the",
+        "start": 291.36,
+        "duration": 6.559
+      },
+      {
+        "text": "same quality result. Um it's it's not",
+        "start": 294.479,
+        "duration": 6.72
+      },
+      {
+        "text": "about quality, it's about capabilities.",
+        "start": 297.919,
+        "duration": 6.961
+      },
+      {
+        "text": ">> Okay. So MCP is doing the same rag in in",
+        "start": 301.199,
+        "duration": 5.761
+      },
+      {
+        "text": "their codebase or",
+        "start": 304.88,
+        "duration": 3.36
+      },
+      {
+        "text": ">> No, I would say rag",
+        "start": 306.96,
+        "duration": 3.44
+      },
+      {
+        "text": ">> following the different Yeah.",
+        "start": 308.24,
+        "duration": 5.679
+      },
+      {
+        "text": ">> Uh rag could be you could implement rag",
+        "start": 310.4,
+        "duration": 6.799
+      },
+      {
+        "text": "as an MCP server. Um a different kind of",
+        "start": 313.919,
+        "duration": 5.84
+      },
+      {
+        "text": "MPCP server, you know, one I was talking",
+        "start": 317.199,
+        "duration": 6.241
+      },
+      {
+        "text": "about with a friend would be um so for",
+        "start": 319.759,
+        "duration": 6.0
+      },
+      {
+        "text": "for my startup, we use linear for",
+        "start": 323.44,
+        "duration": 3.599
+      },
+      {
+        "text": "tickets,",
+        "start": 325.759,
+        "duration": 3.201
+      },
+      {
+        "text": ">> you know, for like bugs and and work to",
+        "start": 327.039,
+        "duration": 2.961
+      },
+      {
+        "text": "do.",
+        "start": 328.96,
+        "duration": 2.959
+      },
+      {
+        "text": ">> So what we can do is we can implement an",
+        "start": 330.0,
+        "duration": 6.08
+      },
+      {
+        "text": "MCP server that will allow uh co-pilot",
+        "start": 331.919,
+        "duration": 6.801
+      },
+      {
+        "text": "to call to the MCP server and look up",
+        "start": 336.08,
+        "duration": 4.559
+      },
+      {
+        "text": "search in linear for tickets and",
+        "start": 338.72,
+        "duration": 4.319
+      },
+      {
+        "text": "retrieve stuff from linear for tickets.",
+        "start": 340.639,
+        "duration": 3.681
+      },
+      {
+        "text": "So that would be sort of like",
+        "start": 343.039,
+        "duration": 3.44
+      },
+      {
+        "text": "implementing giving it the capability to",
+        "start": 344.32,
+        "duration": 4.08
+      },
+      {
+        "text": "do a custom rag.",
+        "start": 346.479,
+        "duration": 3.201
+      },
+      {
+        "text": ">> Um",
+        "start": 348.4,
+        "duration": 3.519
+      },
+      {
+        "text": ">> in this case, one thing that it does",
+        "start": 349.68,
+        "duration": 5.92
+      },
+      {
+        "text": "since I can hook up um like I could hook",
+        "start": 351.919,
+        "duration": 7.761
+      },
+      {
+        "text": "up you can add additional MCP to copilot",
+        "start": 355.6,
+        "duration": 5.599
+      },
+      {
+        "text": "is that like I'm the one implementing",
+        "start": 359.68,
+        "duration": 3.519
+      },
+      {
+        "text": "the MCP server and it's getting injected",
+        "start": 361.199,
+        "duration": 3.201
+      },
+      {
+        "text": "into",
+        "start": 363.199,
+        "duration": 4.0
+      },
+      {
+        "text": ">> someone else's LLM implementation.",
+        "start": 364.4,
+        "duration": 5.6
+      },
+      {
+        "text": ">> Whereas with rag, it's it's a part of",
+        "start": 367.199,
+        "duration": 5.84
+      },
+      {
+        "text": "that implementation or it isn't. So MCP",
+        "start": 370.0,
+        "duration": 6.0
+      },
+      {
+        "text": "is like a way to inject customization",
+        "start": 373.039,
+        "duration": 8.081
+      },
+      {
+        "text": "into an existing um LLM solution and so",
+        "start": 376.0,
+        "duration": 6.88
+      },
+      {
+        "text": "it's giving you more flexibility, more",
+        "start": 381.12,
+        "duration": 3.359
+      },
+      {
+        "text": "capability",
+        "start": 382.88,
+        "duration": 2.4
+      },
+      {
+        "text": "um",
+        "start": 384.479,
+        "duration": 4.641
+      },
+      {
+        "text": ">> but uh it's not fundamentally changing",
+        "start": 385.28,
+        "duration": 6.88
+      },
+      {
+        "text": "you know like copilot could have",
+        "start": 389.12,
+        "duration": 5.44
+      },
+      {
+        "text": "implemented a linear rag in their system",
+        "start": 392.16,
+        "duration": 5.039
+      },
+      {
+        "text": "if they wanted to and it's not you know",
+        "start": 394.56,
+        "duration": 4.479
+      },
+      {
+        "text": "whether they implement it or I",
+        "start": 397.199,
+        "duration": 4.161
+      },
+      {
+        "text": "implemented it doesn't really doesn't",
+        "start": 399.039,
+        "duration": 4.401
+      },
+      {
+        "text": "fundamentally change the the quality",
+        "start": 401.36,
+        "duration": 4.72
+      },
+      {
+        "text": "potential. Uh but it does change like",
+        "start": 403.44,
+        "duration": 4.24
+      },
+      {
+        "text": "who's doing the work and you know",
+        "start": 406.08,
+        "duration": 3.36
+      },
+      {
+        "text": "whether it has to be implemented by the",
+        "start": 407.68,
+        "duration": 4.959
+      },
+      {
+        "text": "author or third party. So it's sort of",
+        "start": 409.44,
+        "duration": 7.199
+      },
+      {
+        "text": "it's more of a capabilities change.",
+        "start": 412.639,
+        "duration": 5.28
+      },
+      {
+        "text": "There's there's other kinds of you can",
+        "start": 416.639,
+        "duration": 3.201
+      },
+      {
+        "text": "do other things in MCP too. So some",
+        "start": 417.919,
+        "duration": 3.761
+      },
+      {
+        "text": "people will do MCP",
+        "start": 419.84,
+        "duration": 6.32
+      },
+      {
+        "text": ">> for like code checking. So you can have",
+        "start": 421.68,
+        "duration": 6.88
+      },
+      {
+        "text": "an MCP server",
+        "start": 426.16,
+        "duration": 4.8
+      },
+      {
+        "text": ">> that runs code through like security",
+        "start": 428.56,
+        "duration": 4.0
+      },
+      {
+        "text": "testers",
+        "start": 430.96,
+        "duration": 4.239
+      },
+      {
+        "text": "uh that runs code through llinters.",
+        "start": 432.56,
+        "duration": 6.24
+      },
+      {
+        "text": "Uh you could have MCP servers",
+        "start": 435.199,
+        "duration": 6.801
+      },
+      {
+        "text": "um that uh you know to do math and that",
+        "start": 438.8,
+        "duration": 4.399
+      },
+      {
+        "text": "kind of thing if you're doing a lot of",
+        "start": 442.0,
+        "duration": 3.199
+      },
+      {
+        "text": "like math heavy tasks.",
+        "start": 443.199,
+        "duration": 3.921
+      },
+      {
+        "text": ">> So it's really a generalization of tool",
+        "start": 445.199,
+        "duration": 3.201
+      },
+      {
+        "text": "calling.",
+        "start": 447.12,
+        "duration": 2.88
+      },
+      {
+        "text": ">> Oh.",
+        "start": 448.4,
+        "duration": 3.04
+      },
+      {
+        "text": ">> So you can you can kind of do anything",
+        "start": 450.0,
+        "duration": 5.36
+      },
+      {
+        "text": "in there really. Like you could say um",
+        "start": 451.44,
+        "duration": 8.64
+      },
+      {
+        "text": "actually to uh to Glenn's example of of",
+        "start": 455.36,
+        "duration": 6.72
+      },
+      {
+        "text": "uh you know frontend work, you could",
+        "start": 460.08,
+        "duration": 5.519
+      },
+      {
+        "text": "have an MCP server that um deploys the",
+        "start": 462.08,
+        "duration": 4.559
+      },
+      {
+        "text": "code",
+        "start": 465.599,
+        "duration": 3.361
+      },
+      {
+        "text": ">> and then renders it in a Chrome window",
+        "start": 466.639,
+        "duration": 3.84
+      },
+      {
+        "text": "and takes a screenshot and sends the",
+        "start": 468.96,
+        "duration": 4.72
+      },
+      {
+        "text": "screenshot back into the LLM.",
+        "start": 470.479,
+        "duration": 5.84
+      },
+      {
+        "text": "And then if you do that, you're giving",
+        "start": 473.68,
+        "duration": 4.799
+      },
+      {
+        "text": "the LM the the possibility of finding",
+        "start": 476.319,
+        "duration": 3.921
+      },
+      {
+        "text": "out what it actually looks like, not",
+        "start": 478.479,
+        "duration": 4.481
+      },
+      {
+        "text": "just looking at the file.",
+        "start": 480.24,
+        "duration": 5.519
+      },
+      {
+        "text": "So you're kind of exposing comput.",
+        "start": 482.96,
+        "duration": 5.44
+      },
+      {
+        "text": ">> Yeah, I was thinking say we have",
+        "start": 485.759,
+        "duration": 5.201
+      },
+      {
+        "text": "different project in our tech joy like",
+        "start": 488.4,
+        "duration": 6.56
+      },
+      {
+        "text": "support local. So if I uh make an MCP",
+        "start": 490.96,
+        "duration": 9.519
+      },
+      {
+        "text": "server to uh find out the bugs from this",
+        "start": 494.96,
+        "duration": 8.88
+      },
+      {
+        "text": "support local. Can I have that?",
+        "start": 500.479,
+        "duration": 5.201
+      },
+      {
+        "text": ">> Yeah. So I I'm not too familiar with",
+        "start": 503.84,
+        "duration": 4.56
+      },
+      {
+        "text": "support local. I I forget what it does.",
+        "start": 505.68,
+        "duration": 4.4
+      },
+      {
+        "text": ">> Maybe any project. You forget about",
+        "start": 508.4,
+        "duration": 4.639
+      },
+      {
+        "text": "support local. any project. So the MCP",
+        "start": 510.08,
+        "duration": 5.68
+      },
+      {
+        "text": "server will help me do all those actions",
+        "start": 513.039,
+        "duration": 4.24
+      },
+      {
+        "text": "or",
+        "start": 515.76,
+        "duration": 1.839
+      },
+      {
+        "text": "uh",
+        "start": 517.279,
+        "duration": 2.721
+      },
+      {
+        "text": ">> if you implement the MCP server.",
+        "start": 517.599,
+        "duration": 3.041
+      },
+      {
+        "text": ">> Yeah.",
+        "start": 520.0,
+        "duration": 1.039
+      },
+      {
+        "text": ">> Yeah.",
+        "start": 520.64,
+        "duration": 2.079
+      },
+      {
+        "text": ">> I'm talking about this implementation.",
+        "start": 521.039,
+        "duration": 3.841
+      },
+      {
+        "text": "If I implement a MCP server, what kind",
+        "start": 522.719,
+        "duration": 5.601
+      },
+      {
+        "text": "of uh advantage or the things I can get",
+        "start": 524.88,
+        "duration": 5.6
+      },
+      {
+        "text": "it from there.",
+        "start": 528.32,
+        "duration": 4.32
+      },
+      {
+        "text": "So,",
+        "start": 530.48,
+        "duration": 4.799
+      },
+      {
+        "text": "so say if it's like a group project or",
+        "start": 532.64,
+        "duration": 4.8
+      },
+      {
+        "text": "something and there's",
+        "start": 535.279,
+        "duration": 5.361
+      },
+      {
+        "text": ">> maybe there's um",
+        "start": 537.44,
+        "duration": 4.72
+      },
+      {
+        "text": ">> and you're working with say something",
+        "start": 540.64,
+        "duration": 3.44
+      },
+      {
+        "text": "like co-pilot",
+        "start": 542.16,
+        "duration": 3.6
+      },
+      {
+        "text": "um",
+        "start": 544.08,
+        "duration": 3.36
+      },
+      {
+        "text": "for most things on the project like",
+        "start": 545.76,
+        "duration": 3.519
+      },
+      {
+        "text": "documentation it's best to just put them",
+        "start": 547.44,
+        "duration": 4.48
+      },
+      {
+        "text": "in put that in files and then let",
+        "start": 549.279,
+        "duration": 4.721
+      },
+      {
+        "text": "co-pilot access those files and then you",
+        "start": 551.92,
+        "duration": 4.08
+      },
+      {
+        "text": "don't have to implement MCP to access",
+        "start": 554.0,
+        "duration": 5.76
+      },
+      {
+        "text": "those. But for something like uh like",
+        "start": 556.0,
+        "duration": 7.36
+      },
+      {
+        "text": "tickets or you know if you want it to",
+        "start": 559.76,
+        "duration": 5.68
+      },
+      {
+        "text": "access like say if you're chatting in",
+        "start": 563.36,
+        "duration": 3.599
+      },
+      {
+        "text": "discord in a certain channel about",
+        "start": 565.44,
+        "duration": 2.88
+      },
+      {
+        "text": "something if you want to access those",
+        "start": 566.959,
+        "duration": 2.56
+      },
+      {
+        "text": "discord logs",
+        "start": 568.32,
+        "duration": 2.639
+      },
+      {
+        "text": ">> what you could do is you could implement",
+        "start": 569.519,
+        "duration": 4.481
+      },
+      {
+        "text": "an MCP server to allow discord search",
+        "start": 570.959,
+        "duration": 5.601
+      },
+      {
+        "text": "within a particular channel to so that",
+        "start": 574.0,
+        "duration": 3.519
+      },
+      {
+        "text": "the",
+        "start": 576.56,
+        "duration": 2.88
+      },
+      {
+        "text": ">> so that copilot can go look up the",
+        "start": 577.519,
+        "duration": 4.401
+      },
+      {
+        "text": "recent discussions about the project or",
+        "start": 579.44,
+        "duration": 4.56
+      },
+      {
+        "text": "so that copilot can go look up recent",
+        "start": 581.92,
+        "duration": 6.56
+      },
+      {
+        "text": ">> but but my project is uh made on rags.",
+        "start": 584.0,
+        "duration": 6.959
+      },
+      {
+        "text": "So now if I implement MCP server, will",
+        "start": 588.48,
+        "duration": 6.0
+      },
+      {
+        "text": "it work there or they may conflict?",
+        "start": 590.959,
+        "duration": 6.641
+      },
+      {
+        "text": ">> Oh, so you want you want to use the MC",
+        "start": 594.48,
+        "duration": 6.32
+      },
+      {
+        "text": "you want to be the one.",
+        "start": 597.6,
+        "duration": 6.4
+      },
+      {
+        "text": ">> So you want MCP capability",
+        "start": 600.8,
+        "duration": 3.84
+      },
+      {
+        "text": "not for",
+        "start": 604.0,
+        "duration": 2.64
+      },
+      {
+        "text": ">> I'm giving you the context. Okay, like",
+        "start": 604.64,
+        "duration": 3.84
+      },
+      {
+        "text": "in our tech joy. Mhm.",
+        "start": 606.64,
+        "duration": 3.92
+      },
+      {
+        "text": ">> We have a discord board. So from the",
+        "start": 608.48,
+        "duration": 4.479
+      },
+      {
+        "text": "discord board we get a help and this",
+        "start": 610.56,
+        "duration": 5.68
+      },
+      {
+        "text": "help is supported by our coding tutor.",
+        "start": 612.959,
+        "duration": 7.761
+      },
+      {
+        "text": ">> Mhm. Yep. Now if I want to use a MCP",
+        "start": 616.24,
+        "duration": 7.2
+      },
+      {
+        "text": "server in this code base and try to",
+        "start": 620.72,
+        "duration": 5.119
+      },
+      {
+        "text": "extract all those conversation and from",
+        "start": 623.44,
+        "duration": 3.36
+      },
+      {
+        "text": "that conversation",
+        "start": 625.839,
+        "duration": 2.801
+      },
+      {
+        "text": ">> before you go on when you say you want",
+        "start": 626.8,
+        "duration": 5.039
+      },
+      {
+        "text": "to use MCP you as the user of code tutor",
+        "start": 628.64,
+        "duration": 6.0
+      },
+      {
+        "text": "or you as the developer of code tutor",
+        "start": 631.839,
+        "duration": 4.401
+      },
+      {
+        "text": ">> developer of the code tutor",
+        "start": 634.64,
+        "duration": 3.439
+      },
+      {
+        "text": ">> and you want it to be in the",
+        "start": 636.24,
+        "duration": 3.68
+      },
+      {
+        "text": "implementation of code tutor or to",
+        "start": 638.079,
+        "duration": 4.88
+      },
+      {
+        "text": "assist you in coding code tutor.",
+        "start": 639.92,
+        "duration": 7.039
+      },
+      {
+        "text": "uh kind of both maybe assist some",
+        "start": 642.959,
+        "duration": 4.88
+      },
+      {
+        "text": ">> those are actually two different",
+        "start": 646.959,
+        "duration": 1.601
+      },
+      {
+        "text": "implementations.",
+        "start": 647.839,
+        "duration": 4.321
+      },
+      {
+        "text": ">> Yeah, I I understand maybe okay just uh",
+        "start": 648.56,
+        "duration": 7.36
+      },
+      {
+        "text": "assisting the code uh uh evaluation or",
+        "start": 652.16,
+        "duration": 7.76
+      },
+      {
+        "text": "code correction or code helps can be uh",
+        "start": 655.92,
+        "duration": 7.68
+      },
+      {
+        "text": "G can it be given through MCP server? Uh",
+        "start": 659.92,
+        "duration": 5.68
+      },
+      {
+        "text": "so if you're if you're talking about in",
+        "start": 663.6,
+        "duration": 4.239
+      },
+      {
+        "text": "the implementation of code tutor",
+        "start": 665.6,
+        "duration": 2.56
+      },
+      {
+        "text": ">> yes",
+        "start": 667.839,
+        "duration": 3.761
+      },
+      {
+        "text": ">> in in how code tutor responds um mcp",
+        "start": 668.16,
+        "duration": 6.64
+      },
+      {
+        "text": "server would not offer any benefit over",
+        "start": 671.6,
+        "duration": 5.6
+      },
+      {
+        "text": "the existing rag solution it does not",
+        "start": 674.8,
+        "duration": 5.52
+      },
+      {
+        "text": "increase the capabilities at all uh it",
+        "start": 677.2,
+        "duration": 6.48
+      },
+      {
+        "text": "adds extra work um but it doesn't",
+        "start": 680.32,
+        "duration": 5.92
+      },
+      {
+        "text": "increase capabilities",
+        "start": 683.68,
+        "duration": 3.599
+      },
+      {
+        "text": "uh if you're talking about",
+        "start": 686.24,
+        "duration": 5.039
+      },
+      {
+        "text": ">> but our coding tutor only uh verify the",
+        "start": 687.279,
+        "duration": 6.0
+      },
+      {
+        "text": "help request and say Okay, you'll be",
+        "start": 691.279,
+        "duration": 6.161
+      },
+      {
+        "text": "given the help 24 or 48 hours. But if I",
+        "start": 693.279,
+        "duration": 8.24
+      },
+      {
+        "text": "make a MCP server that will read that",
+        "start": 697.44,
+        "duration": 6.48
+      },
+      {
+        "text": "code and what is the problem of that",
+        "start": 701.519,
+        "duration": 7.44
+      },
+      {
+        "text": "code? Uh can it be uh can it be given in",
+        "start": 703.92,
+        "duration": 8.32
+      },
+      {
+        "text": "uh to the to the user or can any",
+        "start": 708.959,
+        "duration": 4.88
+      },
+      {
+        "text": "guidance can be given to the user from",
+        "start": 712.24,
+        "duration": 6.08
+      },
+      {
+        "text": "the LLM? Okay. So he is writing say uh",
+        "start": 713.839,
+        "duration": 8.481
+      },
+      {
+        "text": "def add of a and b and you is missing",
+        "start": 718.32,
+        "duration": 7.199
+      },
+      {
+        "text": "some variable or something like that. So",
+        "start": 722.32,
+        "duration": 6.8
+      },
+      {
+        "text": "can I make mcp server to add it and then",
+        "start": 725.519,
+        "duration": 7.521
+      },
+      {
+        "text": "he directly responds to that uh problem",
+        "start": 729.12,
+        "duration": 9.12
+      },
+      {
+        "text": "or the tickets or anything or query.",
+        "start": 733.04,
+        "duration": 6.72
+      },
+      {
+        "text": "Um",
+        "start": 738.24,
+        "duration": 3.52
+      },
+      {
+        "text": "so in the case where so a student",
+        "start": 739.76,
+        "duration": 4.72
+      },
+      {
+        "text": "submits a help request to code tutor and",
+        "start": 741.76,
+        "duration": 6.16
+      },
+      {
+        "text": "they have code in their help request and",
+        "start": 744.48,
+        "duration": 5.359
+      },
+      {
+        "text": ">> you want to process that code in some",
+        "start": 747.92,
+        "duration": 2.4
+      },
+      {
+        "text": "way.",
+        "start": 749.839,
+        "duration": 1.361
+      },
+      {
+        "text": ">> Yes. Yes.",
+        "start": 750.32,
+        "duration": 1.92
+      },
+      {
+        "text": ">> Um",
+        "start": 751.2,
+        "duration": 3.439
+      },
+      {
+        "text": ">> so in that case and if it's in code",
+        "start": 752.24,
+        "duration": 5.76
+      },
+      {
+        "text": "tutor specifically it would probably be",
+        "start": 754.639,
+        "duration": 6.081
+      },
+      {
+        "text": "easier and safer to implement it as tool",
+        "start": 758.0,
+        "duration": 5.279
+      },
+      {
+        "text": "calling rather than MCP.",
+        "start": 760.72,
+        "duration": 5.84
+      },
+      {
+        "text": ">> Okay. Because with MCP, typically what",
+        "start": 763.279,
+        "duration": 5.12
+      },
+      {
+        "text": "you're doing is you're opening a port on",
+        "start": 766.56,
+        "duration": 3.04
+      },
+      {
+        "text": "a computer.",
+        "start": 768.399,
+        "duration": 1.601
+      },
+      {
+        "text": ">> Yeah.",
+        "start": 769.6,
+        "duration": 2.4
+      },
+      {
+        "text": ">> And and then it's, you know, sending",
+        "start": 770.0,
+        "duration": 3.839
+      },
+      {
+        "text": "stuff over to that port.",
+        "start": 772.0,
+        "duration": 3.04
+      },
+      {
+        "text": ">> Um,",
+        "start": 773.839,
+        "duration": 2.081
+      },
+      {
+        "text": ">> do you do",
+        "start": 775.04,
+        "duration": 3.12
+      },
+      {
+        "text": ">> you know the server is running on the",
+        "start": 775.92,
+        "duration": 4.719
+      },
+      {
+        "text": "internet and then now you have an extra",
+        "start": 778.16,
+        "duration": 5.28
+      },
+      {
+        "text": "open port and you have to secure that or",
+        "start": 780.639,
+        "duration": 5.041
+      },
+      {
+        "text": "it's a port that's being blocked by AWS",
+        "start": 783.44,
+        "duration": 5.199
+      },
+      {
+        "text": "and then your MCP server doesn't work.",
+        "start": 785.68,
+        "duration": 5.839
+      },
+      {
+        "text": ">> We'll go through AWS so that it doesn't",
+        "start": 788.639,
+        "duration": 6.88
+      },
+      {
+        "text": "create any conflict. uh depending on the",
+        "start": 791.519,
+        "duration": 6.241
+      },
+      {
+        "text": "configuration of the project, it may",
+        "start": 795.519,
+        "duration": 4.801
+      },
+      {
+        "text": "just block all ports by default.",
+        "start": 797.76,
+        "duration": 5.04
+      },
+      {
+        "text": ">> You might have to config,",
+        "start": 800.32,
+        "duration": 4.319
+      },
+      {
+        "text": ">> you know, it's it's possible. I'm not",
+        "start": 802.8,
+        "duration": 3.44
+      },
+      {
+        "text": "saying it's not possible. I'm just",
+        "start": 804.639,
+        "duration": 3.921
+      },
+      {
+        "text": "saying that in that situation, if it",
+        "start": 806.24,
+        "duration": 3.76
+      },
+      {
+        "text": "were me implementing it, I would",
+        "start": 808.56,
+        "duration": 4.24
+      },
+      {
+        "text": "implement any kind of code processing as",
+        "start": 810.0,
+        "duration": 5.44
+      },
+      {
+        "text": "function calling rather than MCP.",
+        "start": 812.8,
+        "duration": 4.479
+      },
+      {
+        "text": ">> So, we'll just write a function there",
+        "start": 815.44,
+        "duration": 4.0
+      },
+      {
+        "text": "and do something. Got you.",
+        "start": 817.279,
+        "duration": 4.161
+      },
+      {
+        "text": ">> Yeah. Yeah. So the traditional thing was",
+        "start": 819.44,
+        "duration": 3.76
+      },
+      {
+        "text": "function calling where the output of the",
+        "start": 821.44,
+        "duration": 2.16
+      },
+      {
+        "text": "element",
+        "start": 823.2,
+        "duration": 2.72
+      },
+      {
+        "text": ">> I was I was thinking that if I if I can",
+        "start": 823.6,
+        "duration": 5.52
+      },
+      {
+        "text": "implement the MCP server then it can",
+        "start": 825.92,
+        "duration": 6.8
+      },
+      {
+        "text": "extract from some LLM about that code",
+        "start": 829.12,
+        "duration": 6.399
+      },
+      {
+        "text": "and can give you the right guidance to",
+        "start": 832.72,
+        "duration": 6.4
+      },
+      {
+        "text": "that uh individual or the user uh that",
+        "start": 835.519,
+        "duration": 6.0
+      },
+      {
+        "text": "what he's missing or what he's supposed",
+        "start": 839.12,
+        "duration": 5.36
+      },
+      {
+        "text": "to implement so that instantly he get",
+        "start": 841.519,
+        "duration": 4.721
+      },
+      {
+        "text": "the reply",
+        "start": 844.48,
+        "duration": 3.28
+      },
+      {
+        "text": ">> I mean",
+        "start": 846.24,
+        "duration": 3.68
+      },
+      {
+        "text": ">> because in coding tutor we don't have",
+        "start": 847.76,
+        "duration": 6.319
+      },
+      {
+        "text": "any database uh of all the coding but",
+        "start": 849.92,
+        "duration": 7.919
+      },
+      {
+        "text": "when I add a MCP server MCP server can",
+        "start": 854.079,
+        "duration": 7.281
+      },
+      {
+        "text": "host any of the LLM and can give that",
+        "start": 857.839,
+        "duration": 5.841
+      },
+      {
+        "text": "guidance that is my idea I do not know",
+        "start": 861.36,
+        "duration": 4.159
+      },
+      {
+        "text": "my idea is good or not because I just",
+        "start": 863.68,
+        "duration": 3.2
+      },
+      {
+        "text": "learning and you are the",
+        "start": 865.519,
+        "duration": 2.88
+      },
+      {
+        "text": ">> so",
+        "start": 866.88,
+        "duration": 3.199
+      },
+      {
+        "text": "what I would actually recommend doing is",
+        "start": 868.399,
+        "duration": 4.641
+      },
+      {
+        "text": "to kind of like go through like a",
+        "start": 870.079,
+        "duration": 5.12
+      },
+      {
+        "text": "tutorial example of function calling and",
+        "start": 873.04,
+        "duration": 4.88
+      },
+      {
+        "text": "then a tutorial example of MCP and sort",
+        "start": 875.199,
+        "duration": 7.361
+      },
+      {
+        "text": "of compare Um um it's MCP server isn't",
+        "start": 877.92,
+        "duration": 6.8
+      },
+      {
+        "text": "giving you anything for free.",
+        "start": 882.56,
+        "duration": 2.959
+      },
+      {
+        "text": ">> Yeah, I know.",
+        "start": 884.72,
+        "duration": 2.08
+      },
+      {
+        "text": ">> You know like",
+        "start": 885.519,
+        "duration": 3.68
+      },
+      {
+        "text": ">> but I I was thinking about the price.",
+        "start": 886.8,
+        "duration": 4.479
+      },
+      {
+        "text": "Yeah, I was just thinking about that",
+        "start": 889.199,
+        "duration": 5.681
+      },
+      {
+        "text": "actually any student can get a feedback",
+        "start": 891.279,
+        "duration": 6.321
+      },
+      {
+        "text": "within a second or within a minute",
+        "start": 894.88,
+        "duration": 5.68
+      },
+      {
+        "text": ">> uh what to do rather waiting for 24 to",
+        "start": 897.6,
+        "duration": 6.0
+      },
+      {
+        "text": "48 hours to somebody from our peer",
+        "start": 900.56,
+        "duration": 4.88
+      },
+      {
+        "text": "review to reply them. That was my",
+        "start": 903.6,
+        "duration": 2.239
+      },
+      {
+        "text": "concept.",
+        "start": 905.44,
+        "duration": 1.6
+      },
+      {
+        "text": ">> Oh yeah. Yeah. Well, that's what the",
+        "start": 905.839,
+        "duration": 3.44
+      },
+      {
+        "text": "code tutor project's trying to do.",
+        "start": 907.04,
+        "duration": 3.44
+      },
+      {
+        "text": ">> Um,",
+        "start": 909.279,
+        "duration": 4.321
+      },
+      {
+        "text": ">> MCP isn't the problems that they're",
+        "start": 910.48,
+        "duration": 5.599
+      },
+      {
+        "text": "having aren't solved by MCP.",
+        "start": 913.6,
+        "duration": 3.76
+      },
+      {
+        "text": "Um,",
+        "start": 916.079,
+        "duration": 3.12
+      },
+      {
+        "text": ">> that's not that's not why the project",
+        "start": 917.36,
+        "duration": 6.159
+      },
+      {
+        "text": "has taken a while. Um,",
+        "start": 919.199,
+        "duration": 6.88
+      },
+      {
+        "text": ">> so what what are the possible solution",
+        "start": 923.519,
+        "duration": 4.961
+      },
+      {
+        "text": "to regarding this issue?",
+        "start": 926.079,
+        "duration": 5.041
+      },
+      {
+        "text": ">> Which issue? uh this issue that a",
+        "start": 928.48,
+        "duration": 5.919
+      },
+      {
+        "text": "student gets uh prompt reply about his",
+        "start": 931.12,
+        "duration": 7.44
+      },
+      {
+        "text": "code and a kind of kind of assessment",
+        "start": 934.399,
+        "duration": 6.88
+      },
+      {
+        "text": "about his code what is missing or",
+        "start": 938.56,
+        "duration": 4.399
+      },
+      {
+        "text": "something is missing what rather waiting",
+        "start": 941.279,
+        "duration": 4.721
+      },
+      {
+        "text": "for 24 to 48 hours for a peer review",
+        "start": 942.959,
+        "duration": 5.281
+      },
+      {
+        "text": ">> oh I mean if look you can do a decent",
+        "start": 946.0,
+        "duration": 3.92
+      },
+      {
+        "text": "solution on that by just doing prompt",
+        "start": 948.24,
+        "duration": 4.32
+      },
+      {
+        "text": "engineering you don't need MCP you don't",
+        "start": 949.92,
+        "duration": 5.44
+      },
+      {
+        "text": "need rag all you have to do is do some",
+        "start": 952.56,
+        "duration": 5.04
+      },
+      {
+        "text": "prompt engineering",
+        "start": 955.36,
+        "duration": 4.32
+      },
+      {
+        "text": "just you know you send the students code",
+        "start": 957.6,
+        "duration": 4.4
+      },
+      {
+        "text": "with some prompt about how to advise a",
+        "start": 959.68,
+        "duration": 3.92
+      },
+      {
+        "text": "student, how to interact with a student,",
+        "start": 962.0,
+        "duration": 3.519
+      },
+      {
+        "text": "run it through, get the output, send it",
+        "start": 963.6,
+        "duration": 4.479
+      },
+      {
+        "text": "back. All the hard work is really in",
+        "start": 965.519,
+        "duration": 5.281
+      },
+      {
+        "text": "hooking it up to Discord live and having",
+        "start": 968.079,
+        "duration": 5.601
+      },
+      {
+        "text": "it be secure and running 247.",
+        "start": 970.8,
+        "duration": 4.24
+      },
+      {
+        "text": ">> So, you don't need Rag, you don't need",
+        "start": 973.68,
+        "duration": 5.519
+      },
+      {
+        "text": "MCP for that. if you want it to be um",
+        "start": 975.04,
+        "duration": 6.0
+      },
+      {
+        "text": "the reason why they're doing rag in the",
+        "start": 979.199,
+        "duration": 4.161
+      },
+      {
+        "text": "code tutor project instead of just a",
+        "start": 981.04,
+        "duration": 3.599
+      },
+      {
+        "text": "straight prompt",
+        "start": 983.36,
+        "duration": 3.919
+      },
+      {
+        "text": ">> is because some of the questions that",
+        "start": 984.639,
+        "duration": 4.241
+      },
+      {
+        "text": "student ha students have aren't just",
+        "start": 987.279,
+        "duration": 3.041
+      },
+      {
+        "text": "about programming but they're about",
+        "start": 988.88,
+        "duration": 3.04
+      },
+      {
+        "text": "specific lessons",
+        "start": 990.32,
+        "duration": 5.199
+      },
+      {
+        "text": ">> and so if they ask about lesson two",
+        "start": 991.92,
+        "duration": 6.64
+      },
+      {
+        "text": "uh open AI's large language models don't",
+        "start": 995.519,
+        "duration": 4.32
+      },
+      {
+        "text": "know what lesson two means",
+        "start": 998.56,
+        "duration": 2.399
+      },
+      {
+        "text": ">> no I don't have",
+        "start": 999.839,
+        "duration": 3.12
+      },
+      {
+        "text": ">> right but that's why they have rag so",
+        "start": 1000.959,
+        "duration": 4.161
+      },
+      {
+        "text": "that's why they're using rag to do some",
+        "start": 1002.959,
+        "duration": 3.921
+      },
+      {
+        "text": "things like that but But if it was just",
+        "start": 1005.12,
+        "duration": 3.68
+      },
+      {
+        "text": "for coding help, they don't actually",
+        "start": 1006.88,
+        "duration": 3.92
+      },
+      {
+        "text": "need rag at all. Like the large language",
+        "start": 1008.8,
+        "duration": 4.08
+      },
+      {
+        "text": "models are already good at programming.",
+        "start": 1010.8,
+        "duration": 4.159
+      },
+      {
+        "text": ">> So they just need some prompting to help",
+        "start": 1012.88,
+        "duration": 4.399
+      },
+      {
+        "text": "figure out like how do we",
+        "start": 1014.959,
+        "duration": 4.081
+      },
+      {
+        "text": ">> how do we do a response that's helpful",
+        "start": 1017.279,
+        "duration": 4.081
+      },
+      {
+        "text": "to a student? What tone do we want?",
+        "start": 1019.04,
+        "duration": 4.159
+      },
+      {
+        "text": ">> Um and that sort of thing. You don't",
+        "start": 1021.36,
+        "duration": 5.12
+      },
+      {
+        "text": ">> you don't need RAG or MCP for um you",
+        "start": 1023.199,
+        "duration": 7.12
+      },
+      {
+        "text": "know general programming help.",
+        "start": 1026.48,
+        "duration": 6.4
+      },
+      {
+        "text": ">> Okay. Thank you so much, sir.",
+        "start": 1030.319,
+        "duration": 4.161
+      },
+      {
+        "text": ">> Yeah, you're welcome. I so I would",
+        "start": 1032.88,
+        "duration": 4.079
+      },
+      {
+        "text": "recommend if you want to um explore that",
+        "start": 1034.48,
+        "duration": 5.839
+      },
+      {
+        "text": "idea um I would recommend",
+        "start": 1036.959,
+        "duration": 5.521
+      },
+      {
+        "text": ">> um trying to take an example student",
+        "start": 1040.319,
+        "duration": 3.52
+      },
+      {
+        "text": "question",
+        "start": 1042.48,
+        "duration": 3.839
+      },
+      {
+        "text": ">> and just like copy paste it into chat",
+        "start": 1043.839,
+        "duration": 4.881
+      },
+      {
+        "text": "GPT or whatever online",
+        "start": 1046.319,
+        "duration": 4.001
+      },
+      {
+        "text": ">> I did it already. Yeah. And they're",
+        "start": 1048.72,
+        "duration": 4.079
+      },
+      {
+        "text": "giving uh kind of assessment.",
+        "start": 1050.32,
+        "duration": 3.76
+      },
+      {
+        "text": ">> I tested that.",
+        "start": 1052.799,
+        "duration": 1.841
+      },
+      {
+        "text": ">> Well, there you go.",
+        "start": 1054.08,
+        "duration": 2.479
+      },
+      {
+        "text": ">> Within myself. So I was trying to think",
+        "start": 1054.64,
+        "duration": 4.64
+      },
+      {
+        "text": "that how to implement then I came across",
+        "start": 1056.559,
+        "duration": 5.12
+      },
+      {
+        "text": "of this MCP server. people are trying to",
+        "start": 1059.28,
+        "duration": 5.84
+      },
+      {
+        "text": "talk that it can easily be extracted",
+        "start": 1061.679,
+        "duration": 5.681
+      },
+      {
+        "text": "from some of the LLM easily and can be",
+        "start": 1065.12,
+        "duration": 4.16
+      },
+      {
+        "text": "delivered anywhere. So I was thinking on",
+        "start": 1067.36,
+        "duration": 3.439
+      },
+      {
+        "text": "that line.",
+        "start": 1069.28,
+        "duration": 4.88
+      },
+      {
+        "text": ">> Oh yeah. So so really like the the first",
+        "start": 1070.799,
+        "duration": 4.961
+      },
+      {
+        "text": "basic thing is really you just need an",
+        "start": 1074.16,
+        "duration": 3.92
+      },
+      {
+        "text": "API call like you just make an API call",
+        "start": 1075.76,
+        "duration": 4.96
+      },
+      {
+        "text": "to open AAI. Um that just uses like a",
+        "start": 1078.08,
+        "duration": 3.2
+      },
+      {
+        "text": "regular API",
+        "start": 1080.72,
+        "duration": 2.56
+      },
+      {
+        "text": ">> we have already in in our coding tutotor",
+        "start": 1081.28,
+        "duration": 4.08
+      },
+      {
+        "text": "open API.",
+        "start": 1083.28,
+        "duration": 4.399
+      },
+      {
+        "text": ">> So that can be used. We don't have to do",
+        "start": 1085.36,
+        "duration": 4.64
+      },
+      {
+        "text": "anything new there. Yep. That was my",
+        "start": 1087.679,
+        "duration": 2.961
+      },
+      {
+        "text": "idea.",
+        "start": 1090.0,
+        "duration": 1.52
+      },
+      {
+        "text": ">> Yep. Yep.",
+        "start": 1090.64,
+        "duration": 2.08
+      },
+      {
+        "text": ">> Am I right?",
+        "start": 1091.52,
+        "duration": 2.48
+      },
+      {
+        "text": ">> Yeah. Yeah. You don't need anything",
+        "start": 1092.72,
+        "duration": 4.0
+      },
+      {
+        "text": "special to do like coding assistance. Um",
+        "start": 1094.0,
+        "duration": 3.679
+      },
+      {
+        "text": ">> Yes.",
+        "start": 1096.72,
+        "duration": 2.0
+      },
+      {
+        "text": ">> Uh",
+        "start": 1097.679,
+        "duration": 2.161
+      },
+      {
+        "text": ">> yeah.",
+        "start": 1098.72,
+        "duration": 2.959
+      },
+      {
+        "text": ">> Yeah. Yeah. Not for not for any of this",
+        "start": 1099.84,
+        "duration": 3.44
+      },
+      {
+        "text": "kind of stuff. There's like some niche",
+        "start": 1101.679,
+        "duration": 5.281
+      },
+      {
+        "text": "situations in like if you're using um AI",
+        "start": 1103.28,
+        "duration": 6.399
+      },
+      {
+        "text": "to get coding assistance and you're",
+        "start": 1106.96,
+        "duration": 4.8
+      },
+      {
+        "text": "using like a new programming language or",
+        "start": 1109.679,
+        "duration": 3.761
+      },
+      {
+        "text": "new programming libraries, that's when",
+        "start": 1111.76,
+        "duration": 4.48
+      },
+      {
+        "text": "you start to need rag because uh for",
+        "start": 1113.44,
+        "duration": 5.52
+      },
+      {
+        "text": "instance like OpenAI's models were",
+        "start": 1116.24,
+        "duration": 4.24
+      },
+      {
+        "text": "trained on data that goes up to last",
+        "start": 1118.96,
+        "duration": 3.2
+      },
+      {
+        "text": "year. So they don't know about anything",
+        "start": 1120.48,
+        "duration": 4.319
+      },
+      {
+        "text": "that's happened in 2025.",
+        "start": 1122.16,
+        "duration": 4.639
+      },
+      {
+        "text": ">> Yeah, you actually like need something",
+        "start": 1124.799,
+        "duration": 4.401
+      },
+      {
+        "text": "like a rag system for that. Basically we",
+        "start": 1126.799,
+        "duration": 4.88
+      },
+      {
+        "text": "are talking about the basic coding not",
+        "start": 1129.2,
+        "duration": 3.92
+      },
+      {
+        "text": "advanced project something like the",
+        "start": 1131.679,
+        "duration": 3.36
+      },
+      {
+        "text": "students are in the basic level and it",
+        "start": 1133.12,
+        "duration": 3.76
+      },
+      {
+        "text": "covered by all the llm I saw",
+        "start": 1135.039,
+        "duration": 2.401
+      },
+      {
+        "text": ">> yes yeah",
+        "start": 1136.88,
+        "duration": 3.44
+      },
+      {
+        "text": ">> I tried with chat GPT I tried with cloud",
+        "start": 1137.44,
+        "duration": 5.52
+      },
+      {
+        "text": "and they are giving us very responsive",
+        "start": 1140.32,
+        "duration": 4.32
+      },
+      {
+        "text": "answer so that's why I was trying to",
+        "start": 1142.96,
+        "duration": 5.52
+      },
+      {
+        "text": "think that if I can add it with MCP so",
+        "start": 1144.64,
+        "duration": 6.88
+      },
+      {
+        "text": "then it will be uh eventually giving",
+        "start": 1148.48,
+        "duration": 5.92
+      },
+      {
+        "text": "them some kind of response",
+        "start": 1151.52,
+        "duration": 5.279
+      },
+      {
+        "text": "rather than waiting for 24 to 48 hours",
+        "start": 1154.4,
+        "duration": 3.84
+      },
+      {
+        "text": "that's my thinking",
+        "start": 1156.799,
+        "duration": 4.481
+      },
+      {
+        "text": "Yeah. Yeah. Yeah. But the MCP it just it",
+        "start": 1158.24,
+        "duration": 4.64
+      },
+      {
+        "text": "gets hooked into the large language",
+        "start": 1161.28,
+        "duration": 4.0
+      },
+      {
+        "text": "model part of it, not Discord. The hard",
+        "start": 1162.88,
+        "duration": 4.96
+      },
+      {
+        "text": "part is looking into Discord. That's why",
+        "start": 1165.28,
+        "duration": 4.399
+      },
+      {
+        "text": "project's taking so long.",
+        "start": 1167.84,
+        "duration": 4.32
+      },
+      {
+        "text": ">> Yeah. But that part is already hooked",
+        "start": 1169.679,
+        "duration": 6.88
+      },
+      {
+        "text": "with our rags. So can they not exchange",
+        "start": 1172.16,
+        "duration": 6.96
+      },
+      {
+        "text": "their prompt each other?",
+        "start": 1176.559,
+        "duration": 5.201
+      },
+      {
+        "text": ">> I mean you can you can uh I would say",
+        "start": 1179.12,
+        "duration": 4.08
+      },
+      {
+        "text": "talk to them if you want to. If their",
+        "start": 1181.76,
+        "duration": 3.52
+      },
+      {
+        "text": "prompt isn't working well, then you can",
+        "start": 1183.2,
+        "duration": 4.08
+      },
+      {
+        "text": "talk to them. But a part of the reason",
+        "start": 1185.28,
+        "duration": 6.8
+      },
+      {
+        "text": "why it wasn't hooked in was because it's",
+        "start": 1187.28,
+        "duration": 6.88
+      },
+      {
+        "text": "difficult to make sure that everything's",
+        "start": 1192.08,
+        "duration": 3.44
+      },
+      {
+        "text": "secure",
+        "start": 1194.16,
+        "duration": 3.36
+      },
+      {
+        "text": ">> um and cheap. So,",
+        "start": 1195.52,
+        "duration": 4.56
+      },
+      {
+        "text": ">> you know, to to have this Discord thing",
+        "start": 1197.52,
+        "duration": 3.92
+      },
+      {
+        "text": "working",
+        "start": 1200.08,
+        "duration": 3.2
+      },
+      {
+        "text": ">> uh the way it was set up is that it has",
+        "start": 1201.44,
+        "duration": 4.4
+      },
+      {
+        "text": "to run a server 24/7 like every single",
+        "start": 1203.28,
+        "duration": 4.24
+      },
+      {
+        "text": "day, every single minute, and has to be",
+        "start": 1205.84,
+        "duration": 2.32
+      },
+      {
+        "text": "kind of",
+        "start": 1207.52,
+        "duration": 1.68
+      },
+      {
+        "text": ">> 365. Yeah.",
+        "start": 1208.16,
+        "duration": 3.12
+      },
+      {
+        "text": ">> Right. And so they had to, you know,",
+        "start": 1209.2,
+        "duration": 3.76
+      },
+      {
+        "text": "they were worried about cost with that.",
+        "start": 1211.28,
+        "duration": 3.2
+      },
+      {
+        "text": "And so, you know, they're trying to work",
+        "start": 1212.96,
+        "duration": 2.719
+      },
+      {
+        "text": "that out.",
+        "start": 1214.48,
+        "duration": 3.04
+      },
+      {
+        "text": "And then there's a problem with there's",
+        "start": 1215.679,
+        "duration": 4.641
+      },
+      {
+        "text": "a lot of problems with security with um",
+        "start": 1217.52,
+        "duration": 5.76
+      },
+      {
+        "text": "making sure that the Discord token used",
+        "start": 1220.32,
+        "duration": 6.0
+      },
+      {
+        "text": "to reply is secure because if it's not",
+        "start": 1223.28,
+        "duration": 5.12
+      },
+      {
+        "text": "secure then anyone on the internet could",
+        "start": 1226.32,
+        "duration": 3.359
+      },
+      {
+        "text": "get access to Yeah.",
+        "start": 1228.4,
+        "duration": 2.72
+      },
+      {
+        "text": ">> to doing some of these things. And so",
+        "start": 1229.679,
+        "duration": 2.801
+      },
+      {
+        "text": "some of the security parts were pretty",
+        "start": 1231.12,
+        "duration": 2.48
+      },
+      {
+        "text": "tricky of it.",
+        "start": 1232.48,
+        "duration": 3.12
+      },
+      {
+        "text": ">> Um the the actual like large language",
+        "start": 1233.6,
+        "duration": 3.6
+      },
+      {
+        "text": "model part is pretty straightforward as",
+        "start": 1235.6,
+        "duration": 2.48
+      },
+      {
+        "text": "you saw.",
+        "start": 1237.2,
+        "duration": 5.92
+      },
+      {
+        "text": ">> Yeah. Um, and so I don't I I think I saw",
+        "start": 1238.08,
+        "duration": 9.04
+      },
+      {
+        "text": "Adam, was it not Adam? Uh, I think Nick",
+        "start": 1243.12,
+        "duration": 6.08
+      },
+      {
+        "text": "posted",
+        "start": 1247.12,
+        "duration": 5.12
+      },
+      {
+        "text": "um just the other day.",
+        "start": 1249.2,
+        "duration": 6.32
+      },
+      {
+        "text": "Let's see here. Um, just yesterday that",
+        "start": 1252.24,
+        "duration": 6.64
+      },
+      {
+        "text": "some parts of it, you guess the ETL",
+        "start": 1255.52,
+        "duration": 6.56
+      },
+      {
+        "text": "dockerized, but that's not the not",
+        "start": 1258.88,
+        "duration": 5.36
+      },
+      {
+        "text": "running in the cloud yet. So, I think",
+        "start": 1262.08,
+        "duration": 4.079
+      },
+      {
+        "text": "that was the step to to update the data",
+        "start": 1264.24,
+        "duration": 5.439
+      },
+      {
+        "text": "from Discord. Um but that's anyway so",
+        "start": 1266.159,
+        "duration": 5.441
+      },
+      {
+        "text": "there's a lot of steps to that project.",
+        "start": 1269.679,
+        "duration": 4.48
+      },
+      {
+        "text": "Um",
+        "start": 1271.6,
+        "duration": 4.959
+      },
+      {
+        "text": "unfortunately the the part the part that",
+        "start": 1274.159,
+        "duration": 4.321
+      },
+      {
+        "text": "you're interested in the part of like",
+        "start": 1276.559,
+        "duration": 4.401
+      },
+      {
+        "text": "giving uh the helpful response to the",
+        "start": 1278.48,
+        "duration": 4.88
+      },
+      {
+        "text": "student that part um generating the",
+        "start": 1280.96,
+        "duration": 5.599
+      },
+      {
+        "text": "response is the easy part um and it's",
+        "start": 1283.36,
+        "duration": 4.799
+      },
+      {
+        "text": "all the things around it that make it",
+        "start": 1286.559,
+        "duration": 6.441
+      },
+      {
+        "text": "hard um and time consuming.",
+        "start": 1288.159,
+        "duration": 4.841
+      },
+      {
+        "text": "Thank you so much.",
+        "start": 1296.48,
+        "duration": 3.4
+      },
+      {
+        "text": ">> Anyone else have topics or questions? If",
+        "start": 1305.52,
+        "duration": 4.32
+      },
+      {
+        "text": "not, I'll I'll, you know, do some some",
+        "start": 1307.52,
+        "duration": 7.08
+      },
+      {
+        "text": "coding and we can chat through that.",
+        "start": 1309.84,
+        "duration": 4.76
+      },
+      {
+        "text": "I'm a fly on the wall. I'm interested in",
+        "start": 1326.0,
+        "duration": 4.24
+      },
+      {
+        "text": "whatever you do, Keith.",
+        "start": 1328.159,
+        "duration": 5.321
+      },
+      {
+        "text": ">> Right on.",
+        "start": 1330.24,
+        "duration": 3.24
+      },
+      {
+        "text": "Well, let me just let me get set up for",
+        "start": 1343.52,
+        "duration": 4.8
+      },
+      {
+        "text": "some coding and then if someone you know",
+        "start": 1345.919,
+        "duration": 4.321
+      },
+      {
+        "text": "you know you remember some question or",
+        "start": 1348.32,
+        "duration": 3.359
+      },
+      {
+        "text": "topic you wanted to bring up just kind",
+        "start": 1350.24,
+        "duration": 4.64
+      },
+      {
+        "text": "of blur it out. Um",
+        "start": 1351.679,
+        "duration": 5.441
+      },
+      {
+        "text": "and I guess since this is a project that",
+        "start": 1354.88,
+        "duration": 5.279
+      },
+      {
+        "text": "I've already been working on a bit, I",
+        "start": 1357.12,
+        "duration": 4.72
+      },
+      {
+        "text": "got to start with a little bit of a",
+        "start": 1360.159,
+        "duration": 4.241
+      },
+      {
+        "text": "demo. So, let me get set up for that",
+        "start": 1361.84,
+        "duration": 5.839
+      },
+      {
+        "text": "real quick here.",
+        "start": 1364.4,
+        "duration": 5.44
+      },
+      {
+        "text": "All right.",
+        "start": 1367.679,
+        "duration": 5.161
+      },
+      {
+        "text": "Um,",
+        "start": 1369.84,
+        "duration": 3.0
+      },
+      {
+        "text": "that's interesting. All right. Uh, let's",
+        "start": 1377.6,
+        "duration": 5.52
+      },
+      {
+        "text": "see here. Screen share.",
+        "start": 1379.44,
+        "duration": 5.359
+      },
+      {
+        "text": "Uh,",
+        "start": 1383.12,
+        "duration": 4.679
+      },
+      {
+        "text": "probably",
+        "start": 1384.799,
+        "duration": 3.0
+      },
+      {
+        "text": "probably doing a whole desktop is the",
+        "start": 1389.12,
+        "duration": 4.799
+      },
+      {
+        "text": "way to go.",
+        "start": 1391.039,
+        "duration": 5.88
+      },
+      {
+        "text": "Um,",
+        "start": 1393.919,
+        "duration": 3.0
+      },
+      {
+        "text": "all right.",
+        "start": 1397.36,
+        "duration": 4.4
+      },
+      {
+        "text": "Can you see I'm looking at a GitHub",
+        "start": 1400.08,
+        "duration": 4.68
+      },
+      {
+        "text": "window.",
+        "start": 1401.76,
+        "duration": 3.0
+      },
+      {
+        "text": "Okay, cool.",
+        "start": 1413.36,
+        "duration": 4.559
+      },
+      {
+        "text": "Yeah, somehow for whatever reason when I",
+        "start": 1415.76,
+        "duration": 4.64
+      },
+      {
+        "text": "um start sharing it like autohides the",
+        "start": 1417.919,
+        "duration": 5.921
+      },
+      {
+        "text": "the chat window and then also it takes",
+        "start": 1420.4,
+        "duration": 5.759
+      },
+      {
+        "text": "away the chat window button so it's like",
+        "start": 1423.84,
+        "duration": 4.48
+      },
+      {
+        "text": "hidden under a thing. Anyway, long story",
+        "start": 1426.159,
+        "duration": 6.88
+      },
+      {
+        "text": "short, all right, so this is kind of um",
+        "start": 1428.32,
+        "duration": 7.2
+      },
+      {
+        "text": "let me dive into the problem that I'm",
+        "start": 1433.039,
+        "duration": 4.64
+      },
+      {
+        "text": "facing here to give you a little bit of",
+        "start": 1435.52,
+        "duration": 4.08
+      },
+      {
+        "text": "motivation.",
+        "start": 1437.679,
+        "duration": 6.321
+      },
+      {
+        "text": "Uh maybe let's start with this. close",
+        "start": 1439.6,
+        "duration": 7.84
+      },
+      {
+        "text": "this. Um, so I do volunteering with this",
+        "start": 1444.0,
+        "duration": 5.28
+      },
+      {
+        "text": "this Green Seattle partnership",
+        "start": 1447.44,
+        "duration": 3.839
+      },
+      {
+        "text": "organization and we like help restore",
+        "start": 1449.28,
+        "duration": 3.68
+      },
+      {
+        "text": "parks around the city and that sort of",
+        "start": 1451.279,
+        "duration": 5.361
+      },
+      {
+        "text": "thing and you know native woodlands. Um,",
+        "start": 1452.96,
+        "duration": 7.12
+      },
+      {
+        "text": "but what I found is that they have a",
+        "start": 1456.64,
+        "duration": 5.36
+      },
+      {
+        "text": "good number of events but not",
+        "start": 1460.08,
+        "duration": 4.479
+      },
+      {
+        "text": "everything. So this has, you know, you",
+        "start": 1462.0,
+        "duration": 4.159
+      },
+      {
+        "text": "can see a decent amount here. You can",
+        "start": 1464.559,
+        "duration": 3.12
+      },
+      {
+        "text": "see there's some stuff on the calendar",
+        "start": 1466.159,
+        "duration": 4.481
+      },
+      {
+        "text": "there. This like map version, this",
+        "start": 1467.679,
+        "duration": 5.521
+      },
+      {
+        "text": "calendar version here.",
+        "start": 1470.64,
+        "duration": 5.279
+      },
+      {
+        "text": "Um, that's pretty cool.",
+        "start": 1473.2,
+        "duration": 5.599
+      },
+      {
+        "text": "And then some of the events are actually",
+        "start": 1475.919,
+        "duration": 5.921
+      },
+      {
+        "text": "on a different website entirely.",
+        "start": 1478.799,
+        "duration": 7.721
+      },
+      {
+        "text": "Let me see if I can find one in my list.",
+        "start": 1481.84,
+        "duration": 4.68
+      },
+      {
+        "text": "That's not a good one.",
+        "start": 1487.279,
+        "duration": 5.041
+      },
+      {
+        "text": "Oh, almost all these are. All right.",
+        "start": 1490.32,
+        "duration": 5.0
+      },
+      {
+        "text": "Here's",
+        "start": 1492.32,
+        "duration": 3.0
+      },
+      {
+        "text": "All right. So, the Seattle Public",
+        "start": 1495.36,
+        "duration": 6.48
+      },
+      {
+        "text": "Utilities site has this thing about uh",
+        "start": 1498.32,
+        "duration": 5.52
+      },
+      {
+        "text": "cleanup events. So, stuff where, you",
+        "start": 1501.84,
+        "duration": 3.6
+      },
+      {
+        "text": "know, we just go around, pick up trash",
+        "start": 1503.84,
+        "duration": 3.76
+      },
+      {
+        "text": "and stuff and, you know, back it up and",
+        "start": 1505.44,
+        "duration": 4.64
+      },
+      {
+        "text": "and that sort of thing. So, um let's see",
+        "start": 1507.6,
+        "duration": 5.28
+      },
+      {
+        "text": "here. So, tomorrow",
+        "start": 1510.08,
+        "duration": 6.32
+      },
+      {
+        "text": "there's one um in the Oello neighborhood",
+        "start": 1512.88,
+        "duration": 7.039
+      },
+      {
+        "text": "at Oello Park from 10 to 12.",
+        "start": 1516.4,
+        "duration": 7.36
+      },
+      {
+        "text": "And so it turns out that there's like I",
+        "start": 1519.919,
+        "duration": 6.081
+      },
+      {
+        "text": "don't know 10 different places where you",
+        "start": 1523.76,
+        "duration": 4.88
+      },
+      {
+        "text": "can look for this stuff. The one that",
+        "start": 1526.0,
+        "duration": 4.559
+      },
+      {
+        "text": "and so what I started to do was to build",
+        "start": 1528.64,
+        "duration": 5.44
+      },
+      {
+        "text": "this aggregator. Um so you know this",
+        "start": 1530.559,
+        "duration": 7.681
+      },
+      {
+        "text": "Magnuson reforestation event that um was",
+        "start": 1534.08,
+        "duration": 7.28
+      },
+      {
+        "text": "this morning from from 9 to noon at",
+        "start": 1538.24,
+        "duration": 7.039
+      },
+      {
+        "text": "Magnuson Park. Um, you know, I got this",
+        "start": 1541.36,
+        "duration": 5.919
+      },
+      {
+        "text": "from",
+        "start": 1545.279,
+        "duration": 3.681
+      },
+      {
+        "text": "scraping some data on Green Seattle",
+        "start": 1547.279,
+        "duration": 4.561
+      },
+      {
+        "text": "Partnerships. It's also on Seattle Parks",
+        "start": 1548.96,
+        "duration": 5.04
+      },
+      {
+        "text": "Foundation. It's also on",
+        "start": 1551.84,
+        "duration": 4.16
+      },
+      {
+        "text": "Seattle.gov/parks.",
+        "start": 1554.0,
+        "duration": 3.76
+      },
+      {
+        "text": "So, it's in three different places and I",
+        "start": 1556.0,
+        "duration": 3.36
+      },
+      {
+        "text": "was able to kind of merge this all into",
+        "start": 1557.76,
+        "duration": 4.96
+      },
+      {
+        "text": "like one line item. Um, there are some",
+        "start": 1559.36,
+        "duration": 7.919
+      },
+      {
+        "text": "where um I don't do a perfect job. So,",
+        "start": 1562.72,
+        "duration": 7.199
+      },
+      {
+        "text": "probably some of these ones down here,",
+        "start": 1567.279,
+        "duration": 5.201
+      },
+      {
+        "text": "like this one right here,",
+        "start": 1569.919,
+        "duration": 4.401
+      },
+      {
+        "text": "three of my sources call it join",
+        "start": 1572.48,
+        "duration": 3.92
+      },
+      {
+        "text": "EarthCore on Lake Washington Boulevard,",
+        "start": 1574.32,
+        "duration": 4.0
+      },
+      {
+        "text": "and then Earth Core calls it something",
+        "start": 1576.4,
+        "duration": 4.24
+      },
+      {
+        "text": "else entirely. And then my merge code",
+        "start": 1578.32,
+        "duration": 3.599
+      },
+      {
+        "text": "didn't merge though, so that's that's a",
+        "start": 1580.64,
+        "duration": 3.279
+      },
+      {
+        "text": "bit of a problem.",
+        "start": 1581.919,
+        "duration": 4.401
+      },
+      {
+        "text": "Um, and then to add Google button, like",
+        "start": 1583.919,
+        "duration": 4.24
+      },
+      {
+        "text": "partly I did this so that I can like",
+        "start": 1586.32,
+        "duration": 3.68
+      },
+      {
+        "text": "just easily like aggregate all the",
+        "start": 1588.159,
+        "duration": 3.601
+      },
+      {
+        "text": "sources, see what volunteering is coming",
+        "start": 1590.0,
+        "duration": 4.159
+      },
+      {
+        "text": "up. like if I know that I'm free a day,",
+        "start": 1591.76,
+        "duration": 3.76
+      },
+      {
+        "text": "then I can just like add something to",
+        "start": 1594.159,
+        "duration": 4.4
+      },
+      {
+        "text": "Google and then um add it to my calendar",
+        "start": 1595.52,
+        "duration": 5.12
+      },
+      {
+        "text": "and then you know I know know where to",
+        "start": 1598.559,
+        "duration": 6.24
+      },
+      {
+        "text": "show up and whatnot. Um but I saw this.",
+        "start": 1600.64,
+        "duration": 8.56
+      },
+      {
+        "text": "So Fremont is a neighborhood I live in",
+        "start": 1604.799,
+        "duration": 6.0
+      },
+      {
+        "text": "Wallingford. Fremont's one of the",
+        "start": 1609.2,
+        "duration": 4.4
+      },
+      {
+        "text": "neighborhoods right next to me and they",
+        "start": 1610.799,
+        "duration": 7.281
+      },
+      {
+        "text": "have this local Fremont neighbor blog",
+        "start": 1613.6,
+        "duration": 6.559
+      },
+      {
+        "text": "and they posted okay they've got a",
+        "start": 1618.08,
+        "duration": 7.36
+      },
+      {
+        "text": "cleanup in AB Ernst Park on Sunday. So",
+        "start": 1620.159,
+        "duration": 7.601
+      },
+      {
+        "text": "uh Sunday August 10th and then Saturday",
+        "start": 1625.44,
+        "duration": 5.44
+      },
+      {
+        "text": "August 16th from 9 to noon. And they're",
+        "start": 1627.76,
+        "duration": 4.48
+      },
+      {
+        "text": "looking for a bunch of volunteers for",
+        "start": 1630.88,
+        "duration": 4.24
+      },
+      {
+        "text": "this one particular park.",
+        "start": 1632.24,
+        "duration": 5.039
+      },
+      {
+        "text": "And this event, this is the only place I",
+        "start": 1635.12,
+        "duration": 4.96
+      },
+      {
+        "text": "could find it is in a blog. It's not on",
+        "start": 1637.279,
+        "duration": 5.441
+      },
+      {
+        "text": "a calendar. It's not in the official",
+        "start": 1640.08,
+        "duration": 5.599
+      },
+      {
+        "text": "Seattle, you know, list of volunteer",
+        "start": 1642.72,
+        "duration": 6.8
+      },
+      {
+        "text": "events. So, um, probably they're not",
+        "start": 1645.679,
+        "duration": 5.6
+      },
+      {
+        "text": "going to get as many people as they",
+        "start": 1649.52,
+        "duration": 3.36
+      },
+      {
+        "text": "might want because 15 is actually kind",
+        "start": 1651.279,
+        "duration": 3.52
+      },
+      {
+        "text": "of a lot of people. You know, they're",
+        "start": 1652.88,
+        "duration": 3.279
+      },
+      {
+        "text": "only going to get people that read this",
+        "start": 1654.799,
+        "duration": 3.12
+      },
+      {
+        "text": "blog that happen to be available at that",
+        "start": 1656.159,
+        "duration": 5.041
+      },
+      {
+        "text": "time. So, I'd really love to be able to,",
+        "start": 1657.919,
+        "duration": 5.36
+      },
+      {
+        "text": "you know, just have a So, this one's the",
+        "start": 1661.2,
+        "duration": 4.4
+      },
+      {
+        "text": "was it the 10th? Yeah. So, I'd really",
+        "start": 1663.279,
+        "duration": 3.841
+      },
+      {
+        "text": "love to be able to just have a line item",
+        "start": 1665.6,
+        "duration": 5.6
+      },
+      {
+        "text": "on here um to say, \"Okay, well, we got",
+        "start": 1667.12,
+        "duration": 7.36
+      },
+      {
+        "text": "this thing.\" The problem though is that",
+        "start": 1671.2,
+        "duration": 6.92
+      },
+      {
+        "text": "if we go to",
+        "start": 1674.48,
+        "duration": 3.64
+      },
+      {
+        "text": "if we just click here.",
+        "start": 1678.559,
+        "duration": 7.12
+      },
+      {
+        "text": "So, there's this volunteering one,",
+        "start": 1681.36,
+        "duration": 6.4
+      },
+      {
+        "text": "but then there's other stuff, too. This",
+        "start": 1685.679,
+        "duration": 5.521
+      },
+      {
+        "text": "is like more of a social night out.",
+        "start": 1687.76,
+        "duration": 5.84
+      },
+      {
+        "text": "Uh this is like businesses closing and",
+        "start": 1691.2,
+        "duration": 4.479
+      },
+      {
+        "text": "opening.",
+        "start": 1693.6,
+        "duration": 7.04
+      },
+      {
+        "text": "This is about you know like voting. Um",
+        "start": 1695.679,
+        "duration": 8.72
+      },
+      {
+        "text": "and so maybe actually this there's this",
+        "start": 1700.64,
+        "duration": 6.0
+      },
+      {
+        "text": "volunteering category. Okay. So that has",
+        "start": 1704.399,
+        "duration": 5.201
+      },
+      {
+        "text": "this one. That's cool. It has this one.",
+        "start": 1706.64,
+        "duration": 5.919
+      },
+      {
+        "text": "That's cool.",
+        "start": 1709.6,
+        "duration": 5.199
+      },
+      {
+        "text": "But then it also has this survey. That's",
+        "start": 1712.559,
+        "duration": 4.801
+      },
+      {
+        "text": "not a volunteering event.",
+        "start": 1714.799,
+        "duration": 4.321
+      },
+      {
+        "text": "Um,",
+        "start": 1717.36,
+        "duration": 4.16
+      },
+      {
+        "text": "it has, oh, some people upgraded",
+        "start": 1719.12,
+        "duration": 4.0
+      },
+      {
+        "text": "chessboard. That's cool. That's like a",
+        "start": 1721.52,
+        "duration": 3.279
+      },
+      {
+        "text": "result of a volunteering event, not an",
+        "start": 1723.12,
+        "duration": 3.6
+      },
+      {
+        "text": "actual like, hey, come out for this",
+        "start": 1724.799,
+        "duration": 6.081
+      },
+      {
+        "text": "event. Um, solstice parade. Yeah. Okay.",
+        "start": 1726.72,
+        "duration": 6.88
+      },
+      {
+        "text": "That's like asking for volunteers.",
+        "start": 1730.88,
+        "duration": 4.32
+      },
+      {
+        "text": "Uh,",
+        "start": 1733.6,
+        "duration": 3.679
+      },
+      {
+        "text": "oh, something was vandalized. Okay. So,",
+        "start": 1735.2,
+        "duration": 3.44
+      },
+      {
+        "text": "anyway, so it's a mixture of stuff",
+        "start": 1737.279,
+        "duration": 3.52
+      },
+      {
+        "text": "that's like actual volunteer events and",
+        "start": 1738.64,
+        "duration": 4.639
+      },
+      {
+        "text": "not volunteer events.",
+        "start": 1740.799,
+        "duration": 4.641
+      },
+      {
+        "text": "And so for me to integrate this kind of",
+        "start": 1743.279,
+        "duration": 4.801
+      },
+      {
+        "text": "thing I'm thinking okay well how do I do",
+        "start": 1745.44,
+        "duration": 7.28
+      },
+      {
+        "text": "it uh really I need one to get the data",
+        "start": 1748.08,
+        "duration": 6.88
+      },
+      {
+        "text": "and then two",
+        "start": 1752.72,
+        "duration": 6.079
+      },
+      {
+        "text": "uh to to try to like classify uh you",
+        "start": 1754.96,
+        "duration": 6.079
+      },
+      {
+        "text": "know each of these posts to say is there",
+        "start": 1758.799,
+        "duration": 5.921
+      },
+      {
+        "text": "a volunteering event here and if so we",
+        "start": 1761.039,
+        "duration": 6.961
+      },
+      {
+        "text": "need to know okay what day is it on uh",
+        "start": 1764.72,
+        "duration": 6.559
+      },
+      {
+        "text": "what time is it at like what what's the",
+        "start": 1768.0,
+        "duration": 5.039
+      },
+      {
+        "text": "location.",
+        "start": 1771.279,
+        "duration": 3.76
+      },
+      {
+        "text": "Um what kind of stuff are they doing? So",
+        "start": 1773.039,
+        "duration": 4.961
+      },
+      {
+        "text": "some people um as you imagine like",
+        "start": 1775.039,
+        "duration": 4.561
+      },
+      {
+        "text": "picking up later if you have like one of",
+        "start": 1778.0,
+        "duration": 3.52
+      },
+      {
+        "text": "those like grabbers",
+        "start": 1779.6,
+        "duration": 3.679
+      },
+      {
+        "text": "then you don't have to bend over as",
+        "start": 1781.52,
+        "duration": 4.639
+      },
+      {
+        "text": "much. Um and so some people can do that",
+        "start": 1783.279,
+        "duration": 5.76
+      },
+      {
+        "text": "but then um there are other events where",
+        "start": 1786.159,
+        "duration": 4.0
+      },
+      {
+        "text": "it's like you're really down on your",
+        "start": 1789.039,
+        "duration": 2.64
+      },
+      {
+        "text": "hands on knees. You're like weeding.",
+        "start": 1790.159,
+        "duration": 3.601
+      },
+      {
+        "text": "It's really hard tiring work. And so",
+        "start": 1791.679,
+        "duration": 5.281
+      },
+      {
+        "text": "some events um you know anyone can do",
+        "start": 1793.76,
+        "duration": 4.96
+      },
+      {
+        "text": "and some events you know maybe only",
+        "start": 1796.96,
+        "duration": 3.68
+      },
+      {
+        "text": "certain people could do or if you don't",
+        "start": 1798.72,
+        "duration": 3.839
+      },
+      {
+        "text": "want to get your clothes dirty like that",
+        "start": 1800.64,
+        "duration": 4.0
+      },
+      {
+        "text": "might affect it too. So we kind of want",
+        "start": 1802.559,
+        "duration": 6.561
+      },
+      {
+        "text": "to try to integrate all that stuff. So",
+        "start": 1804.64,
+        "duration": 6.56
+      },
+      {
+        "text": "so we'll start on I don't know if we'll",
+        "start": 1809.12,
+        "duration": 4.64
+      },
+      {
+        "text": "be able to get it done in 20 minutes",
+        "start": 1811.2,
+        "duration": 4.0
+      },
+      {
+        "text": "because that's kind of a compl you know",
+        "start": 1813.76,
+        "duration": 3.12
+      },
+      {
+        "text": "in the old days this would be like a you",
+        "start": 1815.2,
+        "duration": 3.28
+      },
+      {
+        "text": "know a solid day of work or something",
+        "start": 1816.88,
+        "duration": 5.2
+      },
+      {
+        "text": "but we'll see. We'll see. So first",
+        "start": 1818.48,
+        "duration": 5.439
+      },
+      {
+        "text": "things first is to try to figure out if",
+        "start": 1822.08,
+        "duration": 6.0
+      },
+      {
+        "text": "there is a data source. So for this I",
+        "start": 1823.919,
+        "duration": 8.081
+      },
+      {
+        "text": "want to try to find an RSS.",
+        "start": 1828.08,
+        "duration": 7.839
+      },
+      {
+        "text": "Um so let me bring up",
+        "start": 1832.0,
+        "duration": 6.399
+      },
+      {
+        "text": "let's see here see if we can find an RSS",
+        "start": 1835.919,
+        "duration": 5.36
+      },
+      {
+        "text": "feed on here somewhere.",
+        "start": 1838.399,
+        "duration": 6.481
+      },
+      {
+        "text": "RSS. No.",
+        "start": 1841.279,
+        "duration": 8.76
+      },
+      {
+        "text": "And let's see. Sometimes in the archive.",
+        "start": 1844.88,
+        "duration": 5.159
+      },
+      {
+        "text": "No.",
+        "start": 1851.44,
+        "duration": 5.599
+      },
+      {
+        "text": "Let's try clicking on category.",
+        "start": 1853.679,
+        "duration": 5.441
+      },
+      {
+        "text": "Subscribe socials. Nope. Nope. Nope.",
+        "start": 1857.039,
+        "duration": 4.801
+      },
+      {
+        "text": "Nope. Nope. So, I do have it in my",
+        "start": 1859.12,
+        "duration": 4.72
+      },
+      {
+        "text": "Feedley,",
+        "start": 1861.84,
+        "duration": 4.48
+      },
+      {
+        "text": "but let's look a couple other places",
+        "start": 1863.84,
+        "duration": 4.559
+      },
+      {
+        "text": "real quick.",
+        "start": 1866.32,
+        "duration": 5.52
+      },
+      {
+        "text": "Look in the source here. RSS.",
+        "start": 1868.399,
+        "duration": 8.52
+      },
+      {
+        "text": "RSS. Here we go. Okay,",
+        "start": 1871.84,
+        "duration": 5.079
+      },
+      {
+        "text": "open a new tab. All right, so we do have",
+        "start": 1877.679,
+        "duration": 6.401
+      },
+      {
+        "text": "an RSS feed. Great.",
+        "start": 1880.24,
+        "duration": 6.84
+      },
+      {
+        "text": "Great.",
+        "start": 1884.08,
+        "duration": 3.0
+      },
+      {
+        "text": "All right.",
+        "start": 1888.799,
+        "duration": 3.081
+      },
+      {
+        "text": "So, I'll copy that URL and then I will",
+        "start": 1892.399,
+        "duration": 7.201
+      },
+      {
+        "text": "go over to my VS Code window",
+        "start": 1895.279,
+        "duration": 7.12
+      },
+      {
+        "text": "and I'll say",
+        "start": 1899.6,
+        "duration": 6.84
+      },
+      {
+        "text": "I have some context here.",
+        "start": 1902.399,
+        "duration": 4.041
+      },
+      {
+        "text": "So, my only chance of getting through",
+        "start": 1906.799,
+        "duration": 5.76
+      },
+      {
+        "text": "some of this is to try to hope that that",
+        "start": 1908.799,
+        "duration": 6.401
+      },
+      {
+        "text": "uh yeah, assisted coding will get this",
+        "start": 1912.559,
+        "duration": 5.12
+      },
+      {
+        "text": "to happen fast enough.",
+        "start": 1915.2,
+        "duration": 6.24
+      },
+      {
+        "text": "Let's work on integrating",
+        "start": 1917.679,
+        "duration": 7.12
+      },
+      {
+        "text": "the Fremont",
+        "start": 1921.44,
+        "duration": 6.56
+      },
+      {
+        "text": "neighbor neighbor",
+        "start": 1924.799,
+        "duration": 6.201
+      },
+      {
+        "text": "blog.",
+        "start": 1928.0,
+        "duration": 3.0
+      },
+      {
+        "text": "For context, this blog has a mixture of",
+        "start": 1931.12,
+        "duration": 12.0
+      },
+      {
+        "text": "of uh posts on it. Some of them are",
+        "start": 1937.76,
+        "duration": 10.72
+      },
+      {
+        "text": "events, some are not. The blog does have",
+        "start": 1943.12,
+        "duration": 7.439
+      },
+      {
+        "text": "a volunteering",
+        "start": 1948.48,
+        "duration": 5.079
+      },
+      {
+        "text": "category,",
+        "start": 1950.559,
+        "duration": 3.0
+      },
+      {
+        "text": "but some of those posts are not events.",
+        "start": 1953.6,
+        "duration": 8.959
+      },
+      {
+        "text": "So I anticipate",
+        "start": 1959.919,
+        "duration": 5.681
+      },
+      {
+        "text": "that what will",
+        "start": 1962.559,
+        "duration": 10.96
+      },
+      {
+        "text": "build is to download the RSS feed",
+        "start": 1965.6,
+        "duration": 11.6
+      },
+      {
+        "text": "and process each",
+        "start": 1973.519,
+        "duration": 5.441
+      },
+      {
+        "text": "um",
+        "start": 1977.2,
+        "duration": 4.8
+      },
+      {
+        "text": "should I call it an article?",
+        "start": 1978.96,
+        "duration": 7.68
+      },
+      {
+        "text": "Sure. each article with GitHub LLM,",
+        "start": 1982.0,
+        "duration": 8.2
+      },
+      {
+        "text": "GitHub models.",
+        "start": 1986.64,
+        "duration": 3.56
+      },
+      {
+        "text": "There's already an",
+        "start": 1990.72,
+        "duration": 8.88
+      },
+      {
+        "text": "uh a research prototype of this in the",
+        "start": 1994.24,
+        "duration": 8.36
+      },
+      {
+        "text": "repo.",
+        "start": 1999.6,
+        "duration": 3.0
+      },
+      {
+        "text": "I'm anticipating",
+        "start": 2004.08,
+        "duration": 7.28
+      },
+      {
+        "text": "that the LLM call will need to be",
+        "start": 2006.48,
+        "duration": 10.319
+      },
+      {
+        "text": "cached. So in the database so that we",
+        "start": 2011.36,
+        "duration": 9.159
+      },
+      {
+        "text": "don't reprocess",
+        "start": 2016.799,
+        "duration": 3.72
+      },
+      {
+        "text": "the same page over and over every day.",
+        "start": 2022.0,
+        "duration": 13.679
+      },
+      {
+        "text": "Um let's see what else do I need to say.",
+        "start": 2030.72,
+        "duration": 9.36
+      },
+      {
+        "text": "And we'll want to create a data",
+        "start": 2035.679,
+        "duration": 8.801
+      },
+      {
+        "text": "structure for the extracted",
+        "start": 2040.08,
+        "duration": 8.48
+      },
+      {
+        "text": "event or events.",
+        "start": 2044.48,
+        "duration": 10.48
+      },
+      {
+        "text": "Let's start by running a curl command",
+        "start": 2048.56,
+        "duration": 8.559
+      },
+      {
+        "text": "to download",
+        "start": 2054.96,
+        "duration": 8.399
+      },
+      {
+        "text": "the RSS data into the repo. Oh. Uh",
+        "start": 2057.119,
+        "duration": 8.321
+      },
+      {
+        "text": "oh. Edit. There we go.",
+        "start": 2063.359,
+        "duration": 5.641
+      },
+      {
+        "text": "into the repo.",
+        "start": 2065.44,
+        "duration": 3.56
+      },
+      {
+        "text": "And then we can build out a",
+        "start": 2069.04,
+        "duration": 9.68
+      },
+      {
+        "text": "uh what do I want to call it?",
+        "start": 2075.359,
+        "duration": 9.361
+      },
+      {
+        "text": "An ETL module or this blog",
+        "start": 2078.72,
+        "duration": 10.72
+      },
+      {
+        "text": "with a roughly similar structure to the",
+        "start": 2084.72,
+        "duration": 7.72
+      },
+      {
+        "text": "others.",
+        "start": 2089.44,
+        "duration": 3.0
+      },
+      {
+        "text": "Once we have something basic working, we",
+        "start": 2094.8,
+        "duration": 9.36
+      },
+      {
+        "text": "can switch to testdriven",
+        "start": 2099.839,
+        "duration": 5.921
+      },
+      {
+        "text": "development.",
+        "start": 2104.16,
+        "duration": 4.72
+      },
+      {
+        "text": "Um, yeah.",
+        "start": 2105.76,
+        "duration": 5.44
+      },
+      {
+        "text": "Uh,",
+        "start": 2108.88,
+        "duration": 7.199
+      },
+      {
+        "text": "okay. Let's start by downloading the",
+        "start": 2111.2,
+        "duration": 9.36
+      },
+      {
+        "text": "RSS. Here is the URL.",
+        "start": 2116.079,
+        "duration": 6.481
+      },
+      {
+        "text": "Um,",
+        "start": 2120.56,
+        "duration": 4.48
+      },
+      {
+        "text": "all right. So, long story short, when",
+        "start": 2122.56,
+        "duration": 6.16
+      },
+      {
+        "text": "I'm implementing features um using uh",
+        "start": 2125.04,
+        "duration": 5.36
+      },
+      {
+        "text": "large language models and actually let",
+        "start": 2128.72,
+        "duration": 3.04
+      },
+      {
+        "text": "me try to make this a little bigger for",
+        "start": 2130.4,
+        "duration": 4.16
+      },
+      {
+        "text": "you. Um,",
+        "start": 2131.76,
+        "duration": 4.72
+      },
+      {
+        "text": "especially with an advanced model where",
+        "start": 2134.56,
+        "duration": 3.44
+      },
+      {
+        "text": "it's capable of implementing a lot of",
+        "start": 2136.48,
+        "duration": 4.0
+      },
+      {
+        "text": "the feature, I provide a lot of detail",
+        "start": 2138.0,
+        "duration": 5.04
+      },
+      {
+        "text": "about what we're building.",
+        "start": 2140.48,
+        "duration": 6.639
+      },
+      {
+        "text": "Um and so downloaded the RSS we should",
+        "start": 2143.04,
+        "duration": 6.559
+      },
+      {
+        "text": "say into",
+        "start": 2147.119,
+        "duration": 7.121
+      },
+      {
+        "text": "into where is it? It's test data",
+        "start": 2149.599,
+        "duration": 7.52
+      },
+      {
+        "text": "tests",
+        "start": 2154.24,
+        "duration": 5.879
+      },
+      {
+        "text": "data.",
+        "start": 2157.119,
+        "duration": 3.0
+      },
+      {
+        "text": "All right.",
+        "start": 2160.8,
+        "duration": 7.72
+      },
+      {
+        "text": "Oh darn. I ran it with ask not agent. Uh",
+        "start": 2162.88,
+        "duration": 5.64
+      },
+      {
+        "text": "so in agent mode it will like suggest to",
+        "start": 2171.04,
+        "duration": 6.48
+      },
+      {
+        "text": "actually run it. Oops. I meant to run in",
+        "start": 2172.96,
+        "duration": 9.639
+      },
+      {
+        "text": "agent mode. Try again.",
+        "start": 2177.52,
+        "duration": 5.079
+      },
+      {
+        "text": "And so in agent mode in VS code it can",
+        "start": 2185.76,
+        "duration": 6.72
+      },
+      {
+        "text": "suggest commands um to run. Um, so",
+        "start": 2188.32,
+        "duration": 6.24
+      },
+      {
+        "text": "that's this is the curl command to",
+        "start": 2192.48,
+        "duration": 4.639
+      },
+      {
+        "text": "download this URL with an HTTP get",
+        "start": 2194.56,
+        "duration": 6.08
+      },
+      {
+        "text": "request to this particular file.",
+        "start": 2197.119,
+        "duration": 5.681
+      },
+      {
+        "text": "If I hit continue, it'll go actually run",
+        "start": 2200.64,
+        "duration": 5.4
+      },
+      {
+        "text": "that command.",
+        "start": 2202.8,
+        "duration": 3.24
+      },
+      {
+        "text": "Typical. Oh, it's WordPress. Okay,",
+        "start": 2208.88,
+        "duration": 3.92
+      },
+      {
+        "text": "great.",
+        "start": 2210.8,
+        "duration": 5.0
+      },
+      {
+        "text": "Yep.",
+        "start": 2212.8,
+        "duration": 3.0
+      },
+      {
+        "text": "So SPR there is Seattle parks and wreck.",
+        "start": 2219.44,
+        "duration": 4.96
+      },
+      {
+        "text": "Base is my base class for um for",
+        "start": 2221.76,
+        "duration": 4.24
+      },
+      {
+        "text": "extractors.",
+        "start": 2224.4,
+        "duration": 4.719
+      },
+      {
+        "text": "This is the RSS feed.",
+        "start": 2226.0,
+        "duration": 5.76
+      },
+      {
+        "text": "LM canonicalization. Oh, I already had",
+        "start": 2229.119,
+        "duration": 4.96
+      },
+      {
+        "text": "started to do some stuff. So that was",
+        "start": 2231.76,
+        "duration": 4.56
+      },
+      {
+        "text": "some um experiments. So you can kind of",
+        "start": 2234.079,
+        "duration": 7.121
+      },
+      {
+        "text": "see what uh had written this you know",
+        "start": 2236.32,
+        "duration": 8.96
+      },
+      {
+        "text": "this big prompt to try to do some stuff.",
+        "start": 2241.2,
+        "duration": 8.2
+      },
+      {
+        "text": "But that experiment kind of failed.",
+        "start": 2245.28,
+        "duration": 4.12
+      },
+      {
+        "text": "So let's take a look at what that RSS",
+        "start": 2250.079,
+        "duration": 5.081
+      },
+      {
+        "text": "feed looks like.",
+        "start": 2251.68,
+        "duration": 3.48
+      },
+      {
+        "text": "Oh, it says generated by R WordPress",
+        "start": 2257.599,
+        "duration": 4.881
+      },
+      {
+        "text": "right there. Of course, and it does have",
+        "start": 2260.24,
+        "duration": 4.0
+      },
+      {
+        "text": "this like Okay, here's this cleanup on",
+        "start": 2262.48,
+        "duration": 5.32
+      },
+      {
+        "text": "Sunday. Great.",
+        "start": 2264.24,
+        "duration": 3.56
+      },
+      {
+        "text": "I need to fix typers.",
+        "start": 2268.64,
+        "duration": 3.88
+      },
+      {
+        "text": "This is the part where like, you know,",
+        "start": 2272.72,
+        "duration": 5.52
+      },
+      {
+        "text": "sometimes I'll like watch it and then",
+        "start": 2276.32,
+        "duration": 3.519
+      },
+      {
+        "text": "I'll like stop it if it goes off the",
+        "start": 2278.24,
+        "duration": 8.72
+      },
+      {
+        "text": "rails and then um if if it has uh",
+        "start": 2279.839,
+        "duration": 9.52
+      },
+      {
+        "text": "tests",
+        "start": 2286.96,
+        "duration": 4.399
+      },
+      {
+        "text": "um then usually it'll suggest to run the",
+        "start": 2289.359,
+        "duration": 3.521
+      },
+      {
+        "text": "test and then it'll sort of keep it on",
+        "start": 2291.359,
+        "duration": 4.72
+      },
+      {
+        "text": "the rails and that's great. Um sometimes",
+        "start": 2292.88,
+        "duration": 4.959
+      },
+      {
+        "text": "when it's doing this initial development",
+        "start": 2296.079,
+        "duration": 3.681
+      },
+      {
+        "text": "it's like wow I could do it this way. do",
+        "start": 2297.839,
+        "duration": 3.76
+      },
+      {
+        "text": "it this you know it's kind of like it",
+        "start": 2299.76,
+        "duration": 4.0
+      },
+      {
+        "text": "wants to keep doing things without",
+        "start": 2301.599,
+        "duration": 6.081
+      },
+      {
+        "text": "input. Um, so we'll see.",
+        "start": 2303.76,
+        "duration": 5.92
+      },
+      {
+        "text": "Let's let's take a look at what Okay, so",
+        "start": 2307.68,
+        "duration": 4.56
+      },
+      {
+        "text": "it started to create this thing. Fix",
+        "start": 2309.68,
+        "duration": 4.96
+      },
+      {
+        "text": "type editors. Check that. Correct field",
+        "start": 2312.24,
+        "duration": 4.72
+      },
+      {
+        "text": "names. So it is looking at time zone",
+        "start": 2314.64,
+        "duration": 5.28
+      },
+      {
+        "text": "stuff. That's actually one of these like",
+        "start": 2316.96,
+        "duration": 5.36
+      },
+      {
+        "text": "I will say in programming getting times",
+        "start": 2319.92,
+        "duration": 5.52
+      },
+      {
+        "text": "right is very hard. In this codebase,",
+        "start": 2322.32,
+        "duration": 5.279
+      },
+      {
+        "text": "it's uh particularly challenging because",
+        "start": 2325.44,
+        "duration": 4.88
+      },
+      {
+        "text": "a lot of the data is unstructured. So,",
+        "start": 2327.599,
+        "duration": 5.361
+      },
+      {
+        "text": "um, if you have this like, you know, in",
+        "start": 2330.32,
+        "duration": 4.64
+      },
+      {
+        "text": "this post, um, we can go back over to",
+        "start": 2332.96,
+        "duration": 6.32
+      },
+      {
+        "text": "Chrome and see, um,",
+        "start": 2334.96,
+        "duration": 7.44
+      },
+      {
+        "text": "you know, in this post, it just says,",
+        "start": 2339.28,
+        "duration": 5.04
+      },
+      {
+        "text": "uh, 9:00 a.m. to noon. It doesn't say",
+        "start": 2342.4,
+        "duration": 4.0
+      },
+      {
+        "text": "what time zone it is because it's",
+        "start": 2344.32,
+        "duration": 3.6
+      },
+      {
+        "text": "assumed that all of the readers are here",
+        "start": 2346.4,
+        "duration": 4.24
+      },
+      {
+        "text": "in Seattle. But when we're programming",
+        "start": 2347.92,
+        "duration": 5.84
+      },
+      {
+        "text": "it, we need the time zone. And so I have",
+        "start": 2350.64,
+        "duration": 5.52
+      },
+      {
+        "text": "this, you know, uh, you know, if we",
+        "start": 2353.76,
+        "duration": 4.48
+      },
+      {
+        "text": "don't know the time zone, default to the",
+        "start": 2356.16,
+        "duration": 5.12
+      },
+      {
+        "text": "the time zone in Seattle. All right,",
+        "start": 2358.24,
+        "duration": 5.68
+      },
+      {
+        "text": "let's see what it's doing here. Uh, fix",
+        "start": 2361.28,
+        "duration": 5.76
+      },
+      {
+        "text": "null checking, great. Fix type handling,",
+        "start": 2363.92,
+        "duration": 5.6
+      },
+      {
+        "text": "type assertions, great.",
+        "start": 2367.04,
+        "duration": 5.039
+      },
+      {
+        "text": "Uh, LLM response handling, time zone",
+        "start": 2369.52,
+        "duration": 3.839
+      },
+      {
+        "text": "handling, those are all important",
+        "start": 2372.079,
+        "duration": 4.881
+      },
+      {
+        "text": "things. Fix",
+        "start": 2373.359,
+        "duration": 8.641
+      },
+      {
+        "text": "import HTTP URL. Um, so paidantic. Uh,",
+        "start": 2376.96,
+        "duration": 7.44
+      },
+      {
+        "text": "you can store a URL in a string.",
+        "start": 2382.0,
+        "duration": 4.96
+      },
+      {
+        "text": "Videantic has a special class for HTTP",
+        "start": 2384.4,
+        "duration": 4.32
+      },
+      {
+        "text": "URLs that'll throw an error if it's not",
+        "start": 2386.96,
+        "duration": 3.84
+      },
+      {
+        "text": "a valid one. Um, so I kind of like to",
+        "start": 2388.72,
+        "duration": 5.119
+      },
+      {
+        "text": "use that. Um, it has gotten to the point",
+        "start": 2390.8,
+        "duration": 5.68
+      },
+      {
+        "text": "where it wrote a bunch of stuff and it",
+        "start": 2393.839,
+        "duration": 4.161
+      },
+      {
+        "text": "has some tests. I'm going to take a look",
+        "start": 2396.48,
+        "duration": 3.2
+      },
+      {
+        "text": "at the code because it's actually like",
+        "start": 2398.0,
+        "duration": 4.4
+      },
+      {
+        "text": "paused itself right now. So, I have",
+        "start": 2399.68,
+        "duration": 4.32
+      },
+      {
+        "text": "actually like a moment to look at the",
+        "start": 2402.4,
+        "duration": 4.719
+      },
+      {
+        "text": "code. Um, I kind of like to start by",
+        "start": 2404.0,
+        "duration": 5.68
+      },
+      {
+        "text": "looking at test code.",
+        "start": 2407.119,
+        "duration": 5.361
+      },
+      {
+        "text": "So we can sort of start there. I'll make",
+        "start": 2409.68,
+        "duration": 5.84
+      },
+      {
+        "text": "this a little bit bigger. Uh let's see",
+        "start": 2412.48,
+        "duration": 5.599
+      },
+      {
+        "text": "test with real RSS data. Okay. So this",
+        "start": 2415.52,
+        "duration": 5.12
+      },
+      {
+        "text": "this part here um it's sort of copying",
+        "start": 2418.079,
+        "duration": 3.921
+      },
+      {
+        "text": "the patterns that we have elsewhere in",
+        "start": 2420.64,
+        "duration": 4.56
+      },
+      {
+        "text": "the repo which is to load the data using",
+        "start": 2422.0,
+        "duration": 5.28
+      },
+      {
+        "text": "a path that's relative to this file",
+        "start": 2425.2,
+        "duration": 5.12
+      },
+      {
+        "text": "that's being executed. Um because if you",
+        "start": 2427.28,
+        "duration": 4.4
+      },
+      {
+        "text": "run your unit test from a different",
+        "start": 2430.32,
+        "duration": 3.12
+      },
+      {
+        "text": "directory, I still want to run without",
+        "start": 2431.68,
+        "duration": 3.28
+      },
+      {
+        "text": "crashing.",
+        "start": 2433.44,
+        "duration": 3.6
+      },
+      {
+        "text": "So okay, it goes loads that it sends it",
+        "start": 2434.96,
+        "duration": 4.159
+      },
+      {
+        "text": "into the Fremont neighborhood extractor.",
+        "start": 2437.04,
+        "duration": 6.24
+      },
+      {
+        "text": "Great. Uh runs extractor.extract.",
+        "start": 2439.119,
+        "duration": 6.48
+      },
+      {
+        "text": "So the pattern that I have well we'll",
+        "start": 2443.28,
+        "duration": 4.16
+      },
+      {
+        "text": "come back to this pattern I guess but",
+        "start": 2445.599,
+        "duration": 4.801
+      },
+      {
+        "text": "says okay um we expect it to be a list.",
+        "start": 2447.44,
+        "duration": 5.96
+      },
+      {
+        "text": "Great.",
+        "start": 2450.4,
+        "duration": 3.0
+      },
+      {
+        "text": "And it's saying okay for any events in",
+        "start": 2453.599,
+        "duration": 4.72
+      },
+      {
+        "text": "here",
+        "start": 2456.48,
+        "duration": 4.16
+      },
+      {
+        "text": "you know it's saying Fre is the sort of",
+        "start": 2458.319,
+        "duration": 5.601
+      },
+      {
+        "text": "like source ID. Um all events should",
+        "start": 2460.64,
+        "duration": 4.88
+      },
+      {
+        "text": "have a title. All events should have a",
+        "start": 2463.92,
+        "duration": 5.199
+      },
+      {
+        "text": "venue. That's one I don't know. Um,",
+        "start": 2465.52,
+        "duration": 6.24
+      },
+      {
+        "text": "start and end should be a datetime. I",
+        "start": 2469.119,
+        "duration": 5.841
+      },
+      {
+        "text": "mean, that's it's a pyantic model, so",
+        "start": 2471.76,
+        "duration": 4.8
+      },
+      {
+        "text": "that's actually not a very good test.",
+        "start": 2474.96,
+        "duration": 4.32
+      },
+      {
+        "text": "Like pyantic,",
+        "start": 2476.56,
+        "duration": 5.2
+      },
+      {
+        "text": "I think we'll just crash if we don't do",
+        "start": 2479.28,
+        "duration": 5.839
+      },
+      {
+        "text": "that. Anyway, um, saying the URL should",
+        "start": 2481.76,
+        "duration": 4.8
+      },
+      {
+        "text": "be null. I can show you what the event",
+        "start": 2485.119,
+        "duration": 5.041
+      },
+      {
+        "text": "model looks like. So, um, here's the an",
+        "start": 2486.56,
+        "duration": 4.96
+      },
+      {
+        "text": "event. you know, we have some kind of",
+        "start": 2490.16,
+        "duration": 5.679
+      },
+      {
+        "text": "source name, some kind of unique ID,",
+        "start": 2491.52,
+        "duration": 7.44
+      },
+      {
+        "text": "uh the title, we have a start and end.",
+        "start": 2495.839,
+        "duration": 4.561
+      },
+      {
+        "text": "Some of these things are optional. So,",
+        "start": 2498.96,
+        "duration": 3.359
+      },
+      {
+        "text": "like the venue is usually like a park",
+        "start": 2500.4,
+        "duration": 4.56
+      },
+      {
+        "text": "name. Um the address is usually like a",
+        "start": 2502.319,
+        "duration": 4.641
+      },
+      {
+        "text": "specific address. Those are optional.",
+        "start": 2504.96,
+        "duration": 5.28
+      },
+      {
+        "text": "Sometimes it doesn't specify exactly.",
+        "start": 2506.96,
+        "duration": 6.08
+      },
+      {
+        "text": "Um the URL is not optional. You'll",
+        "start": 2510.24,
+        "duration": 5.76
+      },
+      {
+        "text": "notice. So if we go back over here, it's",
+        "start": 2513.04,
+        "duration": 6.319
+      },
+      {
+        "text": "saying assert that the URL,",
+        "start": 2516.0,
+        "duration": 7.44
+      },
+      {
+        "text": "you know, is not null or empty. Uh there",
+        "start": 2519.359,
+        "duration": 6.48
+      },
+      {
+        "text": "that's like such a that's not likely to",
+        "start": 2523.44,
+        "duration": 4.24
+      },
+      {
+        "text": "happen. So this test is actually not a",
+        "start": 2525.839,
+        "duration": 4.961
+      },
+      {
+        "text": "very good test. Um",
+        "start": 2527.68,
+        "duration": 6.159
+      },
+      {
+        "text": "but uh in the interest of time, let me",
+        "start": 2530.8,
+        "duration": 5.36
+      },
+      {
+        "text": "keep scrolling down. I don't want to",
+        "start": 2533.839,
+        "duration": 5.28
+      },
+      {
+        "text": "just, you know, nitpick on the the LLM's",
+        "start": 2536.16,
+        "duration": 6.4
+      },
+      {
+        "text": "tests here. All right. So this one was",
+        "start": 2539.119,
+        "duration": 6.641
+      },
+      {
+        "text": "test it with real data. Sure. I mean",
+        "start": 2542.56,
+        "duration": 6.4
+      },
+      {
+        "text": "both of them are doing the same data.",
+        "start": 2545.76,
+        "duration": 4.88
+      },
+      {
+        "text": "And this one is testing sort of the",
+        "start": 2548.96,
+        "duration": 3.44
+      },
+      {
+        "text": "first item is this AB Ernst Park",
+        "start": 2550.64,
+        "duration": 4.56
+      },
+      {
+        "text": "cleanup. This is actually much better um",
+        "start": 2552.4,
+        "duration": 4.48
+      },
+      {
+        "text": "because it's sort of testing the first",
+        "start": 2555.2,
+        "duration": 7.0
+      },
+      {
+        "text": "item here. Um and then",
+        "start": 2556.88,
+        "duration": 5.32
+      },
+      {
+        "text": "it it put it put this in here. But since",
+        "start": 2565.599,
+        "duration": 4.961
+      },
+      {
+        "text": "I'm doing everything in piest, I don't",
+        "start": 2568.24,
+        "duration": 4.48
+      },
+      {
+        "text": "need these.",
+        "start": 2570.56,
+        "duration": 4.48
+      },
+      {
+        "text": "Um, and so it's sort of like generating",
+        "start": 2572.72,
+        "duration": 4.8
+      },
+      {
+        "text": "something that I can run directly. But",
+        "start": 2575.04,
+        "duration": 5.44
+      },
+      {
+        "text": "um, since I use piest um that I would",
+        "start": 2577.52,
+        "duration": 5.28
+      },
+      {
+        "text": "rather just run it through piest. So",
+        "start": 2580.48,
+        "duration": 3.599
+      },
+      {
+        "text": "what I'm going to do is I'm going to",
+        "start": 2582.8,
+        "duration": 3.6
+      },
+      {
+        "text": "make some modifications",
+        "start": 2584.079,
+        "duration": 5.441
+      },
+      {
+        "text": "um kind of trim it down to its bare",
+        "start": 2586.4,
+        "duration": 5.84
+      },
+      {
+        "text": "essentials and then um and then I'll",
+        "start": 2589.52,
+        "duration": 4.96
+      },
+      {
+        "text": "have this run through pi test. But",
+        "start": 2592.24,
+        "duration": 4.079
+      },
+      {
+        "text": "before we go too deep into that, I want",
+        "start": 2594.48,
+        "duration": 4.08
+      },
+      {
+        "text": "to take a look at the the ETL code that",
+        "start": 2596.319,
+        "duration": 4.961
+      },
+      {
+        "text": "I wrote. All right. So, we have a",
+        "start": 2598.56,
+        "duration": 4.72
+      },
+      {
+        "text": "Fremont article.",
+        "start": 2601.28,
+        "duration": 4.16
+      },
+      {
+        "text": "Got title, link, publication date,",
+        "start": 2603.28,
+        "duration": 4.96
+      },
+      {
+        "text": "categories, description, content, and a",
+        "start": 2605.44,
+        "duration": 6.0
+      },
+      {
+        "text": "gooid globally unique ID. Um, okay. So,",
+        "start": 2608.24,
+        "duration": 5.44
+      },
+      {
+        "text": "that's cool. That's cool. So, that's um",
+        "start": 2611.44,
+        "duration": 6.399
+      },
+      {
+        "text": "coming directly from this RSS XML. Um,",
+        "start": 2613.68,
+        "duration": 7.04
+      },
+      {
+        "text": "and so it's a very like shallow",
+        "start": 2617.839,
+        "duration": 4.48
+      },
+      {
+        "text": "interpretation of that. It's not like",
+        "start": 2620.72,
+        "duration": 5.28
+      },
+      {
+        "text": "extracting the um the event data. It's",
+        "start": 2622.319,
+        "duration": 7.04
+      },
+      {
+        "text": "just you know a structure for",
+        "start": 2626.0,
+        "duration": 6.64
+      },
+      {
+        "text": "uh let's see here item.",
+        "start": 2629.359,
+        "duration": 6.081
+      },
+      {
+        "text": "So it's a very simplistic representation",
+        "start": 2632.64,
+        "duration": 8.76
+      },
+      {
+        "text": "of this XML right here. This item XML.",
+        "start": 2635.44,
+        "duration": 5.96
+      },
+      {
+        "text": "Sorry, I just saw something that's like",
+        "start": 2642.319,
+        "duration": 6.081
+      },
+      {
+        "text": "uh all right. Um since we're looking at",
+        "start": 2644.4,
+        "duration": 6.959
+      },
+      {
+        "text": "it, it's a learning moment. we have to",
+        "start": 2648.4,
+        "duration": 8.919
+      },
+      {
+        "text": "talk about it. Uh, I'll just",
+        "start": 2651.359,
+        "duration": 5.96
+      },
+      {
+        "text": "So, what I'm looking at here is this",
+        "start": 2657.839,
+        "duration": 6.361
+      },
+      {
+        "text": "content encoded tag",
+        "start": 2660.24,
+        "duration": 3.96
+      },
+      {
+        "text": "in XML.",
+        "start": 2665.839,
+        "duration": 4.48
+      },
+      {
+        "text": "And the contents of it are this, you",
+        "start": 2668.24,
+        "duration": 5.2
+      },
+      {
+        "text": "know, C data thing. So, character data.",
+        "start": 2670.319,
+        "duration": 5.841
+      },
+      {
+        "text": "And then you'll notice that inside here",
+        "start": 2673.44,
+        "duration": 5.919
+      },
+      {
+        "text": "is HTML.",
+        "start": 2676.16,
+        "duration": 5.84
+      },
+      {
+        "text": "Um, but it's not in the h the XML",
+        "start": 2679.359,
+        "duration": 4.161
+      },
+      {
+        "text": "structure. it's raw character do. So,",
+        "start": 2682.0,
+        "duration": 2.88
+      },
+      {
+        "text": "it's kind of like being wrapped into",
+        "start": 2683.52,
+        "duration": 4.88
+      },
+      {
+        "text": "there. Um I",
+        "start": 2684.88,
+        "duration": 6.56
+      },
+      {
+        "text": "that is",
+        "start": 2688.4,
+        "duration": 4.959
+      },
+      {
+        "text": "probably necessary.",
+        "start": 2691.44,
+        "duration": 4.48
+      },
+      {
+        "text": "Um there's a certain part of me that's",
+        "start": 2693.359,
+        "duration": 4.561
+      },
+      {
+        "text": "like h we're like escaping all this",
+        "start": 2695.92,
+        "duration": 7.72
+      },
+      {
+        "text": "stuff in this other thing which like but",
+        "start": 2697.92,
+        "duration": 5.72
+      },
+      {
+        "text": "HTML is not actually a subset um is a",
+        "start": 2704.48,
+        "duration": 7.44
+      },
+      {
+        "text": "subset of XML. Um there is a standard",
+        "start": 2708.56,
+        "duration": 7.039
+      },
+      {
+        "text": "called XHTML that is but uh HTML itself",
+        "start": 2711.92,
+        "duration": 7.679
+      },
+      {
+        "text": "is not. Anyway, I'm getting distracted.",
+        "start": 2715.599,
+        "duration": 5.681
+      },
+      {
+        "text": "Um",
+        "start": 2719.599,
+        "duration": 4.641
+      },
+      {
+        "text": "so anyway, so uh if I go over to Fremont",
+        "start": 2721.28,
+        "duration": 5.44
+      },
+      {
+        "text": "neighbor, which is our ETL. So this is",
+        "start": 2724.24,
+        "duration": 4.079
+      },
+      {
+        "text": "sort of the shallow representation of",
+        "start": 2726.72,
+        "duration": 3.84
+      },
+      {
+        "text": "that that item, which is great. I like",
+        "start": 2728.319,
+        "duration": 5.52
+      },
+      {
+        "text": "that a lot. And then it has this",
+        "start": 2730.56,
+        "duration": 5.759
+      },
+      {
+        "text": "extracted event here. So sort of like",
+        "start": 2733.839,
+        "duration": 4.081
+      },
+      {
+        "text": "okay, we got a shallow representation of",
+        "start": 2736.319,
+        "duration": 6.681
+      },
+      {
+        "text": "an article. Oh, is my",
+        "start": 2737.92,
+        "duration": 5.08
+      },
+      {
+        "text": "is my audio doing weird stuff? I can't",
+        "start": 2745.359,
+        "duration": 4.72
+      },
+      {
+        "text": "though.",
+        "start": 2747.28,
+        "duration": 6.52
+      },
+      {
+        "text": "Can you guys hear me?",
+        "start": 2750.079,
+        "duration": 3.721
+      },
+      {
+        "text": "Let's see.",
+        "start": 2774.64,
+        "duration": 4.24
+      },
+      {
+        "text": "Well, I'll just keep going and we'll",
+        "start": 2777.28,
+        "duration": 4.799
+      },
+      {
+        "text": "sort of see. Um hopefully my mic's still",
+        "start": 2778.88,
+        "duration": 4.8
+      },
+      {
+        "text": "working.",
+        "start": 2782.079,
+        "duration": 4.601
+      },
+      {
+        "text": "Wait.",
+        "start": 2783.68,
+        "duration": 3.0
+      },
+      {
+        "text": "It's still connected there. I don't",
+        "start": 2796.56,
+        "duration": 4.36
+      },
+      {
+        "text": "know.",
+        "start": 2797.92,
+        "duration": 3.0
+      },
+      {
+        "text": "Um,",
+        "start": 2804.16,
+        "duration": 5.679
+      },
+      {
+        "text": "anyhow. Oh, yeah. Sorry. It's someone",
+        "start": 2805.68,
+        "duration": 5.919
+      },
+      {
+        "text": "actually outside my window kind of",
+        "start": 2809.839,
+        "duration": 6.121
+      },
+      {
+        "text": "talking. Let me close my window here.",
+        "start": 2811.599,
+        "duration": 4.361
+      },
+      {
+        "text": "sounded like a like an echo, but it's",
+        "start": 2818.48,
+        "duration": 5.599
+      },
+      {
+        "text": "I don't know.",
+        "start": 2822.0,
+        "duration": 4.56
+      },
+      {
+        "text": "Uh, someone is like hanging out over the",
+        "start": 2824.079,
+        "duration": 4.24
+      },
+      {
+        "text": "roof, and I'm trying not to think about",
+        "start": 2826.56,
+        "duration": 3.759
+      },
+      {
+        "text": "that. I don't know. I think they're like",
+        "start": 2828.319,
+        "duration": 4.081
+      },
+      {
+        "text": "looking for",
+        "start": 2830.319,
+        "duration": 5.52
+      },
+      {
+        "text": "a drone that they got lost or some such.",
+        "start": 2832.4,
+        "duration": 7.52
+      },
+      {
+        "text": "Anyhow, um, so, so this is for an",
+        "start": 2835.839,
+        "duration": 6.401
+      },
+      {
+        "text": "article. An article can be an event or",
+        "start": 2839.92,
+        "duration": 5.52
+      },
+      {
+        "text": "it can have multiple events. Um and this",
+        "start": 2842.24,
+        "duration": 4.879
+      },
+      {
+        "text": "is this is for an event that's extracted",
+        "start": 2845.44,
+        "duration": 5.84
+      },
+      {
+        "text": "from it. Um in the other ones what I do",
+        "start": 2847.119,
+        "duration": 8.0
+      },
+      {
+        "text": "is I have like a uh sight specific",
+        "start": 2851.28,
+        "duration": 5.6
+      },
+      {
+        "text": "representation of event that has the",
+        "start": 2855.119,
+        "duration": 4.0
+      },
+      {
+        "text": "data that it tends to have and I have",
+        "start": 2856.88,
+        "duration": 4.08
+      },
+      {
+        "text": "that generic representation of event and",
+        "start": 2859.119,
+        "duration": 3.521
+      },
+      {
+        "text": "a conversion process between them. So",
+        "start": 2860.96,
+        "duration": 4.08
+      },
+      {
+        "text": "that that looks good.",
+        "start": 2862.64,
+        "duration": 6.56
+      },
+      {
+        "text": "Um I do like in general what I do is I",
+        "start": 2865.04,
+        "duration": 6.24
+      },
+      {
+        "text": "have like I separate the downloading",
+        "start": 2869.2,
+        "duration": 4.639
+      },
+      {
+        "text": "part",
+        "start": 2871.28,
+        "duration": 4.559
+      },
+      {
+        "text": "um which is this fetch method and then",
+        "start": 2873.839,
+        "duration": 4.161
+      },
+      {
+        "text": "the extraction part. So that looks",
+        "start": 2875.839,
+        "duration": 5.201
+      },
+      {
+        "text": "correct to me.",
+        "start": 2878.0,
+        "duration": 7.16
+      },
+      {
+        "text": "Uh let's see here.",
+        "start": 2881.04,
+        "duration": 4.12
+      },
+      {
+        "text": "So this is looking for all the items.",
+        "start": 2886.0,
+        "duration": 4.96
+      },
+      {
+        "text": "Parse the item. If there is an item,",
+        "start": 2888.24,
+        "duration": 5.76
+      },
+      {
+        "text": "send it to the LLM. and extract it with",
+        "start": 2890.96,
+        "duration": 5.28
+      },
+      {
+        "text": "um extend with any events that it",
+        "start": 2894.0,
+        "duration": 4.88
+      },
+      {
+        "text": "extracts. Okay, great.",
+        "start": 2896.24,
+        "duration": 5.359
+      },
+      {
+        "text": "Let me look into here. So, this, you",
+        "start": 2898.88,
+        "duration": 4.239
+      },
+      {
+        "text": "know, I just trust that this is fine.",
+        "start": 2901.599,
+        "duration": 3.921
+      },
+      {
+        "text": "I'm not too worried about that. Extract",
+        "start": 2903.119,
+        "duration": 4.561
+      },
+      {
+        "text": "events with LM. All right. Volunteer",
+        "start": 2905.52,
+        "duration": 4.319
+      },
+      {
+        "text": "categories,",
+        "start": 2907.68,
+        "duration": 4.159
+      },
+      {
+        "text": "volunteering, parks, community. Okay,",
+        "start": 2909.839,
+        "duration": 3.841
+      },
+      {
+        "text": "great.",
+        "start": 2911.839,
+        "duration": 3.681
+      },
+      {
+        "text": "Yeah. Yeah. If it has a volunteering",
+        "start": 2913.68,
+        "duration": 5.439
+      },
+      {
+        "text": "category, sure. Um in general I don't",
+        "start": 2915.52,
+        "duration": 6.64
+      },
+      {
+        "text": "like doing in against a list because",
+        "start": 2919.119,
+        "duration": 4.72
+      },
+      {
+        "text": "it's a linear search. It's generally",
+        "start": 2922.16,
+        "duration": 3.679
+      },
+      {
+        "text": "better to use a set which will be O of",
+        "start": 2923.839,
+        "duration": 4.641
+      },
+      {
+        "text": "one.",
+        "start": 2925.839,
+        "duration": 5.76
+      },
+      {
+        "text": "Uh same deal with this keywords. Uh you",
+        "start": 2928.48,
+        "duration": 5.76
+      },
+      {
+        "text": "should use a set for this. The",
+        "start": 2931.599,
+        "duration": 5.281
+      },
+      {
+        "text": "performance for these small lists versus",
+        "start": 2934.24,
+        "duration": 4.4
+      },
+      {
+        "text": "sets is kind of negligible. So I'm not",
+        "start": 2936.88,
+        "duration": 3.92
+      },
+      {
+        "text": "too worried about it.",
+        "start": 2938.64,
+        "duration": 4.56
+      },
+      {
+        "text": "Um okay.",
+        "start": 2940.8,
+        "duration": 5.759
+      },
+      {
+        "text": "I don't love that it's checking if any",
+        "start": 2943.2,
+        "duration": 4.56
+      },
+      {
+        "text": "of these are in the title or",
+        "start": 2946.559,
+        "duration": 2.641
+      },
+      {
+        "text": "description. So, I'll probably delete",
+        "start": 2947.76,
+        "duration": 3.839
+      },
+      {
+        "text": "that.",
+        "start": 2949.2,
+        "duration": 4.48
+      },
+      {
+        "text": "Content for analysis. Preparing content",
+        "start": 2951.599,
+        "duration": 4.641
+      },
+      {
+        "text": "for All right. So, it's doing that. Full",
+        "start": 2953.68,
+        "duration": 4.639
+      },
+      {
+        "text": "extraction prompt.",
+        "start": 2956.24,
+        "duration": 5.2
+      },
+      {
+        "text": "40 mini is absolutely not what we should",
+        "start": 2958.319,
+        "duration": 4.8
+      },
+      {
+        "text": "use. Part of the reason why it's saying",
+        "start": 2961.44,
+        "duration": 4.399
+      },
+      {
+        "text": "40 mini is because we're generating code",
+        "start": 2963.119,
+        "duration": 6.321
+      },
+      {
+        "text": "over here with clawson sonnet 4 and uh",
+        "start": 2965.839,
+        "duration": 6.401
+      },
+      {
+        "text": "we should be using like 41 mini or you",
+        "start": 2969.44,
+        "duration": 6.48
+      },
+      {
+        "text": "know uh I don't think five is available",
+        "start": 2972.24,
+        "duration": 7.52
+      },
+      {
+        "text": "via API yet but um we should be using a",
+        "start": 2975.92,
+        "duration": 6.32
+      },
+      {
+        "text": "newer one but probably cloud sonnet 4",
+        "start": 2979.76,
+        "duration": 5.28
+      },
+      {
+        "text": "was trained on data that uh you know",
+        "start": 2982.24,
+        "duration": 4.64
+      },
+      {
+        "text": "doesn't know about 4.1 so it's",
+        "start": 2985.04,
+        "duration": 4.319
+      },
+      {
+        "text": "generating slightly older stuff. Uh we",
+        "start": 2986.88,
+        "duration": 4.0
+      },
+      {
+        "text": "have aluminum on max tokens. That's",
+        "start": 2989.359,
+        "duration": 6.24
+      },
+      {
+        "text": "okay. Temperature 0.1 that's okay.",
+        "start": 2990.88,
+        "duration": 8.16
+      },
+      {
+        "text": "Parse as and we're parsing as an",
+        "start": 2995.599,
+        "duration": 7.041
+      },
+      {
+        "text": "extracted event or none.",
+        "start": 2999.04,
+        "duration": 8.0
+      },
+      {
+        "text": "So that is okay.",
+        "start": 3002.64,
+        "duration": 8.08
+      },
+      {
+        "text": "If we go into here",
+        "start": 3007.04,
+        "duration": 8.319
+      },
+      {
+        "text": "LLM response it's doing",
+        "start": 3010.72,
+        "duration": 6.72
+      },
+      {
+        "text": "uh oh jeez there's so much wrong with",
+        "start": 3015.359,
+        "duration": 5.48
+      },
+      {
+        "text": "this. Um,",
+        "start": 3017.44,
+        "duration": 3.399
+      },
+      {
+        "text": "so, so it's doing doing coding style",
+        "start": 3023.28,
+        "duration": 6.24
+      },
+      {
+        "text": "with LLMs that's that's outdated. Um, as",
+        "start": 3026.079,
+        "duration": 6.721
+      },
+      {
+        "text": "a general rule,",
+        "start": 3029.52,
+        "duration": 5.44
+      },
+      {
+        "text": "um, I'll show you what in gerally you",
+        "start": 3032.8,
+        "duration": 4.88
+      },
+      {
+        "text": "should do in a sec. Um, let's see if we",
+        "start": 3034.96,
+        "duration": 5.92
+      },
+      {
+        "text": "can go over to LM canonicalization.",
+        "start": 3037.68,
+        "duration": 5.36
+      },
+      {
+        "text": "So, as a general rule, like say you have",
+        "start": 3040.88,
+        "duration": 4.0
+      },
+      {
+        "text": "this, you know, big old list of",
+        "start": 3043.04,
+        "duration": 3.84
+      },
+      {
+        "text": "instructions.",
+        "start": 3044.88,
+        "duration": 4.56
+      },
+      {
+        "text": "uh you have your sort of standard here's",
+        "start": 3046.88,
+        "duration": 5.84
+      },
+      {
+        "text": "your directions you know how you should",
+        "start": 3049.44,
+        "duration": 5.679
+      },
+      {
+        "text": "behave as an agent and then here's the",
+        "start": 3052.72,
+        "duration": 5.2
+      },
+      {
+        "text": "input that I want you to process and",
+        "start": 3055.119,
+        "duration": 7.521
+      },
+      {
+        "text": "then you run it through uh you know in",
+        "start": 3057.92,
+        "duration": 6.72
+      },
+      {
+        "text": "this case open AI client chat",
+        "start": 3062.64,
+        "duration": 4.88
+      },
+      {
+        "text": "completions parse uh this one is using",
+        "start": 3064.64,
+        "duration": 5.6
+      },
+      {
+        "text": "gpt 4.1",
+        "start": 3067.52,
+        "duration": 4.88
+      },
+      {
+        "text": "and we're doing a response format so",
+        "start": 3070.24,
+        "duration": 3.68
+      },
+      {
+        "text": "we're actually giving it a pideantic",
+        "start": 3072.4,
+        "duration": 2.64
+      },
+      {
+        "text": "model we're having it generate",
+        "start": 3073.92,
+        "duration": 2.72
+      },
+      {
+        "text": "structured data that's what we wanted to",
+        "start": 3075.04,
+        "duration": 5.12
+      },
+      {
+        "text": "do um instead and this is something that",
+        "start": 3076.64,
+        "duration": 5.52
+      },
+      {
+        "text": "you can do with most of the LLM",
+        "start": 3080.16,
+        "duration": 3.919
+      },
+      {
+        "text": "providers",
+        "start": 3082.16,
+        "duration": 5.52
+      },
+      {
+        "text": "instead the code that uh was generated",
+        "start": 3084.079,
+        "duration": 5.841
+      },
+      {
+        "text": "here",
+        "start": 3087.68,
+        "duration": 5.52
+      },
+      {
+        "text": "uh this parse LLM response or sorry I",
+        "start": 3089.92,
+        "duration": 6.96
+      },
+      {
+        "text": "should say all right so we're doing this",
+        "start": 3093.2,
+        "duration": 5.84
+      },
+      {
+        "text": "here right client chat completions",
+        "start": 3096.88,
+        "duration": 5.6
+      },
+      {
+        "text": "create we have all this stuff here we",
+        "start": 3099.04,
+        "duration": 5.84
+      },
+      {
+        "text": "don't have a response format it's just",
+        "start": 3102.48,
+        "duration": 5.92
+      },
+      {
+        "text": "giving us text back and we're probably",
+        "start": 3104.88,
+        "duration": 5.6
+      },
+      {
+        "text": "doing something like please please send",
+        "start": 3108.4,
+        "duration": 5.6
+      },
+      {
+        "text": "us JSON pretty please and then here in",
+        "start": 3110.48,
+        "duration": 7.2
+      },
+      {
+        "text": "parsl response we're saying go search",
+        "start": 3114.0,
+        "duration": 5.839
+      },
+      {
+        "text": "reax and search for any JSON this is",
+        "start": 3117.68,
+        "duration": 6.32
+      },
+      {
+        "text": "like the old way to do it that was like",
+        "start": 3119.839,
+        "duration": 7.121
+      },
+      {
+        "text": "uh common like a year and a half ago um",
+        "start": 3124.0,
+        "duration": 6.88
+      },
+      {
+        "text": "even maybe a year ago it's super dubious",
+        "start": 3126.96,
+        "duration": 7.76
+      },
+      {
+        "text": "um half the time it's going to crash",
+        "start": 3130.88,
+        "duration": 7.439
+      },
+      {
+        "text": "um And then your recourse is to just try",
+        "start": 3134.72,
+        "duration": 7.599
+      },
+      {
+        "text": "again or rerun it. So",
+        "start": 3138.319,
+        "duration": 8.361
+      },
+      {
+        "text": "yeah. Uh",
+        "start": 3142.319,
+        "duration": 4.361
+      },
+      {
+        "text": "can't believe it generated that. That's",
+        "start": 3147.68,
+        "duration": 4.159
+      },
+      {
+        "text": "really disappointing. Let's look at the",
+        "start": 3149.2,
+        "duration": 6.84
+      },
+      {
+        "text": "what prompt did it give us here?",
+        "start": 3151.839,
+        "duration": 4.201
+      },
+      {
+        "text": "You're an expert at this. So I do like",
+        "start": 3158.4,
+        "duration": 4.24
+      },
+      {
+        "text": "that you know in in this case we're",
+        "start": 3160.96,
+        "duration": 3.119
+      },
+      {
+        "text": "saying we're explaining our data",
+        "start": 3162.64,
+        "duration": 3.04
+      },
+      {
+        "text": "structure. That's that's good. That's",
+        "start": 3164.079,
+        "duration": 3.361
+      },
+      {
+        "text": "something you should generally do.",
+        "start": 3165.68,
+        "duration": 3.679
+      },
+      {
+        "text": "Return your response as a JSON object.",
+        "start": 3167.44,
+        "duration": 3.76
+      },
+      {
+        "text": "Yeah, I mean that's good to do, too. But",
+        "start": 3169.359,
+        "duration": 3.921
+      },
+      {
+        "text": "we got to do, you know, specify the",
+        "start": 3171.2,
+        "duration": 4.639
+      },
+      {
+        "text": "output format. Uh focus only on",
+        "start": 3173.28,
+        "duration": 4.88
+      },
+      {
+        "text": "volunteer events with specific dates.",
+        "start": 3175.839,
+        "duration": 5.921
+      },
+      {
+        "text": "So, one thing that I do want to bring up",
+        "start": 3178.16,
+        "duration": 6.399
+      },
+      {
+        "text": "is that like we give us this this",
+        "start": 3181.76,
+        "duration": 8.2
+      },
+      {
+        "text": "instruction right here, right? uh",
+        "start": 3184.559,
+        "duration": 5.401
+      },
+      {
+        "text": "says extract any outdoor volunteer",
+        "start": 3190.0,
+        "duration": 5.8
+      },
+      {
+        "text": "events",
+        "start": 3192.8,
+        "duration": 3.0
+      },
+      {
+        "text": "event information. The thing I'm looking",
+        "start": 3197.04,
+        "duration": 3.6
+      },
+      {
+        "text": "for is to try to figure out if it",
+        "start": 3198.88,
+        "duration": 3.76
+      },
+      {
+        "text": "designed it to extract multiple events",
+        "start": 3200.64,
+        "duration": 4.32
+      },
+      {
+        "text": "from a singular single blog post or",
+        "start": 3202.64,
+        "duration": 4.16
+      },
+      {
+        "text": "single events from, you know, zero or",
+        "start": 3204.96,
+        "duration": 4.8
+      },
+      {
+        "text": "one or is it, you know, up to n because",
+        "start": 3206.8,
+        "duration": 5.279
+      },
+      {
+        "text": "that post actually mentioned two",
+        "start": 3209.76,
+        "duration": 6.68
+      },
+      {
+        "text": "volunteer events, not just one.",
+        "start": 3212.079,
+        "duration": 4.361
+      },
+      {
+        "text": "And so here you can see optional event",
+        "start": 3216.88,
+        "duration": 7.52
+      },
+      {
+        "text": "which means it can return zero or one.",
+        "start": 3220.24,
+        "duration": 6.0
+      },
+      {
+        "text": "Uh but in this case, the blog post",
+        "start": 3224.4,
+        "duration": 4.0
+      },
+      {
+        "text": "mentions two.",
+        "start": 3226.24,
+        "duration": 4.319
+      },
+      {
+        "text": "Uh and so the LM is probably going to",
+        "start": 3228.4,
+        "duration": 4.32
+      },
+      {
+        "text": "have a hard time",
+        "start": 3230.559,
+        "duration": 4.881
+      },
+      {
+        "text": "because we're telling it, oh, give us",
+        "start": 3232.72,
+        "duration": 4.399
+      },
+      {
+        "text": "one event, but the post actually has",
+        "start": 3235.44,
+        "duration": 3.36
+      },
+      {
+        "text": "two.",
+        "start": 3237.119,
+        "duration": 4.641
+      },
+      {
+        "text": "Um so that's going to be problematic.",
+        "start": 3238.8,
+        "duration": 6.92
+      },
+      {
+        "text": "Oh, hang on one sec.",
+        "start": 3241.76,
+        "duration": 3.96
+      },
+      {
+        "text": "Yeah.",
+        "start": 3286.24,
+        "duration": 3.0
+      },
+      {
+        "text": "Thank you.",
+        "start": 3358.24,
+        "duration": 3.16
+      },
+      {
+        "text": "Well, uh, found out why people were",
+        "start": 3383.52,
+        "duration": 4.96
+      },
+      {
+        "text": "hanging off the roof is because, uh,",
+        "start": 3386.319,
+        "duration": 4.0
+      },
+      {
+        "text": "they lost their key and they're trying",
+        "start": 3388.48,
+        "duration": 5.2
+      },
+      {
+        "text": "to track their Air Tag and they thought",
+        "start": 3390.319,
+        "duration": 6.721
+      },
+      {
+        "text": "maybe it was in my place but it wasn't.",
+        "start": 3393.68,
+        "duration": 4.879
+      },
+      {
+        "text": "Um",
+        "start": 3397.04,
+        "duration": 4.4
+      },
+      {
+        "text": "I guess maybe I'll just I'll I'll go on",
+        "start": 3398.559,
+        "duration": 7.841
+      },
+      {
+        "text": "for like a couple more minutes. Um",
+        "start": 3401.44,
+        "duration": 9.28
+      },
+      {
+        "text": "so uh so quick check of where things are",
+        "start": 3406.4,
+        "duration": 6.08
+      },
+      {
+        "text": "at. So part of the reason why I'm",
+        "start": 3410.72,
+        "duration": 4.56
+      },
+      {
+        "text": "looking through the LLM results in",
+        "start": 3412.48,
+        "duration": 4.48
+      },
+      {
+        "text": "detail, there's two reasons for it. One",
+        "start": 3415.28,
+        "duration": 2.88
+      },
+      {
+        "text": "is because we're in an educational",
+        "start": 3416.96,
+        "duration": 2.8
+      },
+      {
+        "text": "setting, right? And so I want to make",
+        "start": 3418.16,
+        "duration": 3.6
+      },
+      {
+        "text": "sure that that we can all learn from it.",
+        "start": 3419.76,
+        "duration": 4.559
+      },
+      {
+        "text": "Um if I were",
+        "start": 3421.76,
+        "duration": 4.16
+      },
+      {
+        "text": "um you know just on my own, maybe I",
+        "start": 3424.319,
+        "duration": 3.921
+      },
+      {
+        "text": "would just run stuff and see um in this",
+        "start": 3425.92,
+        "duration": 4.56
+      },
+      {
+        "text": "case you know that it wants to run a",
+        "start": 3428.24,
+        "duration": 4.4
+      },
+      {
+        "text": "dedicated script in the test folder not",
+        "start": 3430.48,
+        "duration": 4.079
+      },
+      {
+        "text": "through pi test. I would be h I don't",
+        "start": 3432.64,
+        "duration": 4.8
+      },
+      {
+        "text": "know. Um",
+        "start": 3434.559,
+        "duration": 4.961
+      },
+      {
+        "text": "so that's one thing. The other reason",
+        "start": 3437.44,
+        "duration": 4.8
+      },
+      {
+        "text": "why um",
+        "start": 3439.52,
+        "duration": 6.88
+      },
+      {
+        "text": "uh I I didn't um didn't want to just go",
+        "start": 3442.24,
+        "duration": 7.04
+      },
+      {
+        "text": "try and run the tests because when I was",
+        "start": 3446.4,
+        "duration": 6.12
+      },
+      {
+        "text": "over here",
+        "start": 3449.28,
+        "duration": 3.24
+      },
+      {
+        "text": "uh was it when I was over here",
+        "start": 3452.72,
+        "duration": 4.359
+      },
+      {
+        "text": "testing the parse item that's fine",
+        "start": 3459.839,
+        "duration": 7.52
+      },
+      {
+        "text": "event maybe it wasn't over there but",
+        "start": 3465.2,
+        "duration": 4.32
+      },
+      {
+        "text": "somewhere in here I noticed that it was",
+        "start": 3467.359,
+        "duration": 3.76
+      },
+      {
+        "text": "doing this thing of like optional",
+        "start": 3469.52,
+        "duration": 3.839
+      },
+      {
+        "text": "events.",
+        "start": 3471.119,
+        "duration": 3.761
+      },
+      {
+        "text": "So, it's assuming that it's only going",
+        "start": 3473.359,
+        "duration": 5.121
+      },
+      {
+        "text": "to get one. Um, and I know that that",
+        "start": 3474.88,
+        "duration": 8.08
+      },
+      {
+        "text": "particular event has two. Um, and so",
+        "start": 3478.48,
+        "duration": 6.879
+      },
+      {
+        "text": "what we'll have to do to make this work,",
+        "start": 3482.96,
+        "duration": 5.04
+      },
+      {
+        "text": "and I'll do this um probably over the",
+        "start": 3485.359,
+        "duration": 7.0
+      },
+      {
+        "text": "weekend, is",
+        "start": 3488.0,
+        "duration": 4.359
+      },
+      {
+        "text": "uh let's see where to put it.",
+        "start": 3493.119,
+        "duration": 4.521
+      },
+      {
+        "text": "It's not in parse lm response. It's the",
+        "start": 3499.68,
+        "duration": 4.72
+      },
+      {
+        "text": "thing that calls it.",
+        "start": 3501.76,
+        "duration": 5.44
+      },
+      {
+        "text": "So here",
+        "start": 3504.4,
+        "duration": 5.76
+      },
+      {
+        "text": "where we're doing this call, uh what I'm",
+        "start": 3507.2,
+        "duration": 6.639
+      },
+      {
+        "text": "going to do is to um set a return type.",
+        "start": 3510.16,
+        "duration": 6.08
+      },
+      {
+        "text": "So sort of like I do here where I set",
+        "start": 3513.839,
+        "duration": 5.441
+      },
+      {
+        "text": "response format.",
+        "start": 3516.24,
+        "duration": 4.8
+      },
+      {
+        "text": "I mean also I'm going to change the",
+        "start": 3519.28,
+        "duration": 4.4
+      },
+      {
+        "text": "model to be a better one too, but I'll",
+        "start": 3521.04,
+        "duration": 6.0
+      },
+      {
+        "text": "set a response format uh to one that can",
+        "start": 3523.68,
+        "duration": 5.119
+      },
+      {
+        "text": "have you know an arbitrary number of",
+        "start": 3527.04,
+        "duration": 3.519
+      },
+      {
+        "text": "events. So that's one of the things we",
+        "start": 3528.799,
+        "duration": 5.361
+      },
+      {
+        "text": "need to do is to you know extract a list",
+        "start": 3530.559,
+        "duration": 8.0
+      },
+      {
+        "text": "of events. And so probably",
+        "start": 3534.16,
+        "duration": 8.439
+      },
+      {
+        "text": "we could say it looks like",
+        "start": 3538.559,
+        "duration": 4.04
+      },
+      {
+        "text": "s extract",
+        "start": 3543.28,
+        "duration": 3.64
+      },
+      {
+        "text": "extracted event list",
+        "start": 3546.96,
+        "duration": 6.0
+      },
+      {
+        "text": "base model and then it's just going to",
+        "start": 3551.04,
+        "duration": 5.84
+      },
+      {
+        "text": "look like that events.",
+        "start": 3552.96,
+        "duration": 6.639
+      },
+      {
+        "text": "So then down here, what we're going to",
+        "start": 3556.88,
+        "duration": 6.6
+      },
+      {
+        "text": "do is we're going to say",
+        "start": 3559.599,
+        "duration": 3.881
+      },
+      {
+        "text": "response format equals extracted event.",
+        "start": 3566.16,
+        "duration": 7.48
+      },
+      {
+        "text": "Uh why are you mad?",
+        "start": 3569.44,
+        "duration": 4.2
+      },
+      {
+        "text": "I think it's parse if I remember.",
+        "start": 3575.04,
+        "duration": 4.92
+      },
+      {
+        "text": "Parse. Let's see.",
+        "start": 3580.72,
+        "duration": 4.2
+      },
+      {
+        "text": "Chat completions. parse. Yeah,",
+        "start": 3585.119,
+        "duration": 5.921
+      },
+      {
+        "text": "just copy paste this so I make sure that",
+        "start": 3589.28,
+        "duration": 4.72
+      },
+      {
+        "text": "I get the thing exactly right. So parse",
+        "start": 3591.04,
+        "duration": 6.559
+      },
+      {
+        "text": "reports response format. Great.",
+        "start": 3594.0,
+        "duration": 5.68
+      },
+      {
+        "text": "And then note there's a couple",
+        "start": 3597.599,
+        "duration": 4.161
+      },
+      {
+        "text": "differences here in the way that model",
+        "start": 3599.68,
+        "duration": 3.84
+      },
+      {
+        "text": "actually let me split this so that we",
+        "start": 3601.76,
+        "duration": 5.88
+      },
+      {
+        "text": "can I can show it more clearly.",
+        "start": 3603.52,
+        "duration": 4.12
+      },
+      {
+        "text": "Okay. So there's two or three different",
+        "start": 3609.359,
+        "duration": 5.2
+      },
+      {
+        "text": "there. Well, there's two there's a",
+        "start": 3612.48,
+        "duration": 4.4
+      },
+      {
+        "text": "couple different things going on here.",
+        "start": 3614.559,
+        "duration": 5.681
+      },
+      {
+        "text": "One is that here we're using GPT 4.1.",
+        "start": 3616.88,
+        "duration": 6.4
+      },
+      {
+        "text": "This is GPT40 mini. Um, so we want to",
+        "start": 3620.24,
+        "duration": 5.599
+      },
+      {
+        "text": "use the newer model and uh while we're",
+        "start": 3623.28,
+        "duration": 4.48
+      },
+      {
+        "text": "in development, I'll probably use, you",
+        "start": 3625.839,
+        "duration": 5.681
+      },
+      {
+        "text": "know, 4.1. Um, not the mini. Um, it",
+        "start": 3627.76,
+        "duration": 5.68
+      },
+      {
+        "text": "costs more, but I'm using the GitHub",
+        "start": 3631.52,
+        "duration": 4.16
+      },
+      {
+        "text": "one, so it's it's free. Um, it just",
+        "start": 3633.44,
+        "duration": 3.76
+      },
+      {
+        "text": "means that I'm going to run out of, you",
+        "start": 3635.68,
+        "duration": 3.28
+      },
+      {
+        "text": "know, ability to process at a certain",
+        "start": 3637.2,
+        "duration": 3.68
+      },
+      {
+        "text": "point.",
+        "start": 3638.96,
+        "duration": 5.359
+      },
+      {
+        "text": "uh this open AI slash thing here is",
+        "start": 3640.88,
+        "duration": 5.76
+      },
+      {
+        "text": "actually a special case situation",
+        "start": 3644.319,
+        "duration": 5.361
+      },
+      {
+        "text": "because we're using GitHub models. So I",
+        "start": 3646.64,
+        "duration": 6.0
+      },
+      {
+        "text": "will show you the client call there.",
+        "start": 3649.68,
+        "duration": 4.879
+      },
+      {
+        "text": "So luckily this is calling the same git",
+        "start": 3652.64,
+        "duration": 5.52
+      },
+      {
+        "text": "client. Um but we are loading a GitHub",
+        "start": 3654.559,
+        "duration": 6.0
+      },
+      {
+        "text": "token from the environment",
+        "start": 3658.16,
+        "duration": 5.36
+      },
+      {
+        "text": "and then the endpoint which is the",
+        "start": 3660.559,
+        "duration": 4.481
+      },
+      {
+        "text": "server we're connecting to is actually",
+        "start": 3663.52,
+        "duration": 4.52
+      },
+      {
+        "text": "models.github.aiinference.",
+        "start": 3665.04,
+        "duration": 3.0
+      },
+      {
+        "text": "It's not actually an OpenAI server. It's",
+        "start": 3668.319,
+        "duration": 5.52
+      },
+      {
+        "text": "a model. It's a server that GitHub owns,",
+        "start": 3670.4,
+        "duration": 5.04
+      },
+      {
+        "text": "but they've made their servers",
+        "start": 3673.839,
+        "duration": 6.641
+      },
+      {
+        "text": "compatible with the OpenAI LLM library",
+        "start": 3675.44,
+        "duration": 8.639
+      },
+      {
+        "text": "if you pass in this base URL thing and",
+        "start": 3680.48,
+        "duration": 6.079
+      },
+      {
+        "text": "the GitHub token.",
+        "start": 3684.079,
+        "duration": 5.48
+      },
+      {
+        "text": "Um,",
+        "start": 3686.559,
+        "duration": 3.0
+      },
+      {
+        "text": "all right. Sorry. Maybe I'll I'll kind",
+        "start": 3689.76,
+        "duration": 5.92
+      },
+      {
+        "text": "of sort of stop there in the the coding",
+        "start": 3691.359,
+        "duration": 6.161
+      },
+      {
+        "text": "part and just sort of see like are there",
+        "start": 3695.68,
+        "duration": 3.119
+      },
+      {
+        "text": "things that people were wondering about",
+        "start": 3697.52,
+        "duration": 4.4
+      },
+      {
+        "text": "or you know questions people had or um",
+        "start": 3698.799,
+        "duration": 7.241
+      },
+      {
+        "text": "you know anything you're curious about",
+        "start": 3701.92,
+        "duration": 4.12
+      },
+      {
+        "text": "All right. Well, uh, since there are no",
+        "start": 3736.24,
+        "duration": 4.4
+      },
+      {
+        "text": "questions, uh, what I'll actually do is,",
+        "start": 3738.319,
+        "duration": 3.921
+      },
+      {
+        "text": "you know, get get started working on",
+        "start": 3740.64,
+        "duration": 4.959
+      },
+      {
+        "text": "dinner here and, uh,",
+        "start": 3742.24,
+        "duration": 5.599
+      },
+      {
+        "text": "and, yeah, then I can try to come back",
+        "start": 3745.599,
+        "duration": 4.801
+      },
+      {
+        "text": "to this and, uh, clean up some of this",
+        "start": 3747.839,
+        "duration": 5.361
+      },
+      {
+        "text": "this AI generated stuff here. Um, it",
+        "start": 3750.4,
+        "duration": 4.56
+      },
+      {
+        "text": "probably won't be too bad. I'm saying,",
+        "start": 3753.2,
+        "duration": 3.919
+      },
+      {
+        "text": "you know, I'm forcing a type to that.",
+        "start": 3754.96,
+        "duration": 5.119
+      },
+      {
+        "text": "Um, probably just have to offer a little",
+        "start": 3757.119,
+        "duration": 9.321
+      },
+      {
+        "text": "bit of um, uh, let's see here. Um,",
+        "start": 3760.079,
+        "duration": 6.361
+      },
+      {
+        "text": "little bit of",
+        "start": 3766.88,
+        "duration": 5.84
+      },
+      {
+        "text": "probably in here",
+        "start": 3770.24,
+        "duration": 5.04
+      },
+      {
+        "text": "um, guidelines here about like how to",
+        "start": 3772.72,
+        "duration": 6.8
+      },
+      {
+        "text": "process um, multiple events. Um, and",
+        "start": 3775.28,
+        "duration": 6.48
+      },
+      {
+        "text": "then the other thing that I noticed that",
+        "start": 3779.52,
+        "duration": 3.68
+      },
+      {
+        "text": "we don't have in here is we don't have",
+        "start": 3781.76,
+        "duration": 3.2
+      },
+      {
+        "text": "caching.",
+        "start": 3783.2,
+        "duration": 4.639
+      },
+      {
+        "text": "And so, um, what that means is that",
+        "start": 3784.96,
+        "duration": 4.72
+      },
+      {
+        "text": "every time I run the test, it's going to",
+        "start": 3787.839,
+        "duration": 5.041
+      },
+      {
+        "text": "go and do, I don't know, 10 20 LM calls.",
+        "start": 3789.68,
+        "duration": 4.96
+      },
+      {
+        "text": "Um, well, if it keeps doing that, I'm",
+        "start": 3792.88,
+        "duration": 3.919
+      },
+      {
+        "text": "just going to run out of, um, you know,",
+        "start": 3794.64,
+        "duration": 6.04
+      },
+      {
+        "text": "LM uh,",
+        "start": 3796.799,
+        "duration": 3.881
+      },
+      {
+        "text": "however GitHub handles their like rate",
+        "start": 3801.76,
+        "duration": 5.039
+      },
+      {
+        "text": "limiting and quotas. And so, you know, I",
+        "start": 3804.319,
+        "duration": 4.321
+      },
+      {
+        "text": "have to figure out a little bit of a",
+        "start": 3806.799,
+        "duration": 6.0
+      },
+      {
+        "text": "better way of handling that. Um,",
+        "start": 3808.64,
+        "duration": 5.84
+      },
+      {
+        "text": "so I might need to do something a little",
+        "start": 3812.799,
+        "duration": 3.601
+      },
+      {
+        "text": "bit differently for the sake of testing",
+        "start": 3814.48,
+        "duration": 3.599
+      },
+      {
+        "text": "because I don't want the unit test",
+        "start": 3816.4,
+        "duration": 4.88
+      },
+      {
+        "text": "themselves to drain all of my GitHub",
+        "start": 3818.079,
+        "duration": 6.24
+      },
+      {
+        "text": "models LLM usage. Um, and then, you",
+        "start": 3821.28,
+        "duration": 4.4
+      },
+      {
+        "text": "know, prevent me from using it for",
+        "start": 3824.319,
+        "duration": 4.601
+      },
+      {
+        "text": "anything else.",
+        "start": 3825.68,
+        "duration": 3.24
+      },
+      {
+        "text": "All right. Well, yeah, it was it was,",
+        "start": 3831.52,
+        "duration": 4.0
+      },
+      {
+        "text": "you know, a good time. talked through",
+        "start": 3834.079,
+        "duration": 4.0
+      },
+      {
+        "text": "some good stuff and uh you know made",
+        "start": 3835.52,
+        "duration": 4.64
+      },
+      {
+        "text": "some made some progress on something",
+        "start": 3838.079,
+        "duration": 3.52
+      },
+      {
+        "text": "that's been on my list for a little",
+        "start": 3840.16,
+        "duration": 4.56
+      },
+      {
+        "text": "while. So uh have a bit of llm clean up",
+        "start": 3841.599,
+        "duration": 5.041
+      },
+      {
+        "text": "to do still",
+        "start": 3844.72,
+        "duration": 4.24
+      },
+      {
+        "text": "and uh yeah I hope you guys have a good",
+        "start": 3846.64,
+        "duration": 5.719
+      },
+      {
+        "text": "rest of your weekend.",
+        "start": 3848.96,
+        "duration": 3.399
+      },
+      {
+        "text": ">> Same to you. Thank you.",
+        "start": 3854.24,
+        "duration": 3.879
+      },
+      {
+        "text": "All right, just shutting down the screen",
+        "start": 3861.119,
+        "duration": 4.841
+      },
+      {
+        "text": "share",
+        "start": 3862.96,
+        "duration": 3.0
+      },
+      {
+        "text": "or trying to",
+        "start": 3866.0,
+        "duration": 5.72
+      },
+      {
+        "text": "stop share.",
+        "start": 3868.4,
+        "duration": 3.32
+      }
+    ]
+  }
+}
