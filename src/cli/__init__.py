@@ -3,6 +3,7 @@
 import logging
 
 import click
+from dotenv import load_dotenv
 
 from .reddit import reddit
 from .youtube import youtube
@@ -13,6 +14,7 @@ logging.basicConfig(
     format='%(levelname)s:%(name)s:%(message)s'
 )
 
+load_dotenv()
 
 @click.group()
 def cli():
