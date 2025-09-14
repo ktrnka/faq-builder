@@ -1,0 +1,1257 @@
+{
+  "reddit": [
+    {
+      "title": "Support KB Chatbot Training",
+      "id": "10tnp9h",
+      "summary": "User asks for best approach to train a chatbot on product documentation and support knowledge base for on-premises deployment.",
+      "topics": [
+        "tool-selection",
+        "nlp-applications"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "beginners"
+      ],
+      "content_block": "\n   - **Summary**: User asks for best approach to train a chatbot on product documentation and support knowledge base for on-premises deployment.\n   - Topics: `tool-selection`, `nlp-applications`\n   - Domain: `general-tech`\n   - Audience: `practitioners`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "beginners"
+      ]
+    },
+    {
+      "title": "Correct Phrase from Bag of Words",
+      "id": "10w6nik",
+      "summary": "Question about reconstructing grammatically correct phrases from bag-of-words representations.",
+      "topics": [
+        "nlp-applications",
+        "concept-explanation"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n   - **Summary**: Question about reconstructing grammatically correct phrases from bag-of-words representations.\n   - Topics: `nlp-applications`, `concept-explanation`\n   - Domain: `general-tech`\n   - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Simple Questions Thread",
+      "id": "110j0cp",
+      "summary": "Weekly thread containing multiple beginner questions about NLP concepts, tools, and career advice.",
+      "topics": [
+        "nlp-applications",
+        "concept-explanation",
+        "tool-selection"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "beginners"
+      ],
+      "content_block": "\n   - **Summary**: Weekly thread containing multiple beginner questions about NLP concepts, tools, and career advice.\n   - Topics: `nlp-applications`, `concept-explanation`, `tool-selection`\n   - Domain: `general-tech`\n   - Audience: `practitioners`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "beginners"
+      ]
+    },
+    {
+      "title": "Simple Questions Thread",
+      "id": "11pgj86",
+      "summary": "Another weekly simple questions thread focusing on NLP concepts and implementation guidance.",
+      "topics": [
+        "nlp-applications",
+        "concept-explanation"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "beginners"
+      ],
+      "content_block": "\n    - **Summary**: Another weekly simple questions thread focusing on NLP concepts and implementation guidance.\n    - Topics: `nlp-applications`, `concept-explanation`\n    - Domain: `general-tech`\n    - Audience: `practitioners`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "beginners"
+      ]
+    },
+    {
+      "title": "NLP for Healthcare Clinical Notes",
+      "id": "11toa73",
+      "summary": "Discussion about applying natural language processing techniques to clinical notes and healthcare text data.",
+      "topics": [
+        "nlp-applications",
+        "tool-selection",
+        "data-management"
+      ],
+      "domain": "healthcare",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Discussion about applying natural language processing techniques to clinical notes and healthcare text data.\n    - Topics: `nlp-applications`, `tool-selection`, `data-management`\n    - Domain: `healthcare`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "healthcare",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Dockerfile Lambda vs ECS",
+      "id": "120ois4",
+      "summary": "Technical question comparing AWS Lambda vs ECS for deploying ML models using Docker containers.",
+      "topics": [
+        "ml-deployment",
+        "tool-selection"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Technical question comparing AWS Lambda vs ECS for deploying ML models using Docker containers.\n    - Topics: `ml-deployment`, `tool-selection`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Manual Training Job Execution",
+      "id": "12b8n4j",
+      "summary": "Question about whether to manually execute training jobs vs automated scheduling for ML model development.",
+      "topics": [
+        "ml-deployment",
+        "management-advice"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "managers"
+      ],
+      "content_block": "\n    - **Summary**: Question about whether to manually execute training jobs vs automated scheduling for ML model development.\n    - Topics: `ml-deployment`, `management-advice`\n    - Domain: `general-tech`\n    - Audience: `practitioners`, `managers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "managers-leads"
+      ]
+    },
+    {
+      "title": "LLM Inference Terminology",
+      "id": "151jgeh",
+      "summary": "Clarification question about whether \"inference\" is the correct terminology for LLM text generation vs \"prediction\".",
+      "topics": [
+        "concept-explanation",
+        "nlp-applications"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners",
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Clarification question about whether \"inference\" is the correct terminology for LLM text generation vs \"prediction\".\n    - Topics: `concept-explanation`, `nlp-applications`\n    - Domain: `general-tech`\n    - Audience: `beginners`, `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners",
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Profanity Filter Implementation",
+      "id": "1890xjt",
+      "summary": "Game developer seeking recommendations for implementing profanity filters in multiplayer chat with considerations for ESRB ratings, multilingual support, and false positives.",
+      "topics": [
+        "nlp-applications",
+        "tool-selection",
+        "troubleshooting"
+      ],
+      "domain": "gaming",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Game developer seeking recommendations for implementing profanity filters in multiplayer chat with considerations for ESRB ratings, multilingual support, and false positives.\n    - Topics: `nlp-applications`, `tool-selection`, `troubleshooting`\n    - Domain: `gaming`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "gaming",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Training Language Models on Native Languages",
+      "id": "1agbbvg",
+      "summary": "Developer wanting to train language models on Afrikaans, asking about fine-tuning vs training from scratch, tokenizers, and data collection strategies.",
+      "topics": [
+        "low-resource-ml",
+        "nlp-applications",
+        "data-management"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "researchers"
+      ],
+      "content_block": "\n    - **Summary**: Developer wanting to train language models on Afrikaans, asking about fine-tuning vs training from scratch, tokenizers, and data collection strategies.\n    - Topics: `low-resource-ml`, `nlp-applications`, `data-management`\n    - Domain: `general-tech`\n    - Audience: `practitioners`, `researchers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "researchers-academics"
+      ]
+    },
+    {
+      "title": "Healthcare Sector NLP Analysis",
+      "id": "1dk8gpy",
+      "summary": "Professional seeking advice on analyzing patient feedback from online conversations, clinical notes, and surveys in healthcare setting.",
+      "topics": [
+        "nlp-applications",
+        "data-management",
+        "tool-selection"
+      ],
+      "domain": "healthcare",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Professional seeking advice on analyzing patient feedback from online conversations, clinical notes, and surveys in healthcare setting.\n    - Topics: `nlp-applications`, `data-management`, `tool-selection`\n    - Domain: `healthcare`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "healthcare",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "SOTA Language Identification Short Text",
+      "id": "1f6u9br",
+      "summary": "Request for state-of-the-art language identification models under 20MB that work well on very short texts (1-5 words) across multiple languages.",
+      "topics": [
+        "nlp-applications",
+        "tool-selection",
+        "low-resource-ml"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Request for state-of-the-art language identification models under 20MB that work well on very short texts (1-5 words) across multiple languages.\n    - Topics: `nlp-applications`, `tool-selection`, `low-resource-ml`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Community-Led RAG System",
+      "id": "1f81al7",
+      "summary": "Seeking advice on building a community-contributed RAG-based AI system with user-friendly database for multiple contributors.",
+      "topics": [
+        "nlp-applications",
+        "tool-selection",
+        "data-management"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "managers"
+      ],
+      "content_block": "\n    - **Summary**: Seeking advice on building a community-contributed RAG-based AI system with user-friendly database for multiple contributors.\n    - Topics: `nlp-applications`, `tool-selection`, `data-management`\n    - Domain: `general-tech`\n    - Audience: `practitioners`, `managers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "managers-leads"
+      ]
+    },
+    {
+      "title": "Multi-agent vs Translation Thesis Choice",
+      "id": "1fchkwi",
+      "summary": "Student choosing between thesis projects on multi-agent AI safety simulations vs low-resource machine translation for career prospects.",
+      "topics": [
+        "academic-guidance",
+        "career-transition",
+        "low-resource-ml"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "researchers",
+        "career-changers"
+      ],
+      "content_block": "\n    - **Summary**: Student choosing between thesis projects on multi-agent AI safety simulations vs low-resource machine translation for career prospects.\n    - Topics: `academic-guidance`, `career-transition`, `low-resource-ml`\n    - Domain: `general-tech`\n    - Audience: `researchers`, `career-changers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "researchers-academics",
+        "career-changers"
+      ]
+    },
+    {
+      "title": "LSTM for Language Identification",
+      "id": "1fl8qjg",
+      "summary": "Question about why Apple uses LSTMs over other architectures for character-based language identification on short text strings.",
+      "topics": [
+        "concept-explanation",
+        "nlp-applications",
+        "model-evaluation"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Question about why Apple uses LSTMs over other architectures for character-based language identification on short text strings.\n    - Topics: `concept-explanation`, `nlp-applications`, `model-evaluation`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Product Reviews NLP Limitations",
+      "id": "1fojknt",
+      "summary": "User struggling with traditional NLP sentiment analysis on product reviews, finding LLMs more effective, questioning when to use traditional NLP vs LLMs.",
+      "topics": [
+        "nlp-applications",
+        "tool-selection",
+        "concept-explanation"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "beginners"
+      ],
+      "content_block": "\n    - **Summary**: User struggling with traditional NLP sentiment analysis on product reviews, finding LLMs more effective, questioning when to use traditional NLP vs LLMs.\n    - Topics: `nlp-applications`, `tool-selection`, `concept-explanation`\n    - Domain: `general-tech`\n    - Audience: `practitioners`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "beginners"
+      ]
+    },
+    {
+      "title": "Local RAG for Sensitive Data",
+      "id": "1fp88ot",
+      "summary": "NLP intern building fully local RAG application for sensitive data, experiencing relevance and speed issues with local embeddings vs cloud solutions.",
+      "topics": [
+        "nlp-applications",
+        "data-privacy",
+        "infrastructure-setup"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: NLP intern building fully local RAG application for sensitive data, experiencing relevance and speed issues with local embeddings vs cloud solutions.\n    - Topics: `nlp-applications`, `data-privacy`, `infrastructure-setup`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Custom Model vs GPT Decision",
+      "id": "1fted2g",
+      "summary": "Non-expert questioning when to build custom ML models vs using existing APIs like OpenAI for business applications like image classification.",
+      "topics": [
+        "tool-selection",
+        "concept-explanation",
+        "management-advice"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners",
+        "managers"
+      ],
+      "content_block": "\n    - **Summary**: Non-expert questioning when to build custom ML models vs using existing APIs like OpenAI for business applications like image classification.\n    - Topics: `tool-selection`, `concept-explanation`, `management-advice`\n    - Domain: `general-tech`\n    - Audience: `beginners`, `managers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners",
+        "managers-leads"
+      ]
+    },
+    {
+      "title": "Author Identification by Writing Style",
+      "id": "1g3i6sp",
+      "summary": "Question about ML algorithms for creating vector embeddings of writing style for automated author recognition.",
+      "topics": [
+        "nlp-applications",
+        "concept-explanation"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Question about ML algorithms for creating vector embeddings of writing style for automated author recognition.\n    - Topics: `nlp-applications`, `concept-explanation`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "German Word Prediction React App",
+      "id": "1g46uao",
+      "summary": "Developer building assistive communication app with word prediction/completion for German, seeking fast, low-computational client-side solutions.",
+      "topics": [
+        "nlp-applications",
+        "tool-selection",
+        "low-resource-ml"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Developer building assistive communication app with word prediction/completion for German, seeking fast, low-computational client-side solutions.\n    - Topics: `nlp-applications`, `tool-selection`, `low-resource-ml`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Harassment Detection Model Evaluation",
+      "id": "1g5h67x",
+      "summary": "PhD student designing experiment to compare LLM vs human accuracy in identifying subtle harassment in non-social media contexts.",
+      "topics": [
+        "model-evaluation",
+        "research-methodology",
+        "nlp-applications"
+      ],
+      "domain": "academic",
+      "audiences": [
+        "researchers"
+      ],
+      "content_block": "\n    - **Summary**: PhD student designing experiment to compare LLM vs human accuracy in identifying subtle harassment in non-social media contexts.\n    - Topics: `model-evaluation`, `research-methodology`, `nlp-applications`\n    - Domain: `academic`\n    - Audience: `researchers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "academic",
+      "unified_audiences": [
+        "researchers-academics"
+      ]
+    },
+    {
+      "title": "Legacy NLP Techniques Industry Use",
+      "id": "1g8brrn",
+      "summary": "AI engineer questioning continued relevance of traditional NLP techniques (POS tagging, HMMs, n-grams) in 2024 industry applications.",
+      "topics": [
+        "concept-explanation",
+        "industry-insights",
+        "tool-selection"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: AI engineer questioning continued relevance of traditional NLP techniques (POS tagging, HMMs, n-grams) in 2024 industry applications.\n    - Topics: `concept-explanation`, `industry-insights`, `tool-selection`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "ML Pipeline CI/CD Automation",
+      "id": "1gboqqb",
+      "summary": "MLOps practitioner seeking opinions on automatically triggering ML training pipelines on code merges across development stages.",
+      "topics": [
+        "ml-deployment",
+        "infrastructure-setup",
+        "team-processes"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: MLOps practitioner seeking opinions on automatically triggering ML training pipelines on code merges across development stages.\n    - Topics: `ml-deployment`, `infrastructure-setup`, `team-processes`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "ML Models Production Monitoring",
+      "id": "10qsj52",
+      "summary": "7-year ML practitioner seeking production monitoring tools. Keith provides detailed advice on human-in-the-loop systems, retraining strategies, and monitoring approaches based on healthcare AI experience.",
+      "topics": [
+        "ml-deployment",
+        "tool-selection",
+        "model-evaluation"
+      ],
+      "domain": "healthcare",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n   - **Summary**: 7-year ML practitioner seeking production monitoring tools. Keith provides detailed advice on human-in-the-loop systems, retraining strategies, and monitoring approaches based on healthcare AI experience.\n   - Topics: `ml-deployment`, `tool-selection`, `model-evaluation`\n   - Domain: `healthcare`\n   - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "healthcare",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Word2Vec Vector Clarification",
+      "id": "12bpxgs",
+      "summary": "Beginner seeking understanding of Word2Vec mechanics and machine translation similarity. Keith provides comprehensive explanation of relative vector values, training objectives, and multilingual approaches.",
+      "topics": [
+        "concept-explanation",
+        "nlp-applications"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners"
+      ],
+      "content_block": "\n   - **Summary**: Beginner seeking understanding of Word2Vec mechanics and machine translation similarity. Keith provides comprehensive explanation of relative vector values, training objectives, and multilingual approaches.\n   - Topics: `concept-explanation`, `nlp-applications`\n   - Domain: `general-tech`\n   - Audience: `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners"
+      ]
+    },
+    {
+      "title": "Healthcare ML Thesis Project Selection",
+      "id": "1gyxut6",
+      "summary": "Student choosing between healthcare AI thesis topics. Keith provides detailed guidance on treatment effect modeling, adherence tracking, and adverse effect detection with practical implementation considerations.",
+      "topics": [
+        "academic-guidance",
+        "domain-expertise"
+      ],
+      "domain": "healthcare",
+      "audiences": [
+        "researchers",
+        "practitioners"
+      ],
+      "content_block": "\n   - **Summary**: Student choosing between healthcare AI thesis topics. Keith provides detailed guidance on treatment effect modeling, adherence tracking, and adverse effect detection with practical implementation considerations.\n   - Topics: `academic-guidance`, `domain-expertise`\n   - Domain: `healthcare`\n   - Audience: `researchers`, `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "healthcare",
+      "unified_audiences": [
+        "researchers-academics",
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Logistic Regression Implementation Feedback",
+      "id": "1hdhg93",
+      "summary": "Beginner implementing logistic regression from scratch seeking feedback on accuracy fluctuations and training instability. Keith provides debugging methodology and testing recommendations.",
+      "topics": [
+        "troubleshooting",
+        "academic-guidance",
+        "concept-explanation"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners"
+      ],
+      "content_block": "\n   - **Summary**: Beginner implementing logistic regression from scratch seeking feedback on accuracy fluctuations and training instability. Keith provides debugging methodology and testing recommendations.\n   - Topics: `troubleshooting`, `academic-guidance`, `concept-explanation`\n   - Domain: `general-tech`\n   - Audience: `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners"
+      ]
+    },
+    {
+      "title": "Self-Learning LLM Web Crawler Project",
+      "id": "1hx8l3i",
+      "summary": "Hobbyist planning autonomous LLM that trains continuously by crawling web without pre-existing datasets. Keith provides practical guidance on data quality, scope, and implementation challenges.",
+      "topics": [
+        "academic-projects",
+        "concept-explanation",
+        "data-management"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners"
+      ],
+      "content_block": "\n   - **Summary**: Hobbyist planning autonomous LLM that trains continuously by crawling web without pre-existing datasets. Keith provides practical guidance on data quality, scope, and implementation challenges.\n   - Topics: `academic-projects`, `concept-explanation`, `data-management`\n   - Domain: `general-tech`\n   - Audience: `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners"
+      ]
+    },
+    {
+      "title": "Large-Scale Multi-Class Classification",
+      "id": "1i2zcqf",
+      "summary": "Developer facing 22,000-class classification problem considering hierarchical output approach. Keith suggests recommender system techniques and embedding-based solutions.",
+      "topics": [
+        "concept-explanation",
+        "model-training",
+        "tool-selection"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n   - **Summary**: Developer facing 22,000-class classification problem considering hierarchical output approach. Keith suggests recommender system techniques and embedding-based solutions.\n   - Topics: `concept-explanation`, `model-training`, `tool-selection`\n   - Domain: `general-tech`\n   - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Project Release Anxiety",
+      "id": "1i49rr8",
+      "summary": "Unemployed developer with unique ML pipeline creation feeling territorial about releasing code due to insecurity and fear of criticism. Keith encourages openness for growth and constructive feedback.",
+      "topics": [
+        "career-transition",
+        "academic-guidance",
+        "industry-insights"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners",
+        "beginners"
+      ],
+      "content_block": "\n   - **Summary**: Unemployed developer with unique ML pipeline creation feeling territorial about releasing code due to insecurity and fear of criticism. Keith encourages openness for growth and constructive feedback.\n   - Topics: `career-transition`, `academic-guidance`, `industry-insights`\n   - Domain: `general-tech`\n   - Audience: `practitioners`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "beginners"
+      ]
+    },
+    {
+      "title": "Grammar Correction from Scratch",
+      "id": "1i6d4jz",
+      "summary": "Student wanting to build grammar correction model without pre-trained components for learning purposes. Keith suggests n-gram approaches and provides research survey reference.",
+      "topics": [
+        "academic-projects",
+        "nlp-applications",
+        "concept-explanation"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners"
+      ],
+      "content_block": "\n   - **Summary**: Student wanting to build grammar correction model without pre-trained components for learning purposes. Keith suggests n-gram approaches and provides research survey reference.\n   - Topics: `academic-projects`, `nlp-applications`, `concept-explanation`\n   - Domain: `general-tech`\n   - Audience: `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners"
+      ]
+    },
+    {
+      "title": "Small-Scale AI Research Viability",
+      "id": "1i8vk7h",
+      "summary": "PhD student concerned about competing with large-scale corporate AI research given budget and compute constraints. Keith suggests alternative research directions including applications and domain-specific work.",
+      "topics": [
+        "academic-guidance",
+        "industry-insights",
+        "research-methodology"
+      ],
+      "domain": "academic",
+      "audiences": [
+        "researchers"
+      ],
+      "content_block": "\n   - **Summary**: PhD student concerned about competing with large-scale corporate AI research given budget and compute constraints. Keith suggests alternative research directions including applications and domain-specific work.\n   - Topics: `academic-guidance`, `industry-insights`, `research-methodology`\n   - Domain: `academic`\n   - Audience: `researchers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "academic",
+      "unified_audiences": [
+        "researchers-academics"
+      ]
+    },
+    {
+      "title": "[Deleted] Industry ML Skills Gap",
+      "id": "1ie0gmu",
+      "summary": "[Deleted post] Keith responds about skills gaps between bootcamp training and industry ML work, emphasizing teamwork, data challenges, and deployment considerations.",
+      "topics": [
+        "career-transition",
+        "academic-guidance",
+        "industry-insights"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners",
+        "practitioners"
+      ],
+      "content_block": "\n   - **Summary**: [Deleted post] Keith responds about skills gaps between bootcamp training and industry ML work, emphasizing teamwork, data challenges, and deployment considerations.\n   - Topics: `career-transition`, `academic-guidance`, `industry-insights`\n   - Domain: `general-tech`\n   - Audience: `beginners`, `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners",
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Email Scraping for Organizations",
+      "id": "1ize0cq",
+      "summary": "User seeking AI tools to scrape church email addresses from specific locations. Keith suggests practical alternatives including Perplexity prompts and CSS selectors for data extraction.",
+      "topics": [
+        "tool-selection",
+        "data-management"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: User seeking AI tools to scrape church email addresses from specific locations. Keith suggests practical alternatives including Perplexity prompts and CSS selectors for data extraction.\n    - Topics: `tool-selection`, `data-management`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Medical AI PhD Development Practices",
+      "id": "1izt7da",
+      "summary": "Physics PhD student transitioning to medical AI seeking clean coding practices and ML development best practices. Keith provides comprehensive guidance on testing, feedback, and professional development.",
+      "topics": [
+        "academic-guidance",
+        "career-transition",
+        "concept-explanation"
+      ],
+      "domain": "healthcare",
+      "audiences": [
+        "researchers",
+        "beginners"
+      ],
+      "content_block": "\n    - **Summary**: Physics PhD student transitioning to medical AI seeking clean coding practices and ML development best practices. Keith provides comprehensive guidance on testing, feedback, and professional development.\n    - Topics: `academic-guidance`, `career-transition`, `concept-explanation`\n    - Domain: `healthcare`\n    - Audience: `researchers`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "healthcare",
+      "unified_audiences": [
+        "researchers-academics",
+        "beginners"
+      ]
+    },
+    {
+      "title": "Learning ML Without ChatGPT Dependency",
+      "id": "1jegcyb",
+      "summary": "EE/Math student struggling with coding independence and project direction after becoming over-reliant on ChatGPT. Keith encourages practice-based learning and finding enjoyable subsets of the field.",
+      "topics": [
+        "academic-guidance",
+        "career-transition"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners"
+      ],
+      "content_block": "\n    - **Summary**: EE/Math student struggling with coding independence and project direction after becoming over-reliant on ChatGPT. Keith encourages practice-based learning and finding enjoyable subsets of the field.\n    - Topics: `academic-guidance`, `career-transition`\n    - Domain: `general-tech`\n    - Audience: `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners"
+      ]
+    },
+    {
+      "title": "Solar Burst Classification Thesis Architecture",
+      "id": "1jjzybv",
+      "summary": "Student designing Flask-based application for CNN solar burst classification with hardware constraints. Keith suggests static generation alternatives and development tooling recommendations.",
+      "topics": [
+        "academic-projects",
+        "tool-selection",
+        "infrastructure-setup"
+      ],
+      "domain": "academic",
+      "audiences": [
+        "researchers",
+        "beginners"
+      ],
+      "content_block": "\n    - **Summary**: Student designing Flask-based application for CNN solar burst classification with hardware constraints. Keith suggests static generation alternatives and development tooling recommendations.\n    - Topics: `academic-projects`, `tool-selection`, `infrastructure-setup`\n    - Domain: `academic`\n    - Audience: `researchers`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "academic",
+      "unified_audiences": [
+        "researchers-academics",
+        "beginners"
+      ]
+    },
+    {
+      "title": "Practical ML Model Development Process",
+      "id": "1jofeo4",
+      "summary": "Developer seeking resources on the messy reality of ML development beyond textbook linear processes. Keith recommends technical debt paper and provides detailed commentary on Google's ML rules.",
+      "topics": [
+        "concept-explanation",
+        "management-advice",
+        "industry-insights"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Developer seeking resources on the messy reality of ML development beyond textbook linear processes. Keith recommends technical debt paper and provides detailed commentary on Google's ML rules.\n    - Topics: `concept-explanation`, `management-advice`, `industry-insights`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Current MLOps Project Types",
+      "id": "1jqn3xd",
+      "summary": "Survey question about contemporary MLOps work. Keith mentions bootcamp curriculum design for RAG projects and devops simplification challenges.",
+      "topics": [
+        "academic-guidance",
+        "infrastructure-setup"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Survey question about contemporary MLOps work. Keith mentions bootcamp curriculum design for RAG projects and devops simplification challenges.\n    - Topics: `academic-guidance`, `infrastructure-setup`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Multi-View Attention BioBERT NGram Fusion",
+      "id": "1js96db",
+      "summary": "Researcher seeking guidance on training attention mechanisms to combine NGram and BioBERT embeddings for medical text classification. Keith shares practical concatenation approach from medical multilabel work.",
+      "topics": [
+        "model-training",
+        "nlp-applications",
+        "concept-explanation"
+      ],
+      "domain": "healthcare",
+      "audiences": [
+        "researchers"
+      ],
+      "content_block": "\n    - **Summary**: Researcher seeking guidance on training attention mechanisms to combine NGram and BioBERT embeddings for medical text classification. Keith shares practical concatenation approach from medical multilabel work.\n    - Topics: `model-training`, `nlp-applications`, `concept-explanation`\n    - Domain: `healthcare`\n    - Audience: `researchers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "healthcare",
+      "unified_audiences": [
+        "researchers-academics"
+      ]
+    },
+    {
+      "title": "OCR for Handwritten Forms to Google Sheets",
+      "id": "1k2ia4o",
+      "summary": "Marketing professional seeking OCR solution to digitize handwritten incident reports while maintaining paper workflow. Keith suggests Gemini models for OCR with structured output capabilities.",
+      "topics": [
+        "tool-selection",
+        "nlp-applications"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "practitioners"
+      ],
+      "content_block": "\n    - **Summary**: Marketing professional seeking OCR solution to digitize handwritten incident reports while maintaining paper workflow. Keith suggests Gemini models for OCR with structured output capabilities.\n    - Topics: `tool-selection`, `nlp-applications`\n    - Domain: `general-tech`\n    - Audience: `practitioners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Paper Organization and Reading Strategies",
+      "id": "1k44jgi",
+      "summary": "Researcher asking about organizing and managing research papers. Keith shares various failed approaches and provides comprehensive advice on building paper reading habits for beginners.",
+      "topics": [
+        "academic-guidance",
+        "research-methodology"
+      ],
+      "domain": "academic",
+      "audiences": [
+        "researchers",
+        "beginners"
+      ],
+      "content_block": "\n    - **Summary**: Researcher asking about organizing and managing research papers. Keith shares various failed approaches and provides comprehensive advice on building paper reading habits for beginners.\n    - Topics: `academic-guidance`, `research-methodology`\n    - Domain: `academic`\n    - Audience: `researchers`, `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "academic",
+      "unified_audiences": [
+        "researchers-academics",
+        "beginners"
+      ]
+    },
+    {
+      "title": "NLP Undergraduate Thesis Ideas",
+      "id": "1khx32r",
+      "summary": "CS senior seeking NLP thesis ideas focusing on low-resource languages and cognate utilization. Keith suggests multilingual machine translation research directions and language identification challenges.",
+      "topics": [
+        "academic-guidance",
+        "nlp-applications",
+        "research-methodology"
+      ],
+      "domain": "academic",
+      "audiences": [
+        "researchers"
+      ],
+      "content_block": "\n    - **Summary**: CS senior seeking NLP thesis ideas focusing on low-resource languages and cognate utilization. Keith suggests multilingual machine translation research directions and language identification challenges.\n    - Topics: `academic-guidance`, `nlp-applications`, `research-methodology`\n    - Domain: `academic`\n    - Audience: `researchers`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "academic",
+      "unified_audiences": [
+        "researchers-academics"
+      ]
+    },
+    {
+      "title": "Python Performance Bottlenecks in AI",
+      "id": "1kpg89p",
+      "summary": "Newcomer asking if Python code becomes performance bottleneck compared to C++ libraries like TensorFlow/PyTorch. Keith explains rarity of Python bottlenecks in practice.",
+      "topics": [
+        "concept-explanation",
+        "infrastructure-setup"
+      ],
+      "domain": "general-tech",
+      "audiences": [
+        "beginners"
+      ],
+      "content_block": "\n    - **Summary**: Newcomer asking if Python code becomes performance bottleneck compared to C++ libraries like TensorFlow/PyTorch. Keith explains rarity of Python bottlenecks in practice.\n    - Topics: `concept-explanation`, `infrastructure-setup`\n    - Domain: `general-tech`\n    - Audience: `beginners`\n",
+      "platform": "reddit",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "beginners"
+      ]
+    }
+  ],
+  "youtube": [
+    {
+      "title": "Lang Graph Workflow and Prompt Tuning",
+      "timestamp": "37:00-42:00",
+      "summary": "Explains the self-correcting RAG agent implementation using Lang Graph with nodes for retrieve, generate, grade, transform, and query operations. Covers the importance of prompt tuning as different prompt structures can yield very different results. Discusses the evolving role of prompt engineering in AI development.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Explains the self-correcting RAG agent implementation using Lang Graph with nodes for retrieve, generate, grade, transform, and query operations. Covers the importance of prompt tuning as different prompt structures can yield very different results. Discusses the evolving role of prompt engineering in AI development.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 5 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Estimating and Managing AI Model Costs",
+      "timestamp": "18:46-23:13",
+      "summary": "Practical approaches to predicting costs for AI model usage including token counting, testing with cheaper models first, and cost-quality trade-offs. Discusses how model costs ramp up steeply and strategies for balancing expense with output quality through prompt engineering and model selection.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers  ",
+      "content_block": "\n**Summary**: Practical approaches to predicting costs for AI model usage including token counting, testing with cheaper models first, and cost-quality trade-offs. Discusses how model costs ramp up steeply and strategies for balancing expense with output quality through prompt engineering and model selection.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers  \n**Duration**: 4.5 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Deploying In-House Vision Language Models",
+      "timestamp": "40:15-42:16",
+      "summary": "Discussion of deploying in-house vision language models using Quen 2.5 and VLLM for document parsing at scale. Addresses the shift from external APIs back to internal deployment and the terminology debate around \"large language models\" for image processing systems.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Discussion of deploying in-house vision language models using Quen 2.5 and VLLM for document parsing at scale. Addresses the shift from external APIs back to internal deployment and the terminology debate around \"large language models\" for image processing systems.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 2 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "YouTube Video Summarization Project Idea",
+      "timestamp": "15:34-18:48",
+      "summary": "Detailed exploration of automating YouTube video summaries, chapters, and titles for Joy of Coding recordings. Discusses using YouTube API for transcripts, feeding them to language models for summarization, and uploading results back via YouTube API. Introduces GitHub models as a free alternative to paid LLM APIs.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Detailed exploration of automating YouTube video summaries, chapters, and titles for Joy of Coding recordings. Discusses using YouTube API for transcripts, feeding them to language models for summarization, and uploading results back via YouTube API. Introduces GitHub models as a free alternative to paid LLM APIs.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 3.2 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "GitHub README Auto-Update Project Details",
+      "timestamp": "18:48-21:00",
+      "summary": "Explanation of an existing project that automatically suggests README updates when code changes are made in pull requests. Discusses plans to migrate from personal access tokens to GitHub Actions tokens and address issues with overly aggressive update suggestions.",
+      "topic": "AI-Assisted Development",
+      "domain": "Software Engineering",
+      "audience": "Software Engineers",
+      "content_block": "\n**Summary**: Explanation of an existing project that automatically suggests README updates when code changes are made in pull requests. Discusses plans to migrate from personal access tokens to GitHub Actions tokens and address issues with overly aggressive update suggestions.\n**Topic**: AI-Assisted Development\n**Domain**: Software Engineering\n**Audience**: Software Engineers\n**Duration**: 2.2 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "software-engineering",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Startup Project Ideas and Challenges",
+      "timestamp": "47:19-49:45",
+      "summary": "Discussion of startup-related project ideas including job description optimization using AI. Addresses challenges with maintaining company information and concerns about dependencies on potentially abandoned technologies like FastText.",
+      "topic": "AI-Assisted Development",
+      "domain": "Business",
+      "audience": "Entrepreneurs",
+      "content_block": "\n**Summary**: Discussion of startup-related project ideas including job description optimization using AI. Addresses challenges with maintaining company information and concerns about dependencies on potentially abandoned technologies like FastText.\n**Topic**: AI-Assisted Development\n**Domain**: Business\n**Audience**: Entrepreneurs\n**Duration**: 2.4 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners"
+      ]
+    },
+    {
+      "title": "Machine Learning Model Deployment and Optimization",
+      "timestamp": "53:00-55:20",
+      "summary": "Discussion of deploying ML models across different programming languages using ONNX format and Llama.cpp variants. Covers cost optimization strategies using cheaper models for initial processing and more expensive models for final outputs.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Discussion of deploying ML models across different programming languages using ONNX format and Llama.cpp variants. Covers cost optimization strategies using cheaper models for initial processing and more expensive models for final outputs.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 2.3 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Potential Side Projects: Language Classifier and YouTube Transcript Summaries",
+      "timestamp": "18:10-22:00",
+      "summary": "Exploration of building a language classifier similar to Facebook's deprecated tool and generating summaries/chapter titles from YouTube transcripts using Gemini AI. Discusses Gemini's capabilities with video summarization under 20-minute limits and consideration of upgrading to paid features.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Exploration of building a language classifier similar to Facebook's deprecated tool and generating summaries/chapter titles from YouTube transcripts using Gemini AI. Discusses Gemini's capabilities with video summarization under 20-minute limits and consideration of upgrading to paid features.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 3.8 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Using Gemini AI for Video Summaries and Considering Paid Features",
+      "timestamp": "18:20-11:30",
+      "summary": "Details about Gemini AI's video summarization capabilities, including transcript generation and bullet-point or verbose summary options. Discussion of paid version benefits including huge input token limits, terabytes of storage, and premium features for research and creative content.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Details about Gemini AI's video summarization capabilities, including transcript generation and bullet-point or verbose summary options. Discussion of paid version benefits including huge input token limits, terabytes of storage, and premium features for research and creative content.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: Note: Timeline appears incorrect in original\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Exploring GitHub Models and Free API Usage for Large Language Models",
+      "timestamp": "22:00-25:00",
+      "summary": "Investigation of GitHub's API-based large language models offering including OpenAI, LLaMA, and Mistral with free usage limits tied to GitHub accounts. Reviews documentation and rate limits for various models, noting varying capabilities and token limits.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Investigation of GitHub's API-based large language models offering including OpenAI, LLaMA, and Mistral with free usage limits tied to GitHub accounts. Reviews documentation and rate limits for various models, noting varying capabilities and token limits.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 3 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Token Limits and Suitability for YouTube Transcript Summarization",
+      "timestamp": "25:00-30:00",
+      "summary": "Analysis of token limits for different models and their suitability for YouTube transcript summarization. Calculates that typical transcripts use about 200 tokens per minute, making 8,000 token limits suitable for roughly 40 minutes of video content.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Analysis of token limits for different models and their suitability for YouTube transcript summarization. Calculates that typical transcripts use about 200 tokens per minute, making 8,000 token limits suitable for roughly 40 minutes of video content.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 5 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Clarifying AI Usage and Backend Integration",
+      "timestamp": "00:53-03:29",
+      "summary": "Response to student question about integrating AI into web application backends rather than just frontend interfaces. Covers evolution of AI terminology including machine learning, fuzzy logic, and expert systems, and how these categories have fallen in and out of favor over time.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "Software Engineers",
+      "content_block": "\n**Summary**: Response to student question about integrating AI into web application backends rather than just frontend interfaces. Covers evolution of AI terminology including machine learning, fuzzy logic, and expert systems, and how these categories have fallen in and out of favor over time.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: Software Engineers\n**Duration**: 2.6 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Demonstrating AI Integration in a Hackathon Project",
+      "timestamp": "03:29-12:04",
+      "summary": "Live demonstration of a hackathon project that uses large language models to automatically suggest README updates when code changes occur in pull requests. Shows how AI analyzes code changes against existing documentation to recommend improvements, addressing common documentation maintenance problems.",
+      "topic": "AI-Assisted Development",
+      "domain": "Software Engineering",
+      "audience": "Software Engineers",
+      "content_block": "\n**Summary**: Live demonstration of a hackathon project that uses large language models to automatically suggest README updates when code changes occur in pull requests. Shows how AI analyzes code changes against existing documentation to recommend improvements, addressing common documentation maintenance problems.\n**Topic**: AI-Assisted Development\n**Domain**: Software Engineering\n**Audience**: Software Engineers\n**Duration**: 8.6 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "software-engineering",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Automating README Updates and Pull Requests",
+      "timestamp": "28:20-29:10",
+      "summary": "Explanation of the automation workflow where AI recommendations automatically overwrite README files and create pull requests with updated documentation and reasoning included in the pull request description.",
+      "topic": "AI-Assisted Development",
+      "domain": "Software Engineering",
+      "audience": "Software Engineers",
+      "content_block": "\n**Summary**: Explanation of the automation workflow where AI recommendations automatically overwrite README files and create pull requests with updated documentation and reasoning included in the pull request description.\n**Topic**: AI-Assisted Development\n**Domain**: Software Engineering\n**Audience**: Software Engineers\n**Duration**: 0.8 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "software-engineering",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Estimating and Managing AI Model Costs",
+      "timestamp": "18:46-23:13",
+      "summary": "Practical guidance on predicting and managing costs for AI model usage. Covers token counting methodologies, testing with cheaper models first, and cost-quality trade-offs. Discusses steep cost ramping across model tiers and balancing expense with output quality through strategic model selection.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Practical guidance on predicting and managing costs for AI model usage. Covers token counting methodologies, testing with cheaper models first, and cost-quality trade-offs. Discusses steep cost ramping across model tiers and balancing expense with output quality through strategic model selection.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 4.5 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Deploying In-House Vision Language Models",
+      "timestamp": "40:15-42:16",
+      "summary": "Discussion of deploying internal vision language models using Quen 2.5 and VLLM for large-scale document parsing. Addresses the strategic shift from external APIs back to internal deployment and debates around terminology for image-processing AI systems.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Discussion of deploying internal vision language models using Quen 2.5 and VLLM for large-scale document parsing. Addresses the strategic shift from external APIs back to internal deployment and debates around terminology for image-processing AI systems.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 2 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Project Purpose and AI Chatbot Overview",
+      "timestamp": "06:05-13:00",
+      "summary": "Detailed explanation of the CodeTutor chatbot project for Joy of Coding Academy. Describes goal of providing quick AI responses to student questions before human follow-up, emphasizing the importance of evaluation frameworks and test data for tuning large language models.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Detailed explanation of the CodeTutor chatbot project for Joy of Coding Academy. Describes goal of providing quick AI responses to student questions before human follow-up, emphasizing the importance of evaluation frameworks and test data for tuning large language models.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 6.9 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "AI Models and Amazon Bedrock Explanation",
+      "timestamp": "34:10-38:20",
+      "summary": "Technical explanation of the project's AI infrastructure using Amazon Bedrock for model access. Discussion of different large language models available and the benefits of platform abstraction for model switching.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Technical explanation of the project's AI infrastructure using Amazon Bedrock for model access. Discussion of different large language models available and the benefits of platform abstraction for model switching.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 4.2 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    },
+    {
+      "title": "Overview of the Project and Technical Explanation",
+      "timestamp": "16:00-38:00",
+      "summary": "Comprehensive explanation of the CodeTutor feedback system dashboard for analyzing chatbot performance. Details the workflow from student questions to automated AI responses using retrieval augmented generation with Discord message database, large language model processing, and response tracking.",
+      "topic": "AI-Assisted Development",
+      "domain": "AI/ML",
+      "audience": "AI Engineers",
+      "content_block": "\n**Summary**: Comprehensive explanation of the CodeTutor feedback system dashboard for analyzing chatbot performance. Details the workflow from student questions to automated AI responses using retrieval augmented generation with Discord message database, large language model processing, and response tracking.\n**Topic**: AI-Assisted Development\n**Domain**: AI/ML\n**Audience**: AI Engineers\n**Duration**: 22 minutes\n",
+      "platform": "youtube",
+      "unified_topic": "ai-assisted-development",
+      "unified_domain": "ai-ml",
+      "unified_audiences": [
+        "practitioners",
+        "developers"
+      ]
+    }
+  ],
+  "summary": {
+    "total_reddit_analyzed": 131,
+    "total_youtube_analyzed": 164,
+    "reddit_migrated": 44,
+    "youtube_migrated": 19,
+    "unified_content_count": 63
+  }
+}
