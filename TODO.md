@@ -25,6 +25,7 @@
 
 ### YouTube Pipeline Scale-Up
 - [ ] Run download for remaining videos in manifest
+- [ ] Add Scrapfly proxy integration to transcript downloader (YouTube blocking requests)
 - [ ] Run LLM cleaning on all raw transcripts
 - [ ] Verify cost estimates for full pipeline
 

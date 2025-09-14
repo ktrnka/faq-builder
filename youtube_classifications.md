@@ -4,8 +4,8 @@ This document contains detailed chapter-level analysis of YouTube videos for blo
 
 ## Analysis Progress
 - Total videos: 27
-- Videos analyzed: 26 (missing 2025-05-03_CGhnjnptbeI from batch)
-- Chapters analyzed: 177
+- Videos analyzed: 27 (complete!)
+- Chapters analyzed: 214
 
 ---
 
@@ -1902,5 +1902,242 @@ Note: This analysis was derived from the conversation context provided in the te
 - **Topics**: Session Management, Project Management
 - **Domain**: Administrative
 - **Audience**: Professional/Developer
+
+---
+
+# Video: 2025-07-05_JNHk9l-YNbg - AI / Open Q & A with Coach Keith
+**Date**: 2025-07-05 | **Duration**: 58:20
+
+### Chapter 1: Session Introduction and Overview of Nick's AI Coding Lab [00:04-02:19]
+- **Duration**: ~2.2 minutes
+- **Summary**: Keith introduces the informal session format and mentions Nick's AI coding lab from the previous day, discussing the code tutor project's complexity and educational balance
+- **Topics**: Project Overview, Educational Balance, AI Development
+- **Domain**: Project Management, Education
+- **Audience**: General, Educators
+
+### Chapter 2: Discussion on Recent AI News and Misinterpretations [02:19-05:08]
+- **Duration**: ~2.8 minutes
+- **Summary**: Discussion about AI model behavior in news stories, particularly Gemini, and how context and prompting affect AI responses. Emphasizes importance of understanding instruction context
+- **Topics**: AI Ethics, Media Interpretation, Prompt Context, AI Behavior
+- **Domain**: AI Ethics, Media Literacy
+- **Audience**: General AI Users
+
+### Chapter 3: Exploring an AI-Coded Tower Defense Game Project [05:08-24:00]
+- **Duration**: ~18.9 minutes
+- **Summary**: Detailed walkthrough of an AI-assisted tower defense game development project found on Hacker News. Examines specific prompts used for game development with Phaser.js, including player movement, boundary constraints, menu systems, and gamepad support
+- **Topics**: AI-Assisted Development, Game Development, Phaser.js, Prompt Engineering
+- **Domain**: Game Development, AI Tooling
+- **Audience**: Game Developers, AI Users
+
+### Chapter 4: Building System and Context Engineering in AI Prompting [24:00-29:00]
+- **Duration**: ~5.0 minutes
+- **Summary**: Discusses building systems in the game, context engineering vs prompt engineering, and how providing relevant context to AI is more important than just phrasing. Examples of effective vs vague prompting
+- **Topics**: Context Engineering, AI Prompting, Software Architecture, Game Development
+- **Domain**: AI Prompting, Software Architecture
+- **Audience**: AI Developers, Game Developers
+
+### Chapter 5: Enemy Movement, Pathfinding, and Rewindable Sprite Mechanics [29:00-35:00]
+- **Duration**: ~6.0 minutes
+- **Summary**: Exploration of complex game mechanics including A* pathfinding, enemy AI, rewind mechanics with state management, and performance considerations. Discusses debugging and iteration in game development
+- **Topics**: A* Pathfinding, Game AI, State Management, Performance Optimization
+- **Domain**: Game Development, Algorithms
+- **Audience**: Game Developers, Computer Science Students
+
+### Chapter 6: Additional Game Features and Debugging Challenges [35:00-56:40]
+- **Duration**: ~21.7 minutes
+- **Summary**: Covers additional game features like tower mechanics, bullet systems, health and animations, and the complexity that emerges in game development. Discusses debugging challenges and the paradox of increasing knowledge exposing more unknowns
+- **Topics**: Game Mechanics, Performance Optimization, Debugging, Project Complexity
+- **Domain**: Game Development, Software Engineering
+- **Audience**: Game Developers, Software Engineers
+
+### Chapter 7: Reflections on Game Development and Session Wrap-Up [56:40-58:20]
+- **Duration**: ~1.7 minutes
+- **Summary**: Brief reflection on helping with educational game development tools and wrapping up the session
+- **Topics**: Educational Tools, Game Development
+- **Domain**: Education, Game Development
+- **Audience**: General, Educators
+
+---
+
+# Video: 2025-07-04_p01QClXh2qg - AI / Open Q & A with Coach Keith
+**Date**: 2025-07-04 | **Duration**: 54:00
+
+### Chapter 1: Session Introduction and Initial Setup [07:43-14:00]
+- **Duration**: ~6.3 minutes
+- **Summary**: Keith reviews tasks from Emily regarding the code tutor project, discusses AWS access for logs, and explains the plan to deploy the bot and set up Langfuse for evaluations and observability
+- **Topics**: Project Management, AWS Access, Deployment Planning, Langfuse Setup
+- **Domain**: Project Management, DevOps
+- **Audience**: Software Developers, Project Managers
+
+### Chapter 2: Internship Paths and Project Overview [14:00-18:00]
+- **Duration**: ~4.0 minutes
+- **Summary**: Student asks about internship paths beyond AI and web development. Discussion about competition in web development from overseas developers and the importance of passion and experience in career choices
+- **Topics**: Career Guidance, Internship Programs, Industry Competition, AI vs Web Development
+- **Domain**: Career Guidance, Industry Trends
+- **Audience**: Students, Career Changers
+
+### Chapter 3: Live Troubleshooting of Discord Bot and AWS Logs [18:00-25:00]
+- **Duration**: ~7.0 minutes
+- **Summary**: Live debugging session investigating Discord bot errors. Examines AWS logs, identifies connection issues with Neon database (serverless), and discusses the importance of matching embedding models for RAG systems
+- **Topics**: Discord Bot Debugging, AWS Logging, Neon Database, RAG Architecture
+- **Domain**: DevOps, Debugging, Cloud Services
+- **Audience**: Backend Developers, DevOps Engineers
+
+### Chapter 4: Database Access and Code Review [25:00-30:00]
+- **Duration**: ~5.0 minutes
+- **Summary**: Discussion about getting Neon dashboard access, reviewing embedding model consistency issues, and identifying the need for better logging around configuration to understand retrieval failures
+- **Topics**: Database Access, Embedding Models, Configuration Management, Logging
+- **Domain**: Database Management, ML Engineering
+- **Audience**: Backend Developers, ML Engineers
+
+### Chapter 5: Local Testing and Code Deployment [30:00-44:30]
+- **Duration**: ~14.5 minutes
+- **Summary**: Keith demonstrates running the bot locally using production database connection, tests Discord integration, and identifies areas for improvement in error handling and search functionality
+- **Topics**: Local Development, Discord Integration, Error Handling, Testing
+- **Domain**: Software Development, Testing
+- **Audience**: Software Developers
+
+### Chapter 6: Testing Strategy and Priorities [44:30-51:00]
+- **Duration**: ~6.5 minutes
+- **Summary**: Student asks about testing priorities with pytest. Keith recommends starting with end-to-end tests before unit tests, discussing test-driven development vs implementation-first approaches based on project stability
+- **Topics**: Testing Strategy, Test-Driven Development, pytest, End-to-End Testing
+- **Domain**: Software Testing, Development Methodology
+- **Audience**: Software Developers, QA Engineers
+
+### Chapter 7: Project Architecture Overview [51:00-54:00]
+- **Duration**: ~3.0 minutes
+- **Summary**: Keith explains the project architecture with Discord bot and REST API clients both using the same underlying langraph agent, and suggests testing approaches for the self-correcting agent
+- **Topics**: System Architecture, Langraph, Client-Server Design, Testing Architecture
+- **Domain**: Software Architecture, AI Systems
+- **Audience**: Software Architects, AI Developers
+
+---
+
+# Video: 2025-06-26_35E0D4H3VNg - AI / Open Q & A with Coach Keith
+**Date**: 2025-06-26 | **Duration**: 84:55
+
+### Chapter 1: Casual Greetings and Personal Updates [00:00-05:28]
+- **Duration**: ~5.5 minutes
+- **Summary**: Team members share personal updates about travel (Spain, Hawaii), discuss time zone challenges, and family reunion context. Shows the human side of remote distributed teams
+- **Topics**: Remote Work, Time Zones, Personal Updates, Team Building
+- **Domain**: Personal/Social, Remote Collaboration
+- **Audience**: General, Remote Teams
+
+### Chapter 2: Explaining Agile Spikes and Project Workflow [05:28-11:15]
+- **Duration**: ~5.8 minutes
+- **Summary**: Nick explains what a "spike" is in Scrum/Agile methodology - research stories that don't end in shippable code. Discusses the difference between regular stories and experimental work, and answers questions about AWS access and testing setup
+- **Topics**: Scrum Methodology, Spike Stories, Research Tasks, CI/CD Pipeline
+- **Domain**: Project Management, Agile Methodology
+- **Audience**: Product Managers, Developers
+
+### Chapter 3: Project Setup and Ticket Management [11:15-29:10]
+- **Duration**: ~17.9 minutes
+- **Summary**: Live session setting up GitHub project board, creating and organizing tickets, closing outdated issues, and creating a comprehensive testing framework setup ticket with detailed acceptance criteria
+- **Topics**: GitHub Project Management, Ticket Creation, pytest Setup, CI/CD Integration
+- **Domain**: Project Management, Collaboration Tools
+- **Audience**: Project Managers, Team Leads
+
+### Chapter 4: Access and Permissions Discussion [29:10-32:10]
+- **Duration**: ~3.0 minutes
+- **Summary**: Managing team access and permissions, moving from outside collaborators to team members, and ensuring proper access to project boards and repositories
+- **Topics**: Team Access Management, GitHub Permissions, Collaboration Setup
+- **Domain**: Team Management, Access Control
+- **Audience**: Team Leads, Administrators
+
+### Chapter 5: Managing Dependencies with Poetry [32:10-56:00]
+- **Duration**: ~23.8 minutes
+- **Summary**: Comprehensive walkthrough of Python dependency management using Poetry, including virtual environment setup, dependency grouping for dev/test/production, Python version management with pyenv, and Unix philosophy discussion
+- **Topics**: Python Dependency Management, Poetry, Virtual Environments, pyenv, Unix Philosophy
+- **Domain**: Python Development, DevOps
+- **Audience**: Python Developers
+
+### Chapter 6: Code Cleanup and Git Workflow [56:00-82:00]
+- **Duration**: ~26.0 minutes
+- **Summary**: Live coding session cleaning up Dockerfile, managing git workflow with branching and stashing, creating pull requests, and setting up proper .gitignore. Demonstrates professional git practices and code review process
+- **Topics**: Git Workflow, Code Review, Dockerfile, Branch Management, Pull Requests
+- **Domain**: Version Control, Software Development
+- **Audience**: Software Developers
+
+### Chapter 7: Future Plans and Session Wrap-Up [82:00-84:55]
+- **Duration**: ~2.9 minutes
+- **Summary**: Discussion of next steps including bot troubleshooting, pytest setup, and Langraph Studio/Lang Smith evaluation setup. Planning for better developer IDE experience and evaluation frameworks
+- **Topics**: Project Roadmap, Langraph Studio, Lang Smith, Evaluation Frameworks
+- **Domain**: Project Planning, AI Development Tools
+- **Audience**: Project Managers, AI Developers
+
+---
+
+# Video: 2025-06-14_U0xewq8r248 - AI / Open Q & A with Coach Keith - June 13, 2025
+**Date**: 2025-06-14 | **Duration**: 55:00
+
+### Chapter 1: Session Introduction and Participant Greetings [05:24-07:40]
+- **Duration**: ~2.3 minutes
+- **Summary**: Participants join from different locations and time zones (Spain, West Coast, Central time), sharing travel experiences including a 36-hour journey due to flight delays. Sets context for distributed team collaboration
+- **Topics**: Remote Collaboration, Time Zones, Travel Challenges, Team Coordination
+- **Domain**: Remote Collaboration
+- **Audience**: Remote Teams
+
+### Chapter 2: Overview of Today's Session and Participant Status [07:40-09:40]
+- **Duration**: ~2.0 minutes
+- **Summary**: Keith explains this is a reboot of the Code Tutor production lab, focused on troubleshooting production issues. Discusses participant learning levels and the iterative debugging process fundamental to software development
+- **Topics**: Project Status, Learning Progression, Debugging Process, Educational Approach
+- **Domain**: Education, Project Management
+- **Audience**: Students, Mentors
+
+### Chapter 3: Login and Access Issues [09:40-11:00]
+- **Duration**: ~1.3 minutes
+- **Summary**: Keith encounters expired access credentials and needs to contact Adam for renewed access, highlighting common production access management challenges
+- **Topics**: Access Management, Credential Management, Production Access
+- **Domain**: System Administration
+- **Audience**: System Administrators
+
+### Chapter 4: Current Status of the Bot and Project Components [11:00-12:00]
+- **Duration**: ~1.0 minute
+- **Summary**: Keith recaps the current problem: the bot is deployed but not returning answers, suggesting issues in retrieval, database communication, or data population. Introduces the ETL concept as a common pattern
+- **Topics**: System Diagnosis, ETL Pattern, Data Pipeline Issues, Bot Architecture
+- **Domain**: Software Architecture, Data Engineering
+- **Audience**: Software Architects, Data Engineers
+
+### Chapter 5: Code Walkthrough: Data Pipeline and ETL [12:00-21:00]
+- **Duration**: ~9.0 minutes
+- **Summary**: Comprehensive walkthrough of the codebase showing ETL pipeline architecture, Discord data extraction, transformer patterns, and the critical importance of matching embeddings configurations between data generation and client retrieval
+- **Topics**: ETL Architecture, Discord Integration, Data Transformation, Embeddings Configuration, RAG Systems
+- **Domain**: Data Engineering, API Integration
+- **Audience**: Data Engineers, Backend Developers
+
+### Chapter 6: Checking Access and AWS Permissions [21:00-21:20]
+- **Duration**: ~0.3 minutes
+- **Summary**: Brief check on AWS access permissions for production debugging, determining available access levels for different team members
+- **Topics**: AWS Permissions, Production Access, Environment Management
+- **Domain**: Cloud Services, DevOps
+- **Audience**: DevOps Engineers, Cloud Administrators
+
+### Chapter 7: Local Environment Setup and Docker Explanation [21:20-30:00]
+- **Duration**: ~8.7 minutes
+- **Summary**: Keith sets up local development environment, explains Docker containerization benefits for consistent environments across different operating systems, and demonstrates docker compose for orchestrating multiple services
+- **Topics**: Docker Containerization, Local Development, Environment Consistency, Service Orchestration
+- **Domain**: DevOps, Containerization
+- **Audience**: DevOps Engineers, Developers
+
+### Chapter 8: Troubleshooting Container Startup Issues [30:00-39:00]
+- **Duration**: ~9.0 minutes
+- **Summary**: Live debugging session resolving Docker container crashes, including missing environment variables, Python version mismatches, and configuration issues. Demonstrates iterative problem-solving approach
+- **Topics**: Docker Debugging, Environment Variables, Configuration Management, Iterative Problem Solving
+- **Domain**: DevOps, System Administration
+- **Audience**: DevOps Engineers, System Administrators
+
+### Chapter 9: Testing Bot Locally and Investigating Errors [39:00-48:00]
+- **Duration**: ~9.0 minutes
+- **Summary**: Keith tests the bot locally, encounters similar errors to production, and uses PG Admin to investigate database connectivity. Identifies that the database exists but lacks tables, pointing to data pipeline issues
+- **Topics**: Local Testing, Database Connectivity, PG Admin, Data Pipeline Debugging
+- **Domain**: Database Administration, Testing
+- **Audience**: Database Administrators, QA Engineers
+
+### Chapter 10: Session Wrap-Up and Next Steps [48:00-55:00]
+- **Duration**: ~7.0 minutes
+- **Summary**: Keith summarizes progress made in local deployment, identifies areas for README cleanup, discusses next steps including AWS access and potential first projects like Discord OAuth improvements and testing setup
+- **Topics**: Progress Summary, Documentation, OAuth Implementation, Testing Strategy, Project Planning
+- **Domain**: Project Management
+- **Audience**: Project Managers, Team Leads
 
 ---
