@@ -36,12 +36,20 @@ def test_prompt_structure():
 def test_cost_estimation():
     """Test cost estimation function."""
     from src.llm import estimate_cost
+    from openai.types import CompletionUsage
     
-    # Test with known model
-    cost = estimate_cost("gpt-4-turbo", 1000, 500)
+    # Create a mock usage object
+    usage = CompletionUsage(
+        prompt_tokens=1000,
+        completion_tokens=500,
+        total_tokens=1500
+    )
+    
+    # Test with known model (use one that exists in the pricing table)
+    cost = estimate_cost("gpt-4.1-nano", usage)
     assert cost > 0
     assert isinstance(cost, float)
     
     # Test with unknown model (should return 0)
-    cost_unknown = estimate_cost("unknown-model", 1000, 500)
+    cost_unknown = estimate_cost("unknown-model", usage)
     assert cost_unknown == 0.0

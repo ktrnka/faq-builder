@@ -1,6 +1,7 @@
 """Reddit-related CLI commands."""
 
 import json
+import logging
 import os
 from datetime import datetime
 from pathlib import Path
@@ -8,7 +9,18 @@ from typing import List, Optional, Set
 
 import click
 import praw
+from dotenv import load_dotenv
 from pydantic import BaseModel, Field
+
+# Load environment variables
+load_dotenv()
+
+logger = logging.getLogger(__name__)
+
+
+def timestamp_from_utc(utc_timestamp: float) -> str:
+    """Convert UTC timestamp to ISO format string."""
+    return datetime.fromtimestamp(utc_timestamp).isoformat()
 
 
 class RedditComment(BaseModel):
@@ -52,7 +64,7 @@ class RedditComment(BaseModel):
             stickied=comment.stickied,
             edited=bool(comment.edited),
             distinguished=comment.distinguished,
-            timestamp=datetime.fromtimestamp(comment.created_utc).isoformat()
+            timestamp=timestamp_from_utc(comment.created_utc)
         )
 
 
@@ -111,7 +123,7 @@ class RedditSubmission(BaseModel):
             archived=submission.archived,
             distinguished=submission.distinguished,
             link_flair_text=submission.link_flair_text,
-            timestamp=datetime.fromtimestamp(submission.created_utc).isoformat()
+            timestamp=timestamp_from_utc(submission.created_utc)
         )
 
 
@@ -154,8 +166,10 @@ def get_reddit_client() -> praw.Reddit:
     client_secret = os.getenv("REDDIT_CLIENT_SECRET")
     
     if not client_id or not client_secret:
+        logger.error("Reddit API credentials not found in environment variables")
         raise click.ClickException("REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET not found in environment variables. Please add your Reddit API credentials to the .env file.")
     
+    logger.debug("Creating Reddit client")
     return praw.Reddit(
         client_id=client_id,
         client_secret=client_secret,
@@ -163,7 +177,7 @@ def get_reddit_client() -> praw.Reddit:
     )
 
 
-def download_user_comments(username: str, subreddit_names: list[str], limit: int, output_dir: str) -> tuple[str, int, dict[str, int]]:
+def download_user_comments(username: str, subreddit_names: List[str], limit: int, output_dir: str) -> tuple[str, int, dict[str, int]]:
     """Download comments from a specific user across multiple subreddits."""
     reddit_dir = os.path.join(output_dir, "reddit")
     os.makedirs(reddit_dir, exist_ok=True)
@@ -173,11 +187,13 @@ def download_user_comments(username: str, subreddit_names: list[str], limit: int
     filename = f"{username}_{subreddits_str}_comments_{timestamp}.json"
     output_file = os.path.join(reddit_dir, filename)
     
+    logger.info(f"Downloading comments for user '{username}' from {len(subreddit_names)} subreddits")
     reddit = get_reddit_client()
     
     try:
         user = reddit.redditor(username)
     except Exception as e:
+        logger.error(f"Failed to access Reddit user '{username}': {e}")
         raise click.ClickException(f"Failed to access Reddit user: {e}")
     
     target_subreddits = [name.lower() for name in subreddit_names]
@@ -196,7 +212,7 @@ def download_user_comments(username: str, subreddit_names: list[str], limit: int
                 comments_data.append({
                     "id": comment.id,
                     "text": comment.body,
-                    "timestamp": datetime.fromtimestamp(comment.created_utc).isoformat(),
+                    "timestamp": timestamp_from_utc(comment.created_utc),
                     "permalink": f"https://www.reddit.com{comment.permalink}",
                     "score": comment.score,
                     "subreddit": original_subreddit_name,
@@ -216,16 +232,19 @@ def download_user_comments(username: str, subreddit_names: list[str], limit: int
                 if comments_found >= limit:
                     break
     except Exception as e:
+        logger.error(f"Failed to fetch comments for user '{username}': {e}")
         raise click.ClickException(f"Failed to fetch comments: {e}")
     
     if not comments_data:
         subreddits_list = ", ".join(subreddit_names)
+        logger.warning(f"No comments found for user '{username}' in subreddits: {subreddits_list}")
         raise click.ClickException(f"No comments found for user '{username}' in subreddits: {subreddits_list}")
     
     # Save to JSON file
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(comments_data, f, indent=2, ensure_ascii=False)
     
+    logger.info(f"Successfully saved {comments_found} comments to {output_file}")
     return output_file, comments_found, subreddit_counts
 
 
@@ -302,15 +321,18 @@ def extract_unique_post_ids(comments: List[UserComment]) -> Set[str]:
 def fetch_reddit_thread(reddit: praw.Reddit, post_id: str) -> RedditThread:
     """Fetch full Reddit thread data using PRAW."""
     try:
+        logger.debug(f"Fetching submission {post_id}")
         submission = reddit.submission(id=post_id)
         
         # Fetch comments with limit
         submission.comments.replace_more(limit=100)
         comments = submission.comments.list()
         
+        logger.debug(f"Fetched {len(comments)} comments for submission {post_id}")
         return RedditThread.from_praw_data(submission, comments)
         
     except Exception as e:
+        logger.error(f"Failed to fetch thread {post_id}: {e}")
         raise click.ClickException(f"Failed to fetch thread {post_id}: {e}")
 
 
@@ -321,6 +343,7 @@ def save_thread_to_file(thread: RedditThread, threads_dir: str) -> str:
     filename = f"{thread.submission.id}.json"
     output_path = Path(threads_dir) / filename
     
+    logger.debug(f"Saving thread {thread.submission.id} to {output_path}")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(thread.model_dump(), f, indent=2, ensure_ascii=False)
     
@@ -414,7 +437,7 @@ def show_thread_cmd(post_id_or_file, threads_dir, user):
         click.echo(f"❌ Failed: {e}")
 
 
-def find_relevant_comments(thread: RedditThread, highlight_user: str) -> List:
+def find_relevant_comments(thread: RedditThread, highlight_user: str) -> List[RedditComment]:
     """Find comments that are relevant to the highlight_user's conversation.
     
     Returns comments that are:
@@ -423,6 +446,8 @@ def find_relevant_comments(thread: RedditThread, highlight_user: str) -> List:
     """
     relevant_comment_ids = set()
     user_comments = [c for c in thread.comments if c.author == highlight_user]
+    
+    logger.debug(f"Found {len(user_comments)} comments by {highlight_user}")
     
     # Add all user comments
     for comment in user_comments:
@@ -451,6 +476,7 @@ def find_relevant_comments(thread: RedditThread, highlight_user: str) -> List:
     
     # Return filtered comments
     relevant_comments = [c for c in thread.comments if c.id in relevant_comment_ids]
+    logger.debug(f"Found {len(relevant_comments)} relevant comments total")
     return relevant_comments
 
 
