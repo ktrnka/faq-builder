@@ -5,6 +5,7 @@ import logging
 import os
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Iterator, Dict, Any
 
 import click
@@ -205,6 +206,40 @@ def format_transcript_readable(transcript_file: str) -> str:
         lines.append(f"{timestamp} {text}")
     
     return "\n".join(lines)
+
+
+def find_cleaned_transcript_file(video_id: str, cleaned_dir: str) -> str:
+    """Find a cleaned transcript file by video ID.
+    
+    Looks for files matching the pattern *_{video_id}.json in the cleaned directory.
+    
+    Args:
+        video_id: YouTube video ID to search for
+        cleaned_dir: Directory containing cleaned transcript files
+        
+    Returns:
+        Path to the matching file
+        
+    Raises:
+        click.ClickException: If directory doesn't exist, no files found, or multiple matches
+    """
+    cleaned_dir_path = Path(cleaned_dir)
+    if not cleaned_dir_path.exists():
+        raise click.ClickException(f"Cleaned directory not found: {cleaned_dir}")
+    
+    # Find files that match the pattern *_{video_id}.json
+    matching_files = list(cleaned_dir_path.glob(f"*_{video_id}.json"))
+    
+    if not matching_files:
+        raise click.ClickException(f"No cleaned transcript found for video ID: {video_id} in {cleaned_dir}")
+    elif len(matching_files) > 1:
+        # Show available options if multiple matches
+        click.echo(f"Multiple files found for video ID '{video_id}':")
+        for f in matching_files:
+            click.echo(f"  - {f}")
+        raise click.ClickException("Please specify the full filename to disambiguate")
+    else:
+        return str(matching_files[0])
 
 
 @click.group()
@@ -560,16 +595,28 @@ def clean_transcript(transcript_files, max_lines, output_dir, force):
 
 
 @youtube.command("show-cleaned-transcript")
-@click.argument("cleaned_file", type=click.Path(exists=True, readable=True))
-def show_cleaned_transcript(cleaned_file):
+@click.argument("video_id_or_file", type=str)
+@click.option("--cleaned-dir", default="data/youtube/cleaned", help="Directory containing cleaned transcript files (default: data/youtube/cleaned)")
+def show_cleaned_transcript(video_id_or_file: str, cleaned_dir: str) -> None:
     """Display a cleaned transcript in human-readable format.
     
-    Takes a cleaned JSON transcript file and formats it for easy review.
+    Can take either a video ID (looks for *_{video_id}.json in cleaned-dir) or a direct path to a cleaned transcript file.
     Output can be piped to 'less' for paging through long transcripts.
     
-    Example: faq-builder youtube show-cleaned-transcript data/cleaned/transcript_cleaned.json | less
+    Examples:
+        # Using video ID (finds matching file with date prefix)
+        faq-builder youtube show-cleaned-transcript Ms1BLfwLRNY
+        
+        # Using full path
+        faq-builder youtube show-cleaned-transcript data/youtube/cleaned/2025-05-16_Ms1BLfwLRNY.json
     """
     try:
+        # Determine if input is a video ID or file path
+        if os.path.exists(video_id_or_file):
+            cleaned_file = video_id_or_file
+        else:
+            cleaned_file = find_cleaned_transcript_file(video_id_or_file, cleaned_dir)
+        
         with open(cleaned_file, "r", encoding="utf-8") as f:
             data = json.load(f)
         
