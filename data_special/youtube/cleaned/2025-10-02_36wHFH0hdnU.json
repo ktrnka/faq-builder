@@ -1,0 +1,304 @@
+{
+  "title": "Six Figure Software Developer Masterclass",
+  "date": "2025-10-02",
+  "total_duration_seconds": 3597.0,
+  "chapters": [
+    {
+      "title": "Welcome and Introduction to Becoming an Elite Tech Innovator",
+      "chapter_type": "admin",
+      "start_time": 0.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Welcome. I am Dr. Emily and I am super excited to welcome you tonight. We are going to be talking about how you can become an elite tech innovator in the next six months. We're focusing on months, not years. I love seeing where you're from. Thank you everyone for popping in the chat. I see Scott from California, Christina from Florida, Cheryl from Georgia. Welcome. I'm from northern New Jersey outside of New York City. I used to be a computer science professor and have been training elite software developers for over a decade. I've graduated dozens of them. Tonight, I'll share everything I know about how you can become that elite software developer and tech innovator."
+        },
+        {
+          "speaker": "Host",
+          "text": "Why do you want to become a tech innovator? Because tech innovators don't apply for jobs, they're invited. Imagine having skills so in demand that you just hop from position to position without applying. It's incredible. Before we start, I want to make sure my door is locked so we don't get interruptions since we're doing this in the evening."
+        }
+      ]
+    },
+    {
+      "title": "Engaging the Audience: Readiness to Become Elite Developers",
+      "chapter_type": "admin",
+      "start_time": 87.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I have a question for you if you're here tonight. Who is ready to become an elite software developer in the next year? Can you raise your hands or type it in the chat? I want to see who my action takers are and who is going on this journey. Who's here to solve tomorrow's problems? I see Scott, Cheryl, Christina, Dakota. So good, folks. This is next level. I've never shared this before tonight. You're in for a treat."
+        },
+        {
+          "speaker": "Host",
+          "text": "What if in the next six months you could become such an elite software developer that you didn't have to apply for jobs anymore because you're getting invited? Would you want that roadmap? Give me an emoji or type in the chat. Christina, R, Deion are in. Before we dive in, is it cool if I share a little about why I'm talking to you about this today? Just give me a thumbs up or a quick nod in the chat."
+        }
+      ]
+    },
+    {
+      "title": "Host Background and Expertise",
+      "chapter_type": "explanation",
+      "start_time": 234.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I'm Dr. Emily Hill, a former computer science professor and program director at my university. I was tenured and led the computer science curriculum, deciding what every computer science major learned. I pioneered and created a brand new innovation program that had never existed before. I became an entrepreneur because I started this innovation program and realized I had to build a business myself to teach my students beyond a certain point."
+        },
+        {
+          "speaker": "Host",
+          "text": "Along the way, I graduated dozens of elite and six-figure software developers. Not every six-figure developer is elite, and that's why I created a virtual coding school to help anyone get a tech job. In the past year, everyone who graduated got six-figure offers. I also own a multiple seven-figure business and coach entrepreneurs and tech founders. So if you're interested in starting your own company or app, tonight's talk applies to you as well."
+        },
+        {
+          "speaker": "Host",
+          "text": "Besides tech, I'm a mom of five and a church singer as a side hustle. I like the quiet life, just kidding. What ties all this together is my genius zone: teaching, transformation, and connections. I help build communities, teach people what they need to know to get from here to there, and focus on transformation. I'm not for everybody; my students who love it are ready to level up. Tonight is about leveling up and getting things moving."
+        }
+      ]
+    },
+    {
+      "title": "Who This Training Is For and Not For",
+      "chapter_type": "explanation",
+      "start_time": 500.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "This transformation is for someone with some coding experience. That could mean a college tech degree, coding boot camp, a coding job, or tech interview prep. You enjoy solving tech challenges for fun. The best elite developers I know get out of bed excited to solve problems and experience that exhilaration of success after hard work."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's for people who love tech and know that investing in yourself is the best investment. It's also for aspiring tech founders. This is not for beginners just starting with variables, loops, or functions. If you're a beginner, do some learning first and save these ideas for later. It's also not for people with no coding experience. I can help you get started, but this approach is for those with some coding experience who want to level up."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you know me, I founded the TechJoy Career Academy where we help beginners get tech jobs. This would come after that. If you have some coding knowledge, this will take you from mediocre to incredible. This pathway is not for those only interested in earning six figures because six figures is often the baseline now. If hitting six figures is all you're motivated by, this pathway isn't for you."
+        },
+        {
+          "speaker": "Host",
+          "text": "This is for people passionate about tech, solving problems, creating new technology, and being innovators. Yes, SQL counts as coding experience, but it's a database querying language, not a programming language. You should also be familiar with loops, functions, and variables. This is not for those wanting a job guarantee. This is about leveling up from good to best. It's accessible to anyone with the right experience."
+        }
+      ]
+    },
+    {
+      "title": "Audience Check and Encouragement",
+      "chapter_type": "qa",
+      "start_time": 630.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Out of curiosity, who thinks they fit the bill of becoming an elite software developer? Give me an emoji or drop a note in the chat. I see Tammy loves creating websites and wants to do it full-time. Nathan has some experience. If you're a beginner interested in learning more about tech careers, you can text us at the number where you got the Zoom link. Tonight's focus is on making good developers great."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're a beginner, you can still watch tonight, but the pathway I'm sharing is for those with a base level of coding knowledge. We have a different vehicle for beginners. Our goal tonight is that by the end, you'll know the two key things to becoming an elite six-figure software developer: someone fluent in AI, fearless in innovating, and always in demand."
+        }
+      ]
+    },
+    {
+      "title": "Traditional Elite Developer Career Path",
+      "chapter_type": "explanation",
+      "start_time": 720.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let's look at the traditional elite timeline. Typically, you start with a four-year college tech degree, probably in computer science or software engineering, costing tens to hundreds of thousands of dollars. Then you spend six to twelve months applying for jobs, not making money yet. Finally, you get a junior developer position, usually making between 60 to 100k."
+        },
+        {
+          "speaker": "Host",
+          "text": "You spend two to three years as a junior dev, then get promoted to mid-level, making 100 to 140k. After a couple of years, you might become a senior developer, making 130 to 180k. Senior devs are where elite developers usually are. After that, you might become a staff engineer with salaries from 200 to 350k, and at top companies like Meta, Amazon, Netflix, Apple, or Google, salaries can reach a million dollars or more."
+        },
+        {
+          "speaker": "Host",
+          "text": "Finally, the highest promotion is principal engineer or architect, designing systems and making big decisions, typically earning 300 to 500k. This traditional pathway can take up to 20 years, which is a long time. I want to fast track that for you if you're interested."
+        }
+      ]
+    },
+    {
+      "title": "Impact of AI on Developer Jobs",
+      "chapter_type": "explanation",
+      "start_time": 1080.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "AI is eating junior developer positions. That's partly why all our students in the past year have gotten six-figure offers and up. Jobs below six figures are gone. You have to raise your level to get a good tech job. In the mid-2010s, the tech industry would hire anyone, even those who didn't know how to code. Those days are over. Now, elite coders get hired at a minimum of six figures."
+        },
+        {
+          "speaker": "Host",
+          "text": "I've worked with elite developers who have gone on to companies like Chase, IBM, Oracle, Amazon, and startups like Capital RX and Turo. Some started as senior developers because of their technical expertise. The important thing is having senior-level experience, and tonight I'll share how you can get that."
+        }
+      ]
+    },
+    {
+      "title": "Example of an Elite Developer's Career Path",
+      "chapter_type": "explanation",
+      "start_time": 1140.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Let me share a story about a student who got a job at Turo, an Airbnb for car rentals. He started around 2019, graduated with a CS degree, got a junior dev job before graduating, spent one to two years as a junior dev, then one to two years at mid-level, and became a senior dev within three years. Recently, he was promoted to staff engineer, just six years after graduating, instead of the typical 10 to 13 years."
+        },
+        {
+          "speaker": "Host",
+          "text": "Becoming an elite coder is more a state of mind than a long timeline. Having that elite mindset ahead of time makes all the difference. Elite developers move fast and don't necessarily follow traditional pathways. Are you ready to learn how to become an elite coder tonight?"
+        }
+      ]
+    },
+    {
+      "title": "Thinking Like an Elite Coder",
+      "chapter_type": "explanation",
+      "start_time": 1580.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Thinking like an elite coder is not about what you know. Technology changes rapidly, and many new languages and frameworks will come out during your career. The key is how you solve problems, not the specific syntax or tools you use."
+        },
+        {
+          "speaker": "Host",
+          "text": "Let me give you an example with telephones. The form factor has changed from rotary phones to cordless to cell phones, but the basic process of making a call has stayed the same. Similarly, elite developers focus on problem-solving processes that don't change, rather than specific technologies that evolve."
+        },
+        {
+          "speaker": "Host",
+          "text": "It's about technical discernment—knowing when to use certain tools, when to consult seniors, when to prototype or test more. Junior developers often apply rules rigidly, but elite developers understand when to apply or bend those rules based on context."
+        }
+      ]
+    },
+    {
+      "title": "Becoming an Elite Developer: The Importance of Community",
+      "chapter_type": "explanation",
+      "start_time": 2040.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "You become who you hang out with. Proximity to elite developers is a game changer. If you want to become better, find those who are already elite and learn from them. This is my secret sauce for leveling up in any area."
+        },
+        {
+          "speaker": "Host",
+          "text": "For example, entrepreneurs hang out with successful entrepreneurs. YouTubers hang out with other obsessive YouTubers. Mr. Beast started with friends obsessed with creating great content, and they raised their level together. The same applies to elite developers."
+        },
+        {
+          "speaker": "Host",
+          "text": "I had a student intern named Mo who lacked confidence and was shaky as a front-end developer. Within a month of working with a senior engineer for an hour a week, he became a full-stack developer who implemented Stripe payment processing, which is complex due to security requirements. Working with elite developers lets you download years of experience in minutes."
+        }
+      ]
+    },
+    {
+      "title": "Learning Through Apprenticeship and Overcoming Challenges",
+      "chapter_type": "explanation",
+      "start_time": 2400.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "More is caught than taught. Learning a language by living in a country is faster than studying grammar books. Coding culture works the same way. Being surrounded by experts transfers knowledge naturally."
+        },
+        {
+          "speaker": "Host",
+          "text": "Tech evolves so fast that apprenticing is sometimes the only way to get better. Sometimes only a few people in the world have the experience to answer your questions, especially when innovating with new technologies."
+        },
+        {
+          "speaker": "Host",
+          "text": "When you hit a bug you can't solve, don't get frustrated. See it as an invitation to level up. Bring your bug to an expert who can show you how to solve it. You'll learn their process and avoid that problem in the future. This approach underpins the coding school I created, where students work on real problems and get expert help when stuck."
+        }
+      ]
+    },
+    {
+      "title": "Elite Coder Blueprint: Breadth and Depth",
+      "chapter_type": "explanation",
+      "start_time": 2700.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "The elite coder blueprint has two phases: breadth and depth. Phase one is breadth—studying with expert problem solvers in many areas like full stack, mobile, AI, cloud, and cybersecurity. This gives you technical discernment to make decisions and unlock new tech."
+        },
+        {
+          "speaker": "Host",
+          "text": "Think of it like general education courses in college that give you perspective across fields. Similarly, breadth in tech helps you understand different problem-solving approaches and work effectively in interdisciplinary teams."
+        },
+        {
+          "speaker": "Host",
+          "text": "Phase two is depth—taking a project from idea to MVP, mastering UX design, working with stakeholders, architecting solutions, choosing tech stacks, and deploying working solutions as a team. This experience is critical for job readiness and six-figure offers."
+        },
+        {
+          "speaker": "Host",
+          "text": "This phase is like launching your own business, managing real feedback, constraints, and customers. It teaches dozens of nuances that can't be fully taught in books and change rapidly. Together, breadth and depth prepare you to skip entry-level jobs and jump into senior developer roles."
+        }
+      ]
+    },
+    {
+      "title": "Investment and Commitment to Becoming Elite",
+      "chapter_type": "discussion",
+      "start_time": 3060.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Can you do this? Becoming an elite developer isn't for everyone, but anyone can do it if tech is fun for you and you'd do it even without the salary. I struggled at first but kept going because the challenge motivated me."
+        },
+        {
+          "speaker": "Host",
+          "text": "Math is not required beyond basic algebra. Advanced math like calculus is only needed in specialized areas like computer graphics or theoretical computer science."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you love problem-solving and are an achiever, you can become elite. Michael Jordan was cut from his high school basketball team but became great through dedication. Similarly, becoming an elite developer requires persistence and passion."
+        },
+        {
+          "speaker": "Host",
+          "text": "AI is your co-pilot, not a replacement. It enhances and accelerates your work but requires discernment to know when AI is right or wrong. Elite developers can do things AI can't, like talk to stakeholders and design user experiences."
+        },
+        {
+          "speaker": "Host",
+          "text": "AI-generated code often needs cleanup by experienced developers. Elite developers who can prototype with AI and work with teams are the in-demand developers of the future."
+        }
+      ]
+    },
+    {
+      "title": "Program Introduction and Enrollment Details",
+      "chapter_type": "admin",
+      "start_time": 3420.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "I run a coding school and will share details about a new program to become an elite software developer in six months. The program involves learning from multiple senior mentors, building a new portfolio project every two weeks across various technologies, and receiving live code reviews."
+        },
+        {
+          "speaker": "Host",
+          "text": "The program is designed for about 10 hours a week and consists of five two-week sprints for breadth, followed by a deep dive phase where you bring an innovative project to life, often working on a team. The mentors come from top companies like Turo, Meta, IBM, AWS, and specialize in areas like security and mobile development."
+        },
+        {
+          "speaker": "Host",
+          "text": "The investment is $10,000 with payment plans available. Applications are open until October 13th for the cohort starting October 15th. The cohort is limited to about 20 students to ensure personalized mentorship."
+        },
+        {
+          "speaker": "Host",
+          "text": "If you're a beginner, you can join our academy to build foundational skills before applying. The program is cohort-based and hands-on, designed to transform you into an elite developer ready for six-figure roles."
+        }
+      ]
+    },
+    {
+      "title": "Q&A and Closing Remarks",
+      "chapter_type": "qa",
+      "start_time": 3600.0,
+      "segments": [
+        {
+          "speaker": "Host",
+          "text": "Bonnie asked how to access expert developers. Our Tech Innovators program provides that access with senior developers mentoring you. If you want to speak personally to see if this is the right fit, just text us."
+        },
+        {
+          "speaker": "Host",
+          "text": "Questions about internships in WordPress and SEO: we have freelancing programs and internships that provide sandbox experience, but not specific training programs. The academy costs around $7,000 with job offer guarantees and internships, but we also offer lower-cost options without guarantees."
+        },
+        {
+          "speaker": "Host",
+          "text": "Financial aid options like FAFSA are not typically available, but employer financing and other options exist. Money is often used as an excuse when fear is the real barrier. If you want this, you will find a way."
+        },
+        {
+          "speaker": "Host",
+          "text": "Thank you all for joining tonight and showing up for yourself. Becoming an elite software developer is a transformation and a mindset. You can be one too. Please apply if interested, and we hope to see some of you in the upcoming cohort."
+        }
+      ]
+    }
+  ],
+  "processing_notes": [
+    "Removed filler words and speech disfluencies for clarity.",
+    "Corrected technical terminology and clarified ambiguous references.",
+    "Identified speakers as Host based on context; no clear Student or Other speaker turns detected.",
+    "Segmented transcript into chapters based on topic shifts and conversation flow.",
+    "Classified chapters by type according to content and interaction style.",
+    "Maintained chronological order and preserved speaker intent and tone throughout."
+  ]
+}
