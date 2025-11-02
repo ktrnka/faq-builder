@@ -41,7 +41,7 @@ Ubuntu doesn't come with wifi drivers for the Broadcom BCM4360 chip. So I ordere
 
 When installing Ubuntu I made sure to select additional drivers, which I think enabled the restricted package source. Some guides say you need to add that explicitly but I didn't need to.
 
-Then: `sudo apt install broadcom-sta-dkms` (Guides suggested an older package name that didn't exist anymore "bcmwl-kernel-source")
+Then: `sudo apt install broadcom-sta-dkms` (Guides suggested an older package name that didn't exist anymore `bcmwl-kernel-source`)
 
 Then I rebooted and it just worked!
 
@@ -58,9 +58,9 @@ Sources:
 - [link](https://andreafortuna.org/2024/08/24/from-faceless-to-facetime-installing-webcam-drivers-on-a-debian-powered-macbook-air)
 - [link](https://gist.github.com/johnjeffers/3006011ec7767a4101cdd118e8d64290)
 
-# Issue: Red light shined through the audio jack
+# Issue: Red light from the audio jack
 
-Sometimes I'd have a red light shining through the audio jack.
+Sometimes a red light would shine through the audio jack.
 
 > That red light shining through your MacBook’s headphone jack is the optical digital audio (TOSLINK / S/PDIF) output, which shares the same jack as the analog output on older Mac models like the 2014 MacBook Pro. When the light turns on, it means the hardware has switched the port into optical mode.
 
