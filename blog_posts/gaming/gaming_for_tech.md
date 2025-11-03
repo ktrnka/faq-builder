@@ -87,20 +87,33 @@ TODO
 
 # Tooling
 
-* “Unreal feels like Android Studio—powerful, less polished.”
-* “Perforce is like git+DVC—but less polished in day-to-day ergonomics.”
+At S6 I spent some time learning Unreal Engine. Initially I was learning by fixing bugs to gain experience for UI polish and features. In that brief time, it felt very similar to mobile development in Android Studio because you're spending a lot of time in a platform-specific IDE with tons of tools and settings. The UI editors felt analagous too.
 
-# Dogfooding
+The biggest point of difference is that UE allows people to edit the game world, defining levels and assets. It even provides a flowchart-based programming language called blueprints. And it's all designed with more customization in mind. In Android, they don't want you modifying the core system. But with Unreal you have the option.
 
-* “Swype was easy to dogfood; everyone typed daily. Palia needed synchronized play windows. At 98point6, builders weren’t doctors.”
+Version control in gaming felt pretty rough (Perforce). In tech most people use git, and it's pretty clear that git alone can't meet the needs of gaming because 1) large binary files need to be versioned and 2) it needs to work for a wide range of employees. While I'm on the subject of version control, let me mention that blueprints didn't have a textual form so you had to screenshot the diffs when submitting your changes for review.
 
-* “Fifty colleagues won’t surface what 500k players will.”
+# Internal use aka Dogfooding
 
-* Table: *Dogfoodability* across Keyboard App / Healthcare / MMO (what you learn vs what you miss).
+Dogfooding is an interesting topic across products and companies:
 
-* At 98point6 the software engineers weren’t doctors so we could only test the doctor experience so well. It also wasn’t a fun experience so people wouldn’t dogfood so much.  
-* Dogfooding was pervasive at Swype where people would just load the newest build on their phones and use it daily. However, that dogfooding was biased towards English testing on top-end devices.  
-* Dogfooding at S6 needed to be coordinated because many aspects of the game needed multiple people to test it. That dogfooding was generally biased towards top-end devices and good network conditions.
+At Swype, developers were used to loading builds on their phones so we used dev builds all the time. Many other around the company loaded builds on their phones as well. And because we were using our phones so much, we could quickly find out if a new build was an improvement. But that's with the caveat that most of that dogfooding happened in English not other languages. So we sometimes had more bugs in other languages. 
+
+At 98point6, it was tougher to dogfood because we had both software for patients and software for doctors. A virtual healthcare visit required both sides of the software. We'd sometimes do informal tests, but exploratory dogfooding was more reserved for dedicated times when we had multiple people available and had an area of the product we wanted to focus on. Even still, we weren't doctors so our dogfooding of the clinical software wasn't as useful as our dogfooding of the patient software.
+
+At Singularity 6, dogfooding (aka playtesting) needed to be coordinated because it was a multiplayer online game. So we had scheduled weekly playtests for the whole company. Sometimes those playtests had particular themes like a new event, and other times they were less structured.
+
+
+
+COMMON THEMES
+- Professionals tend to have high-end devices with good internet, and that's often unrealistic
+- Dogfooding is effective BUT has limitations for underrepresented groups (e.g., non-English, advanced users)
+- Ease of dogfooding has a major effect on bug discovery, etc
+
+Ease of dogfooding:
+- S6: The best was internal Steam builds. The worst was when we got last-minute builds that took an hour to download, or had to download a specific version and override the connection strings to a specific server
+- 98point6: The best was when we could use dev or staging. The worst was trying a test on a branch
+- Swype: It was pretty easy to test Android builds, but much harder to test iOS builds
 
 # FTUE
 
