@@ -1,20 +1,20 @@
 # Context
 
-I have an old Macbook Pro (2014, Intel-based). The hardware is still in good condition, but Apple stopped providing OS X updates. Then Chrome stopped updating for the OS version. Then Docker stopped updating for it. I even ran had incompatibility with a Python module (DuckDB) which stopped supporting it.
+I have an old MacBook Pro (Retina, 13-inch, Mid 2014, Intel CPU). The hardware is still in good condition but Apple stopped providing OS X updates. Then eventually Chrome stopped updating for the OS version. Then Docker stopped updating for it. 
+I even had incompatibility with a Python module (DuckDB) which stopped supporting it.
 
-Ubuntu has given the machine new life! I can use it for both casual web use as well as software development. I haven't gone and wiped the OS X partition because I don't need the space but eventually I will.
+This post is about the steps I took to install Ubuntu on it, which has given the machine new life. It's slightly improved my casual web experience and massively improved my software development experience.
 
 The install and setup was not always straightforward and some of the guides were outdated so I wanted to write it all down for anyone else trying this.
 
 # Freeing up space
-Freeing up space took extra effort. Apparently a while back, an OS X update created an entire new partition and I either didn't realize or forgot. That was the biggest amount of space to free up. Perplexity was helpful to guide me through it.
+I used Perplexity to help guide me through the diagnostic process in freeing up space, and to create a safe plan to test what was safe to delete. The biggest discovery was a whole partition from an old OS X update that I could delete.
 
 # Trying and installing Ubuntu
-The system is very picky about the USB drive. What worked:
+The Mac is very picky about the USB drive. What worked:
 - Formatting as MS‑DOS (FAT) with GUID Partition Map in Disk Utility (other formats run on my other computer were not recognized) [link](https://discourse.ubuntu.com/t/create-a-bootable-usb-stick-on-macos/14016)
 - dd to flash the iso (steps below)
 - Boot with Option held down and choose EFI Boot.
-
 
 I followed [these steps](https://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/) to flash the ISO.
 ```
@@ -32,27 +32,25 @@ sync
 /usr/sbin/diskutil eject /dev/diskN
 ```
 
-The steps above were maybe the 4th attempt. On previous attempts, either the USB wasn't listed in the boot menu or else it was listed but booting from it would just hang.
-
-Also note that there were some light visual glitches when booted from USB but those issues didn't persist after installing it to disk.
+The steps above were maybe the 4th attempt. In previous attempts, either the USB wasn't listed in the boot menu or else it was listed but booting from it would just hang on a black screen.
 
 # Installing wifi drivers (Broadcom BCM4360)
-Ubuntu doesn't come with wifi drivers for the Broadcom BCM4360 chip. So I ordered a cheap USB Ethernet adapter and used it to test Ubuntu when booted from USB and then later I used it again to install wifi chip drivers.
+Ubuntu doesn't come with wifi drivers for the Broadcom BCM4360 chip. So I ordered a cheap USB Ethernet adapter and used it to test Ubuntu then install wifi chip drivers.
 
-When installing Ubuntu I made sure to select additional drivers, which I think enabled the restricted package source. Some guides say you need to add that explicitly but I didn't need to.
+When installing Ubuntu I made sure to select additional drivers, which I think enabled the restricted package source containing the following drivers.
 
-Then: `sudo apt install broadcom-sta-dkms` (Guides suggested an older package name that didn't exist anymore `bcmwl-kernel-source`)
+Then: `sudo apt install broadcom-sta-dkms` (Guides suggested an older package name that didn't exist anymore: `bcmwl-kernel-source`)
 
-Then I rebooted and it just worked!
+Then I rebooted and wifi worked!
 
 # Installing webcam drivers (Broadcom FaceTime HD / 1570)
-The guides were good about this and it worked smoothly. The hardware names I saw were "FaceTime HD webcam" and "Broadcom 1570 PCIe".
+Even though the guides were quite old, they still worked well for the webcam.
 
-- Double-check the hardware model against the guide you're following. In my case `lspci -nn | grep -i 1570`
+- Double-check the hardware model against the guide you're following. In my case `lspci -nn | grep 1570`
 - Install prerequisites: `sudo apt install linux-headers-generic build-essential git curl cpio xz-utils`
 - Install firmware: `git clone https://github.com/patjak/facetimehd-firmware.git && cd facetimehd-firmware && make && sudo make install`
 - Install driver: `git clone https://github.com/patjak/bcwc_pcie.git && cd bcwc_pcie && make && sudo make install && sudo depmod`
-- Load the driver: `sudo modprobe facetimehd` and verify in a one-person video call
+- Load the driver: `sudo modprobe facetimehd` and I verified it in Google Meet in Chrome
 
 Sources:
 - [link](https://andreafortuna.org/2024/08/24/from-faceless-to-facetime-installing-webcam-drivers-on-a-debian-powered-macbook-air)
@@ -60,13 +58,11 @@ Sources:
 
 # Issue: Red light from the audio jack
 
-Sometimes a red light would shine through the audio jack.
-
-> That red light shining through your MacBook’s headphone jack is the optical digital audio (TOSLINK / S/PDIF) output, which shares the same jack as the analog output on older Mac models like the 2014 MacBook Pro. When the light turns on, it means the hardware has switched the port into optical mode.
+Sometimes a red light would shine through the audio jack. To quote Perplexity, "That red light shining through your MacBook’s headphone jack is the optical digital audio (TOSLINK / S/PDIF) output, which shares the same jack as the analog output on older Mac models like the 2014 MacBook Pro. When the light turns on, it means the hardware has switched the port into optical mode."
 
 Steps to resolve:
 - Run `alsamixer`
-- Press F6 to pick your sound card, navigate to S/PDIF, IEC958, or Digital Output channels, then press M to mute.
+- Press F6 to pick the sound card, navigate to S/PDIF, IEC958, or Digital Output channels, then press M to mute.
 - Run `sudo alsactl store`
 
 I haven't had problems since.
@@ -74,28 +70,34 @@ I haven't had problems since.
 # Improving battery life
 Short version: TLP works well without additional customization. My other efforts were not successful.
 
-Initially I wanted low-effort monitoring in the top bar. That led me to PowerTracker.
-- Setup Gnome extensions and install PowerTracker [link](https://www.ubuntumint.com/powertracker-ubuntu-battery-life-monitor/)
-- Manually edit `~/.local/share/gnome-shell/extensions/marcs14@gmail.com/metadata.json` to allow it in Gnome 49, then relogin. This isn't normally needed, but the extension hadn't been updated when I installed Ubuntu 25.10 with Gnome 49
-
-After baselining for a few days I installed TLP, which is a common all-in-one package to optimize battery life. I've found that battery life while sleeping seems better, and it's a little better during normal usage (compared to balanced power mode all the time). I haven't actually noticed any major trends in PowerTracker, so that may have been a poor choice for monitoring. 
+## TLP
+TLP is a popular all-in-one package to optimize battery life and it doesn't require customization.
 
 ```
 sudo apt install tlp
 sudo tlp start
 ```
 
+'ve found that battery life while sleeping seems better, and it's a little better during normal usage (compared to balanced power mode all the time).
+
+## Failed effort: Low-effort wattage monitoring
+Initially I wanted low-effort monitoring in the top bar. That led me to PowerTracker.
+- Setup Gnome extensions and install PowerTracker [link](https://www.ubuntumint.com/powertracker-ubuntu-battery-life-monitor/)
+- Manually edit `~/.local/share/gnome-shell/extensions/marcs14@gmail.com/metadata.json` to allow it in Gnome 49, then relogin. This isn't normally needed, but the extension hasn't been updated for Gnome 49 yet
+
+I used the machine for about a week on `balanced` power mode before installing TLP. Then after I installed TLP I also kept an eye on it. I wasn't able to notice major trends through PowerTracker like I'd hoped, even though the battery seemed to last longer. If I could do it again, I'd try a widget that smooths out the power usage more.
+
 ## Failed effort: Hardware video acceleration
-This hardware has Intel Iris 5100 and can do hardware acceleration of h264 video.
+This hardware has the Intel Iris 5100 chip and can do hardware acceleration of h264 video.
 
-I spent some time trying to get hardware video acceleration working for Youtube but I wasn't able to improve battery life that way.
-- Didn't get it working in Chrome (using the deb package)
-- Got it working in Firefox/Flatpak BUT when I benchmarked it against Chrome, the battery usage was similar.
+Initially I tried getting hardware video acceleration working in Chrome with the deb package but I wasn't able to get Chrome to use it. When I gave up, I had the feeling that it was possible but would take more time than I was willing to put in.
 
-If you're looking for steps, I think this is what worked:
+I pivoted and I was able to get it working in Firefox using the Flatpak package, but when I benchmarked Firefox with hardware video acceleration against Chrome without, the battery usage was similar. The description below is what I did to get it working in Firefox in case it helps others.
+
+Installing the driver:
 `sudo apt install vainfo libva-intel-driver`
 
-Then I could confirm that it saw the i965 chip with `vainfo`:
+Then I could confirm that it saw i965 with `vainfo`:
 
     libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
     libva info: Found init function __vaDriverInit_1_22
@@ -119,14 +121,14 @@ flatpak install flathub org.freedesktop.Platform.VAAPI.Intel//VERSION
 
 If you don't specify the version, you can pick it from a list.
 
-And because my hardware only accelerates h264, I installed h264ify to force Youtube to use H264 streams rather than VP9/AV1 (because only h264 is supported by i965).
+And because my hardware only accelerates h264, I installed h264ify to force Youtube to use h264 streams rather than VP9/AV1 (because only h264 is supported by this chip).
 
 Older online guides said I'd need to edit Firefox settings but that's no longer needed.
 
 intel-gpu-top is useful for confirming that it's working. To install:
 `sudo apt install intel-gpu-tools`
 
-Then run the top ocmmand while playing a video and confirm that there's non-zero usage in the Video row:
+Then run the top command while playing a video and confirm that there's non-zero usage in the Video row:
 `sudo intel_gpu_top`
 
 ## Failed effort: Battery health saver
@@ -135,7 +137,7 @@ TLP has some pointers on how to set this up with Apple silicon (M chips) but not
 # Failed effort: Wake speed
 On OS X, my Macbook would wake from sleep in about 1 second. On Ubuntu, it takes maybe 10 seconds.
 
-I can see the options in here:
+I can see the options here:
 ```
 > cat /sys/power/mem_sleep
 s2idle [deep]
@@ -144,6 +146,9 @@ s2idle [deep]
 Then changed it to s2idle:
 ```echo s2idle | sudo tee /sys/power/mem_sleep```
 
-Sadly that drainged the battery overnight, so I'll just live with the slower waking.
+Sadly that drainged the battery overnight, so I'll just live with the slower waking for now.
 
 
+---
+
+If you're trying to get a few extra years out of this old hardware, I hope this helps! 
