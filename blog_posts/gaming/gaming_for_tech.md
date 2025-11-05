@@ -23,7 +23,7 @@ Out of scope:
 
 # Crunch mode and Chaos
 
-The gaming industry has a reputation for crunch mode: If a team is behind schedule and headed towards a deadline, the team may work much longer hours to try and meet their goals. I was generous in phrasing it as a democratic team choice when it can often come from pressure from higher ups.
+The gaming industry has a reputation for crunch mode: If a team is behind schedule and headed towards a deadline, the team may work longer hours to try and meet their goals. I might've been overly generous in the phasing... In many companies it happens by mandate from leadership. Some amount of crunch happens by pressure from leadership. And other crunch is opt-in, often by passionate developers.
 
 My impression from S6 is that and the Doublefine documentaries is that:
 1. It's popular to say "we don't crunch": In essence, the older generation of devs that are now leaders are saying "never again" to the bad experiences they had
@@ -38,21 +38,23 @@ I'll start with my answer then the explanation:
 - Some chaos is unavoidable
 - Crunching is one response to chaos
 
-Let me give a few examples of avoidable chaos first:
-- There's too much work for the team to do in the scheduled time
+Let me give a few examples of avoidable chaos first, picking real examples that should be familiar to folks in tech:
+- The work plan is unrealistic for the time frame at the moment it's made
+- Someone interprets a Slack message or offhand comment from leadership as a command
 - The game will support PC and Nintendo Switch, but the design requirements of Switch are not taken into account during initial development
 - The game is designed to not be latency-sensitive, but a latency-sensitive feature is added
 
-I tried to pick examples that would be relatable to folks in the tech industry. We're very familiar with having too much work for the scheduled time, and that can often be mitigated without working people harder.
+I picked examples that were mostly communication issues. In many of these cases, there wasn't enough communication or there was miscommunication. Another common theme is a refusal to prioritize, which is usually a combination of communication problems along with issues in leadership.
 
-TO ADD
-- weak prioritization, ‘DM-driven decision making,’ or managers learning on the job
+Let me also give a few examples of unavoidable chaos. I'll start with one that's familiar in the tech industry: The team is working and runs into a surprise that needs to be addressed. That could be something as simple as learning that the plan will take much longer than expected, requiring adjustments to the schedule or plan. Or it could be much more fundamental. After an initial launch, it's common to face many surprises. Maybe you have more users than expected, or the users are different than you expected. An example from Palia was that we had many more players in Europe than expected so we adjusted priorities.
 
-The example of requirements is something that's knowable (or perhaps even known by some) but not known by the right people. In many cases it can be mitigated by product research and better communication, though not always. 
+Another example from gaming is when initially creating gameplay, having an idea and finding that it's not that fun. The same happens in tech when we build a new product or feature only to find minimal engagement. In gaming we'd talk about "finding the fun" and in tech we talk about finding "product-market fit". That's the closest analogy I have, but I'd say that the gaming challenge is harder. Tech products often solve a known user need and there are many useful processes in how to optimize known user needs. In contrast, there isn't really a recipe for fun. 
 
-The third example is another that could be mitigated by better communication. In some cases, it can be mitigated by org structure to encourage the right communication.
 
-Let me also give a few examples of unavoidable chaos:
+
+
+
+A more complex example 
 - The game is more global than expected after launch, causing major changes in priorities
 - The game isn't fun
 
