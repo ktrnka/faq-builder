@@ -48,32 +48,11 @@ I picked examples that were mostly communication issues. In many of these cases,
 
 Let me also give a few examples of unavoidable chaos. I'll start with one that's familiar in the tech industry: The team is working and runs into a surprise that needs to be addressed. That could be something as simple as learning that the plan will take much longer than expected, requiring adjustments to the schedule or plan. Or it could be much more fundamental. After an initial launch, it's common to face many surprises. Maybe you have more users than expected, or the users are different than you expected. An example from Palia was that we had many more players in Europe than expected so we adjusted priorities.
 
-Another example from gaming is when initially creating gameplay, having an idea and finding that it's not that fun. The same happens in tech when we build a new product or feature only to find minimal engagement. In gaming we'd talk about "finding the fun" and in tech we talk about finding "product-market fit". That's the closest analogy I have, but I'd say that the gaming challenge is harder. Tech products often solve a known user need and there are many useful processes in how to optimize known user needs. In contrast, there isn't really a recipe for fun. 
+Another example from gaming is when initially creating gameplay only to find that it's not that fun. The same happens in tech when we build a new product or feature only to find minimal engagement. In gaming we'd talk about "finding the fun" and in tech we talk about finding "product-market fit". It's a bit different because in the tech industry we're often solving a user need and there are many processes for translating user needs into potential solutions. In gaming, we sometimes have user needs but it's often a more basic need for entertainment. There are some processes to deliver consistent entertainment, but keep in mind that the same gameplay repeated over and over will often lose its entertainment value.
 
+I want to highlight this because game development typically spends more time pre-fun than tech startups spend pre-PMF.
 
-
-
-
-A more complex example 
-- The game is more global than expected after launch, causing major changes in priorities
-- The game isn't fun
-
-The first example is common in the tech industry. We've all been surprised in some way when launching software, whether more engagement than expected, less engagement, a different kind of engagement, and so on.
-
-The second example is imilar to tech but a little less similar. It's common for early-stage startups to have a product that nobody loves. We'd call that lacking product-market fit, which is a way of saying "hey maybe the product isn't total crap, maybe you just haven't found the right user yet".
-
-In both gaming and tech, once you have something engaging you can refine it. You can interview and survey users to understand what's working and what's not. You can A/B test your ideas for improvements to see if they're effective. There are many, many ways to improve something once you have that foothold.
-
-But game development spends more of the development cycle pre-fun. There's an idea but it's not yet engaging. 
-
-## TODO
-- This needs a lot more writing and clarity
-- * **“Some of that chaos is unavoidable… it’s part of building a creative work for entertainment.”**
-- * Contrast *search* (finding fun) vs *optimize* (SaaS). Show two mini-stories: one where ambiguity produced a great feature; one where avoidable chaos cost a week.
-* “The ‘fun’ (timed events) caused the scaling challenge. That’s innovation tax.”
-- Because switching costs are so low in gaming, your game has to be really special to do well. That leads to a tendency to innovate and create something new. And that pushes up against the boundaries of what's easy to implement.
-- Because there tends to be more chaos in gaming, people adapt and overcome. It's pretty inspiring to see the grit that people bring to problem solving
-- Search for literature on "finding the fun"
+In the context of unavoidable chaos, "finding the fun" can take an unknown amount of time and can take much longer than expected, eating into the budget to make the game polished and reliable.
 
 ## Takeaways
 - The chaos and crunch mode in gaming can be lessened in well-run companies, but there's always going to be some of it
@@ -83,25 +62,6 @@ But game development spends more of the development cycle pre-fun. There's an id
 ## See also
 - Psychodessey
 - EA spouse
-
-
-# Tooling
-
-At S6 I spent some time learning Unreal Engine. Initially I was learning by fixing bugs to gain experience for UI polish and features. In that brief time, it felt very similar to mobile development in Android Studio because you're spending a lot of time in a platform-specific IDE with tons of tools and settings. The UI editors felt analagous too.
-
-The biggest point of difference is that UE allows people to edit the game world, defining levels and assets. It even provides a flowchart-based programming language called blueprints. And it's all designed with more customization in mind. In Android, they don't want you modifying the core system. But with Unreal you have the option.
-
-Version control in gaming felt pretty rough (Perforce). In tech most people use git, and it's pretty clear that git alone can't meet the needs of gaming because 1) large binary files need to be versioned and 2) it needs to work for a wide range of employees. While I'm on the subject of version control, let me mention that blueprints didn't have a textual form so you had to screenshot the diffs when submitting your changes for review.
-
-## Takeaways:
-- Game development doesn't use git for good reasons
-- I wish UE blueprints were more designed with peer review and version control in mind
-
-## See also:
-- The software of Palia
-
-## TODO
-- Search for a good compare / contrast article
 
 # Internal use aka Dogfooding
 
@@ -185,24 +145,6 @@ It's even tougher than I've described:
 - B2B/SaaS companies tend to provide a lot of stability for the team, much more than I ever appreciated
 - B2B/SaaS companies in my experience don't need to compete as much on quality. It's much more affected by sales and business relationships
 
-# FTUE
-
-- Because switching costs are low, you have a very short amount of time to hook a player on your game. The same can be true of direct-to-consumer apps, and even in some cases B2B2C apps
-
-
-When someone uses your app 
-
-* “Onboarding in most apps is straightforward. Games are different—you’re teaching a new grammar.”
-
-* “Tutorial popups are forgettable; quests that *force* you to learn are sticky.”
-
-* “The best FTUE is invisible: you feel like you’re playing, not reading a manual.”
-
-## Takeaways
-- The core challenges are similar: Users don't want to read a lot, and want to use your app or play your game ASAP
-- Because games have to be fresh and interesting, there's more of a tendency to NEED explanation
-- In my opinion, many apps have moved towards a "show don't tell" approach to user training
-
 # Operations
 
 I found it interesting to compare and contrast the operations of 98point6 (24/7 healthcare) to Palia (24/7 gaming). 
@@ -259,3 +201,11 @@ I came to think of it differently over the years, seeing it as:
 - Consider alpha/beta testing
 - Terminology: Studio, producer, game designer
 - Timeline
+
+# Honorable mentions
+
+I found these differences interesting, but don't have much to say about them. I'm only briefly mentioning them to provide some areas that might be worth searching for:
+
+- Developing in Unreal felt a lot like developing in Android Studio in terms of many aspects of the IDEs. I just wish that blueprints had a text version to diff in version control like Android layout files.
+- Perforce was frustrating in many ways, but we couldn't "just use git" due to lots of large binary files. That felt familiar to my experiences in versioning ML models.
+- The onboarding experience in gaming is often called FTUE (first-time user experience). There's a significant amount of effort put into that because games often have complex rules and mechanics to explain.
