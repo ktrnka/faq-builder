@@ -64,25 +64,23 @@ In both gaming and tech, once you have something engaging you can refine it. You
 
 But game development spends more of the development cycle pre-fun. There's an idea but it's not yet engaging. 
 
-TODO
+## TODO
 - This needs a lot more writing and clarity
 - * **“Some of that chaos is unavoidable… it’s part of building a creative work for entertainment.”**
 - * Contrast *search* (finding fun) vs *optimize* (SaaS). Show two mini-stories: one where ambiguity produced a great feature; one where avoidable chaos cost a week.
 * “The ‘fun’ (timed events) caused the scaling challenge. That’s innovation tax.”
+- Because switching costs are so low in gaming, your game has to be really special to do well. That leads to a tendency to innovate and create something new. And that pushes up against the boundaries of what's easy to implement.
+- Because there tends to be more chaos in gaming, people adapt and overcome. It's pretty inspiring to see the grit that people bring to problem solving
+- Search for literature on "finding the fun"
 
+## Takeaways
+- The chaos and crunch mode in gaming can be lessened in well-run companies, but there's always going to be some of it
+- There are some similarities to the uncertainty in creating new products, with the key difference that there's no recipe for fun
+- Fun is relative to everything else. Playing Tetris for the first time is fun for many people. Playing your 10th Tetris clone is less fun.
 
-
-
-
-
-
-
-
-
-
-
-
-
+## See also
+- Psychodessey
+- EA spouse
 
 
 # Tooling
@@ -92,6 +90,16 @@ At S6 I spent some time learning Unreal Engine. Initially I was learning by fixi
 The biggest point of difference is that UE allows people to edit the game world, defining levels and assets. It even provides a flowchart-based programming language called blueprints. And it's all designed with more customization in mind. In Android, they don't want you modifying the core system. But with Unreal you have the option.
 
 Version control in gaming felt pretty rough (Perforce). In tech most people use git, and it's pretty clear that git alone can't meet the needs of gaming because 1) large binary files need to be versioned and 2) it needs to work for a wide range of employees. While I'm on the subject of version control, let me mention that blueprints didn't have a textual form so you had to screenshot the diffs when submitting your changes for review.
+
+## Takeaways:
+- Game development doesn't use git for good reasons
+- I wish UE blueprints were more designed with peer review and version control in mind
+
+## See also:
+- The software of Palia
+
+## TODO
+- Search for a good compare / contrast article
 
 # Internal use aka Dogfooding
 
@@ -103,19 +111,84 @@ At 98point6, it was tougher to dogfood because we had both software for patients
 
 At Singularity 6, dogfooding (aka playtesting) needed to be coordinated because it was a multiplayer online game. So we had scheduled weekly playtests for the whole company. Sometimes those playtests had particular themes like a new event, and other times they were less structured.
 
-
-
 COMMON THEMES
 - Professionals tend to have high-end devices with good internet, and that's often unrealistic
 - Dogfooding is effective BUT has limitations for underrepresented groups (e.g., non-English, advanced users)
 - Ease of dogfooding has a major effect on bug discovery, etc
 
 Ease of dogfooding:
-- S6: The best was internal Steam builds. The worst was when we got last-minute builds that took an hour to download, or had to download a specific version and override the connection strings to a specific server
+- S6: The best was internal Steam builds. The worst was when we got last-minute builds that took an hour to download, or had to download a specific version and override the connection strings to a specific server. Switch was much tougher to dogfood as well
 - 98point6: The best was when we could use dev or staging. The worst was trying a test on a branch
 - Swype: It was pretty easy to test Android builds, but much harder to test iOS builds
 
+## Takeaways and opinions
+- Dogfooding is a valuable process in building high quality software, but it has limitations to work around
+- Ease of dogfooding has a major effect on bug discovery, etc
+
+# Distribution
+
+These days, games distribution can feel similar to software distribution. Selling a game on Steam is comparable to publishing an Android app on Google Play. The analogy goes pretty deep: Both platforms take a 30% cut of revenue on their platform, have some minimal requirements about what you can publish, and provide some software libraries or services. In both cases you need to optimize your app for the store to make it more visible.
+
+Publishing an app on the iOS App Store is a bit more burdensome due to their manual review process. That can be a good thing for quality and consistency, but the review process can also be inconsistent. We had some frustrating times at 98point6 when a bug fix was blocked because the App Store reviewer was flagging something from a prior version. That introduced delays and degraded the user's experience.
+
+In the gaming world, it's a bit like publishing games for Ninendo Switch. They have a certification process similar in spirit to the iOS process, but it's slower and more involved. I've even heard that the iOS process (including the 30% cut and certification) was inspired by Nintendo's process (CITATION NEEDED). Where the iOS process could take a day or two, the Nintendo process could take several days to a week. 
+
+To give some examples of requirements for a platform like Nintendo:
+- Any online chat in the game must be integrated correctly with the Switch's parental controls
+- Switch controllers must be referred to as joycons
+- ADD ONE MORE
+
+## TODO
+The certification cadence of the publisher ends up pushing your development cadence, and that's common outside of gaming as well. When there are longer certification steps, it's too much work to do frequent updates. So it pushes organization to slower, larger updates. That can add extra development overhead because while one version is going through certification, development must continue to start the next version. By the time certification gets back to you, you may not fully remember the previous version. So there's just more to manage.
+
+In contrast, self-publishing applications via the web comes with no such requirements. If you have a bug fix or performance improvement, you can release it right away.
+
+I wanted to bring up this topic because I find that the nuance is often lost in engineering conversations. There's often an oversimplied perspective that changes should be deployed continuously. (TODO: Mention DORA)
+
+Back to the topic of distribution, multi-platform distribution is very similar to non-gaming software:
+- You're juggling the competing requirements of each platform and trying to minimize platform-specific work, while recognizing that the importance of some platform-specific work
+- You're trying to design a release cadence to balance the constraints of all platforms
+- Backend APIs allow you more flexibility in release cadence, but they require extra care to update without client updates
+
+## Takeaways
+- Distribution heavily influences release process optimization including the cadence of releases
+- Discussion of "what goes in the client vs backend" should really consider release cadence more than it does
+
+Things I prefer from mobile app distribution
+- The requirements are usually more clear, and most of them are publicly available
+- The certification process is pretty fast
+
+Things I prefer from gaming distribution
+- Steam provides from dope APIs, and you're allowed to use them on any platform so long as you publish on Steam
+
+Things I wish were changed
+- I wish cert requirements were all public
+- I wish all publishers explained the intention of the requirements
+
+
+# Business stuff
+
+If someone doesn't like your game, they can easily find something better to do with their time. For one, they can easily find another game to try. The switching cost is nearly zero. If you have a free-to-play game, there's even less switching cost.
+
+The closest comparison from the rest of my career was the Swype direct-to-consumer app. People could buy Swype on Google Play for a couple of dollars (which honestly was a tough sell for many on Android). At the time we launched, there weren't that many high quality third party keyboards on Google Play. Depending on your language, it may have even been the only third-party option at the time. Over the years it became more competitive but only a little.
+
+It's even tougher than I've described:
+- You might plan your game launch only to be eclipsed by a hit game launching around the same time
+- You're not just competing against new releases but also competing against decades of amazing games
+- You're not just competing against the same type of game, but many types of games
+- You're not just competing against games but other forms of entertainment for some people
+
+## Takeaways
+- I have a lot more respect now for developers that succeed financially
+- B2B/SaaS companies tend to provide a lot of stability for the team, much more than I ever appreciated
+- B2B/SaaS companies in my experience don't need to compete as much on quality. It's much more affected by sales and business relationships
+
 # FTUE
+
+- Because switching costs are low, you have a very short amount of time to hook a player on your game. The same can be true of direct-to-consumer apps, and even in some cases B2B2C apps
+
+
+When someone uses your app 
 
 * “Onboarding in most apps is straightforward. Games are different—you’re teaching a new grammar.”
 
@@ -123,52 +196,64 @@ Ease of dogfooding:
 
 * “The best FTUE is invisible: you feel like you’re playing, not reading a manual.”
 
-Similar to tech:
-- Our onboarding at 98point6
-
-Different than tech:
-- There's often more to teach in gaming, because you often need to create a novel experience
-
-
-# Distribution
-
-* “Steam felt comparable to iOS/Android publishing. Nintendo/Xbox/Sony felt very different.”
-* “Console launches bring reach but introduce certification rhythms and constraints.”  
-  * *I’d love to write a bit about my stance on how deployment cadence determines the optimal amount of upfront planning vs iteration*
-* Supposedly Apple’s app store was inspired by Nintendo (the percentage cut as well as the certification process). Otherwise pretty similar. Each platform has their own SDKs and APIs that you need to support. Each has their own cert process and requirements. Each takes a percentage cut of revenue.  
-* Getting each update recertified drives your release cadence. If it takes a week for them to review an update, you can’t effectively pipeline weekly releases. So that pushes back the schedule. But then it’s tough so say 2 weeks of development on version 12 then 1 week of internal QA then 1 week of partner cert before launch. The dev team needs to move on to working on version 13 but by the time issues are raised in version 12 you might’ve forgotten about that implementation or not even have that code anymore.  
-* Cross-platform is a similar challenge to the tech scene. Each platform has different requirements and you’re trying to minimize the amount of platform-specific work you do, but that’s not entirely possible.  
-* Things like DORA metrics in tech are a bit limiting here.. You really can’t ship daily  
-* Semi-decoupled backend APIs though, which added some risk
-
-# Business stuff
-
-* “There are thousands of good games; switching costs are near zero.”
-* “A major genre-adjacent release can eclipse your update overnight.”
-* Even more extreme than DTC. Say at Swype with DTC we had to work hard to earn a dollar or two. But there wasn’t as much competition. Gaming has tons of alternatives, and we’re competing for even less per player
+## Takeaways
+- The core challenges are similar: Users don't want to read a lot, and want to use your app or play your game ASAP
+- Because games have to be fresh and interesting, there's more of a tendency to NEED explanation
+- In my opinion, many apps have moved towards a "show don't tell" approach to user training
 
 # Operations
 
-* “Healthcare chases 99.95% uptime; our game had planned downtime. That’s not negligence—it’s the cadence.”
-* “Unreal forced client+server lockstep; old clients couldn’t hit new servers.”
-* The deliberate scheduled deployment was something I took to heart in the tech world after seeing it in MMOs. Although I didn’t do scheduled deployments, we did deployment windows to ensure that we minimized risk (low CCU) and minimized reaction time (during work hours, not on Fridays)  
-* When it’s handled well, in gaming players know when deployments happen and plan accordingly. They didn’t expect to log in on Tuesday at 10am so they generally aren’t mad about the game being down then. In contrast, unscheduled outages were much more disruptive. And similarly, if the downtime took much longer than expected players would be frustrated by that. For some of them, that day might be the only day they have free time and they were looking forward to relaxing but couldn’t. It’s important to see it from their view. Providing timely status updates helps a bit with that, though some issues really need to be prevented via better quality software practices (whether fewer manual steps, things that fail safely, more testing, etc)
-* “Monthly trains felt normal in games; in healthcare we aimed for near-continuous delivery.”
-* “Bigger windows tempt last-minute crams; you need guardrails.”
+I found it interesting to compare and contrast the operations of 98point6 (24/7 healthcare) to Palia (24/7 gaming). 
 
-# Feedback
+At 98point6 we emphasized reliability and scrutinized our service availability. Some years we delivered 99.9%, others closer to 99%. For reference, 99.9% availability means about 9 hours of downtime per year whether planned or unplanned. That's just one or two bad outages per year.
 
-* “At 98point6 we were starved for unsolicited feedback; in games we were drowning in it.”
-* “Fixes remove complaints; they rarely generate praise.”
-* “Some devs disengaged after being dogpiled; training helped. CMs are shock absorbers.”
-* “Bandwagon effects are real; narratives harden in public.”
-* At S6  
-  * When we first opened access in Aug 2023, we immediately had more video of gameplay on Twitch than we could ever hope to review. If we’d been able to review it all maybe we could’ve had repro steps for thousands of bugs but it was just impossible  
-  * Discord/Reddit tons of people engaged. Each source of feedback had its own bias  
-  * There was enough culture around dev interactions that we had to do training for it  
+In online gaming it's common to have scheduled downtime. That's a time when the parts of the game may be updated, servers may be restarted, and so on. When things went really well, maybe that would only take 1-2 hours per week (~99% uptime). Coming from healthcare initially I scoffed a bit at the downtime but our tech stack didn't allow much choice but to bring the game down to update all servers and clients at the same time. I'm sure we could've done better in our deployments, whether through more testing, use of feature flags, etc.
+
+It's interesting to think about the difference in scale too: At 98point6 we wanted 99.9% uptime for about 100-1,000 daily active users. At Singularity 6 I wanted 99% update for about 100,000 daily active users. (The numbers are only meant to convey the concept not as references)
+
+My perspective changed over time, seeing that it was really about the expectations of your users. Our players expected Tuesday morning downtime and planned accordingly. It didn't bother most people. What bothered players was unexpected downtime and unexpected instability. So when the 2 hour downtime turned into 4 hours or 6 hours we'd take a lot of heat from players. For those outside of gaming that might sound surprising, after all it's a game right? I found it helpful to remember some of the situations our players had. Some of them were working long hours and only had one day a week they could relax in game. So for them if our outage cut into their weekly time that's a big deal.
+
+## Takeaways
+- Scheduled downtime isn't so bad, so long as it's very clear to all your users
+- Gaming fills an important role in some people's lives so downtime can be very disruptive
+
+## TODO
+- I wonder if this also leads to the tendency to "just reboot the servers" in gaming
+
+# User feedback
+
+First let me just mention the type and scale of feedback across former employers, and I'll only mention user feedback not B2B customer feedback:
+* At Swype and Nuance
+  * Feedback on Swype forums but overly focused on English  
+  * Much more feedback once we had a direct-to-consumer offering on app stores, but rarely actionable
+  * Infrequent public reviews
 * At 98point6  
-  * Very little specific feedback, mostly a star rating and a couple sentences at best.  
-  * One time someone thanked me in person because our doctors might’ve saved their life.  
-* At Swype  
-  * Scattered feedback on forums but overly focused on English  
-  * Had more volume of feedback once we were on app stores but with less depth
+  * Some feedback on app stores, but it was rarely actionable
+  * Some feedback in surveys which was more actionable
+  * One time someone thanked me in person because our doctors might’ve saved their life
+  * Some in-person feedback from doctors, who were also employees
+* At S6
+  * When we first opened access in Aug 2023, we immediately had more video of gameplay on Twitch than we could ever hope to review. If we’d been able to review it all maybe we could’ve had repro steps for thousands of bugs but it was just impossible
+  * Drowning in feedback on Discord and Reddit. Discord was biased to be overly positive and Reddit was biased to be overly negative. Both were biased towards English feedback.
+  * Once we launched on Steam, we were drowning in feedback from Steam reviews. Steam reviews also enabled more feedback outside of English.
+  * There was enough culture around developer interactions that we had training for it.
+  * Lots of feedback in surveys
+
+I'm sometimes perplexed by the difference in feedback between 98point6 and Singularity 6. At 98point6 we saved our patients hours of frustration with the medical system and sometimes even saved their lives, yet the feedback was sparse. At Singularity 6 we provided entertainment and we were often drowning in complaints. At times I wondered: Are people more passionate about entertainment than life itself?
+
+I came to think of it differently over the years, seeing it as:
+- Feedback is dominated by the most passionate people. With a larger user base, you have more passionate people.
+- I wonder if the passion is somewhat proporitional to the time investment. Someone might play Palia for 100 hours per year in constrast to using 98point6 for 30 minutes per year.
+- In some ways feedback is relative to expectations. With healthcare, you're expected to save lives so it may not seem special even if it's valuable.
+
+## TODO
+- Approach the explanation as hypothesis testing: WHY are people so passionate
+- Negative feedback at 98point6 was mostly some version of "I wanted antibiotics and the doctor didn't give them to me" in cases that were not bacterial
+
+## See also
+- Google UXR on positive vs negative experiences 1:3
+
+# TO CONSIDER / TODO
+- Consider alpha/beta testing
+- Terminology: Studio, producer, game designer
+- Timeline
