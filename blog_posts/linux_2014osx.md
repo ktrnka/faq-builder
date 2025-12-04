@@ -1,11 +1,9 @@
 # Context
 
-I have an old MacBook Pro (Retina, 13-inch, Mid 2014, Intel CPU). The hardware is still in good condition but Apple stopped providing OS X updates. Then eventually Chrome stopped updating for the OS version. Then Docker stopped updating for it. 
+I have an old MacBook Pro (Retina, 13-inch, Mid 2014, Intel CPU). The hardware is still in good condition but Apple stopped providing OS X updates. Then eventually Chrome stopped providing updates for the OS version. Then Docker stopped providing updates for it. 
 I even had incompatibility with a Python module (DuckDB) which stopped supporting it.
 
-This post is about the steps I took to install Ubuntu on it, which has given the machine new life. It's slightly improved my casual web experience and massively improved my software development experience.
-
-The install and setup was not always straightforward and some of the guides were outdated so I wanted to write it all down for anyone else trying this.
+This post documents the steps I took to install Ubuntu on it, which has given the machine new life. It's slightly improved my casual web experience and massively improved my software development experience. The install and setup was not always straightforward and some of the guides were outdated so I wanted to write it all down for anyone else trying this.
 
 # Freeing up space
 I used Perplexity to help guide me through the diagnostic process in freeing up space, and to create a safe plan to test what was safe to delete. The biggest discovery was a whole partition from an old OS X update that I could delete.
@@ -52,6 +50,8 @@ Even though the guides were quite old, they still worked well for the webcam.
 - Install driver: `git clone https://github.com/patjak/bcwc_pcie.git && cd bcwc_pcie && make && sudo make install && sudo depmod`
 - Load the driver: `sudo modprobe facetimehd` and I verified it in Google Meet in Chrome
 
+Note that kernel updates will cause Ubuntu to lose the webcam and you'll need to do this again. I tried looking into [a DKMS package for it](https://gbatemp.net/threads/debian-ubuntu-facetimehd-webcam-driver.584652/), but the link no longer works.
+
 Sources:
 - [link](https://andreafortuna.org/2024/08/24/from-faceless-to-facetime-installing-webcam-drivers-on-a-debian-powered-macbook-air)
 - [link](https://gist.github.com/johnjeffers/3006011ec7767a4101cdd118e8d64290)
@@ -78,7 +78,10 @@ sudo apt install tlp
 sudo tlp start
 ```
 
-'ve found that battery life while sleeping seems better, and it's a little better during normal usage (compared to balanced power mode all the time).
+I've found that battery life while sleeping seems better, and it's a little better during normal usage (compared to balanced power mode all the time).
+
+## Special note about Spotify
+If you use Spotify even via the deb package, be sure to minimize it. I found that the laptop was drawing 30-45W with Spotify playing in the background when not visible but not minimized, and only around 10W when minimized. This appears to be a common issue [1](https://community.spotify.com/t5/Desktop-Linux/High-CPU-usage-on-desktop-client/td-p/5264603), [2](https://github.com/flathub/com.spotify.Client/issues/223), [3](https://forum.garudalinux.org/t/spotify-high-gpu-usage/45648).
 
 ## Failed effort: Low-effort wattage monitoring
 Initially I wanted low-effort monitoring in the top bar. That led me to PowerTracker.
@@ -86,6 +89,8 @@ Initially I wanted low-effort monitoring in the top bar. That led me to PowerTra
 - Manually edit `~/.local/share/gnome-shell/extensions/marcs14@gmail.com/metadata.json` to allow it in Gnome 49, then relogin. This isn't normally needed, but the extension hasn't been updated for Gnome 49 yet
 
 I used the machine for about a week on `balanced` power mode before installing TLP. Then after I installed TLP I also kept an eye on it. I wasn't able to notice major trends through PowerTracker like I'd hoped, even though the battery seemed to last longer. If I could do it again, I'd try a widget that smooths out the power usage more.
+
+That said, it did help me discover the Spotify issue.
 
 ## Failed effort: Hardware video acceleration
 This hardware has the Intel Iris 5100 chip and can do hardware acceleration of h264 video.
