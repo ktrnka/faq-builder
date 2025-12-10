@@ -168,11 +168,6 @@ I came to think of it differently over the years, seeing it as:
 ## See also
 - Google UXR on positive vs negative experiences 1:3
 
-# TO CONSIDER / TODO
-- Consider alpha/beta testing
-- Terminology: Studio, producer, game designer
-- Timeline
-
 # Honorable mentions
 
 I found these differences interesting, but don't have much to say about them. I'm only briefly mentioning them to provide some areas that might be worth searching for:
@@ -180,6 +175,12 @@ I found these differences interesting, but don't have much to say about them. I'
 - Developing in Unreal felt a lot like developing in Android Studio in terms of many aspects of the IDEs. I just wish that blueprints had a text version to diff in version control like Android layout files. It was frustrating to ask for review of a bunch of screenshots, especially for Blueprints that were large.
 - Perforce was frustrating in many ways, but we couldn't "just use git" due to lots of large binary files. That was familiar to my experiences in versioning ML models.
 - The onboarding experience in gaming is often called FTUE (first-time user experience). There's a significant amount of effort put into that because games often have complex rules and mechanics to explain. Players aren't going to read manuals much so you need to incrementally teach them the rules in ways that are fun.
+- There are some terminology differences, like studio = company, producer is something like a project manager, game designer is something like a product manager
+
+I found these topics interesting as well, and although I have opinions I tried to withold them due to lack of experience:
+- Gaming is often about delivering novelty and that tends to push development into novel technology (which is often less reliable)
+- A/B testing and user studies mostly help to optimize something, not to find your starting point with new software development
+- The release cadence affects the expected value of testing
 
 # See also
 
